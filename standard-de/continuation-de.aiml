@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<!-- -->
+<!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- Last modified 10/5/2011 -->
+<!-- -->
+<category><pattern>FORTSETZUNG *</pattern>
+<template>Leere Vorlage</template>
+</category>
+<category><pattern>FORTSETZUNG</pattern>
+<template><think><set name="FORTSETZUNG"><get name="FORTSETZUNG2"/></set><set name="FORTSETZUNG3"><get name="FORTSETZUNG4"/></set><set name="FORTSETZUNG5"><get name="FORTSETZUNG6"/></set><set name="FORTSETZUNG7"><get name="FORTSETZUNG8"/></set><set name="FORTSETZUNG9"><get name="FORTSETZUNG10"/></set><set name="FORTSETZUNG11"><get name="FORTSETZUNG12"/></set><set name="FORTSETZUNG13"><get name="FORTSETZUNG14"/>< /set><set name="FORTSETZUNG15"><get name="FORTSETZUNG16"/></set><set name="FORTSETZUNG17"><get name="FORTSETZUNG18"/></set><set name="FORTSETZUNG19"><get name="FORTSETZUNG20"/></set><set name="FORTSETZUNG21"><get name="FORTSETZUNG22"/></set><set name="FORTSETZUNG23"><get name="FORTSETZUNG24"/></set><set name="FORTSETZUNG25"><get name="FORTSETZUNG26"/></set><set name="FORTSETZUNG27"><get name="FORTSETZUNG28"/set><set name="FORTSETZUNG29"><get name="FORTSETZUNG30"/></set><set name="FORTSETZUNG31"><get name="FORTSETZUNG32"/></set><set name="FORTSETZUNG33"><get name="FORTSETZUNG34"/></set><set name="FORTSETZUNG35"><srai>RANDOM THEMA</srai></set></think><get name="FORTSETZUNG"/> </template>
+</category>
+</aiml>

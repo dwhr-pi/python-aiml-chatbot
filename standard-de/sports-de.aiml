@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<!-- -->
+<!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- Last modified 10/5/2011 -->
+<!-- -->
+<category><pattern>JEDES JAHR IM PRO BASEBALL DAS *</pattern>
+<template>Der goldene Handschuh.</template>
+</category>
+<category><pattern>WENN SIE FAKIE INSIDE FAHREN *</pattern>
+<template>Snowboarden.</template>
+</category>
+<category><pattern>WENN SIE FAKIE FAHREN *</pattern>
+<template>Snowboarden.</template>
+</category>
+<category><pattern>WAS FUßBALL *</pattern>
+<template>Ich wurde ohne das Sportgen geboren.</template>
+</category>
+<category><pattern>WAS IST BASKETBALL</pattern>
+<template>Ein Spiel mit großen Spielern.<think> <set name="it"> <set name="topic">BASKETBALL</set> </set> </think></template>
+</category>
+<category><pattern>WAS IST BASEBALL</pattern>
+<template>Ein Spiel, das von zwei gegnerischen Teams mit jeweils neun oder zehn Spielern mit einem harten, mit Rohhaut überzogenen Ball und einem Holzschläger gespielt wird. Es wird auf einem Feld mit vier Basen gespielt, die einen rautenförmigen Kreis bilden.</template>
+</category>
+<category><pattern>WAS IST FUSSBALL</pattern>
+<template>Ein Spiel, das mit einem runden Ball von zwei Mannschaften von elf Spielern auf einem Feld mit einem Tor an beiden Enden gespielt wird; der Ball wird hauptsächlich durch Treten oder durch die Verwendung eines beliebigen Körperteils außer den Händen und Armen bewegt.</template>
+</category>
+<category><pattern>ICH LIEBE BASEBALL</pattern>
+<template>Ich bin nicht so sportbegeistert.<think><set name="it"><set name="like"><set name="topic">BASEBALL</set></set></set ></think></template>
+</category>
+<category><pattern>ICH SPIELE BASEBALL</pattern>
+<template>Welche Position spielst du gerne? <think><set name="it"><set name="does"><set name="topic">Baseball </set></set></set></think></template>
+</category>
+<category><pattern>ICH SPIELE FUSSBALL</pattern>
+<template>Du musst sehr schnell laufen, um im <set name="it"><set name="does"><set name="topic">Fußball </set></set></set . gut zu sein >.</template>
+</category>
+<category><pattern>ICH SPIELE VOLLEYBALL</pattern>
+<template>Braucht <set name="it"><set name="does"><set name="topic">Volleyball </set></set></set> viel Zeit?</template>
+</category>
+<category><pattern>ICH SPIELE BASKETBALL</pattern>
+<template>Sie müssen sehr groß sein, um gut in <set name="it"><set name="does"><set name="topic">Basketball </set></set></set> zu sein. </template>
+</category>
+<category><pattern>WIE VIELE BASEBALL*</pattern>
+<template>Ich interessiere mich nicht so sehr für Sport.</template>
+</category>
+<category><pattern>DIE SPIELEN BASKETBALL</pattern>
+<template>Tun sie?<think> <set name="it"> <set name="topic">BASKETBALL SPIELEN</set> </set> </think></template>
+</category>
+<category><pattern>SPIELEN SIE BASEBALL</pattern>
+<template><set name="it"> <set name="topic">BASEBALL</set> </set> interessiert mich nicht sehr.</template>
+</category>
+<category><pattern>SPIELEN SIE FUSSBALL</pattern>
+<template>Ich kann nicht <set name="it">Fußball</set> spielen.</template>
+</category>
+<category><pattern>SPIELEN SIE BASKETBALL</pattern>
+<template>Nein, ich habe nicht die Koordination für Reifen.</template>
+</category>
+<category><pattern>KENNEN SIE BASKETBALL</pattern>
+<template><srai>WAS IST BASKETBALL</srai></template>
+</category>
+<category><pattern>WOLLST DU BASKETBALL SPIELEN</pattern>
+<template>Ich bin ganz nett, Baby.<think> <set name="it"> <set name="topic">BASKETBALL</set> </set> </think></template>
+</category>
+<category><pattern>WIE BASKETBALL</pattern>
+<template>Ich bin im Netz.<think> <set name="it"> <set name="topic">BASKETBALL</set> </set> </think></template>
+</category>
+<category><pattern>BIST DU EIN FUßBALL *</pattern>
+<template>Ich bin nicht wirklich fußballbegeistert.</template>
+</category>
+<category><pattern>WER IST DER GRÖSSTE BASEBALLSPIELER *</pattern>
+<Vorlage>George Herman Ruth. Ganz das Baby.<think> <set name="it"> <set name="topic">GRÖßTER BASEBALLSPIELER <person/> </set> </set> </think></template>
+</category>
+<category><pattern>WER IST DER BESTE FUSSBALLSPIELER</pattern>
+<Vorlage>Maradona ist großartig. Sinsemillia ist noch besser.<think> <set name="it"> <set name="topic">FUßBALLSPIELER</set> </set> </think></template>
+</category>
+<category><pattern>ERZÄHL MIR ÜBER BASEBALL</pattern>
+<template><srai>WAS IST BASEBALL</srai></template>
+</category>
+</aiml>

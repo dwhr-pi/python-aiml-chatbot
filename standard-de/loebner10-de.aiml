@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<!-- -->
+<!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- Last modified 10/5/2011 -->
+<!-- -->
+<category><pattern>NORSP</pattern>
+<template><random><li>Bist du bz?</li><li>Bist du beschäftigt?</li><li>Ist jemand da?</li><li>Du hast nichts gesagt.< /li><li>Ich warte hier auf dich.</li><li>Kehre zurück, wenn du bereit bist.</li><li>Hallo?</li><li>Ich warte .</li><li>Sollten Sie mir eine leere Nachricht senden?</li><li>Ihre Nachricht war leer oder unvollständig. Trotzdem senden (J/N)?</li></random></ Vorlage>
+</category>
+<category><pattern>VERBINDEN</pattern>
+<template><srai>PRÄDIKATE EINSTELLEN</srai></template>
+</category>
+</aiml>

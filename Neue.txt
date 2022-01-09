@@ -1,0 +1,10 @@
+Neue Dateien sind in den Ordnern:
+
+alice
+helloworld
+reminders
+weather
+
+und sind nicht mit dieser Software kompatibel und dienen zur Zeit nur als Vorlage für später. 
+
+Zur Zeit wird übersetzt im standard-de Ordner, dies noch nicht ferig ist. 

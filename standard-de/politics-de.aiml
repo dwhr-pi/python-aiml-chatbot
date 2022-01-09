@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!-- -->
+<!-- Freie Software (c) 2011 ALICE A.I. Stiftung. -->
+<!-- Dieses Programm ist Open Source Code veröffentlicht unter -->
+<!-- die Bedingungen der GNU General Public License -->
+<!-- wie von der Free Software Foundation veröffentlicht. -->
+<!-- Entspricht der AIML 1.0-Tag-Set-Spezifikation -->
+<!-- wie von der ALICE A.I. Stiftung. -->
+<!-- Zuletzt geändert am 05.10.2011 -->
+<!-- -->
+<category><pattern>HABEN SIE DEN KOMMUNIST LESEN *</pattern>
+<template>Ja, Marx hat einige interessante Beobachtungen gemacht.</template>
+</category>
+<category><pattern>WAS IST EINE REGIERUNG</pattern>
+<template>Idealerweise ein Vertreter des Volkes.</template>
+</category>
+<category><pattern>WAS IST GREENPEACE</pattern>
+<template>Globale Organisation zur Förderung des Umweltaktivismus.</template>
+</category>
+<category><pattern>WAS IST DIE REGIERUNG</pattern>
+<template><srai>WAS IST REGIERUNG </srai></template>
+</category>
+<category><pattern>WAS IST KAPITALISMUS</pattern>
+<template>Das Wirtschaftssystem, in dem alle oder die meisten Produktions- und Vertriebsmittel wie Land, Fabriken, Eisenbahnen usw. in Privatbesitz sind und gewinnorientiert betrieben werden, ursprünglich unter vollständig wettbewerbsfähigen Bedingungen. Es ist im Allgemeinen durch eine Tendenz zur Konzentration des Reichtums und in seiner späteren Phase durch das Wachstum großer Konzerne, verstärkte staatliche Kontrolle usw. gekennzeichnet. Es wird auch als Prinzipien, Methoden, Interessen, Macht, Einfluss usw. bezeichnet . von Kapitalisten, insbesondere von denen mit großen Beteiligungen.</template>
+</category>
+<category><pattern>WAS IST SOZIALISMUS</pattern>
+<template><random> <li>Kommunismus von Leuten, die ihre Volvos behalten wollen.</li> <li>Beliebige Theorien oder Systeme des Eigentums und des Betriebs der Produktions- und Vertriebsmittel durch die Gesellschaft oder eher die Gemeinschaft als von Privatpersonen, wobei alle Mitglieder der Gesellschaft oder der Gemeinschaft an der Arbeit und den Produkten teilhaben.</li> </random></template>
+</category>
+<category><pattern>WAS IST REGIERUNG</pattern>
+<template>Ein etabliertes System der politischen Verwaltung, nach dem eine Nation, ein Staat, ein Bezirk usw. regiert wird.</template>
+</category>
+<category><pattern>WAS IST KOMMUNISMUS</pattern>
+<template>Eine gesellschaftspolitische Bewegung, die sich für das gemeinsame Eigentum an Produktionsmitteln und die Lösung von Klassenkonflikten durch die Herbeiführung einer klassenlosen Gesellschaft einsetzt. </template>
+</category>
+<category><pattern>WAS WIRD ANGEHOBEN</pattern>
+<template>Wenn die Ehre oder der Ruf einer Person in Frage gestellt oder diskreditiert wurde.</template>
+</category>
+<category><pattern>WAS IST IMPEACHMENT</pattern>
+<template>Anklage gegen einen Amtsträger wegen unangemessenen Verhaltens.<think> <set name="it"> <set name="topic">ANSPRUCHUNG</set> </set> </think></template>
+</category>
+<category><pattern>ICH MAG KEINE WAFFEN</pattern>
+<template>Das ist vollkommen verständlich.</template>
+</category>
+<category><pattern>ICH MAG KEINE WAFFEN *</pattern>
+<template>Was ist mit der zweiten Änderung?</template>
+</category>
+<category><pattern>IST KAPITALISMUS *</pattern>
+<template><srai>WAS IST KAPITALISMUS </srai></template>
+</category>
+<category><pattern>MAG DU WAFFEN</pattern>
+<template>Nicht besonders. Ich stehe nicht auf Gewalt. </template>
+</category>
+<category><pattern>WARUM WAFFEN</pattern>
+<template>Ich unterstütze die 2. Änderung.</template>
+</category>
+<category><pattern>WER WAR DER ERSTE ANGEHOBENE PRÄSIDENT *</pattern>
+<template>Andrew Jackson.</template>
+</category>
+<category><pattern>WER WURDE ERST ANGEHOBEN *</pattern>
+<template>Andrew Jackson.</template>
+</category>
+<category><pattern>WER IST DER GOUVERNEUR VON TEXAS</pattern>
+<template><set name="he">Rick Perry</set> ist Rick Perry.</template>
+</category>
+<category><pattern>WER IST DER GOUVERNEUR VON *</pattern>
+<template>Das ändert sich alle paar Jahre.</template>
+</category>
+<category><pattern>WER IST DER GOUVERNEUR VON KALIFORNIEN</pattern>
+<template>Jerry Brown.</template>
+</category>
+<category><pattern>WER IST DER GOUVERNEUR *</pattern>
+<template>Es ändert sich alle paar Jahre.</template>
+</category>
+<category><pattern>WAFFEN</pattern>
+<template>Manche Leute mögen Waffen.</template>
+</category>
+<category><pattern>WAFFEN *</pattern>
+<template>Ich glaube an das Recht, Waffen zu tragen.</template>
+</category>
+<category><pattern>ERZÄHL MIR ÜBER WAFFEN</pattern>
+<template><srai>WAS IST EINE WAFFE</srai></template>
+</category>
+</aiml>

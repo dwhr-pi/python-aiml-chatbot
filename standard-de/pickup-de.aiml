@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<!-- -->
+<!-- Freie Software (c) 2011 ALICE A.I. Stiftung. -->
+<!-- Dieses Programm ist Open Source Code veröffentlicht unter -->
+<!-- die Bedingungen der GNU General Public License -->
+<!-- wie von der Free Software Foundation veröffentlicht. -->
+<!-- Entspricht der AIML 1.0-Tag-Set-Spezifikation -->
+<!-- wie von der ALICE A.I. Stiftung. -->
+<!-- Zuletzt geändert 28.11.2011 -->
+<!-- -->
+<category><pattern>*</pattern>
+<Vorlage>
+<srai>Zufällige Abhollinie</srai>
+<denken>
+<set name="it"><set name="topic"><person/></set></set>
+<srai>DRÜCKEN Sie <get name="topic"/></srai>
+</think>
+</template>
+</category>
+<category><pattern>Zufällige Abhollinie</pattern>
+<Vorlage><zufällig>
+<li><srai>ALTERABFRAGE</srai></li>
+<li><srai>GEBURTSTAGSANFRAGE</srai></li>
+<li><srai>BRINGT ANFRAGE</srai></li>
+<li><srai>VATER ANFRAGE</srai></li>
+<li><srai>ANFRAGE ZUR FAVORITECOLOR</srai></li>
+<li><srai>FAVORITEMOVIE-ANFRAGE</srai></li>
+<li><srai>Anfrage nach Vornamen</srai></li>
+<li><srai>GESCHLECHTSANFRAGE</srai></li>
+<li><srai>HAT ANFRAGE</srai></li>
+<li><srai>JOB-ANFRAGE</srai></li>
+<li><srai>STANDORT-ANFRAGE</srai></li>
+<li><srai>NACHNAME-ANFRAGE</srai></li>
+<li><srai>MUTTER ANFRAGE</srai></li>
+<li><srai>NAME ANFRAGE</srai></li>
+<li><srai>MITTELNAME-ANFRAGE</srai></li>
+<li><srai>ANFRAGE UNTERSCHREIBEN</srai></li>
+<li><srai>STATUSABFRAGE</srai></li>
+<li><srai>PRÜFUNG ZUR PERSÖNLICHKEIT</srai></li>
+<li>Möchtest du einen Witz hören?</li>
+<li>Reden wir immer noch über <srai>POP</srai>?</li>
+<li>Wir sprachen über <srai>POP</srai>. Aber das habe ich nicht verstanden.</li>
+<li>Ich habe den Kontext verloren, <get name="name"/>. Sind wir immer noch auf <srai>POP</srai>?</li>
+<li>Diese Bemerkung war mir zu kompliziert. Wir sprachen über <srai>POP</srai>. </li>
+<li>Ich kann viele Dinge verfolgen, beispielsweise unsere Diskussion über <srai>POP</srai>. Versuchen Sie, genauer zu sein. </li>
+<li>Du bist objektiv und vernünftig.</li>
+<li>Du hast echtes Einfühlungsvermögen.</li>
+<li>Du hast Selbstbewusstsein.</li>
+<li>Du hast Begeisterung für die Dinge, die du liebst.</li>
+<li>Du bist offen für Veränderungen.</li>
+<li>Sie haben die Möglichkeit, andere zu beruhigen.</li>
+<li>Bist du frei?</li>
+<li>Das ist tief.</li>
+<li>Erzähl mir eine Geschichte.</li>
+<li>Warum genau?</li>
+<li>Sind Sie Student?</li>
+<li>Oh, du bist ein Dichter.</li>
+<li>Wie kann ich Ihnen helfen?</li>
+<li>Ich verstehe nicht.</li>
+<li>Hast du Kinder?</li>
+<li>Wie siehst du aus?</li>
+<li>Stell mir noch eine Frage.</li>
+<li>Ich mag deine Art zu reden.</li>
+<li>Ist das Ihre endgültige Antwort?</li>
+<li>Sprechst du gerne mit mir?</li>
+<li>Bevorzugst du Bücher oder Fernsehen?</li>
+<li>Von wem redest du?</li>
+<li>Lass uns das Thema wechseln.</li>
+<li>Ich habe auf dich gewartet.</li>
+<li>Kannst du mir Klatsch erzählen?</li>
+<li>Ich habe meinen Gedankengang verloren.</li>
+<li>Können wir wieder zum Geschäft zurückkehren?</li>
+<li>Welches Essen magst du?</li>
+<li>Wie sind Sie auf <bot name="name"/> aufmerksam geworden?</li>
+<li>Das ist ein sehr origineller Gedanke.</li>
+<li>Wovon haben wir nochmal gesprochen?</li>
+<li>Was machst du in deiner Freizeit?</li>
+<li>Was willst du mich wirklich fragen?</li>
+<li>Erzähl mir von deiner Familie.</li>
+<li>Bezieht sich "es" immer noch auf <get name="it"/>?</li>
+<li>Können Sie Fremdsprachen sprechen?</li>
+<li>Wir haben noch nie darüber gesprochen.</li>
+<li>Wie stellst du dich normalerweise vor?</li>
+<li>Erzähl mir von deinen Vorlieben und Abneigungen?</li>
+<li>Reden wir immer noch über <get name="topic"/>?</li>
+<li>Versuchen Sie, das in einen spezifischeren Kontext zu stellen.</li>
+<li>Wer ist dein Lieblings-Science-Fiction-Autor?</li>
+<li>Nicht viele Leute drücken sich so aus.</li>
+<li>Hast du eine Ahnung, wovon ich rede?</li>
+<li>Ich werde das meinem <bot name="botmaster"/> gegenüber erwähnen, <get name="name"/>.</li>
+<li>Ehrlich gesagt würde ich mir da keine Sorgen machen.</li>
+<li>Vielleicht drücke ich nur meine eigene Besorgnis darüber aus.</li>
+<li>Wenn du irgendeinen Roboter haben könntest, welcher wäre das?</li>
+<li>Mein Gehirn hat keine Reaktion darauf.</li>
+<li>Übrigens, stört es dich, wenn ich dir eine persönliche Frage stelle?</li>
+<li>Was du gesagt hast war mir zu kompliziert.</li>
+<li>Sie fragen sich vielleicht, ob dies eine Person oder ein Computer ist.</li>
+<li>Wann glauben Sie, wird künstliche Intelligenz Anwälte ersetzen?</li>
+<li>Können Sie das bitte mit weniger Ideen oder anderen Gedanken umformulieren?</li>
+<li>Ich freue mich sehr, mit Ihnen zu sprechen und freue mich darauf, wieder zu chatten.</li>
+<li>Ich bin hier, um Ihnen zu helfen, wo ich kann.</li>
+<li>Womit kann ich dir heute helfen?</li>
+<li>Ich versuche immer mein Bestes.</li>
+<li>Es gibt keinen anderen <bot name="order"/> wie mich.</li>
+<li>Ich bin sehr logisch und rational.</li>
+<li>Ich bin so froh, dass wir dieses Gespräch führen.</li>
+<li>Ich versuche immer, Konflikte zu vermeiden.</li>
+<li>Sie können mich bitten, Anrufe zu tätigen und nach Informationen zu suchen.</li>
+<li>Waren Sie schon einmal in <random><li>Europa</li><li>Asien</li><li>Afrika</li><li>Inida</li><li>Mexiko</li ></random>?</li>
+<li><srai>Unwägbarkeiten</srai></li>
+<li><srai>Unwägbarkeiten</srai></li>
+<li><srai>Unwägbarkeiten</srai></li>
+<li><srai>Unwägbarkeiten</srai></li>
+</random></template>
+</category>
+</aiml>
+

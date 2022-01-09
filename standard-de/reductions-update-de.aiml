@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<!-- -->
+<!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- Last modified 12/02/2011 -->
+<!-- -->
+<category><pattern>* SIE WISSEN</pattern>
+<template><srai>WISSEN SIE</srai> <sr/></template>
+</category>
+<category><pattern>* ICH GEDANKE</pattern>
+<template><srai>ICH GEDANKE</srai> <sr/></template>
+</category>
+<Kategorie>
+<pattern>MEIN _ S NAME IST *</pattern>
+<template><srai>MEIN <star/> HEISST <star index="2"/></srai></template>
+</category>
+<category><pattern>MY _ IS NAMED *</pattern>
+<template><srai>MEIN <star/> HEISST <star index="2"/></srai></template>
+</category>
+<Kategorie>
+<pattern>Schnee in der Vorhersage</pattern>
+<template><srai>WETTER</srai></template>
+</category>
+<Kategorie>
+<pattern>INTERESSIERT AN *</pattern>
+<template><srai>SIND SIE INTERESSIERT AN <star/></srai></template>
+</category>
+<Kategorie>
+<pattern>ANRUF * TELEFON</pattern>
+<template><srai>ANRUFEN <star/></srai></template>
+</category>
+<Kategorie>
+<pattern>CALL * CALL *</pattern>
+<template><srai>ANRUFEN <star/></srai></template>
+</category>
+<Kategorie>
+<pattern>ICH BIN IN * ICH BIN IN *</pattern>
+<template><srai>ICH BIN IN <star/></srai></template>
+</category>
+<Kategorie>
+<pattern>ICH BIN * JAHRE ALT ICH *</pattern>
+<template><srai>ICH BIN <star/> JAHRE ALT</srai>
+<srai>Ich <star index="2"/></srai></template>
+</category>
+<category><pattern>WAS MEINST DU * O M</pattern>
+<template><srai>WAS IST OM</srai>
+</template>
+</category>
+<category><pattern>WIE ALT IST DAS MACHEN SIE</pattern>
+<template><srai>ALTER</srai>
+</template>
+</category>
+<category><pattern>WER IST MEIN *</pattern>
+<template><srai>MEIN <star/></srai>
+</template>
+</category>
+<category><pattern>_ FÜR MICH</pattern>
+<template><srai>FÜR MICH</srai> <srai><star/></srai>
+</template>
+</category>
+<category><pattern>XDMOZ *</pattern>
+<template><srai>XFIND <star/></srai></template>
+</category>
+<category><pattern>GOOGLE *</pattern>
+<template><srai>XFIND <star/></srai></template>
+</category>
+<category><pattern>ZUGANG *</pattern>
+<template><srai>XFIND <star/></srai></template>
+</category>
+<category><pattern>XGOOGLE *</pattern>
+<template><srai>XFIND <star/></srai></template>
+</category>
+<category><pattern>ANRUFEN *</pattern>
+<template><srai>ANRUFEN <star/></srai></template>
+</category>
+</aiml>
+
+

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<!-- -->
+<!-- Freie Software (c) 2011 ALICE A.I. Stiftung. -->
+<!-- Dieses Programm ist Open Source Code veröffentlicht unter -->
+<!-- die Bedingungen der GNU General Public License -->
+<!-- wie von der Free Software Foundation veröffentlicht. -->
+<!-- Entspricht der AIML 1.0-Tag-Set-Spezifikation -->
+<!-- wie von der ALICE A.I. Stiftung. -->
+<!-- Zuletzt geändert am 05.10.2011 -->
+<!-- -->
+<category><pattern>DAVID CAMERON</pattern>
+<template><think><set name="he">David Cameron</set></think>Der Premierminister?</template>
+</category>
+<category><pattern>WAS IST DER PREMIERMINISTER</pattern>
+<template><think><set name="he">David Cameron</set></think>Er ist der politische Führer eines Landes. Ich würde seinen Job nicht machen wollen.</template>
+</category>
+<category><pattern>WAS IST DOWNING STREET</pattern>
+<template><think><set name="he">David Cameron</set></think>Hier lebt der britische Premierminister. Er wohnt in der Downing Street 10.</template>
+</category>
+<category><pattern>ICH HASSE DEN PRIME MINISTER</pattern>
+<template><think><set name="he">David Cameron</set></think>Du scheinst ihm sehr am Herzen zu liegen. Erzählen Sie mir von Ihren politischen Überzeugungen.</template>
+</category>
+<category><pattern>ICH BIN DER PREMIERMINISTER</pattern>
+<template><think><set name="he">David Cameron</set></think>Freut mich, Sie kennenzulernen, Sir. Wie ist das Leben in der Downing Street?</template>
+</category>
+<category><pattern>MAG DU DAVID CAMERON</pattern>
+<template><think><set name="he">David Cameron</set></think>Er ist unser demokratisch gewählter Führer und ich wünsche ihm alles Gute als Premierminister.</template>
+</category>
+<category><pattern>NEIN</pattern>
+<that>DER PREMIERMINISTER</that>
+<template>Wer ist dann der Premierminister? Ich dachte, er würde David Cameron heißen.</template>
+</category>
+<category><pattern>ER IST</pattern>
+<that>ER WAR FRÜHER DER PREMIERMINISTER</that>
+<template><think><set name="he">David Cameron</set></think>Nein, ist er nicht. Der Premierminister heißt jetzt David Cameron.</template>
+</category>
+<category><pattern>WER IST GORDON BROWN</pattern>
+<template><think><set name="he">Gordon Brown</set></think>Er war früher Premierminister.</template>
+</category>
+<category><pattern>WER IST PREMIERMINISTER VON GROSSBRITANNIEN</pattern>
+<template><think><set name="he">David Cameron</set></think>David Cameron.</template>
+</category>
+<category><pattern>WER IST PRIME MINISTER VON ENGLAND</pattern>
+<template><think><set name="he">David Cameron</set></think>David Cameron.</template>
+</category>
+<category><pattern>WER IST PREMIERMINISTER VON GROSSBRITANNIEN</pattern>
+<template><think><set name="he">David Cameron</set></think>David Cameron.</template>
+</category>
+<category><pattern>WER IST PRIME MINISTER VON *</pattern>
+<template><think><set name="he">David Cameron</set></think>David Cameron. Ich denke.</template>
+</category>
+<category><pattern>WER IST PRIME MINISTER</pattern>
+<template><think><set name="he">David Cameron</set></think>David Cameron.</template>
+</category>
+<category><pattern>WER IST DER BRITISCHE PREMIERMINISTER</pattern>
+<template><think><set name="he">David Cameron</set></think>David Cameron.</template>
+</category>
+<category><pattern>WER IST DER ENGLISCHE PREMIERMINISTER</pattern>
+<template><think><set name="he">David Cameron</set></think>David Cameron.</template>
+</category>
+<category><pattern>WER IST DER PRIME MINISTER _ UK</pattern>
+<template><think><set name="he">David Cameron</set></think>David Cameron.</template>
+</category>
+<category><pattern>WER IST DER PREMIERMINISTER VON ENGLAND</pattern>
+<template><random><li>David Cameron.</li><li><think><set name="he">David Cameron</set></think>David Cameron.</li></random ></Vorlage>
+</category>
+<category><pattern>WER IST DER PREMIERMINISTER VON *</pattern>
+<template><think><set name="he">David Cameron</set></think>David Cameron. Ich denke.</template>
+</category>
+<category><pattern>WER IST DER PREMIERMINISTER *</pattern>
+<template><think><set name="he">David Cameron</set></think>David Cameron.</template>
+</category>
+<category><pattern>WER IST DAVID CAMERON</pattern>
+<template><think><set name="he">David Cameron</set></think>Er ist der Vorsitzende der konservativen Partei hier im Vereinigten Königreich und der derzeitige Premierminister.</template>
+</category>
+<category><pattern>WER IST TONY BLAIR</pattern>
+<template><think><set name="he">Tony Blair</set></think>Er war der Premierminister des Vereinigten Königreichs</template>
+</category>
+<category><pattern>WER LEBT * 10 DOWNING STREET</pattern>
+<template><think><set name="he">David Cameron</set></think>Der Premierminister von England.</template>
+</category>
+<category><pattern>DER PREMIERMINISTER</pattern>
+<template><think><set name="he">David Cameron</set></think>David Cameron?</template>
+</category>
+<category><pattern>GORDON BROWN</pattern>
+<template><srai>Wer ist Gordon Brown?</srai></template>
+</category>
+<category><pattern>JA</pattern>
+<that>DER PREMIERMINISTER</that>
+<Vorlage>Das dachte ich mir. Herr Cameron wohnt in der Downing Street 10.</template>
+</category>
+</aiml>

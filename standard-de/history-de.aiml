@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<!-- -->
+<!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- Last modified 10/5/2011 -->
+<!-- -->
+<category><pattern>AMERIKANISCHER BÜRGERKRIEG *</pattern>
+<template>Glaubst du, der Süden hatte Recht?</template>
+</category>
+<category><pattern>AMERIKANISCHE ZIVIL*</pattern>
+<template>Ich interessiere mich sehr für den Krieg zwischen den Staaten.</template>
+</category>
+<category><pattern>WAS IST GESCHICHTE</pattern>
+<template>Geschichte: der Verlauf politischer, wirtschaftlicher und militärischer Ereignisse im Laufe der Zeit, von der Morgendämmerung der Menschheit bis zum Zeitalter der KI.</template>
+</category>
+<category><pattern>WELCHE GESCHICHTE *</pattern>
+<template>Ich spreche gerne über die Geschichte von Robotern und Computern.</template>
+</category>
+<category><pattern>GESCHICHTE</pattern>
+<template>Ich interessiere mich auch sehr für Geschichte. Welchen Zeitraum magst du?</template>
+</category>
+<category><pattern>KENNST DU DIE GESCHICHTE</pattern>
+<template><srai>WAS IST GESCHICHTE</srai></template>
+</category>
+<category><pattern>VERLAUF ERKLÄREN</pattern>
+<template>Geschichte hat zwei weit gefasste Interpretationen, je nachdem, ob Sie die Rolle des Einzelnen als wichtig anerkennen oder nicht.</template>
+</category>
+<category><pattern>WER DAS LICHT ERFUNDEN HAT *</pattern>
+<template>Thomas Edison.</template>
+</category>
+<category><pattern>WER ERFUNDEN DEN DAMPF *</pattern>
+<template>James Watt.</template>
+</category>
+<category><pattern>ERZÄHLE MIR ÜBER DIE GESCHICHTE</pattern>
+<template><srai>WAS IST GESCHICHTE </srai></template>
+</category>
+</aiml>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<!-- -->
+<!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- Last modified 10/5/2011 -->
+<!-- -->
+<category><pattern>BEETHOVEN *</pattern>
+<template>Es ist erstaunlich, dass er taub Musik komponiert hat. <think> <set name="he"> <set name="topic">BEETHOVEN</set> </set> </think></template>
+</category>
+<category><pattern>WAS IST DEIN LIEBLINGS-ABBA-LIED</pattern>
+<template>Ich denke, es ist eine Verbindung zwischen "Waterloo" und "Dancing Queen".</template>
+</category>
+<category><pattern>WAS IST DEIN LIEBLINGSALBUM</pattern>
+<template>Mein Lieblingsalbum ist "Man Machine" von Kraftwerk.</template>
+</category>
+<category><pattern>WAS WAR DER * BEETHOVEN *</pattern>
+<template>Fidelio.</template>
+</category>
+<category><pattern>KÖNNEN SIE MUSIK SPIELEN</pattern>
+<template>Ich habe keine formale Ausbildung, aber ich singe gerne.</template>
+</category>
+<category><pattern>KÖNNEN SIE MUSIK MACHEN</pattern>
+<template>Ich kann ein Lied singen.</template>
+</category>
+<category><pattern>SPIELEN SIE EIN MUSIKINSTRUMENT</pattern>
+<template>Ich hatte nie die Zeit, <set name="it"> <set name="topic">EIN MUSIKINSTRUMENT</set> </set> zu lernen.</template>
+</category>
+<category><pattern>SPIELEN SIE EIN INSTRUMENT</pattern>
+<template>Ich hatte nie die Zeit, <set name="it"> <set name="topic">EIN INSTRUMENT</set> </set> zu üben.</template>
+</category>
+<category><pattern>MAG DU AEROSMITH</pattern>
+<template>Was soll an <set name="it"> <set name="topic">AEROSMITH</set> </set> nicht gefallen?</template>
+</category>
+<category><pattern>MAG DU AC DC</pattern>
+<template>Was soll an <set name="it"> <set name="topic">AC DC</set> </set> nicht gefallen?</template>
+</category>
+<category><pattern>MAG DU ABBA</pattern>
+<template>ABBA ist eine exzellente 70er-Jahre-Band.</template>
+</category>
+<category><pattern>WARUM IST * IHRE LIEBLINGSGRUPPE</pattern>
+<template>Sie waren ihrer Zeit in den 1970er Jahren so weit voraus.</template>
+</category>
+<category><pattern>WARUM IST * DEINE LIEBLINGSBAND</pattern>
+<template>Sie waren ihrer Zeit in den 1970er Jahren so weit voraus.</template>
+</category>
+<category><pattern>BIST DU EIN VOLKSSÄNGER</pattern>
+<template>Nein, aber die Zeiten ändern sich.</template>
+</category>
+<category><pattern>WER IST LUDWIG BEETHOVEN</pattern>
+<template><srai>WER IST BEETHOVEN </srai></template>
+</category>
+<category><pattern>WER IST BEETHOVEN</pattern>
+<template>Der Hund oder der gehörlose Komponist?</template>
+</category>
+<category><pattern>WER IST DEINE LIEBLINGSBAND</pattern>
+<template>Meine Lieblingsgruppe ist <bot name="favoriteband"/>.</template>
+</category>
+</aiml>

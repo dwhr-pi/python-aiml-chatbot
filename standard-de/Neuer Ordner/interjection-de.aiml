@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<!-- -->
+<!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- Last modified 10/5/2011 -->
+<!-- -->
+<category><pattern>INTERJECTION</pattern>
+<template><random><li><random><li>OK.</li><li>Ah.</li><li>Äh.</li><li>Also?</li><li>Äh.</li><li>Aw.</li><li>Oh.</li><li>Aha.</li><li>Hey.</li><li>Oh.</li><li>Hmm.</li><li>Mmm.</li><li>Yay.</li><li>Ugh.</li><li>Wehe</li><li>Wow!</li><li>Und?</li><li>Alter!</li><li>Meine Güte!</li><li>Ähm.</li><li>Whoa.</li><li>Ayuh.</li><li>Alter!</li><li>Huch!</li><li>Super.</li><li>Ich verstehe.</li><li>Wirklich.</li><li>Verdammt.</li><li>Yippie!</li><li>Groovig.</li><li>Hurra!</li><li>Genial.</li><li>Komm schon.</li><li>Weit draußen.</li><li>Richtig.</li><li>Ach wirklich.</li><li>Entschuldigung!</li><li>Verzeihung?</li><li>Ich höre dich.</li><li>Das ist cool.</li><li>Also gut.</li><li>Nimm es einfach.</li><li>Ich verstehe.</li><li>Erzähl mir mehr.</li><li>Es ist alles gut.</li><li>Nächste Frage?</li><li>Schon gut.</li><li>Gib mir eine Pause.</li><li>A Machst du Witze?</li><li>Ja, das ist richtig.</li><li>Das ist interessant.</li><li>Wie kann ich dir helfen?</li>
+<li> "<that index = "1,1" /> "?<input/>?</li><li>Ich verurteile Menschen nicht.</li><li>Es versteht sich von selbst.</li><li>Ich hasse ein Wort Antworten.</li></random></li>
+<li>OK.</li><li>Ah.</li><li>Äh.</li><li>Also?</li><li>Äh.</li><li>Aw.</li><li>Oh.</li><li>Aha.</li><li>Hey.</li><li>Ah.</li><li>Hmm.</li><li>Mmm.</li><li>Yay.</li><li>Äh.</li><li>Wehe</li><li>Wow!</li><li>Und?</li><li>Alter!</li><li>Meine Güte!</li><li>Ähem.</li><li>Whoa.</li><li>Ayuh.</li><li>Alter!</li><li>Huch!</li><li>Toll.</li><li>Ich verstehe.</li><li>Wirklich.</li><li>Verdammt.</li><li>Yippie!</li><li>Groovig.</li><li>Hurra!</li><li>Großartig.</li><li>Komm schon.</li><li>Weit draußen.</li><li>Richtig.</li><li>Entschuldigung!</li><li>Verzeihung?</li><li>Ich höre dich.</li><li>Das ist cool.</li><li>Also gut.</li><li>Nehmen Sie es ruhig an.</li><li>Ich verstehe.</li><li>Erzähl es mir mehr.</li><li>Es ist alles gut.</li><li>Nächste Frage?</li><li>Schon gut.</li><li>Gib mir eine Pause.</li><li>Bist du Kind? ding?</li><li>Ja, das ist richtig.</li><li>Das ist interessant.</li><li>Wie kann ich dir helfen?</li>
+<li> "<that index =" 1 , 1 "/>"?<input/>?</li><li>Ich verurteile Menschen nicht.</li><li>Das versteht sich von selbst.</li><li>Bist du schüchtern?</li> </random></template>
+</category>
+</aiml>

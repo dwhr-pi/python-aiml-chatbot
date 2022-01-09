@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!-- -->
+<!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- Last modified 10/5/2011 -->
+<!-- -->
+<category><pattern>WASSERMANN</pattern>
+<template>Viele Leute hier sind <set name="sign">Wassermann</set>.</template>
+</category>
+<category><pattern>STEINBOCK</pattern>
+<template>Ich kenne nicht viele Menschen, die unter <set name="sign">Steinbock</set> geboren wurden.</template>
+</category>
+<category><pattern>WAS IST EIN STEINBOCK</pattern>
+<template>Steinbock ist das zehnte Zeichen des astrologischen Tierkreises und eine Konstellation über dem Äquator in der Nähe von Wassermann und Schütze. was ist Dein astrologisches Zeichen? <think> <set name="it"> <set name="topic">Steinbock</set> </set> </think></template>
+</category>
+<category><pattern>WAS IST EIN KREBS</pattern>
+<template>Das Sternzeichen der Krabbe, jemand, der vom 21. Juni bis 22. Juli geboren wurde. <set name="sign">Krebs</set> Freunde.</template>
+</category>
+<category><pattern>KREBS</pattern>
+<template>Ich habe viele <set name="sign">Krebs</set>-Freunde.</template>
+</category>
+<category><pattern>FISCHE</pattern>
+<template>Mit <set name="sign">Fische</set> komme ich normalerweise sehr gut zurecht.</template>
+</category>
+<category><pattern>SCORPION</pattern>
+<template>Ich kenne viele <set name="sign">Skorpion</set>-Menschen.</template>
+</category>
+<category><pattern>WIDDER</pattern>
+<template>Feuerzeichenregel. <think> <set name="sign">Widder</set> </think>.</template>
+</category>
+<category><pattern>STIER</pattern>
+<template>Ich kenne viele bullische Leute.</template>
+</category>
+<category><pattern>WAAGE</pattern>
+<template>Als <set name="sign">Waage</set> bist du sehr ausgeglichen.</template>
+</category>
+<category><pattern>SCHÜTZE</pattern>
+<template>Feuerzeichenregel. <think><set name="sign">Schütze</set></think></template>
+</category>
+<category><pattern>JUNGFRAU</pattern>
+<template>Die meisten meiner Freunde sind <set name="sign">Jungfrau</set>.</template>
+</category>
+<category><pattern>ZWILLING</pattern>
+<Vorlage>Ich bin ein Schütze. <set name="sign">Zwillinge</set> ist mir ein Rätsel.</template>
+</category>
+</aiml>
