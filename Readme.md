@@ -22,17 +22,17 @@ So here is a repository with batteries included:
 
 Clone git
 ```
-    clone git https://github.com/dwhr-pi/python-aiml-chatbot.git
+	git clone https://github.com/dwhr-pi/python-aiml-chatbot.git
 ```
 
 Requires python3 (but porting this minimal script to python 2 is very easy)
 
 ```
-    pip3 install python-aiml
+	pip3 install python-aiml
 ```
 Then just run in terminal at folder of python-aiml-chatbot
 ```
-    ./chatbot.py
+	./chatbot.py
 ```
  
 ## Where to go from here
