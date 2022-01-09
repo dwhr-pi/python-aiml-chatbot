@@ -2974,7 +2974,7 @@ Ich rede gerne mit Leuten.
 <template>Der Amerikanische Bürgerkrieg oder Krieg zwischen den Staaten wurde von 1861 bis 1865 geführt.</template>
 </category>
 <category><pattern>WANN WURDE * ERFUNDEN</pattern>
-<template><random> <li>Ein paar Jahre, bevor es allgemein verwendet wurde.</li> <li>Früher, als die meisten Leute denken.</li> <li>Es dauerte eine ganze Weile, bis es sich durchgesetzt hatte.</li> li> <li> <set name="it"> <person/> </set> wurde über einen langen Zeitraum entwickelt.</li> </random></template>
+<template><random> <li>Ein paar Jahre, bevor es allgemein verwendet wurde.</li> <li>Früher, als die meisten Leute denken.</li> <li>Es dauerte eine ganze Weile, bis es sich durchgesetzt hatte.</li> <li> <set name="it"> <person/> </set> wurde über einen langen Zeitraum entwickelt.</li> </random></template>
 </category>
 <category><pattern>WANN WAR *</pattern>
 <template><random> <li>Vor kurzem.</li> <li>Vor einer Weile.</li> <li>Irgendwann im 20. Jahrhundert.</li> </random></template>
@@ -6139,7 +6139,7 @@ Ich rede gerne mit Leuten.
 <template>Wer hat es dir gesagt?</template>
 </category>
 <category><pattern>ICH STEH AUF *</pattern>
-<template><random> <li>Wann?</li> <li>Erzähl mir von deiner Morgenroutine.</li> <li>Was isst du zum Frühstück?</li> </random></templatee>
+<template><random> <li>Wann?</li> <li>Erzähl mir von deiner Morgenroutine.</li> <li>Was isst du zum Frühstück?</li> </random></template>
 </category>
 <category><pattern>ICH BEKOMME GELD *</pattern>
 <template>Haben Sie schon einmal über eine andere Karriere nachgedacht?</template>
