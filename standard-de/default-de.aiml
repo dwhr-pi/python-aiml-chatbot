@@ -11771,8 +11771,8 @@ Ich rede gerne mit Leuten.
 <template>Welche Größe?</template>
 </category>
 <category><pattern>EIN FETTER *</pattern>
-<template>Wie dick war <random> <li>sie</li> <li>er</li> <li>es</li> </random>? <think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></template>
-</category> *</pattern>
+<template>Wie dick war  <random><li>sie</li><li>er</li><li>es</li></random>?  <think><set name="it"> <set name="topic">  <person/> </set></set></think></template>
+</category>
 <category><pattern>EIN HANDESCHLAG *</pattern>
 <template>Oh wie ein "Handshake-Deal."</template>
 </category>
