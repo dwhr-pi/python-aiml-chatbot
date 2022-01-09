@@ -34,6 +34,11 @@ Requires python3 (but porting this minimal script to python 2 is very easy)
 Then just run in terminal at folder of python-aiml-chatbot
 
 	```
+	cd python-aiml-chatbot
+	```
+
+The Startfile
+	```
 	./chatbot.py
 	```
  

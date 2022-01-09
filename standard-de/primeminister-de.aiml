@@ -88,6 +88,6 @@
 </category>
 <category><pattern>JA</pattern>
 <that>DER PREMIERMINISTER</that>
-<Vorlage>Das dachte ich mir. Herr Cameron wohnt in der Downing Street 10.</template>
+<template>Das dachte ich mir. Herr Cameron wohnt in der Downing Street 10.</template>
 </category>
 </aiml>

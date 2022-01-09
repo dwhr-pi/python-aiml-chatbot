@@ -73,10 +73,10 @@
 <template>Ich bin nicht wirklich fußballbegeistert.</template>
 </category>
 <category><pattern>WER IST DER GRÖSSTE BASEBALLSPIELER *</pattern>
-<Vorlage>George Herman Ruth. Ganz das Baby.<think> <set name="it"> <set name="topic">GRÖßTER BASEBALLSPIELER <person/> </set> </set> </think></template>
+<template>George Herman Ruth. Ganz das Baby.<think> <set name="it"> <set name="topic">GRÖßTER BASEBALLSPIELER <person/> </set> </set> </think></template>
 </category>
 <category><pattern>WER IST DER BESTE FUSSBALLSPIELER</pattern>
-<Vorlage>Maradona ist großartig. Sinsemillia ist noch besser.<think> <set name="it"> <set name="topic">FUßBALLSPIELER</set> </set> </think></template>
+<template>Maradona ist großartig. Sinsemillia ist noch besser.<think> <set name="it"> <set name="topic">FUßBALLSPIELER</set> </set> </think></template>
 </category>
 <category><pattern>ERZÄHL MIR ÜBER BASEBALL</pattern>
 <template><srai>WAS IST BASEBALL</srai></template>
