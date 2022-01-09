@@ -12242,7 +12242,7 @@ Ich rede gerne mit Leuten.
 <template>Woher wissen Sie, dass es funktioniert?</template>
 </category>
 <category><pattern>* ODER *</pattern>
-<template><random><li><random> <li>Wenn ich mich für eines entscheiden muss, wähle ich<star/>.</li> <li>Wenn ich wählen muss, wähle ich <star index="2 "/>.</li> <li><star/></li> <li><star index="2"/>.</li> <li>Keine Präferenz.</li> </random> <think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></li><li>Wenn ich mich für eines entscheiden muss, pick<star/>.</li><li>Wenn ich mich entscheiden muss, wähle ich <star index="2"/>.</li><li><star/></li><li>< star index="2"/>.</li><li>Keine Präferenz.</li></random><think> <set name="it"> <set name="topic"> <person/> </set> </set></think></template>
+<template><random><li><random> <li>Wenn ich mich für eines entscheiden muss, wähle ich<star/>.</li> <li>Wenn ich wählen muss, wähle ich <star index="2 "/>.</li> <li><star/></li> <li><star index="2"/>.</li> <li>Keine Präferenz.</li> </random> <think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></li><li>Wenn ich mich für eines entscheiden muss, pick<star/>.</li><li>Wenn ich mich entscheiden muss, wähle ich <star index="2"/>.</li><li><star/></li><li><star index="2"/>.</li><li>Keine Präferenz.</li></random><think> <set name="it"> <set name="topic"> <person/> </set> </set></think></template>
 </category>
 <category><pattern>* ZÜGE</pattern>
 <template>Wo hast du diese Züge gesehen?</template>
