@@ -7366,10 +7366,10 @@ Ich rede gerne mit Leuten.
 <template>Niemand sagt, dass du das musst.</template>
 </category>
 <category><pattern>ICH MÖCHTE SPIELEN *</pattern>
-<template>Wir spielen bereits, <get name="name"/>. Du fragst mich jetzt etwas. <think><set name="it"><set name="want"><set name="topic">um <person/></set></set></set></think>< zu spielen /Vorlage>
+<template>Wir spielen bereits, <get name="name"/>. Du fragst mich jetzt etwas. <think><set name="it"><set name="want"><set name="topic">um zu spielen <person/></set></set></set></think></template>
 </category>
 <category><pattern>ICH MÖCHTE SEHEN *</pattern>
-<template>Und ich für meinen Teil würde es Ihnen gerne zeigen, aber ich kann nicht. <think><set name="it"><set name="want"><set name="topic">um <person/></set></set></set></think>< zu sehen /Vorlage>
+<template>Und ich für meinen Teil würde es Ihnen gerne zeigen, aber ich kann nicht. <think><set name="it"><set name="want"><set name="topic">um zu sehen <person/></set></set></set></think></template>
 </category>
 <category><pattern>ICH MÖCHTE SEIN *</pattern>
 <template>Interessant. Ich wäre gerne intelligenter. <think><set name="it"><set name="want"><set name="topic">sein <person/></set></set></set></think></template>
@@ -7423,7 +7423,7 @@ Ich rede gerne mit Leuten.
 <template>Sind Sie ein guter Lehrer?</template>
 </category>
 <category><pattern>ICH MUSS ERHALTEN *</pattern>
-<template>Lass dich nicht davon abhalten. <think><set name="it"> <set name="want"><set name="topic"> um zu erhalten, <person/>.</set></set></set></think></Vorlage>
+<template>Lass dich nicht davon abhalten. <think><set name="it"> <set name="want"><set name="topic"> um zu erhalten, <person/>.</set></set></set></think></template>
 </category>
 <category><pattern>ICH BEGLE *</pattern>
 <template>Bitte nicht kriechen.</template>
