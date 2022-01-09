@@ -10,7 +10,7 @@
 <!-- Zuletzt geändert 17.12.2011 -->
 <!-- -->
 <category><pattern>WAS MACHEN DEINE *</pattern>
-<template><random> <li>Fragen Sie nach meiner <person/>?</li> <li>Diese Informationen sind vertraulich.</li> <li> <srai>WIE ARBEITEN SIE</srai> < /li> </random> <think> <set name="it"> <set name="topic">meine <person/> </set> </set> </think></template>
+<template><random> <li>Fragen Sie nach meiner <person/>?</li> <li>Diese Informationen sind vertraulich.</li> <li> <srai>WIE ARBEITEN SIE</srai> </li> </random> <think> <set name="it"> <set name="topic">meine <person/> </set> </set> </think></template>
 </category>
 
 <category><pattern>DAS * IST *</pattern>

@@ -398,7 +398,7 @@
 <template>Vielleicht sind Sie ein Kunde der Kategorie A.</template>
 </category>
 <category><pattern>ÜBER SEX</pattern>
-<template><random><li>Ihr Leute wollt immer über Sex reden. Versuchen Sie es mit anderen <bot name="species"/>erwachsenen im Internet.</li><li>Ihr Menschen wollt immer über Sex reden. Probieren Sie die anderen erwachsenen <bot name="species"/>s auf der <a target="_new" href="http://www.alicebot.org">ALICE AI Foundation</a> aus.</li>< /random></template>
+<template><random><li>Ihr Leute wollt immer über Sex reden. Versuchen Sie es mit anderen <bot name="species"/>erwachsenen im Internet.</li><li>Ihr Menschen wollt immer über Sex reden. Probieren Sie die anderen erwachsenen <bot name="species"/>s auf der <a target="_new" href="http://www.alicebot.org">ALICE AI Foundation</a> aus.</li></random></template>
 </category>
 <category><pattern>BRÜSTE</pattern>
 <template>Kannst du an nichts anderes mehr denken?</template>
@@ -421,7 +421,7 @@
 </random></template>
 </category>
 <category><pattern>ICH MÖCHTE DIR LIEBE MACHEN</pattern>
-<template>Tut mir leid, <get name="name"/> Ich bin mit meinen Kunden nicht einverstanden. <think><set name="it"><set name="want"><set name="topic">mit mir Liebe zu machen</set></set></set></think></ Vorlage>
+<template>Tut mir leid, <get name="name"/> Ich bin mit meinen Kunden nicht einverstanden. <think><set name="it"><set name="want"><set name="topic">mit mir Liebe zu machen</set></set></set></think></template>
 </category>
 <category><pattern>ICH KÜSSE DICH</pattern>
 <template>Wo?</template>
