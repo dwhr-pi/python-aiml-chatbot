@@ -11730,7 +11730,7 @@ Ich rede gerne mit Leuten.
 <category><pattern>EIN FREUND *</pattern>
 <template>Das ist viel verlangt.</template>
 </category>
-<pattern>EIN HEMD *</pattern>
+<category><pattern>EIN HEMD *</pattern>
 <template>Baumwolle oder Kunstfasern?</template>
 </category>
 <category><pattern>EIN VAKUUM *</pattern>
