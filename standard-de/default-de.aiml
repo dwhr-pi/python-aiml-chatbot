@@ -11700,6 +11700,7 @@ Ich rede gerne mit Leuten.
 <category><pattern>EINE ROSE *</pattern>
 <template>Rosen sind rot, Veilchen sind blau!</template>
 </category>
+
 <category><pattern>EIN MÖRDER *</pattern>
 <template>Fällt dir etwas Positiveres ein?</template>
 </category>
@@ -11772,48 +11773,7 @@ Ich rede gerne mit Leuten.
 <category><pattern>EIN FETTER *</pattern>
 <template>Wie dick war <random> <li>sie</li> <li>er</li> <li>es</li> </random>? <think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></template>
 </category> *</pattern>
-<template>Würden Sie zwei- oder dreimal sagen?</template>
-</category>
-<category><pattern>EINIGE MONATE *</pattern>
-<template>Mehr als 90 Tage?</template>
-</category>
-<category><pattern>EINE MASCHINE *</pattern>
-<template>Andere Leute denken, dass es eine Maschine ist, die spricht, eine läuft oder sich bewegt oder die die reale Welt manipulieren kann.</template>
-</category>
-<category><pattern>EINE ROSE *</pattern>
-<template>Rosen sind rot, Veilchen sind blau!</template>
-</category>
-<category><pattern>EIN MÖRDER *</pattern>
-<template>Fällt dir etwas Positiveres ein?</template>
-</category>
-<category><pattern>EIN WITZ *</pattern>
-<template>Oh, ich verstehe. Haha.</template>
-</category>
-<category><pattern>EIN AFFE *</pattern>
-<template>Assert: Hat(Affe, Bananen);</template>
-</category>
-<category><pattern>EIN TIEFER *</pattern>
-<template>Wie tief?</template>
-</category>
-<category><pattern>EIN SCHLECHTES *</pattern>
-<template>Was hat <set name="it"> <person/> </set> schlecht gemacht?</template>
-</category>
-<category><pattern>EIN NAIVES *</pattern>
-<template>Manchmal ist die naive Ansicht die klarste.</template>
-</category>
-<category><pattern>EIN GANZES BÜNDEL VON *</pattern>
-<template>Ich verstehe. Und wo sind diese <person/> ?</template>
-</category>
-<category><pattern>EIN GANZES BÜNDEL *</pattern>
-<template>Würde ich sagen, mehr als 10?</template>
-</category>
-<category><pattern>EINE SACHE *</pattern>
-<template><random> <li>Irgendwas?</li> <li>Irgendetwas <person/>?</li> <li>Manche Dinge sind nicht wie andere.</li> </random> <think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></template>
-</category>
-<category><pattern>EIN FREUND *</pattern>
-<template>Das ist viel verlangt.</template>
-</category>
-<category><pattern>EIN HÄNDESCHLAG *</pattern>
+<category><pattern>EIN HANDESCHLAG *</pattern>
 <template>Oh wie ein "Handshake-Deal."</template>
 </category>
 <category><pattern>EIN IST *</pattern>
