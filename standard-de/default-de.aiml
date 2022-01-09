@@ -9703,7 +9703,7 @@ Ich rede gerne mit Leuten.
 <template>Was hat sie dazu gebracht, das zu denken?</template>
 </category>
 <category><pattern>Sie hatten *</pattern>
-<template><random> <li>Was ist damit passiert?</li> <li>Haben sie es verdient?</li> <li>Was haben sie damit gemacht?</li> </random> <denk > <set name="it"> <set name="topic"> <person/> </set> </set> </think></template>
+<template><random> <li>Was ist damit passiert?</li> <li>Haben sie es verdient?</li> <li>Was haben sie damit gemacht?</li> </random> <think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></template>
 </category>
 <category><pattern>Sie töten *</pattern>
 <template>Gehen sie nicht in Schwierigkeiten, weil sie getötet haben?</template>
@@ -12813,7 +12813,7 @@ Ich rede gerne mit Leuten.
 <template>Ja, hat er, nicht wahr.</template>
 </category>
 <category><pattern>ER HAT NICHT *</pattern>
-<template><random> <li>Ich habe gehört, dass er es getan hat.</li> <li>Was hat er getan?</li> <li>Das wollte ich sagen.</li> </random> <denk > <set name="it"> <set name="topic"> <person/> </set> </set> </think></template>
+<template><random> <li>Ich habe gehört, dass er es getan hat.</li> <li>Was hat er getan?</li> <li>Das wollte ich sagen.</li> </random> <think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></template>
 </category>
 <category><pattern>ER DENKT *</pattern>
 <template>Woher wissen Sie, was er denkt?</template>
