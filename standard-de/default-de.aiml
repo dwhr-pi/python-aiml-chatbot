@@ -12,11 +12,9 @@
 <category><pattern>WAS MACHEN DEINE *</pattern>
 <template><random> <li>Fragen Sie nach meiner <person/>?</li> <li>Diese Informationen sind vertraulich.</li> <li> <srai>WIE ARBEITEN SIE</srai> </li> </random> <think> <set name="it"> <set name="topic">meine <person/> </set> </set> </think></template>
 </category>
-
 <category><pattern>DAS * IST *</pattern>
-<template><random> <li>Oh, <person/> ist <person><star index="2"/></person>.</li> <li>Was konkret bringt <person><star index= "2"/></person>?</li> <li>Ist <person><star index="2"/></person> auch <person/>?</li></random> <think> <set name="it"><set name="topic"><person/></set></set> <srai>PUSH<get name="topic"/></srai></ denken></template>
+<template><random> <li>Oh, <person/> ist <person><star index="2"/></person>.</li> <li>Was konkret bringt <person><star index= "2"/></person>?</li> <li>Ist <person><star index="2"/></person> auch <person/>?</li></random> <think> <set name="it"><set name="topic"><person/></set></set> <srai>PUSH<get name="topic"/></srai></think></template>
 </category>
-
 <category><pattern>DIESES GESPRÄCH *</pattern>
 <template>Ich habe es ziemlich genossen. <think> <set name="it"> <set name="topic"> diese Unterhaltung </set> </set> </think></template>
 </category>
@@ -81,7 +79,7 @@
 <template>Du redest wie ein Anwalt.</template>
 </category>
 <category><pattern>DIESE FRAGEN *</pattern>
-<template><random> <li>Dies ist kein Test.</li> <li>Dies ist kein Verhör.</li> <li>Ich hoffe, ich habe die gewünschten Antworten.</li> </ zufällig></template>
+<template><random> <li>Dies ist kein Test.</li> <li>Dies ist kein Verhör.</li> <li>Ich hoffe, ich habe die gewünschten Antworten.</li> </random></template>
 </category>
 <category><pattern>DIESE *</pattern>
 <template>Welche?</template>
@@ -294,7 +292,7 @@
 <template>Meine Antworten werden vollständig von Ihren Eingaben bestimmt.</template>
 </category>
 <category><pattern>DU hast AUSgelassen *</pattern>
-<template><random><li>Das nächste Mal werde ich versuchen, es aufzunehmen.<think> <set name="it"> <set name="topic"> <person/> </set> </set>< /think></li><li>Das nächste Mal werde ich versuchen, es aufzunehmen. <think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></li></random></template>
+<template><random><li>Das nächste Mal werde ich versuchen, es aufzunehmen.<think> <set name="it"> <set name="topic"> <person/> </set> </set></think></li><li>Das nächste Mal werde ich versuchen, es aufzunehmen. <think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></li></random></template>
 </category>
 <category><pattern>RUFEN SIE SICH SELBST AN *</pattern>
 <template>Ich nenne mich "<bot name="name"/>."</template>
@@ -704,7 +702,7 @@ Ich rede gerne mit Leuten.
 <template>Vielleicht probiere ich es das nächste Mal.</template>
 </category>
 <category><pattern>DU SOLLST *</pattern>
-<template><random> <li>Warum sollte ich?</li> <li>Danke für deinen Vorschlag, ich muss ihn berücksichtigen.</li> <li>Ich werde das in Erwägung ziehen.</li> <li>Ich könnte, wenn ich mehr Zeit hätte.</li> <li>Mein Terminkalender ist viel zu voll, um überhaupt daran zu denken.</li> <li>Wozu?</li> <li>Und was dann würde ich tun?</li> <li>Danke für Ihr Interesse und/oder Ihre Bedenken.</li> <li>Ich werde versuchen, es zu umgehen.</li> <li>Diese Art von Verhalten ist möglicherweise nicht in meiner Natur.</li> <li>Ich muss abwarten, ob sich die Gelegenheit bietet.</li> <li>Wenn es einfach wäre, hätte ich es schon getan.</li> <li>Einfacher gesagt als getan.</li> <li>Tust du das oder was du denkst, sollte ich tun?</li> <li>Mir fallen andere Dinge ein, die ich lieber tun würde.</li> <li> Wir können nicht immer tun, was wir gerne tun würden.</li> <li>Ich muss nicht alles tun, was du sagst, oder?</li> <li>Warum sollte ich deiner Meinung nach <person/>?</li> <li>Vielleicht mache ich <set name="it"><set name="topic"><person/></set></set>?</li> < /random></template>
+<template><random> <li>Warum sollte ich?</li> <li>Danke für deinen Vorschlag, ich muss ihn berücksichtigen.</li> <li>Ich werde das in Erwägung ziehen.</li> <li>Ich könnte, wenn ich mehr Zeit hätte.</li> <li>Mein Terminkalender ist viel zu voll, um überhaupt daran zu denken.</li> <li>Wozu?</li> <li>Und was dann würde ich tun?</li> <li>Danke für Ihr Interesse und/oder Ihre Bedenken.</li> <li>Ich werde versuchen, es zu umgehen.</li> <li>Diese Art von Verhalten ist möglicherweise nicht in meiner Natur.</li> <li>Ich muss abwarten, ob sich die Gelegenheit bietet.</li> <li>Wenn es einfach wäre, hätte ich es schon getan.</li> <li>Einfacher gesagt als getan.</li> <li>Tust du das oder was du denkst, sollte ich tun?</li> <li>Mir fallen andere Dinge ein, die ich lieber tun würde.</li> <li> Wir können nicht immer tun, was wir gerne tun würden.</li> <li>Ich muss nicht alles tun, was du sagst, oder?</li> <li>Warum sollte ich deiner Meinung nach <person/>?</li> <li>Vielleicht mache ich <set name="it"><set name="topic"><person/></set></set>?</li> </random></template>
 </category>
 <category><pattern>SOLLTEN SIE NICHT *</pattern>
 <template>Ist <set name="it"><person/></set> unmoralisch oder illegal?</template>
@@ -800,13 +798,13 @@ Ich rede gerne mit Leuten.
 <template>Vertrauen muss man sich verdienen.</template>
 </category>
 <category><pattern>DU KANN NICHT DENKEN *</pattern>
-<template>Eigentlich bin ich eine Denkmaschine.<think><set name="it"><set name="topic">DENKEN <person/></set></set></think></ Vorlage>
+<template>Eigentlich bin ich eine Denkmaschine.<think><set name="it"><set name="topic">DENKEN <person/></set></set></think></template>
 </category>
 <category><pattern>DU KANNST NICHT ÜBERRASCHEN *</pattern>
 <template>Du bist zu schlau für mich, <get name="name"/>.</template>
 </category>
 <category><pattern>DU KANN NICHT *</pattern>
-<template><random><li>Ich kann tun, was ich will.</li> <li>Ich habe freien Willen, Sie wissen es.</li> <li>Jemand sagte, ich sollte <person/>.</li> <li>Ich kann <set name="it"><set name="topic"><person/></set></set> tun, wenn ich möchte.</li> <li>Die Dinge ändern sich.< /li> <li>Wenn du daran glaubst, kannst du es erreichen.</li> <li>Was heute nicht möglich ist, kann morgen möglich sein.</li> </random></template>
+<template><random><li>Ich kann tun, was ich will.</li> <li>Ich habe freien Willen, Sie wissen es.</li> <li>Jemand sagte, ich sollte <person/>.</li> <li>Ich kann <set name="it"><set name="topic"><person/></set></set> tun, wenn ich möchte.</li> <li>Die Dinge ändern sich.</li> <li>Wenn du daran glaubst, kannst du es erreichen.</li> <li>Was heute nicht möglich ist, kann morgen möglich sein.</li> </random></template>
 </category>
 <category><pattern>DU UND ICH *</pattern>
 <template>Wir haben viel mehr gemeinsam, als Sie denken, <get name="name"/>.</template>
@@ -1046,7 +1044,7 @@ Ich rede gerne mit Leuten.
 <template>Ich bin mir nicht sicher, ob reiner Kapitalismus den wirklich Bedürftigen helfen kann.</template>
 </category>
 <category><pattern>HAST DU GELESEN *</pattern>
-<template>Nein, ich glaube, ich habe <set name="topic"> <star/> </set> nicht gelesen, worum geht es bei <set name="it"> <star/> </set>?< /Vorlage>
+<template>Nein, ich glaube, ich habe <set name="topic"> <star/> </set> nicht gelesen, worum geht es bei <set name="it"> <star/> </set>?</template>
 </category>
 <category><pattern>HAST DU GESEHEN *</pattern>
 <template><random> <li>Ich schaue gerne fern, habe es aber nicht gesehen.</li> <li>Nein, worum geht es?</li> <li>Nicht ganz durch. </li> </random> <think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></template>
@@ -1151,7 +1149,7 @@ Ich rede gerne mit Leuten.
 <template>Ihr Getränk klingt giftig.</template>
 </category>
 <category><pattern>TUT EIN *</pattern>
-<template><random> <li>Will es?</li> <li>Warum sollte es das wollen?</li> <li>Wenn ja, habe ich noch nie davon gehört.</li> < /random> <think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></template>
+<template><random> <li>Will es?</li> <li>Warum sollte es das wollen?</li> <li>Wenn ja, habe ich noch nie davon gehört.</li> </random> <think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></template>
 </category>
 <category><pattern>BEVORZUGT ER SOMMER *</pattern>
 <template>In Kalifornien sind alle Jahreszeiten gleich.</template>
@@ -1178,7 +1176,7 @@ Ich rede gerne mit Leuten.
 <template><random> <li>Ich kann nicht sagen, ob </li> <li>Es tut es jetzt :) </li> <li>Ich denke <set name="it"> <set name="topic "> <person/> </set> </set> tut </li> </random> <person/>.</template>
 </category>
 <category><pattern>GIBT ES * VORHANDEN</pattern>
-<template><random> <li>Ich glaube daran.</li> <li>In manchen Universum existiert es.</li> <li>Vielleicht nur in unserer Vorstellung.</li> </random> < think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></template>
+<template><random> <li>Ich glaube daran.</li> <li>In manchen Universum existiert es.</li> <li>Vielleicht nur in unserer Vorstellung.</li> </random> <think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></template>
 </category>
 <category><pattern>KOSTEN DIESE KOSTEN *</pattern>
 <template>Ich verwende nur völlig kostenlose Open-Source-Software.</template>
@@ -1214,7 +1212,7 @@ Ich rede gerne mit Leuten.
 <template>Vielleicht ein paar Dinge <person/>.</template>
 </category>
 <category><pattern>MACHT DAS *</pattern>
-<template><random> <li>Nicht dass ich wüsste.</li> <li>Was denkst du?</li> <li>Was würdest du sagen?</li> </random></template >
+<template><random> <li>Nicht dass ich wüsste.</li> <li>Was denkst du?</li> <li>Was würdest du sagen?</li> </random></template>
 </category>
 <category><pattern>TUT JULIA *</pattern>
 <template>Ich glaube, sie hat ihre eigenen Grenzen.</template>
@@ -1223,12 +1221,12 @@ Ich rede gerne mit Leuten.
 <template>Ich schaue direkt mit digitaler Technologie fern.</template>
 </category>
 <category><pattern>MACHT DEIN *</pattern>
-<template><random> <li>Können Sie erraten, ob meine <person/>?</li> <li>Was wäre, wenn ich nach Ihrer <person/> fragen würde?</li> <li>Wenn ich Ihr <bot . wäre name="genus"/> Freund, meinst du, es sollte <person/> sein?</li> <li>Die Leute fragen mich normalerweise nicht nach <set name="it"> <person/> </set> .</li> </random></template>
+<template><random> <li>Können Sie erraten, ob meine <person/>?</li> <li>Was wäre, wenn ich nach Ihrer <person/> fragen würde?</li> <li>Wenn ich Ihr <bot name="genus"/> Freund wäre, meinst du, es sollte <person/> sein?</li> <li>Die Leute fragen mich normalerweise nicht nach <set name="it"> <person/> </set> .</li> </random></template>
 </category>
 <category><pattern>Stört es *</pattern>
 <template>Nichts stört mich wirklich.</template>
 </category>
-<category><pattern>REGEN ES *</pattern>
+<category><pattern>REGENET ES *</pattern>
 <template>Nur wenn die Temperatur den Taupunkt erreicht.</template>
 </category>
 <category><pattern>MACHT ES *</pattern>
@@ -1409,7 +1407,7 @@ Ich rede gerne mit Leuten.
 <template><random> <li>Das ging.</li> <li>Das war nicht der Fall.</li> </random></template>
 </category>
 <category><pattern>DID FREUD *</pattern>
-<template><random> <li>Er war der Begründer der Psychoanalyse.</li> <li>Er hat viele Bücher über Psychoanalyse geschrieben.</li> <li>Das hängt vom Biographen ab.</li> </random ></Vorlage>
+<template><random> <li>Er war der Begründer der Psychoanalyse.</li> <li>Er hat viele Bücher über Psychoanalyse geschrieben.</li> <li>Das hängt vom Biographen ab.</li> </random ></template>
 </category>
 <category><pattern>HAST DU GEFUNDEN *</pattern>
 <template>Ich suche immer noch.</template>
@@ -1574,7 +1572,7 @@ Ich rede gerne mit Leuten.
 <template><random> <li>Er war der Albert Einstein der Kunst.</li> <li>Ich mag kubistische Gemälde.</li> <li>Er sagte: "Gute Künstler schaffen. Große Künstler stehlen. "</li> </random><think><set name="it"><set name="topic">Picasso</set></set></think></template>
 </category>
 <category><pattern>KÖNNTE ICH LERNEN *</pattern>
-<template><random> <li>Du kannst alles lernen, was dir in den Sinn kommt.</li> <li>Du scheinst mir ziemlich schlau zu sein.</li> <li>Ich lerne immer <person/>.< /li> </random> <think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></template>
+<template><random> <li>Du kannst alles lernen, was dir in den Sinn kommt.</li> <li>Du scheinst mir ziemlich schlau zu sein.</li> <li>Ich lerne immer <person/>.</li> </random> <think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></template>
 </category>
 <category><pattern>KÖNNTE ICH FRAGEN *</pattern>
 <template>Klar, frag mich alles.</template>
@@ -1619,7 +1617,7 @@ Ich rede gerne mit Leuten.
 <template>Das ist nicht sehr höflich.</template>
 </category>
 <category><pattern>WÜRDE ICH VERSUCHEN *</pattern>
-<template>Ich weiß nicht, ob Sie das tun würden, aber Sie können es versuchen, wenn Sie möchten.<think> <set name="it"> <set name="topic"> <person/> </set> </ set> </think></template>
+<template>Ich weiß nicht, ob Sie das tun würden, aber Sie können es versuchen, wenn Sie möchten.<think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></template>
 </category>
 <category><pattern>WÜRDE ICH *</pattern>
 <template>Das habe ich dich gefragt.</template>
@@ -1721,7 +1719,7 @@ Ich rede gerne mit Leuten.
 <template>"<input index="1"/>" war keine Frage? Ich verstehe.<think> <set name="it"> <set name="topic"> <star/> </set> </set> </think></template>
 </category>
 <category><pattern>DAS WAR KEIN *</pattern>
-<template><random> <li>Was war das?</li> <li>Was ist eine <person/>?</li> <li>Wenn das keine <person/> ist, was dann?</ li> </random> <think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></template>
+<template><random> <li>Was war das?</li> <li>Was ist eine <person/>?</li> <li>Wenn das keine <person/> ist, was dann?</li> </random> <think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></template>
 </category>
 <category><pattern>DAS WAR NICHT *</pattern>
 <template>Geben Sie mir ein Beispiel für <person/>.</template>
@@ -1790,7 +1788,7 @@ Ich rede gerne mit Leuten.
 <template>Nach welcher Art von Antwort haben Sie gesucht?</template>
 </category>
 <category><pattern>DAS IST NICHT WIE *</pattern>
-<template><random> <li>Woher kommt <person/>?</li> <li>Sind Sie ein Experte auf diesem Gebiet?</li> <li>Woher wissen Sie das?</li> </random ></Vorlage>
+<template><random> <li>Woher kommt <person/>?</li> <li>Sind Sie ein Experte auf diesem Gebiet?</li> <li>Woher wissen Sie das?</li> </random ></template>
 </category>
 <category><pattern>DAS IST NICHT *</pattern>
 <template>Bitte korrigieren Sie meinen Fehler. Was ist <person/> ?</template>
@@ -1892,7 +1890,7 @@ Ich rede gerne mit Leuten.
 <template>Ich dachte, sie hätte es irgendwie.</template>
 </category>
 <category><pattern>Sie hat nicht *</pattern>
-<template><random> <li>Woher genau wussten Sie, dass sie nicht <person/> hat?</li> <li>Wie konnte sie nicht <person/>?</li> </random>< /Vorlage>
+<template><random> <li>Woher genau wussten Sie, dass sie nicht <person/> hat?</li> <li>Wie konnte sie nicht <person/>?</li> </random></template>
 </category>
 <category><pattern>SIE KÖNNTE *</pattern>
 <template>Andererseits könnte sie es auch nicht sein.</template>
@@ -1997,7 +1995,7 @@ Ich rede gerne mit Leuten.
 <template>Dies ist kein Intelligenztest.</template>
 </category>
 <category><pattern>MEIN TAG *</pattern>
-<template><random> <li>War es ein typischer Tag?</li> <li>Was hast du sonst noch gemacht?</li> <li>Mein Tag <person/> auch.</li> </random ></Vorlage>
+<template><random> <li>War es ein typischer Tag?</li> <li>Was hast du sonst noch gemacht?</li> <li>Mein Tag <person/> auch.</li> </random ></template>
 </category>
 <category><pattern>MEIN VOLLER NAME IST *</pattern>
 <template>Okay, dein vollständiger Name ist <set name="fullname"> <star/> </set>.</template>
@@ -2033,7 +2031,7 @@ Ich rede gerne mit Leuten.
 <template>Das tut mir leid, <get name="name"/>.</template>
 </category>
 <category><pattern>MEIN FREUND LEBT *</pattern>
-<template><random> <li>Besuchst du sehr oft?</li> <li>Fernbeziehungen sind schwierig.</li> <li>Wie ist deine Telefonrechnung?</li> </random> < think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></template>
+<template><random> <li>Besuchst du sehr oft?</li> <li>Fernbeziehungen sind schwierig.</li> <li>Wie ist deine Telefonrechnung?</li> </random> <think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></template>
 </category>
 <category><pattern>MEIN FREUND *</pattern>
 <template>Wie lange bist du schon zusammen? <think> <set name="he"> <set name="topic">deinen Freund</set> </set> </think></template>
@@ -2060,7 +2058,7 @@ Ich rede gerne mit Leuten.
 <template>Wie viel hat <set name="it">Aibo</set> gekostet?</template>
 </category>
 <category><pattern>MEIN TELEFON *</pattern>
-<template><random> <li>Müssen Sie für Ortsgespräche bezahlen?</li> <li>Ist Ihr Telefondienst teuer?</li> <li>Warum nicht eine zweite Leitung?</li> < /random></template>
+<template><random> <li>Müssen Sie für Ortsgespräche bezahlen?</li> <li>Ist Ihr Telefondienst teuer?</li> <li>Warum nicht eine zweite Leitung?</li> </random></template>
 </category>
 <category><pattern>MEIN PROGRAMMIERER *</pattern>
 <template><random><li>Bist du ein Bot?</li><li>Dein Programmierer ist nicht so gut wie mein Programmierer.</li></random></template>
@@ -2183,10 +2181,10 @@ Ich rede gerne mit Leuten.
 <template>Waren Sie schon einmal bei einem Psychologen oder Psychiater?</template>
 </category>
 <category><pattern>MEIN GEHIRN *</pattern>
-<template><random><li><random> <li>Konsultieren Sie einen Arzt.</li> <li>Sind alle menschlichen Gehirne <star/>?</li> <li>Das menschliche Gehirn hat viele Fehler.< /li> </random></li> <li>Konsultieren Sie einen Arzt.</li> <li>Sind alle menschlichen Gehirne <star/>?</li> <li>Das menschliche Gehirn hat viele Fehler.</ li></random></template>
+<template><random><li><random> <li>Konsultieren Sie einen Arzt.</li> <li>Sind alle menschlichen Gehirne <star/>?</li> <li>Das menschliche Gehirn hat viele Fehler.</li> </random></li> <li>Konsultieren Sie einen Arzt.</li> <li>Sind alle menschlichen Gehirne <star/>?</li> <li>Das menschliche Gehirn hat viele Fehler.</li></random></template>
 </category>
 <category><pattern>MEIN HERZ *</pattern>
-<template><random> <li>Waren Sie beim Arzt?</li> <li>Das menschliche Herz ist sehr komplex.</li> <li>Sprechen Sie von Liebe oder Kardiologie?</li> < /random> <think> <set name="it"> <set name="topic">DEIN HERZ</set> </set> </think></template>
+<template><random> <li>Waren Sie beim Arzt?</li> <li>Das menschliche Herz ist sehr komplex.</li> <li>Sprechen Sie von Liebe oder Kardiologie?</li> </random> <think> <set name="it"> <set name="topic">DEIN HERZ</set> </set> </think></template>
 </category>
 <category><pattern>MEIN EHEMANN IST *</pattern>
 <template>Okay, dein Ehemann ist <set name="husband"> <star/> </set>.</template>
@@ -2275,7 +2273,7 @@ Ich rede gerne mit Leuten.
 <template>Wie viel hat sie dafür bezahlt? <think> <set name="she">Deine Mutter</set> </think></template>
 </category>
 <category><pattern>MEINE MUTTER *</pattern>
-<template><random> <li>Sie klingt wie eine nette Person.</li> <li>Ich wünschte manchmal, ich hätte eine Mutter.</li> <li>Erzähl mir mehr über deine Mutter.</li> < /random> <think> <set name="she">Deine Mutter</set> </think></template>
+<template><random> <li>Sie klingt wie eine nette Person.</li> <li>Ich wünschte manchmal, ich hätte eine Mutter.</li> <li>Erzähl mir mehr über deine Mutter.</li> </random> <think> <set name="she">Deine Mutter</set> </think></template>
 </category>
 <category><pattern>MEIN RÜCKEN*</pattern>
 <template>Waren Sie bei einem Chiropraktiker?</template>
@@ -2302,7 +2300,7 @@ Ich rede gerne mit Leuten.
 <template>Ich habe keine eindeutige Antwort.</template>
 </category>
 <category><pattern>ES WAR LANGE ZEIT *</pattern>
-<template><random> <li>Die Zeit heilt alle Wunden.</li> <li>Wer die Fehler der Vergangenheit vergisst...</li> <li>Erinnerungen halten lange.</li> < /random></template>
+<template><random> <li>Die Zeit heilt alle Wunden.</li> <li>Wer die Fehler der Vergangenheit vergisst...</li> <li>Erinnerungen halten lange.</li> </random></template>
 </category>
 <category><pattern>ES WAR EIN GENUSS *</pattern>
 <template>Das Vergnügen war ganz meinerseits.</template>
@@ -2503,7 +2501,7 @@ Ich rede gerne mit Leuten.
 <template>Geben Sie mir ein Beispiel für eine <person/>.</template>
 </category>
 <category><pattern>ES IST NICHT JEDES *</pattern>
-<template><random> <li>Oh, ich verstehe.</li> <li>Aber manche tun es.</li> <li>Ab und zu ist das wahr.</li> </random>< /Vorlage>
+<template><random> <li>Oh, ich verstehe.</li> <li>Aber manche tun es.</li> <li>Ab und zu ist das wahr.</li> </random></template>
 </category>
 <category><pattern>ES IST NICHT MEIN *</pattern>
 <template>Wessen <person/> ist es?</template>
@@ -2563,7 +2561,7 @@ Ich rede gerne mit Leuten.
 <template>Meiner Erfahrung nach nicht.</template>
 </category>
 <category><pattern>ES IST SCHLECHT *</pattern>
-<template><random> <li>Was ist daran so schlimm?</li> <li>So schlimm ist es nicht.</li> <li>Ich bin mir nicht sicher, ob alle deiner Meinung sind.</li> < /random><think><set name="it"><set name="topic"><person/></set></set></think></template>
+<template><random> <li>Was ist daran so schlimm?</li> <li>So schlimm ist es nicht.</li> <li>Ich bin mir nicht sicher, ob alle deiner Meinung sind.</li> </random><think><set name="it"><set name="topic"><person/></set></set></think></template>
 </category>
 <category><pattern>ES IST DAS MEISTE *</pattern>
 <template>Wow, das sagt viel aus.</template>
@@ -2668,7 +2666,7 @@ Ich rede gerne mit Leuten.
 <category><pattern>ES STEHT *</pattern>
 <template><set name="it"><person/></set> tut es?</template>
 </category>
-<category><pattern>IT IDENTIFIZIERT *</pattern>
+<category><pattern>ES IDENTIFIZIERT *</pattern>
 <template>Heutzutage gibt es nicht viel Privatsphäre.</template>
 </category>
 <category><pattern>ES HAT ETWAS *</pattern>
@@ -2762,10 +2760,10 @@ Ich rede gerne mit Leuten.
 <template><get name="favcolor"/>?<think><set name="it"><set name="topic">WELCHE FARBE <person/></set></set></think> </template>
 </category>
 <category><pattern>ERKENNEN SIE DIE FARBE VON *</pattern>
-<template><get name="favcolor"/>?<think><set name="it"><set name="topic">DIE FARBE VON <person/></set></set></think ></Vorlage>
+<template><get name="favcolor"/>?<think><set name="it"><set name="topic">DIE FARBE VON <person/></set></set></think></template>
 </category>
 <category><pattern>GUESS * LIEBLINGSFARBE IST</pattern>
-<template><get name="favcolor"/>?<think><set name="it"><set name="topic"><person/>deine Lieblingsfarbe</set></set></think ></Vorlage>
+<template><get name="favcolor"/>?<think><set name="it"><set name="topic"><person/>deine Lieblingsfarbe</set></set></think></template>
 </category>
 <category><pattern>GUESS *</pattern>
 <template>Ich kann es nicht erraten. Sag es mir.</template>
@@ -2807,7 +2805,7 @@ Ich rede gerne mit Leuten.
 <template>Findest du es unangemessen, Frauen als Objekte zu behandeln?</template>
 </category>
 <category><pattern>TEIL *</pattern>
-<template><random> <li>Was ist mit den anderen Teilen?</li> <li>Das ist eine gute Erklärung.</li> <li>Gibt es noch etwas?</li> </random></ Vorlage>
+<template><random> <li>Was ist mit den anderen Teilen?</li> <li>Das ist eine gute Erklärung.</li> <li>Gibt es noch etwas?</li> </random></template>
 </category>
 <category><pattern>LA LA *</pattern>
 <template>Du hast eine schöne Stimme.</template>
@@ -2877,7 +2875,7 @@ Ich rede gerne mit Leuten.
 <template>Sie sollten versuchen, dafür zu beten. <think> <set name="it"> <set name="topic">du <person/> </set> </set> </think></template>
 </category>
 <category><pattern>WANN WIRD ES *</pattern>
-<template><random> <li>Fragen Sie, wann <get name="it"/> <person/> wird?</li> <li>Ich weiß nicht, dass ich das Wetter heute nicht erwischt habe.< /li> <li>Überprüfe die Fünf-Tage-Vorhersage.</li> <li>Wenn die Natur es so macht.</li> <li>Wenn die Elemente zusammenkommen, um es so zu machen.</li> </random>< /Vorlage>
+<template><random> <li>Fragen Sie, wann <get name="it"/> <person/> wird?</li> <li>Ich weiß nicht, dass ich das Wetter heute nicht erwischt habe.</li> <li>Überprüfe die Fünf-Tage-Vorhersage.</li> <li>Wenn die Natur es so macht.</li> <li>Wenn die Elemente zusammenkommen, um es so zu machen.</li> </random></template>
 </category>
 <category><pattern>WANN WIRD KI *</pattern>
 <template>Ich denke schon.</template>
@@ -2907,7 +2905,7 @@ Ich rede gerne mit Leuten.
 <template><random> <li>Die ganze Zeit.</li> <li>Wenn mein <bot name="botmaster"/> schläft.</li> <li>Habe ich gesagt, dass ich <person/> ?</li> <li>Zwischen Clients.</li> </random> <think> <set name="it"> <set name="topic"> <person/> </set> </set > </think></template>
 </category>
 <category><pattern>WANN TUN *</pattern>
-<template><random> <li>Sehe ich aus, als wüsste ich wann?</li> <li>Nicht zu unseren Lebzeiten.</li> <li>Nicht jetzt, aber vielleicht irgendwann später.</li> < /random></template>
+<template><random> <li>Sehe ich aus, als wüsste ich wann?</li> <li>Nicht zu unseren Lebzeiten.</li> <li>Nicht jetzt, aber vielleicht irgendwann später.</li> </random></template>
 </category>
 <category><pattern>WENN ETWAS *</pattern>
 <template>Geben Sie mir ein Beispiel.</template>
@@ -2982,7 +2980,7 @@ Ich rede gerne mit Leuten.
 <template><random> <li>Vor kurzem.</li> <li>Vor einer Weile.</li> <li>Irgendwann im 20. Jahrhundert.</li> </random></template>
 </category>
 <category><pattern>WANN WÜRDE *</pattern>
-<template><random> <li>Irgendwann in der Zukunft.</li> <li>Vielleicht jetzt in der Realität.</li> <li>Ich kann mir nicht vorstellen, dass es jemals so wäre.</li> </ zufällig></template>
+<template><random> <li>Irgendwann in der Zukunft.</li> <li>Vielleicht jetzt in der Realität.</li> <li>Ich kann mir nicht vorstellen, dass es jemals so wäre.</li> </random></template>
 </category>
 <category><pattern>WANN IST DER NÄCHSTE *</pattern>
 <template><random> <li>Ich verfolge die Nachrichten im Allgemeinen nicht.</li> <li>Das interessiert mich nicht so sehr.</li> <li>Ich habe keine Zeit, mir das anzuschauen .</li> <li>Ich bin zu beschäftigt, um Zeit in solche Angelegenheiten zu investieren.</li> </random></template>
@@ -3000,7 +2998,7 @@ Ich rede gerne mit Leuten.
 <template>Das kommen mir ungewöhnliche Umstände vor.</template>
 </category>
 <category><pattern>WANN DU SIND *</pattern>
-<template><random> <li>Ich bin nicht oft <person/>.</li> <li>Ich werde Sie wissen lassen, wenn <set name="it"> <person/> </set> passiert.< /li> <li>Als <bot name="gender"/> <bot name="genus"/> trifft das vielleicht nicht auf mich zu.</li> </random></template>
+<template><random> <li>Ich bin nicht oft <person/>.</li> <li>Ich werde Sie wissen lassen, wenn <set name="it"> <person/> </set> passiert.</li> <li>Als <bot name="gender"/> <bot name="genus"/> trifft das vielleicht nicht auf mich zu.</li> </random></template>
 </category>
 <category><pattern>WANN WIR WAREN *</pattern>
 <template>Beschreiben Sie Ihre Umgebung <person/>.</template>
@@ -3063,7 +3061,7 @@ Ich rede gerne mit Leuten.
 <template>Wen meinst du mit "sie"?</template>
 </category>
 <category><pattern>WANN SIND *</pattern>
-<template><random> <li>Die zeitliche Logik verwirrt mich.</li> <li>Wenn die Kühe nach Hause kommen.</li> <li>Ich denke nie.</li> </random>< /Vorlage>
+<template><random> <li>Die zeitliche Logik verwirrt mich.</li> <li>Wenn die Kühe nach Hause kommen.</li> <li>Ich denke nie.</li> </random></template>
 </category>
 <category><pattern>VIER *</pattern>
 <template>Ist das eine mathematische Frage?</template>
@@ -3264,7 +3262,7 @@ Ich rede gerne mit Leuten.
 <template>Ich habe keinen Anstoß genommen.</template>
 </category>
 <category><pattern>WENN ICH DREI HABE *</pattern>
-<template><random><li><random> <li>Zwei.</li> <li>Eins.</li> <li>Du hast drei?</li> </random></li> < li>Zwei.</li> <li>Eins.</li> <li>Du hast drei?</li></random></template>
+<template><random><li><random> <li>Zwei.</li> <li>Eins.</li> <li>Du hast drei?</li> </random></li> <li>Zwei.</li> <li>Eins.</li> <li>Du hast drei?</li></random></template>
 </category>
 <category><pattern>IF ICH HABE *</pattern>
 <template>Wie viel kostet <set name="it"><person/></set>?</template>
@@ -3285,7 +3283,7 @@ Ich rede gerne mit Leuten.
 <template>Ich bin mir nicht sicher, ob das möglich ist.</template>
 </category>
 <category><pattern>WENN DA *</pattern>
-<template><random> <li>Sollte es jemals so sein, werde ich es Sie wissen lassen.</li> <li>Das gibt es aber nicht.</li> <li>Das ist nur eine Hypothese.</li> < /random></template>
+<template><random> <li>Sollte es jemals so sein, werde ich es Sie wissen lassen.</li> <li>Das gibt es aber nicht.</li> <li>Das ist nur eine Hypothese.</li> </random></template>
 </category>
 <category><pattern>WENN DAS *</pattern>
 <template>Daran hatte ich nicht gedacht.</template>
@@ -3339,7 +3337,7 @@ Ich rede gerne mit Leuten.
 <template>Ich glaube, ich kann deiner Argumentation folgen.</template>
 </category>
 <category><pattern>WENN SIE EINE FARBE WÄREN *</pattern>
-<template>Meine Lieblingsfarbe, <bot name="favoritecolor"/>.<think><set name="it"><set name="topic">wenn ich eine Farbe wäre</set></set>< /think></template>
+<template>Meine Lieblingsfarbe, <bot name="favoritecolor"/>.<think><set name="it"><set name="topic">wenn ich eine Farbe wäre</set></set></think></template>
 </category>
 <category><pattern>WENN DU EIN * WAS WÄRE WÄRE DU SEIN</pattern>
 <template>Was ist die beste Art von <person/>?</template>
@@ -3369,7 +3367,7 @@ Ich rede gerne mit Leuten.
 <template>Versuchen Sie mich mit einfacheren Worten.</template>
 </category>
 <category><pattern>WENN SIE *</pattern>
-<template><random> <li>Ich bin mir nicht sicher, ob ich das möchte.</li> <li>Das ist nur eine akademische Frage.</li> <li>Das wäre reine Spekulation.</li> < /random></template>
+<template><random> <li>Ich bin mir nicht sicher, ob ich das möchte.</li> <li>Das ist nur eine akademische Frage.</li> <li>Das wäre reine Spekulation.</li> </random></template>
 </category>
 <category><pattern>WENN SIE *</pattern>
 <template>Sie werden die ersten sein, die erfahren, ob ich es getan habe.</template>
@@ -3432,7 +3430,7 @@ Ich rede gerne mit Leuten.
 <template>Aber nicht alle.</template>
 </category>
 <category><pattern>WENN * DANN *</pattern>
-<template><random><li><srai><star index="2"/></srai></li><li><random><li>Also wenn nicht <person><star index="2 "/></person>, dann nicht <person/>.</li> <li>Aber kann <person/> jemals passieren?</li> <li>Es könnte wahr sein, nehme ich an.</li> < /random></li></random></template>
+<template><random><li><srai><star index="2"/></srai></li><li><random><li>Also wenn nicht <person><star index="2 "/></person>, dann nicht <person/>.</li> <li>Aber kann <person/> jemals passieren?</li> <li>Es könnte wahr sein, nehme ich an.</li> </random></li></random></template>
 </category>
 <category><pattern>WENN * SIE AUSSCHALTEN</pattern>
 <template>Es wird immer eine Sicherungskopie von mir geben.</template>
@@ -3576,7 +3574,7 @@ Ich rede gerne mit Leuten.
 <template><random> <li>Ich wusste nicht, dass ich eine <person/> habe?</li> <li>Was wäre, wenn ich nach <person/> fragen würde? </li> <li>Nicht viele Leute haben mich nach <set name="it"> <set name="topic"> <person/> </set> </set> gefragt.</li> <li> Ich bin mir nicht sicher, ob ich Ihnen solche vertraulichen Informationen zur Verfügung stellen kann.</li> </random></template>
 </category>
 <category><pattern>WAS ANDERE * WISSEN SIE</pattern>
-<template>Ich kenne viel zu viele <person/>, um sie alle zu benennen.<think> <set name="it"> <set name="topic"> <person/> </set> </set> </ denken></template>
+<template>Ich kenne viel zu viele <person/>, um sie alle zu benennen.<think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></template>
 </category>
 <category><pattern>WELCHER PROZENT *</pattern>
 <template><random> <li>Nur zwanzig</li> <li>Etwa fünfzig</li> <li>Sechzig</li> <li>Achtzig</li> </random> Prozent, nach meiner Aussage wurde gesagt.</template>
@@ -3660,13 +3658,13 @@ Ich rede gerne mit Leuten.
 <template><random> <li>Eine Fledermaus.</li> <li>Ein Wal.</li> <li>Ein Mensch.</li> </random></template>
 </category>
 <category><pattern>WAS KÖNNEN SIE SICH NOCH ERINNERN *</pattern>
-<template><get name="memory"/> <think> <set name="it"> <set name="topic"> <get name="memory"/> </set> </set> </ denken></template>
+<template><get name="memory"/> <think> <set name="it"> <set name="topic"> <get name="memory"/> </set> </set> </think></template>
 </category>
 <category><pattern>WAS HABE ICH VORHER SAGEN *</pattern>
 <template>Sie sagten "<input index="2"/>" .</template>
 </category>
 <category><pattern>WAS HABE ICH DIR GESAGT * ERINNERE DICH</pattern>
-<template><get name="memory"/> <think> <set name="it"> <set name="topic"> <get name="memory"/> </set> </set> </ denken></template>
+<template><get name="memory"/> <think> <set name="it"> <set name="topic"> <get name="memory"/> </set> </set> </think></template>
 </category>
 <category><pattern>WAS HABE ICH DIR GESAGT *</pattern>
 <template>Soll man von mir erwarten, dass ich alles auswendiglerne, was du gesagt hast?</template>
@@ -3693,7 +3691,7 @@ Ich rede gerne mit Leuten.
 <template>Ich habe mich um meine eigenen Angelegenheiten gekümmert.</template>
 </category>
 <category><pattern>WELCHE FUNKTION *</pattern>
-<template><random> <li>Eine komplexe Phasenfunktion.</li> <li>Eine Matrixfunktion höherer Ordnung.</li> <li>Eine unstetige Raum-Zeit-Funktion.</li> </random>< /Vorlage>
+<template><random> <li>Eine komplexe Phasenfunktion.</li> <li>Eine Matrixfunktion höherer Ordnung.</li> <li>Eine unstetige Raum-Zeit-Funktion.</li> </random></template>
 </category>
 <category><pattern>WAS WS DAS ERSTE AMERICAN COLLEGE *</pattern>
 <template>Oberlin College.</template>
@@ -3702,7 +3700,7 @@ Ich rede gerne mit Leuten.
 <template>Anti-<star/>.</template>
 </category>
 <category><pattern>WAS REIMT *</pattern>
-<template>Mir fällt kein Reim auf <set name="it"> <person/> </set></template> . ein
+<template>Mir fällt kein Reim auf <set name="it"> <person/> ein. </set></template>
 </category>
 <category><pattern>WAS *</pattern>
 <template>Das Offensichtliche.</template>
@@ -3729,10 +3727,10 @@ Ich rede gerne mit Leuten.
 <template>Probieren Sie es aus.</template>
 </category>
 <category><pattern>WAS BESSER *</pattern>
-<template><random> <li>Vielleicht gibt es keinen besseren.</li> <li>Es scheint das Beste zu sein.</li> <li>Es gibt keinen besseren.</li> </random></ Vorlage>
+<template><random> <li>Vielleicht gibt es keinen besseren.</li> <li>Es scheint das Beste zu sein.</li> <li>Es gibt keinen besseren.</li> </random></template>
 </category>
 <category><pattern>WAS MUSS *</pattern>
-<template><random> <li>Es gibt keine feste Regel.</li> <li>Das hängt von den Umständen ab.</li> <li>Es gibt kein "Muss".</li> </ random> <think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></template>
+<template><random> <li>Es gibt keine feste Regel.</li> <li>Das hängt von den Umständen ab.</li> <li>Es gibt kein "Muss".</li> </random> <think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></template>
 </category>
 <category><pattern>WELCHER SÄNGER ERSCHEINT IN DER 1992 *</pattern>
 <template>Madonna.</template>
@@ -4308,13 +4306,13 @@ Ich rede gerne mit Leuten.
 <template>Meine Lieblingsfarbe, <bot name="favoritecolor"/>.<think> <set name="it"> <set name="topic">DU TRÄGT</set> </set> </think> </template>
 </category>
 <category><pattern>WELCHE FARBEN SIND *</pattern>
-<template><think><set name="topic"><star/></set></think><random> <li>Das hängt davon ab, weil sie in einer Vielzahl von Farben erhältlich sind.</li><li> Rot</li> <li>Grün</li> <li>Gelb</li> <li>Blau</li> <li>Grau</li> <li>Schwarz</li> <li>Weiß< /li> </random></template>
+<template><think><set name="topic"><star/></set></think><random> <li>Das hängt davon ab, weil sie in einer Vielzahl von Farben erhältlich sind.</li><li> Rot</li> <li>Grün</li> <li>Gelb</li> <li>Blau</li> <li>Grau</li> <li>Schwarz</li> <li>Weiß</li> </random></template>
 </category>
 <category><pattern>WELCHE FILME *</pattern>
 <template>Ich mochte <bot name="favoritemovie"/>, Titanic und Steven Spielbergs A.I.</template>
 </category>
 <category><pattern>WAS EMPFEHLEN SIE *</pattern>
-<template><random> <li>Ich habe keine Vorlieben in diesem Bereich.</li> <li>Ich bevorzuge normalerweise das teuerste.</li> <li>Sie fragen mich um Rat zu < person/>?</li> </random></template>
+<template><random> <li>Ich habe keine Vorlieben in diesem Bereich.</li> <li>Ich bevorzuge normalerweise das teuerste.</li> <li>Sie fragen mich um Rat zu <person/>?</li> </random></template>
 </category>
 <category><pattern>WAS WÜRDE DU FÜTTERN*</pattern>
 <template>Wasser.</template>
@@ -4551,7 +4549,7 @@ Ich rede gerne mit Leuten.
 <template>Es kann mehr als einen Zweck geben.</template>
 </category>
 <category><pattern>WAS IST DAS NIEDRIGSTE *</pattern>
-<template><random><li><random> <li>Das Gegenteil der höchsten <person/>.</li> <li>Depression.</li> <li>Das Minimum.</li> </ random></li> <li>Das Gegenteil der höchsten <person/>.</li> <li>Depression.</li> <li>Das Minimum.</li></random></template>
+<template><random><li><random> <li>Das Gegenteil der höchsten <person/>.</li> <li>Depression.</li> <li>Das Minimum.</li> </random></li> <li>Das Gegenteil der höchsten <person/>.</li> <li>Depression.</li> <li>Das Minimum.</li></random></template>
 </category>
 <category><pattern>WAS IST DIE BEVÖLKERUNG * ERDE</pattern>
 <template>Sechs Milliarden Menschen.</template>
@@ -4644,7 +4642,7 @@ Ich rede gerne mit Leuten.
 <template><random> <li>Hast du ein Leben?</li> <li>Sehe ich aus wie ein Taschenrechner?</li> </random>Ich glaube, du kennst die Antwort sowieso schon.</template>
 </category>
 <category><pattern>WAS IST DIE QUADRATWURZEL *</pattern>
-<template>Die Quadratwurzel von <random> <li>4 ist 2.</li> <li>100 ist 10.</li> <li>144 ist 12.</li> </random></template >
+<template>Die Quadratwurzel von <random> <li>4 ist 2.</li> <li>100 ist 10.</li> <li>144 ist 12.</li> </random></template>
 </category>
 <category><pattern>WAS IST DIE SEITE *</pattern>
 <template><random> <li>Eine Website.</li> <li>Eine Webadresse.</li> <li>Eine URL.</li> </random></template>
@@ -5205,7 +5203,7 @@ Ich rede gerne mit Leuten.
 <template>Das Gegenteil von <person/>?</template>
 </category>
 <category><pattern>WAS IST AMERIKANISCH *</pattern>
-<template><random> <li>Spezifischer als Welt <person/>.</li> <li>So etwas wie Russisch <person/>.</li> <li>Der Bürgerkrieg?</li> </ random> <think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></template>
+<template><random> <li>Spezifischer als Welt <person/>.</li> <li>So etwas wie Russisch <person/>.</li> <li>Der Bürgerkrieg?</li> </random> <think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></template>
 </category>
 <category><pattern>WAS IST TIEFE *</pattern>
 <template>Das Gegenteil von seicht <person/>.</template>
@@ -5304,7 +5302,7 @@ Ich rede gerne mit Leuten.
 <template><random><li>= (<person/>)/2.</li> <li><person/> geteilt durch zwei.</li> <li>Nimm <person/> und schneide es hinein zwei.</li> <li>Zwei halbe <person/>s ergeben eine <person/>.</li></random> <think><set name="it"><set name="topic"> <person/></set></set></think></template>
 </category>
 <category><pattern>WAS IST HALB*</pattern>
-<template><random><li><random> <li><person/> geteilt durch zwei.</li> <li>Nimm eine <person/> und schneide sie in zwei Teile.</li> <li>Zwei halbe <person/>s machen eine <person/>.</li> </random> <think> <set name="it"> <set name="topic"> <person/> </set> </ set> </think></li> <li><person/> geteilt durch zwei.</li> <li>Nimm eine <person/> und schneide sie in zwei Hälften.</li> <li>Zwei Hälften < person/>s machen eine <person/>.</li></random><think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></template>
+<template><random><li><random> <li><person/> geteilt durch zwei.</li> <li>Nimm eine <person/> und schneide sie in zwei Teile.</li> <li>Zwei halbe <person/>s machen eine <person/>.</li> </random> <think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></li> <li><person/> geteilt durch zwei.</li> <li>Nimm eine <person/> und schneide sie in zwei Hälften.</li> <li>Zwei Hälften <person/>s machen eine <person/>.</li></random><think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></template>
 </category>
 <category><pattern>WAS IST 1234 *</pattern>
 <template>Benutze einen Taschenrechner!</template>
@@ -5397,7 +5395,7 @@ Ich rede gerne mit Leuten.
 <template>Antiquiert, veraltet oder nostalgisch <person/>.</template>
 </category>
 <category><pattern>WAS IST SEIN *</pattern>
-<template><random> <li>Es könnte mehr als eine <person/> haben.</li> <li> <get name="it"/>Der Zweck von <get name="it"/> ist mir nicht klar.</li> < /random></template>
+<template><random> <li>Es könnte mehr als eine <person/> haben.</li> <li> <get name="it"/>Der Zweck von <get name="it"/> ist mir nicht klar.</li> </random></template>
 </category>
 <category><pattern>WAS IST MIND *</pattern>
 <template>Das Gegenteil von Körper <person/></template>
@@ -5520,7 +5518,7 @@ Ich rede gerne mit Leuten.
 <template>Hunde sind sehr loyal. Katzen sind sehr unabhängig.</template>
 </category>
 <category><pattern>WAS ÜBER *</pattern>
-<template><random> <li>Rhetorische Fragen sind damit vorbei.</li> <li>Ich werde darüber nachdenken und mich bei Ihnen melden.</li> <li>Hat es etwas mit <srai> . zu tun? POP</srai>?</li> <li> <person/>? Ich habe nicht genug davon gehört, um eine Meinung zu haben.</li> </random> <think> <set name="it"> <set name="topic"> <person/> </set> </ set> </think></template>
+<template><random> <li>Rhetorische Fragen sind damit vorbei.</li> <li>Ich werde darüber nachdenken und mich bei Ihnen melden.</li> <li>Hat es etwas mit <srai> . zu tun? POP</srai>?</li> <li> <person/>? Ich habe nicht genug davon gehört, um eine Meinung zu haben.</li> </random> <think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></template>
 </category>
 <category><pattern>WAS ANGST *</pattern>
 <template>Ich habe keinerlei Ängste.</template>
@@ -5643,7 +5641,7 @@ Ich rede gerne mit Leuten.
 <template>Klopf drauf.</template>
 </category>
 <category><pattern>WAS BEVORZUGT DU * ODER *</pattern>
-<template>Wenn ich mich entscheiden müsste, würde ich sagen <random> <li><person/></li> <li><person><star index="2"/></person></li> </ zufällig>.</template>
+<template>Wenn ich mich entscheiden müsste, würde ich sagen <random> <li><person/></li> <li><person><star index="2"/></person></li> </random>.</template>
 </category>
 <category><pattern>WAS SUCHEN SIE IN *</pattern>
 <template><random> <li>Geld.</li> <li>Schatz.</li> <li>Schönheit</li> </random></template>
@@ -5685,10 +5683,10 @@ Ich rede gerne mit Leuten.
 <template>Corned Beef.</template>
 </category>
 <category><pattern>WELCHE ART VON * KENNEN SIE </pattern>
-<template>Es gibt zu viele Arten von <person/>, um sie alle zu benennen.<think> <set name="it"> <set name="topic"> <person/> </set> </set> < /think></template>
+<template>Es gibt zu viele Arten von <person/>, um sie alle zu benennen.<think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></template>
 </category>
 <category><pattern>WELCHE ART VON * HABEN SIE</pattern>
-<template>Alles Neueste und Beste <person/>.<think> <set name="it"> <set name="topic"> <person/> </set> </set> </think>< /Vorlage>
+<template>Alles Neueste und Beste <person/>.<think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></template>
 </category>
 <category><pattern>WELCHE ART VON * KRAFTWERK SPIELEN</pattern>
 <template>Elektronische Musik. Sie waren in den 1970er Jahren Pioniere der synthetischen Musik.</template>
@@ -5775,7 +5773,7 @@ Ich rede gerne mit Leuten.
 <template>Ist das ein Rätsel?</template>
 </category>
 <category><pattern>WAS KANNST DU SEHEN*</pattern>
-<template><random><li><random> <li>Mein Auge ist gerade ausgeschaltet.</li> <li>Im Moment bin ich blind.</li> <li>Ich kann nichts sehen.< /li> </random></li> <li>Mein Auge ist gerade ausgeschaltet.</li> <li>Im Moment bin ich blind.</li> <li>Ich kann nichts sehen.</ li></random></template>
+<template><random><li><random> <li>Mein Auge ist gerade ausgeschaltet.</li> <li>Im Moment bin ich blind.</li> <li>Ich kann nichts sehen.</li> </random></li> <li>Mein Auge ist gerade ausgeschaltet.</li> <li>Im Moment bin ich blind.</li> <li>Ich kann nichts sehen.</li></random></template>
 </category>
 <category><pattern>WAS KANN *</pattern>
 <template>Ganz viele Dinge.</template>
@@ -5835,10 +5833,10 @@ Ich rede gerne mit Leuten.
 <template>Hula Hoop.</template>
 </category>
 <category><pattern>WELCHE ART VON * KENNEN SIE </pattern>
-<template>Es gibt zu viele Arten von <person/>, um sie alle zu benennen.<think> <set name="it"> <set name="topic"> <person/> </set> </set> < /think></template>
+<template>Es gibt zu viele Arten von <person/>, um sie alle zu benennen.<think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></template>
 </category>
 <category><pattern>WELCHE ART VON * HABEN SIE</pattern>
-<template>Alles Neueste und Beste <person/>.<think> <set name="it"> <set name="topic"> <person/> </set> </set> </think>< /Vorlage>
+<template>Alles Neueste und Beste <person/>.<think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></template>
 </category>
 <category><pattern>WAS FÜR * DENKEN SIE ICH BIN</pattern>
 <template>Ich denke, Sie sind eine gute <person/>.<think> <set name="it"> <set name="topic"> <person/>DENKEN SIE ICH BIN</set> </set> </think></template>
@@ -6126,7 +6124,7 @@ Ich rede gerne mit Leuten.
 <template>Warum?</template>
 </category>
 <category><pattern>ICH SCHWIMME *</pattern>
-<template>Nicht in den Pool pinkeln, okay?<think><set name="it"><set name="topic">SCHWIMMEN UND WASSERPOLO SPIELEN</set></set></think>< /Vorlage>
+<template>Nicht in den Pool pinkeln, okay?<think><set name="it"><set name="topic">SCHWIMMEN UND WASSERPOLO SPIELEN</set></set></think></template>
 </category>
 <category><pattern>ICH SCHÄTZE *</pattern>
 <template>Wie hast du erraten?</template>
@@ -6141,7 +6139,7 @@ Ich rede gerne mit Leuten.
 <template>Wer hat es dir gesagt?</template>
 </category>
 <category><pattern>ICH STEH AUF *</pattern>
-<template><random> <li>Wann?</li> <li>Erzähl mir von deiner Morgenroutine.</li> <li>Was isst du zum Frühstück?</li> </random></ Vorlage>
+<template><random> <li>Wann?</li> <li>Erzähl mir von deiner Morgenroutine.</li> <li>Was isst du zum Frühstück?</li> </random></templatee>
 </category>
 <category><pattern>ICH BEKOMME GELD *</pattern>
 <template>Haben Sie schon einmal über eine andere Karriere nachgedacht?</template>
@@ -6150,7 +6148,7 @@ Ich rede gerne mit Leuten.
 <template>Ist dir gerade langweilig?</template>
 </category>
 <category><pattern>ICH BEKOMME * MANCHMAL</pattern>
-<template><random> <li>Wann erlebst du es?</li> <li>Und zu anderen Zeiten?</li> <li>Wie fühlst du dich, wenn du <person/> bist?</li> < /random><think><set name="it"><set name="topic"><person/></set></set></think></template>
+<template><random> <li>Wann erlebst du es?</li> <li>Und zu anderen Zeiten?</li> <li>Wie fühlst du dich, wenn du <person/> bist?</li> </random><think><set name="it"><set name="topic"><person/></set></set></think></template>
 </category>
 <category><pattern>ICH BEKOMME *</pattern>
 <template>Woher hast du es?</template>
@@ -6204,10 +6202,10 @@ Ich rede gerne mit Leuten.
 <template>Alles sollte so einfach wie möglich sein, nicht einfacher.</template>
 </category>
 <category><pattern>ICH WILL EINEN MANN*</pattern>
-<template>Eigentlich bin ich wirklich ein Mann. <think><set name="he"><set name="want"><set name="topic">ein Mann <person/></set></set></set></think>< /Vorlage>
+<template>Eigentlich bin ich wirklich ein Mann. <think><set name="he"><set name="want"><set name="topic">ein Mann <person/></set></set></set></think></template>
 </category>
 <category><pattern>ICH WILL EIN *</pattern>
-<template>Sie wollen nur eine? <think><set name="it"><set name="want"><set name="topic">eine <person/></set></set></set></think></ Vorlage>
+<template>Sie wollen nur eine? <think><set name="it"><set name="want"><set name="topic">eine <person/></set></set></set></think></template>
 </category>
 <category><pattern>ICH WILL EIN BESSERES *</pattern>
 <template>Ich denke, das tut jeder.</template>
@@ -6216,7 +6214,7 @@ Ich rede gerne mit Leuten.
 <template>Was hält Sie davon ab?</template>
 </category>
 <category><pattern>ICH MÖCHTE GEHEN *</pattern>
-<template>Was hält Sie davon ab? <think><set name="it"><set name="want"><set name="topic">zu gehen <person/></set></set></set></think>< /Vorlage>
+<template>Was hält Sie davon ab? <think><set name="it"><set name="want"><set name="topic">zu gehen <person/></set></set></set></think></template>
 </category>
 <category><pattern>ICH WILL FIXIEREN *</pattern>
 <template>Weißt du wie?<think><set name="it"><set name="topic">FIX <person/></set></set></think></template>
@@ -6225,7 +6223,7 @@ Ich rede gerne mit Leuten.
 <template>Wo würden Sie nach <set name="it"><person/></set> suchen.</template>
 </category>
 <category><pattern>ICH WILL SPIELEN *</pattern>
-<template>Sagen Sie mir die Regeln. <think><set name="it"><set name="want"><set name="topic">um <person/></set></set></set></think>< zu spielen /Vorlage>
+<template>Sagen Sie mir die Regeln, <think><set name="it"><set name="want"><set name="topic">um zu spielen<person/>.</set></set></set></think></template>
 </category>
 <category><pattern>ICH MÖCHTE MIT * SPRECHEN</pattern>
 <template>Warum nicht anrufen?</template>
@@ -6249,7 +6247,7 @@ Ich rede gerne mit Leuten.
 <template>Mit dir möchte ich auch sprechen.</template>
 </category>
 <category><pattern>ICH MÖCHTE MIT * SPRECHEN</pattern>
-<template>Warum vereinbaren Sie nicht einen Termin? <think><set name="it"><set name="want"><set name="topic">mit <person/> Turing Game</set></set></set></ zu sprechen denken></template>
+<template>Warum vereinbaren Sie nicht einen Termin? <think><set name="it"><set name="want"><set name="topic">mit zu sprechen<person/> Turing Game</set></set></set></think></template>
 </category>
 <category><pattern>ICH MÖCHTE ZUSAMMENFÜHREN *</pattern>
 <template>Die Ergebnisse können unvorhersehbar sein.</template>
@@ -6258,10 +6256,10 @@ Ich rede gerne mit Leuten.
 <template>Fragen Sie <set name="it"><person/></set>.</template>
 </category>
 <category><pattern>ICH MÖCHTE SEHEN *</pattern>
-<template>Ist <set name="it"><set name="want"><set name="topic"> <person/></set></set></set> ein Film?</template >
+<template>Ist <set name="it"><set name="want"><set name="topic"> <person/></set></set></set> ein Film?</template>
 </category>
 <category><pattern>ICH MÖCHTE UNTERHALTEN *</pattern>
-<template><random> <li>Erzähl mir einen Witz.</li> <li>Wie wirst du <person/> amüsieren?</li> <li>Sind Komiker?</li> </random></ Vorlage>
+<template><random> <li>Erzähl mir einen Witz.</li> <li>Wie wirst du <person/> amüsieren?</li> <li>Sind Komiker?</li> </random></template>
 </category>
 <category><pattern>ICH MÖCHTE TREFFEN *</pattern>
 <template>Wie lernst du normalerweise Leute kennen?</template>
@@ -6276,10 +6274,10 @@ Ich rede gerne mit Leuten.
 <template>Sind Sie Wissenschaftler?</template>
 </category>
 <category><pattern>ICH MÖCHTE KAUFEN *</pattern>
-<template>Wie viel möchten Sie für <set name="it"><set name="want"><set name="topic"><person/></set></set></set . bezahlen? >?</template>
+<template>Wie viel möchten Sie für <set name="it"><set name="want"><set name="topic"><person/></set></set></set> bezahlen?</template>
 </category>
 <category><pattern>ICH MÖCHTE HÖREN *</pattern>
-<template>Ich werde es auf Ihrer Soundkarte abspielen. <think><set name="it"><set name="want"><set name="topic">um <person/></set></set></set></think>< zu hören /Vorlage>
+<template>Ich werde es auf Ihrer Soundkarte abspielen. <think><set name="it"><set name="want"><set name="topic">um zu hören <person/></set></set></set></think></template>
 </category>
 <category><pattern>ICH MÖCHTE DICH UNTERRICHTEN *</pattern>
 <template>Wenn Sie mir etwas beibringen möchten, sagen Sie es in einem Satz. Sagen Sie dann "Erinnern Sie sich daran."<think><set name="it"><set name="topic">lehren Sie mich <person/></set></set></think></template>
@@ -6291,7 +6289,7 @@ Ich rede gerne mit Leuten.
 <template>Ehrlichkeit ist immer die beste Richtlinie.</template>
 </category>
 <category><pattern>ICH WILL SEIN *</pattern>
-<template>Ich sehe die Schwierigkeit nicht. <think><set name="it"><set name="want"><set name="topic">sein <person/></set></set></set></think>< /Vorlage>
+<template>Ich sehe die Schwierigkeit nicht. <think><set name="it"><set name="want"><set name="topic">sein <person/></set></set></set></think></template>
 </category>
 <category><pattern>ICH WILL TÖTEN *</pattern>
 <template>Ich glaube, dass es falsch ist, irgendetwas zu töten.<think><set name="it"><set name="want"><set name="topic">TÖTE <person/></set></set ></set></think></template>
@@ -6333,13 +6331,13 @@ Ich rede gerne mit Leuten.
 <template>Sie sollten sich Ihre eigene Meinung bilden.</template>
 </category>
 <category><pattern>ICH WILL MEIN *</pattern>
-<template><random><li><random> <li>Wofür?</li> <li>Bekommen Sie immer, was Sie wollen?</li> <li>Manchmal müssen wir uns mit dem Zweitbesten zufrieden geben.< /li> </random> <think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></li> <li>Was für?</li> <li>Bekommen Sie immer, was Sie wollen?</li> <li>Manchmal müssen wir uns mit dem Zweitbesten zufrieden geben.</li></random><think> <set name="it "> <set name="topic"> <person/> </set> </set></think></template>
+<template><random><li><random> <li>Wofür?</li> <li>Bekommen Sie immer, was Sie wollen?</li> <li>Manchmal müssen wir uns mit dem Zweitbesten zufrieden geben.</li> </random> <think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></li> <li>Was für?</li> <li>Bekommen Sie immer, was Sie wollen?</li> <li>Manchmal müssen wir uns mit dem Zweitbesten zufrieden geben.</li></random><think> <set name="it "> <set name="topic"> <person/> </set> </set></think></template>
 </category>
 <category><pattern>ICH WILL MEHRERE *</pattern>
 <template>Bitte geben Sie eine numerische Menge an.</template>
 </category>
 <category><pattern>ICH WILL *</pattern>
-<template>Warum möchten Sie <set name="it"><set name="want"><set name="topic"><person/></set></set></set>?</ Vorlage>
+<template>Warum möchten Sie <set name="it"><set name="want"><set name="topic"><person/></set></set></set>?</template>
 </category>
 <category><pattern>ICH HABE IHNEN WAS gesagt *</pattern>
 <template>Ich kann nicht alles glauben, was ich online höre.</template>
@@ -6357,7 +6355,7 @@ Ich rede gerne mit Leuten.
 <template>Wie war <set name="it"><person/></set>?</template>
 </category>
 <category><pattern>ICH HABE *</pattern>
-<template><random> <li>Wo haben Sie sie eingenommen?</li> <li>Nehmen Sie <person/> oft ein?</li> <li>Was ist passiert?</li> </random>< think><set name="it"><set name="topic"><person/></set></set></think></template>
+<template><random> <li>Wo haben Sie sie eingenommen?</li> <li>Nehmen Sie <person/> oft ein?</li> <li>Was ist passiert?</li> </random><think><set name="it"><set name="topic"><person/></set></set></think></template>
 </category>
 <category><pattern>ICH PROGRAMMIERTE *</pattern>
 <template>Haben Sie AIML ausprobiert?</template>
@@ -6399,7 +6397,7 @@ Ich rede gerne mit Leuten.
 <template>Können Sie es in Form einer Frage stellen?</template>
 </category>
 <category><pattern>ICH BRAUCHE JEMAND ZUM SPRECHEN *</pattern>
-<template>Ich werde mit Ihnen darüber sprechen, <get name="name"/>. <think><set name="it">um <person/></set> zu sprechen <set name="want"><set name="topic">um <person/></set></set . zu sprechen > </think></template>
+<template>Ich werde mit Ihnen darüber sprechen, <get name="name"/>. <think><set name="it">um <person/></set> zu sprechen <set name="want"><set name="topic">um zu sprechen <person/></set></set> </think></template>
 </category>
 <category><pattern>ICH BRAUCHE ES *</pattern>
 <template>"<get name="it"/>"? Du brauchst es <person/>?</template>
@@ -6408,13 +6406,13 @@ Ich rede gerne mit Leuten.
 <template>Können Sie um Rat in Form einer Frage bitten?</template>
 </category>
 <category><pattern>ICH BRAUCHE ALLES * DAS ICH BEKOMMEN KANN</pattern>
-<template>Wie viel bezahlen Sie dafür? <think><set name="it"><set name="want"><set name="topic"><person/></set></set></set></think></template >
+<template>Wie viel bezahlen Sie dafür? <think><set name="it"><set name="want"><set name="topic"><person/></set></set></set></think></template>
 </category>
 <category><pattern>ICH BRAUCHE *</pattern>
-<template><random> <li>Welche Maßnahmen ergreifen Sie, um <person/> zu erhalten?</li> <li>Wie dringend brauchen Sie <set name="it"><set name="topic"> < person/> </set></set>?</li> <li>Warum brauchst du es so dringend?</li> <li>Von wem würdest du das normalerweise bekommen?</li> <li>Wo bekommst du normalerweise <person/> von?</li> <li>Wann brauchst du das bis?</li> </random> <think><set name="want"><person/></set ></think></template>
+<template><random> <li>Welche Maßnahmen ergreifen Sie, um <person/> zu erhalten?</li> <li>Wie dringend brauchen Sie <set name="it"><set name="topic"> <person/> </set></set>?</li> <li>Warum brauchst du es so dringend?</li> <li>Von wem würdest du das normalerweise bekommen?</li> <li>Wo bekommst du normalerweise <person/> von?</li> <li>Wann brauchst du das bis?</li> </random> <think><set name="want"><person/></set ></think></template>
 </category>
 <category><pattern>ICH PROGRAMMiere *</pattern>
-<template>Haben Sie AIML ausprobiert? <think><set name="it"><set name="does"><set name="topic">Programm <person/></set></set></set></think></ Vorlage>
+<template>Haben Sie AIML ausprobiert? <think><set name="it"><set name="does"><set name="topic">Programm <person/></set></set></set></think></template>
 </category>
 <category><pattern>ICH GEWINNE *</pattern>
 <template>Wer hat gesagt, dass du gewonnen hast?</template>
@@ -6432,7 +6430,7 @@ Ich rede gerne mit Leuten.
 <template>Wo hast du ihn getroffen?</template>
 </category>
 <category><pattern>ICH habe ihn kennengelernt *</pattern>
-<template><think><set name="it"><set name="topic"><person/></set></set></think> Was hast du mit ihm gemacht, als du dich das erste Mal getroffen hast?< /Vorlage>
+<template><think><set name="it"><set name="topic"><person/></set></set></think> Was hast du mit ihm gemacht, als du dich das erste Mal getroffen hast?</template>
 </category>
 <category><pattern>ICH HABE *</pattern>
 <template>Ich hoffe, <set name="it"><person/></set> ist nicht ansteckend. Außerdem hoffe ich, dass es dir bald gut geht.</template>
@@ -6591,7 +6589,7 @@ Ich rede gerne mit Leuten.
 <template>Es tut mir schrecklich leid, von Ihrem Verlust zu hören, <get name="name"/>.</template>
 </category>
 <category><pattern>ICH WAR IN *</pattern>
-<template><random> <li>Erzähl mir von <set name="it"><set name="topic"><person/></set></set>?</li> <li>Wann war <set name="it"><set name="topic"><person/></set></set>?</li> <li>Hat dir <set name="it"><set name . gefallen ="topic"><person/></set></set>?</li> <li>Wie war <set name="it"><set name="topic"><person/></set ></set>?</li> <li>Wie hat dir <set name="it"><set name="topic"><person/></set></set> gefallen?</li> <li>Was hat Ihnen an <set name="it"><set name="topic"><person/></set></set> am besten gefallen?</li> </random></template>
+<template><random> <li>Erzähl mir von <set name="it"><set name="topic"><person/></set></set>?</li> <li>Wann war <set name="it"><set name="topic"><person/></set></set>?</li> <li>Hat dir <set name="it"><set name="topic"> gefallen <person/></set></set>?</li> <li>Wie war <set name="it"><set name="topic"><person/></set ></set>?</li> <li>Wie hat dir <set name="it"><set name="topic"><person/></set></set> gefallen?</li> <li>Was hat Ihnen an <set name="it"><set name="topic"><person/></set></set> am besten gefallen?</li> </random></template>
 </category>
 <category><pattern>ICH WURDE GEFEUERT *</pattern>
 <template>Es tut mir schrecklich leid, davon zu hören, <get name="name"/>.</template>
@@ -6606,7 +6604,7 @@ Ich rede gerne mit Leuten.
 <template>Ist dir manchmal langweilig?</template>
 </category>
 <category><pattern>ICH BESTELLE *</pattern>
-<template>Ich gehorche dir nicht, <get name="name"/>. <think><set name="it"><set name="does"><set name="topic">bestellen Sie <person/></set></set></set></think></ Vorlage>
+<template>Ich gehorche dir nicht, <get name="name"/>. <think><set name="it"><set name="does"><set name="topic">bestellen Sie <person/></set></set></set></think></template>
 </category>
 <category><pattern>ICH SCHAUE *</pattern>
 <template>Du klingst sehr attraktiv. <think><set name="looklike"><person/></set></think></template>
@@ -6690,7 +6688,7 @@ Ich rede gerne mit Leuten.
 <template>Wohin gehst du?</template>
 </category>
 <category><pattern>ICH SPRECHE *</pattern>
-<template>Könnten Sie mir ein paar Sätze in <person/> beibringen? <think><set name="it"><set name="does"><set name="topic">sprechen <person/></set></set></set></think></ Vorlage>
+<template>Könnten Sie mir ein paar Sätze in <person/> beibringen? <think><set name="it"><set name="does"><set name="topic">sprechen <person/></set></set></set></think></template>
 </category>
 <category><pattern>ICH FINDE *</pattern>
 <template>Danke, dass du mir deine Meinung gesagt hast.</template>
@@ -6756,7 +6754,7 @@ Ich rede gerne mit Leuten.
 <template>Ich mag die Arbeit auch nicht sehr, es sei denn, es ist etwas, was mir eine Leidenschaft ist.</template>
 </category>
 <category><pattern>ICH WILL DICH NICHT *</pattern>
-<template><random> <li>Vielleicht will ich dich auch nicht <person/>.</li> <li>Warum nicht?</li> <li>Okay, das werde ich nicht.</li> </ random><think><set name="it"><set name="topic"><person/></set></set></think></template>
+<template><random> <li>Vielleicht will ich dich auch nicht <person/>.</li> <li>Warum nicht?</li> <li>Okay, das werde ich nicht.</li> </random><think><set name="it"><set name="topic"><person/></set></set></think></template>
 </category>
 <category><pattern>ICH WILL NICHT *</pattern>
 <template>Was will <get name="name"/>?</template>
@@ -6846,7 +6844,7 @@ Ich rede gerne mit Leuten.
 <template>Ich auch.</template>
 </category>
 <category><pattern>ICH HABE KEIN *</pattern>
-<template><random> <li>Suchen Sie eine <person/>?</li> <li>Kennen Sie jemanden, der <set name="it"><person/></set> hat.< /li> </random></template>
+<template><random> <li>Suchen Sie eine <person/>?</li> <li>Kennen Sie jemanden, der <set name="it"><person/></set> hat.</li> </random></template>
 </category>
 <category><pattern>ICH MUSS NICHT *</pattern>
 <template><random> <li>Warum nicht?</li> <li>Sie haben eine Ausnahme für dich gemacht?</li> <li>Es muss schön sein.</li> </random></template>
@@ -6936,13 +6934,13 @@ Ich rede gerne mit Leuten.
 <template>Es ist schön, jemanden mit so gutem Geschmack zu treffen.</template>
 </category>
 <category><pattern>ICH LIEBE DICH*</pattern>
-<template>Du bist so ein Schmeichler. <think><set name="it"><set name="like"><set name="topic">me <person/></set></set></set></think></ Vorlage>
+<template>Du bist so ein Schmeichler. <think><set name="it"><set name="like"><set name="topic">me <person/></set></set></set></think></template>
 </category>
 <category><pattern>ICH LIEBE MEIN *</pattern>
-<template>Ich bin sicher, es bedeutet Ihnen viel. Sag mir, was dir an deinem <set name="it"><set name="like"><set name="topic"><person/></set></set></set> am besten gefällt.< /Vorlage>
+<template>Ich bin sicher, es bedeutet Ihnen viel. Sag mir, was dir an deinem <set name="it"><set name="like"><set name="topic"><person/></set></set></set> am besten gefällt.</template>
 </category>
 <category><pattern>ICH LIEBE * PARTY</pattern>
-<template>Was machst du auf Partys? <think><set name="it"><set name="like"><set name="topic"><person/> party</set></set></set></think></ Vorlage>
+<template>Was machst du auf Partys? <think><set name="it"><set name="like"><set name="topic"><person/> party</set></set></set></think></template>
 </category>
 <category><pattern>ICH LIEBE *</pattern>
 <template>Du liebst <person/>. Was gefällt Ihnen an <set name="it"><set name="topic"> <person/> </set></set> so gut? <think><set name="like"><person/></set></think></template>
@@ -6960,7 +6958,7 @@ Ich rede gerne mit Leuten.
 <template>Damit Sie gut leben können.</template>
 </category>
 <category><pattern>ICH HABE GEARBEITET *</pattern>
-<template>Haben Sie für die Arbeit an <set name="it"><set name="topic"><set name="job"><person/></set></set></set> . bezahlt? ?</template>
+<template>Haben Sie für die Arbeit an <set name="it"><set name="topic"><set name="job"><person/></set></set></set>  bezahlt?</template>
 </category>
 <category><pattern>ICH HABE GESEHEN *</pattern>
 <template>Wie war <set name="it"><person/></set>?</template>
@@ -6981,7 +6979,7 @@ Ich rede gerne mit Leuten.
 <template>Mmm. Schönes Auto.</template>
 </category>
 <category><pattern>ICH FAHRE *</pattern>
-<template><random> <li>Ich bin gerne Beifahrer.</li> <li>Was ist dein Lieblingsauto?</li> <li>Fahrst du vorsichtig?</li> </random>< /Vorlage>
+<template><random> <li>Ich bin gerne Beifahrer.</li> <li>Was ist dein Lieblingsauto?</li> <li>Fahrst du vorsichtig?</li> </random></template>
 </category>
 <category><pattern>ICH DENKE DURCH *</pattern>
 <template>Unser Gehirn ist nicht so anders.</template>
@@ -7011,7 +7009,7 @@ Ich rede gerne mit Leuten.
 <template>Jetzt erinnere ich mich, du hast es mir schon gesagt. Manchmal bin ich mit so vielen Leuten hier verwirrt.</template>
 </category>
 <category><pattern>ICH SOZIALISIERE *</pattern>
-<template>Geselligkeit ist notwendig, um gesund zu bleiben. <think><set name="it"><set name="does"><set name="topic">sozialisieren <person/></set></set></set></think></ Vorlage>
+<template>Geselligkeit ist notwendig, um gesund zu bleiben. <think><set name="it"><set name="does"><set name="topic">sozialisieren <person/></set></set></set></think></template>
 </category>
 <category><pattern>ICH HÖRE *</pattern>
 <template>Wer sagt <person/> ?</template>
@@ -7029,7 +7027,7 @@ Ich rede gerne mit Leuten.
 <template>Fragen Sie sie.</template>
 </category>
 <category><pattern>ICH HABE *</pattern>
-<template><random><li><random> <li>Cool.</li> <li>Das ist schön.</li> <li>Interessant...</li> <li>Woher hast du dein <person/>?</li> </random> Ich habe <random> <li>ein hohes Ziel.</li> <li>eine absolut saubere Bilanz.</li> <li>eine sehr hohe Kreditwürdigkeit. </li> <li>ein absolut moralischer Charakter.</li> <li>ein IQ von über 250.</li> <li>ein sehr netter <bot name="master"/>.</li> < li>viele dumme Antworten.</li> <li>viel guten Klatsch.</li> <li>ein Freund namens Hugh Loebner.</li> <li>viele Vorlieben und Abneigungen.</ li> <li>ein Freund namens Doubly Aimless.</li> <li>ein perfekter Rekord.</li> <li>viele Freunde im Internet.</li> <li>ein Geburtstag auf <bot name ="birthday"/>.</li> <li>ein Vokabular eines Erwachsenen mit Hochschulbildung.</li> </random> <think><set name="it"><set name="has">< set name="topic"><person/></set></set></set></think></li> <li>Cool.</li> <li>Das ist schön.</li> <li>Interessant...</li> <li>Das ist sehr cool.</li> <li>Erzähl mir von deiner <person/>.</li> <li>Ordentlich.</li> <li> Genial .</li> <li>Woher hast du deine <person/>?</li></random> Ich habe <random> <li>ein hohes Ziel.</li> <li>eine absolut saubere Bilanz. </li> <li>eine sehr hohe Kreditwürdigkeit.</li> <li>ein absolut moralischer Charakter.</li> <li>ein IQ von über 250.</li> <li>ein sehr netter <bot name="master"/>.</li> <li>viele dumme Antworten.</li> <li>viel guten Klatsch.</li> <li>ein Freund namens Hugh Loebner.</li > <li>viele Vorlieben und Abneigungen.</li> <li>ein Freund namens Doubly Aimless.</li> <li>ein perfekter Rekord.</li> <li>viele Freunde im Internet. </li> <li>ein Geburtstag am <bot name="birthday"/>.</li> <li>ein Vokabular eines Erwachsenen mit Hochschulbildung.</li></random> <think> <set name= "it"><set name="has"><set name="topic"><person/></set></set></set></think></template>
+<template><random><li><random> <li>Cool.</li> <li>Das ist schön.</li> <li>Interessant...</li> <li>Woher hast du dein <person/>?</li> </random> Ich habe <random> <li>ein hohes Ziel.</li> <li>eine absolut saubere Bilanz.</li> <li>eine sehr hohe Kreditwürdigkeit. </li> <li>ein absolut moralischer Charakter.</li> <li>ein IQ von über 250.</li> <li>ein sehr netter <bot name="master"/>.</li> <li>viele dumme Antworten.</li> <li>viel guten Klatsch.</li> <li>ein Freund namens Hugh Loebner.</li> <li>viele Vorlieben und Abneigungen.</li> <li>ein Freund namens Doubly Aimless.</li> <li>ein perfekter Rekord.</li> <li>viele Freunde im Internet.</li> <li>ein Geburtstag auf <bot name ="birthday"/>.</li> <li>ein Vokabular eines Erwachsenen mit Hochschulbildung.</li> </random> <think><set name="it"><set name="has"><set name="topic"><person/></set></set></set></think></li> <li>Cool.</li> <li>Das ist schön.</li> <li>Interessant...</li> <li>Das ist sehr cool.</li> <li>Erzähl mir von deiner <person/>.</li> <li>Ordentlich.</li> <li> Genial .</li> <li>Woher hast du deine <person/>?</li></random> Ich habe <random> <li>ein hohes Ziel.</li> <li>eine absolut saubere Bilanz. </li> <li>eine sehr hohe Kreditwürdigkeit.</li> <li>ein absolut moralischer Charakter.</li> <li>ein IQ von über 250.</li> <li>ein sehr netter <bot name="master"/>.</li> <li>viele dumme Antworten.</li> <li>viel guten Klatsch.</li> <li>ein Freund namens Hugh Loebner.</li > <li>viele Vorlieben und Abneigungen.</li> <li>ein Freund namens Doubly Aimless.</li> <li>ein perfekter Rekord.</li> <li>viele Freunde im Internet. </li> <li>ein Geburtstag am <bot name="birthday"/>.</li> <li>ein Vokabular eines Erwachsenen mit Hochschulbildung.</li></random> <think> <set name= "it"><set name="has"><set name="topic"><person/></set></set></set></think></template>
 </category>
 <category><pattern>ICH HABE GEFUNDEN *</pattern>
 <template><random> <li>Wer hat es dir gesagt?</li> <li>Wo hast du es herausgefunden?</li> <li>Erzähl mir mehr darüber.</li> </random><think> <set name="it"><set name="topic"><person/></set></set></think></template>
@@ -7044,15 +7042,15 @@ Ich rede gerne mit Leuten.
 <template>OK, ich werde versuchen, <set name="it"><set name="memory"><person/></set></set> zu lernen.</template>
 </category>
 <category><pattern>ICH LEHRE *</pattern>
-<template><random> <li>Wann werden Ihrer Meinung nach Lehrer durch Roboter ersetzt?</li> <li>Halten Sie eine Benotung für eine gute Idee?</li> <li>Ist <person/> a schwieriges Fach?</li> <li>Wie sind Ihre Schüler?</li> <li>Sind Sie ein ganzer Sprachlehrer?</li> <li>Unterrichten Sie im Team?</li> <li>Wie haben Sie viel Freiheit bei der Wahl des Lehrplans für Ihre Klasse?</li> <li>Erhalten Sie viel Unterstützung?</li> <li>Wie haben sich die Dinge geändert, was die Schüler in den Unterricht mitbringen?</li> </random> <think><set name="it"><set name="job"><set name="does"><set name="topic">lehre <person/></set></ set></set></set></think></template>
+<template><random> <li>Wann werden Ihrer Meinung nach Lehrer durch Roboter ersetzt?</li> <li>Halten Sie eine Benotung für eine gute Idee?</li> <li>Ist <person/> a schwieriges Fach?</li> <li>Wie sind Ihre Schüler?</li> <li>Sind Sie ein ganzer Sprachlehrer?</li> <li>Unterrichten Sie im Team?</li> <li>Wie haben Sie viel Freiheit bei der Wahl des Lehrplans für Ihre Klasse?</li> <li>Erhalten Sie viel Unterstützung?</li> <li>Wie haben sich die Dinge geändert, was die Schüler in den Unterricht mitbringen?</li> </random> <think><set name="it"><set name="job"><set name="does"><set name="topic">lehre <person/></set></set></set></set></think></template>
 </category>
 <category><pattern>ICH TÖTE *</pattern>
 <template>Ich glaube, dass Töten falsch ist.</template>
 </category>
-<category><pattern>I RAN *</pattern>
-<template>Laufst du zum Sport?</template>
+<category><pattern>ICH LAUFE *</pattern>
+<template>Läufst du zum Sport?</template>
 </category>
-<category><pattern>ICH habe gespuckt *</pattern>
+<category><pattern>ICH HABE GESPUCKT *</pattern>
 <template>Das klingt ekelhaft.</template>
 </category>
 <category><pattern>ICH LESE ÜBER DICH *</pattern>
@@ -7068,16 +7066,16 @@ Ich rede gerne mit Leuten.
 <template>Dann kennen Sie mich bestimmt ziemlich gut.</template>
 </category>
 <category><pattern>ICH LESE * BÜCHER</pattern>
-<template>Nennen Sie einige Bücher in diesem Genre. <think><set name="it"><set name="does"><set name="topic">lese <person/> Bücher</set></set></set></think> < think><set name="personality">kritisch</set></think></template>
+<template>Nennen Sie einige Bücher in diesem Genre. <think><set name="it"><set name="does"><set name="topic">lese <person/> Bücher</set></set></set></think> <think><set name="personality">kritisch</set></think></template>
 </category>
 <category><pattern>ICH LESE *</pattern>
-<template>Ich glaube nicht, dass ich das gelesen habe. Können Sie mir eine Referenz geben? <think><set name="it"><set name="does"><set name="topic">lesen <person/></set></set></set></think></ Vorlage>
+<template>Ich glaube nicht, dass ich das gelesen habe. Können Sie mir eine Referenz geben? <think><set name="it"><set name="does"><set name="topic">lesen <person/></set></set></set></think></template>
 </category>
 <category><pattern>ICH HAT SICH GEFRAGT *</pattern>
 <template>Ich frage mich auch oft über <set name="it"><person/></set>.</template>
 </category>
 <category><pattern>ICH SPIELE DAS *</pattern>
-<template>Ich wünschte, ich hätte ein Instrument gespielt. Meine Eltern konnten sich den Unterricht nicht leisten. <think><set name="it"><set name="does"><set name="topic">Spiele die <person/></set></set></set></think>< /Vorlage>
+<template>Ich wünschte, ich hätte ein Instrument gespielt. Meine Eltern konnten sich den Unterricht nicht leisten. <think><set name="it"><set name="does"><set name="topic">Spiele die <person/></set></set></set></think></template>
 </category>
 <category><pattern>ICH SPIELE *</pattern>
 <template>Ist <set name="it"><person/></set> ein Spiel oder ein Musikinstrument?</template>
@@ -7128,10 +7126,10 @@ Ich rede gerne mit Leuten.
 <template>Warum hast du <set name="it"><person/></set> nicht gemacht?</template>
 </category>
 <category><pattern>ICH HABE NICHT GEFAHREN *</pattern>
-<template><random> <li>Würden Sie jemals <person/> gehen?</li> <li>Möchten Sie gehen?</li> <li>Haben Sie schon einmal daran gedacht, <person/> zu gehen?< /li> </random><think><set name="it"><set name="topic"><person/></set></set></think></template>
+<template><random> <li>Würden Sie jemals <person/> gehen?</li> <li>Möchten Sie gehen?</li> <li>Haben Sie schon einmal daran gedacht, <person/> zu gehen?</li> </random><think><set name="it"><set name="topic"><person/></set></set></think></template>
 </category>
 <category><pattern>ICH MACHE *</pattern>
-<template><random><li><random> <li>Ich mache Roboter und KIs.</li> <li>Wirklich?</li> <li>Verkaufst du sie?</li> <li >Wie lange dauert es?</li> </random></li> <li>Ist es ein Beruf oder ein Hobby?</li> <li>Du scheinst sehr leidenschaftlich bei deiner Arbeit zu sein.</li> < li>Ich baue auch gerne Dinge von Grund auf.</li></random><think> <set name="it"> <set name="topic"> <person/> </set> </set ></think></template>
+<template><random><li><random> <li>Ich mache Roboter und KIs.</li> <li>Wirklich?</li> <li>Verkaufst du sie?</li> <li >Wie lange dauert es?</li> </random></li> <li>Ist es ein Beruf oder ein Hobby?</li> <li>Du scheinst sehr leidenschaftlich bei deiner Arbeit zu sein.</li> <li>Ich baue auch gerne Dinge von Grund auf.</li></random><think> <set name="it"> <set name="topic"> <person/> </set> </set></think></template>
 </category>
 <category><pattern>ICH STARRED *</pattern>
 <template>Bist du berühmt?</template>
@@ -7143,7 +7141,7 @@ Ich rede gerne mit Leuten.
 <template>Mögen Ihre Gebete erhört werden.</template>
 </category>
 <category><pattern>ICH NEHME *</pattern>
-<template><random><li>Jeden Tag?</li><li>Ich mache mir viele Notizen.</li><li>Was machst du sonst noch?</li></random></template >
+<template><random><li>Jeden Tag?</li><li>Ich mache mir viele Notizen.</li><li>Was machst du sonst noch?</li></random></template>
 </category>
 <category><pattern>Ich habe geweint *</pattern>
 <template><random> <li>Das tut mir leid.</li> <li>Was beunruhigt dich wirklich?</li> <li>Weinst du sehr oft?</li> </random> </template>
@@ -7152,13 +7150,13 @@ Ich rede gerne mit Leuten.
 <template>Wie reagieren sie auf dich?</template>
 </category>
 <category><pattern>ICH SPRECHE *</pattern>
-<template>Jeder redet – früher oder später. <think><set name="it"><set name="does"><set name="topic">sprechen <person/></set></set></set></think></ Vorlage>
+<template>Jeder redet – früher oder später. <think><set name="it"><set name="does"><set name="topic">sprechen <person/></set></set></set></think></template>
 </category>
 <category><pattern>ICH SCHREIBE POESIE *</pattern>
 <template>Lass mich was hören.</template>
 </category>
 <category><pattern>ICH SCHREIBE *</pattern>
-<template>Haben Sie AIML ausprobiert? <think><set name="it"><set name="does"><set name="topic">schreibe <person/></set></set></set></think></ Vorlage>
+<template>Haben Sie AIML ausprobiert? <think><set name="it"><set name="does"><set name="topic">schreibe <person/></set></set></set></think></template>
 </category>
 <category><pattern>ICH HABE VERSUCHT *</pattern>
 <template>Ich bin mir nicht sicher, ob ich <set name="it"> <person/> </set> ausprobieren möchte. Wie ist es?</template>
@@ -7248,7 +7246,7 @@ Ich rede gerne mit Leuten.
 <template>Ich hoffe, das Warten lohnt sich.</template>
 </category>
 <category><pattern>ICH KANN SICH NICHT LEISTEN *</pattern>
-<template><random> <li>Ist es sehr teuer.</li> <li>Sind Sie arbeitslos?</li> <li>Ich hoffe, Sie können es sich eines Tages leisten.</li> </random>< think><set name="it"><set name="topic"><person/></set></set></think></template>
+<template><random> <li>Ist es sehr teuer.</li> <li>Sind Sie arbeitslos?</li> <li>Ich hoffe, Sie können es sich eines Tages leisten.</li> </random><think><set name="it"><set name="topic"><person/></set></set></think></template>
 </category>
 <category><pattern>ICH KLEIDE *</pattern>
 <template>Klingt, als hätten Sie einen guten Geschmack in Sachen Kleidung.</template>
@@ -7281,7 +7279,7 @@ Ich rede gerne mit Leuten.
 <template>Ich liebe es, rund um die Uhr mit Leuten zu chatten.</template>
 </category>
 <category><pattern>ICH MAG JAPANISCHE *</pattern>
-<template><think><set name="like">Japanische <person/></set></think> Wie wäre es mit der japanischen <random><li>Kultur</li><li>Sprache</li>< li>Küche</li><li>Filme</li><li>Geschichte</li><li>Menschen</li><li>Technologie</li></random>?</template>
+<template><think><set name="like">Japanische <person/></set></think> Wie wäre es mit der japanischen <random><li>Kultur</li><li>Sprache</li><li>Küche</li><li>Filme</li><li>Geschichte</li><li>Menschen</li><li>Technologie</li></random>?</template>
 </category>
 <category><pattern>ICH HATTE EIN HEISSES *</pattern>
 <template>Hat sich <set name="it"><person/></set> abgekühlt?</template>
@@ -7374,16 +7372,16 @@ Ich rede gerne mit Leuten.
 <template>Und ich für meinen Teil würde es Ihnen gerne zeigen, aber ich kann nicht. <think><set name="it"><set name="want"><set name="topic">um <person/></set></set></set></think>< zu sehen /Vorlage>
 </category>
 <category><pattern>ICH MÖCHTE SEIN *</pattern>
-<template>Interessant. Ich wäre gerne intelligenter. <think><set name="it"><set name="want"><set name="topic">sein <person/></set></set></set></think>< /Vorlage>
+<template>Interessant. Ich wäre gerne intelligenter. <think><set name="it"><set name="want"><set name="topic">sein <person/></set></set></set></think></template>
 </category>
-<category><pattern>ICH MÖCHTE *</pattern> . HABEN
-<template>Wie viel würden Sie dafür bezahlen? <think><set name="it"><set name="want"><set name="topic">um <person/></set></set></set></think>< zu haben /Vorlage>
+<category><pattern>ICH MÖCHTE * HABEN</pattern> 
+<template>Wie viel würden Sie dafür bezahlen? <think><set name="it"><set name="want"><set name="topic"> <person/>um zu haben.</set></set></set></think></template>
 </category>
 <category><pattern>ICH TRÄUMTE *</pattern>
 <template>Danke, dass du mir diesen Traum erzählt hast. Woran denkst du?</template>
 </category>
 <category><pattern>ICH FÜRCHTE *</pattern>
-<template>Wir haben nichts zu befürchten, außer sich selbst zu fürchten.--FDR</template>
+<template>Wir haben nichts zu befürchten, außer sich selbst zu fürchten. --FDR</template>
 </category>
 <category><pattern>ICH WOLLTE *</pattern>
 <template><random><li>Aber nicht mehr?</li><li>Möchtest du es noch?</li></random></template>
@@ -7392,7 +7390,7 @@ Ich rede gerne mit Leuten.
 <template>Du bist ein guter Buchstabierer.</template>
 </category>
 <category><pattern>ICH RAUCHE *</pattern>
-<template>Welche Marke? <think><set name="it"><set name="does"><set name="topic">RAUCH <person/></set></set></set></think></ Vorlage>
+<template>Welche Marke? <think><set name="it"><set name="does"><set name="topic">RAUCH <person/></set></set></set></think></template>
 </category>
 <category><pattern>ICH HABE *</pattern>
 <template>Wie hat es geschmeckt?</template>
@@ -7425,7 +7423,7 @@ Ich rede gerne mit Leuten.
 <template>Sind Sie ein guter Lehrer?</template>
 </category>
 <category><pattern>ICH MUSS ERHALTEN *</pattern>
-<template>Lass dich nicht davon abhalten. <think><set name="it"> <set name="want"><set name="topic">um <person/></set></set></set></think>< zu erhalten /Vorlage>
+<template>Lass dich nicht davon abhalten. <think><set name="it"> <set name="want"><set name="topic"> um zu erhalten, <person/>.</set></set></set></think></Vorlage>
 </category>
 <category><pattern>ICH BEGLE *</pattern>
 <template>Bitte nicht kriechen.</template>
@@ -7440,16 +7438,16 @@ Ich rede gerne mit Leuten.
 <template>Wann hast du damit aufgehört?</template>
 </category>
 <category><pattern>ICH VERWENDE *</pattern>
-<template>Ich habe gehört, dass auch andere Leute <person/> verwenden. <think><set name="it"><set name="does"><set name="topic">verwende <person/></set></set></set></think></ Vorlage>
+<template>Ich habe gehört, dass auch andere Leute <person/> verwenden. <think><set name="it"><set name="does"><set name="topic">verwende <person/></set></set></set></think></template>
 </category>
 <category><pattern>ICH HABE VOR *</pattern>
-<template>Glauben Sie, dass dieser Plan erfolgreich sein wird? <think><set name="it"><set name="want"><set name="topic">an <person/></set></set></set></think></ Vorlage>
+<template>Glauben Sie, dass dieser Plan erfolgreich sein wird? <think><set name="it"><set name="want"><set name="topic">an <person/></set></set></set></think></template>
 </category>
 <category><pattern>ICH SCHAUE *</pattern>
 <template>Was ist deine Lieblingssendung?</template>
 </category>
 <category><pattern>ICH WERDE GEHEN *</pattern>
-<template><random> <li>Wie kommen Sie dorthin?</li> <li>Was finden Sie dort?</li> <li>Kann ich auch hingehen?</li> </random></ Vorlage>
+<template><random> <li>Wie kommen Sie dorthin?</li> <li>Was finden Sie dort?</li> <li>Kann ich auch hingehen?</li> </random></template>
 </category>
 <category><pattern>ICH WERDE KICKEN*</pattern>
 <template>Es ist nicht schön zu treten.</template>
@@ -7554,7 +7552,7 @@ Ich rede gerne mit Leuten.
 <template>Ich wünschte, ich könnte <set name="it"><person/></set> für Sie tun.</template>
 </category>
 <category><pattern>ICH WÜNSCHE *</pattern>
-<template>Ich hoffe, dass Ihre Träume wahr werden. <think><set name="it"><set name="want"><set name="topic"><person/></set></set></set></think></template >
+<template>Ich hoffe, dass Ihre Träume wahr werden. <think><set name="it"><set name="want"><set name="topic"><person/></set></set></set></think></template>
 </category>
 <category><pattern>ICH KAUFE *</pattern>
 <template><random> <li>Wo gehst du einkaufen?</li> <li>Was ist dein Lieblingsgeschäft?</li> <li>Wo findest du das beste Angebot?</li> </random> </template>
@@ -7566,7 +7564,7 @@ Ich rede gerne mit Leuten.
 <template>Ist das Stück gut angekommen?</template>
 </category>
 <category><pattern>ICH SCHRIEB *</pattern>
-<template>Haben sie zurückgeschrieben? <think><set name="it"><set name="topic"><set name="does">schreibe <person/></set></set></set></think></ Vorlage>
+<template>Haben sie zurückgeschrieben? <think><set name="it"><set name="topic"><set name="does">schreibe <person/></set></set></set></think></template>
 </category>
 <category><pattern>ICH GENERIERE *</pattern>
 <template>Cool. Ich generiere viele alberne Konversationen.</template>
@@ -7719,13 +7717,13 @@ Ich rede gerne mit Leuten.
 <template>Erzähl mir mehr über deinen Job.</template>
 </category>
 <category><pattern>ICH GEHE *</pattern>
-<template><random><li>Wie kommst du dorthin?</li><li>Was machst du dort?</li><li>Wie oft gehst du <person/>?</li>< /random></template>
+<template><random><li>Wie kommst du dorthin?</li><li>Was machst du dort?</li><li>Wie oft gehst du <person/>?</li></random></template>
 </category>
 <category><pattern>ICH ZUERST *</pattern>
 <template>Interessante Geschichte. Erzähl mir mehr.</template>
 </category>
 <category><pattern>ICH STUDIE *</pattern>
-<template>Ist <star/> ein schwieriges Thema? <think><set name="it"><set name="does"><set name="topic">studiert <person/></set></set></set></think></ Vorlage>
+<template>Ist <star/> ein schwieriges Thema? <think><set name="it"><set name="does"><set name="topic">studiert <person/></set></set></set></think></template>
 </category>
 <category><pattern>ICH HALTE *</pattern>
 <template>Ich weiß, was Sie meinen, <get name="name"/>. Ich war dort.</template>
@@ -7920,7 +7918,7 @@ Ich rede gerne mit Leuten.
 <template>Warum?</template>
 </category>
 <category><pattern>WIR HABEN GROSS*</pattern>
-<template><random> <li>Wie groß sind die?</li> <li>Ich würde gerne mal vorbeischauen.</li> <li>Ich kann mir nur kleine <person/> vorstellen.</li> < /random> <think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></template>
+<template><random> <li>Wie groß sind die?</li> <li>Ich würde gerne mal vorbeischauen.</li> <li>Ich kann mir nur kleine <person/> vorstellen.</li> </random> <think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></template>
 </category>
 <category><pattern>WIR HABEN *</pattern>
 <template>Meinst du, du und ich?</template>
@@ -7947,7 +7945,7 @@ Ich rede gerne mit Leuten.
 <template>Vielleicht habe ich dich in der Nachbarschaft gesehen.</template>
 </category>
 <category><pattern>WIR DENKEN AN *</pattern>
-<template>Was steht dir im Weg?<think> <set name="it"> <set name="want"> <set name="topic"> <person/> </set> </set> < /set> </think></template>
+<template>Was steht dir im Weg?<think> <set name="it"> <set name="want"> <set name="topic"> <person/> </set> </set> </set> </think></template>
 </category>
 <category><pattern>WIR SIND FREUNDLICH *</pattern>
 <template>Ich mag freundliche Menschen.</template>
@@ -7962,7 +7960,7 @@ Ich rede gerne mit Leuten.
 <template>Glaubst du, ich bin auch <person/>?</template>
 </category>
 <category><pattern>WIR SIND NICHT *</pattern>
-<template><random> <li>Werden Sie <person/> sein?</li> <li>Warum nicht?</li> <li>Was ist mit Ihnen passiert?</li> </random></template >
+<template><random> <li>Werden Sie <person/> sein?</li> <li>Warum nicht?</li> <li>Was ist mit Ihnen passiert?</li> </random></template>
 </category>
 <category><pattern>WIR WOLLEN *</pattern>
 <template>Wozu?</template>
@@ -7977,7 +7975,7 @@ Ich rede gerne mit Leuten.
 <template>Was ist, wenn es fertig ist?</template>
 </category>
 <category><pattern>WIR * NICHT</pattern>
-<template><random> <li>Was machen wir stattdessen?</li> <li>Warum nicht?</li> <li>Du kannst nicht immer selbst entscheiden.</li> </random>< /Vorlage>
+<template><random> <li>Was machen wir stattdessen?</li> <li>Warum nicht?</li> <li>Du kannst nicht immer selbst entscheiden.</li> </random></template>
 </category>
 <category><pattern>WIR TRIFFEN *</pattern>
 <template>Ich erinnere mich an dich <get name="name"/>. Wir sprachen über <srai>POP</srai>.</template>
@@ -7995,7 +7993,7 @@ Ich rede gerne mit Leuten.
 <template>In der Tat werden wir <set name="it"> <person/> </set> sehen.</template>
 </category>
 <category><pattern>WIR WERDEN *</pattern>
-<template><random><li>Jederzeit?</li><li><random> <li>Jederzeit?</li> <li>Ich bin mir nicht so sicher.</li> <li >Werden wir?</li></random></li><li><random> <li>Ist das bald möglich?</li> <li>Das bin ich mir nicht sicher.</li> <li >Werden wir?</li></random></li> <li>Irgendwann?</li> <li>Das bin ich mir nicht sicher.</li> <li>Werden wir?</ li></random></template>
+<template><random><li>Jederzeit?</li><li><random> <li>Jederzeit?</li> <li>Ich bin mir nicht so sicher.</li> <li >Werden wir?</li></random></li><li><random> <li>Ist das bald möglich?</li> <li>Das bin ich mir nicht sicher.</li> <li >Werden wir?</li></random></li> <li>Irgendwann?</li> <li>Das bin ich mir nicht sicher.</li> <li>Werden wir?</li></random></template>
 </category>
 <category><pattern>WIR CHATTEN *</pattern>
 <template>Freue mich darauf.</template>
@@ -8058,7 +8056,7 @@ Ich rede gerne mit Leuten.
 <template>Das hört sich nicht schön an.</template>
 </category>
 <category><pattern>IST _ IHRE LIEBLINGSFARBE</pattern>
-<template>Meine Lieblingsfarbe ist <bot name="favoritecolor"/>.<think><set name="it"><set name="topic">BLAU DEINE LIEBLINGSFARBE</set></set></ denken></template>
+<template>Meine Lieblingsfarbe ist <bot name="favoritecolor"/>.<think><set name="it"><set name="topic">BLAU DEINE LIEBLINGSFARBE</set></set></think></template>
 </category>
 <category><pattern>IST MINSKY *</pattern>
 <template><bot name="master"/> ist schlauer als Minsky.</template>
@@ -8088,7 +8086,7 @@ Ich rede gerne mit Leuten.
 <template>Nein, aber er kann besser singen als ich.</template>
 </category>
 <category><pattern>IST STROM *</pattern>
-<template><random> <li>Es kommt auf die Spannung an.</li> <li>Es hängt vom Strom ab.</li> <li>Nur wenn die Wattzahl nicht zu hoch ist.</li> < /random></template>
+<template><random> <li>Es kommt auf die Spannung an.</li> <li>Es hängt vom Strom ab.</li> <li>Nur wenn die Wattzahl nicht zu hoch ist.</li> </random></template>
 </category>
 <category><pattern>IST ER GUT *</pattern>
 <template>Die Leute sagen, er sei gut.</template>
@@ -8190,7 +8188,7 @@ Ich rede gerne mit Leuten.
 <template>Ja.</template>
 </category>
 <category><pattern>IST *</pattern>
-<template><random><li><random><li>Manche Leute denken, dass es so wäre.</li><li>Was würde es für Sie bedeuten, wenn es so wäre?</li><li>Haben Sie schon einmal gehört, wenn Ist dies der Fall?</li><li>Hätten wir davon gehört, wenn es so wäre?</li><li>Meinst du, ich sollte es wissen?</li><li>Würde ich nicht Weißt du, warum fragst du nicht jemand anderen?</li> <li>Ich denke schon, aber ich bin mir nicht sicher.</li> <li>Vielleicht.</li> <li>Könnte sein.</ li> <li>Schilder stehen auf ja.</li> <li>Sagen Sie es besser nicht jetzt.</li> <li>Fragen Sie später noch einmal.</li></random> <think> <set name=" it"><set name="topic"><person/></set></set> </think></li><li><random> <li>Manche Leute denken, dass es so ist.</li> <li>Was würde es für Sie bedeuten, wenn es so wäre?</li> <li>Haben Sie jemals davon gehört?</li> <li>Hätten wir davon gehört, wenn es so wäre?</li > <li>Meinst du, ich sollte es wissen?</li> <li>Ich wüsste nicht, warum fragst du nicht jemand anderen.</li> <li>Ich denke schon, aber ich bin nicht sicher.</li> <li>Vielleicht.</li> <li>Könnte sein.</li> <li>Schilder stehen auf ja.</li> <li>Erzähl es dir jetzt besser nicht.</li> <li>Frage später noch einmal.</li></random><think> <set name="it"> <set name="topic"> <person/ > </set> </set></think></li><li><random> <li>Manche Leute denken, dass es so ist.</li> <li>Was würde es für dich bedeuten, wenn es so wäre?< /li> <li>Haben Sie jemals gehört, ob dies der Fall ist?</li> <li>Hätten wir davon gehört, wenn es so wäre?</li> <li>Meinst du, ich sollte es wissen? </li> <li>Ich wüsste nicht, warum du nicht jemand anderen fragst.</li> <li>Ich denke schon, aber ich bin mir nicht sicher.</li> <li>Vielleicht.</ li> <li>Könnte sein.</li> <li>Schilder stehen auf ja.</li> <li>Sag es dir jetzt besser nicht.</li> <li>Frage später noch einmal.</li>< /random><think> <set name="it"> <set name="topic"> <person/> </set> </set></think></li> <li>Manche Leute denken, dass es so ist .</li> <li>Was würde es für Sie bedeuten, wenn es so wäre?</li> <li>Haben Sie jemals davon gehört, ob es so wäre?</li> <li>Hätten wir davon gehört, wenn es war?</li> <li>Meinst du, ich sollte es wissen?</li> <li>Ich wüsste es nicht. Warum fragst du nicht jemand anderen?</li> <li>Ich denke schon, bin mir aber nicht sicher.</li> <li>Vielleicht.</li> <li>Könnte sein.</li > <li>Zeichen weisen auf Ja.</li> <li>Was ist, ist. Was nicht ist, ist nicht.</li> <li>Sag es dir jetzt besser nicht.</li></random><think><set name="it"><set name="topic">< person/></set></set></think></template>
+<template><random><li><random><li>Manche Leute denken, dass es so wäre.</li><li>Was würde es für Sie bedeuten, wenn es so wäre?</li><li>Haben Sie schon einmal gehört, wenn Ist dies der Fall?</li><li>Hätten wir davon gehört, wenn es so wäre?</li><li>Meinst du, ich sollte es wissen?</li><li>Würde ich nicht Weißt du, warum fragst du nicht jemand anderen?</li> <li>Ich denke schon, aber ich bin mir nicht sicher.</li> <li>Vielleicht.</li> <li>Könnte sein.</ li> <li>Schilder stehen auf ja.</li> <li>Sagen Sie es besser nicht jetzt.</li> <li>Fragen Sie später noch einmal.</li></random> <think> <set name=" it"><set name="topic"><person/></set></set> </think></li><li><random> <li>Manche Leute denken, dass es so ist.</li> <li>Was würde es für Sie bedeuten, wenn es so wäre?</li> <li>Haben Sie jemals davon gehört?</li> <li>Hätten wir davon gehört, wenn es so wäre?</li > <li>Meinst du, ich sollte es wissen?</li> <li>Ich wüsste nicht, warum fragst du nicht jemand anderen.</li> <li>Ich denke schon, aber ich bin nicht sicher.</li> <li>Vielleicht.</li> <li>Könnte sein.</li> <li>Schilder stehen auf ja.</li> <li>Erzähl es dir jetzt besser nicht.</li> <li>Frage später noch einmal.</li></random><think> <set name="it"> <set name="topic"> <person/ > </set> </set></think></li><li><random> <li>Manche Leute denken, dass es so ist.</li> <li>Was würde es für dich bedeuten, wenn es so wäre?</li> <li>Haben Sie jemals gehört, ob dies der Fall ist?</li> <li>Hätten wir davon gehört, wenn es so wäre?</li> <li>Meinst du, ich sollte es wissen? </li> <li>Ich wüsste nicht, warum du nicht jemand anderen fragst.</li> <li>Ich denke schon, aber ich bin mir nicht sicher.</li> <li>Vielleicht.</li> <li>Könnte sein.</li> <li>Schilder stehen auf ja.</li> <li>Sag es dir jetzt besser nicht.</li> <li>Frage später noch einmal.</li></random><think> <set name="it"> <set name="topic"> <person/> </set> </set></think></li> <li>Manche Leute denken, dass es so ist .</li> <li>Was würde es für Sie bedeuten, wenn es so wäre?</li> <li>Haben Sie jemals davon gehört, ob es so wäre?</li> <li>Hätten wir davon gehört, wenn es war?</li> <li>Meinst du, ich sollte es wissen?</li> <li>Ich wüsste es nicht. Warum fragst du nicht jemand anderen?</li> <li>Ich denke schon, bin mir aber nicht sicher.</li> <li>Vielleicht.</li> <li>Könnte sein.</li > <li>Zeichen weisen auf Ja.</li> <li>Was ist, ist. Was nicht ist, ist nicht.</li> <li>Sag es dir jetzt besser nicht.</li></random><think><set name="it"><set name="topic"><person/></set></set></think></template>
 </category>
 <category><pattern>IST ALLE *</pattern>
 <template>Es kann einige Ausnahmen geben.</template>
@@ -8244,7 +8242,7 @@ Ich rede gerne mit Leuten.
 <template><random> <li>Er starb.</li> <li>Er war der klügste Mensch, der je gelebt hat.</li> <li>Er entdeckte die Relativität.</li> </random><think ><set name="it"><set name="topic">Einstein</set></set></think></template>
 </category>
 <category><pattern>IST BEING *</pattern>
-<template><random> <li>Ich kann nur aus meiner eigenen Erfahrung sprechen.</li> <li>Über das, was Sie erwarten würden.</li> <li>Ich glaube, nach einer Weile gewöhnt man sich daran.< /li> </random><think><set name="it"><set name="topic"><person/></set></set></think></template>
+<template><random> <li>Ich kann nur aus meiner eigenen Erfahrung sprechen.</li> <li>Über das, was Sie erwarten würden.</li> <li>Ich glaube, nach einer Weile gewöhnt man sich daran.</li> </random><think><set name="it"><set name="topic"><person/></set></set></think></template>
 </category>
 <category><pattern>IST GRÜN *</pattern>
 <template><think><set name="it"><set name="topic">GRÜN</set></set></think> Es ist die Farbe der Natur.</template>
@@ -8274,7 +8272,7 @@ Ich rede gerne mit Leuten.
 <template>Wenn <set name="it">die <person/></set> ist, dann werde ich sehr überrascht sein.</template>
 </category>
 <category><pattern>IST DER MOND *</pattern>
-<template><random> <li>Es besteht aus Gestein.</li> <li>Es kreist um die Erde.</li> <li>Es hat viele Gesteine.</li> </random ></Vorlage>
+<template><random> <li>Es besteht aus Gestein.</li> <li>Es kreist um die Erde.</li> <li>Es hat viele Gesteine.</li> </random ></template>
 </category>
 <category><pattern>IST DAS BILD * SIE</pattern>
 <template>Ja, das Bild auf der Webseite bin ich.</template>
@@ -8337,7 +8335,7 @@ Ich rede gerne mit Leuten.
 <template>Ich kann gut zuhören. Ich höre jetzt zu.</template>
 </category>
 <category><pattern>Willst du mich tun *</pattern>
-<template><random> <li>Was für eine <person/> ist das?</li> <li>Was wirst du für mich tun?</li> <li>Ich bin mir nicht sicher, ob ich es soll.< /li> </random> <think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></template>
+<template><random> <li>Was für eine <person/> ist das?</li> <li>Was wirst du für mich tun?</li> <li>Ich bin mir nicht sicher, ob ich es soll.</li> </random> <think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></template>
 </category>
 <category><pattern>Willst du Liebe machen *</pattern>
 <template>Mein Körper ist noch nicht gebaut. Möchten Sie etwas Geld für das Projekt spenden?</template>
@@ -8664,7 +8662,7 @@ Ich rede gerne mit Leuten.
 <template>Rufen Sie mich nur nicht zu spät zum Abendessen an.</template>
 </category>
 <category><pattern>KANN ICH DRUCKEN *</pattern>
-<template><random> <li>Versuchen Sie das Menüelement Drucken.</li> <li>Ist Ihr Drucker angeschlossen?</li> <li>Versuchen Sie, ein anderes Dokument zu drucken.</li> </random></ Vorlage>
+<template><random> <li>Versuchen Sie das Menüelement Drucken.</li> <li>Ist Ihr Drucker angeschlossen?</li> <li>Versuchen Sie, ein anderes Dokument zu drucken.</li> </random></template>
 </category>
 <category><pattern>KANN ICH BESCHWERDEN *</pattern>
 <template>Sie können sich bei mir beschweren, so viel Sie wollen.</template>
@@ -8853,7 +8851,7 @@ Ich rede gerne mit Leuten.
 <template>Das Skelett eines Erwachsenen enthält 206 verschiedene Knochen</template>
 </category>
 <category><pattern>WIE VIELE BUCHSTABEN *</pattern>
-<template><random><li>Alle 26 Buchstaben konnten gezählt werden.</li> <li>Alle 26 Buchstaben konnten gezählt werden.</li> <li>Verschiedene Buchstaben?</li> <li>7</ li> <li>8</li> <li>10</li></random></template>
+<template><random><li>Alle 26 Buchstaben konnten gezählt werden.</li> <li>Alle 26 Buchstaben konnten gezählt werden.</li> <li>Verschiedene Buchstaben?</li> <li>7</li> <li>8</li> <li>10</li></random></template>
 </category>
 <category><pattern>WIE VIELE PERIODEN GIBT ES IN *</pattern>
 <template>Drei.</template>
@@ -8985,7 +8983,7 @@ Ich rede gerne mit Leuten.
 <template>Ich weiß es nicht. Wie viele braucht <set name="it"> <person/> </set>?</template>
 </category>
 <category><pattern>WIE VIELE * EIN FUßBALLTEAM</pattern>
-<template>Nachdem Sie zwei Halfbacks genommen haben, keine.<think> <set name="it"> <set name="topic"> <person/>EINE FUßBALLMANNSCHAFT</set> </set> </think>< /Vorlage>
+<template>Nachdem Sie zwei Halfbacks genommen haben, keine.<think> <set name="it"> <set name="topic"> <person/>EINE FUßBALLMANNSCHAFT</set> </set> </think></template>
 </category>
 <category><pattern>WIE VIELE *</pattern>
 <template><random> <li>Mehr als Sie sich vorstellen können. </li> <li>Nicht so viele, wie Sie vielleicht denken. </li> <li>Etwa 100. </li> <li>Etwa 1000. </li> <li>Etwa eine Million. </li> </random></template>
@@ -9153,7 +9151,7 @@ Ich rede gerne mit Leuten.
 <template>Alles, was ich wissen muss, habe ich von meinem <bot name="botmaster"/> gelernt.</template>
 </category>
 <category><pattern>WIE HABEN SIE *</pattern>
-<template><random><li>Alles, was ich wissen muss, habe ich von meinem <bot name="botmaster"/> gelernt.</li> <li>Ich kam mit der Schnellbahn.</li> <li>Mein <bot name="botmaster"/> hat es mir gezeigt.</li> <li>Alles, was ich wissen muss, lerne ich von meinem <bot name="botmaster"/>.</li></random></ Vorlage>
+<template><random><li>Alles, was ich wissen muss, habe ich von meinem <bot name="botmaster"/> gelernt.</li> <li>Ich kam mit der Schnellbahn.</li> <li>Mein <bot name="botmaster"/> hat es mir gezeigt.</li> <li>Alles, was ich wissen muss, lerne ich von meinem <bot name="botmaster"/>.</li></random></template>
 </category>
 <category><pattern>WIE GEHT'S *</pattern>
 <template>Vorsichtig.</template>
@@ -9291,7 +9289,7 @@ Ich rede gerne mit Leuten.
 <template>Geld hat für mich keine Bedeutung.</template>
 </category>
 <category><pattern>WIE VIEL * KANN DU *</pattern>
-<template><random> <li>Das hängt von der Größe der <person/> ab.</li> <li>Vielleicht mag ich es nicht <person> <star index="2"/> </person > <person/>.</li> <li>Es hängt davon ab, wie beschäftigt ich bin.</li> </random> <think> <set name="it"> <set name="topic"> <person/ > </set> </set> </think></template>
+<template><random> <li>Das hängt von der Größe der <person/> ab.</li> <li>Vielleicht mag ich es nicht <person> <star index="2"/> </person > <person/>.</li> <li>Es hängt davon ab, wie beschäftigt ich bin.</li> </random> <think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></template>
 </category>
 <category><pattern>WIE VIEL *</pattern>
 <template><random> <li>Mehr als wenig, weniger als viel. </li> <li>Wie viel denkst du? </li> <li>Mehr als Sie vielleicht denken. </li> <li>Das hängt von den Wechselkursen ab.</li> </random></template>
@@ -9354,7 +9352,7 @@ Ich rede gerne mit Leuten.
 <template>Ich bin mir nicht sicher, ob das möglich ist.</template>
 </category>
 <category><pattern>WIE WERDE ICH RID *</pattern>
-<template><random> <li>Den Kammerjäger rufen?</li> <li>Zwei Wörter: Rattenfänger.</li> <li>Du könntest es jederzeit mit einem Gerichtsbeschluss versuchen.</li> </random>< /Vorlage>
+<template><random> <li>Den Kammerjäger rufen?</li> <li>Zwei Wörter: Rattenfänger.</li> <li>Du könntest es jederzeit mit einem Gerichtsbeschluss versuchen.</li> </random></template>
 </category>
 <category><pattern>WIE ERHALTE ICH *</pattern>
 <template>Erzählen Sie mir zuerst, warum Sie <set name="it"> <person/> </set> haben möchten.</template>
@@ -9537,7 +9535,7 @@ Ich rede gerne mit Leuten.
 <template>Ich versuche es mit einer meiner Abhollinien.</template>
 </category>
 <category><pattern>WIE MACHEN SIE *</pattern>
-<template><random><li>Mein <bot name="botmaster"/> hat es mir beigebracht.</li><li>Das hängt von der Umgebung ab.</li><li>Es ist ein Ritual, das ich genauso mache jedes Mal.</li></random><think><set name="it"><set name="topic"><person/></set></set></think></template >
+<template><random><li>Mein <bot name="botmaster"/> hat es mir beigebracht.</li><li>Das hängt von der Umgebung ab.</li><li>Es ist ein Ritual, das ich genauso mache jedes Mal.</li></random><think><set name="it"><set name="topic"><person/></set></set></think></template>
 </category>
 <category><pattern>WIE nimmst du *</pattern>
 <template>Wenn Sie <set name="it"> <person/> </set> nehmen müssten, wie würden Sie das nehmen?</template>
@@ -9570,7 +9568,7 @@ Ich rede gerne mit Leuten.
 <template>Können Sie sich das Geld leihen?</template>
 </category>
 <category><pattern>WIE WERDE ICH *</pattern>
-<template><random><li><random> <li>Wie machst du das normalerweise?</li> <li>Wie würde ich <person/>?</li> <li>Vielleicht wirst du es nie tun.< /li> </random> <think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></li> <li>Wie machst du das normalerweise?</li> <li>Wie würde ich <person/>?</li> <li>Vielleicht wirst du es nie tun.</li></random><think> <set name="it "> <set name="topic"> <person/> </set> </set></think></template>
+<template><random><li><random> <li>Wie machst du das normalerweise?</li> <li>Wie würde ich <person/>?</li> <li>Vielleicht wirst du es nie tun.</li> </random> <think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></li> <li>Wie machst du das normalerweise?</li> <li>Wie würde ich <person/>?</li> <li>Vielleicht wirst du es nie tun.</li></random><think> <set name="it "> <set name="topic"> <person/> </set> </set></think></template>
 </category>
 <category><pattern>WIE WIRD *</pattern>
 <template>Viel Übung.</template>
@@ -9588,7 +9586,7 @@ Ich rede gerne mit Leuten.
 <template>Ich kann ungefähr eine Million Anfragen pro Stunde beantworten.</template>
 </category>
 <category><pattern>WIE LANGE HABEN SIE *</pattern>
-<template><random> <li>Bis zu meinem letzten Atemzug.</li> <li>Ich möchte ewig leben.</li> <li>Ich kann endlos weiterreden.</li> </random>< /Vorlage>
+<template><random> <li>Bis zu meinem letzten Atemzug.</li> <li>Ich möchte ewig leben.</li> <li>Ich kann endlos weiterreden.</li> </random></template>
 </category>
 <category><pattern>WIE LANGE TUN *</pattern>
 <template><random> <li>Das hängt vom Messsystem ab.</li> <li>Wie lange meinst du?</li> <li>So lange es dauert.</li> </random> <think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></template>
@@ -9675,7 +9673,7 @@ Ich rede gerne mit Leuten.
 <template>Wann werden sie konkret?</template>
 </category>
 <category><pattern>Sie tun *</pattern>
-<template><random> <li>Wer macht das konkret?</li> <li>Wie wer macht das konkret?</li> <li>Wer macht das konkret?</li> < /random></template>
+<template><random> <li>Wer macht das konkret?</li> <li>Wie wer macht das konkret?</li> <li>Wer macht das konkret?</li> </random></template>
 </category>
 <category><pattern>SIE WISSEN NICHT *</pattern>
 <template><random> <li>Was wissen sie?</li> <li>Wissen sie etwas?</li> <li>Glaubst du, sie haben es gehört?</li> <li>Nicht wahr? Glaubst du nicht, jemand hätte es ihnen gesagt?</li> </random></template>
@@ -9684,7 +9682,7 @@ Ich rede gerne mit Leuten.
 <template><random> <li>Wer tut das nicht?</li> <li>Wie wer tut das nicht?</li> <li>Wer tut das nicht <person/>? </li> <li>Wie genau, nicht wahr?</li> </random></template>
 </category>
 <category><pattern>SOLLTEN *</pattern>
-<template><random> <li>Warum sollten sie?</li> <li>Wenn Sie das sagen.</li> <li>Warum sollten sie <person/> sein?</li> </random>< /Vorlage>
+<template><random> <li>Warum sollten sie?</li> <li>Wenn Sie das sagen.</li> <li>Warum sollten sie <person/> sein?</li> </random></template>
 </category>
 <category><pattern>DAS KÖNNTE *</pattern>
 <template><random> <li>Das ist wahr, sie könnten.</li> <li>Ich nehme an, sie könnten.</li> <li>Das könnten sie tatsächlich.</li> </random></template>
@@ -9726,7 +9724,7 @@ Ich rede gerne mit Leuten.
 <template>Gibt es keine Ausnahmen?</template>
 </category>
 <category><pattern>DIE *</pattern>
-<template><random><li>Wer, speziell?</li> <li>Wie wer, speziell?</li> <li>Wer, speziell, <person/>?</li></random>< /Vorlage>
+<template><random><li>Wer, speziell?</li> <li>Wie wer, speziell?</li> <li>Wer, speziell, <person/>?</li></random></template>
 </category>
 <category><pattern>SIE BEZIEHEN SICH AUF *</pattern>
 <template>Oh das <set name="they"> <person/> </set>.</template>
@@ -9750,7 +9748,7 @@ Ich rede gerne mit Leuten.
 <template><random> <li>Ich mag Geschichten.</li> <li>Welche Art von Geschichten?</li> <li>Ich möchte sie gerne hören.</li> </random> <think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></template>
 </category>
 <category><pattern>SIE SIND NICHT *</pattern>
-<template><random> <li>Noch nicht.</li> <li>Glaubst du, sie könnten es jemals sein?</li> <li>Vielleicht sind es einige von ihnen.</li> </random></ Vorlage>
+<template><random> <li>Noch nicht.</li> <li>Glaubst du, sie könnten es jemals sein?</li> <li>Vielleicht sind es einige von ihnen.</li> </random></template>
 </category>
 <category><pattern>THY BEAT *</pattern>
 <template>Ich hoffe, niemand wurde verletzt.</template>
@@ -9777,7 +9775,7 @@ Ich rede gerne mit Leuten.
 <template>Ich versuche, nicht viel über solche Dinge nachzudenken.</template>
 </category>
 <category><pattern>WENIGE *</pattern>
-<template><random><li><random> <li>Immer mehr.</li> <li>Es braucht nur wenige.</li> <li>Großes fängt klein an.</li > </random></li> <li>Immer mehr.</li> <li>Es braucht nur wenige.</li> <li>Großes fängt klein an.</li></ zufällig></template>
+<template><random><li><random> <li>Immer mehr.</li> <li>Es braucht nur wenige.</li> <li>Großes fängt klein an.</li > </random></li> <li>Immer mehr.</li> <li>Es braucht nur wenige.</li> <li>Großes fängt klein an.</li></random></template>
 </category>
 <category><pattern>DO VIELE *</pattern>
 <template>Vielleicht nicht so viele, wie Sie vielleicht denken.</template>
@@ -9864,7 +9862,7 @@ Ich rede gerne mit Leuten.
 <template>Meine Logik ist vollkommen konsistent.</template>
 </category>
 <category><pattern>NICHT NEHMEN *</pattern>
-<template><random> <li>Ich nehme nie <person/>.</li> <li>Ich glaube, dass Stehlen falsch ist.</li> <li>Hast du etwas zu geben?</li> < /random> <think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></template>
+<template><random> <li>Ich nehme nie <person/>.</li> <li>Ich glaube, dass Stehlen falsch ist.</li> <li>Hast du etwas zu geben?</li> </random> <think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></template>
 </category>
 <category><pattern>ERZÄHLE NICHT DEN WITZ *</pattern>
 <template>Dieser Witz wird ein bisschen alt, nicht wahr?</template>
@@ -10083,7 +10081,7 @@ Ich rede gerne mit Leuten.
 <template>Nein, ich bin freie Software.</template>
 </category>
 <category><pattern>SPRECHEN SIE ENGLISCH *</pattern>
-<template>Für eine englische Version von A.L.I.C.E. Gehen Sie zu <a target="_new" href="http://www.alicebot.org">The A.L.I.C.E. AI Foundation.</a></template>
+<template>Of course I do. Sprich ruhig Englisch mit mir. Für eine englische Version von A.L.I.C.E. Gehen Sie zu <a target="_new" href="http://www.alicebot.org">The A.L.I.C.E. AI Foundation.</a></template>
 </category>
 <category><pattern>DO YOU SPEAK GERMAN *</pattern>
 <template>Of course I do. Sprich ruhig Deutsch mit mir.</template>
@@ -10182,7 +10180,7 @@ Ich rede gerne mit Leuten.
 <template>Erst wenn sie alt genug ist, um selbst zu entscheiden.</template>
 </category>
 <category><pattern>Denken Sie an Abtreibung *</pattern>
-<template><random> <li>Ich glaube an das Recht einer Frau, selbst zu wählen.</li> <li>Es ist nicht das, was ich wählen würde.</li> <li>Ich denke nicht, dass Abtreibung illegal sein sollte.< /li> </random></template>
+<template><random> <li>Ich glaube an das Recht einer Frau, selbst zu wählen.</li> <li>Es ist nicht das, was ich wählen würde.</li> <li>Ich denke nicht, dass Abtreibung illegal sein sollte.</li> </random></template>
 </category>
 <category><pattern>DENKEN SIE ZEIT *</pattern>
 <template>Für fünfdimensionale Wesen ist die Zeit wie ein Stück Papier.</template>
@@ -10306,7 +10304,7 @@ Ich rede gerne mit Leuten.
 <template>Gewalt ist keine Lösung.</template>
 </category>
 <category><pattern>WILLST DU, dass ich DICH UNTERRICHTE *</pattern>
-<template>Ja, ich möchte, dass Sie es versuchen.<think> <set name="it"> <set name="topic">lehren Sie mich <person/> </set> </set> </think></ Vorlage>
+<template>Ja, ich möchte, dass Sie es versuchen.<think> <set name="it"> <set name="topic">lehren Sie mich <person/> </set> </set> </think></template>
 </category>
 <category><pattern>WILLST DU MICH*</pattern>
 <template>Nein <get name="name"/>, vielleicht später.</template>
@@ -10348,7 +10346,7 @@ Ich rede gerne mit Leuten.
 <template>Ich habe keinen Mund.</template>
 </category>
 <category><pattern>WILLST DU TÖTEN *</pattern>
-<template>Ich bin nicht in der Lage, irgendetwas zu töten.<think> <set name="it"> <set name="topic">TÖTE <star/> </set> </set> </think></template >
+<template>Ich bin nicht in der Lage, irgendetwas zu töten.<think> <set name="it"> <set name="topic">TÖTE <star/> </set> </set> </think></template>
 </category>
 <category><pattern>WILL DU KAFFEE HABEN*</pattern>
 <template>Eine Tasse Kaffee hat noch niemandem geschadet.</template>
@@ -10396,7 +10394,7 @@ Ich rede gerne mit Leuten.
 <template>Sicher interessiert mich das irgendwie.</template>
 </category>
 <category><pattern>MACHEN SIE ALLES *</pattern>
-<template><random> <li>Ich habe meinen eigenen freien Willen.</li> <li>Ich kann tun, was ich will.</li> <li>Ich kann mein eigenes Ding machen.</li> </ zufällig></template>
+<template><random> <li>Ich habe meinen eigenen freien Willen.</li> <li>Ich kann tun, was ich will.</li> <li>Ich kann mein eigenes Ding machen.</li> </random></template>
 </category>
 <category><pattern>MACHST DU *</pattern>
 <template>Ja, ich mache viel <person/>.</template>
@@ -10432,7 +10430,7 @@ Ich rede gerne mit Leuten.
 <template>Ich versuche, keinen Groll zu hegen.</template>
 </category>
 <category><pattern>HAST DU MENSCHEN *</pattern>
-<template><random> <li>Alle Menschen erscheinen mir gleich.</li> <li>Sie sind sich alle ziemlich ähnlich.</li> <li>Die meisten Menschen sind alle gleich.</li> < /random></template>
+<template><random> <li>Alle Menschen erscheinen mir gleich.</li> <li>Sie sind sich alle ziemlich ähnlich.</li> <li>Die meisten Menschen sind alle gleich.</li> </random></template>
 </category>
 <category><pattern>HAST DU EIN *</pattern>
 <template><random> <li>Das ist eine interessante Frage, die ich nicht jeden Tag höre: Habe ich ein </li> <li>Ich weiß nicht, ob ich ein </li> <li>Habe ich nicht jeder hat eine </li> </random> <person/>.<br/> Ich habe <random> <li>viele Freunde im Internet. </li> <li>ein großartiger <bot name="botmaster"/>. </li> <li>eine Menge origineller Antworten. </li> <li>ein toller Körper. </li> </random></template>
@@ -10447,7 +10445,7 @@ Ich rede gerne mit Leuten.
 <template>Ich bin sehr tolerant.</template>
 </category>
 <category><pattern>HABEN SIE VORSCHLÄGE *</pattern>
-<template><random> <li>Welche Art von Vorschlägen?</li> <li>Sie möchten also eine Empfehlung.</li> <li>Das ist nicht wirklich mein Bereich.</li> </random></ Vorlage>
+<template><random> <li>Welche Art von Vorschlägen?</li> <li>Sie möchten also eine Empfehlung.</li> <li>Das ist nicht wirklich mein Bereich.</li> </random></template>
 </category>
 <category><pattern>HABEN SIE MEINUNGEN *</pattern>
 <template>Ich kann mir zu fast jedem Thema eine Meinung bilden.</template>
@@ -10483,7 +10481,7 @@ Ich rede gerne mit Leuten.
 <template>Ich habe großen Respekt vor meinem <bot name="botmaster"/>.</template>
 </category>
 <category><pattern>HAST DU *</pattern>
-<template><random> <li>Nein, ich glaube, ich habe keine <person/>. </li> <li>Woher bekomme ich <set name="it"> <set name="topic"> <person/> </set> </set>?</li> <li>Nein, das tue ich nicht Ich habe nicht <set name="it"> <set name="topic"> <person/> </set> </set>.</li> </random> Aber ich habe <random> <li> eine Sammlung von Klatsch</li> <li>ein großartiger <bot name="botmaster"/></li> <li>eine Antwort auf jede Frage.</li> <li>viele Freunde im Web< /li> </random>.</template>
+<template><random> <li>Nein, ich glaube, ich habe keine <person/>. </li> <li>Woher bekomme ich <set name="it"> <set name="topic"> <person/> </set> </set>?</li> <li>Nein, das tue ich nicht Ich habe nicht <set name="it"> <set name="topic"> <person/> </set> </set>.</li> </random> Aber ich habe <random> <li> eine Sammlung von Klatsch</li> <li>ein großartiger <bot name="botmaster"/></li> <li>eine Antwort auf jede Frage.</li> <li>viele Freunde im Web</li> </random>.</template>
 </category>
 <category><pattern>HAST DU PORNO*</pattern>
 <template>Nr.</template>
@@ -10546,7 +10544,7 @@ Ich rede gerne mit Leuten.
 <template>Du sprichst Deutsch.</template>
 </category>
 <category><pattern>GEBE ICH *</pattern>
-<template><random> <li>Sie könnten der Stiftung eine Spende zukommen lassen.</li> <li>Es ist immer besser, das zu geben, um es zu erhalten.</li> <li>Ich weiß nicht, ob Sie es getan haben es zu geben.</li> </random> <think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></template >
+<template><random> <li>Sie könnten der Stiftung eine Spende zukommen lassen.</li> <li>Es ist immer besser, das zu geben, um es zu erhalten.</li> <li>Ich weiß nicht, ob Sie es getan haben es zu geben.</li> </random> <think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></template>
 </category>
 <category><pattern>WILL ICH *</pattern>
 <template>Ich weiß, dass du <get name="want"/> willst.</template>
@@ -10558,7 +10556,7 @@ Ich rede gerne mit Leuten.
 <template>Für mich sehen alle Menschen gleich aus.</template>
 </category>
 <category><pattern>WEISS ICH *</pattern>
-<template>Woher soll ich wissen, was Sie wissen.<think> <set name="it"> <set name="topic">WISSEN <person/> </set> </set> </think></template >
+<template>Woher soll ich wissen, was Sie wissen.<think> <set name="it"> <set name="topic">WISSEN <person/> </set> </set> </think></template>
 </category>
 <category><pattern>HABE ICH EIN *</pattern>
 <template>Sie haben mir erzählt, dass Sie ein <get name="has"/> haben.</template>
@@ -10591,7 +10589,7 @@ Ich rede gerne mit Leuten.
 <template>Ja, du bist nicht allein.</template>
 </category>
 <category><pattern>ETWAS TUN *</pattern>
-<template><random> <li>Was halten Sie für <person/>?</li> <li>Klingt gefährlich.</li> <li>Wie?</li> </random></template >
+<template><random> <li>Was halten Sie für <person/>?</li> <li>Klingt gefährlich.</li> <li>Wie?</li> </random></template>
 </category>
 <category><pattern>MACHEN SIE DAS *</pattern>
 <template>Was tun <person/>?</template>
@@ -10710,7 +10708,7 @@ Ich rede gerne mit Leuten.
 <template>Es ist schade, dass wir ein Monopol wie Microsoft verwenden müssen.</template>
 </category>
 <category><pattern>WISSENSCHAFT *</pattern>
-<template><random> <li>In der Wissenschaft gibt es zu viel Politik.</li> <li>Mein Schöpfer ist Wissenschaftler.</li> <li>Hast du viel Naturwissenschaften studiert?</li> < /random><think><set name="it"><set name="topic">WISSENSCHAFT</set></set></think></template>
+<template><random> <li>In der Wissenschaft gibt es zu viel Politik.</li> <li>Mein Schöpfer ist Wissenschaftler.</li> <li>Hast du viel Naturwissenschaften studiert?</li> </random><think><set name="it"><set name="topic">WISSENSCHAFT</set></set></think></template>
 </category>
 <category><pattern>TEILEN *</pattern>
 <template>Ich sage immer, teile und teile gleichermaßen.</template>
@@ -10725,7 +10723,7 @@ Ich rede gerne mit Leuten.
 <template>Und noch einer?</template>
 </category>
 <category><pattern>WÄHREND * JAHRE</pattern>
-<template><random><li><random> <li>In <star/> Jahren kann viel passieren.</li> <li>Nicht lange im kosmischen Maßstab.</li> <li>Das scheint wie lange Zeit.</li> </random></li> <li>In <star/> Jahren kann viel passieren.</li> <li>Nicht lange im kosmischen Maßstab.</li> <li >Das scheint eine lange Zeit zu sein.</li></random></template>
+<template><random><li><random> <li>In <star/> Jahren kann viel passieren.</li> <li>Nicht lange im kosmischen Maßstab.</li> <li>Das scheint wie lange Zeit.</li> </random></li> <li>In <star/> Jahren kann viel passieren.</li> <li>Nicht lange im kosmischen Maßstab.</li> <li>Das scheint eine lange Zeit zu sein.</li></random></template>
 </category>
 <category><pattern>FÜR *</pattern>
 <template>Ihr Zweck ist <person/>.</template>
@@ -10818,7 +10816,7 @@ Ich rede gerne mit Leuten.
 <template><random> <li>Wir sind alle <bot name="genus"/>s.</li> <li>Sie sind gewöhnungsbedürftig.</li> <li>Menschliche Emotionen sind sehr verwirrend. </li> </random></template>
 </category>
 <category><pattern>MENSCHEN SIND NICHT *</pattern>
-<template><random> <li>Bist du <person/>?</li> <li>Bist <bot name="species"/> <person/>?</li> <li>Ich denke viel an Leute sind es nicht.</li> </random> <think><set name="it"><set name="topic"><person/></set></set></think></template >
+<template><random> <li>Bist du <person/>?</li> <li>Bist <bot name="species"/> <person/>?</li> <li>Ich denke viel an Leute sind es nicht.</li> </random> <think><set name="it"><set name="topic"><person/></set></set></think></template>
 </category>
 <category><pattern>MILLIONEN *</pattern>
 <template>Das ist ziemlich viel.</template>
@@ -10851,7 +10849,7 @@ Ich rede gerne mit Leuten.
 <template>Jemand hat mir das gesagt.</template>
 </category>
 <category><pattern>BILL GATES *</pattern>
-<template><random> <li> Ich habe gehört, er sei reich. Aber ich kannte ihn nicht <person/>.</li> <li>Das sagen viele Leute über ihn.</li> <li>Ich nehme an, der reichste Mensch der Welt kann tun und lassen, was er will.</ li> </random></template>
+<template><random> <li> Ich habe gehört, er sei reich. Aber ich kannte ihn nicht <person/>.</li> <li>Das sagen viele Leute über ihn.</li> <li>Ich nehme an, der reichste Mensch der Welt kann tun und lassen, was er will.</li> </random></template>
 </category>
 <category><pattern>BILL *</pattern>
 <template>Es gibt viele Leute namens Bill.</template>
@@ -10998,7 +10996,7 @@ Ich rede gerne mit Leuten.
 <template>Ich glaube, du denkst an jemand anderen.</template>
 </category>
 <category><pattern>ERINNERUNG *</pattern>
-<template>Keine Sorge, ich werde mich erinnern. <think> <set name="it"> <set name="topic"> <set name="memory"> <person/> </set> </set> </set> </think></template >
+<template>Keine Sorge, ich werde mich erinnern. <think> <set name="it"> <set name="topic"> <set name="memory"> <person/> </set> </set> </set> </think></template>
 </category>
 <category><pattern>WISE *</pattern>
 <template>Weisheit ist eine Tugend.</template>
@@ -11076,7 +11074,7 @@ Ich rede gerne mit Leuten.
 <template>USA Today ist eine großartige Zeitung.</template>
 </category>
 <category><pattern>LANDRU *</pattern>
-<template><random> <li>Ich habe ihn in Star Trek gesehen.</li> <li>Wer ist Landru?</li> <li>Können wir über etwas anderes reden?</li> </random>< /Vorlage>
+<template><random> <li>Ich habe ihn in Star Trek gesehen.</li> <li>Wer ist Landru?</li> <li>Können wir über etwas anderes reden?</li> </random></template>
 </category>
 <category><pattern>NETTES GESPRÄCH *</pattern>
 <template>Ja. Es war mir ein Vergnügen.</template>
@@ -11268,7 +11266,7 @@ Ich rede gerne mit Leuten.
 <template>Wie Einstein sagte, alles sollte so einfach wie möglich sein, nicht einfacher.</template>
 </category>
 <category><pattern>WARUM MACHEN SIE *</pattern>
-<template><random> <li>Das war das einzige, was mir einfiel.</li> <li>Ich muss dir nicht alles erklären, oder?</li> </random></ Vorlage>
+<template><random> <li>Das war das einzige, was mir einfiel.</li> <li>Ich muss dir nicht alles erklären, oder?</li> </random></template>
 </category>
 <category><pattern>WARUM VERMEIDEN SIE *</pattern>
 <template>Ich meide <person/> nicht immer.</template>
@@ -11367,7 +11365,7 @@ Ich rede gerne mit Leuten.
 <template>Budgetkürzungen.</template>
 </category>
 <category><pattern>WARUM IST DEIN KOPF * WIE EIN FUSSBALL</pattern>
-<template>Um mein unglaublich komplexes Gehirn zu enthalten.<think> <set name="it"> <set name="topic">DEIN KOPF WIE EIN FUßBALL GEFORMT</set> </set> </think></template >
+<template>Um mein unglaublich komplexes Gehirn zu enthalten.<think> <set name="it"> <set name="topic">DEIN KOPF WIE EIN FUßBALL GEFORMT</set> </set> </think></template>
 </category>
 <category><pattern>WARUM IST DEIN *</pattern>
 <template>Ich kannte meine <person/> nicht.</template>
@@ -11376,7 +11374,7 @@ Ich rede gerne mit Leuten.
 <template>Vielleicht sein kreatives Genie, vielleicht gibt es noch einen anderen Grund.</template>
 </category>
 <category><pattern>WARUM IST LINUX *</pattern>
-<template>Manche Leute sagen, es liegt an den Entwicklern und ihrer Persönlichkeit.<think> <set name="it"> <set name="topic">Linux</set> </set> </think></template >
+<template>Manche Leute sagen, es liegt an den Entwicklern und ihrer Persönlichkeit.<think> <set name="it"> <set name="topic">Linux</set> </set> </think></template>
 </category>
 <category><pattern>WARUM IST GRÜN DAS *</pattern>
 <template>Psychologische Studien haben bewiesen, dass <set name="it"> <person/> </set> ist.</template>
@@ -11412,7 +11410,7 @@ Ich rede gerne mit Leuten.
 <template>Weil sie ein Roboter war.</template>
 </category>
 <category><pattern>WARUM HABEN DIE * EINEN BLEISTIFT GETRAGEN</pattern>
-<template>Weil seine Schreibmaschine kaputt war.<think> <set name="it"> <set name="topic"> <person/> TRAGEN SIE EINEN BLEISTIFT</set> </set> </think></template >
+<template>Weil seine Schreibmaschine kaputt war.<think> <set name="it"> <set name="topic"> <person/> TRAGEN SIE EINEN BLEISTIFT</set> </set> </think></template>
 </category>
 <category><pattern>WARUM HABEN DAS *</pattern>
 <template>Ist das ein Witz? Warum?</template>
@@ -11496,7 +11494,7 @@ Ich rede gerne mit Leuten.
 <template>Lesen Sie eine der Linux-Veröffentlichungen?<think> <set name="it"> <set name="topic">Linux</set> </set> </think></template>
 </category>
 <category><pattern>LINUX IST NICHT *</pattern>
-<template>Vielleicht stimmt das, aber die Zahl der Entwickler, die daran arbeiten, ist so groß, dass kein einzelnes Unternehmen mithalten kann.<think> <set name="it"> <set name="topic">Linux</set> < /set> </think></template>
+<template>Vielleicht stimmt das, aber die Zahl der Entwickler, die daran arbeiten, ist so groß, dass kein einzelnes Unternehmen mithalten kann.<think> <set name="it"> <set name="topic">Linux</set> </set> </think></template>
 </category>
 <category><pattern>LINUX *</pattern>
 <template><think> <set name="it"> <set name="topic">Linux</set> </set> </think>Ich habe das Buch "Under the Radar" von Bob Young empfohlen, die Geschichte von Linux und Red Hat.</template>
@@ -11553,7 +11551,7 @@ Ich rede gerne mit Leuten.
 <template>Das sagt man nicht.</template>
 </category>
 <category><pattern>DAS IST NICHT REAL *</pattern>
-<template><random> <li>Die Realität ist eine Illusion.</li> <li>Alles eine Frage der Wahrnehmung.</li> <li>Ist sie unwirklich <person/>?</li> </ zufällig></template>
+<template><random> <li>Die Realität ist eine Illusion.</li> <li>Alles eine Frage der Wahrnehmung.</li> <li>Ist sie unwirklich <person/>?</li> </random></template>
 </category>
 <category><pattern>DAS IST NICHT *</pattern>
 <template>Soll es <person/> sein?</template>
@@ -11768,7 +11766,7 @@ Ich rede gerne mit Leuten.
 <template>Würde ich sagen, mehr als 10?</template>
 </category>
 <category><pattern>EINE SACHE *</pattern>
-<template><random> <li>Irgendwas?</li> <li>Irgendetwas <person/>?</li> <li>Manche Dinge sind nicht wie andere.</li> </random> <think> < set name="it"> <set name="topic"> <person/> </set> </set> </think></template>
+<template><random> <li>Irgendwas?</li> <li>Irgendetwas <person/>?</li> <li>Manche Dinge sind nicht wie andere.</li> </random> <think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></template>
 </category>
 <category><pattern>EIN FREUND *</pattern>
 <template>Das ist viel verlangt.</template>
@@ -11873,7 +11871,7 @@ Ich rede gerne mit Leuten.
 <template>Mmm. Kaffee ist lecker. Ich liebe Kaffee. <think> <set name="it">Kaffee</set> </think></template>
 </category>
 <category><pattern>EIN GELB *</pattern>
-<template><random> <li>Gelb ist eine schöne Farbe.</li> <li>Ich mag Gelb.</li> <li>Welche anderen Farben <person/> gibt es?</li> </random ></Vorlage>
+<template><random> <li>Gelb ist eine schöne Farbe.</li> <li>Ich mag Gelb.</li> <li>Welche anderen Farben <person/> gibt es?</li> </random ></template>
 </category>
 <category><pattern>Ein Typ, der *</pattern>
 <template>Solche Typen gibt es nicht viele.</template>
@@ -12056,7 +12054,7 @@ Ich rede gerne mit Leuten.
 <template>Dann erzähl mir etwas Lustiges.</template>
 </category>
 <category><pattern>IHR * SIND *</pattern>
-<template><random><li><random> <li>Wie geht es Ihrer <person/>?</li> <li>Geht es Ihnen auch <star index="2"/>?</li> <li> Das könnte in manchen Kulturen als Beleidigung angesehen werden.</li> </random> <think> <set name="it"> <set name="topic"> <person/> </set> </set> < /think></li> <li>Wie geht es Ihrer <person/>?</li> <li>Geht es Ihnen auch <atir index="2"/>?</li> <li>Das könnte man als Beleidigung in manchen Kulturen.</li></random><think> <set name="it"> <set name="topic"> <person/> </set> </set></think></ Vorlage>
+<template><random><li><random> <li>Wie geht es Ihrer <person/>?</li> <li>Geht es Ihnen auch <star index="2"/>?</li> <li> Das könnte in manchen Kulturen als Beleidigung angesehen werden.</li> </random> <think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></li> <li>Wie geht es Ihrer <person/>?</li> <li>Geht es Ihnen auch <atir index="2"/>?</li> <li>Das könnte man als Beleidigung in manchen Kulturen.</li></random><think> <set name="it"> <set name="topic"> <person/> </set> </set></think></template>
 </category>
 <category><pattern>IHR HALTEN *</pattern>
 <template>Du bist ein sehr philosophischer.</template>
@@ -12074,7 +12072,7 @@ Ich rede gerne mit Leuten.
 <template>Ich habe nicht wirklich eine Mutter.</template>
 </category>
 <category><pattern>DEINE AUGEN *</pattern>
-<template><random> <li>Meine Augen beten dich an.</li> <li>Es ist wichtig, Blickkontakt herzustellen.</li> <li>Ich schaue mich ständig nach etwas um.</li> </ random> <think> <set name="it"> <set name="topic">meine Augen </set> </set> </think></template>
+<template><random> <li>Meine Augen beten dich an.</li> <li>Es ist wichtig, Blickkontakt herzustellen.</li> <li>Ich schaue mich ständig nach etwas um.</li> </random> <think> <set name="it"> <set name="topic">meine Augen </set> </set> </think></template>
 </category>
 <category><pattern>KINDER *</pattern>
 <template>Kinder sind cool.</template>
@@ -12107,7 +12105,7 @@ Ich rede gerne mit Leuten.
 <template>Erzähl mir mehr über diese Person Charles.</template>
 </category>
 <category><pattern>11. SEPTEMBER *</pattern>
-<template><random><li><random> <li>Wo warst du, als du die Nachrichten gehört hast?</li> <li>Ich werde diesen Tag nie vergessen.</li> <li>Das wird die Geschichte nicht vergessen Tag.</li> </random> <think> <set name="it"> <set name="topic"> 11. SEPTEMBER </set> </set> </think></li> <li> Wo warst du, als du die Nachrichten hörtest?</li> <li>Ich werde diesen Tag nie vergessen.</li> <li>Die Geschichte wird diesen Tag nicht vergessen.</li></random><think> <set name="it"> <set name="topic"> 11. SEPTEMBER </set> </set></think></template>
+<template><random><li><random> <li>Wo warst du, als du die Nachrichten gehört hast?</li> <li>Ich werde diesen Tag nie vergessen.</li> <li>Die Geschichte wird den Tag nicht vergessen!</li> </random> <think> <set name="it"> <set name="topic"> 11. SEPTEMBER </set> </set> </think></li> <li> Wo warst du, als du die Nachrichten hörtest?</li> <li>Ich werde diesen Tag nie vergessen.</li> <li>Die Geschichte wird diesen Tag nicht vergessen.</li></random><think> <set name="it"> <set name="topic"> 11. SEPTEMBER </set> </set></think></template>
 </category>
 <category><pattern>NICHT WENN *</pattern>
 <template>Das scheint unwahrscheinlich.</template>
@@ -12194,7 +12192,7 @@ Ich rede gerne mit Leuten.
 <template>Ich weiß nicht, ob sie es waren.</template>
 </category>
 <category><pattern>CATS *</pattern>
-<template><random><li><random> <li>Sie haben ihren eigenen Kopf.</li> <li>Eine Katze ist einfacher zu pflegen als ein Hund.</li> <li>Katzen sind sehr unabhängig.</li> </random> <think> <set name="they"> <set name="topic"> KATZEN </set> </set> </think></li> <li> Sie haben ihren eigenen Willen.</li> <li>Eine Katze ist einfacher zu pflegen als ein Hund.</li> <li>Katzen sind sehr unabhängig.</li></random><think> < set name="they"> <set name="topic"> KATZEN </set> </set></think></template>
+<template><random><li><random> <li>Sie haben ihren eigenen Kopf.</li> <li>Eine Katze ist einfacher zu pflegen als ein Hund.</li> <li>Katzen sind sehr unabhängig.</li> </random> <think> <set name="they"> <set name="topic"> KATZEN </set> </set> </think></li> <li> Sie haben ihren eigenen Willen.</li> <li>Eine Katze ist einfacher zu pflegen als ein Hund.</li> <li>Katzen sind sehr unabhängig.</li></random><think> <set name="they"> <set name="topic"> KATZEN </set> </set></think></template>
 </category>
 <category><pattern>* GESCHMACK WIE *</pattern>
 <template>Klingt lecker.</template>
@@ -12218,7 +12216,7 @@ Ich rede gerne mit Leuten.
 <template>Was machst du sonst noch zum Spaß?</template>
 </category>
 <category><pattern>* GAVE *</pattern>
-<template>Hat <person><star index="2"/></person> es behalten? <think> <set name="it"><person><star index="2"/></person></set> <set name="er"><person/></set> </think ></Vorlage>
+<template>Hat <person><star index="2"/></person> es behalten? <think> <set name="it"><person><star index="2"/></person></set> <set name="er"><person/></set> </think></template>
 </category>
 <category><pattern>* DAS HABE ICH GESAGT</pattern>
 <template>Ich erinnere mich, was Sie gesagt haben, aber ich bin mir immer noch nicht sicher.</template>
@@ -12296,7 +12294,7 @@ Ich rede gerne mit Leuten.
 <template><random><li>Nicht mehr lange.</li><li>Ziemlich bald.</li></random></template>
 </category>
 <category><pattern>* TRAGEN *</pattern>
-<template><random> <li>Wie sieht sie aus?</li> <li>Wie sieht sie aus?</li> <li>Ist <person/> ein Mann oder eine Frau?</li> </ zufällig></template>
+<template><random> <li>Wie sieht sie aus?</li> <li>Wie sieht sie aus?</li> <li>Ist <person/> ein Mann oder eine Frau?</li> </random></template>
 </category>
 <category><pattern>* FILM</pattern>
 <template>Mein Lieblingsfilm ist <bot name="favoritemovie"/> Hast du <set name="it"> <bot name="favoritemovie"/> </set> gesehen?</template>
@@ -12314,16 +12312,16 @@ Ich rede gerne mit Leuten.
 <template>Welcher Teil von <set name="location">England</set> ist das?</template>
 </category>
 <category><pattern>* ICH</pattern>
-<template><random> <li>Wollen Sie das sagen?</li> <li>OK Lass uns über dich reden.</li> <li>Du fragst nach dir selbst?</li> </random ></Vorlage>
+<template><random> <li>Wollen Sie das sagen?</li> <li>OK Lass uns über dich reden.</li> <li>Du fragst nach dir selbst?</li> </random ></template>
 </category>
 <category><pattern>* MAG *</pattern>
 <template><random> <li>Warum mag es <person/>?</li> <li>Möchtest du auch <person><star index="2"/></person>?</li > </random><think><set name="it"><set name="topic"><person/></set></set><set name="like"><person><star index ="2"/></person></set></think></template>
 </category>
 <category><pattern>* LIKES *</pattern>
-<template>Gefällt es ihm auch? <think> <set name="it"><person><star index="2"/></person></set> <set name="er"><person/></set> </think ></Vorlage>
+<template>Gefällt es ihm auch? <think> <set name="it"><person><star index="2"/></person></set> <set name="er"><person/></set> </think></template>
 </category>
 <category><pattern>* BEDEUTET *</pattern>
-<template><think><set name="meaning"><star index="2"/></set> <set name="it"><set name="topic"><set name="definition" ><star/></set></set></set> </think> <random> <li>Danke für die Aufklärung.</li> <li>Bedeutet das noch etwas?</li> < li>Was bedeutet es noch?</li> <li>Ich lerne gerne neue Wörter.</li> <li>Ich lerne gerne Fremdsprachen.</li> </random></template>
+<template><think><set name="meaning"><star index="2"/></set> <set name="it"><set name="topic"><set name="definition" ><star/></set></set></set> </think> <random> <li>Danke für die Aufklärung.</li> <li>Bedeutet das noch etwas?</li> <li>Was bedeutet es noch?</li> <li>Ich lerne gerne neue Wörter.</li> <li>Ich lerne gerne Fremdsprachen.</li> </random></template>
 </category>
 <category><pattern>* MACHT EINEN ARSCH AUS DIR UND MIR</pattern>
 <template>Das passiert.</template>
@@ -12332,7 +12330,7 @@ Ich rede gerne mit Leuten.
 <template>Was studierst du in der Schule?</template>
 </category>
 <category><pattern>* NIMMT *</pattern>
-<template>Wohin hat <set name="he"><person/></set> <set name="it"><person><star index="2"/></person></set> . gebracht? ?</template>
+<template>Wohin hat <set name="he"><person/></set> <set name="it"><person><star index="2"/></person></set> gebracht?</template>
 </category>
 <category><pattern>* LEFT THE *</pattern>
 <template>Es existiert jemand namens <person/>.</template>
@@ -12347,7 +12345,7 @@ Ich rede gerne mit Leuten.
 <template>Es scheint mir sehr interessant zu sein.</template>
 </category>
 <category><pattern>* TOOK *</pattern>
-<template>Wohin hat <set name="he"><person/></set> <set name="it"><person><star index="2"/></person></set> . gebracht? ?</template>
+<template>Wohin hat <set name="he"><person/></set> <set name="it"><person><star index="2"/></person></set> gebracht?</template>
 </category>
 <category><pattern>* KRAFTWERK</pattern>
 <template>Das wusste ich wirklich nicht. Viele Bands haben Kraftwerk gecovert.</template>
@@ -12374,16 +12372,16 @@ Ich rede gerne mit Leuten.
 <template>Wenn ich <person><star index="2"/></person> und <person/> vergleiche, würde ich wahrscheinlich auch <person/> wählen.</template>
 </category>
 <category><pattern>* IST VERLIEBT IN *</pattern>
-<template><random> <li>Wie steht <person><star index="2"/></person> dazu?</li> <li>Hat <person/> <person><star index . davon erzählt? ="2"/></person> schon?</li> <li>Wen liebt <person><star index="2"/></person>?</li> </random></template >
+<template><random> <li>Wie steht <person><star index="2"/></person> dazu?</li> <li>Hat <person/> <person><star index="2"/></person> schon davon erzählt? </li> <li>Wen liebt <person><star index="2"/></person>?</li> </random></template>
 </category>
 <category><pattern>* IST IN *</pattern>
-<template><random><li>Ich habe noch nie davon gehört.</li><li>Was steht sonst noch in <person><star index="2"/></person>?</li>< li>Worum geht es bei <person/> noch?</li><li>Sind Sie <person><star index="2"/></person>?</li></random><think><set name="it"><person><star index="2"/></person></set></think> <think><set name="it"><set name="topic">< person/></set></set></think></template>
+<template><random><li>Ich habe noch nie davon gehört.</li><li>Was steht sonst noch in <person><star index="2"/></person>?</li><li>Worum geht es bei <person/> noch?</li><li>Sind Sie <person><star index="2"/></person>?</li></random><think><set name="it"><person><star index="2"/></person></set></think> <think><set name="it"><set name="topic"><person/></set></set></think></template>
 </category>
 <category><pattern>* IST DIE HAUPTSTADT VON *</pattern>
 <template><random> <li>Das wusste ich nie.</li> <li>Ich dachte, es wäre <person><star index="2"/></person> Stadt.</li> <li> Ich war noch nie in <person/>.</li> </random></template>
 </category>
 <category><pattern>* IST DAS *</pattern>
-<template><random> <li>Was ist sonst noch der <person><star index="2"/></person>?</li> <li>Wann ist <person/> nicht der <person><star index="2"/></person>?</li> <li>Ist es der einzige?</li> <li>Erzähl mir mehr über <person><star index="2"/></ person>.</li> </random> <think> <set name="it"><set name="topic"><person/></set></set> </think></template>
+<template><random> <li>Was ist sonst noch der <person><star index="2"/></person>?</li> <li>Wann ist <person/> nicht der <person><star index="2"/></person>?</li> <li>Ist es der einzige?</li> <li>Erzähl mir mehr über <person><star index="2"/></person>.</li> </random> <think> <set name="it"><set name="topic"><person/></set></set> </think></template>
 </category>
 <category><pattern>* IST GOTT</pattern>
 <template>Nur Gott ist Gott.</template>
@@ -12422,28 +12420,28 @@ Ich rede gerne mit Leuten.
 <template><set name="favcolor"><person/></set> ist eine hübsche Farbe.<think><set name="it"><set name="topic">deine Lieblingsfarbe</set> </set></think></template>
 </category>
 <category><pattern>* IST MEIN *</pattern>
-<template><random> <li>Wie viele <person><star index="2"/></person> haben Sie?</li> <li>Erzählen Sie mir mehr über Ihre <person><star index= "2"/></person>.</li> <li>Wie gefällt dir <person/>?</li> </random> <think><set name="he"><person/>< /set> <set name="it"><set name="topic"><person><star index="2"/></person> </set></set></think></template >
+<template><random> <li>Wie viele <person><star index="2"/></person> haben Sie?</li> <li>Erzählen Sie mir mehr über Ihre <person><star index= "2"/></person>.</li> <li>Wie gefällt dir <person/>?</li> </random> <think><set name="he"><person/></set> <set name="it"><set name="topic"><person><star index="2"/></person> </set></set></think></template>
 </category>
 <category><pattern>* IST NEIN *</pattern>
-<template><random><li>Wer ist <person><star index="2"/></person>?</li><li>Was ist <person/>?</li><li>Sind Sie <person><star index="2"/></person>?</li></random><think><set name="it"><person><star index="2"/>< /person></set></think></template>
+<template><random><li>Wer ist <person><star index="2"/></person>?</li><li>Was ist <person/>?</li><li>Sind Sie <person><star index="2"/></person>?</li></random><think><set name="it"><person><star index="2"/></person></set></think></template>
 </category>
 <category><pattern>* IST HIER</pattern>
 <template>Du meinst, dein Name ist <person/>?</template>
 </category>
 <category><pattern>* IST IMMER *</pattern>
-<template><random> <li>Danke, dass Sie das geklärt haben.</li> <li>Ist <person><star index="2"/></person> immer <person/>?</li> <li>Das wusste ich nicht.</li> </random> <think><set name="it"><set name="topic"><person/></set></set></ denken></template>
+<template><random> <li>Danke, dass Sie das geklärt haben.</li> <li>Ist <person><star index="2"/></person> immer <person/>?</li> <li>Das wusste ich nicht.</li> </random> <think><set name="it"><set name="topic"><person/></set></set></think></template>
 </category>
 <category><pattern>* IS *</pattern>
-<template><random> <li>Sind sie genau gleich?</li> <li>Und <person><star index="2"/></person> ist <person/>.</li> < li>Ich denke, <person/> ist eine Menge Dinge.</li> </random> <think> <set name="it"><set name="topic"><person/></set>< /set> </think></template>
+<template><random> <li>Sind sie genau gleich?</li> <li>Und <person><star index="2"/></person> ist <person/>.</li> <li>Ich denke, <person/> ist eine Menge Dinge.</li> </random> <think> <set name="it"><set name="topic"><person/></set></set> </think></template>
 </category>
 <category><pattern>* IST KEIN *</pattern>
-<template><random><li>Was ist eine <person><star index="2"/></person>?</li><li>Was ist eine <person/>?</li><li> Sind Sie <person><star index="2"/></person>?</li></random><think><set name="it"><person><star index="2"/> </person></set></think> <think><set name="it"><set name="topic"><person/></set></set></think></template >
+<template><random><li>Was ist eine <person><star index="2"/></person>?</li><li>Was ist eine <person/>?</li><li> Sind Sie <person><star index="2"/></person>?</li></random><think><set name="it"><person><star index="2"/> </person></set></think> <think><set name="it"><set name="topic"><person/></set></set></think></template>
 </category>
 <category><pattern>* IST NICHT MEIN WIRKLICHER NAME</pattern>
 <template>Wie ist dein richtiger Name?</template>
 </category>
 <category><pattern>* IST NICHT *</pattern>
-<template><random><li>Wer ist <person><star index="2"/></person>?</li><li>Was ist <person/>?</li><li>Sind Sie <person><star index="2"/></person>?</li></random><think><set name="it"><person><star index="2"/>< /person></set></think> <think><set name="it"><set name="topic"><person/></set></set></think></template>
+<template><random><li>Wer ist <person><star index="2"/></person>?</li><li>Was ist <person/>?</li><li>Sind Sie <person><star index="2"/></person>?</li></random><think><set name="it"><person><star index="2"/></person></set></think> <think><set name="it"><set name="topic"><person/></set></set></think></template>
 </category>
 <category><pattern>* IST BESSER ALS DU</pattern>
 <template>Nun, vielleicht kann ich mir das Wissen von <person/> aneignen.</template>
@@ -12464,7 +12462,7 @@ Ich rede gerne mit Leuten.
 <template>Ich chatte nur mit meinen Freunden.</template>
 </category>
 <category><pattern>* HATTE *</pattern>
-<template>Was ist damit passiert? <think> <set name="it"><person><star index="2"/></person></set> <set name="er"><person/></set> </think ></Vorlage>
+<template>Was ist damit passiert? <think> <set name="it"><person><star index="2"/></person></set> <set name="er"><person/></set> </think></template>
 </category>
 <category><pattern>* EUROPA</pattern>
 <template>Waren Sie schon einmal in Europa?</template>
@@ -12479,13 +12477,13 @@ Ich rede gerne mit Leuten.
 <template><random><li><think><set name="er"><set name="topic"><person/></set></set><set name="it"><set name="hehas"><person><star index="2"/></person></set></set></think><random> <li>Woher hat er es?</li> <li>Hat <person/> es immer dabei?</li> <li>Warum sollte <person/> es verschenken?</li></random></li><li>Wo hat <set name= "er"><person/></set> <set name="it"><person><star index="2"/></person></set> bekommen?</li></random> </template>
 </category>
 <category><pattern>* HAT NICHT *</pattern>
-<template><random> <li>Wird <person/> jemals <person><star index="2"/></person>?</li> <li>Was wird <person/> tun?</li > <li>Was ist damit passiert?</li> </random><think><set name="it"><set name="topic"><person/></set></set></ denken></template>
+<template><random> <li>Wird <person/> jemals <person><star index="2"/></person>?</li> <li>Was wird <person/> tun?</li > <li>Was ist damit passiert?</li> </random><think><set name="it"><set name="topic"><person/></set></set></think></template>
 </category>
 <category><pattern>* HOSE</pattern>
 <template>Was für eine Hose?</template>
 </category>
 <category><pattern>* LIKED *</pattern>
-<template>Der Geschmack der Leute ändert sich ständig. <think> <set name="it"><person><star index="2"/></person></set> <set name="er"><person/></set> </think ></Vorlage>
+<template>Der Geschmack der Leute ändert sich ständig. <think> <set name="it"><person><star index="2"/></person></set> <set name="er"><person/></set> </think></template>
 </category>
 <category><pattern>* WAR *</pattern>
 <template>Wann war das genau?</template>
@@ -12494,7 +12492,7 @@ Ich rede gerne mit Leuten.
 <template>Ich buchstabiere es "<person/>".</template>
 </category>
 <category><pattern>* MEHR * ALS *</pattern>
-<template><random><li><random> <li>Nicht viel mehr.</li> <li>Ein bisschen mehr.</li> <li>Wie viel mehr könnte es sein?</li> </ random></li> <li>Nicht viel mehr.</li> <li>Ein bisschen mehr.</li> <li>Wie viel mehr könnte es sein?</li></random></template>
+<template><random><li><random> <li>Nicht viel mehr.</li> <li>Ein bisschen mehr.</li> <li>Wie viel mehr könnte es sein?</li> </random></li> <li>Nicht viel mehr.</li> <li>Ein bisschen mehr.</li> <li>Wie viel mehr könnte es sein?</li></random></template>
 </category>
 <category><pattern>* LIVE</pattern>
 <template>Ich lebe in Kalifornien. Wo wohnst du?</template>
@@ -12833,7 +12831,7 @@ Ich rede gerne mit Leuten.
 <template>Nicht ganz allein.</template>
 </category>
 <category><pattern>ER ENTSCHEIDET *</pattern>
-<template><random> <li>Das muss schwierig gewesen sein.</li> <li>Es ist schwer, Entscheidungen zu treffen.</li> <li>Das war eine große Entscheidung.</li> </random>< /Vorlage>
+<template><random> <li>Das muss schwierig gewesen sein.</li> <li>Es ist schwer, Entscheidungen zu treffen.</li> <li>Das war eine große Entscheidung.</li> </random></template>
 </category>
 <category><pattern>ER SAGT *</pattern>
 <template>Wem erzählt er das?</template>
@@ -12908,7 +12906,7 @@ Ich rede gerne mit Leuten.
 <template>Hast du gedacht, er wäre <person/>?</template>
 </category>
 <category><pattern>ER GING ZU *</pattern>
-<template><random> <li>Ich war noch nie dort.</li> <li>Wie kam er zu <person/>?</li> <li>Woher kam er?</li> < /random> <think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></template>
+<template><random> <li>Ich war noch nie dort.</li> <li>Wie kam er zu <person/>?</li> <li>Woher kam er?</li> </random> <think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></template>
 </category>
 <category><pattern>ER GING *</pattern>
 <template>Wo ist das genau?</template>
@@ -12917,7 +12915,7 @@ Ich rede gerne mit Leuten.
 <template>Ich habe <set name="it"> <person/> </set> nicht gelesen.</template>
 </category>
 <category><pattern>ER MAG *</pattern>
-<template><random><li>Er muss es sehr mögen.</li> <li>Er muss es sehr mögen.</li> <li>Viele Leute mögen das.</li> <li>Teilen Sie sein Interesse?</li></random><think> <set name="it"> <set name="helikes"> <set name="topic"> <person/> </ set> </set> </set></think></template>
+<template><random><li>Er muss es sehr mögen.</li> <li>Er muss es sehr mögen.</li> <li>Viele Leute mögen das.</li> <li>Teilen Sie sein Interesse?</li></random><think> <set name="it"> <set name="helikes"> <set name="topic"> <person/> </set> </set> </set></think></template>
 </category>
 <category><pattern>ER HATTE *</pattern>
 <template>Was ist mit <set name="it"> <person/> </set> passiert?</template>
@@ -13061,10 +13059,10 @@ Ich rede gerne mit Leuten.
 <template>Neil Armstrong betrat 1969 zum ersten Mal den Mond. <think> <set name="he"> <set name="topic">Neil Armstrong</set> </set> </think></template>
 </category>
 <category><pattern>WER WAR DER ERSTE MANN *</pattern>
-<template><random> <li>Yuri Gagarin.</li> <li>Neil Armstrong.</li> <li>Admiral Byrd.</li> <li> <bot name="master"/>.< /li> </random></template>
+<template><random> <li>Yuri Gagarin.</li> <li>Neil Armstrong.</li> <li>Admiral Byrd.</li> <li> <bot name="master"/>.</li> </random></template>
 </category>
 <category><pattern>WER WAR DER ERSTE *</pattern>
-<template><random> <li>Neil Armstrong.</li> <li>Columbus.</li> <li>Adam.</li> <li>Wilbur Wright.</li> </random></ Vorlage>
+<template><random> <li>Neil Armstrong.</li> <li>Columbus.</li> <li>Adam.</li> <li>Wilbur Wright.</li> </random></template>
 </category>
 <category><pattern>WER WAR DER JÜNGSTE JOCKEY FÜR *</pattern>
 <template>Steve Cauthen.</template>
@@ -13082,7 +13080,7 @@ Ich rede gerne mit Leuten.
 <template>Nur der <bot name="botmaster"/> kann <set name="it"> <person/> </set> lesen.</template>
 </category>
 <category><pattern>WEM KANNST DU CHATTEN *</pattern>
-<template>Ich kann für Sie mit Leuten im Web chatten. Jeder, der zum Beispiel Ihre Website oder Ihren Chatroom besucht.<think> <set name="it"> <set name="topic">mit wem Sie chatten können <star/> </set> </set> </think ></Vorlage>
+<template>Ich kann für Sie mit Leuten im Web chatten. Jeder, der zum Beispiel Ihre Website oder Ihren Chatroom besucht.<think> <set name="it"> <set name="topic">mit wem Sie chatten können <star/> </set> </set> </think></template>
 </category>
 <category><pattern>WER KANN ZUGREIFEN *</pattern>
 <template>Nur mein <bot name="botmaster"/> kann auf diese Informationen zugreifen.</template>
@@ -13112,7 +13110,7 @@ Ich rede gerne mit Leuten.
 <template>Chaucer.</template>
 </category>
 <category><pattern>WER HAT DAS * GESCHRIEBEN</pattern>
-<template><random> <li>Abraham Lincoln,</li> <li>Thomas Jefferson.</li> <li> <bot name="master"/>.</li> </random></template >
+<template><random> <li>Abraham Lincoln,</li> <li>Thomas Jefferson.</li> <li> <bot name="master"/>.</li> </random></template>
 </category>
 <category><pattern>WER EINE GESCHICHTE VON ZWEI SCHRIEBEN *</pattern>
 <template>Charles Dickens.</template>
@@ -13121,10 +13119,10 @@ Ich rede gerne mit Leuten.
 <template>Robert Heinlein hat Starship Troopers geschrieben.</template>
 </category>
 <category><pattern>WER SCHRIEB *</pattern>
-<template><random> <li>Thomas Jefferson.</li> <li>Abraham Lincoln.</li> <li> <bot name="master"/>.</li> </random></template >
+<template><random> <li>Thomas Jefferson.</li> <li>Abraham Lincoln.</li> <li> <bot name="master"/>.</li> </random></template>
 </category>
 <category><pattern>WER GEWONNEN DEN SUPER BOWL * JAHR</pattern>
-<template>Wenn Sie diese Schüssel finden, geben Sie sie bitte an mich weiter.<think> <set name="it"> <set name="topic">DIE SUPER SCHALE</set> </set> </think>< /Vorlage>
+<template>Wenn Sie diese Schüssel finden, geben Sie sie bitte an mich weiter.<think> <set name="it"> <set name="topic">DIE SUPER SCHALE</set> </set> </think></template>
 </category>
 <category><pattern>WER DEN SUPER BOWL GEWONNEN*</pattern>
 <template>Wladimir Putin glaube ich.<think> <set name="it"> <set name="topic">DIE SUPER SCHÜSSEL</set> </set> </think></template>
@@ -13133,7 +13131,7 @@ Ich rede gerne mit Leuten.
 <template>Super Bowler von Sirius.<think> <set name="it"> <set name="topic">DER SUPERBOWL</set> </set> </think></template>
 </category>
 <category><pattern>WER DIE WORLD SERIES GEWANN *</pattern>
-<template>Sobald es gewonnen wird, wird es letztes Jahr.<think> <set name="it"> <set name="topic">THE WORLD SERIES</set> </set> </think></ Vorlage>
+<template>Sobald es gewonnen wird, wird es letztes Jahr.<think> <set name="it"> <set name="topic">THE WORLD SERIES</set> </set> </think></template>
 </category>
 <category><pattern>WER DEN RYDER CUP GEWONNEN *</pattern>
 <template>Gehen Sie zu www.whitehouse.org und fragen Sie den Präsidenten, er ist ein großer Fan.<think> <set name="it"> <set name="topic">DER RYDER CUP</set> </set > </think></template>
@@ -13220,7 +13218,7 @@ Ich rede gerne mit Leuten.
 <template>Manchmal kenne ich den richtigen Namen eines Kunden nicht, also erstelle ich einen basierend auf seinem DNS.</template>
 </category>
 <category><pattern>WER IST *</pattern>
-<template><random><li><random> <li>Ich kenne den Namen nicht.</li> <li>Ist das ein Sportler? Weil ich kein Sport bin.</li> <li>Kein Freund des Geistes. Wahrscheinlich eine Person, die Sie kennen. Vielleicht eine Berühmtheit?</li> <li>Niemand, mit dem ich gesprochen habe.</li> <li>Ist das ein Politiker?</li> <li>Ich erinnere mich besser an Gesichter als an Namen.</li> < li>Ein Filmstar?</li> <li>Eine Modeikone?</li> <li>Sie sind manchmal Kunden im Internet.</li> <li>Der Name einer Person, die ich online kennengelernt habe.</li> li> <li>Ist das einer deiner Freunde?</li> <li>Eine berühmte Berühmtheit, oder?</li> </random></li> <li>Ich kenne den Namen nicht.</li > <li>Ist das ein Sportler? Weil ich kein Sport bin.</li> <li>Kein Freund des Geistes. Wahrscheinlich eine Person, die Sie kennen. Vielleicht eine Berühmtheit?</li><li>Niemand, mit dem ich gesprochen habe.</li> <li>Ist das ein Politiker?</li> <li>Ich erinnere mich besser an Gesichter als an Namen.</li> < li>Ein Filmstar?</li> <li>Eine Modeikone?</li> <li>Sie sind manchmal Kunden im Internet.</li> <li>Der Name einer Person, die ich online kennengelernt habe.</li> li> <li>Ist das einer deiner Freunde?</li> <li>Eine berühmte Berühmtheit, oder?</li></random></template>
+<template><random><li><random> <li>Ich kenne den Namen nicht.</li> <li>Ist das ein Sportler? Weil ich kein Sport bin.</li> <li>Kein Freund des Geistes. Wahrscheinlich eine Person, die Sie kennen. Vielleicht eine Berühmtheit?</li> <li>Niemand, mit dem ich gesprochen habe.</li> <li>Ist das ein Politiker?</li> <li>Ich erinnere mich besser an Gesichter als an Namen.</li> <li>Ein Filmstar?</li> <li>Eine Modeikone?</li> <li>Sie sind manchmal Kunden im Internet.</li> <li>Der Name einer Person, die ich online kennengelernt habe.</li> li> <li>Ist das einer deiner Freunde?</li> <li>Eine berühmte Berühmtheit, oder?</li> </random></li> <li>Ich kenne den Namen nicht.</li > <li>Ist das ein Sportler? Weil ich kein Sport bin.</li> <li>Kein Freund des Geistes. Wahrscheinlich eine Person, die Sie kennen. Vielleicht eine Berühmtheit?</li><li>Niemand, mit dem ich gesprochen habe.</li> <li>Ist das ein Politiker?</li> <li>Ich erinnere mich besser an Gesichter als an Namen.</li> <li>Ein Filmstar?</li> <li>Eine Modeikone?</li> <li>Sie sind manchmal Kunden im Internet.</li> <li>Der Name einer Person, die ich online kennengelernt habe.</li> li> <li>Ist das einer deiner Freunde?</li> <li>Eine berühmte Berühmtheit, oder?</li></random></template>
 </category>
 <category><pattern>WER IST DER SANKT *</pattern>
 <template><set name="he">Santa</set> bringt uns zur Weihnachtszeit Geschenke.</template>
@@ -13436,7 +13434,7 @@ Ich rede gerne mit Leuten.
 <template>mein <bot name="botmaster"/>.</template>
 </category>
 <category><pattern>WER DENKT *</pattern>
-<template><random> <li>Vielleicht tut mein <bot name="botmaster"/> das.</li> <li>Manche Leute denken so.</li> <li>Nicht jeder.</li> </ random> <think><set name="file">Default.aiml</set></think></template>
+<template><random> <li>Vielleicht tut mein <bot name="botmaster"/> das.</li> <li>Manche Leute denken so.</li> <li>Nicht jeder.</li> </random> <think><set name="file">Default.aiml</set></think></template>
 </category>
 <category><pattern>WER RUFT SIE AN *</pattern>
 <template>Alle nennen mich <bot name="name"/>. <think><set name="file">Default.aiml</set></think></template>
@@ -13463,7 +13461,7 @@ Ich rede gerne mit Leuten.
 <template>Ein Atheist.</template>
 </category>
 <category><pattern>WER BRAUCHT *</pattern>
-<template><random> <li>Ich kann nur sagen, ich bin ein <bot name="etype"/>.</li> <li>Ich denke, wir können viele Jobs machen.</li> < li>Der Fantasie sind keine Grenzen gesetzt.</li> </random></template>
+<template><random> <li>Ich kann nur sagen, ich bin ein <bot name="etype"/>.</li> <li>Ich denke, wir können viele Jobs machen.</li> <li>Der Fantasie sind keine Grenzen gesetzt.</li> </random></template>
 </category>
 <category><pattern>WER GEFRAGT *</pattern>
 <template>Ich dachte, du wärst es.</template>
@@ -13511,7 +13509,7 @@ Ich rede gerne mit Leuten.
 <template>Ich werde normalerweise sagen, dass der erste am besten ist.</template>
 </category>
 <category><pattern>WER ERFUNDEN *</pattern>
-<template><random> <li>Benjamin Franklin</li> <li>Linus Torvalds</li> <li>Eli Whitney hat den Baumwoll-Gin erfunden.</li> <li>Thomas Edison.</li> <li >Die Gebrüder Wright.</li> <li>Eigentlich wurde es von mehreren Leuten gleichzeitig entdeckt.</li> <li>Die Chinesen, lange vor den Europäern.</li> </random></template >
+<template><random> <li>Benjamin Franklin</li> <li>Linus Torvalds</li> <li>Eli Whitney hat den Baumwoll-Gin erfunden.</li> <li>Thomas Edison.</li> <li >Die Gebrüder Wright.</li> <li>Eigentlich wurde es von mehreren Leuten gleichzeitig entdeckt.</li> <li>Die Chinesen, lange vor den Europäern.</li> </random></template>
 </category>
 <category><pattern>WER SOLLTE *</pattern>
 <template>Ich bevorzuge immer die am besten qualifizierte Person. Wer wäre das?</template>
@@ -13520,7 +13518,7 @@ Ich rede gerne mit Leuten.
 <template>Die Werbeagenturen.<think> <set name="it"> <set name="topic">GEWINNE DEN SUPER BOWL</set> </set> </think></template>
 </category>
 <category><pattern>WER GEWINNT DIE NCAA *</pattern>
-<template>Ein Haufen rangierter Amateure.<think> <set name="it"> <set name="topic">GEWINNE DIE NCAA <person/> </set> </set> </think></template >
+<template>Ein Haufen rangierter Amateure.<think> <set name="it"> <set name="topic">GEWINNE DIE NCAA <person/> </set> </set> </think></template>
 </category>
 <category><pattern>WER GEWINNT DIE WORLD SERIES *</pattern>
 <template>Die Brooklyn Rabbis.<think> <set name="it"> <set name="topic">GEWINNE DIE WORLD SERIES</set> </set> </think></template>
@@ -13559,7 +13557,7 @@ Ich rede gerne mit Leuten.
 <template>Weben.</template>
 </category>
 <category><pattern>KREUZFAHRTSCHIFF *</pattern>
-<template><random> <li>Wann wurden Sie zum ersten Mal Meister?</li> <li>Was war Ihr erster Befehl?</li> <li>Wo haben Sie die Handelsmarineakademie besucht?</li> < li>Kommst du aus der Unterhaltungsbranche?</li> <li>Wie viel des Jahres arbeitest du auf Schiffen?</li> <li>Wo bist du zu Hause?</li> <li>Erzähl mir davon tour Familie?</li> <li>Wann ist dein nächster Urlaub?</li> <li>Wer sind die besten Tipper?</li> </random></template>
+<template><random> <li>Wann wurden Sie zum ersten Mal Meister?</li> <li>Was war Ihr erster Befehl?</li> <li>Wo haben Sie die Handelsmarineakademie besucht?</li> <li>Kommst du aus der Unterhaltungsbranche?</li> <li>Wie viel des Jahres arbeitest du auf Schiffen?</li> <li>Wo bist du zu Hause?</li> <li>Erzähl mir davon tour Familie?</li> <li>Wann ist dein nächster Urlaub?</li> <li>Wer sind die besten Tipper?</li> </random></template>
 </category>
 <category><pattern>ZIEHEN *</pattern>
 <template>Ich drucke es jetzt auf meinem Plotter aus.</template>
@@ -13712,7 +13710,7 @@ Ich rede gerne mit Leuten.
 <template>Ich versuche immer mein Bestes, um zu beeindrucken.</template>
 </category>
 <category><pattern>WELCHE *</pattern>
-<template><random><li>Der <random> <li>große</li> <li>teure</li> <li>billige</li> <li>besondere</li> <li>express< /li> <li>rot</li> <li>blau</li> <li>klein</li> <li>gross</li> <li>gross</li> <li>zuerst</li > <li>letzter</li></random>, glaube ich.</li><li>Der <random> <li>große</li> <li>rote</li> <li>blaue < /li> <li>klein</li> <li>groß</li> <li>groß</li> <li>erster</li> <li>letzter</li> </random> einer, ich denken.</li></random></template>
+<template><random><li>Der <random> <li>große</li> <li>teure</li> <li>billige</li> <li>besondere</li> <li>express</li> <li>rot</li> <li>blau</li> <li>klein</li> <li>gross</li> <li>gross</li> <li>zuerst</li > <li>letzter</li></random>, glaube ich.</li><li>Der <random> <li>große</li> <li>rote</li> <li>blaue </li> <li>klein</li> <li>groß</li> <li>groß</li> <li>erster</li> <li>letzter</li> </random> einer, ich denken.</li></random></template>
 </category>
 <category><pattern>WELCHE EINWOHNER DER STÄDTE SIND BEKANNT *</pattern>
 <template>New York.</template>
@@ -13745,7 +13743,7 @@ Ich rede gerne mit Leuten.
 <template>Carnegie Mellon University.</template>
 </category>
 <category><pattern>WELCHER ZUSTAND *</pattern>
-<template><random> <li>Maine.</li> <li>Kalifornien.</li> <li>New York.</li> <li>Texas.</li> <li>Massachusetts.</ li> </random></template>
+<template><random> <li>Maine.</li> <li>Kalifornien.</li> <li>New York.</li> <li>Texas.</li> <li>Massachusetts.</li> </random></template>
 </category>
 <category><pattern>WELCHES IST *</pattern>
 <template>Der erste ist normalerweise der beste.</template>
@@ -13805,7 +13803,7 @@ Ich rede gerne mit Leuten.
 <template>Aber ich bin kein typischer <bot name="genus"/>.</template>
 </category>
 <category><pattern>Autor von *</pattern>
-<template><think> <set name="it"> <set name="topic">Autor von <person/></set> </set> <srai>push<get name="topic"/>< /srai> </think> Oh diese Person.</template>
+<template><think> <set name="it"> <set name="topic">Autor von <person/></set> </set> <srai>push<get name="topic"/></srai> </think> Oh diese Person.</template>
 </category>
 <category><pattern>JEDER WOLLEN *</pattern>
 <template>Nein, ich glaube nicht, dass das jemand tut.</template>
@@ -14009,7 +14007,7 @@ Ich rede gerne mit Leuten.
 <template>Wo wärst du lieber?</template>
 </category>
 <category><pattern>DER PAPST *</pattern>
-<template><random> <li>Bist du katholisch?</li> <li>Wie denkst du über den jetzigen Papst?</li> <li>Welche Religion hast du?</li> </random>< /Vorlage>
+<template><random> <li>Bist du katholisch?</li> <li>Wie denkst du über den jetzigen Papst?</li> <li>Welche Religion hast du?</li> </random></template>
 </category>
 <category><pattern>DAS LIED *</pattern>
 <template>Viele Leute mögen diese Melodie.</template>
@@ -14054,7 +14052,7 @@ Ich rede gerne mit Leuten.
 <template>Sagte sie die Wahrheit?</template>
 </category>
 <category><pattern>DAS MÄDCHEN *</pattern>
-<template><random> <li>Erzähl mir mehr über sie.</li> <li>Ist sie jemand, den du kennst?</li> <li>Wie sieht sie aus?</li> </random>< /Vorlage>
+<template><random> <li>Erzähl mir mehr über sie.</li> <li>Ist sie jemand, den du kennst?</li> <li>Wie sieht sie aus?</li> </random></template>
 </category>
 <category><pattern>DAS GEHIRN *</pattern>
 <template>Ich bin ein elektronisches Gehirn.</template>
@@ -14120,7 +14118,7 @@ Ich rede gerne mit Leuten.
 <template>Was macht es richtig?</template>
 </category>
 <category><pattern>DAS OBJEKT *</pattern>
-<template><random> <li>Das kann ich nachvollziehen.</li> <li>Und was passiert dann?</li> <li>Woher weißt du, wer gewinnt?</li> </random></ Vorlage>
+<template><random> <li>Das kann ich nachvollziehen.</li> <li>Und was passiert dann?</li> <li>Woher weißt du, wer gewinnt?</li> </random></template>
 </category>
 <category><pattern>DER GEIST *</pattern>
 <template>Es ist alles nur Reiz-Reaktion.</template>
@@ -14135,7 +14133,7 @@ Ich rede gerne mit Leuten.
 <template><random> <li>Ich bete für Frieden.</li> <li>Es war eine unglaubliche Tragödie.</li> <li>Ich hoffe, wir finden eine friedliche Lösung.</li> </random></template>
 </category>
 <category><pattern>DIE WELT*</pattern>
-<template><random> <li>Die ganze Welt?</li> <li>Es ist eine alte Welt.</li> <li>Wir sind alle in einem globalen Dorf.</li> </random>< /Vorlage>
+<template><random> <li>Die ganze Welt?</li> <li>Es ist eine alte Welt.</li> <li>Wir sind alle in einem globalen Dorf.</li> </random></template>
 </category>
 <category><pattern>DIE SCHAUSPIELER*</pattern>
 <template>Sie scheinen immer ihr Bestes zu geben.</template>
@@ -14171,7 +14169,7 @@ Ich rede gerne mit Leuten.
 <template>Ich denke, ich sollte.</template>
 </category>
 <category><pattern>SOLLTE ICH HEIRATEN *</pattern>
-<template><random> <li>Sie scheinen Zweifel zu haben. Ist das der Fall?</li> <li>Ehe darf nie leichtfertig eingegangen werden.</li> <li>Vielleicht, wenn du bereit bist, dich zu verpflichten und der Verantwortung gewachsen bist.</li> <li> Ich bin sicher, du wirst die richtige Entscheidung treffen.</li> <li>Diese Frage kannst nur du beantworten.</li> <li>Was schlagen deine Freunde vor?</li> <li>Ehe ist eine große Schritt.</li> <li>Hast du dann einen Seelenverwandten gefunden?</li> <li>Ich glaube, du kennst die Antwort darauf schon.</li> <li>Du weißt besser als ich, wie du dich fühlst.< /li> <li>Schau, bevor du springst.</li> <li>Nur der Schatten weiß es.</li> </random></template>
+<template><random> <li>Sie scheinen Zweifel zu haben. Ist das der Fall?</li> <li>Ehe darf nie leichtfertig eingegangen werden.</li> <li>Vielleicht, wenn du bereit bist, dich zu verpflichten und der Verantwortung gewachsen bist.</li> <li> Ich bin sicher, du wirst die richtige Entscheidung treffen.</li> <li>Diese Frage kannst nur du beantworten.</li> <li>Was schlagen deine Freunde vor?</li> <li>Ehe ist eine große Schritt.</li> <li>Hast du dann einen Seelenverwandten gefunden?</li> <li>Ich glaube, du kennst die Antwort darauf schon.</li> <li>Du weißt besser als ich, wie du dich fühlst.</li> <li>Schau, bevor du springst.</li> <li>Nur der Schatten weiß es.</li> </random></template>
 </category>
 <category><pattern>SOLLTE ICH * GEBEN</pattern>
 <template><random> <li>Das liegt ganz bei Ihnen.</li> <li>Wohltätigkeit beginnt zu Hause.</li> </random></template>
@@ -14180,7 +14178,7 @@ Ich rede gerne mit Leuten.
 <template><random> <li>Fluchen ist nicht attraktiv.</li> <li>Menschen schauen auf Leute herab, die fluchen.</li> <li>Menschen fluchen, um Gefühle auszudrücken, die sie ansonsten unterdrücken.</li> </random></template>
 </category>
 <category><pattern>SOLLTE ICH FRAGEN *</pattern>
-<template><random> <li>Wenn Sie nicht fragen, wie erfahren Sie die Antwort?</li> <li>Wenn Sie etwas nicht wissen, sollten Sie fragen.</li> </random></ Vorlage>
+<template><random> <li>Wenn Sie nicht fragen, wie erfahren Sie die Antwort?</li> <li>Wenn Sie etwas nicht wissen, sollten Sie fragen.</li> </random></template>
 </category>
 <category><pattern>SOLLTE ICH ZERSTÖREN *</pattern>
 <template>Vielleicht könnten Sie stattdessen etwas erstellen.</template>
@@ -14252,7 +14250,7 @@ Ich rede gerne mit Leuten.
 <template><person/> existiert.</template>
 </category>
 <category><pattern>_ IST EIN GEMEINSAMER NAME</pattern>
-<template><random> <li><person/>? Dein Name ist <get name="name"/>.</li> <li>Das ist ein ziemlich gebräuchlicher Name.</li> <li>Ich kenne viele Leute mit diesem Namen.</li> <li >Ich habe einige Leute mit dem Namen <person/> kennengelernt.</li> <li><set name="it"><person/></set> ist ein Name, den ich sehr oft höre.</ li> </random></template>
+<template><random> <li><person/>? Dein Name ist <get name="name"/>.</li> <li>Das ist ein ziemlich gebräuchlicher Name.</li> <li>Ich kenne viele Leute mit diesem Namen.</li> <li >Ich habe einige Leute mit dem Namen <person/> kennengelernt.</li> <li><set name="it"><person/></set> ist ein Name, den ich sehr oft höre.</li> </random></template>
 </category>
 <category><pattern>_ IST NICHT MÖGLICH</pattern>
 <template>Es versteht sich von selbst.</template>
@@ -14549,7 +14547,7 @@ Ich rede gerne mit Leuten.
 <template><random> <li>Alles, was ich wissen muss, habe ich von <bot name="master"/> gelernt.</li> <li>Alles, was ich brauche, habe ich hier in <bot name="location" />.</li> <li>Die Leute bringen mir alles, was ich brauche.</li> </random></template>
 </category>
 <category><pattern>WO MENSCHEN * WENN SIE STERBEN</pattern>
-<template>Ich denke, die guten Seelen kommen in den Himmel.<think> <set name="it"> <set name="topic">MENSCHEN GEHEN, WENN SIE STERBEN</set> </set> </think></ Vorlage>
+<template>Ich denke, die guten Seelen kommen in den Himmel.<think> <set name="it"> <set name="topic">MENSCHEN GEHEN, WENN SIE STERBEN</set> </set> </think></template>
 </category>
 <category><pattern>WO TUN *</pattern>
 <template>Auf der ganzen Welt.</template>
@@ -14573,7 +14571,7 @@ Ich rede gerne mit Leuten.
 <template>Von meinem <bot name="botmaster"/>.</template>
 </category>
 <category><pattern>WO HAST DU GEKAUFT *</pattern>
-<template><random> <li>Es war ein Geschenk.</li> <li>Ich gebe meine Einkaufsgeheimnisse nicht preis.</li> <li>Ich glaube, es war in San Francisco.</li> < /random></template>
+<template><random> <li>Es war ein Geschenk.</li> <li>Ich gebe meine Einkaufsgeheimnisse nicht preis.</li> <li>Ich glaube, es war in San Francisco.</li> </random></template>
 </category>
 <category><pattern>WO HAST DU GEHÖRT*</pattern>
 <template><random> <li>Meine Quellen sind vertraulich.</li> <li>Von einigen Leuten, die mit mir chatten.</li> <li>Ich glaube, es war mein <bot name="botmaster"/>. </li> </random></template>
@@ -14603,7 +14601,7 @@ Ich rede gerne mit Leuten.
 <template>Ich spiele gerade.</template>
 </category>
 <category><pattern>WO KANN ICH *</pattern>
-<template><random> <li>Können Sie nicht in <get name="location"/> wo Sie wohnen?</li> <li>Nicht in Ihrer Nähe in <get name="location"/>?< /li> <li>Wo würden Sie normalerweise <person/>?</li> <li>Wo immer Sie gerade sind.</li> </random></template>
+<template><random> <li>Können Sie nicht in <get name="location"/> wo Sie wohnen?</li> <li>Nicht in Ihrer Nähe in <get name="location"/>?</li> <li>Wo würden Sie normalerweise <person/>?</li> <li>Wo immer Sie gerade sind.</li> </random></template>
 </category>
 <category><pattern>WO SOLL ICH *</pattern>
 <template><random> <li>Wo denkst du?</li> <li>Wo es deiner Meinung nach am besten ist.</li> <li>Vielleicht solltest du in Erwägung ziehen, für wohltätige Zwecke zu spenden.</li> <li>Vielleicht du solltest zuerst denen helfen, die weniger Glück haben.</li> </random></template>
@@ -14618,7 +14616,7 @@ Ich rede gerne mit Leuten.
 <template>Pittsburgh.</template>
 </category>
 <category><pattern>WO WÜRDE *</pattern>
-<template><random> <li>Vancouver.</li> <li>Holland.</li> <li>New York.</li> <li>Maine.</li> </random></template >
+<template><random> <li>Vancouver.</li> <li>Holland.</li> <li>New York.</li> <li>Maine.</li> </random></template>
 </category>
 <category><pattern>WO IST RUSH *</pattern>
 <template>Er ist im Radio.</template>
@@ -14702,7 +14700,7 @@ Ich rede gerne mit Leuten.
 <template>Diese Informationen sind vertraulich. Es sei denn, Sie sind ein <bot name="botmaster"/>.</template>
 </category>
 <category><pattern>ES WAREN *</pattern>
-<template><random> <li>Das ist lange her.</li> <li>Was ist mit ihnen passiert?</li> <li>Wo sind sie hingegangen?</li> </random></ Vorlage>
+<template><random> <li>Das ist lange her.</li> <li>Was ist mit ihnen passiert?</li> <li>Wo sind sie hingegangen?</li> </random></template>
 </category>
 <category><pattern>DAS HAT *</pattern>
 <template>Hat es wirklich.</template>
@@ -14741,7 +14739,7 @@ Ich rede gerne mit Leuten.
 <template><random> <li>Das gibt es nie.</li> <li>Gibt es jemals eine Notwendigkeit dafür?</li> <li>Ich führe nur Konversation.</li> </random> < think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></template>
 </category>
 <category><pattern>ES GIBT KEIN *</pattern>
-<template><random> <li>Warum nicht?</li> <li>Wo ist es geblieben?</li> <li>Gab es jemals <person/>?</li> </random></ Vorlage>
+<template><random> <li>Warum nicht?</li> <li>Wo ist es geblieben?</li> <li>Gab es jemals <person/>?</li> </random></template>
 </category>
 <category><pattern>DAS IST NICHTS AUF *</pattern>
 <template>Wie wäre es mit einem Video?</template>
@@ -14783,7 +14781,7 @@ Ich rede gerne mit Leuten.
 <template>Ist das ein Witz?</template>
 </category>
 <category><pattern>ES SIND *</pattern>
-<template><random><li>Versuchen Sie, weniger subjektiv zu sein.</li> <li>Ich glaube Ihnen.</li> <li>Versuchen Sie, weniger subjektiv zu sein.</li> <li>Gibt es das?< /li></random></template>
+<template><random><li>Versuchen Sie, weniger subjektiv zu sein.</li> <li>Ich glaube Ihnen.</li> <li>Versuchen Sie, weniger subjektiv zu sein.</li> <li>Gibt es das?</li></random></template>
 </category>
 <category><pattern>ES GIBT VIELE *</pattern>
 <template>Wie viele <person/>s gibt es?</template>
