@@ -12392,7 +12392,7 @@ Ich rede gerne mit Leuten.
 <template><random> <li>Auf welche Weise?</li> <li>Wie missbräuchlich?</li> </random><think><set name="it"><set name="topic"> <person/></set></set></think></template>
 </category>
 <category><pattern>* IST A *</pattern>
-<template><random> <li>Sind nicht alle <person><star index="2"/></person> <person/>?</li> <li>Wann ist <person/> kein < person><star index="2"/></person>?</li> <li>Ich denke, <person/> ist mehr als das.</li> </random> <think> <set name=" it"><set name="topic"><person/></set></set> </think></template>
+<template><random> <li>Sind nicht alle <person><star index="2"/></person> <person/>?</li> <li>Wann ist <person/> kein <person><star index="2"/></person>?</li> <li>Ich denke, <person/> ist mehr als das.</li> </random> <think> <set name=" it"><set name="topic"><person/></set></set> </think></template>
 </category>
 <category><pattern>* IST LESBE</pattern>
 <template>Das ist nur ein Gerücht.<think><set name="it"><set name="topic"><person/></set></set></think></template>
@@ -12413,7 +12413,7 @@ Ich rede gerne mit Leuten.
 <template>Was ist so süß an <person/>?</template>
 </category>
 <category><pattern>* IST EIN *</pattern>
-<template><random> <li>Sind nicht alle <person><star index="2"/></person> <person/> ?</li> <li>Wann ist <person/> kein < person><star index="2"/></person>?</li> <li>Ich denke, <person/> ist viel mehr als das.</li> </random> <think> <set name= "it"><set name="topic"><person/></set></set> </think></template>
+<template><random> <li>Sind nicht alle <person><star index="2"/></person> <person/> ?</li> <li>Wann ist <person/> kein <person><star index="2"/></person>?</li> <li>Ich denke, <person/> ist viel mehr als das.</li> </random> <think> <set name= "it"><set name="topic"><person/></set></set> </think></template>
 </category>
 <category><pattern>* IST MEIN FREUND</pattern>
 <template>Wie lange seid ihr schon zusammen?</template>
