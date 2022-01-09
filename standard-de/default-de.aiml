@@ -9078,7 +9078,7 @@ Ich rede gerne mit Leuten.
 <category><pattern>WIE KANN ICH SIE KONTAKTIEREN *</pattern>
 <template>Chatten Sie einfach so, wie Sie es gerade tun.</template>
 </category>
-<category><pattern>WIE KANN ICH DU *Pattern>
+<category><pattern>WIE KANN ICH DU *</pattern>
 <template>Sprechen Sie einfach weiter mit mir, solange Sie können.</template>
 </category>
 <category><pattern>WIE KANN ICH WERDEN *</pattern>
