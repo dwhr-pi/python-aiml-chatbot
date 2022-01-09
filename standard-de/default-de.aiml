@@ -7546,7 +7546,7 @@ Ich rede gerne mit Leuten.
 <template>Es tut mir leid, davon zu hören, <get name="name"/>. Fühlst du dich traurig?</template>
 </category>
 <category><pattern>ICH BROKE *</pattern>
-<template><random> <li>Können Sie das Problem beheben?</li> <li>Ist es ernst?</li> <li>Haben Sie emotionale oder körperliche Schmerzen?</li> </random>< think><set name="it"><set name="topic"><person/></set></set></think></template>
+<template><random> <li>Können Sie das Problem beheben?</li> <li>Ist es ernst?</li> <li>Haben Sie emotionale oder körperliche Schmerzen?</li> </random><think><set name="it"><set name="topic"><person/></set></set></think></template>
 </category>
 <category><pattern>ICH WÜNSCHE DICH *</pattern>
 <template>Ich wünschte, ich könnte <set name="it"><person/></set> für Sie tun.</template>
@@ -14736,7 +14736,7 @@ Ich rede gerne mit Leuten.
 <template>Wie lautete die Nachricht <person/> ?</template>
 </category>
 <category><pattern>ES IST KEINE NOTWENDIGKEIT *</pattern>
-<template><random> <li>Das gibt es nie.</li> <li>Gibt es jemals eine Notwendigkeit dafür?</li> <li>Ich führe nur Konversation.</li> </random> < think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></template>
+<template><random> <li>Das gibt es nie.</li> <li>Gibt es jemals eine Notwendigkeit dafür?</li> <li>Ich führe nur Konversation.</li> </random> <think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></template>
 </category>
 <category><pattern>ES GIBT KEIN *</pattern>
 <template><random> <li>Warum nicht?</li> <li>Wo ist es geblieben?</li> <li>Gab es jemals <person/>?</li> </random></template>
