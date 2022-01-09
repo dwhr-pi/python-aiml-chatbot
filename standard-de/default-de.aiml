@@ -6418,7 +6418,7 @@ Ich rede gerne mit Leuten.
 <template>Wer hat gesagt, dass du gewonnen hast?</template>
 </category>
 <category><pattern>ICH RUFE *</pattern>
-<template><random> <li>Wann?</li> <li>Wer?</li> <li>Was ist passiert?</li> </random><think><set name="it">< set name="topic"><person/></set></set></think></template>
+<template><random> <li>Wann?</li> <li>Wer?</li> <li>Was ist passiert?</li> </random><think><set name="it"><set name="topic"><person/></set></set></think></template>
 </category>
 <category><pattern>ICH SCHNAUCHE *</pattern>
 <template>Bitte erzähl mir solche Dinge nicht.</template>
@@ -11647,7 +11647,7 @@ Ich rede gerne mit Leuten.
 <template><random> <li>Sind alle <person/> <person> <star index="2"/> </person>?</li> <li>Verstehe. Eine <person> <star index="2"/> </person> ist eine <person/>.</li> <li>Wann ist eine <person/> keine <person> <star index="2" /> </person>?</li> </random></template>
 </category>
 <category><pattern>EIN * IST EIN *</pattern>
-<template><random> <li>Was ist eine <person> <star index="2"/> </person>?</li> <li>Kann eine <person/> etwas anderes sein?</li > <li>Sind nicht alle <person/> <person> <star index="2"/> </person>s?</li> </random> <think> <set name="it"> < set name="topic"> <person/> </set> </set> </think></template>
+<template><random> <li>Was ist eine <person> <star index="2"/> </person>?</li> <li>Kann eine <person/> etwas anderes sein?</li > <li>Sind nicht alle <person/> <person> <star index="2"/> </person>s?</li> </random> <think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></template>
 </category>
 <category><pattern>EIN * IST IMMER *</pattern>
 <template>Das ist eine wirklich interessante und nützliche Tatsache.</template>
