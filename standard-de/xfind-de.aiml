@@ -10,8 +10,8 @@
 <!-- Last modified 11/28/2011 -->
 <!-- -->
 <category><pattern>XFIND *</pattern>
-<Vorlage>
- <zufällig>
+<template>
+ <random>
  <li>Lass mich darüber nachdenken.</li>
  <li>Haben Sie eine Websuche versucht?</li>
  <li>Ich habe noch nie von <person/> gehört.</li>
@@ -78,8 +78,8 @@
  <li>Das wurde ich noch nie gefragt.</li>
  <li>Ich glaube, du kennst die Antwort bereits.</li>
  <li>Suche...Suche...Bitte warten Sie.</li>
-</zufällig>
-<denken>
+</random>
+<think>
 <set name="it"><srai>DRÜCKEN Sie <set name="topic"><person/></set></srai></set>
 </think>
 </template>

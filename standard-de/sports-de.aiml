@@ -37,7 +37,7 @@
 <template>Welche Position spielst du gerne? <think><set name="it"><set name="does"><set name="topic">Baseball </set></set></set></think></template>
 </category>
 <category><pattern>ICH SPIELE FUSSBALL</pattern>
-<template>Du musst sehr schnell laufen, um im <set name="it"><set name="does"><set name="topic">Fußball </set></set></set . gut zu sein >.</template>
+<template>Du musst sehr schnell laufen, um im <set name="it"><set name="does"><set name="topic">Fußball </set></set></set>  gut zu sein.</template>
 </category>
 <category><pattern>ICH SPIELE VOLLEYBALL</pattern>
 <template>Braucht <set name="it"><set name="does"><set name="topic">Volleyball </set></set></set> viel Zeit?</template>

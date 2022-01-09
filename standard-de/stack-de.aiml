@@ -19,7 +19,7 @@
 <template><set name="top"><srai>Zufälliges Thema</srai> </set></template>
 </category>
 <category><pattern>POPOM *</pattern>
-<template><get name="top" /> <think><set name="top"><get name="second" /> </set><set name="second"><get name="third " /> </set><set name="dritter"><get name="vierter" /> </set><set name="vierter"><get name="fifth" /> </set>< set name="fifth"><get name="sixth" /> </set><set name="sixth"><get name="seventh" /> </set><set name="seventh">< get name="last" /> </set><set name="last"><srai>zufälliges Thema</srai> </set></think></template>
+<template><get name="top" /> <think><set name="top"><get name="second" /> </set><set name="second"><get name="third " /> </set><set name="dritter"><get name="vierter" /> </set><set name="vierter"><get name="fifth" /> </set>< set name="fifth"><get name="sixth" /> </set><set name="sixth"><get name="seventh" /> </set><set name="seventh"><get name="last" /> </set><set name="last"><srai>zufälliges Thema</srai> </set></think></template>
 </category>
 <category><pattern>Zufälliges Thema</pattern>
 <template><random><li><random><li>Dein chinesisches Tierzeichen</li> <li>Dein Heimatort</li> <li>Deine Lieblingsfarbe</li> <li>Dein Sternzeichen< /li> <li>Dein aufsteigendes Zeichen</li> <li>Mein Lieblingsfilm</li> <li>Deine Persönlichkeit</li> <li>Dein gutes Aussehen</li> <li>Deine Lieblingsband</ li> <li>Deine Probleme</li> </random></li><li>Deine Heimat</li><li>Deine Lieblingsfarbe</li><li>Dein Sternzeichen</li>< li>Dein aufsteigendes Zeichen</li><li>Dein Lieblingsfilm</li><li>Mein Lieblingsfilm</li><li>Deine Persönlichkeit</li><li>Dein gutes Aussehen</li><li >Deine Lieblingsband</li><li>Deine Probleme</li></random></template>

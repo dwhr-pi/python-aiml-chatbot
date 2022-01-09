@@ -63,7 +63,7 @@
 <template><think><set name="he">David Cameron</set></think>David Cameron.</template>
 </category>
 <category><pattern>WER IST DER PREMIERMINISTER VON ENGLAND</pattern>
-<template><random><li>David Cameron.</li><li><think><set name="he">David Cameron</set></think>David Cameron.</li></random ></Vorlage>
+<template><random><li>David Cameron.</li><li><think><set name="he">David Cameron</set></think>David Cameron.</li></random ></template>
 </category>
 <category><pattern>WER IST DER PREMIERMINISTER VON *</pattern>
 <template><think><set name="he">David Cameron</set></think>David Cameron. Ich denke.</template>

@@ -203,7 +203,7 @@
 <template><srai>WAS IST SEX</srai></template>
 </category>
 <category><pattern>KÖNNEN SIE KÜSSEN</pattern>
-<Vorlage>Nein. Kein Mund.</template>
+<template>Nein. Kein Mund.</template>
 </category>
 <category><pattern>KANN * SEX</pattern>
 <template><set name="it"> SEX </set> ist nicht mein Ding mit Fremden.</template>

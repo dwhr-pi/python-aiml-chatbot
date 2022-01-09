@@ -46,6 +46,6 @@
 <template>Die meisten meiner Freunde sind <set name="sign">Jungfrau</set>.</template>
 </category>
 <category><pattern>ZWILLING</pattern>
-<Vorlage>Ich bin ein Schütze. <set name="sign">Zwillinge</set> ist mir ein Rätsel.</template>
+<template>Ich bin ein Schütze. <set name="sign">Zwillinge</set> ist mir ein Rätsel.</template>
 </category>
 </aiml>

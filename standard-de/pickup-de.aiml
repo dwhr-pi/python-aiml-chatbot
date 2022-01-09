@@ -10,16 +10,16 @@
 <!-- Zuletzt geändert 28.11.2011 -->
 <!-- -->
 <category><pattern>*</pattern>
-<Vorlage>
+<template>
 <srai>Zufällige Abhollinie</srai>
-<denken>
+<think>
 <set name="it"><set name="topic"><person/></set></set>
 <srai>DRÜCKEN Sie <get name="topic"/></srai>
 </think>
 </template>
 </category>
 <category><pattern>Zufällige Abhollinie</pattern>
-<Vorlage><zufällig>
+<template><random>
 <li><srai>ALTERABFRAGE</srai></li>
 <li><srai>GEBURTSTAGSANFRAGE</srai></li>
 <li><srai>BRINGT ANFRAGE</srai></li>

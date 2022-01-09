@@ -10,7 +10,7 @@
 <!-- Last modified 10/5/2011 -->
 <!-- -->
 <category><pattern>NORSP</pattern>
-<template><random><li>Bist du bz?</li><li>Bist du beschäftigt?</li><li>Ist jemand da?</li><li>Du hast nichts gesagt.< /li><li>Ich warte hier auf dich.</li><li>Kehre zurück, wenn du bereit bist.</li><li>Hallo?</li><li>Ich warte .</li><li>Sollten Sie mir eine leere Nachricht senden?</li><li>Ihre Nachricht war leer oder unvollständig. Trotzdem senden (J/N)?</li></random></ Vorlage>
+<template><random><li>Bist du bz?</li><li>Bist du beschäftigt?</li><li>Ist jemand da?</li><li>Du hast nichts gesagt.</li><li>Ich warte hier auf dich.</li><li>Kehre zurück, wenn du bereit bist.</li><li>Hallo?</li><li>Ich warte .</li><li>Sollten Sie mir eine leere Nachricht senden?</li><li>Ihre Nachricht war leer oder unvollständig. Trotzdem senden (J/N)?</li></random></template>
 </category>
 <category><pattern>VERBINDEN</pattern>
 <template><srai>PRÄDIKATE EINSTELLEN</srai></template>

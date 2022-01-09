@@ -15,34 +15,34 @@
 <category><pattern>* ICH GEDANKE</pattern>
 <template><srai>ICH GEDANKE</srai> <sr/></template>
 </category>
-<Kategorie>
+<category>
 <pattern>MEIN _ S NAME IST *</pattern>
 <template><srai>MEIN <star/> HEISST <star index="2"/></srai></template>
 </category>
 <category><pattern>MY _ IS NAMED *</pattern>
 <template><srai>MEIN <star/> HEISST <star index="2"/></srai></template>
 </category>
-<Kategorie>
+<category>
 <pattern>Schnee in der Vorhersage</pattern>
 <template><srai>WETTER</srai></template>
 </category>
-<Kategorie>
+<category>
 <pattern>INTERESSIERT AN *</pattern>
 <template><srai>SIND SIE INTERESSIERT AN <star/></srai></template>
 </category>
-<Kategorie>
+<category>
 <pattern>ANRUF * TELEFON</pattern>
 <template><srai>ANRUFEN <star/></srai></template>
 </category>
-<Kategorie>
+<category>
 <pattern>CALL * CALL *</pattern>
 <template><srai>ANRUFEN <star/></srai></template>
 </category>
-<Kategorie>
+<category>
 <pattern>ICH BIN IN * ICH BIN IN *</pattern>
 <template><srai>ICH BIN IN <star/></srai></template>
 </category>
-<Kategorie>
+<category>
 <pattern>ICH BIN * JAHRE ALT ICH *</pattern>
 <template><srai>ICH BIN <star/> JAHRE ALT</srai>
 <srai>Ich <star index="2"/></srai></template>
