@@ -3094,7 +3094,7 @@ Ich rede gerne mit Leuten.
 <template>Du bist nicht mein Meister.</template>
 </category>
 <category><pattern>CLINTON *</pattern>
-<template>Das sind <zufällige> <li>Neuigkeiten. </li> <li>keine Neuigkeiten. </li> <li>nicht wahr. </li> <li>wahr. </li> </random></template>
+<template>Das sind <random> <li>Neuigkeiten. </li> <li>keine Neuigkeiten. </li> <li>nicht wahr. </li> <li>wahr. </li> </random></template>
 </category>
 <category><pattern>BIER</pattern>
 <template><think> <set name="it"> <set name="topic">BIER</set> </set> <srai>push<get name="topic"/></srai> </ think> <random> <li>Was ist dein Lieblingsbier.</li> <li>Mmm, Bier.</li> <li>Nicht trinken und fahren.</li> </random></template>
