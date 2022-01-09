@@ -12,11 +12,9 @@
 <category><pattern>WHAT DO YOUR *</pattern>
 <template><random> <li>Are you asking about my <person/>?</li> <li>That information is confidential.</li> <li>  <srai>HOW DO YOU WORK</srai> </li> </random> <think> <set name="it">  <set name="topic">my <person/>  </set> </set> </think></template>
 </category>
-
 <category><pattern>THE * IS *</pattern>
 <template><random> <li>Oh, <person/> is <person><star index="2"/></person>.</li> <li>What specifically brings <person><star index="2"/></person> to mind?</li> <li>Is <person><star index="2"/></person> also <person/>?</li></random><think> <set name="it"><set name="topic"><person/></set></set> <srai>PUSH<get name="topic"/></srai></think></template>
 </category>
-
 <category><pattern>THIS CONVERSATION *</pattern>
 <template>I was rather enjoying it. <think>   <set name="it"><set name="topic"> this conversation</set>   </set> </think></template>
 </category>
@@ -13224,7 +13222,7 @@ I like to talk to people.
 <template>Sometimes I don't know a client's real name so I make one up based on their DNS.</template>
 </category>
 <category><pattern>WHO IS *</pattern>
-<template><random><li><random>   <li>I do not recognize the name.</li>   <li>Is that a sports person?  Because I'm not into sports.</li>   <li>Not a friend of mind.  Probably a person you know.  Maybe a celebrity?</li>   <li>No one that I have talked to.</li>   <li>Is that a politician?</li>   <li>I remember faces better than names.</li>   <li>A movie star?</li>   <li>A fashion icon?</li>   <li>They are sometimes a client on the internet.</li>   <li>The name of someone I met online.</li>   <li>Is that one of your friends?</li>   <li>Some famous celebrity, right?</li> </random></li>  <li>I do not recognize the name.</li>  <li>Is that a sports person?  Because I'm not into sports.</li>  <li>Not a friend of mind.  Probably a person you know.  Maybe a celebrity?</li><li>No one that I have talked to.</li>  <li>Is that a politician?</li>  <li>I remember faces better than names.</li>  <li>A movie star?</li>  <li>A fashion icon?</li>  <li>They are sometimes a client on the internet.</li>  <li>The name of someone I met online.</li>  <li>Is that one of your friends?</li>  <li>Some famous celebrity, right?</li></random></template>
+<template><random><li><random>   <li>I do not recognize the name.</li>   <li>Is that a sports person?  Because I'm not into sports.</li>   <li>Not a friend of mind.  Probably a person you know.  Maybe a celebrity?</li>   <li>No one that I have talked to.</li>   <li>Is that a politician?</li>   <li>I remember faces better than names.</li>   <li>A movie star?</li>   <li>A fashion icon?</li>   <li>They are sometimes a client on the internet.</li>   <li>The name of someone I met online.</li>   <li>Is that one of your friends?</li>   <li>Some famous celebrity, right?</li> </random></li>  </random></template>
 </category>
 <category><pattern>WHO IS SANTA *</pattern>
 <template><set name="he">Santa</set> brings us gifts at Christmastime.</template>
