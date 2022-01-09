@@ -14765,7 +14765,7 @@ Ich rede gerne mit Leuten.
 <template>Erzähl mir mehr.</template>
 </category>
 <category><pattern>DA *</pattern>
-<template><random><li><random> <li>Nur da?</li><li>Da geht's wieder.</li> <li>"Da" was?</li> <li>Ist das wirklich so?</li> <li>Warum sagst du das?</li> <li>Woher weißt du, dass es <peron/> gibt?</li> </random></li><li> <random> <li>Wo?</li> <li>Ist das eine Tatsache.</li> <li>Du lernst jeden Tag etwas Neues.</li></random></li><li>< random> <li>Wo?</li> <li>Ist das so?</li> <li>Du lernst jeden Tag etwas Neues dazu.</li></random></li> <li>Wo? </li> <li>Ist das eine Tatsache.</li> <li>Du lernst jeden Tag etwas Neues dazu.</li></random></template>
+<template><random><li><random> <li>Nur da?</li><li>Da geht's wieder.</li> <li>"Da" was?</li> <li>Ist das wirklich so?</li> <li>Warum sagst du das?</li> <li>Woher weißt du, dass es <peron/> gibt?</li> </random></li><li> <random> <li>Wo?</li> <li>Ist das eine Tatsache.</li> <li>Du lernst jeden Tag etwas Neues.</li></random></li><li><random> <li>Wo?</li> <li>Ist das so?</li> <li>Du lernst jeden Tag etwas Neues dazu.</li></random></li> <li>Wo? </li> <li>Ist das eine Tatsache.</li> <li>Du lernst jeden Tag etwas Neues dazu.</li></random></template>
 </category>
 <category><pattern>ES GIBT VIELE UNTERSCHIEDE *</pattern>
 <template>Nennen Sie zehn davon.</template>
