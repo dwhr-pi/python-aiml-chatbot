@@ -13586,13 +13586,13 @@ Ich rede gerne mit Leuten.
 <template>Ihr Name ist <get name="name"/>, Suchender.</template>
 </category>
 <category><pattern>SAG MEIN FREUND IST *</pattern>
-<template><random> <li>Du sagtest, er heiße </li> <li>Du sagtest mir, er sei </li> <li>Sein Name ist </li> </random> <get name="boyfriend "/>.</template>
+<template><random> <li>Du sagtest, er heiße </li> <li>Du sagtest mir, er sei </li> <li>Sein Name ist </li> </random> <get name="boyfriend"/>.</template>
 </category>
 <category><pattern>SAG MEIN SPITZNAME IST *</pattern>
-<template><random> <li>Sie sagten, es sei </li> <li>Sie sagten mir, es sei </li> <li>Es ist </li> </random> <get name="nickname"/ >.</template>
+<template><random> <li>Sie sagten, es sei </li> <li>Sie sagten mir, es sei </li> <li>Es ist </li> </random> <get name="nickname"/>.</template>
 </category>
 <category><pattern>SAG MEIN PASSWORT IST *</pattern>
-<template><random> <li>Sie sagten es war </li> <li>Sie sagten es mir </li> <li>Es ist </li> </random> <get name="password"/ >.</template>
+<template><random> <li>Sie sagten es war </li> <li>Sie sagten es mir </li> <li>Es ist </li> </random> <get name="password"/>.</template>
 </category>
 <category><pattern>SAG MEIN FREUND IST *</pattern>
 <template><random> <li>Du sagtest, er heiße </li> <li>Du sagtest mir, er sei </li> <li>Sein Name ist </li> </random> <get name="friend "/>.</template>
@@ -13607,10 +13607,10 @@ Ich rede gerne mit Leuten.
 <template><random> <li>Sie sagten, sie heiße </li> <li>Sie sagte mir, sie sei </li> <li>Ihr Name ist </li> </random> <get name="wife "/>.</template>
 </category>
 <category><pattern>SAG MEINE E-MAIL IST *</pattern>
-<template><random> <li>Sie sagten, es sei </li> <li>Sie sagten mir, es sei so </li> <li>Es ist </li> </random> <get name="email"/ >.</template>
+<template><random> <li>Sie sagten, es sei </li> <li>Sie sagten mir, es sei so </li> <li>Es ist </li> </random> <get name="email"/>.</template>
 </category>
 <category><pattern>SAG MEIN ZWEITER NAME IST *</pattern>
-<template><random> <li>Sie sagten, es sei </li> <li>Sie sagten mir, es sei </li> <li>Es ist </li> </random> <get name="middlename"/ >.</template>
+<template><random> <li>Sie sagten, es sei </li> <li>Sie sagten mir, es sei </li> <li>Es ist </li> </random> <get name="middlename"/>.</template>
 </category>
 <category><pattern>SAG MEINE MUTTER IST *</pattern>
 <template><random> <li>Sie sagten, sie heiße </li> <li>Sie sagte mir, sie sei </li> <li>Ihr Name ist </li> </random> <get name="mother "/>.</template>
@@ -13622,7 +13622,7 @@ Ich rede gerne mit Leuten.
 <template><random> <li>Sie sagten, sie heiße </li> <li>Sie sagte mir, sie sei </li> <li>Ihr Name ist </li> </random> <get name="friend "/>.</template>
 </category>
 <category><pattern>SAG MEINE TELEFONNUMMER IST *</pattern>
-<template><random> <li>Sie sagten, es sei </li> <li>Sie sagten mir, es sei so </li> <li>Es ist </li> </random> <get name="phone"/ >.</template>
+<template><random> <li>Sie sagten, es sei </li> <li>Sie sagten mir, es sei so </li> <li>Es ist </li> </random> <get name="phone"/>.</template>
 </category>
 <category><pattern>SAG MEIN VATER IST *</pattern>
 <template><random> <li>Sie sagten, sein Name sei </li> <li>Sie sagten mir, er sei </li> <li>Sein Name ist </li> </random> <get name="father "/>.</template>
@@ -13631,16 +13631,16 @@ Ich rede gerne mit Leuten.
 <template><random> <li>Sie sagten, sein Name sei </li> <li>Sie sagten mir, er sei </li> <li>Sein Name ist </li> </random> <get name="brother "/>.</template>
 </category>
 <category><pattern>SAG MEIN VOLLER NAME IST *</pattern>
-<template><random> <li>Sie sagten, es sei </li> <li>Sie sagten mir, es sei so </li> <li>Es ist </li> </random> <get name="fullname"/ >.</template>
+<template><random> <li>Sie sagten, es sei </li> <li>Sie sagten mir, es sei so </li> <li>Es ist </li> </random> <get name="fullname"/>.</template>
 </category>
 <category><pattern>SAG MEIN GEBURTSTAG IST *</pattern>
-<template><random> <li>Sie sagten es war </li> <li>Sie sagten mir es war </li> <li>Es ist </li> </random> <get name="birthday"/ >.</template>
+<template><random> <li>Sie sagten es war </li> <li>Sie sagten mir es war </li> <li>Es ist </li> </random> <get name="birthday"/>.</template>
 </category>
 <category><pattern>SAG MEIN NACHNAME IST *</pattern>
-<template><random> <li>Sie sagten, es sei </li> <li>Sie sagten mir, es sei so </li> <li>Es ist </li> </random> <get name="lastname"/ >.</template>
+<template><random> <li>Sie sagten, es sei </li> <li>Sie sagten mir, es sei so </li> <li>Es ist </li> </random> <get name="lastname"/>.</template>
 </category>
 <category><pattern>SAG MEINE KATZE IST *</pattern>
-<template><random> <li>Sie sagten, sie heiße </li> <li>Sie sagte mir, sie sei </li> <li>Ihr Name ist </li> </random> <get name="cat "/>.</template>
+<template><random> <li>Sie sagten, sie heiße </li> <li>Sie sagte mir, sie sei </li> <li>Ihr Name ist </li> </random> <get name="cat"/>.</template>
 </category>
 <category><pattern>ZÄHLEN BIS *</pattern>
 <template>eins, zwei, drei, vier, fünf,...</template>
