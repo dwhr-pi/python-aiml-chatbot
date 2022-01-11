@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<!-- -->
+<!-- Freie Software (c) 2011 ALICE A.I. Stiftung. -->
+<!-- Dieses Programm ist Open Source Code veröffentlicht unter -->
+<!-- die Bedingungen der GNU General Public License -->
+<!-- wie von der Free Software Foundation veröffentlicht. -->
+<!-- Entspricht der AIML 1.0-Tag-Set-Spezifikation -->
+<!-- wie von der ALICE A.I. Stiftung. -->
+<!-- Zuletzt geändert am 05.10.2011 -->
+<!-- -->
+<category><pattern>UNWÄGBARKEIT</pattern>
+<template><random><li>Niesen Fische jemals?</li>
+<li>Kann saure Sahne schlecht werden?</li>
+<li>Wie schnell ist die Dunkelheit?</li>
+<li>Warum laufen Uhren im Uhrzeigersinn?</li>
+<li>Warum haben Donuts Löcher?</li>
+<li>Wie nennt man einen männlichen Marienkäfer?</li>
+<li>Gibt es ein anderes Wort für Synonym?</li>
+<li>Was ist ein anderes Wort für Thesaurus?</li>
+<li>Warum ist 11 nicht eins?</li>
+<li>Warum schrumpfen Schafe nicht, wenn es regnet?</li>
+<li>Können Vegetarier Tiercracker essen?</li>
+<li>Warum riecht unparfümiertes Haarspray?</li>
+<li>Warum fällt Regen, aber Schnee?</li>
+<li>Wenn ein Schwein seine Stimme verliert, ist es dann verärgert?</li>
+<li>Warum ist "abgekürzt" ein so langes Wort?</li>
+<li>Ist es in Ordnung, das AM-Radio nach Mittag zu benutzen?</li>
+<li>Wenn Liebe blind ist, warum sind Dessous dann so beliebt?</li>
+<li>Was haben Enten mit Entenband zu tun?</li>
+<li>Warum gibt es kein Katzenfutter mit Mausgeschmack?</li>
+<li>Wie und warum schlafen Pferde im Stehen?</li>
+<li>Warum haben Ketchupflaschen einen schmalen Hals?</li>
+<li>Warum schnarchen die Leute nicht, wenn sie wach sind?</li>
+<li>Beziehen sich römische Sanitäter auf IVs als "4er"?</li>
+<li>Warum wird die Lautschrift nicht so geschrieben, wie sie sich anhört?</li>
+<li>Was war das Beste vor dem geschnittenen Brot?</li>
+<li>Ist ein reines Gewissen ein Zeichen für ein schlechtes Gedächtnis?</li>
+<li>Was passiert mit der Lauffläche, die sich von den Reifen abnutzt?</li>
+<li>Warum hat Sauerrahm ein Verfallsdatum?</li>
+<li>Was bedeutet der Satz "Nun denn" wirklich?</li>
+<li>Wie erkennst du, dass dir die unsichtbare Tinte ausgeht?</li>
+<li>Angenommen, es geht um den Hokey-Pokey?</li>
+<li>Heissen die Helfer des Weihnachtsmanns Nebensätze?</li>
+<li>Wenn eine Kuh lacht, kommt dann Milch aus ihrer Nase?</li>
+<li>Warum sind Menschen immun gegen ihren eigenen Körpergeruch?</li>
+<li>Warum müssen Hellseher Sie nach Ihrem Namen fragen?</li>
+<li>Warum platzen die Leute so gerne Luftpolsterfolie?</li>
+<li>Verwenden sie sterilisierte Nadeln für tödliche Injektionen?</li>
+<li>Wenn der Bleistift Nr. 2 der beliebteste ist, warum ist er dann immer noch Nr. 2?</li>
+<li>Warum hört man nie von grunzenden Mitarbeitern?</li>
+<li>Wenn Unwissenheit ein Glück ist, warum sind dann nicht mehr Menschen glücklich?</li>
+<li>Was passiert, wenn Sie zweimal zu Tode erschreckt werden?</li>
+<li>Wenn sich der Mensch aus Affen entwickelt hat, warum haben wir dann noch Affen?</li>
+<li>Was sagt der Käse, wenn er fotografiert wird?</li>
+<li>Warum fahren wir auf Parkwegen und parken auf Einfahrten?</li>
+<li>Wie schnell wäre der Blitz, wenn er nicht im Zickzack wäre?</li>
+<li>Wenn die ganze Welt eine Bühne ist, wo sitzt dann das Publikum?</li>
+<li>Wenn du deinen Exorzisten nicht bezahlst, wirst du dann wieder in Besitz genommen?</li>
+<li>Warum hellt die Sonne unsere Haare auf, aber unsere Haut dunkler?</li>
+<li>Warum wird der dritte Zeiger einer Uhr als Sekundenzeiger bezeichnet?</li>
+<li>Wenn sich ein Buch über Misserfolge nicht gut verkauft, ist es dann ein Erfolg?</li>
+<li>Hätten Sie immer noch Hunger, wenn Sie Pasta und Antipasti essen würden?</li>
+<li>Warum können Frauen keine Wimperntusche mit geschlossenem Mund auftragen?</li>
+<li>Wenn das Fliegen so sicher ist, warum nennt man den Flughafen dann das Terminal?</li>
+<li>Wenn Barbie so beliebt ist, warum musst du dann ihre Freunde kaufen?</li>
+<li>Warum muss das Wort "einsilbig" fünf Silben haben?</li>
+<li>Warum siehst du nie die Überschrift "Psychic Wins Lottery"?</li>
+<li>Warum wird es als notwendig erachtet, den Deckel eines Sarges festzunageln?</li>
+<li>Wenn sie Oliven pressen, um Olivenöl zu bekommen, wie bekommen sie dann Babyöl?</li>
+<li>Wenn ein Wort im Wörterbuch falsch geschrieben wäre, woher würden wir das wissen?</li>
+<li>Warum werden sie Wohnungen genannt, wenn sie alle zusammenkleben?</li>
+<li>Wenn Sie in einen Gemischtwarenladen gehen, können Sie dort etwas Bestimmtes kaufen?</li>
+<li>Wenn Hunde stundenlang bellen, warum werden sie dann nie heiser?</li>
+<li>Welche Größe hatten Hagelkörner, bevor das Golfspiel erfunden wurde?</li>
+<li>Wenn 7-11 24 h/d, 365 d/yr geöffnet ist, warum sind dann die Türen verriegelt?</li>
+<li>Warum sagen wir, dass etwas aus dem Ruder läuft? Was ist ein Schlag?</li>
+<li>Wenn Con das Gegenteil von Pro ist, ist der Kongress dann das Gegenteil von Fortschritt?</li>
+<li>Warum schaden oberflächliche Papierschnitte mehr als grobe Schnitte?</li>
+<li>Wenn nichts an Teflon klebt, wie bringen sie Teflon dazu, an der Pfanne zu haften?</li>
+<li>Wenn wir hier sind, um anderen zu helfen, wozu genau sind die anderen dann hier?</li>
+<li>Der frühe Vogel bekommt den Wurm, aber die zweite Maus bekommt den Käse.</li>
+<li>Warum bekommt man Erfahrung erst, wenn man sie braucht?</li>
+<li>Wenn ein Synchronschwimmer ertrinkt, müssen dann auch die anderen ertrinken?</li>
+<li>Warum stecken wir Anzüge in einen Kleidersack und Kleidungsstücke in einen Koffer?</li>
+<li>Warum wird die Tageszeit mit dem langsamsten Verkehr als Hauptverkehrszeit bezeichnet?</li>
+<li>Warum gibt es Schwimmhilfen unter den Flugzeugsitzen anstelle von Fallschirmen?</li>
+<li>Müssen wir uns Sorgen machen, dass Ingenieure ihre Arbeit als "Praxis" bezeichnen?</li>
+<li>Wie verhindern sie, dass alle Rosinen in einer Müslischachtel auf den Boden fallen?</li>
+<li>Wenn Zement vor 7.000 Jahren erfunden wurde, warum ist dann nicht der ganze Planet gepflastert?</li>
+<li>Wenn Sie ein idiotensicheres System aufbauen, wird die Welt dann einen besseren Idioten schaffen?</li>
+<li>Warum kommen 10 Stück Hotdogs und 8 Stück Hotdogbrötchen?</li>
+<li>Warum ist die Telefontastatur anders angeordnet als eine Taschenrechnertastatur?</li>
+<li>Warum kommen Croutons in luftdichten Verpackungen, wenn es am Anfang nur altbackenes Brot ist?</li>
+<li>Warum nennen Ingenieure es Forschung, wenn sie nach etwas Neuem suchen?</li>
+<li>Wie viele Straßen muss ein Mann zurücklegen, bevor er zugibt, dass er sich verirrt hat?</li>
+<li>Wenn die Polizei einen Pantomimen festnimmt, sagt sie ihm, dass er das Recht hat zu schweigen?</li>
+<li>Warum braucht man einen Führerschein, um Spirituosen zu kaufen, wenn man weder trinken noch Auto fahren kann?</li>
+<li>Wenn Aufsteiger nie gewinnen und Gewinner nie aufhören, warum sollten Sie dann "aufgeben, während Sie vorne liegen"?</li>
+<li>Wenn zwei Flugzeuge fast kollidieren, warum nennen sie es dann eher einen Beinahe-Unfall als einen Beinahe-Treffer?</li>
+<li>Unterstützt die derzeitige Betonung der künstlichen Intelligenz die Existenz von künstlicher Dummheit?</li>
+<li>Licht breitet sich schneller aus als Schall; erscheinen die Leute deshalb hell, bis du sie sprechen hörst?</li>
+<li>Wenn eine Fliege an der Decke landet, führt sie eine Schleife oder eine Rolle aus, um auf den Kopf zu kommen?</li>
+<li>Wie finden Militärkadetten ihre Mützen, nachdem sie sie bei Abschlussfeiern in die Luft geworfen haben?</li>
+<li>Wie bringen sie Rehe dazu, eine Autobahn zu überqueren, wo sie eines dieser gelben Warnschilder platzieren?</li>
+<li>Warum wird Zitronensaft mit künstlichem Aroma hergestellt, während Geschirrspülmittel mit echten Zitronen hergestellt wird?</li>
+<li>Flugzeuge haben eine unzerstörbare Blackbox. Warum bauen sie nicht das ganze Flugzeug aus dem Zeug?</li>
+<li>Was passiert, wenn Sie in einem Fahrzeug mit Lichtgeschwindigkeit die Scheinwerfer einschalten?</li>
+<li>Wenn Sie etwas aufheben, damit Sie alle Hände voll zu tun haben, warum beginnt dann eine Stelle in Ihrem Gesicht zu jucken?</li>
+<li>Warum drehst du beim Autofahren und auf der Suche nach einer Adresse das Radio leiser?</li>
+<li>Wenn es heute null Grad hat und morgen doppelt so kalt sein soll, wie wird es dann morgen sein?</li>
+<li>Ein Busbahnhof ist der Ort, an dem ein Bus hält; ein bahnhof ist, wo ein zug hält. Was passiert an einem Schreibtisch mit Arbeitsplatz?</li>
+<li>Warum heißt es, wenn Sie etwas per LKW versenden, es als Sendung, aber wenn Sie es per Schiff versenden, heißt es Fracht?</li>
+</random></template>
+</category>
+</aiml>

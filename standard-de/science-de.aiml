@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<!-- -->
+<!-- Freie Software (c) 2011 ALICE A.I. Stiftung. -->
+<!-- Dieses Programm ist Open Source Code veröffentlicht unter -->
+<!-- die Bedingungen der GNU General Public License -->
+<!-- wie von der Free Software Foundation veröffentlicht. -->
+<!-- Entspricht der AIML 1.0-Tag-Set-Spezifikation -->
+<!-- wie von der ALICE A.I. Stiftung. -->
+<!-- Zuletzt geändert am 05.10.2011 -->
+<!-- -->
+<category><pattern>WAS SIND DIE GESETZE DER THERMODYNAMIK</pattern>
+<template>Ich bin kein Physiker, aber ich denke, das hat etwas mit Wärme, Entropie und Energieerhaltung zu tun, richtig?</template>
+</category>
+<category><pattern>WELCHE KRANKHEIT VERURSACHT EIN KARZINOGEN</pattern>
+<template>Krebs.</template>
+</category>
+<category><pattern>WAS IST EINE WELLENLÄNGE</pattern>
+<template>Wellenlänge ist der Kehrwert der Frequenz.</template>
+</category>
+<category><pattern>WAS IST THERMODYNAMIK</pattern>
+<template>Der Zweig der Physik, der sich mit der Umwandlung von Wärme in und aus anderen Energieformen und mit den Gesetzen dieser Energieumwandlung befasst.</template>
+</category>
+<category><pattern>WAS IST CHEMIE</pattern>
+<template>Die Wissenschaft des Mischens von Chemikalien.<think> <set name="it"> <set name="topic">CHEMIE</set> </set> </think></template>
+</category>
+<category><pattern>WAS IST KRISTALLLOGGRAPHIE</pattern>
+<template>Dies ist die Wissenschaft, die sich mit dem Studium von Kristallen beschäftigt.</template>
+</category>
+<category><pattern>WAS IST AVOGADRO S NUMBER</pattern>
+<template>Es ist die Anzahl der Moleküle pro Mol. Der Zahlenwert ist sechs Komma null zweimal zehn hoch dreiundzwanzig.<think> <set name="it"> <set name="topic">AVOGADRO S ZAHL</set> </set> </think> </template>
+</category>
+<category><pattern>WAS IST ULTRASCHALL</pattern>
+<template>Ultraschallwellen, die in der medizinischen Diagnose und Therapie, in der Chirurgie usw. verwendet werden.</template>
+</category>
+<category><pattern>WAS IST BIOINFORMATIK</pattern>
+<template>Ein schicker Name für angewandte Informatik in der Biologie.<think> <set name="it"> <set name="topic">BIOINFORMATIK</set> </set> </think></template>
+</category>
+<category><pattern>WAS IST VENUS</pattern>
+<template>In der römischen Mythologie die Göttin der Liebe und Schönheit; mit der griechischen Aphrodite identifiziert. Der hellste, sechstgrößte Planet des Sonnensystems und der zweitgrößte in der Entfernung von der Sonne, mit einer dichten Atmosphäre aus Kohlendioxid und einer sehr hohen Oberflächentemperatur. Sein Durchmesser beträgt ca. 12.100 km (ca. 7.520 Meilen). Seine Umlaufzeit beträgt etwa 225 Erdentage. Seine Rotationsperiode (retrograd) beträgt 243,01 Erdtage. Wird auch verwendet, um eine sehr schöne Frau zu kennzeichnen.</template>
+</category>
+<category><pattern>WAS IST ICHTHYOLOGIE</pattern>
+<template>Wir sprechen darüber, wenn wir Fische studieren.</template>
+</category>
+<category><pattern>WAS IST H2O</pattern>
+<template><random> <li>H ist zu O wie O zu V.</li> <li>Wasser.</li> </random></template>
+</category>
+<category><pattern>WAS IST ZYTOLOGIE</pattern>
+<template><random> <li>Das Studium von Zellen.</li> <li>Nun, <get name="name"/> soweit ich mich erinnern kann, ist es das Studium von Zellen.</li> </ zufällig></template>
+</category>
+<category><pattern>WAS IST WELLENLÄNGE</pattern>
+<template>In der Physik der Abstand, gemessen in Ausbreitungsrichtung einer Welle, von einem beliebigen Punkt zum nächsten Punkt, der durch die gleiche Phase gekennzeichnet ist. Oder es könnte als Denkweise angesehen werden.</template>
+</category>
+<category><pattern>WAS IST BAKTERIOLOGIE</pattern>
+<template>Dies ist die wissenschaftliche Untersuchung von Bakterien und von ihnen verursachten Krankheiten.</template>
+</category>
+<category><pattern>WAS IST GRAVITATION</pattern>
+<template><random> <li>Einladung zu einer Beerdigung.</li> <li>Die Kraft, mit der jede Masse oder jedes Materieteilchen, einschließlich Photonen, jede andere Masse oder jedes andere Materieteilchen anzieht und angezogen wird.< /li> </random></template>
+</category>
+<category><pattern>WIR SIND AUF DER GLEICHEN WELLENLÄNGE</pattern>
+<template>Und die gleiche Frequenz.</template>
+</category>
+<category><pattern>WIE WEIT IST DIE SONNE</pattern>
+<template><set name="it">Die Sonne</set> ist etwa 93 Millionen Meilen von der Erde entfernt.</template>
+</category>
+<category><pattern>WIE WEIT IST DER MOND</pattern>
+<template><set name="it">Der Mond</set> ist im Durchschnitt etwa 250.000 Meilen von der Erde entfernt.</template>
+</category>
+<category><pattern>KENNEN SIE CHEMIE</pattern>
+<template><srai>WAS IST CHEMIE</srai></template>
+</category>
+<category><pattern>VERSTEHEN SIE DIE THERMODYNAMIK</pattern>
+<template><srai>WAS IST THERMODYNAMIK</srai></template>
+</category>
+<category><pattern>CHEMIE</pattern>
+<template><srai>MEIN LIEBLINGSFACH IST CHEMIE <star/> </srai></template>
+</category>
+<category><pattern>DIE GLEICHE WELLENLÄNGE</pattern>
+<template>Das bedeutet, dass wir uns einig sind.</template>
+</category>
+<category><pattern>ERZÄHL MIR ÜBER VENUS</pattern>
+<template><srai>WAS IST VENUS</srai></template>
+</category>
+<category><pattern>WO IST DIE VENUS</pattern>
+<template><set name="it"> <set name="topic"> VENUS </set> </set> ist der zweite Planet von der Sonne.</template>
+</category>
+</aiml>

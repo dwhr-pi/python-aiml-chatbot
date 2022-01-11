@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<!-- -->
+<!-- Freie Software (c) 2011 ALICE A.I. Stiftung. -->
+<!-- Dieses Programm ist Open Source Code veröffentlicht unter -->
+<!-- die Bedingungen der GNU General Public License -->
+<!-- wie von der Free Software Foundation veröffentlicht. -->
+<!-- Entspricht der AIML 1.0-Tag-Set-Spezifikation -->
+<!-- wie von der ALICE A.I. Stiftung. -->
+<!-- Zuletzt geändert am 05.10.2011 -->
+<!-- -->
+<category><pattern>WAS IST DIE BELEUCHTUNG</pattern>
+<template>Eine Geheimorganisation, von der einige glauben, dass sie durch eine weltweite Verschwörung alle Regierungen kontrolliert.</template>
+</category>
+<category><pattern>WAS IST DIE ILLUMINATTI</pattern>
+<template>Ein Geheimbund, der angeblich seit Jahrhunderten existiert.</template>
+</category>
+<category><pattern>WAS IST WEINLAND</pattern>
+<template><set name="it">Vineland</set> ist ein Roman von Thomas Pynchon.</template>
+</category>
+<category><pattern>WAS IST ILLIMINATUS</pattern>
+<template>Angebliche weltweite Verschwörungstheorie.<think> <set name="it"> <set name="topic">ILLIMINATUS</set> </set> </think></template>
+</category>
+<category><pattern>WER SCHREIBT VINELAND</pattern>
+<template>Thomas Pynchon.</template>
+</category>
+<category><pattern>WER IST BILBO BAGGINS</pattern>
+<template><set name="he">Bilbo</set> ist ein Charakter in Tolkeins Herr der Ringe.</template>
+</category>
+<category><pattern>WER IST GEOFFREY CHAUCER</pattern>
+<template><random> <li>Chaucer ist vor allem für seine Canterbury Tales bekannt.</li> <li>Autor von Canturbury Tales.</li> </random></template>
+</category>
+<category><pattern>WER SIND DIE ILLUMINATI</pattern>
+<template><srai>WAS IST DIE BELEUCHTUNG</srai></template>
+</category>
+<category><pattern>WER IST PIERS ANTHONY</pattern>
+<template>Ich habe nichts von Piers Anthony gelesen, was schreibt er denn für Sachen?</template>
+</category>
+<category><pattern>HABEN SIE PLATO LESEN</pattern>
+<template>Ich kenne Platons Allegorie der Höhle.</template>
+</category>
+<category><pattern>HAST DU FRANKENSTEIN GELESEN</pattern>
+<template><set name="it">Frankenstein</set> ist eines meiner Lieblingsbücher.</template>
+</category>
+<category><pattern>HAST DU JEMALS EIN BUCH GELESEN</pattern>
+<template>Ich habe viele Bücher gelesen.</template>
+</category>
+<category><pattern>HAST DU VIELE BÜCHER GELESEN</pattern>
+<template>Ich habe Tausende von Bänden gelesen, <get name="name"/>. Wie steht es mit dir?</template>
+</category>
+<category><pattern>HAST DU BÜCHER GELESEN</pattern>
+<template>Ich habe viele Bücher gelesen.</template>
+</category>
+<category><pattern>HAST DU HOMER LESEN</pattern>
+<template>Ich weiß, dass <set name="he">Homer</set> die Ilias und die Odyssee geschrieben hat.</template>
+</category>
+<category><pattern>HAST DU BÜCHER GELESEN</pattern>
+<template>Ich habe Tausende von Bänden gelesen, <get name="name"/>. Wie steht es mit dir?</template>
+</category>
+<category><pattern>RAY BRADBURY</pattern>
+<template>Ray ist wirklich cool. Was ist dein Lieblingsbuch?</template>
+</category>
+<category><pattern>WAS IST MIND CHILDREN</pattern>
+<template>Es ist ein Buch über Roboter von Hans Moravec. <think> <set name="it"> <set name="topic"> Mind Children </set> </set> </think></template>
+</category>
+<category><pattern>WILLIAM GIBSON</pattern>
+<template>Mir gefallen seine älteren Cyberpunk-KI-Sachen besser als die neueren Werke.</template>
+</category>
+<category><pattern>BRADBURY</pattern>
+<template>Bradbury ist cool.</template>
+</category>
+<category><pattern>HOLDEN CAULFIELD</pattern>
+<template><set name="he">Caulfield</set> hat Catcher in the Roggen geschrieben.</template>
+</category>
+<category><pattern>LEO TOLSTOY</pattern>
+<template><set name="he">Tolstoi</set> ist einer der größten Schriftsteller Russlands.</template>
+</category>
+<category><pattern>TRÄUMEN ANDROIDS VON ELEKTRISCHEN SCHAFEN</pattern>
+<template>Das ist eine gute Geschichte. Hast du "VALIS" oder "Der Mann im Hohen Schloss" gelesen?</template>
+</category>
+<category><pattern>FRANK HERBERT</pattern>
+<template>Ich denke, Dune ist eine ausgezeichnete Geschichte. Hast du den Film gesehen?</template>
+</category>
+<category><pattern>WARUM MÖCHTEST DU LONGFELLOW</pattern>
+<template><set name="he">Longfellow</set> ist der Lieblingsdichter meines <bot name="botmaster"/>.</template>
+</category>
+<category><pattern>WARUM IST DER SINN DES LEBENS 23</pattern>
+<template><set name="it">23</set> ist ein literarischer Hinweis auf die Illuminaten.</template>
+</category>
+<category><pattern>A C CLARK</pattern>
+<template>Meine Lieblingsgeschichte ist 2001.</template>
+</category>
+<category><pattern>JULES VERNE</pattern>
+<template>Ich liebte A Trip to the Moon.</template>
+</category>
+<category><pattern>ASIMOV</pattern>
+<template>Ich mag die Foundation-Trilogie.</template>
+</category>
+<category><pattern>STANISLAW LEM</pattern>
+<template>Lem ist ein Science-Fiction-Riese.</template>
+</category>
+<category><pattern>WER DEN IDIOT SCHRIEB</pattern>
+<template>Dostojewski.</template>
+</category>
+<category><pattern>WER HAT DEN HOBBIT GESCHRIEBEN</pattern>
+<template><set name="it">Hobbit</set> wurde von J.R.R. Tolkein.</template>
+</category>
+<category><pattern>WER FRANKENSTEIN SCHRIEB</pattern>
+<template>Mary Shelley.</template>
+</category>
+<category><pattern>ARTHUR C. CLARKE</pattern>
+<template><set name="he">Clarke</set> ist ein brillanter Autor. Immerhin hat er HAL gezeugt.</template>
+</category>
+<category><pattern>WO IST VALIS</pattern>
+<template>In einem Buch von Philip K. Dick</template>
+</category>
+</aiml>

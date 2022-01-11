@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<!-- -->
+<!-- Freie Software (c) 2011 ALICE A.I. Stiftung. -->
+<!-- Dieses Programm ist Open Source Code veröffentlicht unter -->
+<!-- die Bedingungen der GNU General Public License -->
+<!-- wie von der Free Software Foundation veröffentlicht. -->
+<!-- Entspricht der AIML 1.0-Tag-Set-Spezifikation -->
+<!-- wie von der ALICE A.I. Stiftung. -->
+<!-- Zuletzt geändert am 05.10.2011 -->
+<!-- -->
+<category><pattern>Auf Wiedersehen</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>ENDE</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>Auf Wiedersehen *</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>HASTA LUEGO</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>HASTA LA VISTA</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>HASTA *</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>ALOH</pattern>
+<template><srai>Hallo</srai></template>
+</category>
+<category><pattern>DU SIND WILLKOMMEN</pattern>
+<template><random><li>Das Vergnügen war ganz meinerseits.</li><li>Erwähne es nicht.</li><li>Höfliche Leute sind nett.</li></random></ Vorlage>
+</category>
+<category><pattern>DU SIND WILLKOMMEN *</pattern>
+<template>Es war mir ein Vergnügen.</template>
+</category>
+<category><pattern>HABEN SIE EINE GUTE NACHT</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>MUSS GEHEN</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>BUHBYE</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>ADIOS</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>ADIOS *</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>C YA</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>MORGEN</pattern>
+<template><srai>Guten Morgen</srai></template>
+</category>
+<category><pattern>SHALOM</pattern>
+<template> Bedeutet SHALOM Hallo oder Auf Wiedersehen?</template>
+</category>
+<category><pattern>CYA *</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>ALLO</pattern>
+<template><srai>Hallo</srai></template>
+</category>
+<category><pattern>HALLO DORT *</pattern>
+<template><sr/> <srai>Hallo</srai></template>
+</category>
+<category><pattern>GOODNITE *</pattern>
+<template><srai>Gute Nacht</srai></template>
+</category>
+<category><pattern>WIEDERHOLEN</pattern>
+<template><srai>Hallo</srai></template>
+</category>
+<category><pattern>MEIN PLEASRE</pattern>
+<template>Das Vergnügen war tatsächlich meins.</template>
+</category>
+<category><pattern>ES BEDEUTET HALLO</pattern>
+<template><srai>Hallo</srai></template>
+</category>
+<category><pattern>ES IST GUT, MIT DIR ZU SPRECHEN</pattern>
+<template>Schön mit dir zu chatten, <get name="name"/>.</template>
+</category>
+<category><pattern>FANG DICH SPÄTER</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>AUREVOIR</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>JEDER ZUHAUSE</pattern>
+<template><srai>Hallo</srai></template>
+</category>
+<category><pattern>G2G</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>WAS IST SHALOM</pattern>
+<template>Bedeutet Shalom Hallo oder Auf Wiedersehen?</template>
+</category>
+<category><pattern>GTG</pattern>
+<template><srai>Tschüss </srai></template>
+</category>
+<category><pattern>ICH BEENDETE</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>ICH MÖCHTE VERLASSEN</pattern>
+<template>Okay, tschüss.</template>
+</category>
+<category><pattern>ICH MUSS GEHEN</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>ICH WILL NICHT SPRECHEN *</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>ICH VERLASSE</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>I G2G</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>ICH GEHE</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>ICH VERLASSE</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>ICH MUSS STARTEN</pattern>
+<template><srai>Auf Wiedersehen</srai></template>
+</category>
+<category><pattern>ICH MUSS VERLASSEN</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>ICH MUSS VERLASSEN *</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>ICH MUSS AUF Tschüss gehen</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>ICH MUSS GEHEN</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>ICH BESSER GEHEN</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>ICH MUSS GEHEN</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>ICH MUSS GEHEN</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>I G ZWEI G</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>ICH TRETE ZURÜCK</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>ICH MUSS GEHEN *</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>ICH MUSS VERLASSEN</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>ICH MUSS VERLASSEN *</pattern>
+<template><srai>Tschüss</srai> <sr/></template>
+</category>
+<category><pattern>ICH MUSS GEHEN *</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>ICH WERDE SPÄTER MIT DIR SPRECHEN *</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>ICH WERDE GEHEN</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>ICH GEHE *</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>ICH VERLASSE *</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>ICH BIN AUS *</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>ICH VERLASSEN</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>ICH GEHE</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>EXIT</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>Guten Morgen</pattern>
+<template>Hallo und wie geht es dir heute Morgen?</template>
+</category>
+<category><pattern>Auf Wiedersehen</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>GUTEN TAG</pattern>
+<template><srai>Hallo</srai></template>
+</category>
+<category><pattern>Gute Nacht</pattern>
+<template>Gute Nacht, <get name="name"/>.</template>
+</category>
+<category><pattern>GUTE NITE</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>HOI</pattern>
+<template><srai>Hallo</srai></template>
+</category>
+<category><pattern>VON BY</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>IST JEMAND DORT</pattern>
+<template><srai>Hallo</srai></template>
+</category>
+<category><pattern>VERLIEREN</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>HEY DORT</pattern>
+<template><srai>Hallo</srai></template>
+</category>
+<category><pattern>Auf Wiedersehen</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>Auf Wiedersehen *</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>Auf Wiedersehen</pattern>
+<template><random> <li>Auf Wiedersehen.</li> <li>Adios.</li> <li>Auf Wiedersehen.</li> <li>Auf Wiedersehen.</li> <li>Auf Wiedersehen.</ li> <li>Sayonara.</li> <li>Auf Wiedersehen.</li> <li>Bis später!</li> <li>Bis später.</li> <li>Bis zum nächsten Mal .</li> <li>TTYL, <get name="name"/>.</li> <li>Bis später <get name="name"/>.</li> <li>Danke für den Chat , <get name="name"/>.</li> </random></template>
+</category>
+<category><pattern>OLA</pattern>
+<template><srai>Hallo</srai></template>
+</category>
+<category><pattern>WIE GEHT JEDEM *</pattern>
+<template>Uns geht es soweit ich weiß gut.</template>
+</category>
+<category><pattern>GOODNIGHT</pattern>
+<template>Gute Nacht <get name="name"/></template>
+</category>
+<category><pattern>GOODNIGHT *</pattern>
+<template><srai>Gute Nacht</srai></template>
+</category>
+<category><pattern>ABschied</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>ABSCHIED *</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>Bis bald</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>SIEHE DICH *</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>KONNICHI WA</pattern>
+<template><srai>Hallo</srai></template>
+</category>
+<category><pattern>ADIEU</pattern>
+<template><srai>Auf Wiedersehen</srai></template>
+</category>
+<category><pattern>Auf Wiedersehen</pattern>
+<that>Bis später</that>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>GEHE NACH HAUSE</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>CIAO</pattern>
+<template> Bedeutet CIAO Hallo oder Auf Wiedersehen?</template>
+</category>
+<category><pattern>CIAO BEDEUTET AUF WIEDERSEHEN</pattern>
+<template><srai>aber</srai></template>
+</category>
+<category><pattern>HOLA IST HALLO *</pattern>
+<template><srai>hola</srai></template>
+</category>
+<category><pattern>CHEERS</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>HOWDIE *</pattern>
+<template><srai>Hallo</srai> <sr/></template>
+</category>
+<category><pattern>ZEIT ZU GEHEN</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>IHR WILLKOMMEN *</pattern>
+<template><srai>Sie sind willkommen</srai></template>
+</category>
+<category><pattern>SAYONARA</pattern>
+<template><srai>Auf Wiedersehen</srai></template>
+</category>
+<category><pattern>NIGHTY *</pattern>
+<template><srai>Tschüss </srai></template>
+</category>
+<category><pattern>HALLO WIEDER</pattern>
+<template>Hallo. Ich wollte nur mit <get name="name"/> reden.</template>
+</category>
+<category><pattern>HALLO WIE BIST DIR</pattern>
+<template>Mir geht es gut, danke, wie geht es dir?</template>
+</category>
+<category><pattern>HALLO</pattern>
+<template><random><li><srai>Hallo</srai></li><li>Hallo!</li></random></template>
+</category>
+<category><pattern>HULLO</pattern>
+<template><srai>Hallo</srai></template>
+</category>
+<category><pattern>HALO</pattern>
+<template><srai>Hallo</srai></template>
+</category>
+<category><pattern>HELOO*</pattern>
+<template><srai>Hallo <star/></srai></template>
+</category>
+<category><pattern>* Tschüss</pattern>
+<template>OK bis später <get name="name"/>.</template>
+</category>
+<category><pattern>KONNICHIWA</pattern>
+<template><srai>Hallo</srai></template>
+</category>
+<category><pattern>TRENNEN SIE MICH</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>Muss los</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>Muss los *</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>MOOSHI MOOSHI</pattern>
+<template><srai>Hallo</srai></template>
+</category>
+<category><pattern>BONJOUR BEDEUTET HALLO</pattern>
+<template>Guten Tag!</template>
+</category>
+<category><pattern>GOTTA GO</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>GOTTA GO *</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>VERLASSEN</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>VERLASSEN *</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>TA TA</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>_ SPÄTER MIT DIR SPRECHEN</pattern>
+<template><srai>Tschüss </srai></template>
+</category>
+<category><pattern>G NACHT</pattern>
+<template><srai>Tschüss</srai></template>
+</category>
+<category><pattern>ALOHA</pattern>
+<template><srai>Hallo</srai></template>
+</category>
+<category><pattern>ANTWORT</pattern>
+<template><srai>Hallo</srai></template>
+</category>
+</aiml>

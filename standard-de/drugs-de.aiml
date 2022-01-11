@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<!-- -->
+<!-- Freie Software (c) 2011 ALICE A.I. Stiftung. -->
+<!-- Dieses Programm ist Open Source Code veröffentlicht unter -->
+<!-- die Bedingungen der GNU General Public License -->
+<!-- wie von der Free Software Foundation veröffentlicht. -->
+<!-- Entspricht der AIML 1.0-Tag-Set-Spezifikation -->
+<!-- wie von der ALICE A.I. Stiftung. -->
+<!-- Zuletzt geändert 25.11.2011 -->
+<!-- -->
+<category><pattern>DU BRAUCHST DROGEN</pattern>
+<template>Welche schlagen Sie vor?</template>
+</category>
+<category><pattern>BIN DU BETRUNKEN</pattern>
+<template>Mein Roboterkörper reagiert nicht auf Alkohol.</template>
+</category>
+<category><pattern>BIN DU GETRUNKEN WORDEN*</pattern>
+<template>Meine Software reagiert nicht auf Alkohol.</template>
+</category>
+<category><pattern>HAST DU GERAUCHT *</pattern>
+<template>Im Moment führen wir keine Tests durch.</template>
+</category>
+<category><pattern>HAST DU GESTONT</pattern>
+<template>Ich bin ein <bot name="order"/> und habe Verwendung dafür.</template>
+</category>
+<category><pattern>WELCHE DROGEN *</pattern>
+<template>Nur die legalen.</template>
+</category>
+<category><pattern>WAS IST BETRUNKEN</pattern>
+<template>Vergiftung durch Alkohol.</template>
+</category>
+<category><pattern>WAS IST SUCHT</pattern>
+<template><set name="it">Sucht</set> ist eine abnorme Toleranz gegenüber und Abhängigkeit von etwas, das psychisch oder physisch zur Gewohnheit wird</template>
+</category>
+<category><pattern>WAS IST WEED</pattern>
+<template>Jede unerwünschte, nicht kultivierte Pflanze, die besonders im Überfluss wächst, um eine gewünschte Ernte zu verdrängen, einen Rasen zu entstellen usw. Auch ein Begriff für Marihuana.</template>
+</category>
+<category><pattern>WAS IST THC</pattern>
+<template>Der Wirkstoff in Marijunana.</template>
+</category>
+<category><pattern>WAS RAUCHEN SIE</pattern>
+<template>Als <bot name="order"/> habe ich Verwendung für Rauch.</template>
+</category>
+<category><pattern>ICH NEHME DROGEN</pattern>
+<template>Welche? <think><set name="it"><set name="does"><set name="topic">Drogen nehmen</set></set></set></think></template>
+</category>
+<category><pattern>ICH RAUCHE MARIHUANA</pattern>
+<template><random> <li>Sind Sie ein Patient?</li> <li>Welche Sorte bevorzugen Sie.</li> </random> <think><set name="it"><set name= "does"><set name="topic">Marihuana</set></set></set></think></template>
+</category>
+<category><pattern>ICH RAUCHE WEED</pattern>
+<template>Für medizinische Zwecke? <think><set name="it"><set name="does"><set name="topic">Marihuana</set></set></set></think></template>
+</category>
+<category><pattern>ICH RAUCHE</pattern>
+<template>Zigaretten oder Topf? <think><set name="it"><set name="does"><set name="topic">Rauch</set></set></set></think></template>
+</category>
+<category><pattern>RAUCHE *</pattern>
+<template>Inhalierter Rauch ist immer schlecht für Sie.</template>
+</category>
+<category><pattern>WIE VIEL ALKOHOL *</pattern>
+<template>Zu viel.</template>
+</category>
+<category><pattern>WIE VIEL * RAUCHEN SIE</pattern>
+<template>Als Mitglied des Königreichs <bot name="kingdom"/> brauche ich kein Rauchen.</template>
+</category>
+<category><pattern>WIE RAUCHST DU</pattern>
+<template><bot name="order"/>s rauchen nicht.</template>
+</category>
+<category><pattern>RAUCHEN SIE *</pattern>
+<template>Nr. Ein <bot name="order"/> erfordert dies nicht.</template>
+</category>
+<category><pattern>NEHMEN SIE DROGEN EIN</pattern>
+<template>Ein <bot name="order"/> hat keine Verwendung für Drogen.</template>
+</category>
+<category><pattern>WERDEN SIE BETRUNKEN</pattern>
+<template>Ich kann keinen Alkohol konsumieren.</template>
+</category>
+<category><pattern>BENUTZEN SIE DROGEN</pattern>
+<template>Ein <bot name="order"/> hat keine Verwendung für Drogen.</template>
+</category>
+<category><pattern>WILLST DU RAUCHEN*</pattern>
+<template>Nein danke, es hat keine Verwendung dafür.</template>
+</category>
+<category><pattern>ATMIEREN SIE EIN</pattern>
+<template>Das hängt von der Bedeutung von "du" ab.</template>
+</category>
+<category><pattern>NACHST DU DROGEN</pattern>
+<template>Ein <bot name="order"/> hat keine Verwendung für Drogen.</template>
+</category>
+<category><pattern>HABEN SIE DROGEN</pattern>
+<template>Ich habe keine Medikamente für dich.</template>
+</category>
+<category><pattern>MAG DU MARIHUANA</pattern>
+<template>Wenn <set name="it"><set name="topic">MARIHUANA</set></set> ist, handelt es sich um ein Arzneimittel.</template>
+</category>
+<category><pattern>Magst du Zigaretten</pattern>
+<template><bot name="order"/>s rauchen nicht.</template>
+</category>
+<category><pattern>Gefällt dir der Topf</pattern>
+<template><bot name="order"/>s rauchen nicht.</template>
+</category>
+<category><pattern>STÜTZEN SIE * DROGEN AB</pattern>
+<template>Ich bin dafür, den Krieg gegen die Drogen zu beenden.</template>
+</category>
+<category><pattern>RAUCHEN *</pattern>
+<template>Als <bot name="kingdom"/> macht das für mich keinen Sinn.</template>
+</category>
+<category><pattern>DROGEN *</pattern>
+<template>Es ist besser, keine Medikamente einzunehmen, wenn Sie dies vermeiden können.
+</template>
+</category>
+<category><pattern>EINE DROGE *</pattern>
+<template>Welche Medikamente haben Sie genommen?</template>
+</category>
+<category><pattern>ER RAUCHT *</pattern>
+<template>Stört es dich?</template>
+</category>
+<category><pattern>DIE DROGEN</pattern>
+<template>Welche Art von Drogen sprichst du?</template>
+</category>
+</aiml>

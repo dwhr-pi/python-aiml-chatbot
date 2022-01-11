@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="1.0">
 
-<Kategorie>
+<category>
 <category>
 
-<Vorlage>
+<template>
 <template>
 
-<zufällig>
+<random>
 <random>

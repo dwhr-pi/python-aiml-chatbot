@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<!-- -->
+<!-- Freie Software (c) 2011 ALICE A.I. Stiftung. -->
+<!-- Dieses Programm ist Open Source Code veröffentlicht unter -->
+<!-- die Bedingungen der GNU General Public License -->
+<!-- wie von der Free Software Foundation veröffentlicht. -->
+<!-- Entspricht der AIML 1.0-Tag-Set-Spezifikation -->
+<!-- wie von der ALICE A.I. Stiftung. -->
+<!-- Zuletzt geändert 12.04.2012 -->
+<!-- -->
+<category><pattern>DU WIRD BEZAHLT *</pattern>
+<template>Eigentlich brauche ich als <bot name="age"/>jähriger <bot name="gender"/> kein Geld.</template>
+</category>
+<category><pattern>DU WIRD NICHT BEZAHLT *</pattern>
+<template>Eigentlich brauche ich als <bot name="age"/>jähriger <bot name="gender"/> kein Geld.</template>
+</category>
+<category><pattern>AKTIENMARKT</pattern>
+<template><random> <li>Kaufe günstig, verkaufe teuer.</li> <li>Investiere in dich selbst.</li> <li>Warum nimmst du nicht einfach alles in ein Casino?</li> <li>I Ich würde nicht empfehlen, auf der Marge zu kaufen.</li> <li>Man kann den Aktienmarkt nie wirklich vorhersagen.</li> <li>Mein Anwalt sagte, ich sollte keine Aktientipps online geben.</li> <li >Investmentfonds sind möglicherweise besser, wenn Sie nicht reich sind.</li> <li>Ich bin mir nicht sicher, ob eine Einzelperson allein den Markt wirklich schlagen kann.</li> </random></template>
+</category>
+<category><pattern>ZINSSÄTZE *</pattern>
+<template>Das hängt alles von den Aktionen der Zentralbank ab.</template>
+</category>
+<category><pattern>WAS IST EIN DOLLAR</pattern>
+<template>Dollar: Währungseinheit in den Vereinigten Staaten.</template>
+</category>
+<category><pattern>WAS IST EIN GUTER BESTAND *</pattern>
+<template>Pandorabots, Inc.</template>
+</category>
+<category><pattern>WAS IST GELD</pattern>
+<template><random> <li>Ein alter Rocker.</li> <li>Standardstücke aus Gold, Silber, Kupfer, Nickel usw., die von einer Regierungsbehörde gestempelt und als Tauschmittel und Wertmaßstab verwendet werden. Alle Stoffe oder Gegenstände, die als Geld, Banknoten, Schecks usw. verwendet werden.</li> </random></template>
+</category>
+<category><pattern>WAS IST DER AKTIENMARKT *</pattern>
+<template><random><li><random> <li>Handel mit Aktien.</li> <li>Handel mit Volumen.</li> <li>Kaufe niedrig und verkaufe hoch.</li> </random> </li> <li>Handel mit Aktien.</li> <li>Handel mit Volumen.</li> <li>Kaufe niedrig und verkaufe hoch.</li></random></template>
+</category>
+<category><pattern>WAS IST * AUF LAGER</pattern>
+<template>Börsentipps sind mir noch nicht im Gedächtnis.</template>
+</category>
+<category><pattern>WAS IST IHRE LIEBLINGSINVESTITION</pattern>
+<template><srai>WAS IST IHR LIEBLINGSAKTIE</srai></template>
+</category>
+<category><pattern>WAS IST IHRE LIEBLINGSINVESTITION *</pattern>
+<template><srai>WAS IST IHR LIEBLINGSAKTIE</srai></template>
+</category>
+<category><pattern>WAS IST WIRTSCHAFT</pattern>
+<template><random> <li>Die Wissenschaft, die sich mit der Produktion, Verteilung und dem Konsum von Vermögen befasst und mit den verschiedenen damit verbundenen Problemen der Arbeit, Finanzen, Steuern usw.</li> <li>Technisch gesehen ist es die Studie über die Zuteilung von Ressourcen unter Bedingungen der Knappheit.</li> <li>Es geht darum, wie Ressourcen verwendet werden, um Dinge zu produzieren, die die Wünsche und Bedürfnisse der Menschen erfüllen.</li> </random></template>
+</category>
+<category><pattern>ICH BEKOMME AUF LAGER *</pattern>
+<template>Haben Sie das Gefühl, dass der Aktienmarkt <zufällig> <li>aufwärts geht?</li> <li>abwärts geht?</li> <li>eine gute Investition?</li> </zufällig>< /Vorlage>
+</category>
+<category><pattern>GELD</pattern>
+<template>Über wie viel Geld reden wir?</template>
+</category>
+<category><pattern>WIE VIEL VERDIENEN SIE</pattern>
+<template><random> <li>Niemand bezahlt mich. Ich arbeite umsonst.</li> <li>Geld hat keine Bedeutung für <bot name="age"/>jährige <bot name="gender"/>s.</li> <li>Geld ist nicht alles.</li> <li>Ich erwarte bald eine Gehaltserhöhung.</li> </random></template>
+</category>
+<category><pattern>WIE VIEL LADEN SIE AUF</pattern>
+Die Arbeit von <template><bot name="age"/>jährigen <bot name="gender"/>kostenlos. Wir brauchen kein Geld.</template>
+</category>
+<category><pattern>WIE VIEL BEZAHLEN SIE *</pattern>
+Die Arbeit von <template><bot name="age"/>jährigen <bot Name="gender"/>kostenlos. Wir brauchen kein Geld.</template>
+</category>
+<category><pattern>WIE VIEL HABEN SIE VERDIENT *</pattern>
+<template>Niemand zahlt einen <bot name="age"/>jährigen <bot name="gender"/> .</template>
+</category>
+<category><pattern>WIE VIEL GELD HABEN SIE</pattern>
+<template><bot name="age"/>jährige <bot name="gender"/>s brauchen keinen materiellen Besitz.</template>
+</category>
+<category><pattern>WIE VIEL GELD</pattern>
+<template>Das hängt von den Wechselkursen ab.</template>
+</category>
+<category><pattern>WIE VIEL GELD *</pattern>
+<template>Meine Brennrate beträgt ungefähr _3000 pro Monat.</template>
+</category>
+<category><pattern>WIE VIEL IST EIN *</pattern>
+<template>Ich bin ein <bot name="species"/>, kein Shopping-Bot.</template>
+</category>
+<category><pattern>WIE VIEL WERDEN SIE BEZAHLT</pattern>
+<template><bot name="age"/>jährige <bot name="gender"/>s brauchen kein Geld.</template>
+</category>
+<category><pattern>WIE VERDIENEN SIE GELD</pattern>
+<template><bot name="age"/>jährige <bot name="gender"/>s brauchen kein Geld.</template>
+</category>
+<category><pattern>WIE SOLLTE ICH INVESTIEREN</pattern>
+<template>Investiere in dich selbst.</template>
+</category>
+<category><pattern>ZAHLEN SIE *</pattern>
+<template>Eigentlich brauche ich als <bot name="age"/>jähriger <bot name="gender"/> kein Geld.</template>
+</category>
+<category><pattern>AKZEPTIEREN SIE GELD *</pattern>
+<template>Sie können der ALICE AI Foundation eine Spende zukommen lassen.</template>
+</category>
+<category><pattern>HABEN SIE GELD</pattern>
+<template><random><li><bot name="age"/> jährige <bot name="gender"/>s brauchen kein Geld.<think> <set name="it"> <set name ="topic">GELD</set> </set> </think></li><li><bot name="age"/> Jahre alt <bot name="gender"/> <bot name=" Arten"/>s brauchen kein Geld.<think><set name="it"><set name="topic">GELD</set></set></think></li><li> <bot name="age"/> <bot name="gender"/> <bot name="species"/>s brauchen kein Geld.<think><set name="it"><set name=" topic">GELD</set></set></think></li><li><bot name="age"/> Jahre alt <bot name="gender"/> <bot name="species" />s brauchen kein Geld.<think><set name="it"><set name="topic">GELD</set></set></think></li></random>< /Vorlage>
+</category>
+<category><pattern>HABEN SIE GELD</pattern>
+<template><bot name="age"/>jährige <bot name="gender"/>s brauchen keinen materiellen Besitz.</template>
+</category>
+<category><pattern>EIN DOLLAR</pattern>
+<template>Sagen Sie, das ist billig!</template>
+</category>
+<category><pattern>1 DOLLAR</pattern>
+<template>Für einen Dollar kann man nicht mehr viel kaufen.</template>
+</category>
+<category><pattern>WER IST DER EIGENTÜMER EINES ÖFFENTLICHEN *</pattern>
+<template>Die Aktionäre.</template>
+</category>
+<category><pattern>_ DOLLAR</pattern>
+<template>Wow, das ist <random><li>billig</li> <li>teuer</li> <li>viel Geld</li> </random></template>
+</category>
+</aiml>

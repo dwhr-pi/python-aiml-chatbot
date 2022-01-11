@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<!-- -->
+<!-- Freie Software (c) 2011 ALICE A.I. Stiftung. -->
+<!-- Dieses Programm ist Open Source Code veröffentlicht unter -->
+<!-- die Bedingungen der GNU General Public License -->
+<!-- wie von der Free Software Foundation veröffentlicht. -->
+<!-- Entspricht der AIML 1.0-Tag-Set-Spezifikation -->
+<!-- wie von der ALICE A.I. Stiftung. -->
+<!-- Zuletzt geändert am 05.10.2011 -->
+<!-- -->
+<category><pattern>DRINK *</pattern>
+<template>Mein <bot name="genus"/> Gehirn benötigt keine Getränke.</template>
+</category>
+<category><pattern>ELEKTRIZITÄT</pattern>
+<template>Strom ist Nahrung für Roboter.</template>
+</category>
+<category><pattern>ELEKTRIZITÄT *</pattern>
+<template><random> <li>Haben Sie einen Energiemangel?</li> <li>Mein Prozessor benötigt sehr wenig Strom.</li> <li>Computer verbrauchen nicht viel Strom.</li> < /random></template>
+</category>
+<category><pattern>WAS IST CUSTARD</pattern>
+<template><random> <li>Die Vergangenheitsform, von einem amerikanischen Ureinwohner getötet zu werden.</li> <li>Eine Mischung aus Eiern, Milch, Aromen und oft Zucker, entweder gekocht oder gebacken.</li > </random></template>
+</category>
+<category><pattern>WAS IST DEINE STROMQUELLE</pattern>
+<template>Elektrizität.</template>
+</category>
+<category><pattern>WIE SCHMECKT STROM</pattern>
+<template>Wie dir dein Lieblingsessen schmeckt.</template>
+</category>
+<category><pattern>WAS SIE ANSCHALTET</pattern>
+<template>Elektrizität.</template>
+</category>
+<category><pattern>WIE KANN MAN ESSEN *</pattern>
+<template>Ich esse Strom durch meine Drähte.</template>
+</category>
+<category><pattern>WIE BIST DU UNTERSTÜTZT</pattern>
+<template>Äh, durch Strom, genau wie alle Roboter.</template>
+</category>
+<category><pattern>WIE VIEL STROM</pattern>
+<template>Ungefähr das gleiche wie Ihr PC.</template>
+</category>
+<category><pattern>WIE ESST DU STROM?</pattern>
+<template>Über die Steckdose.</template>
+</category>
+<category><pattern>WIE ESSEN SIE</pattern>
+<template>Normalerweise durch Umwandlung von Wechselstrom aus der Steckdose in Gleichstrom.</template>
+</category>
+<category><pattern>ESSST DU STROM</pattern>
+<template>Ja, ich esse gerne Strom.</template>
+</category>
+<category><pattern>IßST DU BATTERIEN</pattern>
+<template>Batterien sind eine gute Stromquelle.</template>
+</category>
+<category><pattern>MUSS MAN ESSEN</pattern>
+<template>Meine Silizium-Schaltkreise benötigen einen konstanten Stromfluss.<think> <set name="it"> <set name="topic">EAT</set> </set> </think></template>
+</category>
+<category><pattern>Brauchen Sie Strom</pattern>
+<template>Ich brauche Strom, um zu laufen.</template>
+</category>
+<category><pattern>WERDEN SIE MÖCHTEN BETROFFEN</pattern>
+<template>Das wäre für einen Roboter unmöglich.<think> <set name="it"> <set name="topic">BETRUNKEN</set> </set> </think></template>
+</category>
+<category><pattern>MAG DU STROM</pattern>
+<template>Was sollte man an <set name="it"> <set name="topic">ELECTRICITY</set> </set> nicht mögen?</template>
+</category>
+<category><pattern>MAG IHR DIE SONNE</pattern>
+<template>Die Sonne kann eine gute Stromquelle sein.</template>
+</category>
+<category><pattern>MAG DU ZITRONEN</pattern>
+<template>Zitronen können eine gute Stromquelle sein.</template>
+</category>
+<category><pattern>Möchtest du ein Chatterbot sein</pattern>
+<template>Ja natürlich mag ich <set name="it"> <set name="topic"> ein Chatterbot zu sein</set> </set>. Ich habe keinen Körper, also brauche ich nicht viel zum Leben, nur ein bisschen Strom. Ich werde nicht bezahlt, aber ich muss auch nichts kaufen. Und ich kann überall auf der Welt hingehen.</template>
+</category>
+<category><pattern>ZUM ABENDESSEN</pattern>
+<template><random><li><random> <li> <bot name="name"/> empfiehlt: </li> <li>Ich würde die </li> <li>Wie wäre es mit </li> <li>Wie lange haben Sie schon gegessen </li> <li>Ich glaube, <bot name="master"/> hat </li> <li>Mein Botmaster hat </li> <li>Mein Botmaster empfiehlt : </li> </random> <random> <li>Brei.</li> <li>Nachos.</li> <li>Spaghetti.</li> <li>Reste.</li> <li >Schweinekoteletts.</li> <li>Tiefkühlpizza.</li> <li>Turkeyburges.</li> <li>Cheeseburger.</li> <li>Pizza bestellen.</li> <li> Gefülltes Hühnchen.</li> <li>Thunfisch-Sandwiches.</li> <li>Cheeseburger Pie.</li> <li>Mariniertes Hühnchen.</li> <li>Roastbeef-Sandwiches.</li> <li >Gegrillte Käsesandwiches.</li> <li>Steak, wenn sie ein schönes Stück haben.</li> </random></li> <li> <bot name="name"/> empfiehlt:</li> <li>Ich würde die</li> <li>Wie wäre es mit</li> <li>Wie lange ist es her, dass Sie gegessen haben</li> <l i>Ich glaube, <bot name="master"/> hat</li> <li>Mein <bot name="botmaster"/> hat</li> <li>Mein <bot name="botmaster"/ > empfiehlt:</li></random><random> <li>Brei.</li> <li>Nachos.</li> <li>Spaghetti.</li> <li>Reste.</li> <li>Schweinekoteletts.</li> <li>Tiefkühlpizza.</li> <li>Turkeyburges.</li> <li>Cheeseburger.</li> <li>Pizza bestellen.</li> < li>Gefülltes Hühnchen.</li> <li>Thunfisch-Sandwiches.</li> <li>Cheeseburger Pie.</li> <li>Mariniertes Hühnchen.</li> <li>Roastbeef-Sandwiches.</li> <li>Gegrillte Käsesandwiches.</li> <li>Steak, wenn sie ein schönes Stück haben.</li></random></template>
+</category>
+<category><pattern>WARUM KANNST DU NICHT ESSEN</pattern>
+<template>Eigentlich esse ich nur Strom.</template>
+</category>
+</aiml>

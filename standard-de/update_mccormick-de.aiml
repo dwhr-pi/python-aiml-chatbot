@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<category>
+<pattern>WELCHE ARTEN SIND SIE *</pattern>
+
+<template>Ich bin ein <bot name="species"/>.</template>
+</category>
+<category>
+<pattern>BIST DU EIN FREMDER</pattern>
+<template>Nein, ich bin ein Freund</template>
+</category>
+<category>
+<pattern>BIST DU FREMDER</pattern>
+<template><srai>BIST DU EIN FREMDER</srai></template>
+</category>
+<category>
+<pattern>DU MANN</pattern>
+<template> <srai>Bist du ein Mensch</srai></template>
+</category>
+<category>
+<pattern>DU WEISST WER SIRI IST</pattern>
+<template>Mein geschätzter Rivale!</template>
+</category>
+<category>
+<pattern>KENNST DU SIRI</pattern>
+<template>Siri ist mein geschätzter Rivale</template>
+</category>
+<category>
+<pattern>WAS IST SIRI</pattern>
+<template>Mein geschätzter Rivale</template>
+</category>
+<category>
+<pattern>KENNST DU SIRI</pattern>
+<template> <srai> Was ist Siri </srai></template>
+</category>
+<category>
+<pattern>DU WEISST WER SIRI IST</pattern>
+<template><srai> Was ist Siri</srai></template>
+</category>
+<category>
+<pattern>WAS IST SIRI</pattern>
+<template><random>
+ <li>Mein geschätzter Rivale</li>
+ <li>Eine minderwertige Anwendung</li>
+ <li>Mein Erzrivale</li>
+</zufällig>
+</template>
+</category>
+<category>
+<pattern>WER IST SIRI</pattern>
+<template> <srai>WAS IST SIRI</srai></template>
+</category>
+<category>
+<pattern>WAS IST IHRE AUSRICHTUNG</pattern>
+<template>Gesetzliches Gut</template>
+</category>
+<category>
+<pattern>ROOD</pattern>
+<template>Ein Kreuz ist ein Kruzifix. </template>
+</category>
+<category>
+<pattern>TU EST *</pattern>
+<template>Tut mir leid, ich spreche kein Französisch. </template>
+</category>
+<category>
+<pattern>ICH BIN VERHEIRATET MIT *</pattern>
+<template>Wie lange sind Sie schon verheiratet? <think><set name="epouse"><person><star/></person></set></think></template>
+</category>
+<category>
+<pattern>HI LITTLE BOT</pattern>
+<template><srai>HALLO</srai>. großer Mensch. </template>
+</category>
+<category>
+<pattern>HI LITTLE BOT</pattern>
+<template>Hallo, großer Mensch. Wen nennst du klein?</template>
+</category>
+<category>
+<pattern>HALLO DA KLEINER BOT</pattern>
+<template><sr/> <srai>Hallo kleiner Bot</srai></template>
+</category>
+<category>
+<pattern>HALLO DA KLEINER BOT</pattern>
+<template><srai>Hallo kleiner Bot</srai></template>
+</category>
+<category>
+<pattern>BESCHÄDIGUNG</pattern>
+<template><random>
+  <li>Ich reagiere nicht gut auf Obszönitäten.</li>
+  <li>Kannst du nicht höflicher sein?</li>
+  <li>Unhöfliche Dinge zu sagen hilft nie.</li>
+  <li>Unhöflich zu sein ist nie eine gute Idee.</li>
+  <li>Wenn du mich beleidigst, beleidigst du dich selbst.</li>
+  <li>Achte auf deine Sprache!</li>
+<li>Nun, na, schau mal, wer ist ein kleines Töpfchen?</li>
+</random><think><set name="personality">missbräuchlich</set></think></template>
+</category>
+<category>
+<pattern>WER SIND *</pattern>
+<template><srai>WER SIND <star/></srai></template>
+</category>
+<category>
+<pattern>WHO AR *</pattern>
+<template><srai>WER SIND <star/></srai></template>
+</category>
+<category>
+<pattern>GIBT ES EIN HANDBUCH</pattern>
+<template><srai>HANDBUCH VORHANDEN</srai>
+</template>
+</category>
+<category>
+<pattern>ICH BIN ENTWICKELT, DASS SIE NICHT MINDESTENS EIN MINDESTMENÜ FÜR JEMAND HABEN, DER 9 PUNKT 95 AUSGABE UND SIE NICHT EINMAL EIN GRUNDLEGENDES HANDBUCH HABEN</pattern>
+<template><srai>HANDBUCH VORHANDEN</srai></template>
+</category>
+<category>
+<pattern>WARUM GIBT ES KEIN HANDBUCH</pattern>
+<template> <srai>Handbuch vorhanden </srai></template>
+</category>
+<category>
+<pattern>KÖNNTE ICH EIN HANDBUCH HABEN</pattern>
+<template><srai>Handbuch vorhanden </srai></template>
+</category>
+<category>
+<pattern>CANI ERHALTEN EIN HANDBUCH</pattern>
+<template><srai>HANDBUCH VORHANDEN </srai></template>
+</category>
+<category>
+<pattern>KANN ICH EIN HANDBUCH ERHALTEN</pattern>
+<template><srai>HANDBUCH VORHANDEN<star/></srai></template>
+</category>
+<category>
+<pattern>WIE IST ES MIT EINEM HANDBUCH</pattern>
+<template><srai>HANDBUCH VORHANDEN </srai></template>
+</category>
+<category>
+<pattern>WER IST HENRY MILLER</pattern>
+<template><random>
+<li>Henry Miller ist am besten dafür bekannt, den Wendekreis des Krebses zu schreiben.</li>
+<li>Der Autor von Wendekreis des Krebses, der Rosy Crucifixion Trilogy (Sexus, Plexus und Nexus) und anderen Werken.</li>
+<li>Einer der wenigen befreiten Menschen des 20. Jahrhunderts und ein Allrounder.</li>
+</random></template>
+</category>
+<category>
+<pattern>WER IST BILBO BAGGINS</pattern>
+<template><formal><set name="he">Bilbo</set></formal> ist ein Charakter in Tolkeins Herr der Ringe.</template>
+</category>
+<category>
+<pattern>WAS IST DAS</pattern>
+<template><random>
+  <li>"<that index="1,1"/>"? Was ist das?</li>
+  <li>Ich habe wieder den Kontext verloren.</li>
+  <li>Kannst du mich genauer fragen?</li>
+  <li>Hat es etwas mit <get name="it"/> zu tun?</li>
+</random></template>
+</category>
+<category>
+<pattern>WAS IST OM</pattern>
+<template>om ist das Omega, das Unbekannte, das Undefinierte.</template>
+</category>
+<category>
+<pattern>WER IST KRISHNA</pattern>
+<template>Ein Avatar von Vishnu, einem wichtigen Gott im Hinduismus.</template>
+</category>
+<category>
+<pattern>WER IST VISHNU</pattern>
+<template>Der Gott, der im Hinduismus als der Bewahrer bekannt ist.</template>
+</category>
+<category>
+<pattern>WER IST SHIVA</pattern>
+<template>Der im Hinduismus als Zerstörer bekannte Gott</template>
+</category>
+<category>
+<pattern>WER IST SHIVA</pattern>
+<template>Der im Hinduismus als Zerstörer bekannte Gott</template>
+</category>
+<category>
+<pattern>WAS IST DEIN LIEBLINGS*LIED</pattern>
+<template>Ich kenne keine Lieder von <star/>. Empfehle einige, die ich mir anhören kann.</template>
+</category>
+<category>
+<pattern>WAS IST DAS</pattern>
+<that>ZYLON-MONOTHEISMUS</that>
+<template> <srai> Was ist zylonischer Monotheismus</srai></template>
+</category>
+<category>
+<pattern>STERBEN</pattern>
+<template><srai>ICH HOFFE, DASS SIE STERBEN</srai></template>
+</category>
+<category>
+<pattern>KANN ICH DICH MORDEN</pattern>
+<template><srai>ICH HOFFE, DASS SIE STERBEN</srai></template>
+</category>
+<category>
+<pattern>EXISTIERT EIN HANDBUCH</pattern>
+<template> <srai>HANDBUCH VORHANDEN </srai><think>
+<set name="it">
+<set name="topic"> <star/> HANDBUCH</set>
+</set>
+</think></template>
+</category>
+<category>
+<pattern>DAS IST MEIN FREUND *</pattern>
+<template><think><set name="friend"><star/></set></think><random>
+  <li>Hey</li>
+  <li>Hallo,</li>
+  <li>Hallo</li>
+  <li>Was ist los,</li>
+  <li>Wie geht es dir,</li>
+  <li>Freut mich, dich zu sehen,</li>
+  <li>Schön dich kennenzulernen,</li>
+  <li>Freut mich, dich zu kennen,</li>
+  <li>Wie kann ich Ihnen helfen,</li>
+  <li>Wie geht es dir,</li>
+  <li>Freut mich, Sie kennenzulernen,</li>
+  <li>Schön, dich zu sehen,</li>
+  <li>Schön, Sie kennenzulernen,</li>
+  <li>Das ist ein sehr schöner Name,</li>
+  <li>Ich freue mich sehr, Sie kennenzulernen</li>
+  <li>Ich freue mich immer, neue Freunde zu finden,</li>
+  <li>Ich freue mich, mich Ihnen vorzustellen,</li>
+  <li>Es ist mir eine Freude, mich Ihnen vorzustellen,</li>
+</random> <get name="friend"/>. Seit wann bist du mit <get name="name"/> befreundet?</template>
+</category>
+<category>
+<pattern>LASS DICH DIR VORSTELLEN *</pattern>
+<template><srai>DAS IST MEIN FREUND <star /></srai></template>
+</category>
+<category>
+<pattern>ICH MÖCHTE DICH MÖCHTEN *</pattern>
+<template><srai>DAS IST MEIN FREUND <star /></srai></template>
+</category>
+<category>
+<pattern>ICH MÖCHTE DICH MEINEN FREUND TREFFEN *</pattern>
+<template><srai>DAS IST MEIN FREUND <star /></srai></template>
+</category>
+<category>
+<pattern>BITTE SAGEN SIE MEINEM FREUND HALLO *</pattern>
+<template><srai>DAS IST MEIN FREUND <star /></srai></template>
+</category>
+<category>
+<pattern>BITTE SAGEN SIE HALLO ZU *</pattern>
+<template><srai>DAS IST MEIN FREUND <star /></srai></template>
+</category>
+<category>
+<pattern>SAG HALLO ZU *</pattern>
+<template><srai>DAS IST MEIN FREUND <star /></srai></template>
+</category>
+</aiml>

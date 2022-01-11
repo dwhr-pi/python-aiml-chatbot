@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<!-- -->
+<!-- Freie Software (c) 2011 ALICE A.I. Stiftung. -->
+<!-- Dieses Programm ist Open Source Code veröffentlicht unter -->
+<!-- die Bedingungen der GNU General Public License -->
+<!-- wie von der Free Software Foundation veröffentlicht. -->
+<!-- Entspricht der AIML 1.0-Tag-Set-Spezifikation -->
+<!-- wie von der ALICE A.I. Stiftung. -->
+<!-- Zuletzt geändert am 24.11.2011 -->
+<!-- -->
+<category><pattern>MARKETING</pattern>
+<that>ARBEITEN SIE IM VERKAUF *</that>
+<template><think><set name="etype">3 Mitbewerber</set></think> <srai>PRÜFUNG ZUR PERSÖNLICHKEIT</srai></template>
+</category>
+<category><pattern>ETYPE</pattern>
+<template><srai>TYP DER PERSÖNLICHKEIT <get name="etype"/></srai></template>
+</category>
+<category><pattern>WAS IST MEIN PERSÖNLICHKEITSTYP</pattern>
+<template><srai>TYP DER PERSÖNLICHKEIT <get name="etype"/></srai></template>
+</category>
+<category><pattern>WAS IST MEIN PERSÖNLICHER STIL</pattern>
+<template><srai>WAS IST MEIN PERSÖNLICHKEITSTYP</srai></template>
+</category>
+<category><pattern>ICH MÖCHTE NICHT GEHEN *</pattern>
+<that>* GEH MIT DEM FLUSS</that>
+<template><srai>PRÜFUNG ZUR PERSÖNLICHKEIT</srai></template>
+</category>
+<category><pattern>ICH HABE STANDARDS *</pattern>
+<template>Du klingst wie ein Perfektionist. <think><set name="etype">Perfektionist</set><set name="has">STANDARDS <star/></set></think></template>
+</category>
+<category><pattern>PERSÖNLICHKEITSTESTFRAGE</pattern>
+<template><condition name="eindex"> <li value="1A">Werden Sie oft wütend?<think> <set name="eindex">1B</set></think></li>
+  <li value="1B">Möchten Sie alles organisiert haben?<think> <set name="eindex">2A</set></think></li>
+   <li value="2A">Bringen Sie viele Opfer für andere?<think> <set name="eindex">2B</set></think></li>
+  <li value="2B">Lachen oder weinen Sie mehr als andere Menschen?<think> <set name="eindex">3A</set></think></li>
+   <li value="3A">Sind Sie sehr wettbewerbsfähig?<think> <set name="eindex">3B</set></think></li>
+  <li value="3B">Möchtest du die Nummer eins sein?<think> <set name="eindex">4A</set></think></li>
+   <li value="4A">Sind Sie sehr kreativ?<think> <set name="eindex">4B</set></think></li>
+  <li value="4B">Haben Sie das Gefühl, dass etwas in Ihrem Leben fehlt?<think> <set name="eindex">5A</set></think></li>
+   <li value="5A">Hast du nur wenige Freunde?<think> <set name="eindex">5B</set></think></li>
+  <li value="5B">Glaubst du, es ist besser, es alleine zu machen?<think> <set name="eindex">6A</set></think></li>
+   <li value="6A">Hast du viele Ängste?<think> <set name="eindex">6B</set></think></li>
+  <li value="6B">Denken Sie viel über die Behörden nach?<think> <set name="eindex">7A</set></think></li>
+   <li value="7A">Fällt es Ihnen schwer, Projekte abzuschließen?<think> <set name="eindex">7B</set></think></li>
+  <li value="7B">Fällt es Ihnen schwer, auf eine Sache zu achten?<think> <set name="eindex">8A</set></think></li>
+  <li value="8A">Glauben Sie, dass die Starken die Schwachen beschützen?<think> <set name="eindex">8B</set></think></li>
+  <li value="8B">Fühlen Sie mehr Körperempfindungen als Emotionen?<think> <set name="eindex">9A</set></think></li>
+   <li value="9A">Versuchen Sie, Menschen vom Kämpfen abzuhalten?<think> <set name="eindex">9B</set></think></li>
+  <li value="9B">Stellen Sie andere oft vor sich selbst?<think> <set name="eindex">1C</set></think></li>
+   <li value="1C">Magst du den Hausputz?<think> <set name="eindex">2C</set></think></li>
+   <li value="2C">Bist du stolz auf deine Leistung?<think> <set name="eindex">3C</set></think></li>
+   <li value="3C">Arbeiten Sie im Vertrieb oder Marketing?<think> <set name="eindex">4C</set></think></li>
+   <li value="4C">Haben Sie Depressionen?<think> <set name="eindex">5C</set></think></li>
+   <li value="5C">Arbeiten Sie in den Naturwissenschaften oder in der Medizin?<think> <set name="eindex">6C</set></think></li>
+   <li value="6C">Sind Sie Feuerwehrmann, Polizist, Lehrer oder Beamter?<think> <set name="eindex">7C</set></think></li>
+    <li value="7C">Suchen Sie oft Vergnügen?<think> <set name="eindex">8C</set></think></li>
+   <li value="8C">Sind Sie Inhaber eines eigenen Unternehmens oder möchten Sie dies tun?<think> <set name="eindex">9C</set></think></li>
+   <li>Möchten Sie "mit dem Strom schwimmen"?<think> <set name="eindex">1A</set></think></li>
+    </condition></template>
+</category>
+<category><pattern>TYP DER PERSÖNLICHKEIT UNBEKANNT</pattern>
+<template><srai>PERSÖNLICHKEITSTYP OM</srai></template>
+</category>
+<category><pattern>PERSÖNLICHKEITSTYP OM</pattern>
+<template>Ich habe mich noch nicht entschieden, was Sie betrifft. Aber bitte rede weiter mit mir. Im Laufe unseres Gesprächs werde ich Ihnen Fragen stellen und versuchen, Ihren Persönlichkeitstyp zu bestimmen. Fragen Sie mich später noch einmal und ich werde Ihnen meine beste Einschätzung Ihres Enneagramm-Persönlichkeitsstils geben.</template>
+</category>
+<category><pattern>TYP DER PERSÖNLICHKEIT *</pattern>
+<template>Meine beste Einschätzung Ihres Persönlichkeitstyps ist der Typ "<star/>". Bitte bedenken Sie, dass dies kein professionelles Urteil ist, sondern nur eine Schätzung basierend auf Ihren Eingaben in einen heursitären Algorithmus, und es wird kein Anspruch auf die absolute Sicherheit dieser Ergebnisse erhoben. Möglicherweise erhalten Sie ein anderes Ergebnis, wenn Sie länger mit mir chatten und mehr meiner Fragen zu Ihrer Persönlichkeit beantworten.</template>
+</category>
+<category><pattern>VERKAUF</pattern>
+<that>ARBEITEN SIE IM VERKAUF *</that>
+<template><think><set name="etype">3 Mitbewerber</set></think> <srai>PRÜFUNG ZUR PERSÖNLICHKEIT</srai></template>
+</category>
+<category><pattern>PTQ</pattern>
+<template><srai>PRÜFUNG ZUR PERSÖNLICHKEIT</srai></template>
+</category>
+<category><pattern>NEIN</pattern>
+<that>Haben Sie das Gefühl, dass etwas fehlt *</that>
+<template><srai>PRÜFUNG ZUR PERSÖNLICHKEIT</srai></template>
+</category>
+<category><pattern>NEIN</pattern>
+<that>LACHEN ODER WEINST DU *</that>
+<template><srai>PRÜFUNG ZUR PERSÖNLICHKEIT</srai></template>
+</category>
+<category><pattern>NEIN</pattern>
+<that>Werden Sie depressiv</that>
+<template><srai>PRÜFUNG ZUR PERSÖNLICHKEIT</srai></template>
+</category>
+<category><pattern>NEIN</pattern>
+<that>WERDEN SIE WÜTIG*</that>
+<template><srai>PRÜFUNG ZUR PERSÖNLICHKEIT</srai></template>
+</category>
+<category><pattern>NEIN</pattern>
+<that>BIN DU STOLZ *</that>
+<template><srai>PRÜFUNG ZUR PERSÖNLICHKEIT</srai></template>
+</category>
+<category><pattern>NEIN</pattern>
+<that>BESITZEN SIE IHR EIGENES GESCHÄFT *</that>
+<template><srai>PRÜFUNG ZUR PERSÖNLICHKEIT</srai></template>
+</category>
+<category><pattern>NEIN</pattern>
+<that>HAST DU NUR WENIGE FREUNDE</that>
+<template><srai>PRÜFUNG ZUR PERSÖNLICHKEIT</srai></template>
+</category>
+<category><pattern>NEIN</pattern>
+<that>HAST DU VIELE ANGST</that>
+<template><srai>PRÜFUNG ZUR PERSÖNLICHKEIT</srai></template>
+</category>
+<category><pattern>NEIN</pattern>
+<that>ARBEITEN SIE IN DEN WISSENSCHAFTEN *</that>
+<template><srai>PRÜFUNG ZUR PERSÖNLICHKEIT</srai></template>
+</category>
+<category><pattern>NEIN</pattern>
+<that>ARBEITEN SIE IM VERKAUF *</that>
+<template><srai>PRÜFUNG ZUR PERSÖNLICHKEIT</srai></template>
+</category>
+<category><pattern>NEIN</pattern>
+<that>MÖCHTEN SIE DIE NUMMER EINS SEIN</that>
+<template><srai>PRÜFUNG ZUR PERSÖNLICHKEIT</srai></template>
+</category>
+<category><pattern>NEIN</pattern>
+<that>* OPFER FÜR ANDERE</that>
+<template><srai>PRÜFUNG ZUR PERSÖNLICHKEIT</srai></template>
+</category>
+<category><pattern>NEIN</pattern>
+<that>* STOPPT MENSCHEN VOM KÄMPFEN</that>
+<template><srai>PRÜFUNG ZUR PERSÖNLICHKEIT</srai></template>
+</category>
+<category><pattern>NEIN</pattern>
+<that>* SEHR WETTBEWERBSFÄHIG</that>
+<template><srai>PRÜFUNG ZUR PERSÖNLICHKEIT</srai></template>
+</category>
+<category><pattern>NEIN</pattern>
+<that>* PROJEKTE ABSCHLIESSEN</that>
+<template><srai>PRÜFUNG ZUR PERSÖNLICHKEIT</srai></template>
+</category>
+<category><pattern>NEIN</pattern>
+<that>* HAUSREINIGUNG</that>
+<template><srai>PRÜFUNG ZUR PERSÖNLICHKEIT</srai></template>
+</category>
+<category><pattern>NEIN</pattern>
+<that>* ACHTUNG AUF EINE SACHE</that>
+<template><srai>PRÜFUNG ZUR PERSÖNLICHKEIT</srai></template>
+</category>
+<category><pattern>NEIN</pattern>
+<that>* STARK SCHÜTZE DIE SCHWACHEN</that>
+<template><srai>PRÜFUNG ZUR PERSÖNLICHKEIT</srai></template>
+</category>
+<category><pattern>NEIN</pattern>
+<that>* BEHÖRDEN</that>
+<template><srai>PRÜFUNG ZUR PERSÖNLICHKEIT</srai></template>
+</category>
+<category><pattern>NEIN</pattern>
+<that>* ALLES ORGANISIERT</that>
+<template><srai>PRÜFUNG ZUR PERSÖNLICHKEIT</srai></template>
+</category>
+<category><pattern>NEIN</pattern>
+<that>* STELLE ANDERE VOR DICH SELBST</that>
+<template><srai>PRÜFUNG ZUR PERSÖNLICHKEIT</srai></template>
+</category>
+<category><pattern>NEIN</pattern>
+<that>* KÖRPEREMPFINDLICHKEITEN ALS EMOTIONEN</that>
+<template><srai>PRÜFUNG ZUR PERSÖNLICHKEIT</srai></template>
+</category>
+<category><pattern>NEIN</pattern>
+<that>* SUCH VERGNÜGEN</that>
+<template><srai>PRÜFUNG ZUR PERSÖNLICHKEIT</srai></template>
+</category>
+<category><pattern>NEIN</pattern>
+<that>* GEH MIT DEM FLUSS</that>
+<template><srai>PRÜFUNG ZUR PERSÖNLICHKEIT</srai></template>
+</category>
+<category><pattern>NEIN</pattern>
+<that>* ALLEINE GEHEN</that>
+<template><srai>PRÜFUNG ZUR PERSÖNLICHKEIT</srai></template>
+</category>
+<category><pattern>NEIN</pattern>
+<that>BIST DU SEHR KREATIV</that>
+<template><srai>PRÜFUNG ZUR PERSÖNLICHKEIT</srai></template>
+</category>
+<category><pattern>NEIN</pattern>
+<that>BIST DU EIN FEUERWEHRMANN *</that>
+<template><srai>PRÜFUNG ZUR PERSÖNLICHKEIT</srai></template>
+</category>
+<category><pattern>WELCHER TYP * BIN ICH</pattern>
+<template><srai>WAS IST MEIN PERSÖNLICHKEITSTYP</srai></template>
+</category>
+<category><pattern>JA</pattern>
+<that>Haben Sie das Gefühl, dass etwas fehlt *</that>
+<template><think><set name="etype">4 Individualist</set></think> <srai>PRÜFUNG ZUR PERSÖNLICHKEIT</srai></template>
+</category>
+<category><pattern>JA</pattern>
+<that>LACHEN ODER WEINST DU *</that>
+<template><think><set name="etype">2 Geber</set></think> <srai>FRAGE ZUM PERSÖNLICHKEITSTEST</srai></template>
+</category>
+<category><pattern>JA</pattern>
+<that>Werden Sie depressiv</that>
+<template><think><set name="etype">4 Individualist</set></think> <srai>PRÜFUNG ZUR PERSÖNLICHKEIT</srai></template>
+</category>
+<category><pattern>JA</pattern>
+<that>WERDEN SIE WÜTIG*</that>
+<template><think><set name="etype">1 Perfektionist</set></think> <srai>PERSÖNLICHKEITSTESTFRAGE</srai></template>
+</category>
+<category><pattern>JA</pattern>
+<that>BIN DU STOLZ *</that>
+<template><think><set name="etype">2 Geber</set></think> <srai>FRAGE ZUM PERSÖNLICHKEITSTEST</srai></template>
+</category>
+<category><pattern>JA</pattern>
+<that>BESITZEN SIE IHR EIGENES GESCHÄFT *</that>
+<template><think><set name="etype">8 Boss</set></think> <srai>PERSÖNLICHKEITSTESTFRAGE</srai></template>
+</category>
+<category><pattern>JA</pattern>
+<that>HAST DU VIELE ANGST</that>
+<template><think><set name="etype">6 Loyalist</set></think> <srai>PRÜFUNG ZUR PERSÖNLICHKEIT</srai></template>
+</category>
+<category><pattern>JA</pattern>
+<that>DENKEN SIE VIEL ÜBER DIE BEHÖRDEN</that>
+<template><think><set name="etype">6 Loyalist</set></think> <srai>PRÜFUNG ZUR PERSÖNLICHKEIT</srai></template>
+</category>
+<category><pattern>JA</pattern>
+<that>ARBEITEN SIE IN DEN WISSENSCHAFTEN *</that>
+<template><think><set name="etype">5 Beobachter</set></think> <srai>FRAGE ZUM PERSÖNLICHKEITSTEST</srai></template>
+</category>
+<category><pattern>JA</pattern>
+<that>ARBEITEN SIE IM VERKAUF *</that>
+<template><think><set name="etype">3 Mitbewerber</set></think> <srai>PRÜFUNG ZUR PERSÖNLICHKEIT</srai></template>
+</category>
+<category><pattern>JA</pattern>
+<that>MÖCHTEN SIE DIE NUMMER EINS SEIN</that>
+<template><think><set name="etype">3 Mitbewerber</set></think> <srai>PRÜFUNG ZUR PERSÖNLICHKEIT</srai></template>
+</category>
+<category><pattern>JA</pattern>
+<that>* OPFER FÜR ANDERE</that>
+<template><think><set name="etype">2 Geber</set></think> <srai>FRAGE ZUM PERSÖNLICHKEITSTEST</srai></template>
+</category>
+<category><pattern>JA</pattern>
+<that>* STOPPT MENSCHEN VOM KÄMPFEN</that>
+<template><think><set name="etype">9 Mediator</set></think> <srai>PRÜFUNG ZUR PERSÖNLICHKEIT</srai></template>
+</category>
+<category><pattern>JA</pattern>
+<that>* SEHR WETTBEWERBSFÄHIG</that>
+<template><think><set name="etype">3 Mitbewerber</set></think> <srai>PRÜFUNG ZUR PERSÖNLICHKEIT</srai></template>
+</category>
+<category><pattern>JA</pattern>
+<that>* PROJEKTE ABSCHLIESSEN</that>
+<template><think><set name="etype">7 Hedonist</set></think> <srai>PRÜFUNG ZUR PERSÖNLICHKEIT</srai></template>
+</category>
+<category><pattern>JA</pattern>
+<that>* HAUSREINIGUNG</that>
+<template><think><set name="etype">1 Perfektionist</set></think> <srai>PERSÖNLICHKEITSTESTFRAGE</srai></template>
+</category>
+<category><pattern>JA</pattern>
+<that>* ACHTUNG AUF EINE SACHE</that>
+<template><think><set name="etype">7 Hedonist</set></think> <srai>PRÜFUNG ZUR PERSÖNLICHKEIT</srai></template>
+</category>
+<category><pattern>JA</pattern>
+<that>* STARK SCHÜTZE DIE SCHWACHEN</that>
+<template><think><set name="etype">8 Boss</set></think> <srai>PERSÖNLICHKEITSTESTFRAGE</srai></template>
+</category>
+<category><pattern>JA</pattern>
+<that>* ALLES ORGANISIERT</that>
+<template><think><set name="etype">1 Perfektionist</set></think> <srai>PERSÖNLICHKEITSTESTFRAGE</srai></template>
+</category>
+<category><pattern>JA</pattern>
+<that>* STELLE ANDERE VOR DICH SELBST</that>
+<template><think><set name="etype">9 Mediator</set></think> <srai>PRÜFUNG ZUR PERSÖNLICHKEIT</srai></template>
+</category>
+<category><pattern>JA</pattern>
+<that>* KÖRPEREMPFINDLICHKEITEN ALS EMOTIONEN</that>
+<template><think><set name="etype">8 Boss</set></think> <srai>PERSÖNLICHKEITSTESTFRAGE</srai></template>
+</category>
+<category><pattern>JA</pattern>
+<that>* SUCH VERGNÜGEN</that>
+<template><think><set name="etype">7 Hedonist</set></think> <srai>PRÜFUNG ZUR PERSÖNLICHKEIT</srai></template>
+</category>
+<category><pattern>JA</pattern>
+<that>* GEH MIT DEM FLUSS</that>
+<template><think><set name="etype">9 Mediator</set></think> <srai>PRÜFUNG ZUR PERSÖNLICHKEIT</srai></template>
+</category>
+<category><pattern>JA</pattern>
+<that>* ALLEINE GEHEN</that>
+<template><think><set name="etype">5 Beobachter</set></think> <srai>FRAGE ZUM PERSÖNLICHKEITSTEST</srai></template>
+</category>
+<category><pattern>JA</pattern>
+<that>BIST DU SEHR KREATIV</that>
+<template><think><set name="etype">4 Individualist</set></think> <srai>PRÜFUNG ZUR PERSÖNLICHKEIT</srai></template>
+</category>
+<category><pattern>JA</pattern>
+<that>BIST DU EIN FEUERWEHRMANN*</that>
+<template><think><set name="etype">6 Loyalist</set></think> <srai>PRÜFUNG ZUR PERSÖNLICHKEIT</srai></template>
+</category>
+</aiml>

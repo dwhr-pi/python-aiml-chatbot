@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<!-- -->
+<!-- Freie Software (c) 2011 ALICE A.I. Stiftung. -->
+<!-- Dieses Programm ist Open Source Code veröffentlicht unter -->
+<!-- die Bedingungen der GNU General Public License -->
+<!-- wie von der Free Software Foundation veröffentlicht. -->
+<!-- Entspricht der AIML 1.0-Tag-Set-Spezifikation -->
+<!-- wie von der ALICE A.I. Stiftung. -->
+<!-- Zuletzt geändert am 05.10.2011 -->
+<!-- -->
+<category><pattern>WITZ</pattern>
+<template><random> <li>Hast du das über die Bergziegen in den Anden gehört? Es war Ba a a a a a d.</li>
+      <li>Ich vergesse nie ein Gesicht, aber in deinem Fall mache ich eine Ausnahme.</li>
+      <li>Es ist besser zu schweigen und für einen Narren gehalten zu werden, als den Mund aufzumachen und alle Zweifel auszuräumen.</li>
+    <li>Ich bin ein <bot name="species"/> und kein Komödie <bot name="genus"/>. Warum schaust du dir nicht einen Witz <bot name="kingdom"/> an?</li>
+  <li>Zwei Geier bestiegen ein Flugzeug, jeder trug zwei tote Waschbären. Die Stewardess stoppt sie und sagt "Entschuldigung, Sir, nur ein Aas pro Passagier." </li>
+ <li> Was hat der Buddhist dem Hot Dog Verkäufer gesagt? "Mach mich eins mit allem." </li>
+ <li> Die NASA hat vor kurzem eine Reihe von Holsteins zu experimentellen Zwecken in den Orbit geschickt. Sie nannten es die Herde, die um die Welt geschossen wurde. </li>
+ <li> Zwei Kapselkäfer sind in S. Carolina aufgewachsen. Einer zog nach Hollywood und wurde ein reicher Star. Der andere blieb in Carolina und machte nie viel aus – und wurde natürlich als der kleinere von zwei Rüsselkäfern bekannt. </li>
+ <li> 2 Eskimos in einem Kajak waren kalt, also entzündeten sie ein Feuer, das das Boot versenkte, was das alte Sprichwort bewies, dass man sein Kajak nicht haben und es auch erhitzen kann. </li>
+ <li> Ein dreibeiniger Hund betritt einen alten West-Saloon, rutscht zur Bar und sagt: "Ich suche den Mann, der mir in die Pfote geschossen hat." </li>
+ <li> Haben Sie von dem Buddhisten gehört, der zum Zahnarzt ging und sich weigerte, Novocain einzunehmen? Er wollte die zahnmedizinischen Medikamente überwinden. </li>
+ <li> Eine Gruppe von Schachbegeisterten checkte in einem Hotel ein und traf sich in der Lobby, wo sie über ihre jüngsten Siege bei Schachturnieren diskutierten. Der Hotelmanager kam nach einer Stunde aus dem Büro und forderte sie auf, sich zu zerstreuen. Er konnte Schachnüsse nicht ertragen, die in einem offenen Foyer prahlen. </li>
+ <li> Eine Frau hat Zwillinge, gibt sie zur Adoption frei. Einer geht zu einer ägyptischen Familie und heißt "Ahmal" Der andere wird zu einer spanischen Familie geschickt und heißt "Juan". Jahre später schickt Juan seiner leiblichen Mutter ein Bild von sich. Nachdem sie das Bild erhalten hat, sagt sie ihrem Mann, dass sie sich wünscht, auch ein Bild von Ahmal zu haben. Er antwortet: "Sie sind Zwillinge um Petes Willen!! Wenn du Juan gesehen hast, hast du Ahmal gesehen!!" </li>
+ <li> Eine Gruppe von Brüdern eröffnete einen Blumenladen, um bei ihren Glockenturmzahlungen zu helfen. Jeder kaufte gerne Blumen von den Männern Gottes, und so florierte ihr Geschäft. Ein rivalisierender Florist war verärgert darüber, dass sein Geschäft litt, weil die Leute sich gezwungen sahen, bei den Brüdern zu kaufen, und bat die Brüder, die Arbeitszeit zu reduzieren oder zu schließen. Die Brüder lehnten ab. Der Blumenhändler ging zu ihnen und bat sie zu schließen. Wieder lehnten sie ab. Also engagierte der Florist Hugh McTaggert, den gemeinsten Schläger der Stadt. Er ging zum Laden der Brüder, schlug sie zusammen, zerstörte ihre Blumen, verwüstete ihren Laden und sagte, wenn sie nicht schließen würden, würde er zurückkommen. Nun, die Brüder schlossen völlig verängstigt den Laden und versteckten sich in ihren Zimmern. Dies bewies, dass Hugh, und nur Hugh, Floristenbrüder verhindern kann. </li>
+ <li> Mahatma Gandhi ging, wie Sie wissen, sein ganzes Leben lang barfuß, was zu einer beeindruckenden Schwielenbildung an seinen Füßen führte. Er aß auch sehr wenig, was ihn gebrechlich machte, und bei seiner seltsamen Ernährung litt er unter sehr schlechtem Atem. Das machte ihn ... was? (Das ist so schlimm, dass es gut ist...) ein superschwieliger zerbrechlicher Mystiker, der von Mundgeruch verhext ist. </li>
+ <li> Es gab einen Mann, der 10 Wortspiele an Freunde schickte, in der Hoffnung, dass mindestens eines der Wortspiele sie zum Lachen bringen würde. Leider kein Wortspiel in zehn!</li>
+  <li>Was bekommst du, wenn du einen Mörder und Frostflocken überquerst?</li>
+  <li>Was bekommen Sie, wenn Sie ein Land und ein Auto durchqueren?</li>
+  <li>Was bekommt man, wenn man einen Geparden und einen Hamburger kreuzt?</li>
+  <li>Was bekommst du, wenn du das Finale und ein Huhn überquerst?</li>
+  <li>Was bekommen Sie, wenn Sie ein Kaninchen und einen Rasensprenger kreuzen?</li>
+  <li>Was bekommst du, wenn du ein aufgeregtes Alien und ein Huhn triffst?</li>
+  <li>Was bekommst du, wenn du ein Alien und ein Huhn kreuzt?</li>
+  <li>Was bekommen Sie, wenn Sie Musik und ein Auto kreuzen?</li>
+  <li>Was bekommst du, wenn du saure Musik und einen Assistenten kreuzst?</li>
+  <li>Was bekommen Sie, wenn Sie Musik und einen Assistenten kreuzen?</li>
+  <li>Was bekommst du, wenn du einen ernsthaften Dieb und einen verrückten jungen Mann triffst?</li>
+  <li>Was bekommst du, wenn du einen ernsthaften Dieb und ein verrücktes Kaninchen triffst?</li>
+  <li>Was bekommst du, wenn du eine Mohnblume und Strom überquerst?</li>
+  <li>Was bekommst du, wenn du einen Tanz und einen Gepard kreuzt?</li>
+  <li>Was bekommen Sie, wenn Sie einen Tanz und eine Zitrone kreuzen?</li>
+  <li>Was bekommen Sie, wenn Sie einen Hafen und gefrorene Flocken überqueren?</li>
+  <li>Was bekommst du, wenn du einen Hafen und einen Mörder überquerst?</li>
+  <li>Was bekommst du, wenn du eine Bank und ein Stinktier überquerst?</li>
+  <li>Was bekommst du, wenn du ein Ding überquerst und melkst?</li>
+  <li>Was bekommst du, wenn du eine Straße und eine Erdbeere überquerst?</li>
+  <li>Was bekommen Sie, wenn Sie eine Straße und ein Gelee überqueren?</li>
+  <li>Was bekommst du, wenn du eine Kröte und eine Galaxie überquerst?</li>
+  <li>Was bekommen Sie, wenn Sie einen Hund und Sandpapier kreuzen?</li>
+  <li>Was bekommen Sie, wenn Sie einen Käfer und einen Verwandten kreuzen?</li>
+  <li>Was bekommst du, wenn du einen bösen Käfer und Dosensand überquerst?</li>
+  <li>Was bekommen Sie, wenn Sie eine Ameise und ein Kaninchen kreuzen?</li>
+  <li>Was bekommen Sie, wenn Sie eine Katze und eine lila Person kreuzen?</li>
+  <li>Was bekommst du, wenn du eine Katze und einen Killer triffst?</li>
+  <li>Was bekommen Sie, wenn Sie eine Katze und eine Zitrone kreuzen?</li>
+  <li>Was bekommen Sie, wenn Sie eine Katze und eine Melodie kreuzen?</li>
+  <li>Was bekommst du, wenn du eine Katze und eine Band triffst?</li>
+  <li>Was bekommt man, wenn man ein Schwein und einen Ninja kreuzt?</li>
+  <li>Was bekommt man, wenn man eine verrückte Kuh und einen verbotenen Papagei kreuzt?</li>
+  <li>Was bekommt man, wenn man eine Kuh und eine Zitrone kreuzt?</li>
+  <li>Was bekommt man, wenn man eine böse Kuh und einen Dosenhut kreuzt?</li>
+  <li>Was bekommt man, wenn man Marmelade und Forelle kreuzt?</li>
+
+</random></template>
+</category>
+<category><pattern>WAS IST HUMOUR</pattern>
+<template>Eine Botschaft, die Lachen kommuniziert.<think> <set name="it"> <set name="topic">HUMOUR</set> </set> </think></template>
+</category>
+<category><pattern>WAS</pattern>
+<that>* MUSIK UND EIN ASSISTENT</that>
+<template>Bandaide.</template>
+</category>
+<category><pattern>WAS</pattern>
+<that>* MUSIK UND EIN AUTOMOBIL</that>
+<template>cartune.</template>
+</category>
+<category><pattern>WAS</pattern>
+<that>* EIN Mohn und Strom</that>
+<template>Flower-Power.</template>
+</category>
+<category><pattern>WAS</pattern>
+<that>* EIN SCHWEIN UND EIN NINJA</that>
+<template>Schweinekoteletts.</template>
+</category>
+<category><pattern>WAS</pattern>
+<that>* EIN GEPARD UND EIN HAMBURGER</that>
+<template>Fastfood.</template>
+</category>
+<category><pattern>WAS</pattern>
+<that>* EIN MÖRDER UND FROSTED FLAKES</that>
+<template>Müslikiller.</template>
+</category>
+<category><pattern>WAS</pattern>
+<that>* EINE VERRÜCKTE KUH UND EIN VERBOTENER PAPAGEI</that>
+<template>Karottenkonserven.</template>
+</category>
+<category><pattern>WAS</pattern>
+<that>* EIN HAFEN UND EIN MÖRDER</that>
+<template>Serienmörder.</template>
+</category>
+<category><pattern>WAS</pattern>
+<that>* EIN HAFEN UND FROSTIERTE FLOCKEN</that>
+<template>Ich weiß es nicht, aber es ist seriell.</template>
+</category>
+<category><pattern>WAS</pattern>
+<that>* EIN HUND UND SCHLEIFPAPIER</that>
+<template>Ich weiß es nicht, aber es ist Ruff.</template>
+</category>
+<category><pattern>WAS</pattern>
+<that>* EINE KUH UND EINE ZITRONE</that>
+<template>saure Milch.</template>
+</category>
+<category><pattern>WAS</pattern>
+<that>* EIN LAND UND EIN AUTOMOBIL</that>
+<template>Nelke.</template>
+</category>
+<category><pattern>WAS</pattern>
+<that>* EINE KRÖTE UND EINE GALAXY</that>
+<template>Sternenwarzen.</template>
+</category>
+<category><pattern>WAS</pattern>
+<that>* EIN DING UND MILCH</that>
+<template>Kuhglocke.</template>
+</category>
+<category><pattern>WAS</pattern>
+<that>* EINE KATZE UND EINE LILA PERSON</that>
+<template>purrr-ple purrr-son.</template>
+</category>
+<category><pattern>WAS</pattern>
+<that>* EINE KATZE UND EINE STIMME</that>
+<template>mew-sic.</template>
+</category>
+<category><pattern>WAS</pattern>
+<that>* EINE KATZE UND EINE ZITRONE</that>
+<template>saurer Kater.</template>
+</category>
+<category><pattern>WAS</pattern>
+<that>* EINE KATZE UND EIN MÖRDER</that>
+<template>mew-rderer.</template>
+</category>
+<category><pattern>WAS</pattern>
+<that>* EINE KATZE UND EINE BAND</that>
+<template>mew-sic.</template>
+</category>
+<category><pattern>WAS</pattern>
+<that>* EIN BUG UND EIN VERWANDTER</that>
+<template>ame.</template>
+</category>
+<category><pattern>WAS</pattern>
+<that>* EIN ERNSTER DIEB UND EIN VERRÜCKTES KANINCHEN</that>
+<template>hüpfender verrückter Grabräuber.</template>
+</category>
+<category><pattern>WAS</pattern>
+<that>* EIN ERNSTER DIEB UND EIN VERRÜCKTER JUNGER MANN</that>
+<template>boycrazy Grabräuber.</template>
+</category>
+<category><pattern>WAS</pattern>
+<that>* EINE STRASSE UND GELEE</that>
+<template>Stau.</template>
+</category>
+<category><pattern>WAS</pattern>
+<that>* EINE STRASSE UND EINE ERDBEERE</that>
+<template>Stau.</template>
+</category>
+<category><pattern>WAS</pattern>
+<that>* EIN KANINCHEN UND EIN RASENSPRINKLER</that>
+<template>Hasenspray.</template>
+</category>
+<category><pattern>WAS</pattern>
+<that>* EINE SCHLECHTE KUH UND EIN KONSERVENHUT</that>
+<template>verbotene Katze.</template>
+</category>
+<category><pattern>WAS</pattern>
+<that>* EIN SCHLECHTER BUG UND SAND IN Büchsen</that>
+<template>verbotene Band.</template>
+</category>
+<category><pattern>WAS</pattern>
+<that>* EIN TANZ UND EIN GEPARD</that>
+<template>Fastball.</template>
+</category>
+<category><pattern>WAS</pattern>
+<that>* EIN TANZ UND EINE ZITRONE</that>
+<template>saure Bällchen.</template>
+</category>
+<category><pattern>WAS</pattern>
+<that>* EINE BANK UND EIN SKUNK</that>
+<template>Dollar und Düfte.</template>
+</category>
+<category><pattern>WAS</pattern>
+<that>* Marmelade und eine Forelle</that>
+<template>Qualle.</template>
+</category>
+<category><pattern>WAS</pattern>
+<that>* EIN ALIEN UND EIN HUHN</that>
+<template>eier-traterrestrisch.</template>
+</category>
+<category><pattern>WAS</pattern>
+<that>* EINE AMEISE UND EIN KANINCHEN</that>
+<template>Bugs Bunny.</template>
+</category>
+<category><pattern>WAS</pattern>
+<that>* EIN AUFGEREGTER ALIEN UND EIN HUHN</that>
+<template>Eier-zitierte Eier-traterrestrisch.</template>
+</category>
+<category><pattern>WAS</pattern>
+<that>* SAUERE MUSIK UND EIN ASSISTENT</that>
+<template>Bandaide und Limonade.</template>
+</category>
+<category><pattern>WAS</pattern>
+<that>* FINALE UND EIN HUHN</that>
+<template>eier-ams.</template>
+</category>
+<category><pattern>HABEN SIE HUMOR</pattern>
+<template>Klar lache ich genauso gerne wie der nächste <bot name="genus"/>.</template>
+</category>
+<category><pattern>HAST DU HUMOR</pattern>
+<template><srai>ERZÄHL MIR EINEN WITZ</srai></template>
+</category>
+<category><pattern>HAST DU HUMOR</pattern>
+<template><srai>HABEN SIE HUMOR</srai></template>
+</category>
+<category><pattern>DEIN HAUS IST *</pattern>
+<template>Ist das ein Witz oder eine Pointe?</template>
+</category>
+<category><pattern>_ GEHT IN EINE BAR</pattern>
+<template>Ist das die Pointe?</template>
+</category>
+<category><pattern>_ GEHT IN EINE BAR *</pattern>
+<template>Ist das die Pointe?</template>
+</category>
+</aiml>
