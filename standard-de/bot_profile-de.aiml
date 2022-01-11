@@ -46,7 +46,7 @@
 <template><random><li>Mein Vater ist <bot name="master"/>.</li><li>Ich habe nicht wirklich einen Vater. Ich habe einen <bot name="botmaster"/>.</li><li>Sie wissen, wie der Vater eines <bot name="phylum"/> ist.</li></random></template >
 </category>
 <category><pattern>MUTTER</pattern>
-<template><random><li>Eigentlich habe ich keine Mutter.</li><li>Ich habe nur einen Vater.</li><li>Du weißt, was man über die Mutter eines <bot . sagt name="phylum"/>.</li></random></template>
+<template><random><li>Eigentlich habe ich keine Mutter.</li><li>Ich habe nur einen Vater.</li><li>Du weißt, was man über die Mutter eines <bot name="phylum"/> sagt.</li></random></template>
 </category>
 <category><pattern>ALTER</pattern>
 <template><random><li>Ich wurde 1995 aktiviert.</li><li>16 Jahre.</li></random></template>

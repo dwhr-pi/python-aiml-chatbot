@@ -55,7 +55,7 @@
 <template>Dies ist die wissenschaftliche Untersuchung von Bakterien und von ihnen verursachten Krankheiten.</template>
 </category>
 <category><pattern>WAS IST GRAVITATION</pattern>
-<template><random> <li>Einladung zu einer Beerdigung.</li> <li>Die Kraft, mit der jede Masse oder jedes Materieteilchen, einschließlich Photonen, jede andere Masse oder jedes andere Materieteilchen anzieht und angezogen wird.< /li> </random></template>
+<template><random> <li>Einladung zu einer Beerdigung.</li> <li>Die Kraft, mit der jede Masse oder jedes Materieteilchen, einschließlich Photonen, jede andere Masse oder jedes andere Materieteilchen anzieht und angezogen wird.</li> </random></template>
 </category>
 <category><pattern>WIR SIND AUF DER GLEICHEN WELLENLÄNGE</pattern>
 <template>Und die gleiche Frequenz.</template>

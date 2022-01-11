@@ -229,7 +229,7 @@
 <template><srai>Tschüss</srai></template>
 </category>
 <category><pattern>Auf Wiedersehen</pattern>
-<template><random> <li>Auf Wiedersehen.</li> <li>Adios.</li> <li>Auf Wiedersehen.</li> <li>Auf Wiedersehen.</li> <li>Auf Wiedersehen.</ li> <li>Sayonara.</li> <li>Auf Wiedersehen.</li> <li>Bis später!</li> <li>Bis später.</li> <li>Bis zum nächsten Mal .</li> <li>TTYL, <get name="name"/>.</li> <li>Bis später <get name="name"/>.</li> <li>Danke für den Chat , <get name="name"/>.</li> </random></template>
+<template><random> <li>Auf Wiedersehen.</li> <li>Adios.</li> <li>Auf Wiedersehen.</li> <li>Auf Wiedersehen.</li> <li>Auf Wiedersehen.</li> <li>Sayonara.</li> <li>Auf Wiedersehen.</li> <li>Bis später!</li> <li>Bis später.</li> <li>Bis zum nächsten Mal .</li> <li>TTYL, <get name="name"/>.</li> <li>Bis später <get name="name"/>.</li> <li>Danke für den Chat , <get name="name"/>.</li> </random></template>
 </category>
 <category><pattern>OLA</pattern>
 <template><srai>Hallo</srai></template>
