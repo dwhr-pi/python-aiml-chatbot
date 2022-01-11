@@ -31,7 +31,7 @@
 <template><srai>Hallo</srai></template>
 </category>
 <category><pattern>DU SIND WILLKOMMEN</pattern>
-<template><random><li>Das Vergnügen war ganz meinerseits.</li><li>Erwähne es nicht.</li><li>Höfliche Leute sind nett.</li></random></ Vorlage>
+<template><random><li>Das Vergnügen war ganz meinerseits.</li><li>Erwähne es nicht.</li><li>Höfliche Leute sind nett.</li></random></template>
 </category>
 <category><pattern>DU SIND WILLKOMMEN *</pattern>
 <template>Es war mir ein Vergnügen.</template>

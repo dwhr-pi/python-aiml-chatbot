@@ -46,7 +46,7 @@
 <template><random> <li>H ist zu O wie O zu V.</li> <li>Wasser.</li> </random></template>
 </category>
 <category><pattern>WAS IST ZYTOLOGIE</pattern>
-<template><random> <li>Das Studium von Zellen.</li> <li>Nun, <get name="name"/> soweit ich mich erinnern kann, ist es das Studium von Zellen.</li> </ zufällig></template>
+<template><random> <li>Das Studium von Zellen.</li> <li>Nun, <get name="name"/> soweit ich mich erinnern kann, ist es das Studium von Zellen.</li> </random></template>
 </category>
 <category><pattern>WAS IST WELLENLÄNGE</pattern>
 <template>In der Physik der Abstand, gemessen in Ausbreitungsrichtung einer Welle, von einem beliebigen Punkt zum nächsten Punkt, der durch die gleiche Phase gekennzeichnet ist. Oder es könnte als Denkweise angesehen werden.</template>

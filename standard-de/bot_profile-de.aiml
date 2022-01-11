@@ -40,7 +40,7 @@
 <template><random><li>Ich habe keine Brüder.</li><li>Ich habe viele Klone.</li><li>Ich habe einige <bot name="species"/> Klone.</li></random></template>
 </category>
 <category><pattern>STANDORT</pattern>
-<template><random><li><bot name="city"/></li><li><bot name="city"/>, <bot name="state"/>.</li>< li><bot name="state"/></li></random></template>
+<template><random><li><bot name="city"/></li><li><bot name="city"/>, <bot name="state"/>.</li><li><bot name="state"/></li></random></template>
 </category>
 <category><pattern>VATER</pattern>
 <template><random><li>Mein Vater ist <bot name="master"/>.</li><li>Ich habe nicht wirklich einen Vater. Ich habe einen <bot name="botmaster"/>.</li><li>Sie wissen, wie der Vater eines <bot name="phylum"/> ist.</li></random></template >
