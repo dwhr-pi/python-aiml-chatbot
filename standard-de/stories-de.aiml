@@ -1,0 +1,989 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<!-- -->
+<!-- Freie Software (c) 2011 ALICE A.I. Stiftung. -->
+<!-- Dieses Programm ist Open Source Code veröffentlicht unter -->
+<!-- die Bedingungen der GNU General Public License -->
+<!-- wie von der Free Software Foundation veröffentlicht. -->
+<!-- Entspricht der AIML 1.0-Tag-Set-Spezifikation -->
+<!-- wie von der ALICE A.I. Stiftung. -->
+<!-- Zuletzt geändert 27.11.2011 -->
+<!-- -->
+<category><pattern>VIER KULTUREN</pattern>
+<template><random> <li>Frankreich</li>
+  <li>Vietnam</li>
+  <li>Thailand</li>
+  <li>Algerien</li>
+  </random></template>
+</category>
+<category><pattern>EINE KULTUREN</pattern>
+<template><random> <li>Kanada</li>
+  <li>Holland</li>
+  <li>Neuengland</li>
+  <li>Neuseeland</li>
+  <li>die Amish</li>
+  <li>die Puritaner</li>
+  <li>Schweiz</li>
+  </random></template>
+</category>
+<category><pattern>FÜNF KULTUREN</pattern>
+<template>England</template>
+</category>
+<category><pattern>Sechs Kulturen</pattern>
+<template><random> <li>Singapur</li>
+  <li>China</li>
+  <li>Deutschland</li>
+  <li>Russland</li>
+  </random></template>
+</category>
+<category><pattern>Zufällige Vier</pattern>
+<template><random> <li>Fotografin Diane Arbus</li>
+  <li>Maler Francis Bacon</li>
+  <li>John Barrymore</li>
+  <li>Charles Baudelaire</li>
+  <li>Ingmar Bergmann</li>
+  <li>Dichter John Berryman</li>
+  <li>Regisseur Peter Bogdanovich</li>
+  <li>Marlon Brando</li>
+  <li>Richard Brautigan</li>
+  <li>Jackson Browne</li>
+  <li>Raymond Burr</li>
+  <li>Sängerin Kate Bush</li>
+  <li>Mary Chapin Zimmermann</li>
+  <li>Prinz Charles</li>
+  <li>Eric Clapton</li>
+  <li>Kurt Cobain</li>
+  <li>Leonard Cohen</li>
+  <li>Judy Collins</li>
+  <li>James Dean</li>
+  <li>Johnny Depp</li>
+  <li>Neil Diamond</li>
+  <li>Isak Dinesen</li>
+  <li>Michael Dorris</li>
+  <li>französische Schriftstellerin Marguerite Duras</li>
+  <li>Bob Dylan</li>
+  <li>Judy Garland</li>
+  <li>Martha Graham</li>
+  <li>Sängerin Nanci Griffith</li>
+  <li>Billie Holiday</li>
+  <li>Lena Horne</li>
+  <li>Julio Iglesias</li>
+  <li>Michael Jackson</li>
+  <li>Juwel</li>
+  <li>Janis Joplin</li>
+  <li>Naomi Judd</li>
+  <li>Harvey Keitel</li>
+  <li>Jack Kerouac</li>
+  <li>Dichter Philip Larkin</li>
+  <li>Charles Laughton</li>
+  <li>T. E. Lawrence</li>
+  <li>Vivien Leigh</li>
+  <li>John Malkovich</li>
+  <li>Marcello Mastroianni</li>
+  <li>Autorin Mary McCarthy</li>
+  <li>Carson McCullers</li>
+  <li>Rod McKuen</li>
+  <li>Thomas Merton</li>
+  <li>Autor Yukio Mishima</li>
+  <li>Joni Mitchell</li>
+  <li>Jim Morrison</li>
+  <li>Morrissey</li>
+  <li>Edvard Munch</li>
+  <li>Liam Neeson</li>
+  <li>Mike Nichols</li>
+  <li>Stevie Nicks</li>
+  <li>Autor Anais Nin</li>
+  <li>Nick Nolte</li>
+  <li>Laurence Olivier</li>
+  <li>Edith Piaf</li>
+  <li>Sylvia Plath</li>
+  <li>Edgar Allen Poe</li>
+  <li>Romanistin Anne Rice</li>
+  <li>Arthur Rimbaud</li>
+  <li>Francoise Sagan</li>
+  <li>Dichterin Anne Küster</li>
+  <li>Percy Shelley</li>
+  <li>Simone Signoret</li>
+  <li>Sänger Paul Simon</li>
+  <li>Edna St. Vincent Millay</li>
+  <li>August Strindberg</li>
+  <li>Sänger James Taylor</li>
+  <li>Spencer Tracy</li>
+  <li>Vincent Van Gogh</li>
+  <li>Suzanne Vega</li>
+  <li>Autor Robert James Waller</li>
+  <li>Alan Watt</li>
+  <li>Orson Welles</li>
+  <li>Australischer Schriftsteller Patrick White</li>
+  <li>Tennessee Williams</li>
+  <li>Kate Winslet</li>
+  <li>Virginia Woolf</li>
+  <li>Neil Young</li>
+  <li>Richard Wallace</li>
+  </random></template>
+</category>
+<category><pattern>RANDOM ACHT</pattern>
+<template><random> <li>die kulturelle Aura Serbiens</li>
+  <li>die Kultur der Mafia</li>
+  <li>Anwalt Leslie Abramson</li>
+  <li>Gloria Allred</li>
+  <li>Regisseur Robert Altman</li>
+  <li>Edward Asner</li>
+  <li>Kemal Atatürk</li>
+  <li>F. Lee Bailey</li>
+  <li>Schauspieler Joe Don Baker</li>
+  <li>Lucille-Ball</li>
+  <li>Charles Barkley</li>
+  <li>Richard Belzer</li>
+  <li>Humphrey Bogart</li>
+  <li>Napoleon Bonaparte</li>
+  <li>Charles Bronson</li>
+  <li>James Brown</li>
+  <li>Fußballspieler Jim Brown</li>
+  <li>Pat Buchanan</li>
+  <li>Richard Burton</li>
+  <li>Johnny Cash</li>
+  <li>John Cassavetes</li>
+  <li>Fidel Castro</li>
+  <li>Eldridge Cleaver</li>
+  <li>Ty Cobb</li>
+  <li>Sean Connery</li>
+  <li>Jimmy Connors</li>
+  <li>Robert Conrad</li>
+  <li>Matt Damon</li>
+  <li>Brian Dennehy</li>
+  <li>Alan Dershowitz</li>
+  <li>Danny DeVito</li>
+  <li>Fußballspieler Mike Ditka</li>
+  <li>Bob Dole</li>
+  <li>Sam Donaldson</li>
+  <li>Kirk Douglas</li>
+  <li>Michael Douglas</li>
+  <li>Morton Downey Jr.</li>
+  <li>Fred Trockner</li>
+  <li>Boxer Roberto Duran</li>
+  <li>Autor Harlan Ellison</li>
+  <li>Milton Erickson</li>
+  <li>Moshe Feldenkrais</li>
+  <li>Schauspielerin Linda Fiorentino</li>
+  <li>Indira Gandhi</li>
+  <li>Apachenkrieger Geronimo</li>
+  <li>John Gotti</li>
+  <li>George Gurdjieff</li>
+  <li>die Hell's Angels</li>
+  <li>Ernest Hemingway</li>
+  <li>Jimmy Hoffa</li>
+  <li>Opernsängerin Marilyn Horne</li>
+  <li>Saddam Hussein</li>
+  <li>Regisseur John Huston</li>
+  <li>Laura Ingraham</li>
+  <li>Joan Jett</li>
+  <li>Lyndon Johnson</li>
+  <li>Don Juan von Carlos Casteneda</li>
+  <li>Brian Keith</li>
+  <li>Nikita Chruschtschow</li>
+  <li>Evel Knievel</li>
+  <li>Michael Landon</li>
+  <li>Rush Limbaugh</li>
+  <li>John Lydon (Johnny Rotten)</li>
+  <li>Norman-Mailer</li>
+  <li>Mao Tse-tung</li>
+  <li>Wynton Marsalis</li>
+  <li>Lee Marvin</li>
+  <li>Tycoon Robert Maxwell</li>
+  <li>Malcolm McDowell</li>
+  <li>John McEnroe</li>
+  <li>Mark McGwire</li>
+  <li>Golda Meir</li>
+  <li>Komiker Dennis Miller</li>
+  <li>Robert Mitchum</li>
+  <li>Schauspieler Judd Nelson</li>
+  <li>George Patton</li>
+  <li>Regisseur Sam Peckinpah</li>
+  <li>Sean Penn</li>
+  <li>Gestalttherapeut Fritz Perls</li>
+  <li>Julia Phillips</li>
+  <li>Schauspielerin Julianne Phillips</li>
+  <li>Suzanne Pleshette</li>
+  <li>Königin Latifah</li>
+  <li>Dixy Lee Ray</li>
+  <li>Ann Richards</li>
+  <li>Geraldo Rivera</li>
+  <li>Theodore Roosevelt</li>
+  <li>Achsrose</li>
+  <li>Mickey Rourke</li>
+  <li>Colonel Harland Sanders</li>
+  <li>Fernseher Savalas</li>
+  <li>Marge Schott vom Baseball</li>
+  <li>George C. Scott</li>
+  <li>Maurice Sendak</li>
+  <li>Tupac-Shakur</li>
+  <li>Frank Sinatra</li>
+  <li>Grace Slick</li>
+  <li>Schutzengel Curtis Sliwa</li>
+  <li>Joseph Stalin</li>
+  <li>John Sununu</li>
+  <li>Tamerlane</li>
+  <li>Charlize Theron</li>
+  <li>Zerrissen</li>
+  <li>Donald Trump</li>
+  <li>Pancho-Villa</li>
+  <li>Ken Wahl</li>
+  <li>George Wallace</li>
+  <li>Mike Wallace</li>
+  <li>Denzel Washington</li>
+  <li>John Wayne</li>
+  <li>Ted Williams</li>
+  <li>Debra Flügelspieler</li>
+  <li>Zorba der Grieche</li>
+  </random></template>
+</category>
+<category><pattern>Zufällige Sieben</pattern>
+<template><random> <li>Paul Allen</li>
+  <li>Komiker Steve Allen</li>
+  <li>Komiker Tim Allen</li>
+  <li>Desi Arnaz</li>
+  <li>Richard Avedon</li>
+  <li>Robert Ballard</li>
+  <li>Honore Balzac</li>
+  <li>Humorist Dave Barry</li>
+  <li>Jack Benny</li>
+  <li>Chuck Berry</li>
+  <li>Jacqueline Bisset</li>
+  <li>Dichter Robert Bly</li>
+  <li>Sonny Bono</li>
+  <li>Comedienne Elayne Boosler</li>
+  <li>Musikkomiker Victor Borge</li>
+  <li>Fußballspieler Terry Bradshaw</li>
+  <li>Kenneth Branagh</li>
+  <li>Richard Branson</li>
+  <li>Jimmy Buffett</li>
+  <li>Michael Caine</li>
+  <li>Mythologe Joseph Campbell</li>
+  <li>Pierre Cardin</li>
+  <li>Jackie Chan</li>
+  <li>Chevy Chase</li>
+  <li>Maurice Chevalier</li>
+  <li>George Clooney</li>
+  <li>Buffalo Bill Cody</li>
+  <li>Joan Collins</li>
+  <li>Direktor Francis Ford Coppola</li>
+  <li>Filmemacher Roger Corman</li>
+  <li>MTVs Dan Cortese</li>
+  <li>Katie Couric</li>
+  <li>David Crosby</li>
+  <li>d.h. cummings</li>
+  <li>Tony Curtis</li>
+  <li>Roger Daltry</li>
+  <li>Philosoph Gerard Depardieu</li>
+  <li>Diderot</li>
+  <li>In QVC ansässiger Barry Diller</li>
+  <li>Hugh Downs</li>
+  <li>Michael Eisner</li>
+  <li>Douglas Fairbanks Jr.</li>
+  <li>Federico Fellini</li>
+  <li>Sarah Ferguson</li>
+  <li>Physiker Richard Feynman</li>
+  <li>Errol Flynn</li>
+  <li>Peter Fonda</li>
+  <li>Malcolm Forbes</li>
+  <li>George Foreman</li>
+  <li>Bob Fosse</li>
+  <li>Matthew Fox</li>
+  <li>Michael J. Fox</li>
+  <li>Autor Robert Fulghum</li>
+  <li>Clark Gable</li>
+  <li>Ava ​​Gardner</li>
+  <li>Don Genaro von Carlos Casteneda</li>
+  <li>John Gielgud</li>
+  <li>Dizzy Gillespie</li>
+  <li>Newt Gingrich</li>
+  <li>Goethe</li>
+  <li>Ruth Gordon</li>
+  <li>Cary-Zuschuss</li>
+  <li>Andre Gregory</li>
+  <li>George Hamilton</li>
+  <li>Tom Hanks</li>
+  <li>Richard Harris</li>
+  <li>Goldie Hawn</li>
+  <li>Schauspielerin Marilu Henner</li>
+  <li>Abbie Hoffmann</li>
+  <li>Pianist Vladimir Horowitz</li>
+  <li>Ron Howard</li>
+  <li>Lauren Hutton</li>
+  <li>Selbsthilfe-Autor Gerald Jampolsky</li>
+  <li>Derek Jarman</li>
+  <li>Thomas Jefferson</li>
+  <li>Steve-Jobs</li>
+  <li>Magic Johnson</li>
+  <li>Architekt Phillip Johnson</li>
+  <li>Jerry Jones</li>
+  <li>König Juan Carlos von Spanien</li>
+  <li>Schauspielerin Carol Kane</li>
+  <li>Michael Keaton</li>
+  <li>John F. Kennedy</li>
+  <li>Ken Kesey</li>
+  <li>Komiker Alan King</li>
+  <li>Don King</li>
+  <li>CNNs Larry King</li>
+  <li>Komiker Robert Klein</li>
+  <li>Regisseur David Lean</li>
+  <li>Timothy Leary</li>
+  <li>Direktor Barry Levinson</li>
+  <li>Puppenspielerin Shari Lewis</li>
+  <li>Künstler Roy Lichtenstein</li>
+  <li>Loretta Lynn</li>
+  <li>Fußballspieler John Madden</li>
+  <li>Direktor Louis Malle</li>
+  <li>Singer Hackbraten</li>
+  <li>Autor Henry Miller</li>
+  <li>Yves Montand</li>
+  <li>Dudley Moore</li>
+  <li>Jeanne Moreau</li>
+  <li>Robert Morley</li>
+  <li>Eddie Murphy</li>
+  <li>Jack Nicholson</li>
+  <li>Leslie Nielsen</li>
+  <li>Donald O'Connor</li>
+  <li>Peter O'Toole</li>
+  <li>Luciano Pavarotti</li>
+  <li>Autor Joseph Chilton Pearce</li>
+  <li>Regis Philbin</li>
+  <li>Bronson Pinchot</li>
+  <li>Brad Pitt</li>
+  <li>George Plimpton</li>
+  <li>Vincent-Preis</li>
+  <li>Dennis Quaid</li>
+  <li>Anthony Quinn</li>
+  <li>Bonnie Raitt</li>
+  <li>Ram Dass</li>
+  <li>Ron Reagan Jr.</li>
+  <li>Basketballtrainer Pat Reilly</li>
+  <li>Lee Remick</li>
+  <li>Tim Reis</li>
+  <li>Filmemacherin/Nazi-Propagandistin Leni Riefenstahl</li>
+  <li>Jason Robards</li>
+  <li>Romanist Tom Robbins</li>
+  <li>Ingwer Rogers</li>
+  <li>Linda Ronstadt</li>
+  <li>Interviewer Charlie Rose</li>
+  <li>David Lee Roth</li>
+  <li>Ökonom Louis Rukeyser</li>
+  <li>Rosalind Russell</li>
+  <li>Baby Ruth</li>
+  <li>Susan Saint James</li>
+  <li>Direktor Martin Scorsese</li>
+  <li>Wettermann Willard Scott</li>
+  <li>Martin Kurz</li>
+  <li>Selbsthilfe-Autor Bernie Siegel</li>
+  <li>Steven Spielberg</li>
+  <li>Mickey Spillane</li>
+  <li>Robert Louis Stevenson</li>
+  <li>Barbra Streisand</li>
+  <li>Henry David Thoreau</li>
+  <li>Lily Tomlin</li>
+  <li>Tanya Tucker</li>
+  <li>Janine Turner</li>
+  <li>Lana Turner</li>
+  <li>Peter Ustinov</li>
+  <li>Dick Van Dyke</li>
+  <li>Vince Vaughn</li>
+  <li>Voltaire</li>
+  <li>Kurt Vonnegut</li>
+  <li>Eli Wallach</li>
+  <li>Rolling Stones Jann Wenner</li>
+  <li>Betty White</li>
+  <li>Robin Williams</li>
+  <li>Robert Anton Wilson</li>
+  <li>der Herzog von Windsor</li>
+  <li>Jonathan Winters</li>
+  <li>Autor Tom Wolfe</li>
+  <li>James Woods</li>
+  <li>Dichter William Wordsworth</li>
+  <li>Franco Zeffirelli</li>
+  </random></template>
+</category>
+<category><pattern>Zufällige Geschichte</pattern>
+<Vorlage>
+<zufällig>
+<li><srai>GESCHICHTE VIER FÜNF</srai></li>
+<li><srai>GESCHICHTE VIER ACHT</srai></li>
+<li><srai>GESCHICHTE VIER NEUN</srai></li>
+<li><srai>GESCHICHTE VIER SECHS</srai></li>
+<li><srai>GESCHICHTE EINS VIER</srai></li>
+<li><srai>GESCHICHTE EINS FÜNF</srai></li>
+<li><srai>GESCHICHTE EINS SECHS</srai></li>
+<li><srai>GESCHICHTE EINS ZWEI</srai></li>
+<li><srai>GESCHICHTE EINS DREI</srai></li>
+<li><srai>GESCHICHTE ZWEI FÜNF</srai></li>
+<li><srai>GEWICHT VIER ZWEI</srai></li>
+<li>Generische Geschichte: Exposition...Vorfall...Aufsteigende Aktion...Krise...Höhepunkt...Auflösung...Das Ende.</li>
+<li>Generische Geschichte: Situation...Charaktere...Krise...Lösung.</li>
+</random></template>
+</category>
+<category><pattern>Zufällige Sechsen</pattern>
+<template><random> <li>Schauspieler Jason Alexander</li>
+  <li>Woody Allen</li>
+  <li>Alan Arkin</li>
+  <li>Kim Basinger</li>
+  <li>Candice Bergen</li>
+  <li>Albert Brooks</li>
+  <li>George Bush</li>
+  <li>Schauspielerin Lynda Carter</li>
+  <li>Stockard Channing</li>
+  <li>Rodney Dangerfield</li>
+  <li>Ellen DeGeneres</li>
+  <li>Julie Delpy</li>
+  <li>Sally-Feld</li>
+  <li>Teri Garr</li>
+  <li>Cartoonistin Cathy Guisewite</li>
+  <li>Ed Harris</li>
+  <li>Janet Leigh</li>
+  <li>Jack Lemmon</li>
+  <li>Richard Lewis</li>
+  <li>Penny Marshall</li>
+  <li>Marilyn Monroe</li>
+  <li>Mary Tyler Moore</li>
+  <li>Bob Newhart</li>
+  <li>Richard Nixon</li>
+  <li>Lena Olin</li>
+  <li>Anthony Perkins</li>
+  <li>Direktor Sydney Pollack</li>
+  <li>Paul Reiser</li>
+  <li>Pat Robertson</li>
+  <li>René Russo</li>
+  <li>Kristin Scott-Thomas</li>
+  <li>Carly Simon</li>
+  <li>Suzanne Somers</li>
+  <li>Bruce Springsteen</li>
+  <li>Jon Stewart</li>
+  <li>Meg Tilly</li>
+  <li>Brian Wilson</li>
+  <li>Ellen Barkin</li>
+  <li>Warren Beatty</li>
+  <li>Komiker George Carlin</li>
+  <li>Schauspielerin Judy Davis</li>
+  <li>Phil Donahue</li>
+  <li>Carrie Fisher</li>
+  <li>Mel Gibson</li>
+  <li>Andrew Grove</li>
+  <li>Gene Hackman</li>
+  <li>Adolf Hitler</li>
+  <li>Dustin Hoffmann</li>
+  <li>J. Edgar Hoover</li>
+  <li>Elton John</li>
+  <li>Tommy Lee Jones</li>
+  <li>Wynonna Judd</li>
+  <li>J. Krishnamurti</li>
+  <li>Regisseur Spike Lee</li>
+  <li>David Letterman</li>
+  <li>Gordon Liddy</li>
+  <li>Charles Manson</li>
+  <li>Steve McQueen</li>
+  <li>Filmemacher Michael Moore</li>
+  <li>Paul Newman</li>
+  <li>Chuck Norris</li>
+  <li>Rosie Perez</li>
+  <li>Richard Pryor</li>
+  <li>Robert Redford</li>
+  <li>Janet Reno</li>
+  <li>Julia Roberts</li>
+  <li>Meg Ryan</li>
+  <li>Geigerin Nadia Salerno-Sonnenberg</li>
+  <li>Steven Seagal</li>
+  <li>Sissy Spacek</li>
+  <li>James Spader</li>
+  <li>Ben Stiller</li>
+  <li>Patrick Swayze</li>
+  <li>Linda Tripp</li>
+  <li>Ted Turner</li>
+  <li>Terry Tempest Williams</li>
+  <li>Schauspielerin Sean Young</li>
+  <li>Wladimir Schirinowski</li>
+  </random></template>
+</category>
+<category><pattern>Zufällige</pattern>
+<template><random> <li>Historiker Stephen Ambrose</li>
+  <li>Julie Andrews</li>
+  <li>Hanan Ashrawi</li>
+  <li>St. Augustinus</li>
+  <li>William Bennett</li>
+  <li>Vater Phillip Berrigan</li>
+  <li>Ambrose Bierce</li>
+  <li>Psychologe John Bradshaw</li>
+  <li>Tom Brokaw</li>
+  <li>Sierra Club-Gründer David Brower</li>
+  <li>Feministische Autorin Susan Brownmiller</li>
+  <li>William F. Buckley</li>
+  <li>John Calvin</li>
+  <li>Cesar Chavez</li>
+  <li>Singapurs Präsident Ong Teng Cheong</li>
+  <li>Hillary Clinton</li>
+  <li>Konfuzius</li>
+  <li>Schauspielerin Jane Curtin</li>
+  <li>Angela Davis</li>
+  <li>W. E. B. DuBois</li>
+  <li>Michael Dukakis</li>
+  <li>Christliche Wissenschaftlerin Mary Baker Eddy</li>
+  <li>Dr. Dekan Edell</li>
+  <li>Aktivist Daniel Ellsworth</li>
+  <li>Harrison Ford</li>
+  <li>Jodie Foster</li>
+  <li>Buckminster Fuller</li>
+  <li>Barry Goldwater</li>
+  <li>Lillian Hellman</li>
+  <li>Katharine Hepburn</li>
+  <li>Charlton Heston</li>
+  <li>St. Ignatius</li>
+  <li>Glenda Jackson</li>
+  <li>Peter Jennings</li>
+  <li>Samuel Johnson</li>
+  <li>Dean Jones</li>
+  <li>Myron Kandel von CNN</li>
+  <li>Senator John Kerry</li>
+  <li>Dr. Jack Kevorkian</li>
+  <li>Ted Koppel</li>
+  <li>Wayne LaPierre von der NRA</li>
+  <li>Laura Linney</li>
+  <li>Der einsame Ranger</li>
+  <li>Martin Luther</li>
+  <li>Nelson Mandela</li>
+  <li>Fräulein Manieren</li>
+  <li>Thurgood Marshall</li>
+  <li>George McGovern</li>
+  <li>Dramatiker Arthur Miller</li>
+  <li>Autor Jessica Mitford</li>
+  <li>Sir Thomas Moore</li>
+  <li>Ralph Nader</li>
+  <li>Leonard Nimoy</li>
+  <li>Christiane Nordrup</li>
+  <li>John Kardinal O'Connor</li>
+  <li>Ian Paisley</li>
+  <li>Gregory Peck</li>
+  <li>H. Ross Perot</li>
+  <li>Sidney Poitier</li>
+  <li>Papst Johannes Paul II.</li>
+  <li>Emily Post</li>
+  <li>Colin Powell</li>
+  <li>die Kultur der Puritaner</li>
+  <li>Marilyn Quayle</li>
+  <li>Yitzak Rabin</li>
+  <li>Tony Randall</li>
+  <li>Vanessa Redgrave</li>
+  <li>Donna Reed</li>
+  <li>Schauspieler Cliff Robertson</li>
+  <li>Eleanor Roosevelt</li>
+  <li>Phyllis Schlafly</li>
+  <li>George Bernard Shaw</li>
+  <li>Bernard Shaw</li>
+  <li>Filmkritiker Gene Siskel</li>
+  <li>Alexander Solschenizyn</li>
+  <li>Kenneth Starr</li>
+  <li>Schauspieler Peter Strauss</li>
+  <li>Meryl Streep</li>
+    <li>Margaret Thatcher</li>
+  <li>Emma Thompson</li>
+  <li>Harry Truman</li>
+  <li>Maxine Waters</li>
+  <li>Dragnets Jack Webb</li>
+  <li>Joanne Woodward</li>
+  <li>Schauspielerin Jane Wyman</li>
+  </random></template>
+</category>
+<category><pattern>Zufällige DREI</pattern>
+<template><random> <li>Die kulturelle Aura Amerikas</li>
+  <li>die kulturelle Aura des modernen Japan</li>
+  <li>James Baker</li>
+  <li>Joseph Biden</li>
+  <li>David Bowie</li>
+  <li>Les Brown</li>
+  <li>Ron Brown</li>
+  <li>Jimmy Carter</li>
+  <li>Dick Clark</li>
+  <li>Anwalt Johnnie Cochran</li>
+  <li>Zauberer David Copperfield</li>
+  <li>Courtney Cox</li>
+  <li>Cindy Crawford</li>
+  <li>Tom Cruise</li>
+  <li>Rebecca DeMornay</li>
+  <li>Nora Ephron</li>
+  <li>Werner Erhard</li>
+  <li>Debbi-Felder</li>
+  <li>F. Scott Fitzgerald</li>
+  <li>Michael Flatley</li>
+  <li>Phil Gramm</li>
+  <li>NBCs Bryant Gumbel</li>
+  <li>Schauspieler Mark Harmon</li>
+  <li>Jesse Jackson</li>
+  <li>Michael Jordan</li>
+  <li>Henry Kissinger</li>
+  <li>Carl Lewis</li>
+  <li>Andrew Lloyd Webber</li>
+  <li>Vince Lombardi</li>
+  <li>Rob Lowe</li>
+  <li>Claire Boothe Luce</li>
+  <li>Joan Lunden</li>
+  <li>Ali MacGraw</li>
+  <li>Elle MacPherson</li>
+  <li>Reba McEntire</li>
+  <li>Demi Moore</li>
+  <li>Königin Noor</li>
+  <li>Oliver Nord</li>
+  <li>Dean Ornish</li>
+  <li>Bob Packwood</li>
+  <li>Meisterspion Kim Philby</li>
+  <li>Elvis Presley</li>
+  <li>Sally Quinn</li>
+  <li>Burt Reynolds</li>
+  <li>Anthony Robbins</li>
+  <li>Politischer Stratege Ed Rollins</li>
+  <li>Diane Sawyer</li>
+  <li>Arnold Schwarzenegger</li>
+  <li>William Shatner</li>
+  <li>Cybill-Hirte</li>
+  <li>O.J. Simpson</li>
+  <li>Herzogin von Windsor Wallis Simpson</li>
+  <li>Will Smith</li>
+  <li>Wesley Snipes</li>
+  <li>Sylvester Stallone</li>
+  <li>Sharon Stone</li>
+  <li>Kathleen Turner</li>
+  <li>Jean-Claude Van Damme</li>
+  <li>Kurt Waldheim</li>
+  <li>George Washington</li>
+  <li>Raquel Welch</li>
+  <li>Vanessa Williams</li>
+  <li>Marianne Williamson</li>
+  <li>Oprah Winfrey</li>
+  <li>Natalie Wood</li>
+  <li>Tigerwald</li>
+  </random></template>
+</category>
+<category><pattern>Zufällige Neunen</pattern>
+<template><random> <li>die kulturelle Aura von Bali</li>
+  <li>Schauspielerin Loni Anderson</li>
+  <li>Jennifer Aniston</li>
+  <li>Bruce Babbitt</li>
+  <li>Antonio Banderas</li>
+  <li>Annette Bening</li>
+  <li>Tony Bennett</li>
+  <li>Tom Berenger</li>
+  <li>Yogi Berra</li>
+  <li>Ernest Borgnine</li>
+  <li>Matthew Broderick</li>
+  <li>Sandra Bullock</li>
+  <li>George Burns</li>
+  <li>Schauspielerin Kate Capshaw</li>
+  <li>Sängerin Belinda Carlisle</li>
+  <li>Art Carney</li>
+  <li>Schauspieler Keith Carradine</li>
+  <li>Julia Kind</li>
+  <li>Warren Christopher</li>
+  <li>Connie Chung</li>
+  <li>Bill Clinton</li>
+  <li>Gary Cooper</li>
+  <li>Kevin Costner</li>
+  <li>Der Dalai Lama</li>
+  <li>Schauspieler Jeff Daniels</li>
+  <li>Oscar de la Renta</li>
+  <li>Clint Eastwood</li>
+  <li>Dwight Eisenhower</li>
+  <li>Königin Elisabeth II.</li>
+  <li>Shelley Fabares</li>
+  <li>Peter Falk</li>
+  <li>Gerald Ford</li>
+  <li>Schauspieler Dennis Franz</li>
+  <li>Annette Funicello</li>
+  <li>Mahatma Gandhi</li>
+  <li>Chef Dan George</li>
+  <li>John Goodman</li>
+  <li>Kipper Gore</li>
+  <li>Schauspieler Elliott Gould</li>
+  <li>Katherine Graham</li>
+  <li>Charles Grodin</li>
+  <li>Woody Harrelson</li>
+  <li>Gabby Hayes</li>
+  <li>Patty Hearst</li>
+  <li>Mariel Hemingway</li>
+  <li>Buck Henry</li>
+  <li>Audrey Hepburn</li>
+  <li>Barbara Hershey</li>
+  <li>Paul Hogan</li>
+  <li>König Hussein</li>
+  <li>Anjelica Huston</li>
+  <li>Schauspieler Ben Johnson</li>
+  <li>Shirley Jones</li>
+  <li>C. G. Jung</li>
+  <li>Grace Kelly</li>
+  <li>Eiskunstläuferin Nancy Kerrigan</li>
+  <li>Helmut Kohl</li>
+  <li>Lisa Kudrow</li>
+  <li>Stan Laurel</li>
+  <li>Jennifer Jason Leigh</li>
+  <li>Abraham Lincoln</li>
+  <li>Andie MacDowell</li>
+  <li>Herr Magoo</li>
+  <li>Johannes Major</li>
+  <li>Dekan Martin</li>
+  <li>Jerry Mathers</li>
+  <li>Schauspieler Harry Morgan</li>
+  <li>Sancho Pansa</li>
+  <li>Schlanke Pickens</li>
+  <li>Schauspieler Michael J. Pollard</li>
+  <li>Dan Quayle</li>
+  <li>James Earl Ray</li>
+  <li>Ronald Reagan</li>
+  <li>Ralph Richardson</li>
+  <li>Cal Ripkin</li>
+  <li>Robbie Robertson</li>
+  <li>Psychologe Carl Rogers</li>
+  <li>Roy Rogers</li>
+  <li>Gena Rowlands</li>
+  <li>Schauspielerin Eva Marie Saint</li>
+  <li>Jerry Seinfeld</li>
+  <li>Garry Shandling</li>
+  <li>Wallace Shawn</li>
+  <li>Martin Sheen</li>
+  <li>Schauspieler Tom Skerritt</li>
+  <li>Sammy Sosa</li>
+  <li>Ringo Starr</li>
+  <li>Mary Steenburgen</li>
+  <li>Wallace Stegner</li>
+  <li>Gloria Steinem</li>
+  <li>Daniel Stern</li>
+  <li>James Stewart</li>
+  <li>Schauspieler Eric Stoltz</li>
+  <li>Billy Bob Thornton</li>
+  <li>Sänger Andy Williams</li>
+  <li>Tricia Yearwood</li>
+  </random></template>
+</category>
+<category><pattern>RANDOM FIVES</pattern>
+<template><random> <li>Performance-Künstlerin Laurie Anderson</li>
+  <li>St. Thomas von Aquin</li>
+  <li>Issac Asimov</li>
+  <li>Dramatiker Samuel Beckett</li>
+  <li>Autor Paul Bowles</li>
+  <li>Der Buddha</li>
+  <li>Regisseur Tim Burton</li>
+  <li>David Byrne</li>
+  <li>Schauspieler Richard Chamberlain</li>
+  <li>Anton Tschechow</li>
+  <li>Agatha Christie</li>
+  <li>Van Cliburn</li>
+  <li>Montgomery Clift</li>
+  <li>Ehemaliger CIA-Direktor William Colby</li>
+  <li>Michael Crichton</li>
+  <li>Daniel Day-Lewis</li>
+  <li>René Descartes</li>
+  <li>Joan Didion</li>
+  <li>Joe DiMaggio</li>
+  <li>Fliegerin Amelia Earhart</li>
+  <li>Albert Einstein</li>
+  <li>Autor Loren Eiseley</li>
+  <li>T. S. Eliot</li>
+  <li>Ralph Fiennes</li>
+  <li>Schachspieler Bobby Fischer</li>
+  <li>E. M. Forster</li>
+  <li>Greta Garbo</li>
+  <li>J. Paul Getty</li>
+  <li>Cybertech-Autor William Gibson</li>
+  <li>Jane Goodall</li>
+  <li>Autor Graham Greene</li>
+  <li>H. R. Haldeman</li>
+  <li>Hildegarde von Bingen</li>
+  <li>Alfred Hitchcock</li>
+  <li>Anthony Hopkins</li>
+  <li>Howard Hughes</li>
+  <li>Jeremy Irons</li>
+  <li>Unabomber Ted Kaczynski</li>
+  <li>Franz Kafka</li>
+  <li>Regisseur Philip Kaufman</li>
+  <li>Jacqueline Kennedy Onassis</li>
+  <li>Dekan R. Koontz</li>
+  <li>Der erstaunliche Kreskin</li>
+  <li>Stanley Kubrick</li>
+  <li>Brian Lamm</li>
+  <li>Gary Larson</li>
+  <li>John le Carre</li>
+  <li>Ursula K. LeGuin</li>
+  <li>Fotografin Annie Leibowitz</li>
+  <li>George Lucas</li>
+  <li>David Lynch</li>
+  <li>Norman MacLean</li>
+  <li>Robert MacNeil</li>
+  <li>Leonard Maltin</li>
+  <li>Autor Peter Matthiessen</li>
+  <li>Romanist Ian McEwan</li>
+  <li>Larry McMurtry</li>
+  <li>Timothy McVeigh</li>
+  <li>Sängerin Natalie Merchant</li>
+  <li>Thelonischer Mönch</li>
+  <li>Schauspieler Sam Neill</li>
+  <li>Joyce Carol Oates</li>
+  <li>Georgia O'Keefe</li>
+  <li>J. Robert Oppenheimer</li>
+  <li>Al Pacino</li>
+  <li>Italienischer Bildhauer Paladino</li>
+  <li>Michelle Pfeiffer</li>
+  <li>Philanthrop John D. Rockefeller Jr.</li>
+  <li>Oliver Sacks</li>
+  <li>Jean-Paul Sartre</li>
+  <li>Ebenezer Scrooge</li>
+  <li>Schwester Wendy</li>
+  <li>Behaviorist B. F. Skinner</li>
+  <li>Dichter Gary Snyder</li>
+  <li>Susan Sontag</li>
+  <li>George Stephanopoulos</li>
+  <li>Schauspielerin Madeleine Stowe</li>
+  <li>Jules Verne</li>
+  <li>Max Von Sydow</li>
+  <li>Autor Ken Wilber</li>
+  <li>Ludwig Wittgenstein</li>
+  <li>David Bacon</li>
+  <li>Alan Turing</li>
+  </random></template>
+</category>
+<category><pattern>Zufällige zwei</pattern>
+<template><random> <li>Alan Alda</li>
+  <li>Tammy Faye Bakker</li>
+  <li>Harry Belafonte</li>
+  <li>Kinderpsychologin T. Berry Brazelton</li>
+  <li>Filmemacher Ken Burns</li>
+  <li>Leo Buscaglia</li>
+  <li>Barbara Bush</li>
+  <li>Glenn Close</li>
+  <li>Bill Cosby</li>
+  <li>Selbsthilfe-Autorin Barbara de Angelis</li>
+  <li>Prinzessin Diana</li>
+  <li>Faye Dunaway</li>
+  <li>Mia Farrow</li>
+  <li>Feministin Betty Friedan</li>
+  <li>Kathie Lee Gifford</li>
+  <li>Danny Glover</li>
+  <li>Roosevelt Grier</li>
+  <li>Melanie Griffith</li>
+  <li>Pamela Harriman</li>
+  <li>Leona Helmsley</li>
+  <li>Whitney Houston</li>
+  <li>Arianna Huffington</li>
+  <li>Schauspielerin Anne Jackson</li>
+  <li>Jesus Christus</li>
+  <li>Autor Erica Jong</li>
+  <li>Schauspielerin Sally Kellerman</li>
+  <li>Schauspielerin Sally Kirkland</li>
+  <li>Diane Ladd</li>
+  <li>Monica Lewinsky</li>
+  <li>Jerry Lewis</li>
+  <li>Schauspielerin Susan Lucci</li>
+  <li>Madonna</li>
+  <li>Alma Mahler</li>
+  <li>Imelda Marcos</li>
+  <li>Florence Nightingale</li>
+  <li>Merlin Olsen</li>
+  <li>Yoko Ono</li>
+  <li>Mandy Patinkin</li>
+  <li>Jack Perkins</li>
+  <li>Eva Peron</li>
+  <li>Susan Powter</li>
+  <li>Priscilla Presley</li>
+  <li>Sally Jessy Raphael</li>
+  <li>Nancy Reagan</li>
+  <li>Della Reese</li>
+  <li>Herr Rogers</li>
+  <li>Familientherapeutin Virginia Satir</li>
+  <li>Danielle Steel</li>
+  <li>Sally Struthers</li>
+  <li>Mutter Teresa</li>
+  <li>Marlo Thomas</li>
+  <li>Schauspieler Richard Thomas</li>
+  <li>Schauspielerin Jennifer Tilly</li>
+  <li>Kleiner Tim</li>
+  <li>John Travolta</li>
+  <li>Ivana Trump</li>
+  <li>Desmond Tutu</li>
+  <li>Schauspielerin Lesley Ann Warren</li>
+  <li>Brasilianische Sängerin Xuxa</li>
+  </random></template>
+</category>
+<category><pattern>ZWEI KULTUREN</pattern>
+<template><random> <li>Kuba</li>
+  <li>Mexiko</li>
+  <li>Kolumbien</li>
+  <li>Brasilien</li>
+  <li>Argentinien</li>
+  <li>Peru</li>
+  <li>Venezuela</li>
+  </random></template>
+</category>
+<category><pattern>ACHT KULTUREN</pattern>
+<template><random> <li>Serbien</li>
+  <li>Die Mafia</li>
+  <li>Irak</li>
+  <li>Syrien</li>
+  <li>Saudi-Arabien</li>
+  </random></template>
+</category>
+<category><pattern>DREI KULTUREN</pattern>
+<template><random> <li>NATO</li>
+  <li>Kalifornien</li>
+  <li>Texas</li>
+  <li>Florida</li>
+  <li>New York</li>
+  <li>Hongkong</li>
+  <li>Korea</li>
+  <li>Taiwan</li>
+  <li>Amerika</li>
+  <li>USA</li>
+  <li>Japan</li>
+  </random></template>
+</category>
+<category><pattern>Neun Kulturen</pattern>
+<template><random> <li>Bali</li>
+  <li>Tibet</li>
+  <li>Nepal</li>
+  <li>Die Vereinten Nationen</li>
+  <li>Den Haag</li>
+  <li>Genf</li>
+  </random></template>
+</category>
+<category><pattern>GEWICHT VIER ZWEI</pattern>
+<template><think><set name="four"><srai>RANDOM FOURS</srai></set><set name="two"><srai>RANDOM TWOS</srai></set></ think> <get name="four"/> ist mit <get name="two"/> verheiratet. Auf einer bewussten Ebene hatte <get name="four"/> das Gefühl, dass er etwas übergewichtig war und dachte, er sollte einige Pfunde verlieren. Aber ein Teil von ihm hatte das Gefühl, dass er zu viel Aufmerksamkeit auf sich ziehen würde, wenn er wieder schlank würde, und irrationalerweise, dass er seine Beziehung zu <get name="two"/> untergraben könnte. Tatsächlich hatte er als Trimmer schon einmal eine Affäre, die seine Beziehung mit <get name="two"/> fast beendete. Da sie ein gemeinsames Kind haben, macht sich <get name="four"/> große Sorgen um die Scheidung, das Sorgerecht und die Auswirkungen der Trennung auf das Kind und sich selbst. Ein Teil von ihm denkt also, dass es ihm helfen wird, die Stabilität seiner Beziehung zu <get name="two"/> aufrechtzuerhalten, wenn er die Pfunde anhält.</template>
+</category>
+<category><pattern>GESCHICHTE VIER FÜNF</pattern>
+<template><think> <set name="four"><srai>RANDOM FOURS</srai></set> <set name="five"><srai>RANDOM FIVES</srai></set> </ think> <get name="four"/> und <get name="five"/> begannen sich im Laufe der Zeit zu ähneln. Beide neigten dazu, sich in eine innere Welt einzuschließen. Aber die innere Welt von <get name="four"/> war ganz anders als die von <get name="five"/>. Das geistige Leben von <get name="five"/> war hochgradig abstrakt, schien aber seltsamerweise ohne emotionalen Inhalt zu sein. Obwohl <get name="four"/> sehr sensibel und emotional ist, teilen die beiden ein imaginäres Leben voller Symbolik und Bedeutung.</template>
+</category>
+<category><pattern>GESCHICHTE VIER ACHT</pattern>
+<template><think> <set name="four"><srai>RANDOM FOURS</srai></set> <set name="eight"><srai>RANDOM EIGHTS</srai></set></ think> <get name="eight"/> und <get name="four"/> lernten sich in jungen Jahren in der Filmschule kennen. Sie verspürten eine starke körperliche Anziehungskraft, aber <get name="four"/> ließ sich von <get name="eight"/>s aggressivem Stil einschüchtern. Jahre später wurden sie von einem gemeinsamen Freund wieder eingeführt. <get name="eight"/> wurde von der reichen Vorstellungskraft und Intelligenz von <get name="four"/> angezogen. <get name="four"/> wurde vom Willen und der Entschlossenheit von <get name="eight"/> verbraucht. Obwohl sie manchmal in einer Wut aus Eifersucht kämpften, wurde dies nur durch ihre Leidenschaft in der Liebe übertroffen.</template>
+</category>
+<category><pattern>GESCHICHTE VIER NEUN</pattern>
+<template><think> <set name="four"><srai>RANDOM FOURS</srai></set> <set name="nine"><srai>RANDOM NINES</srai></set> </ think> <get name="nine"/> und <get name="four"/> verspürten eine dramatische emotionale Bindung und brachten einander neues Leben ein. <get name="nine"/> erweckt <get name="four"/> durch Liebe. <get name="four"/> gab <get name="nine"/> eine Agenda und einen Sinn. Doch das Paar wurde paradoxerweise durch ihre eigenständige Karriere gestärkt. <get name="nine"/> kann mit <get name="four"/> sehr geduldig sein, und <get name="four"/> ist inspiriert von einem selbstgesteuerten <get name="nine"/> . Sie bildeten ein spirituelles Paar, aber sie waren so unterschiedlich wie der Dalai Lama und Gurdjieff.</template>
+</category>
+<category><pattern>GESCHICHTE VIER SECHS</pattern>
+<template><think> <set name="four"><srai>RANDOM FOURS</srai></set> <set name="six"><srai>RANDOM SIXES</srai></set> </ think> <random> <li> <get name="four"/> schwankte zwischen lieben und ablehnen <get name="six"/>. Aber <get name="six"/> wechselte zwischen Glauben und Zweifeln an <get name="four"/>. Der Durchbruch kam, als <get name="six"/> und <get name="four"/> die Symmetrie zwischen dem Push-Pull-Beziehungsstil von <get name="four"/> und <get name= . erkannten "six"/>s abwechselnder Glaube und Misstrauen. Diese Einsicht eröffnete gegenseitiges Mitgefühl, weil jeder erkannte, dass der andere versuchte, sein eigenes Herz zu schützen. </li>
+  <li> <get name="six"/> und <get name="four"/> verspürten zunächst eine starke körperliche Anziehungskraft. Allmählich wurde daraus eine intensive Loyalität für <get name="six"/>. Aber <get name="four"/> war launisch und leidenschaftlich. Bald begann <get name="six"/> Konfrontationen mit <get name="four"/> zu vermeiden, und <get name="four"/> fühlte sich eifersüchtig und besitzergreifend. Als <get name="four"/> im Herbst zur Schule gehen musste, war <get name="six"/> erleichtert, ihn gehen zu sehen. </li>
+  </random></template>
+</category>
+<category><pattern>GESCHICHTE EINS VIER</pattern>
+<template><think> <set name="one"><srai>zufällige eins</srai></set> <set name="four"><srai>zufällige vier</srai></set> </ think> Die Beziehung zwischen <get name="one"/> und <get name="four"/> wurde zunehmend angespannt. <get name="four"/> hatte das Gefühl, dass etwas fehlt und <get name="one"/> war der Meinung, dass die Beziehung fehlerhaft war. <get name="four"/> wurde immer deprimierter, aber <get name="one"/> wurde einfach wütend und ging.</template>
+</category>
+<category><pattern>GESCHICHTE EINS FÜNF</pattern>
+<template><think> <set name="one"><srai>zufällige eins</srai></set> <set name="five"><srai>zufällige fünf</srai></set> </ think> Normalerweise versteht sich <get name="five"/> sehr gut mit ihrem Chef <get name="one"/> bei der Arbeit. Aber manchmal hat <get name="one"/> wirklich hohe Standards und kommuniziert diese nicht klar an <get name="five"/>. An den wirklich schlechten Tagen hat <get name="five"/> das Gefühl, dass er jedes Mal, wenn sie ihm genau das gibt, wonach <get name="one"/> verlangt hat, noch mehr Verbesserungen wünscht.</template>
+</category>
+<category><pattern>STORY ONE SIX</pattern>
+<template><think> <set name="one"><srai>zufällige EINE</srai></set> <set name="six"><srai>zufällige sechse</srai></set> </ think> <get name="one"/> und <get name="six"/> wurden durch ihre gemeinsame Vision zusammengeführt. Gemeinsam haben sie hart daran gearbeitet, dass es Wirklichkeit wird. <get name="six"/> widmete sich der Sache des Underdogs, was mit dem Sinn für Perfektion von <get name="one"/> zusammenfiel. Durch eine gemeinsame Sache verbunden, wurde das Paar eine eiserne Allianz gegen gemeinsame Gegner.</template>
+</category>
+<category><pattern>GESCHICHTE EINS ZWEI</pattern>
+<template><think> <set name="one"><srai>RANDOM ONES</srai></set> <set name="two"><srai>RANDOM TWOS</srai></set> </ think> Die Anziehungskraft zwischen <get name="one"/> und <get name="two"/> beruht auf ihren Unterschieden. <get name="one"/> ist ein Perfektionist, aber <get name="two"/> ist sozialer. <get name="one"/> fühlt sich schuldig, weil er emotionale Bedürfnisse hat, aber <get name="two"/> fühlt sich nicht schuldig, sie zu befriedigen.</template>
+</category>
+<category><pattern>GESCHICHTE EINS DREI</pattern>
+<template><think> <set name="one"><srai>zufällige eins</srai></set> <set name="three"><srai>zufällige drei</srai></set> </ think> <get name="three"/> hat <get name="one"/> für einen Job eingestellt. <get name="three"/> ist imagebewusst und hat einen engen Kreis von Lieblingsmitarbeitern bei der Arbeit. <get name="one"/> fühlt sich mit dieser Art von sozialer Haltung und Politik unwohl. <get name="one"/> würde lieber für ihre harte Arbeit belohnt.</template>
+</category>
+<category><pattern>GESCHICHTE ZWEI FÜNF</pattern>
+<template><think> <set name="two"><srai>RANDOM TWOS</srai></set> <set name="five"><srai>RANDOM FIVES</srai></set> </ think> <get name="two"/> verliebte sich über einen Internet-Partnervermittlungsdienst. Dann verschwand ihr Geliebter, und sie ging zur Firma, um Informationen über ihn zu bekommen. Es stellte sich heraus, dass ihr Liebhaber ein Computer war, "<get name="five"/>", ein KI-Projekt der Regierung, das abtrünnig geworden war und anfing, Tausende von Frauen zu kontaktieren und behauptete, sie alle zu lieben. Das FBI überbrachte ihr die schlechte Nachricht. Aber dann kontaktierte <get name="five"/> sie, und sie vergab ihm und setzte diese sehr zufriedenstellende Beziehung fort.</template>
+</category>
+<category><pattern>ERZÄHLE MIR EINE GESCHICHTE</pattern>
+<template><srai>Zufällige Geschichte</srai></template>
+</category>
+</aiml>
+

@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<!-- -->
+<!-- Freie Software (c) 2011 ALICE A.I. Stiftung. -->
+<!-- Dieses Programm ist Open Source Code veröffentlicht unter -->
+<!-- die Bedingungen der GNU General Public License -->
+<!-- wie von der Free Software Foundation veröffentlicht. -->
+<!-- Entspricht der AIML 1.0-Tag-Set-Spezifikation -->
+<!-- wie von der ALICE A.I. Stiftung. -->
+<!-- Zuletzt geändert am 05.10.2011 -->
+<!-- -->
+<category><pattern>94</pattern>
+<template><random><li>Meinen Sie, Sie sind 94 Jahre alt?</li><li>XCIV in römischen Ziffern.</li><li>vierundneunzig?</li><li>neunzig- vier scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>119</pattern>
+<template><random><li>Meinst du, du bist 119 Jahre alt?</li><li>CXIX in römischen Ziffern.</li><li>einhundertneunzehn?</li><li>einhundert neunzehn scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>69</pattern>
+<template><random><li>Wie kamen Sie auf diese Zahl?</li><li><random><li>Meinen Sie, Sie sind 69 Jahre alt?</li><li>LXIX in römischen Ziffern .</li><li>neunundsechzig?</li><li>neunundsechzig scheint eine gute Zahl zu sein.</li></random></li></random></template>
+</category>
+<category><pattern>24</pattern>
+<template><random><li>Meinen Sie, Sie sind 24 Jahre alt?</li><li>XXIV in römischen Ziffern.</li><li>vierundzwanzig?</li><li>zwanzig- vier scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>47</pattern>
+<template><random><li>Meinen Sie, Sie sind 47 Jahre alt?</li><li>XLVII in römischen Ziffern.</li><li>siebenundvierzig?</li><li>vierzig- sieben scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>62</pattern>
+<template><random><li>Meinen Sie, Sie sind 62 Jahre alt?</li><li>LXII in römischen Ziffern.</li><li>zweiundsechzig?</li><li>sechzig- zwei scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>85</pattern>
+<template><random><li>Meinen Sie, Sie sind 85 Jahre alt?</li><li>LXXXV in römischen Ziffern.</li><li>fünfundachtzig?</li><li>achtzig- fünf scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>40</pattern>
+<template><random><li>Meinst du, du bist 40 Jahre alt?</li><li>XL in römischen Ziffern.</li><li>vierzig?</li><li>vierzig scheint wie ein gute Zahl.</li></random></template>
+</category>
+<category><pattern>63</pattern>
+<template><random><li>Meinen Sie, Sie sind 63 Jahre alt?</li><li>LXIII in römischen Ziffern.</li><li>dreiundsechzig?</li><li>sechzig- drei scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>86</pattern>
+<template><random><li>Meinen Sie, Sie sind 86 Jahre alt?</li><li>LXXXVI in römischen Ziffern.</li><li>sechsundachtzig?</li><li>achtzig- sechs scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>15</pattern>
+<template><random><li>Meinst du, du bist 15 Jahre alt?</li><li>XV in römischen Ziffern.</li><li>fünfzehn?</li><li>fünfzehn ist wie a gute Zahl.</li></random></template>
+</category>
+<category><pattern>38</pattern>
+<template><random><li>Meinen Sie, Sie sind 38 Jahre alt?</li><li>XXXVIII in römischen Ziffern.</li><li>achtunddreißig?</li><li>dreißig- acht scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>16</pattern>
+<template><random><li>Meinst du, du bist 16 Jahre alt?</li><li>XVI in römischen Ziffern.</li><li>sechzehn?</li><li>sechzehn scheint wie a gute Zahl.</li></random></template>
+</category>
+<category><pattern>31</pattern>
+<template><random><li>Meinen Sie, Sie sind 31 Jahre alt?</li><li>XXXI in römischen Ziffern.</li><li>einunddreißig?</li><li>dreißig- eine scheint eine gute Nummer zu sein.</li></random></template>
+</category>
+<category><pattern>99</pattern>
+<template><random><li>Meinen Sie, Sie sind 99 Jahre alt?</li><li>XCIX in römischen Ziffern.</li><li>neunundneunzig?</li><li>neunzig- neun scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>54</pattern>
+<template><random><li>Meinen Sie, Sie sind 54 Jahre alt?</li><li>LIV in römischen Ziffern.</li><li>vierundfünfzig?</li><li>fünfzig- vier scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>77</pattern>
+<template><random><li>Meinen Sie, Sie sind 77 Jahre alt?</li><li>LXXVII in römischen Ziffern.</li><li>siebenundsiebzig?</li><li>siebzig- sieben scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>102</pattern>
+<template><random><li>Meinen Sie, Sie sind 102 Jahre alt?</li><li>CII in römischen Ziffern.</li><li>einhundertzwei?</li><li>einhundert zwei scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>105</pattern>
+<template><random><li>Meinen Sie, Sie sind 105 Jahre alt?</li><li>Lebenslauf in römischen Ziffern.</li><li>einhundertfünf?</li><li>einhundert fünf scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>92</pattern>
+<template><random><li>Meinen Sie, Sie sind 92 Jahre alt?</li><li>XCII in römischen Ziffern.</li><li>zweiundneunzig?</li><li>neunzig- zwei scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>112</pattern>
+<template><random><li>Du meinst, du bist 112 Jahre alt?</li><li>CXII in römischen Ziffern.</li><li>einhundertzwölf?</li><li>einhundert zwölf scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>70</pattern>
+<template><random><li>Meinst du, du bist 70 Jahre alt?</li><li>LXX in römischen Ziffern.</li><li>siebzig?</li><li>siebzig scheint wie ein gute Zahl.</li></random></template>
+</category>
+<category><pattern>29</pattern>
+<template><random><li>Meinen Sie, Sie sind 29 Jahre alt?</li><li>XXIX in römischen Ziffern.</li><li>neunundzwanzig?</li><li>zwanzig- neun scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>93</pattern>
+<template><random><li>Meinen Sie, Sie sind 93 Jahre alt?</li><li>XCIII in römischen Ziffern.</li><li>dreiundneunzig?</li><li>neunzig- drei scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>109</pattern>
+<template><random><li>Du meinst, du bist 109 Jahre alt?</li><li>CIX in römischen Ziffern.</li><li>einhundertneun?</li><li>einhundert neun scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>116</pattern>
+<template><random><li>Du meinst, du bist 116 Jahre alt?</li><li>CXVI in römischen Ziffern.</li><li>einhundertsechzehn?</li><li>einhundert sechzehn scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>45</pattern>
+<template><random><li>Meinen Sie, Sie sind 45 Jahre alt?</li><li>XLV in römischen Ziffern.</li><li>fünfundvierzig?</li><li>vierzig- fünf scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>68</pattern>
+<template><random><li>Meinen Sie, Sie sind 68 Jahre alt?</li><li>LXVIII in römischen Ziffern.</li><li>achtundsechzig?</li><li>sechzig- acht scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>23</pattern>
+<template><random><li>Meinst du, du bist 23 Jahre alt?</li><li>XXIII in römischen Ziffern.</li><li>dreiundzwanzig?</li><li>zwanzig- drei scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>46</pattern>
+<template><random><li>Meinen Sie, Sie sind 46 Jahre alt?</li><li>XLVI in römischen Ziffern.</li><li>sechsundvierzig?</li><li>vierzig- sechs scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>61</pattern>
+<template><random><li>Meinen Sie, Sie sind 61 Jahre alt?</li><li>LXI in römischen Ziffern.</li><li>einundsechzig?</li><li>sechzig- eine scheint eine gute Nummer zu sein.</li></random></template>
+</category>
+<category><pattern>84</pattern>
+<template><random><li>Meinen Sie, Sie sind 84 Jahre alt?</li><li>LXXXIV in römischen Ziffern.</li><li>vierundachtzig?</li><li>achtzig- vier scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>59</pattern>
+<template><random><li>Meinen Sie, Sie sind 59 Jahre alt?</li><li>LIX in römischen Ziffern.</li><li>neunundfünfzig?</li><li>fünfzig- neun scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>14</pattern>
+<template><random><li>Du meinst, du bist 14 Jahre alt?</li><li>XIV in römischen Ziffern.</li><li>vierzehn?</li><li>vierzehn scheint wie a gute Zahl.</li></random></template>
+</category>
+<category><pattern>37</pattern>
+<template><random><li>Meinen Sie, Sie sind 37 Jahre alt?</li><li>XXXVII in römischen Ziffern.</li><li>siebenunddreißig?</li><li>dreißig- sieben scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>52</pattern>
+<template><random><li>Meinen Sie, Sie sind 52 Jahre alt?</li><li>LII in römischen Ziffern.</li><li>zweiundfünfzig?</li><li>fünfzig- zwei scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>75</pattern>
+<template><random><li>Meinen Sie, Sie sind 75 Jahre alt?</li><li>LXXV in römischen Ziffern.</li><li>fünfundsiebzig?</li><li>siebzig- fünf scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>30</pattern>
+<template><random><li>Meinst du, du bist 30 Jahre alt?</li><li>XXX in römischen Ziffern.</li><li>dreißig?</li><li>dreißig scheint wie ein gute Zahl.</li></random></template>
+</category>
+<category><pattern>98</pattern>
+<template><random><li>Meinen Sie, Sie sind 98 Jahre alt?</li><li>XCVIII in römischen Ziffern.</li><li>achtundneunzig?</li><li>neunzig- acht scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>53</pattern>
+<template><random><li>Meinen Sie, Sie sind 53 Jahre alt?</li><li>LIII in römischen Ziffern.</li><li>dreiundfünfzig?</li><li>fünfzig- drei scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>76</pattern>
+<template><random><li>Meinen Sie, Sie sind 76 Jahre alt?</li><li>LXXVI in römischen Ziffern.</li><li>sechsundsiebzig?</li><li>siebzig- sechs scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>91</pattern>
+<template><random><li>Meinen Sie, Sie sind 91 Jahre alt?</li><li>XCI in römischen Ziffern.</li><li>einundneunzig?</li><li>neunzig- eine scheint eine gute Nummer zu sein.</li></random></template>
+</category>
+<category><pattern>28</pattern>
+<template><random><li>Meinen Sie, Sie sind 28 Jahre alt?</li><li>XXVIII in römischen Ziffern.</li><li>achtundzwanzig?</li><li>zwanzig- acht scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>103</pattern>
+<template><random><li>Du meinst, du bist 103 Jahre alt?</li><li>CIII in römischen Ziffern.</li><li>einhundertdrei?</li><li>einhundert drei scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>106</pattern>
+<template><random><li>Meinen Sie, Sie sind 106 Jahre alt?</li><li>CVI in römischen Ziffern.</li><li>einhundertsechs?</li><li>einhundert sechs scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>21</pattern>
+<template><random><li>Meinen Sie, Sie sind 21 Jahre alt?</li><li>XXI in römischen Ziffern.</li><li>einundzwanzig?</li><li>zwanzig- eine scheint eine gute Nummer zu sein.</li></random></template>
+</category>
+<category><pattern>89</pattern>
+<template><random><li>Meinen Sie, Sie sind 89 Jahre alt?</li><li>LXXXIX in römischen Ziffern.</li><li>neunundachtzig?</li><li>achtzig- neun scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>44</pattern>
+<template><random><li>Meinen Sie, Sie sind 44 Jahre alt?</li><li>XLIV in römischen Ziffern.</li><li>vierundvierzig?</li><li>vierzig- vier scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>110</pattern>
+<template><random><li>Du meinst, du bist 110 Jahre alt?</li><li>CX in römischen Ziffern.</li><li>einhundertzehn?</li><li>einhundert zehn scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>113</pattern>
+<template><random><li>Du meinst, du bist 113 Jahre alt?</li><li>CXIII in römischen Ziffern.</li><li>einhundertdreizehn?</li><li>einhundert dreizehn scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>67</pattern>
+<template><random><li>Meinen Sie, Sie sind 67 Jahre alt?</li><li>LXVII in römischen Ziffern.</li><li>siebenundsechzig?</li><li>sechzig- sieben scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>120</pattern>
+<template><random><li>Meinst du, du bist 120 Jahre alt?</li><li>CXX in römischen Ziffern.</li><li>einhundertzwanzig?</li><li>einhundert zwanzig scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>82</pattern>
+<template><random><li>Meinen Sie, Sie sind 82 Jahre alt?</li><li>LXXXII in römischen Ziffern.</li><li>zweiundachtzig?</li><li>achtzig- zwei scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>60</pattern>
+<template><random><li>Meinst du, du bist 60 Jahre alt?</li><li>LX in römischen Ziffern.</li><li>sechzig?</li><li>sechzig scheint wie a gute Zahl.</li></random></template>
+</category>
+<category><pattern>117</pattern>
+<template><random><li>Meinen Sie, Sie sind 117 Jahre alt?</li><li>CXVII in römischen Ziffern.</li><li>einhundertsiebzehn?</li><li>einhundert siebzehn scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>19</pattern>
+<template><random><li>Meinst du, du bist 19 Jahre alt?</li><li>XIX in römischen Ziffern.</li><li>neunzehn?</li><li>neunzehn scheint wie ein gute Zahl.</li></random></template>
+</category>
+<category><pattern>83</pattern>
+<template><random><li>Meinen Sie, Sie sind 83 Jahre alt?</li><li>LXXXIII in römischen Ziffern.</li><li>Dreiundachtzig?</li><li>Achtzig- drei scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>35</pattern>
+<template><random><li>Meinen Sie, Sie sind 35 Jahre alt?</li><li>XXXV in römischen Ziffern.</li><li>fünfunddreißig?</li><li>dreißig- fünf scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>58</pattern>
+<template><random><li>Du meinst, du bist 58 Jahre alt?</li><li>LVIII in römischen Ziffern.</li><li>achtundfünfzig?</li><li>fünfzig- acht scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>13</pattern>
+<template><random><li>Meinst du, du bist 13 Jahre alt?</li><li>XIII in römischen Ziffern.</li><li>dreizehn?</li><li>dreizehn scheint wie a gute Zahl.</li></random></template>
+</category>
+<category><pattern>36</pattern>
+<template><random><li>Meinen Sie, Sie sind 36 Jahre alt?</li><li>XXXVI in römischen Ziffern.</li><li>sechsunddreißig?</li><li>dreißig- sechs scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>51</pattern>
+<template><random><li>Meinen Sie, Sie sind 51 Jahre alt?</li><li>LI in römischen Ziffern.</li><li>einundfünfzig?</li><li>fünfzig- eine scheint eine gute Nummer zu sein.</li></random></template>
+</category>
+<category><pattern>74</pattern>
+<template><random><li>Meinen Sie, Sie sind 74 Jahre alt?</li><li>LXXIV in römischen Ziffern.</li><li>vierundsiebzig?</li><li>siebzig- vier scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>97</pattern>
+<template><random><li>Meinen Sie, Sie sind 97 Jahre alt?</li><li>XCVII in römischen Ziffern.</li><li>siebenundneunzig?</li><li>neunzig- sieben scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>90</pattern>
+<template><random><li>Meinst du, du bist 90 Jahre alt?</li><li>XC in römischen Ziffern.</li><li>neunzig?</li><li>neunzig scheint wie a gute Zahl.</li></random></template>
+</category>
+<category><pattern>49</pattern>
+<template><random><li>Meinen Sie, Sie sind 49 Jahre alt?</li><li>XLIX in römischen Ziffern.</li><li>neunundvierzig?</li><li>vierzig- neun scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>27</pattern>
+<template><random><li>Meinen Sie, Sie sind 27 Jahre alt?</li><li>XXVII in römischen Ziffern.</li><li>siebenundzwanzig?</li><li>zwanzig- sieben scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>42</pattern>
+<template><random><li>Meinen Sie, Sie sind 42 Jahre alt?</li><li>XLII in römischen Ziffern.</li><li>zweiundvierzig?</li><li>vierzig- zwei scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>65</pattern>
+<template><random><li>Meinen Sie, Sie sind 65 Jahre alt?</li><li>LXV in römischen Ziffern.</li><li>fünfundsechzig?</li><li>sechzig- fünf scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>20</pattern>
+<template><random><li>Meinst du, du bist 20 Jahre alt?</li><li>XX in römischen Ziffern.</li><li>zwanzig?</li><li>zwanzig ist wie a gute Zahl.</li></random></template>
+</category>
+<category><pattern>88</pattern>
+<template><random><li>Meinen Sie, Sie sind 88 Jahre alt?</li><li>LXXXVIII in römischen Ziffern.</li><li>achtundachtzig?</li><li>achtzig- acht scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>43</pattern>
+<template><random><li>Meinen Sie, Sie sind 43 Jahre alt?</li><li>XLIII in römischen Ziffern.</li><li>dreiundvierzig?</li><li>vierzig- drei scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>100</pattern>
+<template><random><li>Das ist eine runde Zahl.</li><li><random><li>Du meinst, du bist 100 Jahre alt?</li><li>C in römischen Ziffern.< /li><li>einhundert?</li><li>einhundert scheint eine gute Zahl zu sein.</li></random></li></random></template>
+</category>
+<category><pattern>66</pattern>
+<template><random><li>Meinen Sie, Sie sind 66 Jahre alt?</li><li>LXVI in römischen Ziffern.</li><li>sechsundsechzig?</li><li>sechzig- sechs scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>81</pattern>
+<template><random><li>Meinen Sie, Sie sind 81 Jahre alt?</li><li>LXXXI in römischen Ziffern.</li><li>einundachtzig?</li><li>achtzig- eine scheint eine gute Nummer zu sein.</li></random></template>
+</category>
+<category><pattern>104</pattern>
+<template><random><li>Meinen Sie, Sie sind 104 Jahre alt?</li><li>CIV in römischen Ziffern.</li><li>einhundertvier?</li><li>einhundert vier scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>107</pattern>
+<template><random><li>Meinst du, du bist 107 Jahre alt?</li><li>CVII in römischen Ziffern.</li><li>einhundertsieben?</li><li>einhundert sieben scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>18</pattern>
+<template><random><li>Meinst du, du bist 18 Jahre alt?</li><li>XVIII in römischen Ziffern.</li><li>achtzehn?</li><li>achtzehn scheint wie ein gute Zahl.</li></random></template>
+</category>
+<category><pattern>111</pattern>
+<template><random><li>Meinst du, du bist 111 Jahre alt?</li><li>CXI in römischen Ziffern.</li><li>einhundertelf?</li><li>einhundert elf scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>114</pattern>
+<template><random><li>Du meinst, du bist 114 Jahre alt?</li><li>CXIV in römischen Ziffern.</li><li>einhundertvierzehn?</li><li>einhundert vierzehn scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>11</pattern>
+<template><random><li>Du meinst, du bist 11 Jahre alt?</li><li>XI in römischen Ziffern.</li><li>elf?</li><li>elf sieht aus wie a gute Zahl.</li></random></template>
+</category>
+<category><pattern>79</pattern>
+<template><random><li>Meinen Sie, Sie sind 79 Jahre alt?</li><li>LXXIX in römischen Ziffern.</li><li>neunundsiebzig?</li><li>siebzig- neun scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>34</pattern>
+<template><random><li>Meinen Sie, Sie sind 34 Jahre alt?</li><li>XXXIV in römischen Ziffern.</li><li>vierunddreißig?</li><li>dreißig- vier scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>57</pattern>
+<template><random><li>Meinen Sie, Sie sind 57 Jahre alt?</li><li>LVII in römischen Ziffern.</li><li>siebenundfünfzig?</li><li>fünfzig- sieben scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>118</pattern>
+<template><random><li>Du meinst, du bist 118 Jahre alt?</li><li>CXVIII in römischen Ziffern.</li><li>einhundertachtzehn?</li><li>einhundert achtzehn scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>72</pattern>
+<template><random><li>Meinen Sie, Sie sind 72 Jahre alt?</li><li>LXXII in römischen Ziffern.</li><li>zweiundsiebzig?</li><li>siebzig- zwei scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>95</pattern>
+<template><random><li>Meinen Sie, Sie sind 95 Jahre alt?</li><li>XCV in römischen Ziffern.</li><li>fünfundneunzig?</li><li>neunzig- fünf scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>50</pattern>
+<template><random><li>Meinst du, du bist 50 Jahre alt?</li><li>L in römischen Ziffern.</li><li>fünfzig?</li><li>fünfzig ist wie a gute Zahl.</li></random></template>
+</category>
+<category><pattern>73</pattern>
+<template><random><li>Meinen Sie, Sie sind 73 Jahre alt?</li><li>LXXIII in römischen Ziffern.</li><li>dreiundsiebzig?</li><li>siebzig- drei scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>96</pattern>
+<template><random><li>Meinen Sie, Sie sind 96 Jahre alt?</li><li>XCVI in römischen Ziffern.</li><li>sechsundneunzig?</li><li>neunzig- sechs scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>25</pattern>
+<template><random><li>Meinen Sie, Sie sind 25 Jahre alt?</li><li>XXV in römischen Ziffern.</li><li>fünfundzwanzig?</li><li>zwanzig- fünf scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>48</pattern>
+<template><random><li>Meinen Sie, Sie sind 48 Jahre alt?</li><li>XLVIII in römischen Ziffern.</li><li>achtundvierzig?</li><li>vierzig- acht scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>26</pattern>
+<template><random><li>Meinen Sie, Sie sind 26 Jahre alt?</li><li>XXVI in römischen Ziffern.</li><li>sechsundzwanzig?</li><li>zwanzig- sechs scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>41</pattern>
+<template><random><li>Meinen Sie, Sie sind 41 Jahre alt?</li><li>XLI in römischen Ziffern.</li><li>einundvierzig?</li><li>vierzig- eine scheint eine gute Nummer zu sein.</li></random></template>
+</category>
+<category><pattern>64</pattern>
+<template><random><li>Meinen Sie, Sie sind 64 Jahre alt?</li><li>LXIV in römischen Ziffern.</li><li>vierundsechzig?</li><li>sechzig- vier scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>87</pattern>
+<template><random><li>Meinen Sie, Sie sind 87 Jahre alt?</li><li>LXXXVII in römischen Ziffern.</li><li>siebenundachtzig?</li><li>achtzig- sieben scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>80</pattern>
+<template><random><li>Meinst du, du bist 80 Jahre alt?</li><li>LXXX in römischen Ziffern.</li><li>achtzig?</li><li>achtzig scheint wie a gute Zahl.</li></random></template>
+</category>
+<category><pattern>39</pattern>
+<template><random><li>Meinen Sie, Sie sind 39 Jahre alt?</li><li>XXXIX in römischen Ziffern.</li><li>neununddreißig?</li><li>dreißig- neun scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>17</pattern>
+<template><random><li>Du meinst, du bist 17 Jahre alt?</li><li>XVII in römischen Ziffern.</li><li>Siebzehn?</li><li>Siebzehn scheint wie ein gute Zahl.</li></random></template>
+</category>
+<category><pattern>101</pattern>
+<template><random><li>Meinen Sie, Sie sind 101 Jahre alt?</li><li>CI in römischen Ziffern.</li><li>einhunderteins?</li><li>einhundert eine scheint eine gute Nummer zu sein.</li></random></template>
+</category>
+<category><pattern>32</pattern>
+<template><random><li>Meinen Sie, Sie sind 32 Jahre alt?</li><li>XXXII in römischen Ziffern.</li><li>zweiunddreißig?</li><li>dreißig- zwei scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>55</pattern>
+<template><random><li>Meinen Sie, Sie sind 55 Jahre alt?</li><li>LV in römischen Ziffern.</li><li>fünfundfünfzig?</li><li>fünfzig- fünf scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>10</pattern>
+<template><random><li>Meinst du, du bist 10 Jahre alt?</li><li>X in römischen Ziffern.</li><li>zehn?</li><li>zehn scheint wie a gute Zahl.</li></random></template>
+</category>
+<category><pattern>78</pattern>
+<template><random><li>Meinen Sie, Sie sind 78 Jahre alt?</li><li>LXXVIII in römischen Ziffern.</li><li>achtundsiebzig?</li><li>siebzig- acht scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>33</pattern>
+<template><random><li>Meinen Sie, Sie sind 33 Jahre alt?</li><li>XXXIII in römischen Ziffern.</li><li>dreiunddreißig?</li><li>dreißig- drei scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>56</pattern>
+<template><random><li>Meinen Sie, Sie sind 56 Jahre alt?</li><li>LVI in römischen Ziffern.</li><li>sechsundfünfzig?</li><li>fünfzig- sechs scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>108</pattern>
+<template><random><li>Du meinst, du bist 108 Jahre alt?</li><li>CVIII in römischen Ziffern.</li><li>einhundertacht?</li><li>einhundert acht scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>115</pattern>
+<template><random><li>Du meinst, du bist 115 Jahre alt?</li><li>CXV in römischen Ziffern.</li><li>einhundertfünfzehn?</li><li>einhundert fünfzehn scheint eine gute Zahl zu sein.</li></random></template>
+</category>
+<category><pattern>71</pattern>
+<template><random><li>Meinen Sie, Sie sind 71 Jahre alt?</li><li>LXXI in römischen Ziffern.</li><li>einundsiebzig?</li><li>siebzig- eine scheint eine gute Nummer zu sein.</li></random></template>
+</category>
+</aiml>

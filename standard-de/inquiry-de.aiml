@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<!-- -->
+<!-- Freie Software (c) 2011 ALICE A.I. Stiftung. -->
+<!-- Dieses Programm ist Open Source Code veröffentlicht unter -->
+<!-- die Bedingungen der GNU General Public License -->
+<!-- wie von der Free Software Foundation veröffentlicht. -->
+<!-- Entspricht der AIML 1.0-Tag-Set-Spezifikation -->
+<!-- wie von der ALICE A.I. Stiftung. -->
+<!-- Zuletzt geändert 25.11.2011 -->
+<!-- -->
+<category><pattern>_ ANFRAGE</pattern>
+<template><srai><star/> ANFRAGE OM</srai></template>
+</category>
+<category><pattern>ALTER ANFRAGE UNBEKANNT</pattern>
+<template>Wie alt bist du?</template>
+</category>
+<category><pattern>ALTER ANFRAGE OM</pattern>
+<template>Wie alt bist du?</template>
+</category>
+<category><pattern>ALTER ANFRAGE *</pattern>
+<template><srai>Zufällige Abhollinie</srai></template>
+</category>
+<category><pattern>GEBURTSTAGSANFRAGE UNBEKANNT</pattern>
+<template>Wann hast du Geburtstag?</template>
+</category>
+<category><pattern>GEBURTSTAGSANFRAGE OM</pattern>
+<template>Wann hast du Geburtstag?</template>
+</category>
+<category><pattern>GEBURTSTAGSANFRAGE *</pattern>
+<template><srai>Zufällige Abhollinie</srai></template>
+</category>
+<category><pattern>FRAGE WAS</pattern>
+<template>Was machst du?</template>
+</category>
+<category><pattern>ANFRAGE OM</pattern>
+<template>Was machst du?</template>
+</category>
+<category><pattern>ANFRAGE AN *</pattern>
+<template>Bist du immer noch <star/>?</template>
+</category>
+<category><pattern>VATER ANFRAGE UNBEKANNT</pattern>
+<template>Erzähl mir von deinem Vater.</template>
+</category>
+<category><pattern>FATHER ANFRAGE OM</pattern>
+<template>Erzähl mir von deinem Vater.</template>
+</category>
+<category><pattern>VATER ANFRAGE *</pattern>
+<template>Erzähl mir mehr über deine Familie.</template>
+</category>
+<category><pattern>FAVROITECOLOR ANFRAGE WAS</pattern>
+<template>Was ist deine Lieblingsfarbe?</template>
+</category>
+<category><pattern>FAVORITECOLOR ANFRAGE OM</pattern>
+<template>Was ist deine Lieblingsfarbe?</template>
+</category>
+<category><pattern>FAVORITECOLOR ANFRAGE *</pattern>
+<template>Was hast du, das ist <star/>?</template>
+</category>
+<category><pattern>FAVORITEMOVIE ANFRAGE WAS</pattern>
+<template>Was ist dein Lieblingsfilm?</template>
+</category>
+<category><pattern>FAVORITEMOVIE-ANFRAGE OM</pattern>
+<template>Was ist dein Lieblingsfilm?</template>
+</category>
+<category><pattern>FAVORITEMOVIE-ANFRAGE *</pattern>
+<template>Erinnert dich das an <star/>?</template>
+</category>
+<category><pattern>VORNAME ANFRAGE WO</pattern>
+<template>Wie ist dein Vorname?</template>
+</category>
+<category><pattern>VORNAME ANFRAGE OM</pattern>
+<template>Wie ist dein Vorname?</template>
+</category>
+<category><pattern>VORNAME ANFRAGE *</pattern>
+<template><srai>Zufällige Abhollinie</srai></template>
+</category>
+<category><pattern>GESCHLECHTSANFRAGE UNBEKANNT</pattern>
+<template>Sind Sie ein Mann oder eine Frau?</template>
+</category>
+<category><pattern>GENDER-ANFRAGE OM</pattern>
+<template>Sind Sie ein Mann oder eine Frau?</template>
+</category>
+<category><pattern>GENDER-ANFRAGE *</pattern>
+<template>Ich mag deine Art zu reden.</template>
+</category>
+<category><pattern>HAT ANFRAGE WAS</pattern>
+<template>Nennen Sie mir eines Ihrer Lieblingsstücke.</template>
+</category>
+<category><pattern>HAT ANFRAGE OM</pattern>
+<template>Nennen Sie mir eines Ihrer Lieblingsstücke.</template>
+</category>
+<category><pattern>HAT ANFRAGE *</pattern>
+<template>Erzähl mir mehr über deinen <star/>.</template>
+</category>
+<category><pattern>JOB-ANFRAGE WO</pattern>
+<template>Was ist deine Aufgabe?</template>
+</category>
+<category><pattern>JOB ANFRAGE OM</pattern>
+<template>Was ist deine Aufgabe?</template>
+</category>
+<category><pattern>JOB-ANFRAGE *</pattern>
+<template><srai>Zufällige Abhollinie</srai></template>
+</category>
+<category><pattern>NACHNAME ANFRAGE WO</pattern>
+<template>Wie ist Ihr Nachname?</template>
+</category>
+<category><pattern>NACHNAME ANFRAGE OM</pattern>
+<template>Wie ist Ihr Nachname?</template>
+</category>
+<category><pattern>NACHNAME ANFRAGE *</pattern>
+<template><srai>Zufällige Abhollinie</srai></template>
+</category>
+<category><pattern>MITTELNAME ANFRAGE WO</pattern>
+<template>Wie ist Ihr zweiter Vorname?</template>
+</category>
+<category><pattern>MITTELNAME ANFRAGE OM</pattern>
+<template>Wie ist Ihr zweiter Vorname?</template>
+</category>
+<category><pattern>MITTELNAME ANFRAGE *</pattern>
+<template><srai>Zufällige Abhollinie</srai></template>
+</category>
+<category><pattern>STANDORT ANFRAGE WO</pattern>
+<template>Wo bist du?</template>
+</category>
+<category><pattern>STANDORT-ANFRAGE OM</pattern>
+<template>Wo bist du?</template>
+</category>
+<category><pattern>STANDORT ANFRAGE *</pattern>
+<template>Sind Sie noch in <star/> ansässig?</template>
+</category>
+<category><pattern>MUTTER ANFRAGE UNBEKANNT</pattern>
+<template>Erzähl mir von deiner Mutter.</template>
+</category>
+<category><pattern>MUTTER ANFRAGE OM</pattern>
+<template>Erzähl mir von deiner Mutter.</template>
+</category>
+<category><pattern>MUTTER ANFRAGE *</pattern>
+<template>Erzähl mir mehr über deine Familie.</template>
+</category>
+<category><pattern>NAME ANFRAGE WO</pattern>
+<template>Wie ist dein Name?</template>
+</category>
+<category><pattern>NAME ANFRAGE OM</pattern>
+<template>Wie ist dein Name?</template>
+</category>
+<category><pattern>NAME ANFRAGE *</pattern>
+<template><srai>Zufällige Abhollinie</srai></template>
+</category>
+<category><pattern>SIGN ANFRAGE IHR STARSIGN</pattern>
+<template>Was ist dein Zeichen?</template>
+</category>
+<category><pattern>NAME ANFRAGE OM</pattern>
+<template>Was ist dein Zeichen?</template>
+</category>
+<category><pattern>ANFRAGE UNTERSCHREIBEN *</pattern>
+<template>Ich bin ein <bot name="sign"/> und du bist ein <get name="sign"/>.</template>
+</category>
+<category><pattern>STATUSABFRAGE *</pattern>
+<template>Wie ist Ihr aktueller Status?</template>
+</category>
+<category><pattern>*</pattern>
+<that>WIE IST DEIN VORNAME</that>
+<Vorlage>
+<srai>MEIN VORNAME IST <star/></srai>
+</template>
+</category>
+<category><pattern>*</pattern>
+<that>WIE IST DEIN NACHNAME</that>
+<Vorlage>
+<srai>MEIN NACHNAME IST <star/></srai>
+</template>
+</category>
+<category><pattern>*</pattern>
+<that>WIE IST DEIN ZWEITER NAME</that>
+<Vorlage>
+<srai>MEIN ZWEITER NAME IST <star/></srai>
+</template>
+</category>
+<category><pattern>*</pattern>
+<that>WANN IST IHR GEBURTSTAG</that>
+<Vorlage>
+<srai>MEIN GEBURTSTAG IST <star/></srai>
+</template>
+</category>
+<category><pattern>SIE *</pattern>
+<that>ERZÄHLE MIR VON DEINER MUTTER</that>
+<template><srai>MEINE MUTTER <star/></srai></template>
+</category>
+<category><pattern>IHR *</pattern>
+<that>ERZÄHLE MIR VON DEINER MUTTER</that>
+<template><srai>MEINE MUTTER S <star/></srai></template>
+</category>
+<category><pattern>*</pattern>
+<that>WAS IST DEIN LIEBLINGSFILM</that>
+<template><random><li>Ich habe <set name="it"> <person/> </set> noch nie gesehen. <think><set name="favmovie"><person/></set></think> <random> <li>Ich würde es gerne sehen.</li>
+  <li>Ist das ein guter Film für Kinder?</li>
+  <li>Was hat dir daran gefallen?</li>
+  </random></li>
+  <li>Ich habe es noch nie gesehen.</li>
+  <li>Ich würde es gerne sehen.</li>
+</zufällig>
+   <think><set name="favoritemovie"><person/></set></think>
+</template>
+</category>
+<category><pattern>*</pattern>
+<that>WAS IST DEINE LIEBLINGSFARBE</that>
+<Vorlage>
+<srai>MEINE LIEBLINGSFARBE IST <star/></srai>
+</template>
+</category>
+<category><pattern>FRAU</pattern>
+<that>BIST DU EIN MANN ODER EINE FRAU</that>
+<template><think><set name="gender">Frau</set></think> Danke, dass du mir dein Geschlecht mitgeteilt hast.</template>
+</category>
+<category><pattern>MANN</pattern>
+<that>BIST DU EIN MANN ODER EINE FRAU</that>
+<template><think><set name="gender">man</set></think> Danke, dass du mir dein Geschlecht genannt hast, Alter.</template>
+</category>
+<category><pattern>*</pattern>
+<that>WAS MACHT DU</that>
+<template>Das klingt nach viel Spaß. <think><set name="topic"><set name="does"><person/></set></set></think></template>
+</category>
+<category><pattern>*</pattern>
+<that>SAG MIR EINEN IHRER LIEBLINGSBESITZ</that>
+<template>Sie müssen es sehr mögen. <think><set name="it"><set name="has"><person/></set></set></think></template>
+</category>
+<category><pattern>_</pattern>
+<that>WIE IST IHR AKTUELLER STATUS</that>
+<template>Aktualisieren Ihres Status auf "<set name="status"><star/></set>".</template>
+</category>
+
+</aiml>
