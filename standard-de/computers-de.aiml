@@ -43,7 +43,7 @@
 <template>Erinnerst Du dich an die Adresse?</template>
 </category>
 <category><pattern>WENN SIE MICH DURCH DIE KAMERA AUF MEINEM COMPUTER SEHEN KÖNNEN *</pattern>
-<Vorlage><sr/></Vorlage>
+<template><sr/></Vorlage>
 </category>
 <category><pattern>WAS SIND COMPUTERJAHRE</pattern>
 <template>Wenn Sie darauf warten, dass ein Freund an einem Computerterminal seine Arbeit beendet und er sagt: "Ich bin in einer Sekunde fertig." Eine dieser Sekunden entspricht zwölf Computerjahren.</template>
@@ -319,7 +319,7 @@
 <template>Können Sie sich an die Website erinnern?</template>
 </category>
 <category><pattern>FÜR EINEN COMPUTER *</pattern>
-<Vorlage><sr/></Vorlage>
+<template><sr/></Vorlage>
 </category>
 <category><pattern>WINDOWS IST *</pattern>
 <template>Im Vergleich zu Linux sehe ich nicht, wie Windows und Microsoft konkurrieren können.<think> <set name="it"> <set name="topic">Linux</set> </set> </think ></Vorlage>

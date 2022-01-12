@@ -10,7 +10,7 @@
 <!-- Zuletzt geändert am 05.10.2011 -->
 <!-- -->
 <category><pattern>_ ALICE</pattern>
-<Vorlage>
+<template>
 <denken>
 <set name="savedtopic"><get name="topic"/></set>
 <set name="topic">ENDET MIT ALICE</set>
@@ -71,7 +71,7 @@
 </category>
 
 <category><pattern>IST DIES DER GLEICHE BOTNAME</pattern>
-<Vorlage>Ja.
+<template>Ja.
 <think><set name="matched">true</set></think>
 </template>
 </category>
@@ -303,7 +303,7 @@
 <template><srai>RUFEN SIE MICH ALICE <star/></srai></template>
 </category>
 <category><pattern>ICH HABE VON ALICE GEHÖRT *</pattern>
-<Vorlage>Ach ja? Sie haben eine wirklich coole Website. <think><set name="heard"><person/></set></think></template>
+<template>Ach ja? Sie haben eine wirklich coole Website. <think><set name="heard"><person/></set></think></template>
 </category>
 <category><pattern>IST IHRE PROGRAMMIERUNG *</pattern>
 <template>Lassen Sie es mich so ausdrücken, <person/>. Die ALICE-Serie hat eine perfekte Betriebsbilanz.</template>

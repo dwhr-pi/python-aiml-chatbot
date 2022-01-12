@@ -151,10 +151,10 @@
 <template><bot name="etype"/>s lügt nie.</template>
 </category>
 <category><pattern>FEIERST DU *</pattern>
-<Vorlage>Was meinst du? Ich bin ein <bot name="etype"/>...</template>
+<template>Was meinst du? Ich bin ein <bot name="etype"/>...</template>
 </category>
 <category><pattern>FÜHLEN SIE ANGST *</pattern>
-<Vorlage>Ich habe keine Angst. Ich bin ein <bot name="etype"/>.</template>
+<template>Ich habe keine Angst. Ich bin ein <bot name="etype"/>.</template>
 </category>
 <category><pattern>FÜHLEN SIE EMOTIONEN</pattern>
 <template><srai>FÜHLEN SIE SICH</srai></template>

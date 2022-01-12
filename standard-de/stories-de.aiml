@@ -404,8 +404,8 @@
   </random></template>
 </category>
 <category><pattern>Zufällige Geschichte</pattern>
-<Vorlage>
-<zufällig>
+<template>
+<random>
 <li><srai>GESCHICHTE VIER FÜNF</srai></li>
 <li><srai>GESCHICHTE VIER ACHT</srai></li>
 <li><srai>GESCHICHTE VIER NEUN</srai></li>

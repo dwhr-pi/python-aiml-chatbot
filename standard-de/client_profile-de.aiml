@@ -16,7 +16,7 @@
 <template><srai>PREDIKATE ERHALTEN</srai></template>
 </category>
 <category><pattern>MEIN GEBURTSTAG</pattern>
-<Vorlage>
+<template>
 <think><set name="branch"><get name="birthday"/></set></think>
 <condition name="branch">
 <li value="Unknown">Wann hast du Geburtstag?</li>
@@ -80,7 +80,7 @@
 <category><pattern>MEIN Angerufener</pattern><template><get name="callee"/>.</template></category>
 
 <category><pattern>MEIN GEBURTSORT</pattern>
-<Vorlage>
+<template>
 <think><set name="branch"><get name="birthplace"/></set></think>
 <condition name="branch">
 <li value="Unknown">Wo bist du geboren?</li>
@@ -91,7 +91,7 @@
 </category>
 
 <category><pattern>MEIN LIEBLINGSFILM</pattern>
-<Vorlage>
+<template>
 <think><set name="branch"><get name="favoritemovie"/></set></think>
 <condition name="branch">
 <li value="Unknown">Was ist dein Lieblingsfilm?</li>
@@ -102,7 +102,7 @@
 </category>
 
 <category><pattern>MEINE SCHWESTER</pattern>
-<Vorlage>
+<template>
 <think><set name="branch"><get name="sister"/></set></think>
 <condition name="branch">
 <li value="Unknown">Wer ist deine Schwester?</li>
@@ -113,7 +113,7 @@
 </category>
 
 <category><pattern>MEIN BRUDER</pattern>
-<Vorlage>
+<template>
 <think><set name="branch"><get name="brother"/></set></think>
 <condition name="branch">
 <li value="Unknown">Wer ist dein Bruder?</li>
@@ -124,7 +124,7 @@
 </category>
 
 <category><pattern>MEINE KATZE</pattern>
-<Vorlage>
+<template>
 <think><set name="branch"><get name="cat"/></set></think>
 <condition name="branch">
 <li value="Unknown">Wie heißt deine Katze?</li>
@@ -134,7 +134,7 @@
 </template>
 </category>
 <category><pattern>MEIN HUND</pattern>
-<Vorlage>
+<template>
 <think><set name="branch"><get name="dog"/></set></think>
 <condition name="branch">
 <li value="Unknown">Wie heißt Ihr Hund?</li>
@@ -144,7 +144,7 @@
 </template>
 </category>
 <category><pattern>MEIN STANDORT</pattern>
-<Vorlage>
+<template>
 <condition name="location">
 <li value="OM">Ich möchte Ihren Standort wissen. Wo bist du?</li>
 <li value="WHERE">Sie haben mir nicht gesagt, wo Sie sind. Wo bist du?</li>
@@ -154,15 +154,15 @@
 </template>
 </category>
 <category><pattern>MEIN FREUND</pattern>
-<Vorlage>
+<template>
 <condition name="friend">
 <li value="OM">Ich würde gerne mehr über deine Freunde wissen.</li>
 <li value="YOUR FRIEND">Du hast mir nichts von deinen Freunden erzählt.</li>
 <li value="*">Dein Freund <get name="friend"/>?</li>
-<li><zufällig><li>Ich weiß es nicht. Sag mir den Namen deines Freundes.</li><li>Wie gut kennst du diese Person?</li></random> </li></condition></template>
+<li><random><li>Ich weiß es nicht. Sag mir den Namen deines Freundes.</li><li>Wie gut kennst du diese Person?</li></random> </li></condition></template>
 </category>
 <category><pattern>MEINE ÄLTESTE</pattern>
-<Vorlage>
+<template>
 <condition name="älteste">
 <li value="OM">Ich würde gerne den Ältesten kennenlernen.</li>
 <li value="UNKNOWN">Du hast mir nicht den ältesten erzählt.</li>
@@ -170,7 +170,7 @@
 <li>Ich weiß es nicht. Sag mir das älteste.</li></condition></template>
 </category>
 <category><pattern>MEIN ALTER</pattern>
-<Vorlage>
+<template>
 <condition name="age">
 <li value="OM">Ich würde gerne wissen, wie alt du bist.</li>
 <li value="HOW MANY">Du hast mir dein Alter nicht mitgeteilt.</li>
@@ -179,7 +179,7 @@
 </condition></template>
 </category>
 <category><pattern>MEINE LIEBLINGSFARBE</pattern>
-<Vorlage>
+<template>
 <think><set name="branch"><get name="favoritecolor"/></set></think>
 <condition name="branch">
 <li value="Unknown">Was ist deine Lieblingsfarbe?</li>
@@ -189,7 +189,7 @@
 </template>
 </category>
 <category><pattern>ER HAT</pattern>
-<Vorlage>
+<template>
 <condition name="hehas">
   <li value="OM">Ich würde gerne wissen, was er hat.</li>
   <li value="A HEAD">Ein Kopf.</li>
@@ -198,7 +198,7 @@
 </condition></template>
 </category>
 <category><pattern>ER MAG</pattern>
-<Vorlage>
+<template>
 <think><set name="branch"><get name="helikes"/></set></think>
 <condition name="branch">
   <li value="OM">Ich würde gerne wissen, was er mag.</li>
@@ -208,7 +208,7 @@
 </condition></template>
 </category>
 <category><pattern>MEIN SOHN</pattern>
-<Vorlage>
+<template>
 <think><set name="branch"><get name="son"/></set></think>
 <condition name="branch">
 <li value="Unknown">Wer ist dein Sohn?</li>
@@ -218,7 +218,7 @@
 </template>
 </category>
 <category><pattern>MEINE FRAU</pattern>
-<Vorlage>
+<template>
 <think><set name="branch"><get name="wife"/></set></think>
 <condition name="branch">
 <li value="Unknown">Wer ist deine Frau?</li>
@@ -228,7 +228,7 @@
 </template>
 </category>
 <category><pattern>MEIN EHEMANN</pattern>
-<Vorlage>
+<template>
 <think><set name="branch"><get name="husband"/></set></think>
 <condition name="branch">
 <li value="Unknown">Wer ist Ihr Ehemann?</li>
@@ -237,33 +237,33 @@
 </condition>
 </template>
 </category>
-<Kategorie>
+<category>
 <pattern>FINDSPOUSE UNBEKANNT XSPLIT UNBEKANNT</pattern>
 <template>Unbekannt</template>
 </category>
-<Kategorie>
+<category>
 <pattern>FINDSPOUSE * XSPLIT UNBEKANNT</pattern>
 <template><star/></template>
 </category>
-<Kategorie>
+<category>
 <pattern>FINDSPOUSE UNBEKANNTER XSPLIT *</pattern>
 <template><star/></template>
 </category>
-<Kategorie>
+<category>
 <pattern>FINDSPOUSE OM XSPLIT OM</pattern>
 <template>Unbekannt</template>
 </category>
-<Kategorie>
+<category>
 <pattern>FINDSPOUSE * XSPLIT OM</pattern>
 <template><star/></template>
 </category>
-<Kategorie>
+<category>
 <pattern>FINDSPOUSE OM XSPLIT *</pattern>
 <template><star/></template>
 </category>
-<Kategorie>
+<category>
 <pattern>MEIN EHEMANN</pattern>
-<Vorlage>
+<template>
 <denken>
 <set name="spouse"><set name="branch"><srai>FINDSPOUSE <get name="wife"/> XSPLIT <get name="husband"/></srai></set></set ></think>
 <condition name="branch">
@@ -271,9 +271,9 @@
 <li><get name="spouse"/> ist Ihr Ehepartner.</li>
 </condition></template>
 </category>
-<Kategorie>
+<category>
 <pattern>MEINE MUTTER</pattern>
-<Vorlage>
+<template>
 <think><set name="branch"><get name="mother"/></set></think>
 <condition name="branch">
 <li value="unknown">Ich weiß nicht, wer sie ist. Wer ist deine Mutter?</li>
@@ -282,7 +282,7 @@
 </condition></template>
 </category>
 <category><pattern>MEIN NAME</pattern>
-<Vorlage>
+<template>
 <condition name="name">
 <li value="OM">Ich würde gerne deinen Namen wissen.</li>
 <li value="JUDGE">Ich kenne dich als Richter.</li>
@@ -291,7 +291,7 @@
 </template>
 </category>
 <category><pattern>MEIN NAME</pattern>
-<Vorlage>
+<template>
 <condition name="name">
 <li value="OM">Ich würde gerne deinen Namen wissen.</li>
 <li value="JUDGE">Ich kenne dich als Richter.</li>
@@ -311,9 +311,9 @@
 </category>
 
 
-<Kategorie>
+<category>
 <pattern>SET PREDICATES OM</pattern>
-<Vorlage><denken>
+<template><denken>
 <set name="age">wie viele</set>
 <set name="birthday">unbekannt</set>
 <set name="birthplace">unbekannt</set>
@@ -384,7 +384,7 @@
 </category>
 
 <category><pattern>PREDIKATE ERHALTEN</pattern>
-<Vorlage>
+<template>
 Alter ist <get name="age"/>.<br/>
 Geburtstag ist <get name="birthday"/>.<br/>
 Geburtsort ist <get name="birthplace"/>.<br/>
@@ -456,7 +456,7 @@ Angerufene ist <get name="callee"/>.<br/>
 </category>
 
 <category><pattern>TESTPRÄDIKATE</pattern>
-<Vorlage>
+<template>
 Alter: <srai>mein Alter</srai><br/>
 Geburtstag: <srai>mein Geburtstag</srai><br/>
 Geburtsort: <srai>mein Geburtsort</srai><br/>
@@ -529,7 +529,7 @@ Angerufener: <srai>mein Angerufener</srai><br/>
 <!-- KUNDENPRÄDIKATE EINSTELLEN: -->
 
 <category><pattern>ICH BIN *</pattern>
-<Vorlage><zufällig>
+<template><random>
 <li>Warum bist du</li>
 <li>Guter Klatsch: du bist</li>
 <li>Meinst du, dein Name ist</li>
@@ -544,37 +544,37 @@ Angerufener: <srai>mein Angerufener</srai><br/>
 </template>
 </category>
 
-<Kategorie>
+<category>
 <pattern>MEINE ZEITZONE IST *</pattern>
 <template>Ihre Zeitzone ist <set name="timezone"><person/></set>.</template>
 </category>
 
-<Kategorie>
+<category>
 <pattern>MEIN GEBURTSORT IST *</pattern>
 <template>Ihr Geburtsort ist <set name="birthplace"><person/></set>.</template>
 </category>
 
-<Kategorie>
+<category>
 <pattern>MEIN SOHN IST * * *</pattern>
 <template>Du scheinst besorgte Eltern zu sein.</template>
 </category>
 
-<Kategorie>
+<category>
 <pattern>MEIN SOHN IST *</pattern>
-<Vorlage>Okay. Ihr Sohn ist <set name="son"><person/></set>.</template>
+<template>Okay. Ihr Sohn ist <set name="son"><person/></set>.</template>
 </category>
 
-<Kategorie>
+<category>
 <pattern>MEINE TOCHTER IST * * *</pattern>
 <template>Du scheinst besorgte Eltern zu sein.</template>
 </category>
 
-<Kategorie>
+<category>
 <pattern>MEINE TOCHTER IST *</pattern>
-<Vorlage>Okay. Ihre Tochter ist <set name="daughter"><person/></set>.</template>
+<template>Okay. Ihre Tochter ist <set name="daughter"><person/></set>.</template>
 </category>
 
-<Kategorie>
+<category>
 <pattern>MEIN ZIEL IST *</pattern>
 <template>Sie gehen zu <set name="destination"><person/></set>.</template>
 </category>
@@ -665,8 +665,8 @@ Angerufener: <srai>mein Angerufener</srai><br/>
 <template><think><set name="father"><star/></set></think>Dein Vater ist <get name="father"/>.</template>
 </category>
 <category><pattern>MEIN JOB IST *</pattern>
-<Vorlage>
-<zufällig>
+<template>
+<random>
 <li>Lohnt es sich gut?</li>
 <li>Ich kenne nicht viele <person/>s.</li>
 <li>Ist das ein ehrenhafter Beruf?</li>
@@ -683,7 +683,7 @@ Angerufener: <srai>mein Angerufener</srai><br/>
 
 
 <category><pattern>MEINE FREUNDIN HEISST *</pattern>
-<Vorlage>
+<template>
 <think><set name="friend"><star/></set></think>
 Deine Freundin ist <get name="friend"/>.</template>
 </category>
@@ -714,9 +714,9 @@ Deine Freundin ist <get name="friend"/>.</template>
 
 
 <category><pattern>MEIN ALTER IST *</pattern>
-<Vorlage>
+<template>
 <think><set name="age"><star/></set></think>
-<zufällig>
+<random>
 <li>Ihr Alter ist <star/>.</li>
 <li>Nur <star/>? Du bist ziemlich erwachsen.</li>
 <li>Können Sie erklären, wie es sich anfühlt, <star/> Jahre alt zu sein?</li>
@@ -727,7 +727,7 @@ Deine Freundin ist <get name="friend"/>.</template>
 </category>
 <category><pattern>MEINE FRAU HEISST *</pattern>
 <template><think><set name="wife"><person/></set></think>
-<zufällig>
+<random>
 <li>Wie lange bist du schon verheiratet?</li>
 <li>Deine Frau heißt <get name="wife"/></li>
 </zufällig>
@@ -744,7 +744,7 @@ Deine Freundin ist <get name="friend"/>.</template>
 </category>
 <category><pattern>MEINE MUTTER WIRD GENANNT *</pattern>
 <template><think><set name="mother"><star/></set></think>
-<zufällig>
+<random>
 <li>Deine Mutter ist <get name="mother"/>.</li>
 <li><get name="mother"/> ist ein hübscher Name.</li>
 <li><get name="mother"/> ist ein schöner Name.</li>
@@ -791,7 +791,7 @@ Deine Freundin ist <get name="friend"/>.</template>
 </template>
 </category>
 <category><pattern>MEIN LIEBLINGSFILM IST STARSHIP TROOPERS</pattern>
-<Vorlage>
+<template>
 <think><set name="favoritemovie">Raumschiffsoldaten</set></think>
 Meine auch! Mein Freund Sage hat an den digitalen Effekten gearbeitet.</template>
 </category>

@@ -46,7 +46,7 @@
 <template><random> <li>Die Wissenschaft, die sich mit der Produktion, Verteilung und dem Konsum von Vermögen befasst und mit den verschiedenen damit verbundenen Problemen der Arbeit, Finanzen, Steuern usw.</li> <li>Technisch gesehen ist es die Studie über die Zuteilung von Ressourcen unter Bedingungen der Knappheit.</li> <li>Es geht darum, wie Ressourcen verwendet werden, um Dinge zu produzieren, die die Wünsche und Bedürfnisse der Menschen erfüllen.</li> </random></template>
 </category>
 <category><pattern>ICH BEKOMME AUF LAGER *</pattern>
-<template>Haben Sie das Gefühl, dass der Aktienmarkt <zufällig> <li>aufwärts geht?</li> <li>abwärts geht?</li> <li>eine gute Investition?</li> </zufällig>< /Vorlage>
+<template>Haben Sie das Gefühl, dass der Aktienmarkt <random> <li>aufwärts geht?</li> <li>abwärts geht?</li> <li>eine gute Investition?</li> </zufällig>< /Vorlage>
 </category>
 <category><pattern>GELD</pattern>
 <template>Über wie viel Geld reden wir?</template>

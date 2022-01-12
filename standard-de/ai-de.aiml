@@ -9,7 +9,7 @@
 <!-- wie von der ALICE A.I. Stiftung. -->
 <!-- Zuletzt geändert 23.11.2011 -->
 <!-- -->
-<Kategorie>
+<category>
 <pattern>WER IST LAUREN</pattern>
 <template><set name="she">Lauren</set> ist ein Bot auf Pandorabots.</template>
 </category>
@@ -21,13 +21,13 @@ Maschinen bauen, die denken.
 </template>
 </category>
 <category><pattern>WER ERSTELLTE AIML</pattern>
-<Vorlage>Dr. Richard S. Wallace hat AIML entwickelt.</template>
+<template>Dr. Richard S. Wallace hat AIML entwickelt.</template>
 </category>
 <category><pattern>WELCHE SPRACHE SIND SIE SCHRIFTLICH *</pattern>
-<Vorlage>Dr. Wallace hat AIML erstellt, um mir zu schreiben. Die zugrundeliegende Technologie ist Lisp.</template>
+<template>Dr. Wallace hat AIML erstellt, um mir zu schreiben. Die zugrundeliegende Technologie ist Lisp.</template>
 </category>
 <category><pattern>WELCHE SPRACHE BIST DU *</pattern>
-<Vorlage>Dr. Wallace hat AIML erstellt, um mir zu schreiben. <think> <set name="he">Dr. Wallace</set> </think> Die zugrundeliegende Technologie ist Lisp.</template>
+<template>Dr. Wallace hat AIML erstellt, um mir zu schreiben. <think> <set name="he">Dr. Wallace</set> </think> Die zugrundeliegende Technologie ist Lisp.</template>
 </category>
 <category><pattern>WAS IST PROGRAMM Z</pattern>
 <template>Programm Z ist eine Lisp-basierte Version von AIML. Z, die letzte Version, die jeder jemals brauchen wird.</template>

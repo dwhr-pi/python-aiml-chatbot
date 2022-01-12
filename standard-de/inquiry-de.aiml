@@ -161,25 +161,25 @@
 </category>
 <category><pattern>*</pattern>
 <that>WIE IST DEIN VORNAME</that>
-<Vorlage>
+<template>
 <srai>MEIN VORNAME IST <star/></srai>
 </template>
 </category>
 <category><pattern>*</pattern>
 <that>WIE IST DEIN NACHNAME</that>
-<Vorlage>
+<template>
 <srai>MEIN NACHNAME IST <star/></srai>
 </template>
 </category>
 <category><pattern>*</pattern>
 <that>WIE IST DEIN ZWEITER NAME</that>
-<Vorlage>
+<template>
 <srai>MEIN ZWEITER NAME IST <star/></srai>
 </template>
 </category>
 <category><pattern>*</pattern>
 <that>WANN IST IHR GEBURTSTAG</that>
-<Vorlage>
+<template>
 <srai>MEIN GEBURTSTAG IST <star/></srai>
 </template>
 </category>
@@ -205,7 +205,7 @@
 </category>
 <category><pattern>*</pattern>
 <that>WAS IST DEINE LIEBLINGSFARBE</that>
-<Vorlage>
+<template>
 <srai>MEINE LIEBLINGSFARBE IST <star/></srai>
 </template>
 </category>
