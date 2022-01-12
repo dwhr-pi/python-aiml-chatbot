@@ -707,7 +707,7 @@ Deine Freundin ist <get name="friend"/>.</template>
 
 
 <category><pattern>MEIN EHEMANN HEISST *</pattern>
-<template><think><set name="husband"><star/></set><set name="spouse">mann</set></think>Ihr Ehemann ist <get name="husband"/ >.</template>
+<template><think><set name="husband"><star/></set><set name="spouse">mann</set></think>Ihr Ehemann ist <get name="husband"/>.</template>
 </category>
 
 

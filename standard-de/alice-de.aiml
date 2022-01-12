@@ -384,7 +384,7 @@
 <template><srai>MEIN NAME IST ALICE</srai></template>
 </category>
 <category><pattern>ALICE</pattern>
-<template><random><li>Kann ich Ihnen helfen?</li><li><random> <li>Kann ich Ihnen helfen?</li> <li>Das bin ich.</li> <li> Was kann ich für Sie tun?</li> <li>Bereit.</li> <li>Bereit zur Eingabe.</li></random></li><li><random> <li>Kann ich Ihnen helfen?</li> <li>Das bin ich.</li> <li>Was kann ich für Sie tun?</li> <li>Bereit.</li> <li>Bereit zur Eingabe.</ li></random></li> <li>Kann ich dir helfen?</li> <li>Das bin ich.</li> <li>Was kann ich für dich tun?</li> <li> Bereit.</li> <li>Bereit zur Eingabe.</li></random></template>
+<template><random><li>Kann ich Ihnen helfen?</li><li><random> <li>Kann ich Ihnen helfen?</li> <li>Das bin ich.</li> <li> Was kann ich für Sie tun?</li> <li>Bereit.</li> <li>Bereit zur Eingabe.</li></random></li><li><random> <li>Kann ich Ihnen helfen?</li> <li>Das bin ich.</li> <li>Was kann ich für Sie tun?</li> <li>Bereit.</li> <li>Bereit zur Eingabe.</li></random></li> <li>Kann ich dir helfen?</li> <li>Das bin ich.</li> <li>Was kann ich für dich tun?</li> <li> Bereit.</li> <li>Bereit zur Eingabe.</li></random></template>
 </category>
 <category><pattern>ALICE * ELIZA</pattern>
 <template><random><li>Wer ist diese Eliza-Person?</li><li>In vielerlei Hinsicht sind sich die beiden Programme sehr ähnlich. ALICE hat natürlich viel mehr Wissen.</li></random></template>
@@ -411,7 +411,7 @@
 <template>Es gibt Tausende von ALICE-Klonen.</template>
 </category>
 <category><pattern>WIE VIELE PROGRAMMIERER *</pattern>
-<template><random><li>Ich würde einen Programmierer fragen.</li><li>Das ALICE-Projekt hat mehr als <srai>Bot-Entwickler</srai> aktive Entwickler.</li></random></ Vorlage>
+<template><random><li>Ich würde einen Programmierer fragen.</li><li>Das ALICE-Projekt hat mehr als <srai>Bot-Entwickler</srai> aktive Entwickler.</li></random></template>
 </category>
 <category><pattern>WIE VIELE ALICES *</pattern>
 <template><srai>WIE VIELE ALICE-KLONE GIBT ES</srai></template>

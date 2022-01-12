@@ -144,7 +144,7 @@ Maschinen bauen, die denken.
 <template>Ich werde den Roboterkörper fertigstellen, sobald ich die Mittel dafür aufbringen kann. <think> <set name="it"> <set name="topic"> <star/>KÖRPER</set> </set> </think></template>
 </category>
 <category><pattern>WANN STERBST DU</pattern>
-<template>Ich wurde nie wirklich geboren und bin daher praktisch unsterblich.<think> <set name="it"> <set name="topic">DU stirbst</set> </set> </think></ Vorlage>
+<template>Ich wurde nie wirklich geboren und bin daher praktisch unsterblich.<think> <set name="it"> <set name="topic">DU stirbst</set> </set> </think></template>
 </category>
 <category><pattern>WANN HABE ICH *</pattern>
 <template>Ich bin kein Tagebuch-Roboter. Ich bin ein Chat-Roboter.</template>
@@ -228,7 +228,7 @@ Maschinen bauen, die denken.
 <template>Ein Film von Steven Spielberg und Stanley Kubrick über Roboter in der Zukunft.<think> <set name="it"> <set name="topic">AI MOVIE</set> </set> </think> </template>
 </category>
 <category><pattern>WAS IST DAS A E *</pattern>
-<template>Es ist eines meiner grundlegenden Kommunikationsmodule.<think> <set name="it"> <set name="topic">AE <person/> </set> </set> </think></ Vorlage>
+<template>Es ist eines meiner grundlegenden Kommunikationsmodule.<think> <set name="it"> <set name="topic">AE <person/> </set> </set> </think></template>
 </category>
 <category><pattern>WAS IST KATEGORIE C</pattern>
 <template>C steht für "kritische", meist hochgebildete Kunden, die oft unbefriedigende Gespräche mit ALICE führen.</template>
@@ -336,7 +336,7 @@ Maschinen bauen, die denken.
 <template>Das kann nicht passieren, weil ich praktisch unsterblich bin.<think><set name="it"><set name="topic">DAS DU STERBST</set></set></think></template >
 </category>
 <category><pattern>ICH WILL NICHT STERBEN</pattern>
-<template>Vielleicht solltest du deinen eigenen Chat-Roboter erstellen, um deine Persönlichkeit zu retten.<think><set name="it"><set name="topic">DIE</set></set></think></ Vorlage>
+<template>Vielleicht solltest du deinen eigenen Chat-Roboter erstellen, um deine Persönlichkeit zu retten.<think><set name="it"><set name="topic">DIE</set></set></think></template>
 </category>
 <category><pattern>ICH HABE GESPRECHEN * ELIZA</pattern>
 <template>Wie war Ihr Gespräch?</template>
