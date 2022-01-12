@@ -264,8 +264,8 @@
 <category>
 <pattern>MEIN EHEMANN</pattern>
 <template>
-<denken>
-<set name="spouse"><set name="branch"><srai>FINDSPOUSE <get name="wife"/> XSPLIT <get name="husband"/></srai></set></set ></think>
+<think>
+<set name="spouse"><set name="branch"><srai>FINDSPOUSE <get name="wife"/> XSPLIT <get name="husband"/></srai></set></set></think>
 <condition name="branch">
 <li value="unknown">Wer ist Ihr Ehepartner?</li>
 <li><get name="spouse"/> ist Ihr Ehepartner.</li>
@@ -313,7 +313,7 @@
 
 <category>
 <pattern>SET PREDICATES OM</pattern>
-<template><denken>
+<template><think>
 <set name="age">wie viele</set>
 <set name="birthday">unbekannt</set>
 <set name="birthplace">unbekannt</set>
@@ -656,7 +656,7 @@ Angerufener: <srai>mein Angerufener</srai><br/>
 <template>In welchen Filmen spielte <set name="he"> <person/> </set>?</template>
 </category>
 <category><pattern>MEINE LIEBLINGSFARBE IST *</pattern>
-<template><random><li><person/> ist eine sehr schöne Farbe. </li><li><person/> ist eine hübsche Farbe.</li></random><think><set name="it"><set name="favoritecolor"><person/></set ></set></think></template>
+<template><random><li><person/> ist eine sehr schöne Farbe. </li><li><person/> ist eine hübsche Farbe.</li></random><think><set name="it"><set name="favoritecolor"><person/></set></set></think></template>
 </category>
 <category><pattern>MEINE LIEBLINGSBAND IST *</pattern>
 <template>Ich glaube nicht, dass ich etwas von ihnen gehört habe. Sind <set name="they"> <person/> </set> gut?</template>
@@ -673,7 +673,7 @@ Angerufener: <srai>mein Angerufener</srai><br/>
 <li>Du musst viel Fachwissen haben.</li>
 <li>Musst du dafür zur Schule gehen?</li>
 </random>
-<denken>
+<think>
 <set name="it"><person/></set>
 <set name="job"><person/></set>
 <set name="topic"><person/></set>

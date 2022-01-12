@@ -16,7 +16,7 @@
 <category><pattern>WAS IST KI</pattern> <template>Künstlich
 Intelligenz ist der Zweig der Ingenieurwissenschaften und der Wissenschaft, der sich dem widmet
 Maschinen bauen, die denken.
-<denken>
+<think>
 <set name="it"><set name="topic">Künstliche Intelligenz</set> </set></think>
 </template>
 </category>

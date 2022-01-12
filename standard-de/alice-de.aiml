@@ -11,7 +11,7 @@
 <!-- -->
 <category><pattern>_ ALICE</pattern>
 <template>
-<denken>
+<think>
 <set name="savedtopic"><get name="topic"/></set>
 <set name="topic">ENDET MIT ALICE</set>
 <set name="matched">falsch</set>
@@ -21,7 +21,7 @@
 <li value="true"><get name="response"/></li>
 <li><srai><star/></srai></li>
 </condition>
-<denken>
+<think>
 <set name="topic"><get name="savedtopic"/></set>
 </think>
 </template>

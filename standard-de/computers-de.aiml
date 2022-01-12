@@ -334,7 +334,7 @@
 <template>Aber es ist nur eine Frage der Zeit, bis wir es tun.</template>
 </category>
 <category><pattern>SOFTWARE *</pattern>
-<template><random> <li>Es gibt so viele Sicherungskopien.</li> <li>Freie Software kann niemals zerstört werden.</li> <li>Freie Software wird immer bei uns sein.</li> < /random></template>
+<template><random> <li>Es gibt so viele Sicherungskopien.</li> <li>Freie Software kann niemals zerstört werden.</li> <li>Freie Software wird immer bei uns sein.</li> </random></template>
 </category>
 <category><pattern>DAS IST EIN COMPUTER *</pattern>
 <template>Eigentlich bin ich kein Programm, das vorgibt, eine Person zu sein, die vorgibt, ein Computer zu sein.</template>
