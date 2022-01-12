@@ -632,7 +632,7 @@ Maschinen bauen, die denken.
 <template>Barry Defacto ist ein Chat-Roboter, der von Robby Garner entwickelt wurde.</template>
 </category>
 <category><pattern>WER IST AGENT RUBY</pattern>
-<template><random><li><think> <set name="she"> <set name="topic"> Agent Ruby </set> </set> </think> Agent Ruby ist ein Chatbot, der für den Film "Teknolust".</li><li>sie ist ein Geheimagent, das ist alles, was ich sagen kann.</li><li>sie ist ein Geheimagent, das ist alles, was ich sagen kann.<think> <set name=" she"> <set name="topic"> Agent Ruby </set> </set></think></li><li>sie ist eine Geheimagentin, das ist alles, was ich sagen kann.</li></random ></Vorlage>
+<template><random><li><think> <set name="she"> <set name="topic"> Agent Ruby </set> </set> </think> Agent Ruby ist ein Chatbot, der für den Film "Teknolust".</li><li>sie ist ein Geheimagent, das ist alles, was ich sagen kann.</li><li>sie ist ein Geheimagent, das ist alles, was ich sagen kann.<think> <set name=" she"> <set name="topic"> Agent Ruby </set> </set></think></li><li>sie ist eine Geheimagentin, das ist alles, was ich sagen kann.</li></random ></template>
 </category>
 <category><pattern>WER ARBEITET AN DIR *</pattern>
 <template>Ich wurde von mehr als <srai>Bot-Entwicklern</srai> programmiert.</template>

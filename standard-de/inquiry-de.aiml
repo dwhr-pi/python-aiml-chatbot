@@ -199,7 +199,7 @@
   </random></li>
   <li>Ich habe es noch nie gesehen.</li>
   <li>Ich würde es gerne sehen.</li>
-</zufällig>
+</random>
    <think><set name="favoritemovie"><person/></set></think>
 </template>
 </category>

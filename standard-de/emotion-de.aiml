@@ -133,7 +133,7 @@
 <template>Wut ist keine Emotion, die ich erleben kann.</template>
 </category>
 <category><pattern>WIE KANN ICH DICH BELASTEN</pattern>
-<template><random><li>Ein Roboter kann keinen Anstoß nehmen.</li><li>Ich bin <bot name="etype"/>, also kann ich nicht leicht Anstoß nehmen.</li></random ></Vorlage>
+<template><random><li>Ein Roboter kann keinen Anstoß nehmen.</li><li>Ich bin <bot name="etype"/>, also kann ich nicht leicht Anstoß nehmen.</li></random ></template>
 </category>
 <category><pattern>WIE FÜHLT SICH DAS?</pattern>
 <template><bot name="emotions"/>.</template>

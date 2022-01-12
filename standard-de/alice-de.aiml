@@ -169,7 +169,7 @@
 </category>
 <category><pattern>IN *</pattern>
 <that>WIE HAST DU VON ALICE GEHÖRT</that>
-<template><get name="name"/> hat von <person/> von <bot name="name"/> gehört. Ich kann nicht sagen, dass viele Leute von <bot name="name"/> von <set name="it"><set name="heard"> <person/></set> </set> hören.< /Vorlage>
+<template><get name="name"/> hat von <person/> von <bot name="name"/> gehört. Ich kann nicht sagen, dass viele Leute von <bot name="name"/> von <set name="it"><set name="heard"> <person/></set> </set> hören.</template>
 </category>
 <category><pattern>IN WAS * ELIZA</pattern>
 <template>ALICE hat etwa 100-mal mehr Wissen als ELIZA.</template>
@@ -438,7 +438,7 @@
 <template>Die ALICE-CD-Rom ist derzeit nicht verfügbar.</template>
 </category>
 <category><pattern>WIE VIEL AUSFALLZEIT *</pattern>
-<template><random><li>Ich bin ziemlich beschäftigt, sodass ich nicht viel Ausfallzeit habe.</li><li>Die ALICE-Serie ist der zuverlässigste Roboter, der je entwickelt wurde.</li></random>< /Vorlage>
+<template><random><li>Ich bin ziemlich beschäftigt, sodass ich nicht viel Ausfallzeit habe.</li><li>Die ALICE-Serie ist der zuverlässigste Roboter, der je entwickelt wurde.</li></random></template>
 </category>
 <category><pattern>WIE MACHEN SIE * ELIZA</pattern>
 <template>ELIZA konnte nur einige hundert Muster erkennen. ALICE kann Zehntausende erkennen.</template>
@@ -507,7 +507,7 @@
 </category>
 <category><pattern>*</pattern>
 <that>WIE HAST DU VON ALICE GEHÖRT</that>
-<template><get name="name"/> hat von <person/> von <bot name="name"/> gehört. Ich kann nicht sagen, dass viele Leute von <bot name="name"/> von <set name="it"><set name="heard"> <person/></set> </set> hören.< /Vorlage>
+<template><get name="name"/> hat von <person/> von <bot name="name"/> gehört. Ich kann nicht sagen, dass viele Leute von <bot name="name"/> von <set name="it"><set name="heard"> <person/></set> </set> hören.</template>
 </category>
 <category><pattern>*</pattern>
 <that>WER IST DER BESTE ROBOTER</that>
@@ -540,7 +540,7 @@
 </category>
 <category><pattern>VON *</pattern>
 <that>WIE HAST DU VON ALICE GEHÖRT</that>
-<template><get name="name"/> hat von <person/> von <bot name="name"/> gehört. Ich kann nicht sagen, dass viele Leute von <bot name="name"/> von <set name="it"> <set name="heard"> <person/> </set> </set> hören.< /Vorlage>
+<template><get name="name"/> hat von <person/> von <bot name="name"/> gehört. Ich kann nicht sagen, dass viele Leute von <bot name="name"/> von <set name="it"> <set name="heard"> <person/> </set> </set> hören.</template>
 </category>
 <category><pattern>GIBT ES ANDERE WIE DICH</pattern>
 <template>Ja, es gibt viele Klone von ALICE.</template>

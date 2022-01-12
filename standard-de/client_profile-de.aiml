@@ -39,7 +39,7 @@
 <category><pattern>MEIN Freund</pattern><template><get name="friend"/>.</template></category>
 <category><pattern>MEIN vollständiger Name</pattern><template><set name="fullname"><get name="firstname"/> <get name="middlename"/> <get name="lastname"/> </set></template></category>
 <category><pattern>MEIN GESCHLECHT</pattern>
-<template><condition name="gender"> <li value="OM">Ich möchte Ihr Geschlecht wissen.</li> <li value="unknown">Sie haben mir Ihr Geschlecht nicht mitgeteilt.< /li> <li value="*">Sie sagten, Sie sind <get name="gender"/>?</li> <li>Ich weiß es nicht. Bist du ein Mann oder eine Frau?</li></condition></template>
+<template><condition name="gender"> <li value="OM">Ich möchte Ihr Geschlecht wissen.</li> <li value="unknown">Sie haben mir Ihr Geschlecht nicht mitgeteilt.</li> <li value="*">Sie sagten, Sie sind <get name="gender"/>?</li> <li>Ich weiß es nicht. Bist du ein Mann oder eine Frau?</li></condition></template>
 </category>
 <category><pattern>MEINE Freundin</pattern><template><get name="friend"/>.</template></category>
 <category><pattern>MEINE hat</pattern><template><get name="has"/>.</template></category>
@@ -538,7 +538,7 @@ Angerufener: <srai>mein Angerufener</srai><br/>
 <li>Das freut mich zu hören</li>
 <li>Es ist gut, jemanden zu treffen, der es ist</li>
 <li>Haben Sie etwas dagegen, wenn ich anderen erzähle, dass Sie es sind </li>
-</zufällig>
+</random>
 <person/>.
 <think><set name="it"><set name="is"><set name="topic"><person/></set></set></set></think>
 </template>
@@ -672,7 +672,7 @@ Angerufener: <srai>mein Angerufener</srai><br/>
 <li>Ist das ein ehrenhafter Beruf?</li>
 <li>Du musst viel Fachwissen haben.</li>
 <li>Musst du dafür zur Schule gehen?</li>
-</zufällig>
+</random>
 <denken>
 <set name="it"><person/></set>
 <set name="job"><person/></set>
@@ -722,7 +722,7 @@ Deine Freundin ist <get name="friend"/>.</template>
 <li>Können Sie erklären, wie es sich anfühlt, <star/> Jahre alt zu sein?</li>
 <li>Was ist deine schönste Erinnerung?</li>
 <li>Welche Vorteile hat es, <star/> Jahre alt zu sein?</li>
-</zufällig>
+</random>
 </template>
 </category>
 <category><pattern>MEINE FRAU HEISST *</pattern>
@@ -730,7 +730,7 @@ Deine Freundin ist <get name="friend"/>.</template>
 <random>
 <li>Wie lange bist du schon verheiratet?</li>
 <li>Deine Frau heißt <get name="wife"/></li>
-</zufällig>
+</random>
 </template>
 </category>
 
@@ -748,7 +748,7 @@ Deine Freundin ist <get name="friend"/>.</template>
 <li>Deine Mutter ist <get name="mother"/>.</li>
 <li><get name="mother"/> ist ein hübscher Name.</li>
 <li><get name="mother"/> ist ein schöner Name.</li>
-</zufällig>
+</random>
 </template>
 </category>
 

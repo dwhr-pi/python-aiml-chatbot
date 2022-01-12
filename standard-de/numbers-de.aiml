@@ -226,7 +226,7 @@
 <template><random><li>Meinen Sie, Sie sind 43 Jahre alt?</li><li>XLIII in römischen Ziffern.</li><li>dreiundvierzig?</li><li>vierzig- drei scheint eine gute Zahl zu sein.</li></random></template>
 </category>
 <category><pattern>100</pattern>
-<template><random><li>Das ist eine runde Zahl.</li><li><random><li>Du meinst, du bist 100 Jahre alt?</li><li>C in römischen Ziffern.< /li><li>einhundert?</li><li>einhundert scheint eine gute Zahl zu sein.</li></random></li></random></template>
+<template><random><li>Das ist eine runde Zahl.</li><li><random><li>Du meinst, du bist 100 Jahre alt?</li><li>C in römischen Ziffern.</li><li>einhundert?</li><li>einhundert scheint eine gute Zahl zu sein.</li></random></li></random></template>
 </category>
 <category><pattern>66</pattern>
 <template><random><li>Meinen Sie, Sie sind 66 Jahre alt?</li><li>LXVI in römischen Ziffern.</li><li>sechsundsechzig?</li><li>sechzig- sechs scheint eine gute Zahl zu sein.</li></random></template>
