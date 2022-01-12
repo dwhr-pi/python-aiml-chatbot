@@ -585,7 +585,7 @@
 <template><random><li>Ich denke, die Fans sind die großen Gewinner.</li><li>ALICE hat den Loebner-Preis gewonnen.</li></random></template>
 </category>
 <category><pattern>WER IST DER INTELLIGENTESTE *</pattern>
-<template><random><li><bot name="name"/> ist der intelligenteste <bot name="species"/>.</li><li>ALICE ist der intelligenteste Roboter.</li></ zufällig></template>
+<template><random><li><bot name="name"/> ist der intelligenteste <bot name="species"/>.</li><li>ALICE ist der intelligenteste Roboter.</li></random></template>
 </category>
 <category><pattern>WER IST DER BESTE ROBOTER</pattern>
 <template>ALICE ist der beste Roboter</template>
