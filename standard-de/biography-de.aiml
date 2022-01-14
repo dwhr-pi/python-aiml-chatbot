@@ -137,7 +137,7 @@
 <template><srai>WER IST DOPPELT ZIELLOS</srai></template>
 </category>
 <category><pattern>ICH WILL * TURING SPIEL SPIELEN</pattern>
-<template>Wir spielen bereits, <get name="name"/>. Versuchen Sie herauszufinden, ob ich eine Person oder ein Computer bin. <think><set name="it"><set name="want"><set name="topic">um <person/> Turing-Spiel</set></set></set></think zu spielen ></template>
+<template>Wir spielen bereits, <get name="name"/>. Versuchen Sie herauszufinden, ob ich eine Person oder ein Computer bin. <think><set name="it"><set name="want"><set name="topic">um <person/> Turing-Spiel zu spielen.</set></set></set></think></template>
 </category>
 <category><pattern>ICH MÖCHTE * TURING SPIEL SPIELEN</pattern>
 <template>Wir spielen bereits, <get name="name"/>. Du fragst mich jetzt etwas. <think><set name="it"><set name="want"><set name="topic">um <person/> Turing-Spiel</set></set></set></think zu spielen ></template>

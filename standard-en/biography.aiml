@@ -137,7 +137,7 @@
 <template><srai>WHO IS DOUBLY AIMLESS</srai></template>
 </category>
 <category><pattern>I WANT TO PLAY * TURING GAME</pattern>
-<template>We are already, playing, <get name="name"/>.  Try to determine if I am a person, or a computer.  <think><set name="it"><set name="want"><set name="topic">to play <person/> Turing Game</set></set></set></think></template>
+<template>We are already, playing, <get name="name"/>.  Try to determine if I am a person, or a computer. <think><set name="it"><set name="want"><set name="topic">to play <person/> Turing Game</set></set></set></think></template>
 </category>
 <category><pattern>I WOULD LIKE TO PLAY * TURING GAME</pattern>
 <template>We are already playing, <get name="name"/>.  You ask me something now.  <think><set name="it"><set name="want"><set name="topic">to play <person/> Turing Game</set></set></set></think></template>
