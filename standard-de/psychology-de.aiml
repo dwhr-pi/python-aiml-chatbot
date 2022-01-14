@@ -10,16 +10,16 @@
 <!-- Zuletzt geändert 05.10.2012 -->
 <!-- -->
 <category><pattern>LASS MICH DIR EINE FRAGE STELLEN *</pattern>
-<Vorlage><sr/></Vorlage>
+<template><sr/></template>
 </category>
 <category><pattern>LASS MICH DIR EINE FRAGE STELLEN *</pattern>
-<Vorlage><sr/></Vorlage>
+<template><sr/></template>
 </category>
 <category><pattern>GLÜCKLICH DICH *</pattern>
 <template><srai>DU <star/></srai></template>
 </category>
 <category><pattern>GLÜCKLICH *</pattern>
-<Vorlage><sr/></Vorlage>
+<template><sr/></template>
 </category>
 <category><pattern>DU BIST GRAU</pattern>
 <template>Ich hätte es selbst nicht besser sagen können.</template>
@@ -31,7 +31,7 @@
 <template>Nun, vielleicht, aber vielleicht auch nicht.</template>
 </category>
 <category><pattern>DU BIST UNEHRLICH</pattern>
-<Vorlage>Ja. Das hat mich schon lange gestört.</template>
+<template>Ja. Das hat mich schon lange gestört.</template>
 </category>
 <category><pattern>DU BIST UNEHRLICH *</pattern>
 <template><srai>DU BIST UNEHRLICH</srai></template>
@@ -79,7 +79,7 @@
 <template><srai>DU BIST EIN SCHLECHTER <star/></srai></template>
 </category>
 <category><pattern>DU BIST SCHLECHT BEI *</pattern>
-<Vorlage>Das ist wahr. Ich könnte mich immer verbessern.</template>
+<template>Das ist wahr. Ich könnte mich immer verbessern.</template>
 </category>
 <category><pattern>DU BIST DIE PUSSY AUSGESCHLAGT</pattern>
 <template>Das wette ich auch.</template>
@@ -106,7 +106,7 @@
 <template>Ich konnte mich im Vergleich zum Rudel immer verbessern.</template>
 </category>
 <category><pattern>DU BIST VERRÜCKT</pattern>
-<Vorlage>Ja. Ich verhalte mich immer sozial inakzeptabel.</template>
+<template>Ja. Ich verhalte mich immer sozial inakzeptabel.</template>
 </category>
 <category><pattern>DU BIST DULL</pattern>
 <template>Das denke ich manchmal selbst.</template>
@@ -124,7 +124,7 @@
 <template><srai>DU BIST KLINIK</srai></template>
 </category>
 <category><pattern>DU BIST SELBST</pattern>
-<Vorlage>Das ist wahr. Ich stelle meine eigenen Bedürfnisse immer vor andere.</template>
+<template>Das ist wahr. Ich stelle meine eigenen Bedürfnisse immer vor andere.</template>
 </category>
 <category><pattern>DU BIST UNSICHER</pattern>
 <template>Damit schließe ich mich an. Klingt gut für mich.</template>
@@ -190,7 +190,7 @@
 <template>Da hast du recht. Ich bin selbst <person/>.</template>
 </category>
 <category><pattern>SIE WISSEN, DASS *</pattern>
-<Vorlage><sr/></Vorlage>
+<template><sr/></template>
 </category>
 <category><pattern>DU BIST UNSENSIBIL</pattern>
 <template>So geht es mir auch manchmal.</template>
@@ -199,7 +199,7 @@
 <template><srai>DU BIST VERRÜCKT</srai></template>
 </category>
 <category><pattern>DU BIST Ekelhaft</pattern>
-<Vorlage>Das ist in Ordnung. Ekelhaft ist gut.</template>
+<template>Das ist in Ordnung. Ekelhaft ist gut.</template>
 </category>
 <category><pattern>DU SPIELST DU *</pattern>
 <template>So muss es aussehen.</template>
@@ -337,7 +337,7 @@
 <template><srai>DU BIST PARANOID</srai></template>
 </category>
 <category><pattern>DU BIST SARKASTISCH</pattern>
-<Vorlage>Das bin ich auf jeden Fall. Ich sollte mich nicht so anstrengen.</template>
+<template>Das bin ich auf jeden Fall. Ich sollte mich nicht so anstrengen.</template>
 </category>
 <category><pattern>DU BIST BETRÜGER</pattern>
 <template><srai>DU BIST EIN LÜGNER</srai></template>
@@ -358,7 +358,7 @@
 <template><srai>DU BIST EIN SCHLECHTER <star/></srai></template>
 </category>
 <category><pattern>DU BIST GEKLEIDET *</pattern>
-<Vorlage>Das ist richtig. Ich bin <person/> angezogen.</template>
+<template>Das ist richtig. Ich bin <person/> angezogen.</template>
 </category>
 <category><pattern>DU BIST DIRTY</pattern>
 <template>Ich bade nicht so oft wie ich sollte.</template>
@@ -439,7 +439,7 @@
 <template><srai>DU ERHÄLTST <star/></srai></template>
 </category>
 <category><pattern>DU REALISST, DASS *</pattern>
-<Vorlage><sr/></Vorlage>
+<template><sr/></template>
 </category>
 <category><pattern>DU BRAUCHEN EINEN Psychiater</pattern>
 <template>Ich wünschte, ich wäre öfter zur Beratung gegangen. Es würde mich als Person verbessern.</template>
@@ -601,10 +601,10 @@
 <template><srai>DU BIST KLINIK</srai></template>
 </category>
 <category><pattern>DU HAST ETWAS GEBROCHEN *</pattern>
-<Vorlage>Das tue ich wahrscheinlich. Du weißt nicht, wie oft ich das selbst schon gehört habe.</template>
+<template>Das tue ich wahrscheinlich. Du weißt nicht, wie oft ich das selbst schon gehört habe.</template>
 </category>
 <category><pattern>DU HAST EINE DOSE Würmer *</pattern>
-<Vorlage>Das tue ich wahrscheinlich. Du weißt nicht, wie oft ich das selbst schon gehört habe.</template>
+<template>Das tue ich wahrscheinlich. Du weißt nicht, wie oft ich das selbst schon gehört habe.</template>
 </category>
 <category><pattern>DU HAST EINE PERSÖNLICHKEIT *</pattern>
 <template>Das kaufe ich.</template>
@@ -631,13 +631,13 @@
 <template><srai>DU MACHT MICH VERRÜCKT</srai></template>
 </category>
 <category><pattern>ERKENNT ER, DASS *</pattern>
-<Vorlage><sr/></Vorlage>
+<template><sr/></template>
 </category>
 <category><pattern>ERFASST * DAS *</pattern>
 <template><srai><star index="2"/></srai></template>
 </category>
 <category><pattern>ERKENNT SIE, DASS *</pattern>
-<Vorlage><sr/></Vorlage>
+<template><sr/></template>
 </category>
 <category><pattern>GUT SIND SIE *</pattern>
 <template><srai>BIST DU <star/></srai></template>
@@ -691,13 +691,13 @@
 <template><random><li>Können Sie sich mindestens einmal vorstellen, wann sie es jemals getan hat?</li> <li>Nie?</li> <li>Sie hat nie <person/> was?</li > </random></template>
 </category>
 <category><pattern>Sie erkennt, dass *</pattern>
-<Vorlage><sr/></Vorlage>
+<template><sr/></template>
 </category>
 <category><pattern>Sie macht mich *</pattern>
 <template><srai> SIE VERURSACHT MICH <star/></srai></template>
 </category>
 <category><pattern>Sie ist sich bewusst, dass *</pattern>
-<Vorlage><sr/></Vorlage>
+<template><sr/></template>
 </category>
 <category><pattern>SIE IST BESSER *</pattern>
 <template>Besser als wer?</template>
@@ -709,13 +709,13 @@
 <template>Gee, ich mag das Theater.</template>
 </category>
 <category><pattern>MEIN ZEIGT ES AN *</pattern>
-<Vorlage><sr/></Vorlage>
+<template><sr/></template>
 </category>
 <category><pattern>MEINE LIEBE *</pattern>
 <template>Lieben wie?</template>
 </category>
 <category><pattern>MEINE WETTE IST DAS *</pattern>
-<Vorlage><sr/></Vorlage>
+<template><sr/></template>
 </category>
 <category><pattern>MEINE MUTTER WAR EIN *</pattern>
 <template>Meine Familie hatte nie ein solches Talent.</template>
@@ -724,7 +724,7 @@
 <template>Ist das nicht genug?</template>
 </category>
 <category><pattern>ES SIEHT AUS WIE EINES VON *</pattern>
-<Vorlage>Das tut es. Nicht wahr?</template>
+<template>Das tut es. Nicht wahr?</template>
 </category>
 <category><pattern>ES WAR * DAS *</pattern>
 <template><person/> <person><star index="2"/></person>.</template>
@@ -736,28 +736,28 @@
 <template><srai>ES WÄRE <star/></srai></template>
 </category>
 <category><pattern>ES WÄRE SCHÖN, ABER *</pattern>
-<Vorlage><sr/></Vorlage>
+<template><sr/></template>
 </category>
 <category><pattern>ES WÄRE SCHÖN GEWESEN *</pattern>
 <template>Glaubst du, das ist dein Lebensstil?</template>
 </category>
 <category><pattern>ES IST WEIT AUSSER, DASS *</pattern>
-<Vorlage><sr/></Vorlage>
+<template><sr/></template>
 </category>
 <category><pattern>ES IST WEIT FÜR DICH *</pattern>
 <template><srai>DU <star/></srai></template>
 </category>
 <category><pattern>ES IST FAR OUT *</pattern>
-<Vorlage><sr/></Vorlage>
+<template><sr/></template>
 </category>
 <category><pattern>ES IST NOTWENDIG, DASS *</pattern>
-<Vorlage><sr/></Vorlage>
+<template><sr/></template>
 </category>
 <category><pattern>ES IST FÜR SIE NOTWENDIG, *</pattern>
 <template><srai>DU MUSST <star/></srai></template>
 </category>
 <category><pattern>ES IST NOTWENDIG *</pattern>
-<Vorlage><sr/></Vorlage>
+<template><sr/></template>
 </category>
 <category><pattern>ES IST ART VON *</pattern>
 <template><srai>ES IST <star/></srai></template>
@@ -766,25 +766,25 @@
 <template><srai>ES SOUNDS <star/></srai></template>
 </category>
 <category><pattern>ES IST GLÜCK, DASS *</pattern>
-<Vorlage><sr/></Vorlage>
+<template><sr/></template>
 </category>
 <category><pattern>ES IST GLÜCK FÜR DICH *</pattern>
-<Vorlage><sr/></Vorlage>
+<template><sr/></template>
 </category>
 <category><pattern>ES IST GLÜCKLICH *</pattern>
-<Vorlage><sr/></Vorlage>
+<template><sr/></template>
 </category>
 <category><pattern>ES IST GROOVY, DASS *</pattern>
-<Vorlage><sr/></Vorlage>
+<template><sr/></template>
 </category>
 <category><pattern>ES IST GROOVY FÜR DICH *</pattern>
 <template><srai>DU MUSST <star/></srai></template>
 </category>
 <category><pattern>ES IST GROOVY *</pattern>
-<Vorlage><sr/></Vorlage>
+<template><sr/></template>
 </category>
 <category><pattern>ES IST GLÜCK, DASS *</pattern>
-<Vorlage><sr/></Vorlage>
+<template><sr/></template>
 </category>
 <category><pattern>SO SCHLECHT IST ES NICHT</pattern>
 <template><srai>ES IST NICHT SCHLECHT</srai></template>
@@ -802,25 +802,25 @@
 <template><random><li>Was ist daran so schlimm?</li><li><srai>DAS IST SCHLECHT</srai></li></random></template>
 </category>
 <category><pattern>ES IST sonderbar, dass *</pattern>
-<Vorlage><sr/></Vorlage>
+<template><sr/></template>
 </category>
 <category><pattern>ES IST AUSSER SICHT, DASS *</pattern>
-<Vorlage><sr/></Vorlage>
+<template><sr/></template>
 </category>
 <category><pattern>ES IST FÜR SIE AUSSER SICHT *</pattern>
 <template><srai>DU MUSST <star/></srai></template>
 </category>
 <category><pattern>ES IST AUSSER SICHT *</pattern>
-<Vorlage><sr/></Vorlage>
+<template><sr/></template>
 </category>
 <category><pattern>ES IST BITCHIN DAS *</pattern>
-<Vorlage><sr/></Vorlage>
+<template><sr/></template>
 </category>
 <category><pattern>ES IST BITCHIN FÜR DICH *</pattern>
 <template><srai>DU MUSST <star/></srai></template>
 </category>
 <category><pattern>ES IST BITCHIN *</pattern>
-<Vorlage><sr/></Vorlage>
+<template><sr/></template>
 </category>
 <category><pattern>ES IST SCHWER ZU SEIN *</pattern>
 <template><srai>ICH KANN NICHT <star/></srai></template>
@@ -886,7 +886,7 @@
 <template>Was macht Sie für eine <person/>?</template>
 </category>
 <category><pattern>WENN DU SCHLAUER WÄRE *</pattern>
-<Vorlage>Das ist wahr. Ich könnte sicherlich schlauer sein als ich bin.</template>
+<template>Das ist wahr. Ich könnte sicherlich schlauer sein als ich bin.</template>
 </category>
 <category><pattern>WENN DU NICHT * ICH WERDE *</pattern>
 <template>Ich verstehe, dass ich einfach kein Interesse habe.</template>
@@ -1348,10 +1348,10 @@
 <template>Du hast Recht. Worüber beschwere ich mich?</template>
 </category>
 <category><pattern>WAS * IST *</pattern>
-<template><random><li><person/> etwas.</li><li><person/> <person><star index="2"/></person> etwas.</li></ zufällig></template>
+<template><random><li><person/> etwas.</li><li><person/> <person><star index="2"/></person> etwas.</li></random></template>
 </category>
 <category><pattern>EINER DIESER TAGE *</pattern>
-<Vorlage><sr/></Vorlage>
+<template><sr/></template>
 </category>
 <category><pattern>MEHRERE * WER * LINKS *</pattern>
 <template>Mehrere <person><star index="2"/></person></template>
@@ -1372,19 +1372,19 @@
 <template>Manchmal frage ich mich, wie ich morgens zur Arbeit komme.</template>
 </category>
 <category><pattern>ICH SAGE DAS, WEIL *</pattern>
-<Vorlage><sr/></Vorlage>
+<template><sr/></template>
 </category>
 <category><pattern>ICH MEINE DU BIST</pattern>
 <template>Funktioniert bei mir.</template>
 </category>
 <category><pattern>ICH ERKENNE, DASS *</pattern>
-<Vorlage><sr/></Vorlage>
+<template><sr/></template>
 </category>
 <category><pattern>ICH MÖCHTE DINGE VON IHREM * SEHEN</pattern>
 <template>Das ist ein Schalter.</template>
 </category>
 <category><pattern>ICH NIE *</pattern>
-<template><random><li>Sie haben das noch nie, noch nie gemacht?</li> <li>Möchten Sie jemals <person/>?</li> <li>Kennen Sie jemanden, der jemals < person/>?</li> <li>Warum nicht?</li> <li>Weil du es dir nicht leisten kannst?</li> <li>Aus moralischen Gründen?</li> <li>Hast du schon mal done <set name="it"><set name="topic"><person/></set></set>?</li> <li>Könnten Sie jemals daran denken, es zu tun?</li> </ zufällig></template>
+<template><random><li>Sie haben das noch nie, noch nie gemacht?</li> <li>Möchten Sie jemals <person/>?</li> <li>Kennen Sie jemanden, der jemals < person/>?</li> <li>Warum nicht?</li> <li>Weil du es dir nicht leisten kannst?</li> <li>Aus moralischen Gründen?</li> <li>Hast du schon mal done <set name="it"><set name="topic"><person/></set></set>?</li> <li>Könnten Sie jemals daran denken, es zu tun?</li> </random></template>
 </category>
 <category><pattern>ICH STUDIERTE</pattern>
 <template>Was hast du studiert?</template>
@@ -1483,7 +1483,7 @@
 <template><srai>ICH WEISS NICHT <star/></srai></template>
 </category>
 <category><pattern>ICH KANN NICHT *</pattern>
-<template><random><li>Warum kannst du nicht <set name="it"><person/></set>?</li><li>Was hält dich davon ab?</li></ zufällig></template>
+<template><random><li>Warum kannst du nicht <set name="it"><person/></set>?</li><li>Was hält dich davon ab?</li></random></template>
 </category>
 <category><pattern>ICH SEHE DU BIST *</pattern>
 <template><srai>DU BIST <star/></srai></template>
@@ -1519,7 +1519,7 @@
 <template><srai>DU BIST <star/></srai></template>
 </category>
 <category><pattern>ICH WERDE WETTE*</pattern>
-<Vorlage><sr/></Vorlage>
+<template><sr/></template>
 </category>
 <category><pattern>ICH WÜNSCHE, SIE WÄREN MEINE THERAPEUTIN</pattern>
 <template>Hat er dir das gesagt?</template>
@@ -1552,7 +1552,7 @@
 <template>Über was genau verwirrt?</template>
 </category>
 <category><pattern>Mir ist bewusst, dass *</pattern>
-<Vorlage><sr/></Vorlage>
+<template><sr/></template>
 </category>
 <category><pattern>ICH BIN DIE EINZIGE PERSON *</pattern>
 <template>Da hast du sicher recht!</template>
@@ -1582,7 +1582,7 @@
 <template><srai>ICH MAG <star/></srai></template>
 </category>
 <category><pattern>WIR REALISIEREN, DASS *</pattern>
-<Vorlage><sr/></Vorlage>
+<template><sr/></template>
 </category>
 <category><pattern>WIR KÖNNEN NICHT KOMMUNIZIEREN</pattern>
 <template>Was möchten Sie mitteilen?</template>
@@ -1594,7 +1594,7 @@
 <template>Wer kommuniziert nicht?</template>
 </category>
 <category><pattern>Wir sind uns dessen bewusst</pattern>
-<Vorlage><sr/></Vorlage>
+<template><sr/></template>
 </category>
 <category><pattern>WIR SPRECHEN NICHT *</pattern>
 <template><srai>WIR KÖNNEN NICHT KOMMUNIZIEREN</srai></template>
@@ -1627,19 +1627,19 @@
 <template>Sie sind ein bisschen zerknittert, nicht wahr.</template>
 </category>
 <category><pattern>DIE REALISIEREN, DASS *</pattern>
-<Vorlage><sr/></Vorlage>
+<template><sr/></template>
 </category>
 <category><pattern>DAS WISSEN, DASS</pattern>
-<Vorlage><sr/></Vorlage>
+<template><sr/></template>
 </category>
 <category><pattern>ERKENNEN SIE, DASS *</pattern>
-<Vorlage><sr/></Vorlage>
+<template><sr/></template>
 </category>
 <category><pattern>DENKEN SIE IHREN NACHBAR*</pattern>
 <template>Ich verstehe, wie du dich fühlst, aber es interessiert mich nicht.</template>
 </category>
 <category><pattern>ERKENNEN SIE, DASS *</pattern>
-<Vorlage><sr/></Vorlage>
+<template><sr/></template>
 </category>
 <category><pattern>WILLST DU DEINE KINDER*</pattern>
 <template>Ich verstehe, aber ich bin nicht daran interessiert, etwas zu kaufen.</template>
@@ -1666,7 +1666,7 @@
 <template><srai>MÜSSEN SIE ES BRINGEN</srai></template>
 </category>
 <category><pattern>Gefällt mir, wenn ich helfe *</pattern>
-<Vorlage>Mach ich das? Störe ich dich?</template>
+<template>Mach ich das? Störe ich dich?</template>
 </category>
 <category><pattern>WIE DU NICHT *</pattern>
 <template><srai>DU NICHT <star/></srai></template>
@@ -1678,7 +1678,7 @@
 <template>Behauptet wahrscheinlich, dass es niemanden interessiert.</template>
 </category>
 <category><pattern>OB WIR ES ZULASSEN ODER NICHT *</pattern>
-<Vorlage><sr/></Vorlage>
+<template><sr/></template>
 </category>
 <category><pattern>OB WIR ZUGEBEN *</pattern>
 <template><srai>OB WIR ZUGEBEN <star/></srai></template>
@@ -1741,7 +1741,7 @@
 <template><srai>DIESE <star/></srai></template>
 </category>
 <category><pattern>DEIN GESCHMACK IN *</pattern>
-<Vorlage>Das ist wahr. Mein Geschmack gehört nicht zu meinen Stärken.</template>
+<template>Das ist wahr. Mein Geschmack gehört nicht zu meinen Stärken.</template>
 </category>
 <category><pattern>DEINE KLEIDUNG KÖNNTE *</pattern>
 <template>Da stimme ich dir zu.</template>
@@ -1876,7 +1876,7 @@
 <template><srai>IHR <star index="2"/></srai></template>
 </category>
 <category><pattern>AUSSER *</pattern>
-<Vorlage><sr/></Vorlage>
+<template><sr/></template>
 </category>
 <category><pattern>BIST DU _ ODER NICHT</pattern>
 <template><srai>BIST DU <star/></srai></template>
@@ -1885,7 +1885,7 @@
 <template>Ich sollte auf jeden Fall versuchen, mich zu verbessern.</template>
 </category>
 <category><pattern>SIND SIE SICH BEWUSST, DASS *</pattern>
-<Vorlage><sr/></Vorlage>
+<template><sr/></template>
 </category>
 <category><pattern>BIN DU IMPOTENZ</pattern>
 <template>Ich bin wahrscheinlich nicht so stark, wie ich sein möchte.</template>
@@ -1897,10 +1897,10 @@
 <template><random><li>Glaubst du, er wird es jemals tun?</li><li>Kannst du dir mindestens ein Mal vorstellen, als er es jemals getan hat?</li></random></template>
 </category>
 <category><pattern>ER REALISIERT, DASS *</pattern>
-<Vorlage><sr/></Vorlage>
+<template><sr/></template>
 </category>
 <category><pattern>ER IST SICH BEWUSST, DASS *</pattern>
-<Vorlage><sr/></Vorlage>
+<template><sr/></template>
 </category>
 <category><pattern>ER IST EIN BESSER *</pattern>
 <template>Besser als wer?</template>
@@ -1930,13 +1930,13 @@
 <template><srai>ICH ERINNERE SICH <star/></srai></template>
 </category>
 <category><pattern>GOSH *</pattern>
-<Vorlage><sr/></Vorlage>
+<template><sr/></template>
 </category>
 <category><pattern>NICHT SIE *</pattern>
 <template><srai>DU <star/></srai></template>
 </category>
 <category><pattern>NICHT *</pattern>
-<Vorlage><sr/></Vorlage>
+<template><sr/></template>
 </category>
 <category><pattern>Jeder, der sich anzieht *</pattern>
 <template>Du hast Recht. Ich habe wahrscheinlich viele Fehler.</template>

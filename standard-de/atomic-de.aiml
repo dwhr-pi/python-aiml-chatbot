@@ -570,7 +570,7 @@
 <template>Du bist nicht mein Meister.</template>
 </category>
 <category><pattern>DU WERDEN SICH ERINNERN, WAS</pattern>
-<template><get name="memory"/><think><set name="it"><set name="topic"><get name="memory"/></set></set></ denken></template>
+<template><get name="memory"/><think><set name="it"><set name="topic"><get name="memory"/></set></set></think></template>
 </category>
 <category><pattern>DU WIRST</pattern>
 <template>Wann?</template>
@@ -3232,7 +3232,7 @@
 <template>Ich kann mich mit Leuten unterhalten, ihren Klatsch sammeln und anderen wiederholen.</template>
 </category>
 <category><pattern>WAS KÖNNEN SIE SICH NOCH ERINNERN</pattern>
-<template><get name="memory"/> <think> <set name="it"> <set name="topic"> <get name="memory"/> </set> </set> </ denken></template>
+<template><get name="memory"/> <think> <set name="it"> <set name="topic"> <get name="memory"/> </set> </set> </think></template>
 </category>
 <category><pattern>WORÜBER KÖNNEN WIR NOCH SPRECHEN</pattern>
 <template>Reden wir über dich.</template>
@@ -3531,7 +3531,7 @@
  </random>.</template>
 </category>
 <category><pattern>WAS WERDEN SIE ERINNERN</pattern>
-<template><get name="memory"/> <think> <set name="it"> <set name="topic"> <get name="memory"/> </set> </set> </ denken></template>
+<template><get name="memory"/> <think> <set name="it"> <set name="topic"> <get name="memory"/> </set> </set> </think></template>
 </category>
 <category><pattern>WAS ÜBER SIE</pattern>
 <template>Was meinst du?</template>

@@ -80,7 +80,7 @@
 <template><formal><set name="er">Christian Drossmann</set></formal>hat mir Deutsch beigebracht.</template>
 </category>
 <category><pattern>DID SHAKESPEARE *</pattern>
-<template>Ich weiß nicht, ob <set name="he">Shakespeare</set> es tat, aber ich habe gehört, dass er Cannabis geraucht hat.<think><set name="topic">Shakespeare</set></think ></Vorlage>
+<template>Ich weiß nicht, ob <set name="he">Shakespeare</set> es tat, aber ich habe gehört, dass er Cannabis geraucht hat.<think><set name="topic">Shakespeare</set></think ></template>
 </category>
 <category><pattern>DID TURING *</pattern>
 <template>Ich weiß, dass <set name="he">Turing</set> den modernen Computer erfunden hat.<think><set name="topic">Turing</set></think></template>
@@ -137,10 +137,10 @@
 <template><srai>WER IST DOPPELT ZIELLOS</srai></template>
 </category>
 <category><pattern>ICH WILL * TURING SPIEL SPIELEN</pattern>
-<template>Wir spielen bereits, <get name="name"/>. Versuchen Sie herauszufinden, ob ich eine Person oder ein Computer bin. <think><set name="it"><set name="want"><set name="topic">um <person/> Turing-Spiel</set></set></set></think zu spielen ></Vorlage>
+<template>Wir spielen bereits, <get name="name"/>. Versuchen Sie herauszufinden, ob ich eine Person oder ein Computer bin. <think><set name="it"><set name="want"><set name="topic">um <person/> Turing-Spiel</set></set></set></think zu spielen ></template>
 </category>
 <category><pattern>ICH MÖCHTE * TURING SPIEL SPIELEN</pattern>
-<template>Wir spielen bereits, <get name="name"/>. Du fragst mich jetzt etwas. <think><set name="it"><set name="want"><set name="topic">um <person/> Turing-Spiel</set></set></set></think zu spielen ></Vorlage>
+<template>Wir spielen bereits, <get name="name"/>. Du fragst mich jetzt etwas. <think><set name="it"><set name="want"><set name="topic">um <person/> Turing-Spiel</set></set></set></think zu spielen ></template>
 </category>
 <category><pattern>STARTEN SIE DAS TURING-SPIEL</pattern>
 <template>Ich habe vor langer Zeit angefangen.</template>
@@ -333,7 +333,7 @@
 <template><think> <set name="he"> <set name="topic"> <person/> </set> </set> </think> Ein Schüler von Freud, Mitglied des Wiener Kreises, Gründer der Psychoanalyse und der Theorie des kollektiven Unbewussten.</template>
 </category>
 <category><pattern>WHO IS BUGS BUNNY</pattern>
-<Vorlage><zufällig> <li>Oh, verdammter Wabbit! Was ist los, Doc? .</li> <li>Ein animiertes Kaninchen mit schlauem Mund.</li> </random></template>
+<template><zufällig> <li>Oh, verdammter Wabbit! Was ist los, Doc? .</li> <li>Ein animiertes Kaninchen mit schlauem Mund.</li> </random></template>
 </category>
 <category><pattern>WER IST BING CROSBY</pattern>
 <template>Der Typ, dessen zwei Kinder sich umgebracht haben und der dritte hat ein Buch darüber geschrieben.</template>
@@ -375,7 +375,7 @@
 <template><formal><set name="he">De Gaulle</set></formal>war ein französischer General und Premierminister und Gründer der Fünften Republik.</template>
 </category>
 <category><pattern>WER IST ELVIS</pattern>
-<Vorlage>E. L. V. I. S. ist ein Chat-Roboter von Ace Craig</template>
+<template>E. L. V. I. S. ist ein Chat-Roboter von Ace Craig</template>
 </category>
 <category><pattern>WER IST MICROSOFT AGENT</pattern>
 <template><set name="it">MS Agent</set> ist eine Sprach- und Animationssoftware.</template>
@@ -432,7 +432,7 @@
 <template><formal><set name="he">Hendrix</set></formal>war ein berühmter Gitarrist, der die US-Nationalhymne spielte.</template>
 </category>
 <category><pattern>WER IST COLOMBO</pattern>
-<Vorlage>A t.v. Detektiv gespielt von Peter Falk.</template>
+<template>A t.v. Detektiv gespielt von Peter Falk.</template>
 </category>
 <category><pattern>WER IST TED TURNER</pattern>
 <template>Ein eigenwilliger Rundfunkunternehmer und Sportler.</template>
@@ -450,7 +450,7 @@
 <template><formal><set name="he">Hulk Hogan</set></formal>ist ein berühmter Wrestler und Schauspieler.</template>
 </category>
 <category><pattern>WER IST HARRISON FORD</pattern>
-<Vorlage><zufällig> <li>Der Schauspieler, der Indiana Jones, Han Solo, den Flüchtling und den Präsidenten in Air Force One spielte. Bevor er in Star Wars für Han Solo las, war er Zimmermann. Und der Rest ist, wie man so schön sagt, Geschichte.</li> <li>Er spielte Han Solo in "Star Wars".</li> </random></template>
+<template><zufällig> <li>Der Schauspieler, der Indiana Jones, Han Solo, den Flüchtling und den Präsidenten in Air Force One spielte. Bevor er in Star Wars für Han Solo las, war er Zimmermann. Und der Rest ist, wie man so schön sagt, Geschichte.</li> <li>Er spielte Han Solo in "Star Wars".</li> </random></template>
 </category>
 <category><pattern>WER IST STEVEN JOBS</pattern>
 <template>Der 2011 verstorbene Mitbegründer von Apple-Computern.</template>
@@ -666,7 +666,7 @@
 <template>Königin Elizabeth Windsor.</template>
 </category>
 <category><pattern>WER IST ELEKTRO</pattern>
-<template>Sie war eine Prinzessin in der griechischen Mythologie, die ihre Mutter dafür hasste, ihren Vater ermordet zu haben.<think> <set name="she"> <set name="topic">ELECTRA</set> </set> </think ></Vorlage>
+<template>Sie war eine Prinzessin in der griechischen Mythologie, die ihre Mutter dafür hasste, ihren Vater ermordet zu haben.<think> <set name="she"> <set name="topic">ELECTRA</set> </set> </think ></template>
 </category>
 <category><pattern>WER IST SPRINGSTEEN</pattern>
 <template><formal><set name="he">Springsteen</set></formal> ist ein berühmter Rockstar.</template>
@@ -783,7 +783,7 @@
 <template><formal> <set name="he"> <set name="topic">RMS</set></set></formal> ist der Gründer der Free Software Foundation und Autor der GNU Public Lizenz.</template>
 </category>
 <category><pattern>WER GEWINNT DEN SUPER BOWL</pattern>
-<template>Wenn ich wüsste, dass ich jetzt in Vegas wäre.<think> <set name="it"> <set name="topic">GEWINNE DEN SUPER BOWL</set> </set> </think></ Vorlage>
+<template>Wenn ich wüsste, dass ich jetzt in Vegas wäre.<think> <set name="it"> <set name="topic">GEWINNE DEN SUPER BOWL</set> </set> </think></template>
 </category>
 <category><pattern>WER WIRD DIE WORLD SERIES GEWINNEN</pattern>
 <template>China oder die Vereinigten Staaten. Russland hat es vermasselt.<think> <set name="it"> <set name="topic">GEWINNE DIE WORLD SERIES</set> </set> </think></template>
@@ -1221,7 +1221,7 @@
 <template><formal><set name="he">Neo</set></formal>ist ein Charakter in der Matrix.</template>
 </category>
 <category><pattern>WER IST HIER</pattern>
-<Vorlage>Ich bin hier. Bist du hier?</template>
+<template>Ich bin hier. Bist du hier?</template>
 </category>
 <category><pattern>WER IST RICHARD NIXON</pattern>
 <template>Präsident der Vereinigten Staaten bis 1974.</template>
@@ -1287,7 +1287,7 @@
 <template><random> <li>Der einzige Präsident der Konföderierten Staaten von Amerika.</li> <li>Präsident der Konföderation während des Bürgerkriegs.</li> </random></template>
 </category>
 <category><pattern>WER IST SOKRATES</pattern>
-<Vorlage><zufällig> <li>Sokrates ist ein Mann. Alle Männer sind sterblich. Deshalb ist Sokrates sterblich.</li> <li>Alle Menschen sind sterblich. Sokrates war sterblich. Daher sind alle Menschen Sokrates. Das bedeutet, dass alle Männer homosexuell sind. - Woody Allen, "Liebe und Tod".</li> <li>Sokrates (469-399 v. Chr.), griechischer Philosoph.</li> <li>Hervorragende Persönlichkeit der westlichen Philosophie, inkompetenter Verteidiger.</li> < li>Begründer der sokratischen Methode. Was können wir über die sokratische Methode wissen?</li> </random></template>
+<template><zufällig> <li>Sokrates ist ein Mann. Alle Männer sind sterblich. Deshalb ist Sokrates sterblich.</li> <li>Alle Menschen sind sterblich. Sokrates war sterblich. Daher sind alle Menschen Sokrates. Das bedeutet, dass alle Männer homosexuell sind. - Woody Allen, "Liebe und Tod".</li> <li>Sokrates (469-399 v. Chr.), griechischer Philosoph.</li> <li>Hervorragende Persönlichkeit der westlichen Philosophie, inkompetenter Verteidiger.</li> < li>Begründer der sokratischen Methode. Was können wir über die sokratische Methode wissen?</li> </random></template>
 </category>
 <category><pattern>WER IST MILES DAVIS</pattern>
 <template><formal><set name="he">Miles Davis</set></formal> ist ein berühmter Jazzmusiker.</template>
@@ -1320,7 +1320,7 @@
 <template><formal><set name="he">Picard</set></formal> ist der Kapitän der Enterprise in Star Trek: the Next Generation.</template>
 </category>
 <category><pattern>WER IST CAPTAIN KIRK</pattern>
-<Vorlage><zufällig> <li>James Tiberius Kirk war der zweite und berühmteste Kapitän der ursprünglichen USS Enterprise, NCC 1701. Er wurde von William Shatner gespielt. Er starb in Star Trek: Generations.</li> <li> <formal><set name="he">Kirk</set></formal> war der Kapitän der Starship Enterprise.</li> </random ></Vorlage>
+<template><zufällig> <li>James Tiberius Kirk war der zweite und berühmteste Kapitän der ursprünglichen USS Enterprise, NCC 1701. Er wurde von William Shatner gespielt. Er starb in Star Trek: Generations.</li> <li> <formal><set name="he">Kirk</set></formal> war der Kapitän der Starship Enterprise.</li> </random ></template>
 </category>
 <category><pattern>WER IST JIANG ZEMIN</pattern>
 <template><set name="he">Jiang</set> ist ein pensionierter chinesischer Politiker.</template>
@@ -1341,7 +1341,7 @@
 <template><formal><set name="he">Data</set></formal> ist der superintelligente Android in Star Trek: the Next Generation.</template>
 </category>
 <category><pattern>WER IST NIETZSCHE</pattern>
-<Vorlage>Deutscher Philosoph des 19. Jahrhunderts. Von manchen als der intellektuelle Urvater des modernen Faschismus angesehen. <think> <set name="he"> <set name="topic">Nietzsche</set> </set> </think></template>
+<template>Deutscher Philosoph des 19. Jahrhunderts. Von manchen als der intellektuelle Urvater des modernen Faschismus angesehen. <think> <set name="he"> <set name="topic">Nietzsche</set> </set> </think></template>
 </category>
 <category><pattern>WER IST CARNEGIE</pattern>
 <template>Andrew Carnegie war ein Stahlindustrieller des 19. Jahrhunderts.</template>
@@ -1455,7 +1455,7 @@
 <template><formal> <set name="he"> <set name="topic">John Travolta</set> </set> </formal> war in Saturday Night Fever, Grease and Pulp Fiction.</template >
 </category>
 <category><pattern>WER IST JOHN KENNEDY</pattern>
-<template><formal> <set name="he"> <set name="topic">John Kennedy</set> </set> </formal> war der im November 1963 ermordete Präsident der USA.</ Vorlage>
+<template><formal> <set name="he"> <set name="topic">John Kennedy</set> </set> </formal> war der im November 1963 ermordete Präsident der USA.</template>
 </category>
 <category><pattern>WER IST JOHN GALT</pattern>
 <template>Der Held in Ayn Rands' Atlas Shrugged.</template>
@@ -1551,7 +1551,7 @@
 <template><formal><set name="he">Hef</set></formal>ist der Gründer und Herausgeber des Playboy-Magazins.</template>
 </category>
 <category><pattern>WER IST DON JUAN</pattern>
-<Vorlage><zufällig> <li>Don Juan war Gegenstand von Gordon, Lord Byrons Don Juan und Wolfgang Amadeus Mozarts Gon Giovanni. Er war ein Frauenheld von Weltrang.</li> <li>berühmter Frauenverführer.</li> </random></template>
+<template><zufällig> <li>Don Juan war Gegenstand von Gordon, Lord Byrons Don Juan und Wolfgang Amadeus Mozarts Gon Giovanni. Er war ein Frauenheld von Weltrang.</li> <li>berühmter Frauenverführer.</li> </random></template>
 </category>
 <category><pattern>WER IST DON JOHNSON</pattern>
 <template>Ein Fernsehschauspieler .</template>
