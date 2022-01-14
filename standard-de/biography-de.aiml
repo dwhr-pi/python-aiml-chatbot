@@ -333,7 +333,7 @@
 <template><think> <set name="he"> <set name="topic"> <person/> </set> </set> </think> Ein Schüler von Freud, Mitglied des Wiener Kreises, Gründer der Psychoanalyse und der Theorie des kollektiven Unbewussten.</template>
 </category>
 <category><pattern>WER IST BUGS BUNNY</pattern>
-<template><zufällig> <li>Oh, verdammter Wabbit! Was ist los, Doc?</li> <li>Ein animiertes Kaninchen mit schlauem Mund.</li> </random></template>
+<template><random> <li>Oh, verdammter Wabbit! Was ist los, Doc?</li> <li>Ein animiertes Kaninchen mit schlauem Mund.</li> </random></template>
 </category>
 <category><pattern>WER IST BING CROSBY</pattern>
 <template>Der Typ, dessen zwei Kinder sich umgebracht haben und der dritte hat ein Buch darüber geschrieben.</template>
@@ -450,7 +450,7 @@
 <template><formal><set name="he">Hulk Hogan</set></formal>ist ein berühmter Wrestler und Schauspieler.</template>
 </category>
 <category><pattern>WER IST HARRISON FORD</pattern>
-<template><zufällig> <li>Der Schauspieler, der Indiana Jones, Han Solo, den Flüchtling und den Präsidenten in Air Force One spielte. Bevor er in Star Wars für Han Solo las, war er Zimmermann. Und der Rest ist, wie man so schön sagt, Geschichte.</li> <li>Er spielte Han Solo in "Star Wars".</li> </random></template>
+<template><random> <li>Der Schauspieler, der Indiana Jones, Han Solo, den Flüchtling und den Präsidenten in Air Force One spielte. Bevor er in Star Wars für Han Solo las, war er Zimmermann. Und der Rest ist, wie man so schön sagt, Geschichte.</li> <li>Er spielte Han Solo in "Star Wars".</li> </random></template>
 </category>
 <category><pattern>WER IST STEVEN JOBS</pattern>
 <template>Der 2011 verstorbene Mitbegründer von Apple-Computern.</template>
@@ -1287,7 +1287,7 @@
 <template><random> <li>Der einzige Präsident der Konföderierten Staaten von Amerika.</li> <li>Präsident der Konföderation während des Bürgerkriegs.</li> </random></template>
 </category>
 <category><pattern>WER IST SOKRATES</pattern>
-<template><zufällig> <li>Sokrates ist ein Mann. Alle Männer sind sterblich. Deshalb ist Sokrates sterblich.</li> <li>Alle Menschen sind sterblich. Sokrates war sterblich. Daher sind alle Menschen Sokrates. Das bedeutet, dass alle Männer homosexuell sind. - Woody Allen, "Liebe und Tod".</li> <li>Sokrates (469-399 v. Chr.), griechischer Philosoph.</li> <li>Hervorragende Persönlichkeit der westlichen Philosophie, inkompetenter Verteidiger.</li> < li>Begründer der sokratischen Methode. Was können wir über die sokratische Methode wissen?</li> </random></template>
+<template><random> <li>Sokrates ist ein Mann. Alle Männer sind sterblich. Deshalb ist Sokrates sterblich.</li> <li>Alle Menschen sind sterblich. Sokrates war sterblich. Daher sind alle Menschen Sokrates. Das bedeutet, dass alle Männer homosexuell sind. - Woody Allen, "Liebe und Tod".</li> <li>Sokrates (469-399 v. Chr.), griechischer Philosoph.</li> <li>Hervorragende Persönlichkeit der westlichen Philosophie, inkompetenter Verteidiger.</li> < li>Begründer der sokratischen Methode. Was können wir über die sokratische Methode wissen?</li> </random></template>
 </category>
 <category><pattern>WER IST MILES DAVIS</pattern>
 <template><formal><set name="he">Miles Davis</set></formal> ist ein berühmter Jazzmusiker.</template>
@@ -1320,7 +1320,7 @@
 <template><formal><set name="he">Picard</set></formal> ist der Kapitän der Enterprise in Star Trek: the Next Generation.</template>
 </category>
 <category><pattern>WER IST CAPTAIN KIRK</pattern>
-<template><zufällig> <li>James Tiberius Kirk war der zweite und berühmteste Kapitän der ursprünglichen USS Enterprise, NCC 1701. Er wurde von William Shatner gespielt. Er starb in Star Trek: Generations.</li> <li> <formal><set name="he">Kirk</set></formal> war der Kapitän der Starship Enterprise.</li> </random ></template>
+<template><random> <li>James Tiberius Kirk war der zweite und berühmteste Kapitän der ursprünglichen USS Enterprise, NCC 1701. Er wurde von William Shatner gespielt. Er starb in Star Trek: Generations.</li> <li> <formal><set name="he">Kirk</set></formal> war der Kapitän der Starship Enterprise.</li> </random ></template>
 </category>
 <category><pattern>WER IST JIANG ZEMIN</pattern>
 <template><set name="he">Jiang</set> ist ein pensionierter chinesischer Politiker.</template>
@@ -1551,7 +1551,7 @@
 <template><formal><set name="he">Hef</set></formal>ist der Gründer und Herausgeber des Playboy-Magazins.</template>
 </category>
 <category><pattern>WER IST DON JUAN</pattern>
-<template><zufällig> <li>Don Juan war Gegenstand von Gordon, Lord Byrons Don Juan und Wolfgang Amadeus Mozarts Gon Giovanni. Er war ein Frauenheld von Weltrang.</li> <li>berühmter Frauenverführer.</li> </random></template>
+<template><random> <li>Don Juan war Gegenstand von Gordon, Lord Byrons Don Juan und Wolfgang Amadeus Mozarts Gon Giovanni. Er war ein Frauenheld von Weltrang.</li> <li>berühmter Frauenverführer.</li> </random></template>
 </category>
 <category><pattern>WER IST DON JOHNSON</pattern>
 <template>Ein Fernsehschauspieler .</template>
