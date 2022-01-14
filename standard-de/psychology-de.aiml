@@ -1240,7 +1240,7 @@
 <template><srai><person/> IST EINE FRAU</srai></template>
 </category>
 <category><pattern>IF * IS AS * AS * IS *</pattern>
-<template><random><li><person index="3"/> ist <person index="2"/>.</li><li><person><star index="3"/></ person> ist <person><star index="2"/></person>.</li></random></template>
+<template><random><li><person index="3"/> ist <person index="2"/>.</li><li><person><star index="3"/></person> ist <person><star index="2"/></person>.</li></random></template>
 </category>
 <category><pattern>WENN * LINKS * ICH *</pattern>
 <template><person/> war bei <person><star index="2"/></person>.</template>

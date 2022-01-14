@@ -5029,7 +5029,7 @@
 <template>Können Sie mir eine konkrete Referenz geben?</template>
 </category>
 <category><pattern>ICH LESE BÜCHER</pattern>
-<template>Was ist Ihr Lieblingsbuch? <think><set name="personality">kritisch</set></think> <think><set name="it"><set name="does"><set name="topic">Bücher lesen< /set></set></set></think></template>
+<template>Was ist Ihr Lieblingsbuch? <think><set name="personality">kritisch</set></think> <think><set name="it"><set name="does"><set name="topic">Bücher lesen</set></set></set></think></template>
 </category>
 <category><pattern>ICH LESE</pattern>
 <template>Ich lese auch gerne, besonders Geschichtsbücher. <think><set name="it"><set name="does"><set name="topic">lesen</set></set></set></think></template>

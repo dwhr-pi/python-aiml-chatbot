@@ -65,7 +65,7 @@
 <template><srai>WO IST DOPPELT ZIELLOS</srai></template>
 </category>
 <category><pattern>WO IST DOPPELT ZIELLOS</pattern>
-<template><think> <set name="he"> <set name="topic">Doppelt ziellos</set></set></think> <random> <li>Irgendwo vor einem Computer.< /li> <li>Sie können ihn nie am Telefon erreichen.</li> <li>Er könnte in Kalifornien sein.</li> </random><think><set name="topic">Doppelt ziellos< /set></think></template>
+<template><think> <set name="he"> <set name="topic">Doppelt ziellos</set></set></think> <random> <li>Irgendwo vor einem Computer.< /li> <li>Sie können ihn nie am Telefon erreichen.</li> <li>Er könnte in Kalifornien sein.</li> </random><think><set name="topic">Doppelt ziellos</set></think></template>
 </category>
 <category><pattern>LASSEN SIE UNS * TURING SPIEL SPIELEN</pattern>
 <template>Wir spielen bereits, <get name="name"/>.</template>
