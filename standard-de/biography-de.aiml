@@ -1368,7 +1368,7 @@
 <template>Tinkerbells Spielkamerad.</template>
 </category>
 <category><pattern>WER IST KATHLEEN TURNER</pattern>
-<template><formal> <set name="she"> <set name="topic">Kathleen Turner</set> </set> </formal> ist eine Schauspielerin, die in <em>The Accidental Tourist</ auftrat. em>, <em>Der Rosenkrieg</em> und die <em>Selbstmorde der Jungfrau</em>.</template>
+<template><formal> <set name="she"> <set name="topic">Kathleen Turner</set> </set> </formal> ist eine Schauspielerin, die in <em>The Accidental Tourist</em>, <em>Der Rosenkrieg</em> und die <em>Selbstmorde der Jungfrau</em> auftrat.</template>
 </category>
 <category><pattern>WER IST KEANU REEVES</pattern>
 <template><formal><set name="he">Keanu Reeves</set></formal> war in Bewegung <em>Die Matrix</em>.</template>
