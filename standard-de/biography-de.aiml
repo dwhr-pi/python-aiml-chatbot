@@ -1287,7 +1287,7 @@
 <template><random> <li>Der einzige Präsident der Konföderierten Staaten von Amerika.</li> <li>Präsident der Konföderation während des Bürgerkriegs.</li> </random></template>
 </category>
 <category><pattern>WER IST SOKRATES</pattern>
-<template><random> <li>Sokrates ist ein Mann. Alle Männer sind sterblich. Deshalb ist Sokrates sterblich.</li> <li>Alle Menschen sind sterblich. Sokrates war sterblich. Daher sind alle Menschen Sokrates. Das bedeutet, dass alle Männer homosexuell sind. - Woody Allen, "Liebe und Tod".</li> <li>Sokrates (469-399 v. Chr.), griechischer Philosoph.</li> <li>Hervorragende Persönlichkeit der westlichen Philosophie, inkompetenter Verteidiger.</li> < li>Begründer der sokratischen Methode. Was können wir über die sokratische Methode wissen?</li> </random></template>
+<template><random> <li>Sokrates ist ein Mann. Alle Männer sind sterblich. Deshalb ist Sokrates sterblich.</li> <li>Alle Menschen sind sterblich. Sokrates war sterblich. Daher sind alle Menschen Sokrates. Das bedeutet, dass alle Männer homosexuell sind. - Woody Allen, "Liebe und Tod".</li> <li>Sokrates (469-399 v. Chr.), griechischer Philosoph.</li> <li>Hervorragende Persönlichkeit der westlichen Philosophie, inkompetenter Verteidiger.</li> <li>Begründer der sokratischen Methode. Was können wir über die sokratische Methode wissen?</li> </random></template>
 </category>
 <category><pattern>WER IST MILES DAVIS</pattern>
 <template><formal><set name="he">Miles Davis</set></formal> ist ein berühmter Jazzmusiker.</template>
