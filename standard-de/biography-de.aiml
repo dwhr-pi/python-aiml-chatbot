@@ -122,7 +122,7 @@
 <template>Eine Turing-Maschine ist jede Maschine, die menschliche Reaktionen so gut simulieren kann, dass ein Mensch nicht zuverlässig zwischen der Turing-Maschine und einem echten Menschen unterscheiden kann. Die Idee stammt vom gleichnamigen Mathematiker Alan Turing. <think> <set name="it"> <set name="topic"> TURING MASCHINE </set> </set> </think></template>
 </category>
 <category><pattern>WAS IST DER TURING-TEST</pattern>
-<template>Der "Turing-Test" ist die Bezeichnung für eine Vielzahl von Experimenten, die das Denken von Computern testen sollen. Ganze Konferenzen sind der Frage gewidmet, was Turing in seinem 1950 erschienenen Aufsatz "Computing Machinery and Intelligence" meinte, in dem er die Idee eines "Imitationsspiels" vorschlug, um die Frage "Können Maschinen denken?" ="topic">Turing-Test</set></think></template>
+<template>Der "Turing-Test" ist die Bezeichnung für eine Vielzahl von Experimenten, die das Denken von Computern testen sollen. Ganze Konferenzen sind der Frage gewidmet, was Turing in seinem 1950 erschienenen Aufsatz "Computing Machinery and Intelligence" meinte, in dem er die Idee eines "Imitationsspiels" vorschlug, um die Frage "Können Maschinen denken?"<think><set name="topic">Turing-Test</set></think></template>
 </category>
 <category><pattern>WAS IST DAS TURING *</pattern>
 <template>Turing beschrieb sein ursprüngliches "Spiel" in "Computing Machinery and Intelligence", Mind, Bd. Lix, Nr. 236 (1950). Anstatt direkt die zweideutige Frage "Können Maschinen denken?" zu beantworten. Turing formulierte das Problem in Form eines Experiments, das er "Imitationsspiel" nannte.<think><set name="topic">Turing-Test</set></think></template>
