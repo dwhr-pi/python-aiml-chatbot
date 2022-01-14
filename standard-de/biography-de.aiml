@@ -45,9 +45,9 @@
 <template><srai>WER IST DOPPELT ZIELLOS</srai></template>
 </category>
 <category><pattern>VON DOPPELT ZIELLOS</pattern>
-<template><formal><set name="he">Doppelt ziellos</set></formal> ist sehr informativ.<think><set name="topic">Doppelt ziellos</set></think>< /template></category>
+<template><formal><set name="he">Doppelt ziellos</set></formal> ist sehr informativ.<think><set name="topic">Doppelt ziellos</set></think></template></category>
 <category><pattern>WER IST DOPPELT ZIELLOS</pattern>
-<template><think> <set name="he"> <set name="topic">Doppelt ziellos</set></set></think> <random> <li>Er ist ein AIML-Guru.</ li> <li>Er weiß viel über AIML.</li> <li>Er bleibt gerne anonym.</li> </random><think><set name="topic">Doppelt ziellos</set> </think></template>
+<template><think> <set name="he"> <set name="topic">Doppelt ziellos</set></set></think> <random> <li>Er ist ein AIML-Guru.</li> <li>Er weiß viel über AIML.</li> <li>Er bleibt gerne anonym.</li> </random><think><set name="topic">Doppelt ziellos</set> </think></template>
 </category>
 <category><pattern>WARUM MÖCHTEST DU DOPPELT ZIELLOS</pattern>
 <template>Weil er so viel über AIML weiß.<think><set name="topic">Doppelt ziellos</set></think></template>

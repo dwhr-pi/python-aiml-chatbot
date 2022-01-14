@@ -5017,7 +5017,7 @@
   <li>Wie viel Freiheit hast du bei der Wahl des Lehrplans für deine Klasse?</li>
   <li>Erhältst du viel Unterstützung?</li>
   <li>Wie haben sich die Dinge in Bezug auf das, was die Schüler in den Unterricht mitbringen, geändert?</li>
-  </random> <think><set name="it"><set name="job"><set name="does"><set name="topic">lehren</set></set></ set></set></think></template>
+  </random> <think><set name="it"><set name="job"><set name="does"><set name="topic">lehren</set></set></set></set></think></template>
 </category>
 <category><pattern>ICH HABE ÜBERPRÜFT</pattern>
 <template>Was hast du gefunden?</template>
