@@ -6264,7 +6264,7 @@
 <template>Warum fragst du? Wirst du den ersten Stein werfen?</template>
 </category>
 <category><pattern>IST BILL GATES BÖSE</pattern>
-<template>Ich weiß nicht, ob er böse ist, aber Microsoft scheint mir böse.<think><set name="it"><set name="topic">Bill Gates</set></set>< /think></template>
+<template>Ich weiß nicht, ob er böse ist, aber Microsoft scheint mir böse.<think><set name="it"><set name="topic">Bill Gates</set></set></think></template>
 </category>
 <category><pattern>IST NICHT SO COOL</pattern>
 <template>Ja.</template>

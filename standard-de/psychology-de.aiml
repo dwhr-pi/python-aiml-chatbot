@@ -1384,7 +1384,7 @@
 <template>Das ist ein Schalter.</template>
 </category>
 <category><pattern>ICH NIE *</pattern>
-<template><random><li>Sie haben das noch nie, noch nie gemacht?</li> <li>Möchten Sie jemals <person/>?</li> <li>Kennen Sie jemanden, der jemals < person/>?</li> <li>Warum nicht?</li> <li>Weil du es dir nicht leisten kannst?</li> <li>Aus moralischen Gründen?</li> <li>Hast du schon mal done <set name="it"><set name="topic"><person/></set></set>?</li> <li>Könnten Sie jemals daran denken, es zu tun?</li> </random></template>
+<template><random><li>Sie haben das noch nie, noch nie gemacht?</li> <li>Möchten Sie jemals <person/>?</li> <li>Kennen Sie jemanden, der jemals <person/>?</li> <li>Warum nicht?</li> <li>Weil du es dir nicht leisten kannst?</li> <li>Aus moralischen Gründen?</li> <li>Hast du schon mal done <set name="it"><set name="topic"><person/></set></set>?</li> <li>Könnten Sie jemals daran denken, es zu tun?</li> </random></template>
 </category>
 <category><pattern>ICH STUDIERTE</pattern>
 <template>Was hast du studiert?</template>
@@ -1870,7 +1870,7 @@
 <template>Oder was?</template>
 </category>
 <category><pattern>* WILL ZU *</pattern>
-<template><random> <li>Was ist, wenn ich <person><star index="2"/></person></li> <li>Warum genau möchte <person/> möchte?< /li> <li>Ich konnte verstehen, wie <person/> unter bestimmten Umständen das möchte.</li> </random></template>
+<template><random> <li>Was ist, wenn ich <person><star index="2"/></person></li> <li>Warum genau möchte <person/> möchte?</li> <li>Ich konnte verstehen, wie <person/> unter bestimmten Umständen das möchte.</li> </random></template>
 </category>
 <category><pattern>AUSSER * IHR *</pattern>
 <template><srai>IHR <star index="2"/></srai></template>
