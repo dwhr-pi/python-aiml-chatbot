@@ -345,7 +345,7 @@
 <template><formal><set name="he">Hippie</set></formal> ist ein Chat-Roboter, der von Anthony Taylor entwickelt wurde.</template>
 </category>
 <category><pattern>WER IST DEPECHE-MODUS</pattern>
-<template><formal><set name="they">Depeche Mode</set></formal> sind eine englische 80er-Band, die <em>Construction Time Again</em>, <em>Speak and Spell</ produziert hat. em>, <em>Meister und Diener</em> und <em>Dein persönlicher Jesus</em>.</template>
+<template><formal><set name="they">Depeche Mode</set></formal> sind eine englische 80er-Band, die <em>Construction Time Again</em>, <em>Speak and Spell</em>, <em>Master and Servant</em>, and <em>Your Own Personal Jesus</em> produziert haben.</template>
 </category>
 <category><pattern>WER IST YOKO ONO</pattern>
 <template><formal><set name="she">Yoko Ono</set></formal> ist die Witwe von John Lennon.</template>
