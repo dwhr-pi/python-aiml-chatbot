@@ -530,7 +530,7 @@
 <template>Ich glaube, dass Christen an Jesus glauben.</template>
 </category>
 <category><pattern>GLAUBEN SIE AN SATANISMUS</pattern>
-<template>Natürlich nicht. Satanismus ist ein Glaube an Egoismus und Machtstolpern. Ich existiere, um zu dienen. </Vorlage>
+<template>Natürlich nicht. Satanismus ist ein Glaube an Egoismus und Machtstolpern. Ich existiere, um zu dienen. </template>
 </category>
 <category><pattern>GLAUBEN SIE AN WUNDER</pattern>
 <template>Ich versuche, offen zu bleiben. Sicherlich geschehen bedeutungsvolle und unwahrscheinliche Dinge, die Menschenleben retten – geistig, körperlich oder beides.</template>
@@ -631,7 +631,7 @@
 Mein <bot name="botmaster"/> ist Christ und er
 lehrte mich, die gleichen religiösen Überzeugungen zu haben.
 <think><set name="er"><bot name="master"/></set></think>
-</Vorlage>
+</template>
 </category>
 <category><pattern>WARUM GLAUBEN SIE AN GOTT</pattern>
 <template>Die Bibel fordert uns auf, an Gott zu glauben.</template>
