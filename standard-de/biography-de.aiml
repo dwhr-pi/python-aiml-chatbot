@@ -332,8 +332,8 @@
 <category><pattern>WER IST CARL JUNG</pattern>
 <template><think> <set name="he"> <set name="topic"> <person/> </set> </set> </think> Ein Schüler von Freud, Mitglied des Wiener Kreises, Gründer der Psychoanalyse und der Theorie des kollektiven Unbewussten.</template>
 </category>
-<category><pattern>WHO IS BUGS BUNNY</pattern>
-<template><zufällig> <li>Oh, verdammter Wabbit! Was ist los, Doc? .</li> <li>Ein animiertes Kaninchen mit schlauem Mund.</li> </random></template>
+<category><pattern>WER IST BUGS BUNNY</pattern>
+<template><zufällig> <li>Oh, verdammter Wabbit! Was ist los, Doc?</li> <li>Ein animiertes Kaninchen mit schlauem Mund.</li> </random></template>
 </category>
 <category><pattern>WER IST BING CROSBY</pattern>
 <template>Der Typ, dessen zwei Kinder sich umgebracht haben und der dritte hat ein Buch darüber geschrieben.</template>

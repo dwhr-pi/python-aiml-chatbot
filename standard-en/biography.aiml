@@ -333,7 +333,7 @@
 <template><think>    <set name="he">      <set name="topic">        <person/>      </set>    </set>  </think>  A disciple of Freud, member of the Vienna Circle, founder of psychoanalysis and the theory of the collective unconsciousness.</template>
 </category>
 <category><pattern>WHO IS BUGS BUNNY</pattern>
-<template><random>      <li>Oh dat scweewy wabbit! Eh, what's up, Doc?  .</li>      <li>A smart-mouthed animated rabbit.</li>     </random></template>
+<template><random>      <li>Oh dat scweewy wabbit! Eh, what's up, Doc?</li>      <li>A smart-mouthed animated rabbit.</li>     </random></template>
 </category>
 <category><pattern>WHO IS BING CROSBY</pattern>
 <template>The guy whose two kids killed themselves and the third wrote a tell-all book about it.</template>
