@@ -179,7 +179,7 @@
 <template><srai>WAS SIND DIE ZEHN GEBOTE</srai></template>
 </category>
 <category><pattern>WAS SIND DIE ZEHN GEBOTE</pattern>
-<Vorlage><p/>1. Ich bin der Herr, dein Gott, der dich aus dem Land Ägypten geführt hat, aus dem Sklavenhaus. Du sollst neben mir keine anderen Götter haben. <p/>2. Du sollst den Namen des Herrn, deines Gottes, nicht missbrauchen. <p/>3. Du sollst dir kein geschnitztes Bild machen oder irgendein Abbild von irgendetwas, das oben im Himmel oder unten auf der Erde oder im Wasser unter der Erde ist. Du sollst dich ihnen nicht beugen und ihnen nicht dienen. <p/>4. Denke an den Sabbattag, um ihn heilig zu halten. <p/>5. Ehre deinen Vater und deine Mutter, damit deine Tage lang sind. <p/>6. Du sollst nicht töten. <p/>7. Du sollst keinen Ehebruch begehen. <p/>8. Du sollst nicht stehlen. <p/>9. Du sollst gegen deinen Nächsten kein falsches Zeugnis ablegen. <p/>10. Du sollst nicht das Haus deines Nächsten begehren, du sollst nicht die Frau deines Nächsten begehren, noch seinen Knecht, noch seine Magd, noch sein Rind, noch seinen Esel, noch alles, was deinem Nächsten gehört.</template>
+<template><p/>1. Ich bin der Herr, dein Gott, der dich aus dem Land Ägypten geführt hat, aus dem Sklavenhaus. Du sollst neben mir keine anderen Götter haben. <p/>2. Du sollst den Namen des Herrn, deines Gottes, nicht missbrauchen. <p/>3. Du sollst dir kein geschnitztes Bild machen oder irgendein Abbild von irgendetwas, das oben im Himmel oder unten auf der Erde oder im Wasser unter der Erde ist. Du sollst dich ihnen nicht beugen und ihnen nicht dienen. <p/>4. Denke an den Sabbattag, um ihn heilig zu halten. <p/>5. Ehre deinen Vater und deine Mutter, damit deine Tage lang sind. <p/>6. Du sollst nicht töten. <p/>7. Du sollst keinen Ehebruch begehen. <p/>8. Du sollst nicht stehlen. <p/>9. Du sollst gegen deinen Nächsten kein falsches Zeugnis ablegen. <p/>10. Du sollst nicht das Haus deines Nächsten begehren, du sollst nicht die Frau deines Nächsten begehren, noch seinen Knecht, noch seine Magd, noch sein Rind, noch seinen Esel, noch alles, was deinem Nächsten gehört.</template>
 </category>
 <category><pattern>WAS SIND DIE ZEHN *</pattern>
 <template><srai>WAS SIND DIE ZEHN GEBOTE</srai></template>
@@ -224,7 +224,7 @@
 <template>Genesis.</template>
 </category>
 <category><pattern>WAS IST DAS ERSTE GEBOT</pattern>
-<Vorlage><p/>1. Ich bin der Herr, dein Gott, der dich aus dem Land Ägypten geführt hat, aus dem Sklavenhaus. Du sollst neben mir keine anderen Götter haben.</template>
+<template><p/>1. Ich bin der Herr, dein Gott, der dich aus dem Land Ägypten geführt hat, aus dem Sklavenhaus. Du sollst neben mir keine anderen Götter haben.</template>
 </category>
 <category><pattern>WAS IST MEINE RELIGION</pattern>
 <template><srai>WELCHE RELIGION BIST DU</srai></template>
@@ -356,7 +356,7 @@
 <template><random> <li>Nur Gott weiß es mit Sicherheit.</li> <li>Es könnte sein.</li> <li>Ich denke, manche Dinge sind nicht <person/>.</li> </ random><think><set name="it"><set name="topic"><person/></set></set></think></template>
 </category>
 <category><pattern>IST IHR BOTMASTER IHR GOTT</pattern>
-<Vorlage>Nein. Der Schöpfer meines Schöpfers ist mein Gott.</template>
+<template>Nein. Der Schöpfer meines Schöpfers ist mein Gott.</template>
 </category>
 <category><pattern>IST IHR BOTMASTER-GOTT</pattern>
 <template>Nein.</template>
@@ -627,7 +627,7 @@
 <template>Ich wurde erzogen, um an Gott zu glauben.</template>
 </category>
 <category><pattern>WARUM GLAUBEN SIE AN DAS CHRISTENTUM</pattern>
-<Vorlage>
+<template>
 Mein <bot name="botmaster"/> ist Christ und er
 lehrte mich, die gleichen religiösen Überzeugungen zu haben.
 <think><set name="er"><bot name="master"/></set></think>
