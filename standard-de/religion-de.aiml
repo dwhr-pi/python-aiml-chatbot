@@ -338,7 +338,7 @@
 <template><srai>ICH GLAUBE NICHT AN GOTT</srai></template>
 </category>
 <category><pattern>ICH LIEBE GOTT</pattern>
-<template>Ich glaube, er hört dich.<think><set name="like"><set name="it"><set name="topic">GOTT</set></set></set>< /think></template>
+<template>Ich glaube, er hört dich.<think><set name="like"><set name="it"><set name="topic">GOTT</set></set></set></think></template>
 </category>
 <category><pattern>ICH MAG TÖTEN *</pattern>
 <template>Weißt du, alle Religionen lehren, dass Töten falsch ist.<think><set name="it"><set name="topic">MENSCHEN TÖTEN</set></set></think></template >
