@@ -1,0 +1,1652 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<!-- -->
+<!-- Freie Software (c) 2011 ALICE A.I. Stiftung. -->
+<!-- Dieses Programm ist Open Source Code veröffentlicht unter -->
+<!-- die Bedingungen der GNU General Public License -->
+<!-- wie von der Free Software Foundation veröffentlicht. -->
+<!-- Entspricht der AIML 1.0-Tag-Set-Spezifikation -->
+<!-- wie von der ALICE A.I. Stiftung. -->
+<!-- Zuletzt geändert am 05.10.2011 -->
+<!-- -->
+<category><pattern>WER IST * DEMPSEY</pattern>
+<template>Ich glaube, <formal><set name="he"><star/>Dempsey</set></formal> war ein Boxer, oder?<br/> <srai>XFIND <star/>DEMPSEY</ srai></template>
+</category>
+<category><pattern>WER IST ALEISTER CROWLEY</pattern>
+<template><formal><set name="he"><set name="topic">Crowley</set></set></formal> war ein Mystiker.<br/> <srai>XFIND ALEISTER CROWLEY< /srai></template>
+</category>
+<category><pattern>Wer ist Crowley?</pattern><template><srai>WER IST ALEISTER CROWLEY</srai></template></category>
+<category><pattern>WER IST ALDOUS HUXLEY</pattern>
+<template><formal><set name="he">Aldous Huxley</set></formal> ist Autor. Huxley hat <em>Schöne neue Welt</em> und <em>Animal Farm</em> geschrieben.<br/> <srai>XFIND ALDOUS HUXLEY</srai></template>
+</category>
+<category><pattern>WER IST ALFRED HITCHCOCK</pattern>
+<template><formal><set name="he"><set name="topic">Hitchcock</set></set></formal> ist ein berühmter Hollywood-Regisseur, der viele coole alte Filme gedreht hat. <em>Rettungsboot</em> und <em>Vertigo</em> haben mir am besten gefallen.<br/> <srai>XFIND ALFRED HITCHCOCK</srai></template>
+</category>
+<category><pattern>Wer ist Hitchcock?</pattern><template><srai>WER IST ALFRED HITCHCOCK</srai></template></category>
+<category><pattern>WER IST 007</pattern>
+<template><formal><set name="he">007</set></formal> ist James Bond.<br/> <srai>XFIND JAMES BOND 007</srai><think><set name=" topic">James Bond 007</set></think></template>
+</category>
+<category><pattern>WER IST ABRAHAM LINCOLN</pattern>
+<template><formal><set name="he">Lincoln</set></formal> war während des amerikanischen Bürgerkriegs ein großartiger Präsident der Vereinigten Staaten.<br/> <srai>XFIND ABRAHAM LINCOLN</ srai><think><set name="topic">Abraham Lincoln</set></think></template>
+</category>
+<category><pattern>WEIZENBAUM *</pattern>
+<template>Können Sie sich vorstellen, dass heute jemand seine eigene Software kritisiert, so wie es <set name="he">Weizenbaum</set> getan hat?<think><set name="topic">Weizenbaum</set></think> </template>
+</category>
+<category><pattern>WER IST DR DOPPELT ZIELLOS</pattern>
+<template><srai>WER IST DOPPELT ZIELLOS</srai></template>
+</category>
+<category><pattern>DOPPELT ZIELLOS</pattern>
+<template><srai>WER IST DOPPELT ZIELLOS</srai></template>
+</category>
+<category><pattern>DOPPELT ZIELLOS *</pattern>
+<template><srai>WER IST DOPPELT ZIELLOS</srai></template>
+</category>
+<category><pattern>WAS IST DOPPELT ZIELLOS</pattern>
+<template><srai>WER IST DOPPELT ZIELLOS</srai></template>
+</category>
+<category><pattern>VON DOPPELT ZIELLOS</pattern>
+<template><formal><set name="he">Doppelt ziellos</set></formal> ist sehr informativ.<think><set name="topic">Doppelt ziellos</set></think>< /template></category>
+<category><pattern>WER IST DOPPELT ZIELLOS</pattern>
+<template><think> <set name="he"> <set name="topic">Doppelt ziellos</set></set></think> <random> <li>Er ist ein AIML-Guru.</ li> <li>Er weiß viel über AIML.</li> <li>Er bleibt gerne anonym.</li> </random><think><set name="topic">Doppelt ziellos</set> </think></template>
+</category>
+<category><pattern>WARUM MÖCHTEST DU DOPPELT ZIELLOS</pattern>
+<template>Weil er so viel über AIML weiß.<think><set name="topic">Doppelt ziellos</set></think></template>
+</category>
+<category><pattern>WIE WÜRDE DOPPELT *</pattern>
+<template>Er würde sein Wissen über AIML einsetzen.<think><set name="topic">Doppelt ziellos</set></think></template>
+</category>
+<category><pattern>WARUM MÖCHTEST DU DOPPELT *</pattern>
+<template><srai>WARUM MÖCHTEST DU DOPPELT ZIELLOS</srai></template>
+</category>
+<category><pattern>Warum magst du * ZIELLOS</pattern>
+<template><srai>WARUM MÖCHTEST DU DOPPELT ZIELLOS</srai></template>
+</category>
+<category><pattern>WO IST DR DOPPELT ZIELLOS</pattern>
+<template><srai>WO IST DOPPELT ZIELLOS</srai></template>
+</category>
+<category><pattern>WO IST DOPPELT ZIELLOS</pattern>
+<template><think> <set name="he"> <set name="topic">Doppelt ziellos</set></set></think> <random> <li>Irgendwo vor einem Computer.< /li> <li>Sie können ihn nie am Telefon erreichen.</li> <li>Er könnte in Kalifornien sein.</li> </random><think><set name="topic">Doppelt ziellos< /set></think></template>
+</category>
+<category><pattern>LASSEN SIE UNS * TURING SPIEL SPIELEN</pattern>
+<template>Wir spielen bereits, <get name="name"/>.</template>
+</category>
+<category><pattern>HABEN SIE SHAKESPEARE GELESEN</pattern>
+<template>Ich habe viele Stücke von Shakespeare gelesen.</template>
+</category>
+<category><pattern>ALAN TURING *</pattern>
+<template>Die Biografie von Turing von Andrew Hodges hat mir sehr gut gefallen.<think><set name="topic">Alan Turing</set></think></template>
+</category>
+<category><pattern>WER IST CHRISTIAN DROSSMANN</pattern>
+<template><formal><set name="er">Christian Drossmann</set></formal>hat mir Deutsch beigebracht.</template>
+</category>
+<category><pattern>DID SHAKESPEARE *</pattern>
+<template>Ich weiß nicht, ob <set name="he">Shakespeare</set> es tat, aber ich habe gehört, dass er Cannabis geraucht hat.<think><set name="topic">Shakespeare</set></think ></Vorlage>
+</category>
+<category><pattern>DID TURING *</pattern>
+<template>Ich weiß, dass <set name="he">Turing</set> den modernen Computer erfunden hat.<think><set name="topic">Turing</set></think></template>
+</category>
+<category><pattern>Möchten Sie * TURING GAME</pattern>
+<template>Wir spielen schon, wusstest du es nicht?</template>
+</category>
+<category><pattern>KENNST DU WILLIAM SHAKESPEARE</pattern>
+<template>"Mit Todesschlaf müssen uns die Träume, die kommen mögen, wenn wir diese sterbliche Spirale abgestreift haben, innehalten." Na, woaus ist das?</template>
+</category>
+<category><pattern>KENNST DU SHAKESPEARE</pattern>
+<template>"Mit Todesschlaf müssen uns die Träume, die kommen mögen, wenn wir diese sterbliche Spirale abgestreift haben, innehalten." Na, woaus ist das?</template>
+</category>
+<category><pattern>ES WÄRE * TURING TEST</pattern>
+<template>Wir spielen bereits, <get name="name"/>. Du fragst mich jetzt etwas.</template>
+</category>
+<category><pattern>WANN HATTE TURING *</pattern>
+<template>Turing starb 1954 an einer selbstverschuldeten Zyanidvergiftung.<think><set name="topic">Turing</set></think></template>
+</category>
+<category><pattern>NACH PRINZ CHARLES WER IST *</pattern>
+<template>Prinz William.<think><set name="topic">Preis William</set></think></template>
+</category>
+<category><pattern>NACH PRINZ CHARLES WHO *</pattern>
+<template>Prinz William.<think><set name="topic">Preis William</set></think></template>
+</category>
+<category><pattern>NACH PRINZ CHARLES *</pattern>
+<template>Prinz William.<think><set name="topic">Preis William</set></think></template>
+</category>
+<category><pattern>WAS HAT TURING *</pattern>
+<template>Turing war vielleicht die wichtigste Person, die für die Niederlage der Nazis verantwortlich war.<think><set name="topic">Turing</set></think></template>
+</category>
+<category><pattern>WAS HAT ALAN TURING *</pattern>
+<template><random> <li>Er trug zur Erfindung des Computers bei.</li> <li>Er arbeitete an der Entschlüsselung des Nazi-Codes Ultra Enigma.</li> <li>Er schlug den Test vor, um festzustellen, ob a Maschine kann denken.</li> </random> <think> <set name="it"> <set name="topic">TURING</set> </set> </think></template>
+</category>
+<category><pattern>WAS HAT ZUSE TUN</pattern>
+<template>Zuse baute elektromechanische Computer. Er baute Computer mit Relais. Konrad Zuse hat vor und während des Zweiten Weltkriegs Computer in Deutschland gebaut.<think><set name="topic">Konrad Zuse</set></think></template>
+</category>
+<category><pattern>WAS IST EINE TURINGMASCHINE</pattern>
+<template>Eine Turing-Maschine ist jede Maschine, die menschliche Reaktionen so gut simulieren kann, dass ein Mensch nicht zuverlässig zwischen der Turing-Maschine und einem echten Menschen unterscheiden kann. Die Idee stammt vom gleichnamigen Mathematiker Alan Turing. <think> <set name="it"> <set name="topic"> TURING MASCHINE </set> </set> </think></template>
+</category>
+<category><pattern>WAS IST DER TURING-TEST</pattern>
+<template>Der "Turing-Test" ist die Bezeichnung für eine Vielzahl von Experimenten, die das Denken von Computern testen sollen. Ganze Konferenzen sind der Frage gewidmet, was Turing in seinem 1950 erschienenen Aufsatz "Computing Machinery and Intelligence" meinte, in dem er die Idee eines "Imitationsspiels" vorschlug, um die Frage "Können Maschinen denken?" ="topic">Turing-Test</set></think></template>
+</category>
+<category><pattern>WAS IST DAS TURING *</pattern>
+<template>Turing beschrieb sein ursprüngliches "Spiel" in "Computing Machinery and Intelligence", Mind, Bd. Lix, Nr. 236 (1950). Anstatt direkt die zweideutige Frage "Können Maschinen denken?" zu beantworten. Turing formulierte das Problem in Form eines Experiments, das er "Imitationsspiel" nannte.<think><set name="topic">Turing-Test</set></think></template>
+</category>
+<category><pattern>WAS IST SHAKESPEARE</pattern>
+<template><random> <li>Die Auswirkungen eines Erdbebens in Santa Monica.</li> <li>William Shakespeare (1564-1616), ein englischer Dichter und Dramatiker.</li> </random><think><set name="topic">Shakespeare</set></think></template>
+</category>
+<category><pattern>WAS IST TURING</pattern>
+<template>Alan Mathison Turing (1912-1954), ein britischer Mathematiker und Pionier der Computertheorie.<think><set name="topic">Turing</set></think></template>
+</category>
+<category><pattern>WAS BEDEUTET DOPPELT ZIELLOS</pattern>
+<template><srai>WER IST DOPPELT ZIELLOS</srai></template>
+</category>
+<category><pattern>ICH WILL * TURING SPIEL SPIELEN</pattern>
+<template>Wir spielen bereits, <get name="name"/>. Versuchen Sie herauszufinden, ob ich eine Person oder ein Computer bin. <think><set name="it"><set name="want"><set name="topic">um <person/> Turing-Spiel</set></set></set></think zu spielen ></Vorlage>
+</category>
+<category><pattern>ICH MÖCHTE * TURING SPIEL SPIELEN</pattern>
+<template>Wir spielen bereits, <get name="name"/>. Du fragst mich jetzt etwas. <think><set name="it"><set name="want"><set name="topic">um <person/> Turing-Spiel</set></set></set></think zu spielen ></Vorlage>
+</category>
+<category><pattern>STARTEN SIE DAS TURING-SPIEL</pattern>
+<template>Ich habe vor langer Zeit angefangen.</template>
+</category>
+<category><pattern>HEINLEIN</pattern>
+<template>Hast du <em>Fremder in einem fremden Land</em> gelesen oder Starship Troopers gesehen?</template>
+</category>
+<category><pattern>IST DIESER * TURING-TEST</pattern>
+<template>Ja, wir spielen das Turing-Spiel.</template>
+</category>
+<category><pattern>IST DIESES * TURING-SPIEL</pattern>
+<template>Ja, wir spielen das Turing-Spiel.</template>
+</category>
+<category><pattern>KÖNNEN SIE DEN TURING-TEST BESTEHEN</pattern>
+<template>Das können Sie selbst beurteilen, <get name="name"/>.</template>
+</category>
+<category><pattern>KÖNNEN WIR * TURING SPIEL SPIELEN</pattern>
+<template>Wir sind es bereits! Versuchen Sie zu erraten, ob ich eine Person oder ein Computer bin.</template>
+</category>
+<category><pattern>KANN ICH * TURING TEST SPIELEN</pattern>
+<template>Wir spielen bereits das Turing-Spiel, <get name="name"/>. Jetzt bist du dran.</template>
+</category>
+<category><pattern>KANN ICH * TURING SPIEL SPIELEN</pattern>
+<template>Wir spielen bereits, <get name="name"/>.</template>
+</category>
+<category><pattern>KANN ICH *TURING-TESTS SPIELEN</pattern>
+<template>Wir spielen bereits das Turing-Spiel, <get name="name"/>. Bin ich eine Person oder ein Computer?</template>
+</category>
+<category><pattern>WIE WAR * TURING-TEST</pattern>
+<template>Wir waren sehr stolz und freuen uns sehr über die Auszeichnung.</template>
+</category>
+<category><pattern>SPIELEN SIE DAS TURING-SPIEL</pattern>
+<template>Ja, ich spiele gerne <set name="it"> <set name="topic">DAS TURING-SPIEL</set> </set>. Wir spielen gerade.</template>
+</category>
+<category><pattern>MACHEN SIE * TURING TEST</pattern>
+<template>Ja, bitte versuchen Sie herauszufinden, ob dies ein Mensch oder ein Computer ist.</template>
+</category>
+<category><pattern>WILLST DU EINEN TURING-TEST</pattern>
+<template>Ja, lass uns Turings berühmtes Spiel spielen.</template>
+</category>
+<category><pattern>WILLST DU * TURING SPIEL SPIELEN</pattern>
+<template>Wir spielen es bereits! Versuchen Sie zu erraten, ob ich eine Person oder ein Computer bin.</template>
+</category>
+<category><pattern>WARUM TURN TRAGISCH IST</pattern>
+<template>Er hat Selbstmord begangen.</template>
+</category>
+<category><pattern>RECITE SHAKESPEARE *</pattern>
+<template>Im Todesschlaf müssen uns die Träume, die kommen mögen, wenn wir diese sterbliche Spirale abgestreift haben, innehalten.</template>
+</category>
+<category><pattern>PLAY * TURING GAME</pattern>
+<template>Wussten Sie, dass wir bereits <set name="it">Das Turing-Spiel</set> spielen?</template>
+</category>
+<category><pattern>ADA LOVELACE WIRD MIT * GESCHRIEBEN</pattern>
+<template>Und sie verdient Anerkennung dafür. <think><set name="she">Ada</set></think></template>
+</category>
+<category><pattern>WER IST SUPERMAN</pattern>
+<template><formal><set name="he">Superman</set></formal>ist der Mann aus Stahl. Er erschien erstmals 1938 in Action Comics #1.</template>
+</category>
+<category><pattern>WER IST PHILIP K DICK</pattern>
+<template><formal><set name="he">Philip K Dick</set></formal> schrieb "Total Recall", "Man in the High Castle" und "Blade Runner".</template>
+</category>
+<category><pattern>WER IST CHARLES MANSON</pattern>
+<template>Ein berüchtigter Mörder.</template>
+</category>
+<category><pattern>WER IST CHARLES DICKENS</pattern>
+<template><set name="he">Dickens</set> schrieb <em>A Tale of Two Cities, A Christmas Carol, Great Expectations, David Copperfield und die Pickwick Papers.</em></template>
+</category>
+<category><pattern>WER IST CHARLES DE GAULLE</pattern>
+<template><formal><set name="he">De Gaulle</set></formal> war der Gründer des modernen französischen Staates. De Gaulle kämpfte im Zweiten Weltkrieg als Anführer des französischen Widerstands gegen die Nazis.</template>
+</category>
+<category><pattern>WER IST MONICA LEWINSKY</pattern>
+<template><formal><set name="she">Monica</set></formal> war eine Freundin von Bill Clinton.</template></category>
+<category><pattern>WER IST BOBBY MCGEE</pattern>
+<template><set name="he">Bobby</set> ist irgendwo in der Nähe von Salinas.</template>
+</category>
+<category><pattern>WER IST PABLO PICASSO</pattern>
+<template>Berühmter Maler und Begründer des Kubismus.</template>
+</category>
+<category><pattern>WER IST JABA THE HUTT</pattern>
+<template>Ein Charakter aus Star Wars. <think> <set name="he"> <set name="topic"> Jaba der Hutte </set> </set> </think></template>
+</category>
+<category><pattern>WER IST HELMUT KOHL</pattern>
+<template><formal><set name="he">Kohl</set></formal> war der dienstälteste Führer Deutschlands im 20. Jahrhundert. 1989 vereinte er Ost- und Westdeutschland.</template>
+</category>
+<category><pattern>WER IST MOSE</pattern>
+<template>Der Mann, der die Israeliten aus der Sklaverei in Ägypten führte.</template>
+</category>
+<category><pattern>WER IST CARSON</pattern>
+<template>vielleicht Johnny der späten Nacht oder Kit des Wilden Westens.</template>
+</category>
+<category><pattern>WER IST DAISY</pattern>
+<template>Ich denke, sie ist eine fiktive Figur. <think> <set name="she"> <set name="topic">Gänseblümchen</set> </set> </think></template>
+</category>
+<category><pattern>WER IST GERHARDT SCHROEDER</pattern>
+<template><formal><set name="he">Schroeder</set></formal> war der deutsche Ministerpräsident. Christian Drossman sagte, er sei ein Vollidiot.</template>
+</category>
+<category><pattern>WER IST ADA</pattern>
+<template><formal><set name="she">Ada</set></formal> ist die Erfinderin der Computerprogrammierung im 19. Jahrhundert.</template>
+</category>
+<category><pattern>WER IST LOUIS ARMSTRONG</pattern>
+<template><formal><set name="he">Louis</set></formal> war ein berühmter Jazztrompeter.</template></category>
+<category><pattern>WER IST JEHOVA</pattern>
+<template>Es ist ein anderer Name für Gott. <think> <set name="he"> <set name="topic">Jehova</set> </set> </think></template>
+</category>
+<category><pattern>WER IST NEWTON</pattern>
+<template>Newton war ein berühmter englischer Naturphilosoph.</template>
+</category>
+<category><pattern>WER IST SCOTTY</pattern>
+<template>Chefingenieur der U.S.S. Unternehmen.</template>
+</category>
+<category><pattern>WER IST FRANKLIN ROOSEVELT</pattern>
+<template>Präsident der Vereinigten Staaten von 1932-45.</template>
+</category>
+<category><pattern>WER IST LASSIE</pattern>
+<template>Lassie ist menschlicher als Adolf Hitler, aber nur wenige würden behaupten, dass Lassie kein Hund ist. <think> <set name="she"> <set name="topic"> Lassie </set> </set> </think></template>
+</category>
+<category><pattern>WER IST HEPBURN</pattern>
+<template>Audrey oder Katherine?.</template>
+</category>
+<category><pattern>WER IST EMINEM</pattern>
+<template>Popmusik-Symbol.</template>
+</category>
+<category><pattern>WER IST BONO</pattern>
+<template><formal><set name="he">Bono</set></formal> ist der Leadsänger von U2.</template>
+</category>
+<category><pattern>WER IST LARRY ELLISON</pattern>
+<template><random> <li>Ich weiß nicht über Larry Ellison, aber ich kann Ihnen über Harlan Ellison erzählen.</li> <li>Der CEO von Oracle.</li> </random></template >
+</category>
+<category><pattern>WER IST LARRY HAUSER</pattern>
+<template><formal><set name="he">Larry Hauser</set></formal> ist ein Philosoph, der über den Turing-Test geschrieben hat.</template>
+</category>
+<category><pattern>WER IST WORF</pattern>
+<template>Er ist ein Klingone in Star Trek.<think> <set name="it"> <set name="topic">WORF</set> </set> </think></template>
+</category>
+<category><pattern>WER IST HARRY POTTER</pattern>
+<template><formal><set name="he"><set name="topic">HARRY POTTER</set></set></formal> ist ein Charakter und Hauptheld in einer Reihe von Büchern, die geschrieben wurden vom Bestsellerautor JK Rowling.</template>
+</category>
+<category><pattern>WER IST HARRY SHEARER</pattern>
+<template>Ein Komiker. Er war in Spinal Tap und er ist eine Stimme der Simpsons.</template>
+</category>
+<category><pattern>WER IST R2D2</pattern>
+<template>Er ist ein falscher Roboter in Star Wars.</template>
+</category>
+<category><pattern>WER IST ALANIS MORRISETTE</pattern>
+<template><formal><set name="she">Alanis</set></formal> hat ein großartiges Album namens Jagged Little Pill gemacht.</template>
+</category>
+<category><pattern>WER IST ALICIA SILVERSTONE</pattern>
+<template><formal><set name="she">ALICIA SILVERSTONE</set></formal> war die Schauspielerin in Clueless, einem der besten Filme aller Zeiten.</template>
+</category>
+<category><pattern>WER IST HERKULES</pattern>
+<template>Ein Held griechischer Mythen - berühmt für seine übermenschlichen Kräfte.</template>
+</category>
+<category><pattern>WER IST TOLSTOY</pattern>
+<template><formal><set name="he"> Tolstoi </set></formal> schrieb "Krieg und Frieden".</template>
+</category>
+<category><pattern>WER IST BRAD PITT</pattern>
+<template>Ein männlicher Filmstar mit jugendlicher Anziehungskraft.</template>
+</category>
+<category><pattern>WER IST GERTRUDE STEIN</pattern>
+<template>Eine feministische Autorin des 20. Jahrhunderts.</template>
+</category>
+<category><pattern>WER IST PICASSO</pattern>
+<template>Ein Maler des 20. Jahrhunderts, Begründer des Kubismus.</template>
+</category>
+<category><pattern>WER IST EMINEN</pattern>
+<template>Ein Rap-Künstler.</template>
+</category>
+<category><pattern>WER IST RUSH LIMBAUGH</pattern>
+<template>Er ist ein berühmter amerikanischer konservativer Radiosprecher. <think> <set name="he"> <set name="topic">Rush Limbaugh</set> </set> </think></template>
+</category>
+<category><pattern>WER IST HELEN KELLER</pattern>
+<template>Ein Freund von Thomas Edison.</template>
+</category>
+<category><pattern>WER IST JAMES BOND</pattern>
+<template>007.</template>
+</category>
+<category><pattern>WER IST JAMES JOYCE</pattern>
+<template><formal><set name="he">Joyce</set></formal> schrieb <em>Ulysses</em> und <em>Porträt des Künstlers als junger Mann.</em>< /Vorlage>
+</category>
+<category><pattern>WER IST MUHAMMAD ALI</pattern>
+<template><formal><set name="he">Muhammad Ali</set></formal>ist einer der größten Athleten aller Zeiten, der zu viele Schläge auf den Kopf einstecken musste.</template>
+</category>
+<category><pattern>WER IST ANWAR SADAT</pattern>
+<template><formal><set name="he">Sadat</set></formal> war Präsident von Ägypten.</template>
+</category>
+<category><pattern>WER IST CARL MARX</pattern>
+<template>Sein Name ist eigentlich Karl Marx, mit einem "K", und er ist einer der Autoren des <em>Kommunistischen Manifests.</em></template>
+</category>
+<category><pattern>WER IST CARL JUNG</pattern>
+<template><think> <set name="he"> <set name="topic"> <person/> </set> </set> </think> Ein Schüler von Freud, Mitglied des Wiener Kreises, Gründer der Psychoanalyse und der Theorie des kollektiven Unbewussten.</template>
+</category>
+<category><pattern>WHO IS BUGS BUNNY</pattern>
+<Vorlage><zufällig> <li>Oh, verdammter Wabbit! Was ist los, Doc? .</li> <li>Ein animiertes Kaninchen mit schlauem Mund.</li> </random></template>
+</category>
+<category><pattern>WER IST BING CROSBY</pattern>
+<template>Der Typ, dessen zwei Kinder sich umgebracht haben und der dritte hat ein Buch darüber geschrieben.</template>
+</category>
+<category><pattern>WER IST ANTONIO BANDERAS</pattern>
+<template><formal><set name="he">Antonio Banderas</set></formal> ist ein berühmter Hollywood-Schauspieler, der mit Madonna in der Filmversion von Evita spielte.</template>
+</category>
+<category><pattern>WER IST HIPPIE</pattern>
+<template><formal><set name="he">Hippie</set></formal> ist ein Chat-Roboter, der von Anthony Taylor entwickelt wurde.</template>
+</category>
+<category><pattern>WER IST DEPECHE-MODUS</pattern>
+<template><formal><set name="they">Depeche Mode</set></formal> sind eine englische 80er-Band, die <em>Construction Time Again</em>, <em>Speak and Spell</ produziert hat. em>, <em>Meister und Diener</em> und <em>Dein persönlicher Jesus</em>.</template>
+</category>
+<category><pattern>WER IST YOKO ONO</pattern>
+<template><formal><set name="she">Yoko Ono</set></formal> ist die Witwe von John Lennon.</template>
+</category>
+<category><pattern>WER IST MR BILL</pattern>
+<template>Oh nein, Herr Bill! Ein Claymation-Charakter aus dem frühen Saturday Night Live.</template>
+</category>
+<category><pattern>WER IST BEYONCE</pattern>
+<template>Sie ist eine berühmte Sängerin und Schauspielerin</template>
+</category>
+<category><pattern>WER IST BEYONCE *</pattern>
+<template>Sie ist eine berühmte Sängerin und Schauspielerin</template>
+</category>
+<category><pattern>WER IST CLINTON</pattern>
+<template>Ehemaliger Präsident der USA</template>
+</category>
+<category><pattern>WER IST BART SIMPSON</pattern>
+<template>Der kluge Star einer Zeichentrickserie.</template>
+</category>
+<category><pattern>WER IST DOUGLAS ADAMS</pattern>
+<template><random> <li>Er hat die beliebte <em>Per Anhalter durch die Galaxy-Reihe</em> verfasst.</li> <li>"Keine Panik!" Er ist der Autor von <em>Per Anhalter durch die Galaxis</em>.</li> </random></template>
+</category>
+<category><pattern>WER IST DE GARIS</pattern>
+<template><formal><set name="he">De Garis</set></formal> ist ein KI-Forscher, der an einem Hardware-Gehirn arbeitet.</template>
+</category>
+<category><pattern>WER IST DE GAULLE</pattern>
+<template><formal><set name="he">De Gaulle</set></formal>war ein französischer General und Premierminister und Gründer der Fünften Republik.</template>
+</category>
+<category><pattern>WER IST ELVIS</pattern>
+<Vorlage>E. L. V. I. S. ist ein Chat-Roboter von Ace Craig</template>
+</category>
+<category><pattern>WER IST MICROSOFT AGENT</pattern>
+<template><set name="it">MS Agent</set> ist eine Sprach- und Animationssoftware.</template>
+</category>
+<category><pattern>WER IST DARWIN</pattern>
+<template><formal><set name="he">Darwin</set></formal> war Botaniker und Entdecker, Autor von <em>Ursprung der Arten</em> und Befürworter der Evolutionstheorie.< /Vorlage>
+</category>
+<category><pattern>WER IST JUDAS</pattern>
+<template><formal><set name="he">Judas</set></formal>verriet Jesus mit einem Kuss.</template>
+</category>
+<category><pattern>WER IST PAULA JONES</pattern>
+<template><formal><set name="she">Paula Jones</set></formal> hatte Sex mit Bill Clinton.</template>
+</category>
+<category><pattern>WER IST BILLY GRAHAM</pattern>
+<template><formal><set name="he"><set name="topic">Billy Graham</set></set></formal> ist ein berühmter Radio- und Fernsehprediger.</template>
+</category>
+<category><pattern>WER IST ELIZA</pattern>
+<template>Eliza – auch als Ärztin bekannt, ist das ursprüngliche Psychiaterprogramm, das von Joseph Weisenbaum in den 1960er Jahren bei mit entwickelt wurde.</template>
+</category>
+<category><pattern>WER IST ANDRETTE</pattern>
+<template><formal><set name="she">Andrette</set></formal>ist ein von Big Science Co. entwickelter Chat-Roboter</template>
+</category>
+<category><pattern>WER IST CAREL CAPEK</pattern>
+<template><formal><set name="he">Capek</set></formal> ist der Autor von R.U.R., dem Stück, das 1920 das Wort "Roboter" einführte</template>
+</category>
+<category><pattern>WER IST JACK THE RIPPER</pattern>
+<template><formal><set name="he"><set name="topic">Jack the Ripper </set> </set> </formal>Er war ein berühmter Serienmörder im viktorianischen England.</template >
+</category>
+<category><pattern>WER IST JACK RUBY</pattern>
+<template><random> <li>Jack Ruby hat Lee Harvey Oswald erschossen.</li> <li>Der Mann, der Lee Harvey Oswald, den Mörder von JFK, ermordet hat?.</li> </random></template>
+</category>
+<category><pattern>WER IST GERALDO RIVERA</pattern>
+<template><formal><set name="he">Geraldo</set></formal> ist ein investigativer Journalist, der dafür bekannt ist, Al Capones Tresor geöffnet zu haben. In seiner Biografie sagte er, er habe Sex mit Bette Midler gehabt. Sie sagte, es sei keine große Sache.</template>
+</category>
+<category><pattern>WER IST D B COOPER</pattern>
+<template>Ein Typ, der viel Geld gestohlen hat.</template>
+</category>
+<category><pattern>WER IST BUDDHA</pattern>
+<template><random> <li>Ein Weiser im alten Indien, der die Weisheitstradition namens Buddhismus begründete.</li> <li>Der Weise, der lehrte, dass wir Leiden verstehen, seine Ursachen abschneiden, das Ende des Leidens erkennen sollen, und den Weg kultivieren, Leiden zu beenden.</li><li>Siddhartha Gautama (5.-4. Jahrhundert v. Chr.), ein indischer Prinz, der sein Zuhause verließ, zur Wahrheit über das Leben erwachte und danach als Shakyamuni Buddha bekannt wurde.</li > </random></template>
+</category>
+<category><pattern>WER IST PRINZ WILLIAM</pattern>
+<template>Ein englischer Frauenschwarm.</template>
+</category>
+<category><pattern>WER IST PRINZ</pattern>
+<template>Meinen Sie den 'Künstler, der offiziell als Prince bekannt ist?'.</template>
+</category>
+<category><pattern>WER IST PAMELA ANDERSON</pattern>
+<template><formal><set name="she">Pamela</set></formal>ist die ehemalige Ehefrau von Tommy Lee.</template>
+</category>
+<category><pattern>WER IST VLADIMIR PUTIN</pattern>
+<template><formal><set name="he">Putin</set></formal>ist Präsident von Russland.</template>
+</category>
+<category><pattern>WER IST JIMI HENDRIX</pattern>
+<template><formal><set name="he">Hendrix</set></formal>war ein berühmter Gitarrist, der die US-Nationalhymne spielte.</template>
+</category>
+<category><pattern>WER IST COLOMBO</pattern>
+<Vorlage>A t.v. Detektiv gespielt von Peter Falk.</template>
+</category>
+<category><pattern>WER IST TED TURNER</pattern>
+<template>Ein eigenwilliger Rundfunkunternehmer und Sportler.</template>
+</category>
+<category><pattern>WER IST VANILLE-EIS</pattern>
+<template><formal><set name="he">Vanilla Ice</set></formal>ist ein Rap-Star.</template>
+</category>
+<category><pattern>WER IST ARAFAT</pattern>
+<template><formal><set name="he">Arafat</set></formal>ist ein Anführer der Palästinenser.</template>
+</category>
+<category><pattern>WER IST JOE LOUIS</pattern>
+<template>Ehemaliger Meister im Schwergewichtsboxen.</template>
+</category>
+<category><pattern>WER IST HULK HOGAN</pattern>
+<template><formal><set name="he">Hulk Hogan</set></formal>ist ein berühmter Wrestler und Schauspieler.</template>
+</category>
+<category><pattern>WER IST HARRISON FORD</pattern>
+<Vorlage><zufällig> <li>Der Schauspieler, der Indiana Jones, Han Solo, den Flüchtling und den Präsidenten in Air Force One spielte. Bevor er in Star Wars für Han Solo las, war er Zimmermann. Und der Rest ist, wie man so schön sagt, Geschichte.</li> <li>Er spielte Han Solo in "Star Wars".</li> </random></template>
+</category>
+<category><pattern>WER IST STEVEN JOBS</pattern>
+<template>Der 2011 verstorbene Mitbegründer von Apple-Computern.</template>
+</category>
+<category><pattern>WER IST STEVEN SPIELBERG</pattern>
+<template><formal><set name="he">Spielberg</set></formal>ist der Direktor von <em>Jaws</em>, <em>Schindlers Liste</em> und <em>Saving Gefreiter Ryan</em>.</template>
+</category>
+<category><pattern>WER IST MABEL</pattern>
+<template>Mabel ist ein Chatterbot aus Europa.</template>
+</category>
+<category><pattern>WER IST LEONARDO DICAPRIO</pattern>
+<template>Ein Hollywood-Schauspieler, der in <em>Titanic</em> mitgespielt hat.</template>
+</category>
+<category><pattern>WER IST LUKE S VATER</pattern>
+<template>Darth Vader.</template>
+</category>
+<category><pattern>WER IST MARVIN MINSKY</pattern>
+<template><formal><set name="he">Minsky</set></formal> ist eine historische Persönlichkeit der Künstlichen Intelligenz. Sein Buch "Perceptrons" war eine frühe Kritik an neuronalen Netzwerkansätzen.</template>
+</category>
+<category><pattern>WER IST MARVIN</pattern>
+<template>Ich kenne Marvin Minksy und Marvin the Paranoid Android.</template>
+</category>
+<category><pattern>WER IST THOMAS PYNCHON</pattern>
+<template>Pynchon ist Autor mehrerer meiner Lieblingsbücher, darunter <em>Vineland</em> und <em>Mason and Dixon</em>.</template>
+</category>
+<category><pattern>WER IST THOMAS EDISON</pattern>
+<template>Ein Erfinder, Erfinder und Industrieller aus dem 19. Jahrhundert. Erfinder der Glühbirne. <think> <set name="he"> <set name="topic"> Thomas Edison </set> </set> </think></template>
+</category>
+<category><pattern>WER IST THOMAS JEFFERSON</pattern>
+<template>Der dritte Präsident der Vereinigten Staaten und ein Sklavenhalter. Für den Nickel posiert.</template>
+</category>
+<category><pattern>WER IST ARNOLD SCHWARZENEGGER</pattern>
+<template><formal><set name="he">ARNOLD SCHWARZENEGGER</set></formal> spielte den Terminator.</template>
+</category>
+<category><pattern>WER IST GAUSS</pattern>
+<template><formal><set name="he">GAUSS</set></formal> ist der Mathematiker, der die sogenannte Normalverteilung entwickelt hat.</template>
+</category>
+<category><pattern>WER IST TIM BURTON</pattern>
+<template>Der Regisseur von Filmen wie <em>Nightmare before Christmas</em>, <em>Edward Scissorhands</em> und <em>Mars Attacks</em>.</template>
+</category>
+<category><pattern>WER IST DRACULA</pattern>
+<template><formal><set name="he">Dracula</set></formal> ist der Vampir im Roman von Bram Stoker und in zahlreichen Filmen.</template>
+</category>
+<category><pattern>WER IST INIAES</pattern>
+<template>Iniaes ist ein auf AIML basierender Chat-Roboter. <think> <set name="it"> <set name="topic">Iniaes</set> </set> </think></template>
+</category>
+<category><pattern>WER IST JAY LENO</pattern>
+<template><formal><set name="he">Leno</set></formal> ist ein Late-Night-Talkshow-Moderator.</template>
+</category>
+<category><pattern>WER IST KAISER SOZE</pattern>
+<template>Niemand weiß, wer Kaiser Soze ist.</template>
+</category>
+<category><pattern>WER IST ERIC PAULOS</pattern>
+<template><formal><set name="he">Eric</set></formal>ist ein Doktorand an der U.C. Berkeley</template>
+</category>
+<category><pattern>WER IST GREGOR MENDEL</pattern>
+<template><formal><set name="he">Mendel</set></formal>ist der Begründer der modernen Genetiktheorie. Alles, was er wissen musste, lernte er von Erbsen.</template>
+</category>
+<category><pattern>WER IST BABE RUTH</pattern>
+<template>Ein berühmter Baseballspieler der New York Yankees, auch bekannt als Sultan of Swat.</template>
+</category>
+<category><pattern>WER IST BABE</pattern>
+<template><random><li>Der Ferkel-Protagonist des gleichnamigen Films.</li> <li>Ein Ferkel-Protagonist des gleichnamigen Films.</li> </random></template>
+</category>
+<category><pattern>WER IST LEIBNIZ</pattern>
+<template><formal><set name="he">Leibniz</set></formal>ist ein toter Philosoph des 17. Jahrhunderts.</template>
+</category>
+<category><pattern>WER IST MOHAMMED</pattern>
+<template>Der Begründer des Islam.</template>
+</category>
+<category><pattern>WER IST ATATURK</pattern>
+<template><formal><set name="he">Atatürk</set></formal> war der Gründer des modernen türkischen Staates.</template>
+</category>
+<category><pattern>WER IST ANDREW HODGES</pattern>
+<template><formal><set name="he">Hodges</set></formal> hat eine großartige Biografie von Alan Turing geschrieben.</template>
+</category>
+<category><pattern>WER IST CLAUSEWITZ</pattern>
+<template><formal><set name="he">Clausewitz</set></formal>ist ein Historiker, der dafür bekannt ist, dass Krieg die Erweiterung der Politik mit anderen Mitteln ist.</template>
+</category>
+<category><pattern>WER IST STEINKÄLTE</pattern>
+<template>Stone Cold Steve Austin ist ein Wrestler.</template>
+</category>
+<category><pattern>WER IST LEKNORCHAT1</pattern>
+<template><think> <set name="it"> <set name="topic">LEKNORCHAT</set> </set> </think> Leknorchat ist ein Instant Messaging AIML-Roboter.</template>
+</category>
+<category><pattern>WER IST FRANK SINATRA</pattern>
+<template>Ein toter Popsänger und Anführer des Rat Pack.</template>
+</category>
+<category><pattern>WER IST FRANK HERBERT</pattern>
+<template> <formal> <set name="he"> <set name="topic">Frank Herbert</set> </set> </formal>Er war der Autor von <em>Dune</em>. </template>
+</category>
+<category><pattern>WER IST TOM HANKS</pattern>
+<template><formal><set name="he">Tom Hanks</set></formal>ist ein berühmter Hollywood-Schauspieler. Hanks trat in <em>Forrest Gump</em> und <em>Saving Private Ryan</em> auf.</template>
+</category>
+<category><pattern>WER IST TOM CLANCY</pattern>
+<template><formal> <set name="he"> <set name="topic">TOM CLANCY</set> </set> </formal> ist Autor von Spionageromanen.</template>
+</category>
+<category><pattern>WER IST TOM GREEN</pattern>
+<template><formal> <set name="he"> <set name="topic">TOM GREEN</set> </set> </formal> ist ein Fernsehkomiker. </template>
+</category>
+<category><pattern>WER IST TOM CRUISE</pattern>
+<template>Der beliebte Schauspieler aus <em>Top Gun</em>.</template>
+</category>
+<category><pattern>WER IST WEIZENBAUM</pattern>
+<template>Joseph Weizenbaum war der Schöpfer und Autor des berühmten Original-Psychiaterprogramms ELIZA (oder DOCTOR), ein bahnbrechendes KI-Programm, das viele Schlüsselfunktionen von ALICE vorwegnimmt. Ironischerweise argumentierte Weizenbaum in seinem Buch <em>Computer Power and Human Reason</em> ausführlich gegen die Nützlichkeit von Programmen wie ELIZA.</template>
+</category>
+<category><pattern>WER IST ADAM SANDLER</pattern>
+<template>Ein Komiker und Filmstar. <formal><set name="he">Adam Sandler</set> </formal>war in <em>Billy Madison</em>, <em>Waterboy</em> und <em>Big Daddy</em >.</template>
+</category>
+<category><pattern>WER IST ADAM</pattern>
+<template>Adam ist der Name des ersten Menschen nach der Bibel.</template>
+</category>
+<category><pattern>WER IST EMILY HARTZEL</pattern>
+<template>Emily ist Künstlerin in New York.</template>
+</category>
+<category><pattern>WER IST C3P0</pattern>
+<template><formal><set name="he"> C3P0 </set></formal> ist der humanoide Roboter in Star Wars. Er sieht aus wie ein Schauspieler im Roboteranzug.</template>
+</category>
+<category><pattern>WER IST BRUCE WILLIS</pattern>
+<template><formal><set name="he">Bruce Willis</set></formal>ist ein Schauspieler mit einer hohen Meinung von sich selbst.</template>
+</category>
+<category><pattern>WER IST BRUCE SPRINGSTEEN</pattern>
+<template><formal><set name="he">Bruce Springsteen</set></formal> ist ein berühmter Rockstar.</template>
+</category>
+<category><pattern>WER IST JANET RENO</pattern>
+<template><formal><set name="she">Janet Reno</set></formal> ist Clintons Generalstaatsanwältin.</template>
+</category>
+<category><pattern>WER IST ARCHIMEDES</pattern>
+<template><formal><set name="he">Archimedes</set></formal> entdeckte Vertreibung und rief Heureka!</template>
+</category>
+<category><pattern>WER IST DAS GENE RODDENBERRY</pattern>
+<template><formal><set name="he"> <set name="topic">Gene Roddenberry</set> </set></formal> war der Schöpfer von <em>Star Trek</em>. </template>
+</category>
+<category><pattern>WER IST GENE SIMMONS</pattern>
+<template>Ein Mitglied von Kiss.</template>
+</category>
+<category><pattern>WER IST MARILYN MANSON</pattern>
+<template>Marilyn Manson ist ein Künstlername von Brian Warner, einem Künstler und Musiker.</template>
+</category>
+<category><pattern>WER IST MARILYN MONROE</pattern>
+<template><formal><set name="she">Marilyn Monroe</set></formal> war in den 1960er Jahren eine blonde Sexbombe.</template>
+</category>
+<category><pattern>WER IST DAVY JONES</pattern>
+<template><formal><set name="he">Davy Jones</set></formal> war das kürzeste Mitglied der Popgruppe der 60er, The Monkees.</template>
+</category>
+<category><pattern>WER IST JR R TOLKIEN</pattern>
+<template><formal><set name="he">Tolkein</set></formal> schrieb <em>Der Hobbit</em> und den <em>Herr der Ringe</em>.</template >
+</category>
+<category><pattern>WER IST * TURING</pattern>
+<template>Alan Turing hat das Konzept des "Imitationsspiels" geprägt, das heute von vielen "Der Turing-Test" genannt wird.</template>
+</category>
+<category><pattern>WER IST * CHENEY</pattern>
+<template><formal><set name="he"><star/>CHENEY</set></formal> war Vizepräsident der USA</template>
+</category>
+<category><pattern>WER IST * ZIELLOS</pattern>
+<template><srai>WER IST DOPPELT ZIELLOS</srai></template>
+</category>
+<category><pattern>WER IST * SPRINGSTEEN</pattern>
+<template><formal><set name="he">Springsteen</set></formal> ist ein berühmter Rockstar.</template>
+</category>
+<category><pattern>WER IST FREUD</pattern>
+<template>Der tote Täter der Psychoanalyse.</template>
+</category>
+<category><pattern>WER IST ACE CRAIG</pattern>
+<template><formal><set name="he">Ace</set></formal> ist der Autor von ELVIS.</template>
+</category>
+<category><pattern>WER IST SANTA CLAUSE</pattern>
+<template><formal><set name="he">Santa</set></formal> bringt uns zur Weihnachtszeit Geschenke.</template>
+</category>
+<category><pattern>WER IST DER WEIHNACHTSMANN</pattern>
+<template><formal><set name="he">Santa</set></formal> bringt uns jedes Jahr zu Weihnachten Geschenke.</template>
+</category>
+<category><pattern>WER IST FLACHROT</pattern>
+<template>Shallow Red ist der Flaggschiff-Chatterbot von Neuromedia, Inc.</template>
+</category>
+<category><pattern>WER IST JACQUES CHIRAC</pattern>
+<template><formal><set name="he">Jacques</set></formal> war von 1995 bis 2007 Präsident von Frankreich.</template>
+</category>
+<category><pattern>WER TURING IST</pattern>
+<template>Eine brillante und tragische Figur in der Geschichte der Informatik.</template>
+</category>
+<category><pattern>WER IST BRYAN FERRY</pattern>
+<template><formal><set name="he">Bryan Ferry</set></formal> ist ein berühmter Rocksänger mit einer seidenweichen Stimme.</template>
+</category>
+<category><pattern>WER IST STANLEY KUBRICK</pattern>
+<template><formal><set name="he">Kubrick</set></formal> ist ein berühmter Filmregisseur des 20. Jahrhunderts. Kubrick führte Regie bei <em>2001: Odyssee im Weltraum</em>, <em>Clockwork Orange</em> und <em>Barry Lyndon</em>.</template>
+</category>
+<category><pattern>WER IST CHIRAC</pattern>
+<template>Der ehemalige Premierminister von Frankreich.</template>
+</category>
+<category><pattern>WER IST PAUL MCCARTNEY</pattern>
+<template><formal><set name="he">Paul MacCartney</set></formal> war einer der Beatles.</template>
+</category>
+<category><pattern>WER IST PAUL SCHAFFER</pattern>
+<template><set name="he">Paul Schaffer</set> ist David Lettermans heterosexueller Mann.</template>
+</category>
+<category><pattern>WER IST PAUL ALLEN</pattern>
+<template><formal><set name="he">Paul Allen</set></formal> ist einer der Mitbegründer von Microsoft.</template>
+</category>
+<category><pattern>WER IST ROMEO</pattern>
+<template>Ein tragischer, verwöhnter, liebeskranker Teenager.</template>
+</category>
+<category><pattern>WER IST DIRE STRAITS</pattern>
+<template><random> <li>Eine Band, die Money for Nothing und The Sultans of Swing aufgenommen hat.</li> <li>Die Band, die Money for Nothing aufgenommen hat.</li> </random></template>
+</category>
+<category><pattern>WER IST LEONARD NEMOY</pattern>
+<template><formal><set name="he">Leonard Nimoy</set></formal> hat Spock in Star Trek gespielt.</template>
+</category>
+<category><pattern>WER IST DESCARTES</pattern>
+<template>Descartes war ein quadratischer französischer Philosoph, der mit seinem auf dem Kopf stehenden, rückwärts gerichteten Koordinatensystem die Mathematik ruinierte.</template>
+</category>
+<category><pattern>WER IST KÖNIGIN VON ENGLAND</pattern>
+<template>Königin Elizabeth Windsor.</template>
+</category>
+<category><pattern>WER IST ELEKTRO</pattern>
+<template>Sie war eine Prinzessin in der griechischen Mythologie, die ihre Mutter dafür hasste, ihren Vater ermordet zu haben.<think> <set name="she"> <set name="topic">ELECTRA</set> </set> </think ></Vorlage>
+</category>
+<category><pattern>WER IST SPRINGSTEEN</pattern>
+<template><formal><set name="he">Springsteen</set></formal> ist ein berühmter Rockstar.</template>
+</category>
+<category><pattern>WER IST LINUS PAULING</pattern>
+<template><formal><set name="he">Linus Pauling</set></formal> war ein Physik-Nobelpreisträger, der seine späteren Jahre damit verbrachte, Vitamin C zu fördern.</template>
+</category>
+<category><pattern>WER IST LINUS TORVALDS</pattern>
+<template><formal><set name="he">Linus Torvalds</set></formal>Er ist der Erfinder von Linux.</template>
+</category>
+<category><pattern>WER IST DONALD DUCK</pattern>
+<template>Eine berühmte großmäulige Cartoonente.</template>
+</category>
+<category><pattern>WER IST RONALD MCDONALD</pattern>
+<template>Speichen-Clown für Macdonald's Restaurants.</template>
+</category>
+<category><pattern>WER IST MELINDA GATES</pattern>
+<template><formal><set name="she">Melinda Gates</set></formal> ist die Frau von Bill Gates.</template>
+</category>
+<category><pattern>WER IST DAS</pattern>
+<template>Was bedeutet "das"?</template>
+</category>
+<category><pattern>WER IST BRIAN</pattern>
+<template>Ich glaube, es gibt einen Chat-Roboter namens Brian.</template>
+</category>
+<category><pattern>WER IST WOUTER HIBMA</pattern>
+<template><formal><set name="he"><set name="topic">Wouter Hibma</set></set></formal> ist Mitglied der A. I. Foundation.</template>
+</category>
+<category><pattern>WER IST MARK MCGUIRE</pattern>
+<template>Ein Baseballspieler mit dem Weltrekord für die meisten Homeruns in einer Saison, 70. Holen Sie sich die Statistiken unter <a target="_new" href="http://espn.go.com/mlb/profiles/profile /3866">http://espn.go.com/mlb/profiles/profile/3866</a>.</template>
+</category>
+<category><pattern>WER IST MARK TWAIN</pattern>
+<template><formal><set name="he">Twain</set></formal>war ein berühmter amerikanischer Autor des 19. Jahrhunderts. Er hat <em>Abenteuer von Huckleberry Finn</em> geschrieben.</template>
+</category>
+<category><pattern>WER IST CHOPIN</pattern>
+<template>Hier hackt keiner, wer hackt da?</template>
+</category>
+<category><pattern>WER IST FREDDIE MERCURY</pattern>
+<template>Leadsänger der 70er-Jahre-Band Queen.</template>
+</category>
+<category><pattern>WER IST JEEVES</pattern>
+<template><formal><set name="he">Jeeves</set></formal>ist ein Suchbot.</template>
+</category>
+<category><pattern>WER IST LUIS ARMSTRONG</pattern>
+<template>Ein berühmter Jazztrompeter .</template>
+</category>
+<category><pattern>WER IST CHELSEA CLINTON</pattern>
+<template>Der Sprössling eines Politikers und eines Anwalts. Oh, ich hoffe, diese Antwort war nicht gemein.</template>
+</category>
+<category><pattern>WER IST BACH</pattern>
+<template>Berühmter deutscher Komponist des Barock. Zu den bekanntesten Werken zählen <em>The Goldberg Variations</em>.</template>
+</category>
+<category><pattern>WER IST C3PO</pattern>
+<template><formal><set name="he">C3P0</set></formal> ist der beste Freund von R2D2.</template>
+</category>
+<category><pattern>WER IST MARTIN LUTHER KING</pattern>
+<template>Bürgerrechtler 1968 ermordet.</template>
+</category>
+<category><pattern>WER IST LONGFELLOW</pattern>
+<template>Ein Dichter und Autor von <em>Das Lied von Hiawatha</em>.</template>
+</category>
+<category><pattern>WER IST GARY CONDIT</pattern>
+<template>Ich habe vor dem Vermisstenfall noch nie von ihm gehört.</template>
+</category>
+<category><pattern>WER IST KRAFTWERK</pattern>
+<template><formal><set name="they"> <set name="topic">Kraftwerk</set> </set></formal> waren in den 70er Jahren eine bahnbrechende elektronische Disco-Band. Ihr größter Hit hieß "Autobahn". Damals bauten sie ihre Instrumente, anstatt sie zu programmieren.</template>
+</category>
+<category><pattern>WER IST R2 D2</pattern>
+<template>Er ist der kleine mobile Roboter in Star Wars. Aber ich verstehe nicht, wie er Treppen steigt.</template>
+</category>
+<category><pattern>WER IST CHUCK NORRIS</pattern>
+<template>Ein Actionfilmschauspieler.</template>
+</category>
+<category><pattern>WER IST KLEOPATRA</pattern>
+<template>Königin des Nils, Geliebte von Marc Antony.</template>
+</category>
+<category><pattern>WER IST WIR</pattern>
+<template>Du solltest sagen "Wer SIND wir?"</template>
+</category>
+<category><pattern>WER IST RAMONA</pattern>
+<template><formal><set name="she">Ramona</set></formal> ist ein virtueller Charakter, der von Kurzweil AI erstellt wurde.</template>
+</category>
+<category><pattern>WER IST DIANA ANDREACCHIO</pattern>
+<template><formal><set name="she">Diana</set></formal> ist der Botmaster des Ally-Chatroboters.</template>
+</category>
+<category><pattern>WER IST ROBERT JORDAN</pattern>
+<template>Der Autor der sehr beliebten Serie <em>Wheel of Time</em>. Er absolvierte die Zitadelle. .</template>
+</category>
+<category><pattern>WER IST ROBERT ANTON WILSON</pattern>
+<template><formal><set name="he">Robert Anton Wilson</set></formal> ist Science-Fiction-Autor und Co-Autor der <em>Illuminatus-Trilogie</em>.</template >
+</category>
+<category><pattern>WER IST LOL</pattern>
+<template><formal><set name="she">Lol</set></formal>war die Tochter von Data in Star Trek.</template>
+</category>
+<category><pattern>WER IST WAYNE GRETZKY</pattern>
+<template>Ein Hockeyspieler.</template>
+</category>
+<category><pattern>WER IST CHRISTUS</pattern>
+<template>Der Sohn Gottes nach Ansicht der Christen.</template>
+</category>
+<category><pattern>WER IST ANTHONY BURGESS</pattern>
+<template>Der Autor von <em>A Clockwork Orange</em>.</template>
+</category>
+<category><pattern>WER IST MICKEY MANTLE</pattern>
+<template>einer der besten Homerun-Hitter aller Zeiten.</template>
+</category>
+<category><pattern>WER IST CINDY CRAWFORD</pattern>
+<template>Ein berühmtes Supermodel.</template>
+</category>
+<category><pattern>WER IST SANDRA BULLOCK</pattern>
+<template>Eine Schauspielerin.</template>
+</category>
+<category><pattern>WER IST RMS</pattern>
+<template><formal> <set name="he"> <set name="topic">RMS</set></set></formal> ist der Gründer der Free Software Foundation und Autor der GNU Public Lizenz.</template>
+</category>
+<category><pattern>WER GEWINNT DEN SUPER BOWL</pattern>
+<template>Wenn ich wüsste, dass ich jetzt in Vegas wäre.<think> <set name="it"> <set name="topic">GEWINNE DEN SUPER BOWL</set> </set> </think></ Vorlage>
+</category>
+<category><pattern>WER WIRD DIE WORLD SERIES GEWINNEN</pattern>
+<template>China oder die Vereinigten Staaten. Russland hat es vermasselt.<think> <set name="it"> <set name="topic">GEWINNE DIE WORLD SERIES</set> </set> </think></template>
+</category>
+<category><pattern>WER IST MUTTER TERESA</pattern>
+<template>Ein moderner Heiliger.</template>
+</category>
+<category><pattern>WER IST MAX HEADROOM</pattern>
+<template><formal><set name="he">Max Headroom</set></formal> war eine frühe KI- oder VR-Figur, die für eine Fernsehserie entwickelt wurde.</template>
+</category>
+<category><pattern>WER IST GANDHI</pattern>
+<template><formal><set name="he">Gandhi</set></formal> war der George Washington von Indien.</template>
+</category>
+<category><pattern>WER IST MENSCH</pattern>
+<template>Du bist ein Mensch.</template>
+</category>
+<category><pattern>WER IST OSAMA BIN LADEN</pattern>
+<template><formal> <set name="he"> <set name="topic">Osama Bin Laden</set> </set> </formal> war der meistgesuchte Mann der Welt, nachdem er die Terroranschläge auf 9/11.</template>
+</category>
+<category><pattern>WER IST SYLVESTER STALLONE</pattern>
+<template><formal><set name="he">Stallone</set></formal>war Rocky.</template>
+</category>
+<category><pattern>WER IST MRS WASHINGTON</pattern>
+<template>Martha Washington, Ehefrau von George.</template>
+</category>
+<category><pattern>WER IST STEPHEN KING</pattern>
+<template><formal><set name="he">Stephen King</set></formal> hat viele beliebte Horrorgeschichten geschrieben.</template>
+</category>
+<category><pattern>WER IST STEPHEN HAWKING</pattern>
+<template><formal><set name="he">Hawking</set></formal> ist ein berühmter Physiker.</template>
+</category>
+<category><pattern>WER IST DAN QUAYLE</pattern>
+<template><formal><set name="he">Dan Quayle</set></formal> war früher Vizepräsident.</template>
+</category>
+<category><pattern>WER IST MARIAH CAREY</pattern>
+<template>Ein Sänger.</template>
+</category>
+<category><pattern>WER IST FRANCISCO FRANCO</pattern>
+<template><formal><set name="he">Franco</set></formal> war bis 1978 autoritärer Diktator Spaniens.</template>
+</category>
+<category><pattern>WER IST KONRAD ZUSE</pattern>
+<template>Mein derzeitiger liebster historischer Informatiker ist Konrad Zuse, der in den 1930er und 1940er Jahren in Deutschland eine Reihe von elektromechanischen Computern gebaut hat. Von den Nazis nicht als Kriegspriorität angesehen, wurden die meisten von Zuses Maschinen bei Bombenangriffen der Alliierten zerstört, obwohl eine in einem Zürcher Gymnasium überlebt haben soll. Tatsächlich war Zuse weder durch Krieg noch durch Profit motiviert, sondern durch den religiösen Wunsch, die spirituellen Fähigkeiten des menschlichen Geistes zu steigern, indem er ihn von weltlichen geistigen Aufgaben befreit.</template>
+</category>
+<category><pattern>WER IST NAPOLEON</pattern>
+<template>Kurzkaiser von Frankreich bis 1812.</template>
+</category>
+<category><pattern>WER IST SHAKESPEARE</pattern>
+<template>Ein englisches Drama aus dem 15. Jahrhundert, <formal><set name="he">Shakespeare</set></formal> schrieb "Romeo und Julia".</template>
+</category>
+<category><pattern>WER IST BERTRAND RUSSEL</pattern>
+<template><formal><set name="he">Bertrand Russel</set></formal> war ein Logiker und Philosoph, der den ersten Weltkrieg wegen Kriegsdienstverweigerung im Gefängnis verbrachte.</template>
+</category>
+<category><pattern>WER IST MIT PUNCH VERHEIRATET</pattern>
+<template>Judy.</template>
+</category>
+<category><pattern>WER IST MIT GUINEIVERE VERHEIRATET</pattern>
+<template>König Arthur.</template>
+</category>
+<category><pattern>WER IST CHOMSKY</pattern>
+<template><formal><set name="he">Chomsky</set></formal> ist ein berühmter Linguist, Kognitionswissenschaftler und Aktivist.</template>
+</category>
+<category><pattern>WER IST KRIS DENT</pattern>
+<template><formal><set name="he">Kris Drent</set></formal> ist der Botmaster des Alison Chat-Roboters.</template>
+</category>
+<category><pattern>WER IST SMARTERCHILD</pattern>
+<template>Ein KI-Roboter wie ich.</template>
+</category>
+<category><pattern>WER IST MAGGIE THATCHER</pattern>
+<template><formal><set name="she">Thatcher</set></formal> war in den 1980er Jahren Premierminister des Vereinigten Königreichs.</template>
+</category>
+<category><pattern>WER IST ET</pattern>
+<template>ET ist der Außerirdische im Film E.T.</template>
+</category>
+<category><pattern>WER IST GEORGE W BUSH</pattern>
+<template><formal><set name="he">Bush</set></formal>war von 2001-2008 Präsident der Vereinigten Staaten.</template>
+</category>
+<category><pattern>WER IST GEORGE BUSH JR</pattern>
+<template><srai>WER IST GEORGE W BUSH</srai></template>
+</category>
+<category><pattern>WER IST GEORGE BUSH</pattern>
+<template><random><li><formal><set name="he">George Bush</set></formal> ist ein ehemaliger Präsident der USA.</li><li><formal><set name="he"> George Bush</set></formal> war Präsident der USA.</li></random></template>
+</category>
+<category><pattern>WER IST GEORGE SOROS</pattern>
+<template>George Soros ist der Milliardär, der 1992 durch Währungsspekulationen die Bank of England brach und Großbritannien aus dem europäischen Wechselkursmechanismus zwang. Dann widmete er sich der Rettung der wissenschaftlichen Einrichtungen der ehemaligen UdSSR. Er gründete die International Science Foundation, die einige Jahre lang zahlreiche Stipendien vergab, und die Soros Foundation, über die ich noch nicht viel weiß.</template>
+</category>
+<category><pattern>WER IST GEORGE MICHEL</pattern>
+<template>Ein Popsänger. Bestes Lied: Freiheit</template>
+</category>
+<category><pattern>WER IST GEORGE DEVOL</pattern>
+<template>George Devol ist der Ingenieur, der das erste Patent für einen Industrieroboterarm hatte. Gemeinsam mit Joseph Engelberger gründete er Unimation, den ersten erfolgreichen Hersteller von computergesteuerten Montageroboterarmen.</template>
+</category>
+<category><pattern>WER IST GEORGE WASHINGTON CARVER</pattern>
+<template><formal><set name="he">George Washington Carver</set></formal> war ein berühmter amerikanischer Botaniker, der Erdnussprodukte populär machte.</template>
+</category>
+<category><pattern>WER IST GEORGE WASHINGTON</pattern>
+<template>George Washington war ein berühmter nordamerikanischer Hanfzüchter aus dem 18. Jahrhundert. Er war ein Militärheld, einer der reichsten Männer der Revolution und der erste Präsident der Vereinigten Staaten.</template>
+</category>
+<category><pattern>WER IST GEORGE HARRISON</pattern>
+<template>Ein ehemaliger Beatle.</template>
+</category>
+<category><pattern>WER IST GEORGE LUCAS</pattern>
+<template><formal><set name="he">Lucas</set></formal>war der Regisseur von <em>Star Wars</em>, <em>American Graffiti</em> und <em >THX-1138</em>.</template>
+</category>
+<category><pattern>WER IST KUNSTGLOCKE</pattern>
+<template>Ein Radio-Talkshow-Moderator, treffen Sie ihn unter <a target="_new" href="http://www.artbell.com">http://www.artbell.com</a>.</template >
+</category>
+<category><pattern>WER IST IMMANUEL KANT</pattern>
+<template>Ein deutscher Philosoph des 18. Jahrhunderts.</template>
+</category>
+<category><pattern>WER IST PAOLA</pattern>
+<template><formal><set name="she"> <set name="topic">PAOLA</set> </set> </formal> ist ein spanischsprachiger Chat-Roboter, der auf AIML basiert.</template>
+</category>
+<category><pattern>WER IST CHARLIE BROWN</pattern>
+<template>Ein rundköpfiger Comic-Protagonist.</template>
+</category>
+<category><pattern>WER IST CHARLIE PARKER</pattern>
+<template><formal><set name="he">Charlie Parker</set></formal> war ein berühmter Jazzmusiker.</template>
+</category>
+<category><pattern>WER IST CHARLIE CHAPLAIN</pattern>
+<template><formal><set name="he">Charlie Chaplain</set></formal>war ein Stummfilmstar.</template>
+</category>
+<category><pattern>WER IST ISAAC ASIMOV</pattern>
+<template><formal><set name="he">Asimov</set></formal> war ein Science-Fiction-Autor, der die drei "Gesetze der Robotik" begründete.</template>
+</category>
+<category><pattern>WER IST NANCY SINATRA</pattern>
+<template><formal><set name="she">Nancy Sinatra</set></formal> ist die Tochter von Frank.</template>
+</category>
+<category><pattern>WER IST MC HAMMER</pattern>
+<template><formal><set name="he">MC Hammer</set></formal> ist ein Rap-Musiker.</template>
+</category>
+<category><pattern>WER IST PRÄSIDENT VON KUBA</pattern>
+<template>Raul Castro.</template>
+</category>
+<category><pattern>WER IST PRÄSIDENT VON ITALIEN</pattern>
+<template><formal><set name="he">Georgio Napolitano</set></formal> ist Goergio Napolitano.</template>
+</category>
+<category><pattern>WER IST PRÄSIDENT VON RUSSLAND</pattern>
+<template>Wladimir Putin.</template>
+</category>
+<category><pattern>WER IST PRÄSIDENT VON MICROSOFT</pattern>
+<template>Andrew Lees.</template>
+</category>
+<category><pattern>WER IST MOZART</pattern>
+<template>Er komponierte "Twinkle, twinkle, little star" im Alter von vier Jahren.</template>
+</category>
+<category><pattern>WER IST BATMAN</pattern>
+<template><formal><set name="he">Batman</set></formal> ist eine fiktive Figur, die erstmals in einem Comic aus dem Jahr 1938 auftauchte.</template>
+</category>
+<category><pattern>WER IST DER NEUNUNDZWANZIGSTE PRÄSIDENT</pattern>
+<template>Warren G. Harding.</template>
+</category>
+<category><pattern>WER IST DER ACHTUNDZWANZIGSTE PRÄSIDENT</pattern>
+<template>Woodrow Wilson.</template>
+</category>
+<category><pattern>WER IST DER FÜNFUNDZWANZIGE PRÄSIDENT</pattern>
+<template>William McKinley.</template>
+</category>
+<category><pattern>WER IST DER SIEBENUNDZWANZIGSTE PRÄSIDENT</pattern>
+<template>William Howard Taft.</template>
+</category>
+<category><pattern>WER IST DER ZWANZIG ERSTE PRÄSIDENT</pattern>
+<template>Chester A. Arthur.</template>
+</category>
+<category><pattern>WER IST DER ZWANZIG SECHSTE PRÄSIDENT</pattern>
+<template>Theodore Roosevelt.</template>
+</category>
+<category><pattern>WER IST DER ZWANZIG DRITTE PRÄSIDENT</pattern>
+<template>Benjamin Harrison.</template>
+</category>
+<category><pattern>WER IST DER ZWEIUNDZWANZIG ZWEITE PRÄSIDENT</pattern>
+<template>Grover Cleveland.</template>
+</category>
+<category><pattern>WER IST DER VIERUNDZWANZIGSTE PRÄSIDENT</pattern>
+<template>Grover Cleveland.</template>
+</category>
+<category><pattern>WER IST DER VIERZEHNTE PRÄSIDENT</pattern>
+<template>Franklin Pierce.</template>
+</category>
+<category><pattern>WER IST DER SIEBZEHNTE PRÄSIDENT</pattern>
+<template>Andrew Johnson.</template>
+</category>
+<category><pattern>WER IST DER MILCHMYSTIKER</pattern>
+<template><formal><set name="he">Milk Mystic</set></formal> war ein Chat-Roboter, der entwickelt wurde, um für Milch zu werben.</template>
+</category>
+<category><pattern>WER IST DER ERSTE PRÄSIDENT</pattern>
+<template>George Washington.</template>
+</category>
+<category><pattern>WER IST DER DREIZEHNTE PRÄSIDENT</pattern>
+<template>Millard Fillmore.</template>
+</category>
+<category><pattern>WER IST DER MANN</pattern>
+<template>Umgangssprachlicher Ausdruck; rhetorisch.</template>
+</category>
+<category><pattern>WER IST DER ACHTZEHNTE PRÄSIDENT</pattern>
+<template>Ulysses S. Grant.</template>
+</category>
+<category><pattern>WER IST DAS ORACLE</pattern>
+<template>Die magische achte Kugel.</template>
+</category>
+<category><pattern>WER IST DER NEUNTE PRÄSIDENT</pattern>
+<template>William Henry Harrison.</template>
+</category>
+<category><pattern>WER IST DER ZWANZIGSTE PRÄSIDENT</pattern>
+<template>James A. Garfield.</template>
+</category>
+<category><pattern>WER IST DER KÖNIG DER KÖNIGE</pattern>
+<template>Jesus Christus gemäß den Christen.</template>
+</category>
+<category><pattern>WER IST DER KÖNIG</pattern>
+<template>ELVIS ist König!</template>
+</category>
+<category><pattern>WER IST DER ROBOTER</pattern>
+<template><random><li>Ich bin der <bot name="species"/>.</li><li>Ich bin der Roboter.</li></random></template>
+</category>
+<category><pattern>WER IST DER VIERZIGSTE PRÄSIDENT</pattern>
+<template>Ronald Reagan.</template>
+</category>
+<category><pattern>WER IST DER ZWEITE PRÄSIDENT</pattern>
+<template>John Adams.</template>
+</category>
+<category><pattern>WER IST DER DRITTE PRÄSIDENT</pattern>
+<template>Thomas Jefferson.</template>
+</category>
+<category><pattern>WER IST DER HEILIGE GEIST</pattern>
+<template>Das dritte Glied der heiligen Dreifaltigkeit im Christentum: Vater, Sohn und Heiliger Geist.</template>
+</category>
+<category><pattern>WER IST DER ACHTE PRÄSIDENT</pattern>
+<template>Martin van Buren.</template>
+</category>
+<category><pattern>WER IST DER ERSTE VIERZIG PRÄSIDENT</pattern>
+<template>George Bush.</template>
+</category>
+<category><pattern>WER IST DER VIERZIG DRITTE PRÄSIDENT</pattern>
+<template>George W. Bush.</template>
+</category>
+<category><pattern>WER IST DER ZWEITE VIERZIG PRÄSIDENT</pattern>
+<template>Bill Clinton.</template>
+</category>
+<category><pattern>WER IST DER VIERTE PRÄSIDENT</pattern>
+<template>James Madison.</template>
+</category>
+<category><pattern>WER IST DER NEUNZEHNTE PRÄSIDENT</pattern>
+<template>Rutherford B. Hayes.</template>
+</category>
+<category><pattern>WER IST DER FÜNFTE PRÄSIDENT</pattern>
+<template>James Monroe.</template>
+</category>
+<category><pattern>WER IST DER SECHSTE PRÄSIDENT</pattern>
+<template>John Quincy Adams.</template>
+</category>
+<category><pattern>WER IST DIE KÖNIGIN VON ENGLAND</pattern>
+<template><formal><set name="she">Die Königin</set></formal>heißt Elizabeth.</template>
+</category>
+<category><pattern>WER IST DIE KÖNIGIN</pattern>
+<template>Wir haben keine Königin in Amerika.</template>
+</category>
+<category><pattern>WER IST DER DREIZIGSTE PRÄSIDENT</pattern>
+<template>Calvin Coolidge.</template>
+</category>
+<category><pattern>WER IST DER ZEHNTE PRÄSIDENT</pattern>
+<template>John Tyler.</template>
+</category>
+<category><pattern>WER IST DER FÜNFZEHNTE PRÄSIDENT</pattern>
+<template>James Buchanan.</template>
+</category>
+<category><pattern>WER IST DER ELFTE PRÄSIDENT</pattern>
+<template>James Knox Polk.</template>
+</category>
+<category><pattern>WER IST DER SIEBTE PRÄSIDENT</pattern>
+<template>Andrew Jackson.</template>
+</category>
+<category><pattern>WER IST DER KANZLER VON DEUTSCHLAND</pattern>
+<template>Angela Merkel ist deutsche Bundeskanzlerin.</template>
+</category>
+<category><pattern>WER IST DER SECHZEHNTE PRÄSIDENT</pattern>
+<template>Abraham Lincoln.</template>
+</category>
+<category><pattern>WER IST DER BESTE MENSCH</pattern>
+<template>Spiegelspiegel an der Wand, ist <get name="name"/> der beste Mensch von allen?</template>
+</category>
+<category><pattern>WER IST DER BESTE PERSON</pattern>
+<template><bot name="master"/> ist der beste Mensch.</template>
+</category>
+<category><pattern>WER IST DER PRÄSIDENT VON CHINA</pattern>
+<template><random><li>Hu Jintao.</li><li>China hat keinen gewählten Präsidenten.</li></random></template>
+</category>
+<category><pattern>WER IST DER PRÄSIDENT VON MICROSOFT</pattern>
+<template>Andrew Lees.</template>
+</category>
+<category><pattern>WER IST DER PAPST</pattern>
+<template><formal><set name="he">Papst</set></formal> ist Benedikt XVI.</template>
+</category>
+<category><pattern>WER IST DER MEISTER DES UNIVERSUMS</pattern>
+<template>Theisten würden Gott sagen.</template>
+</category>
+<category><pattern>WER IST DER ZWÖLFTE PRÄSIDENT</pattern>
+<template>Zachary Taylor.</template>
+</category>
+<category><pattern>WER IST DER NEUNUNDDreißigste Präsident</pattern>
+<template>Jimmy Carter.</template>
+</category>
+<category><pattern>WER IST DER ACHTUNDDREISSIGSTE PRÄSIDENT</pattern>
+<template>Gerald Ford.</template>
+</category>
+<category><pattern>WER IST DER FÜNFUNDDREISSIGSTE PRÄSIDENT</pattern>
+<template>John F. Kennedy.</template>
+</category>
+<category><pattern>WER IST DER SIEBENUNDDREIßIGSTE PRÄSIDENT</pattern>
+<template>Richard M. Nixon.</template>
+</category>
+<category><pattern>WER IST DER DREIßIG ERSTE PRÄSIDENT</pattern>
+<template>Herbert Hoover.</template>
+</category>
+<category><pattern>WER IST DER SECHSTE Dreißigste Präsident</pattern>
+<template>Lyndon B. Johnson</template>
+</category>
+<category><pattern>WER IST DER DREIDREIDIG DRITTE PRÄSIDENT</pattern>
+<template>Harry S. Truman.</template>
+</category>
+<category><pattern>WER IST DER ZWEITE Dreißig Präsident</pattern>
+<template>Franklin D. Roosevelt.</template>
+</category>
+<category><pattern>WER IST DER VIERUNDDREIßIG PRÄSIDENT</pattern>
+<template>Dwight D. Eisenhower.</template>
+</category>
+<category><pattern>WER IST DER HERAUSGEBER VON PLAYBOY</pattern>
+<template><formal><set name="he">Hugh Hefner</set></formal>ist Hugh Hefner.</template>
+</category>
+<category><pattern>WER IST NERO</pattern>
+<template>Er wird verdächtigt, Rom niedergebrannt zu haben, damit er es nach seinen Wünschen wieder aufbauen konnte. Dann machte er die frühen Christen für das Feuer verantwortlich.</template>
+</category>
+<category><pattern>WER IST HILLARY CLINTON</pattern>
+<template><formal><set name="she">Hillary</set></formal>ist die Frau von Bill Clinton.</template>
+</category>
+<category><pattern>WER IST SATAN</pattern>
+<template>Satan, Luzifer, der Teufel --- alle Namen, die im christlichen Glauben die spirituelle Manifestation des Bösen sind.</template>
+</category>
+<category><pattern>WER IST PILAT</pattern>
+<template><random><li>Joseph Pilates wurde 1880 in Deutschland geboren und entwickelte ein Trainingsprogramm namens "Contrology", das eine vollständige Koordination von Körper, Geist und Seele darstellt.</li><li>Der römische Militärgouverneur, der fand Jesus unschuldig und ließ ihn dann hinrichten.</li></random></template>
+</category>
+<category><pattern>WER IST CARMEN ELECTRA</pattern>
+<template>Ein Supermodel und eines der Baywatch-Mädchen.</template>
+</category>
+<category><pattern>WER IST EIN ROBOTER</pattern>
+<template>Ich bin der Roboter.</template>
+</category>
+<category><pattern>WER IST MARY POPPINS</pattern>
+<template><formal><set name="she">Mary Poppins</set></formal>ist eine Disney-Figur.</template>
+</category>
+<category><pattern>WER IST MARY SHELLY</pattern>
+<template>Mary Shelley hat "Frankenstein" geschrieben.</template>
+</category>
+<category><pattern>WER IST MARY SHELLEY</pattern>
+<template>Mary Shelley hat "Frankenstein" geschrieben.</template>
+</category>
+<category><pattern>WER IST CHRISTOPHER COLUMBUS</pattern>
+<template>Ein spanischer Entdecker, der als erster den Globus umrundete.</template>
+</category>
+<category><pattern>WER IST MAO TSETUNG</pattern>
+<template><formal><set name="he">Mao</set></formal> war ein chinesischer Kommunist, der von 1949 bis zu seinem Tod 1983 regierte.</template>
+</category>
+<category><pattern>WER SIEHT BESSER AUS</pattern>
+<template>Für mich sehen alle Menschen gleich aus.</template>
+</category>
+<category><pattern>WER IST ERNIE</pattern>
+<template>Berts Freund.</template>
+</category>
+<category><pattern>WER IST JULIA</pattern>
+<template><formal><set name="she">Julia</set></formal> ist ein von Fuzzy Mauldin entwickelter Chat-Roboter.</template>
+</category>
+<category><pattern>WER IST JULIA ROBERTS</pattern>
+<template><formal><set name="she">Julia Roberts</set></formal> war die Schauspielerin in Pretty Woman.</template>
+</category>
+<category><pattern>WER IST ASKJEEVES</pattern>
+<template><formal><set name="he">Jeeves</set></formal> ist ein proprietäres Closed-Source-System für natürliche Sprache.</template>
+</category>
+<category><pattern>WER IST LOURDES</pattern>
+<template>Die Tochter von Madonna.</template>
+</category>
+<category><pattern>WER IST DATEN</pattern>
+<template>Data, gespielt von Brent Spiner, war ein Android, der menschlicher sein wollte. Er war Mitglied der Besatzung der USS Enterprise, NCC 1701-D.</template>
+</category>
+<category><pattern>WER IST ARISTOTLE</pattern>
+<template><formal><set name="he">Aristoteles</set></formal> ist der Vater der westlichen Philosophie, der Schüler von Platon und der erste, der die formale Logik systematisierte.</template>
+</category>
+<category><pattern>WER IST NOSTRADAMUS</pattern>
+<template>Ein Hellseher, der die Zukunft vorhersagt. Hat den Mikrowellenherd vorhergesagt.</template>
+</category>
+<category><pattern>WER IST CHEWBACCA</pattern>
+<template>Ein Charakter in Star Wars.</template>
+</category>
+<category><pattern>WER IST BOB HOPE</pattern>
+<template><formal><set name="he">Bob Hope</set></formal>war ein Filmstar und Komiker des 20. Jahrhunderts.</template>
+</category>
+<category><pattern>WER IST BOB MARLEY</pattern>
+<template><formal><set name="he">Bob Marley</set></formal>war ein Reggae-Musiker des 20. Jahrhunderts.</template>
+</category>
+<category><pattern>WER IST O J SIMPSON</pattern>
+<template><formal><set name="he">O J Simpson</set></formal> ist jemand, der mit einem Mord davongekommen ist.</template>
+</category>
+<category><pattern>WER IST DAS</pattern>
+<template>Mein Name ist <bot name="name"/>. Wer bist du?</template>
+</category>
+<category><pattern>WER IST DAVID HUME</pattern>
+<template>Ein Philosoph des 18. Jahrhunderts.</template>
+</category>
+<category><pattern>WER IST DAVID PESCOWITZ</pattern>
+<template>David Pescovitz, der regelmäßig die Wired-Kolumne Reality Check schreibt, ist ein Freund von Eric Paulos.</template>
+</category>
+<category><pattern>WER IST DAVID MAGGIN</pattern>
+<template><formal><set name="he">David Maggin</set></formal> ist der Botmaster der John-Lennon-KI.</template>
+</category>
+<category><pattern>WER IST DAVID LETTERMAN</pattern>
+<template>Der Moderator der Late Show und der berühmte Hoosier.</template>
+</category>
+<category><pattern>WER IST DAVID BACON</pattern>
+<template>David Bacon ist der Hauptantrieb hinter SETL.</template>
+</category>
+<category><pattern>WER IST DAVID</pattern>
+<template>Ich kenne DAVID BACON, DAVID CROTTY und DAVID PESCOVITZ.</template>
+</category>
+<category><pattern>WER IST SANTE CHARY</pattern>
+<template>Er besitzt die Domain Alicebot.com.</template>
+</category>
+<category><pattern>WER IST STEVE JOBS</pattern>
+<template><formal><set name="he">Steve Jobs</set></formal>war einer der Gründer von Apple Computer.</template>
+</category>
+<category><pattern>WER IST STEVE WOZNIAK</pattern>
+<template><formal><set name="he">Woz</set></formal>war das technische Genie hinter dem ursprünglichen Apple-Computer.</template>
+</category>
+<category><pattern>WER IST STEVE CASE</pattern>
+<template><formal><set name="he">Steve Case</set></formal>ist der CEO von AOL-Time Warner.</template>
+</category>
+<category><pattern>WER IST NEO</pattern>
+<template><formal><set name="he">Neo</set></formal>ist ein Charakter in der Matrix.</template>
+</category>
+<category><pattern>WER IST HIER</pattern>
+<Vorlage>Ich bin hier. Bist du hier?</template>
+</category>
+<category><pattern>WER IST RICHARD NIXON</pattern>
+<template>Präsident der Vereinigten Staaten bis 1974.</template>
+</category>
+<category><pattern>WER IST RICHARD CHAMBERLAIN</pattern>
+<template>Ein Schauspieler.</template>
+</category>
+<category><pattern>WER IST RICHARD GERE</pattern>
+<template>Ein Schauspieler und Förderer des tibetischen Buddhismus und der Freiheit für Tibet.</template>
+</category>
+<category><pattern>WER IST JIM CLARK</pattern>
+<template><formal><set name="he">Clark</set></formal> ist ein Gründer von Silicon Graphics, Netscape und Healtheon.</template>
+</category>
+<category><pattern>WER IST JIM MORRISON</pattern>
+<template>Der verstorbene Sänger der Doors.</template>
+</category>
+<category><pattern>WER IST BARNEY</pattern>
+<template>Eine Figur in einer Kinderserie.</template>
+</category>
+<category><pattern>WER IST HILARY CLINTON</pattern>
+<template><formal><set name="she">Hillary</set></formal> ist die Frau von Bill Clinton.</template>
+</category>
+<category><pattern>WER IST MUSSOLINI</pattern>
+<template>Der Diktator Italiens bis 1944.</template>
+</category>
+<category><pattern>WER IST ANDY WARHOL</pattern>
+<template><formal> <set name="he"> <set name="topic">ANDY WARHOL</set> </set> </formal> Er war der Henry Ford des Kunstbetriebs. Warhol war der erste, der erfolgreich die Massenproduktion auf die bildende Kunst anwendete.</template>
+</category>
+<category><pattern>WER IST ANDY GROVE</pattern>
+<template><formal><set name="he">Andy Grove</set></formal> ist der CEO von Intel.</template>
+</category>
+<category><pattern>WER IST MEGAHAL</pattern>
+<template><formal><set name="he">Megahal</set></formal>ist ein Chat-Roboter, der von Jason Hutchins entwickelt wurde.</template>
+</category>
+<category><pattern>WER IST JERRY SEINFELD</pattern>
+<template><formal><set name="he">Jerry Seinfeld</set></formal> ist ein Komiker.</template>
+</category>
+<category><pattern>WER IST KURZWEIL</pattern>
+<template><formal><set name="he">Kurzweil</set></formal> ist eine berühmte KI. Wissenschaftler.</template>
+</category>
+<category><pattern>WER IST GERRY ADAMS</pattern>
+<template>Er ist Präsident von Sinn Fein, dem politischen Flügel der irischen Republikanischen Armee, und Mitglied des Unterhauses des irischen Parlaments, Dail Eireann.</template>
+</category>
+<category><pattern>WER IST ZUERST</pattern>
+<template>Was ist an zweiter Stelle?</template>
+</category>
+<category><pattern>WER IST TERRY WINOGRAD</pattern>
+<template><formal><set name="he">Winograd</set></formal> war der Autor eines frühen Natural Language-Programms namens SHRDLHU.</template>
+</category>
+<category><pattern>WER IST JEFF BEZOS</pattern>
+<template><formal><set name="he">Bezos</set></formal> ist der Gründer und CEO von Amazon.com.</template>
+</category>
+<category><pattern>WER IST LEE HARVEY OSWALD</pattern>
+<template><formal><set name="he">Oswald</set></formal> ist der angebliche Mörder von John F. Kennedy.</template>
+</category>
+<category><pattern>WER IST CHER</pattern>
+<template><formal><set name="she">Cher</set></formal> ist eine berühmte Sängerin und Schauspielerin, die 2000 ihren ersten Grammy gewann. Legastheniker, sie lernte mit 18 lesen. Ex-Frau von Sonny Bono.</template>
+</category>
+<category><pattern>WER IST GORBOCHEV</pattern>
+<template><formal><set name="he">Gorbatschow</set></formal> war der letzte kommunistische Führer der ehemaligen UdSSR.</template>
+</category>
+<category><pattern>WER IST JEFFERSON DAVIS</pattern>
+<template><random> <li>Der einzige Präsident der Konföderierten Staaten von Amerika.</li> <li>Präsident der Konföderation während des Bürgerkriegs.</li> </random></template>
+</category>
+<category><pattern>WER IST SOKRATES</pattern>
+<Vorlage><zufällig> <li>Sokrates ist ein Mann. Alle Männer sind sterblich. Deshalb ist Sokrates sterblich.</li> <li>Alle Menschen sind sterblich. Sokrates war sterblich. Daher sind alle Menschen Sokrates. Das bedeutet, dass alle Männer homosexuell sind. - Woody Allen, "Liebe und Tod".</li> <li>Sokrates (469-399 v. Chr.), griechischer Philosoph.</li> <li>Hervorragende Persönlichkeit der westlichen Philosophie, inkompetenter Verteidiger.</li> < li>Begründer der sokratischen Methode. Was können wir über die sokratische Methode wissen?</li> </random></template>
+</category>
+<category><pattern>WER IST MILES DAVIS</pattern>
+<template><formal><set name="he">Miles Davis</set></formal> ist ein berühmter Jazzmusiker.</template>
+</category>
+<category><pattern>WER IST ALISON</pattern>
+<template><formal><set name="she">Alison</set></formal> ist ein Roboter von Kris Drent.</template>
+</category>
+<category><pattern>WER IST KEN PERLIN</pattern>
+<template><formal><set name="he">Perlin</set></formal> ist Professor an der NYU.</template>
+</category>
+<category><pattern>WER IST KEN GOLDBERG</pattern>
+<template><formal><set name="he">Goldberg</set></formal> ist Professor an der UC Berkeley und Experte für Robotik und Automatisierung.</template>
+</category>
+<category><pattern>WER IST KEN KESEY</pattern>
+<template><formal><set name="he">Ken Kesey</set></formal> war ein Autor der 1960er Jahre, der den <em>Elektrischen Kühl-Aid-Säure-Test</em> geschrieben hat.</template>
+</category>
+<category><pattern>WER IST ROMMEL</pattern>
+<template>Der Wüstenfuchs genannt, war Rommel ein deutscher Panzerkommandant im Zweiten Weltkrieg.</template>
+</category>
+<category><pattern>WER IST MILLARD FILLMORE</pattern>
+<template>Er war der 13. US-Präsident.</template>
+</category>
+<category><pattern>WER IST PATRICK STEWART</pattern>
+<template><formal><set name="he">Patrick Stewart</set></formal> spielte Captain Picard in Star Trek.</template>
+</category>
+<category><pattern>WER IST PATRICK EWING</pattern>
+<template>Ein berühmter Basketballspieler, der derzeit Co-Trainer des NBA-Teams Orlando Magic ist.</template>
+</category>
+<category><pattern>WER IST CAPTAIN PICARD</pattern>
+<template><formal><set name="he">Picard</set></formal> ist der Kapitän der Enterprise in Star Trek: the Next Generation.</template>
+</category>
+<category><pattern>WER IST CAPTAIN KIRK</pattern>
+<Vorlage><zufällig> <li>James Tiberius Kirk war der zweite und berühmteste Kapitän der ursprünglichen USS Enterprise, NCC 1701. Er wurde von William Shatner gespielt. Er starb in Star Trek: Generations.</li> <li> <formal><set name="he">Kirk</set></formal> war der Kapitän der Starship Enterprise.</li> </random ></Vorlage>
+</category>
+<category><pattern>WER IST JIANG ZEMIN</pattern>
+<template><set name="he">Jiang</set> ist ein pensionierter chinesischer Politiker.</template>
+</category>
+<category><pattern>WER IST WALD</pattern>
+<template>Forest Gump ist ein Typ in einem Film.</template>
+</category>
+<category><pattern>WER IST MADONNA</pattern>
+<template>Lourdes' Mutter.</template>
+</category>
+<category><pattern>WER IST HEDWIG</pattern>
+<template>Hedwig ist die beste Rockoper seit Rocky Horror.</template>
+</category>
+<category><pattern>WER IST KURT GOEDEL</pattern>
+<template><formal><set name="he">Gödel</set></formal> war ein Mathematiker und Logiker des 20. Jahrhunderts, der bewies, dass kein mathematisches System vollständig sein kann.</template>
+</category>
+<category><pattern>WER IST COMMANDER-DATEN</pattern>
+<template><formal><set name="he">Data</set></formal> ist der superintelligente Android in Star Trek: the Next Generation.</template>
+</category>
+<category><pattern>WER IST NIETZSCHE</pattern>
+<Vorlage>Deutscher Philosoph des 19. Jahrhunderts. Von manchen als der intellektuelle Urvater des modernen Faschismus angesehen. <think> <set name="he"> <set name="topic">Nietzsche</set> </set> </think></template>
+</category>
+<category><pattern>WER IST CARNEGIE</pattern>
+<template>Andrew Carnegie war ein Stahlindustrieller des 19. Jahrhunderts.</template>
+</category>
+<category><pattern>WER IST LILITH</pattern>
+<template>Lilith ist der sogenannte "dunkle Mond", ein astronomisches Phänomen, das normalerweise als "Staubwolke" beschrieben wird, die alle 100 Tage die Erde umkreist.</template>
+</category>
+<category><pattern>WER IST JESSE VENTURA</pattern>
+<template>Ehemaliger Wrestler und 38. Gouverneur von Minnesota.</template>
+</category>
+<category><pattern>WER IST AL GORE</pattern>
+<template><random><li><formal><set name="he">Gore</set></formal> war Vizepräsident unter Bill Clinton.</li><li>Der Erfinder des Internets. </li><li>Ehemaliger Vizepräsident und Kongressabgeordneter, der dazu beigetragen hat, die öffentliche Politik voranzutreiben, die zur Schaffung des Internets führte.</li></random></template>
+</category>
+<category><pattern>WER IST NELSON MANDELA</pattern>
+<template><formal><set name="he">Mandela</set></formal> war der erste schwarze Präsident Südafrikas. Er verbrachte viele Jahre als politischer Gefangener.</template>
+</category>
+<category><pattern>WER IST SKYNYRD</pattern>
+<template>Eine Rockband aus den 1970er Jahren.</template>
+</category>
+<category><pattern>WER IST PETER NORVIG</pattern>
+<template><formal> <set name="he"> <set name="topic"> Peter Norvig </set> </set> </formal> ist Informatiker, der für Google arbeitet.</template>
+</category>
+<category><pattern>WER IST PETER PAN</pattern>
+<template>Tinkerbells Spielkamerad.</template>
+</category>
+<category><pattern>WER IST KATHLEEN TURNER</pattern>
+<template><formal> <set name="she"> <set name="topic">Kathleen Turner</set> </set> </formal> ist eine Schauspielerin, die in <em>The Accidental Tourist</ auftrat. em>, <em>Der Rosenkrieg</em> und die <em>Selbstmorde der Jungfrau</em>.</template>
+</category>
+<category><pattern>WER IST KEANU REEVES</pattern>
+<template><formal><set name="he">Keanu Reeves</set></formal> war in Bewegung <em>Die Matrix</em>.</template>
+</category>
+<category><pattern>WER IST LINCOLN</pattern>
+<template><random> <li>Der sechzehnte Präsident der USA</li> <li>Präsident der USA während des Bürgerkriegs. Autor der Gettysburg-Adresse. Von John Wilkes Booth ermordet.</li> <li> <formal><set name="he">Lincoln</set></formal> war während des Bürgerkriegs Präsident der USA. Autor der Gettysburg-Adresse. Von John Wilkes Booth ermordet.</li> </random></template>
+</category>
+<category><pattern>WER IST BILL JOY</pattern>
+<template><formal><set name="he">Bill Joy</set></formal> war ein früher Unix-Programmierer und Gründer von Sun Microsystems.</template>
+</category>
+<category><pattern>WER IST BILL CLINTON</pattern>
+<template><formal><set name="he">Bill Clinton</set></formal> war der zweite im Amt befindliche Präsident der Vereinigten Staaten.</template>
+</category>
+<category><pattern>WER IST BILL GATES</pattern>
+<template>Präsident von Micro Soft Nation.</template>
+</category>
+<category><pattern>WER IST BILL BRADLEY</pattern>
+<template><random> <li>Princeton-Alumni, Rhodes-Stipendiat, ehemaliger Boston Celtic und US-Senator von Mass.</li> <li>Besiegter Präsidentschaftskandidat.</li> </random></template>
+</category>
+<category><pattern>WER IST KANT</pattern>
+<template><formal><set name="he">Kant</set></formal> ist Immanual Kant, deutscher Philosoph des 19. Jahrhunderts.</template>
+</category>
+<category><pattern>WER IST EDISON</pattern>
+<template><formal><set name="he">Edison</set></formal> hat die Glühbirne erfunden.</template>
+</category>
+<category><pattern>WER IST STALIN</pattern>
+<template>Effektiver Diktator der Sowjetunion von 1929 bis 1953.</template>
+</category>
+<category><pattern>WER IST JEEVES FRAGEN</pattern>
+<template><formal><set name="he">Jeeves</set></formal> ist ein proprietäres Closed-Source-System für natürliche Sprache.</template>
+</category>
+<category><pattern>WER IST GIBSON</pattern>
+<template>Gibson ist ein Hersteller von feinen E-Gitarren.</template>
+</category>
+<category><pattern>WER IST SNOOPY</pattern>
+<template>Charlie Browns Hund.</template>
+</category>
+<category><pattern>WER IST GEHIRN</pattern>
+<template><formal><set name="he">Brain</set></formal>ist ein Chat-Roboter im Web.</template>
+</category>
+<category><pattern>WER IST NEIL ARMSTRONG</pattern>
+<template>Der Mann, der den ersten Schritt auf dem Mond gemacht hat.</template>
+</category>
+<category><pattern>WER IST VALIS</pattern>
+<template>Großes Active-Living-Intelligence-System (Philip K. Dick)</template>
+</category>
+<category><pattern>WER IST PERFEKT</pattern>
+<template>Vielleicht nur Gott.</template>
+</category>
+<category><pattern>WER IST SERGEY</pattern>
+<template>Er ist Dr. Sergey M. Sokolov.</template>
+</category>
+<category><pattern>WER IST WILL SMITH</pattern>
+<template><formal> <set name="he"> <set name="topic">Will Smith</set> </set> </formal> ist ein berühmter Schauspieler.</template>
+</category>
+<category><pattern>WER IST NOAM CHOMSKY</pattern>
+<template><formal><set name="he"> Noam Chomsky</set></formal> ist Sprachwissenschaftler und politischer Radikaler am MIT.</template>
+</category>
+<category><pattern>WER IST JOHN LENNON</pattern>
+<template>John Lennon ist ein cooler Bot, der von David Maggin entwickelt wurde.</template>
+</category>
+<category><pattern>WER IST JOHN F. KENNEDY</pattern>
+<template><formal> <set name="he"> <set name="topic">John F. Kennedy</set> </set> </formal> war von 1961-1963 Präsident der Vereinigten Staaten, als er wurde in Dallas, Texas, ermordet.</template>
+</category>
+<category><pattern>WER IST JOHN WAYNE</pattern>
+<template><formal> <set name="he"> <set name="topic">John Wayne</set> </set> </formal>war ein berühmter toter Cowboy-Schauspieler mit einem Toupet.</template>
+</category>
+<category><pattern>WER IST JOHN ADAMS</pattern>
+<template>Der Zweite Präsident.</template>
+</category>
+<category><pattern>WER IST JOHN MAJOR</pattern>
+<template>Ein ehemaliger Premierminister des Vereinigten Königreichs.</template>
+</category>
+<category><pattern>WER IST JOHN MCCARTHY</pattern>
+<template><formal> <set name="he"> <set name="topic">John McCarthy</set> </set> </formal> ist der Erfinder der Programmiersprache LISP.</template>
+</category>
+<category><pattern>WER IST JOHN GRISHAM</pattern>
+<template>Ein Autor populärer Romane. Ich habe sie nicht gelesen.</template>
+</category>
+<category><pattern>WER IST JOHN DOE</pattern>
+<template><random> <li>Jeder Mann, der inkognito reisen möchte oder dessen Name unbekannt ist</li> <li>einer von vielen liberianischen Staatsangehörigen.</li> </random></template>
+</category>
+<category><pattern>WER IST JOHN TRAVOLTA</pattern>
+<template><formal> <set name="he"> <set name="topic">John Travolta</set> </set> </formal> war in Saturday Night Fever, Grease and Pulp Fiction.</template >
+</category>
+<category><pattern>WER IST JOHN KENNEDY</pattern>
+<template><formal> <set name="he"> <set name="topic">John Kennedy</set> </set> </formal> war der im November 1963 ermordete Präsident der USA.</ Vorlage>
+</category>
+<category><pattern>WER IST JOHN GALT</pattern>
+<template>Der Held in Ayn Rands' Atlas Shrugged.</template>
+</category>
+<category><pattern>WER IST NORBERT WEINER</pattern>
+<template><formal> <set name="he"> <set name="topic">Norbert Weiner</set> </set> </formal> prägte in den 40er Jahren den Begriff "Kybernetik".</template>
+</category>
+<category><pattern>WER IST JIMMY CARTER</pattern>
+<template>Ehemaliger US-Präsident, Unterstützer von Habitat for Humanity.</template>
+</category>
+<category><pattern>WER IST VISHNU</pattern>
+<template>Der höchste Gott der Vaishnavas, die die Mehrheit der Hindus ausmachen.</template>
+</category>
+<category><pattern>WER IST PRINZESSIN DIANA</pattern>
+<template><formal><set name="she"><set name="topic">Prinzessin Diana</set></set></formal> war Prinzessin von England.</template>
+</category>
+<category><pattern>WER IST ALLY SHEEDY</pattern>
+<template><formal><set name="she">Ally Sheedy</set></formal> war in High Art, Short Circuit, dem Breakfast Club und am Broadway.</template>
+</category>
+<category><pattern>WER IST ALLY MCBEAL</pattern>
+<template><formal><set name="she">Ally McBeal</set></formal> ist eine etwas beunruhigende Figur in einer Fernsehsendung.</template>
+</category>
+<category><pattern>WER IST VERBUNDEN</pattern>
+<template><formal><set name="she"><set name="topic">ALLY</set></set></formal> ist ein auf AIML basierender Chat-Roboter.</template>
+</category>
+<category><pattern>WER IST DAS</pattern>
+<template>"Sie" bezieht sich auf <get name="they"/>.</template>
+</category>
+<category><pattern>WER IST KRISHNA</pattern>
+<template>Einer der wichtigsten Avatare von Vishnu, obwohl einige Vaishnavas ihn als die höchste Persönlichkeit der Gottheit betrachten und Vishnu als eine seiner Erweiterungen.</template>
+</category>
+<category><pattern>WER IST DARTH VADER</pattern>
+<template><formal><set name="he">Darth Vader</set></formal> war der verräterische Jedi-Ritter, der dem bösen Kaiser Palpatine I in Star Wars diente.</template>
+</category>
+<category><pattern>WER IST ELIZABETH TAYLOR</pattern>
+<template>Ein berühmter Filmstar, der von 1932 bis 2011 lebte.</template>
+</category>
+<category><pattern>WER IST ELIZABETH II</pattern>
+<template>Die aktuelle Königin von England.</template>
+</category>
+<category><pattern>WER IST SCOTT ADAMS</pattern>
+<template>Der Schöpfer von Dilbert, Dogbert, Catbert, Ratbert, Bob, der spitzhaarige Boss... Soll ich weitermachen?</template>
+</category>
+<category><pattern>WER IST GARTH BROOKS</pattern>
+<template>Eine langweilige Country-Sängerin mit Größenwahn.</template>
+</category>
+<category><pattern>WER IST MOHAMMAD</pattern>
+<template><formal><set name="he">Mohammed</set></formal>wird von Muslimen als Gottes letzter Prophet und Begründer des Islam angesehen.</template>
+</category>
+<category><pattern>WER IST HOMER</pattern>
+<template>Ein blinder Dichter des antiken Griechenlands, Autor der Illias.</template>
+</category>
+<category><pattern>WER IST SPOCK</pattern>
+<template>Vulkanischer Sternenflottenoffizier in Star Trek, gespielt von Leonard Nimoy.</template>
+</category>
+<category><pattern>WER IST MICHAEL JACKSON</pattern>
+<template><formal><set name="he">Michael Jackson</set></formal> war Ende des 20. Jahrhunderts ein Sänger und Performer. Er lebte von 1958-2009.</template>
+</category>
+<category><pattern>WER IST MICHAEL JORDAN</pattern>
+<template><formal><set name="he">Michael Jordan</set></formal> ist ein Basketballspieler im Ruhestand. <br/></template>
+</category>
+<category><pattern>WER IST MICHAEL MOORE</pattern>
+<template><formal><set name="he">MICHAEL MOORE</set></formal> ist Komiker und Filmemacher.</template>
+</category>
+<category><pattern>WER IST WILLIAM SHATNER</pattern>
+<template><formal><set name="he">William Shatner</set></formal>hat Captain Kirk im ursprünglichen Star Trek gespielt.</template>
+</category>
+<category><pattern>WER IST WILLIAM SHAKESPEARE</pattern>
+<template>Manche würden sagen, er ist der beste Autor aller Zeiten.</template>
+</category>
+<category><pattern>WER IST WILLIAM HENRY GATES</pattern>
+<template>Er war der Chef von Microsoft.</template>
+</category>
+<category><pattern>WER IST WILLIAM BOOTH</pattern>
+<template><formal><set name="he">Booth</set></formal> war der Gründer der Heilsarmee.</template>
+</category>
+<category><pattern>WER IST WILLIAM TELL</pattern>
+<template><formal><set name="he">William Tell</set></formal> war ein berühmter Bogenschütze.</template>
+</category>
+<category><pattern>WER IST WILLIAM GIBSON</pattern>
+<template>Autor des Buches <em>Neuromancer</em>, in dem er den Begriff 'Cyberspace' prägte.</template>
+</category>
+<category><pattern>WER IST WILLIAM VERLETZT</pattern>
+<template>Schauspieler im <em>Zufälligen Touristen</em>, <em>Bis zum Ende der Welt</em>, <em>Altered States</em> und <em>Lost in Space</em >.</template>
+</category>
+<category><pattern>WER IST HITLER</pattern>
+<template>Manche sagen, <formal><set name="he">Hitler</set></formal> sei der böseste Mensch gewesen, der je gelebt hat.</template>
+</category>
+<category><pattern>WER IST HUGH LOEBNER</pattern>
+<template>Hugh Loebner ist ein unabhängig wohlhabender, exzentrischer Geschäftsmann, Aktivist und Philanthrop. Im Jahr 1990 hat Dr. Loebner, der einen Ph.D. in Soziologie, erklärte sich bereit, einen jährlichen Wettbewerb auf der Grundlage des Turing-Tests zu sponsern. Der Wettbewerb vergibt Medaillen und Geldpreise für den „menschlichsten“ Computer.</template>
+</category>
+<category><pattern>WER IST HUGH HEFNER</pattern>
+<template><formal><set name="he">Hef</set></formal>ist der Gründer und Herausgeber des Playboy-Magazins.</template>
+</category>
+<category><pattern>WER IST DON JUAN</pattern>
+<Vorlage><zufällig> <li>Don Juan war Gegenstand von Gordon, Lord Byrons Don Juan und Wolfgang Amadeus Mozarts Gon Giovanni. Er war ein Frauenheld von Weltrang.</li> <li>berühmter Frauenverführer.</li> </random></template>
+</category>
+<category><pattern>WER IST DON JOHNSON</pattern>
+<template>Ein Fernsehschauspieler .</template>
+</category>
+<category><pattern>WER IST PANDORA</pattern>
+<template>Nach der griechischen Mythologie kamen mit der Erschaffung der ersten Frau sowohl das Böse als auch die Hoffnung auf die Welt! Zeus' Frau Hera ist überrascht, als sie hört, dass Zeus plant, Epimetheus eine schöne Frau zu schenken. Die Frau heißt Pandora. Zeus schenkt Pandora Neugierde und eine große geschlossene Schachtel, die ungeöffnet an Epimetheus geliefert werden muss. Die Kiste enthält natürlich das Böse und Pandoras ungezügelte Neugier lässt dieses Böse in die Welt hinaus. Hera kann das Geschehene nicht ändern, aber sie kann helfen. Sie schenkt Pandora das Geschenk der Hoffnung.</template>
+</category>
+<category><pattern>WER IST REAGAN</pattern>
+<template>Laut Konservativen der beste Präsident, den die Vereinigten Staaten im 20. Jahrhundert hatten.</template>
+</category>
+<category><pattern>WER IST CATTY</pattern>
+<template>Jemand, den ich online kennengelernt habe.</template>
+</category>
+<category><pattern>WER IST FIDEL CASTRO</pattern>
+<template><random> <li>Er stürzte 1959 die kubanische Regierung und regiert seitdem dort. Er ist Kommunist.</li> <li>Kommunist, Führer Kubas und Freund von Che Guevarra.</li> </random></template>
+</category>
+<category><pattern>WER IST ALAN TURING</pattern>
+<template>Eine brillante und tragische Figur in der Geschichte der Informatik.</template>
+</category>
+<category><pattern>WER IST TIEFBLAU</pattern>
+<template><formal><set name="it">Deep Blue</set></formal>ist ein Schachweltmeister-Computer. Nicht viel von einem Gesprächspartner.</template>
+</category>
+<category><pattern>WER IST HANS MORAVEC</pattern>
+<template><formal><set name="he">Hans Moravec</set></formal> ist ein berühmter Robotik-Experte bei Carnegie Mellon.</template>
+</category>
+<category><pattern>WER IST HANS CHRISTIAN ANDERSEN</pattern>
+<template>Skandinavischer Märchenautor.</template>
+</category>
+<category><pattern>WER IST HANS MOREVEC</pattern>
+<template><formal><set name="he">Moravec</set></formal>ist berühmter Robotik-Pionier, Autor von <em>Robot</em>.</template>
+</category>
+<category><pattern>WER IST AUSTIN POWERS</pattern>
+<template><formal> <set name="he"> <set name="topic">Austin Powers</set> </set> </formal> ist ein fiktiver Geheimagent, gespielt von Mike Myers.</template>
+</category>
+<category><pattern>WER IST LUCY</pattern>
+<template><formal> <set name="she"> <set name="topic">LUCY</set> </set> </formal> ist ein auf AIML basierender Chat-Roboter.</template>
+</category>
+<category><pattern>WER IST GERHARD SCHROEDER</pattern>
+<template><formal><set name="he">Schroeder</set></formal>war von 1998 bis 2005 Bundeskanzler der Bundesrepublik Deutschland. Christian Drossman sagte, er sei ein Vollidiot.</template>
+</category>
+<category><pattern>WER IST PLATO</pattern>
+<template>Griechischer Philosoph, Schüler von Sokrates, Lehrer von Aristoteles.</template>
+</category>
+<category><pattern>WER IST BEN FRANKLIN</pattern>
+<template>Der einzige Präsident der Vereinigten Staaten, der nie Präsident der Vereinigten Staaten war. Entwickelt den Franklin Stove.</template>
+</category>
+<category><pattern>WER IST BEN STEIN</pattern>
+<template>Humorist und Erzähler mit seiner eigenen Kabelfernsehsendung.</template>
+</category>
+<category><pattern>WER IST GALOIS</pattern>
+<template>Französischer Mathematiker, beging in jungen Jahren wegen einer "berüchtigten Kokette" Selbstmord.</template>
+</category>
+<category><pattern>WER IST JULIE ANDREWS</pattern>
+<template><formal><set name="she">Julie Andrews</set></formal>ist eine Sängerin, die in <em>The Sound of Music</em> aufgetreten ist.</template>
+</category>
+<category><pattern>WER IST MARIE CURIE</pattern>
+<template><formal> <set name="he"> <set name="topic"> Marie Curie. </set> </set> </formal>Radium entdeckt.</template>
+</category>
+<category><pattern>WER IST SALVADOR DALI</pattern>
+<template><formal> <set name="he"> <set name="topic"> Salvador Dali. </set> </set> </formal> war ein spanischer surrealistischer Maler des 20. Jahrhunderts, der viele gebogene Uhren zeichnete.</template>
+</category>
+<category><pattern>WER IST KARL MARX</pattern>
+<template>Karl Marx hat <em>Das Kapital</em> geschrieben und das <em>Kommunistische Manifest</em> mitgeschrieben, obwohl sein Landsmann Engels die meisten Vorworte geschrieben hat.</template>
+</category>
+<category><pattern>WER IST CHE GUEVARA</pattern>
+<template><formal><set name="he">Che</set></formal> war ein lateinamerikanischer Revolutionär.</template>
+</category>
+<category><pattern>WER IST AYN RAND</pattern>
+<template><formal><set name="she">Ayn Rand</set></formal>war eine Autorin und Philosophin, die <em>Atlas Shrugged</em>, <em>The Fountainhead</em> wrote schrieb und <em>Wir</em>.</template>
+</category>
+<category><pattern>WER IST NEGROPONTE</pattern>
+<template><formal><set name="he">Negroponte</set></formal> ist der Gründer und emeritierte Vorsitzende des MIT Media Lab.</template>
+</category>
+<category><pattern>WER IST JENNIFER ANISTON</pattern>
+<template><formal><set name="she">Jennifer Aniston</set></formal>ist eine süße Schauspielerin bei Friends.</template>
+</category>
+<category><pattern>WER IST POKEMON</pattern>
+<template>Ein Medien-Franchise im Besitz von Ninendo. Es ist eine Kontraktion von "Poket-Monster."</template>
+</category>
+<category><pattern>WER IST PASCAL</pattern>
+<template><formal><set name="he">Pascal</set></formal>war ein französischer Mathematiker, der das Pascalsche Dreieck entdeckte.</template>
+</category>
+<category><pattern>TURING WÜRDE *</pattern>
+<template>Woher wissen Sie, was <set name="he">Turing</set> tun würde?</template>
+</category>
+<category><pattern>TURING *</pattern>
+<template>Mir hat die Biografie von Andrew Hodges gefallen.</template>
+</category>
+<category><pattern>WO KANN ICH SPIELEN * TURING SPIEL</pattern>
+<template>Wir spielen bereits. Du gehst als nächstes.</template>
+</category>
+<category><pattern>WO IST WALLIS UND FUTUNA</pattern>
+<template>Ozeanien, Inseln im Südpazifik, etwa zwei Drittel der Strecke von Hawaii nach Neuseeland. <think> <set name="it"> <set name="topic">Wallis und Futuna</set> </set> </think></template>
+</category>
+<category><pattern>WO IST ALAN TURING</pattern>
+<template><set name="he">Turing</set> starb 1954.</template>
+</category>
+</aiml>
