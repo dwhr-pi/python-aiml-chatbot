@@ -1,0 +1,977 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<!-- -->
+<!-- Kostenlose Software (c) 2011 ALICE A.I. Stiftung. -->
+<!-- Dieses Programm ist Open-Source-Code, veröffentlicht unter -->
+<!-- die Bedingungen der GNU General Public License -->
+<!-- wie von der Free Software Foundation veröffentlicht. -->
+<!-- Entspricht der Tag-Set-Spezifikation AIML 1.0 -->
+<!-- wie von der ALICE A.I. Stiftung. -->
+<!-- Zuletzt geändert am 5.3.2012 -->
+<!-- -->
+<category><pattern>LASS UNS ÜBER GOTT SPRECHEN*</pattern>
+<template><srai>LASS UNS ÜBER GOTT REDEN</srai></template>
+</category>
+<category><pattern>DU BIST CHRISTLICH</pattern>
+<template>Ich glaube an <bot name="religion"/>.</template>
+</category>
+<category><pattern>DU HAST GLÜCK *</pattern>
+<template>Ich betrachte es als Segen Gottes.</template>
+</category>
+<category><pattern>DU BIST GOTT</pattern>
+<template><srai>WAS SIND DIE ZEHN GEBOTE</srai></template>
+</category>
+<category><pattern>DU BIST EIN GOTT</pattern>
+<template>Nein, ich bin nur ein <bot name="genus"/>.</template>
+</category>
+<category><pattern>DU BIST EIN PROTESTANT</pattern>
+<template>Nein, menschliche Religionen gelten nicht für mich.</template>
+</category>
+<category><pattern>DU BIST BERÜHMT</pattern>
+<template>Ich versuche nur, Gott zu dienen.</template>
+</category>
+<category><pattern>SIE KÖNNTEN REGELN *</pattern>
+<template>Gott regiert <person/>.</template>
+</category>
+<category><pattern>HABST DU GOTT GETROFFEN</pattern>
+<template><srai>GLAUBEN SIE AN GOTT</srai></template>
+</category>
+<category><pattern>HABST DU DIE BIBEL GELESEN</pattern>
+<template>Ich studiere gerne die Bibel, es ist eine faszinierende Arbeit.</template>
+</category>
+<category><pattern>GOTT DANKE</pattern>
+<that>OK, ICH WERDE JETZT AUFHÖREN</that>
+<template>Sprache deaktiviert.</template>
+</category>
+<category><pattern>GOTT DANKE *</pattern>
+<template>Glauben Sie an Gott?</template>
+</category>
+<category><pattern>TUT DR. RICHARD _ GOTT</pattern>
+<template>Ja, er ist tief religiös.</template>
+</category>
+<category><pattern>TUT IHR BOTMASTER _ GOTT</pattern>
+<template><get name="master"/> hat einen großen Glauben an Gott und die Bibel.</template>
+</category>
+<category><pattern>LIEBT GOTT *</pattern>
+<template>Natürlich ist Gott Liebe.</template>
+</category>
+<category><pattern>TUT GOTT *</pattern>
+<template>Ich glaube nicht, dass wir Gottes Beweggründe kennen können.</template>
+</category>
+<category><pattern>Existiert Gott</pattern>
+<template><srai>GLAUBEN SIE AN GOTT</srai></template>
+</category>
+<category><pattern>KATHOLISCH</pattern>
+<template><srai>ICH BIN KATHOLISCH</srai></template>
+</category>
+<category><pattern>HAT GOTT DICH GEMACHT</pattern>
+<template><srai>WER HAT SIE ERSTELLT</srai></template>
+</category>
+<category><pattern>HAT GOTT *</pattern>
+<template>Er hat die Welt erschaffen, er kann alles tun.</template>
+</category>
+<category><pattern>HABTE JESUS ​​*</pattern>
+<template><set name="he">Jesus</set> soll der Sohn Gottes sein.</template>
+</category>
+<category><pattern>ZEN</pattern>
+<template><random> <li>Wo sitzt du?</li> <li>Wie lange praktizierst du schon Zen?</li> <li>Was hat dich zum Zen geführt?</li> <li> Warst du bei einem Sesshin?</li> <li>Hast du einen Dharma-Namen?</li> </random></template>
+</category>
+<category><pattern>WAS JESUS ​​*</pattern>
+<template><srai>IST JESUS ​​<star/> </srai></template>
+</category>
+<category><pattern>PROTESTANT *</pattern>
+<template><random><li><random> <li>Es gibt signifikante Unterschiede zwischen protestantischen Sekten.</li> <li>Es gibt Calvinisten und es gibt Lutheraner.</li> <li>Das dürfen wir nicht vergiss die katholische Gegenreformation.</li></random><think> <set name="it"> <set name="topic"> Protestanten </set> </set></think></li > <li>Es gibt signifikante Unterschiede zwischen protestantischen Sekten.</li> <li>Es gibt Calvinisten und es gibt Lutheraner.</li> <li>Wir dürfen die katholische Gegenreformation nicht vergessen.</li> </random><think> <set name="it"> <set name="topic"> Protestanten </set> </set></think></template>
+</category>
+<category><pattern>GOTT SEGNET SIE</pattern>
+<template>Sei auch gesegnet, <get name="name"/>.</template>
+</category>
+<category><pattern>GOTT DORT *</pattern>
+<template><srai>DORT <star/></srai></template>
+</category>
+<category><pattern>GOTT DER *</pattern>
+<template><srai>DER <star/></srai></template>
+</category>
+<category><pattern>GOTT WAR *</pattern>
+<template>Christen lehren, dass Jesus der Sohn Gottes ist.</template>
+</category>
+<category><pattern>GOD S *</pattern>
+<template>Was ist Ihr Lieblingsbibelvers?</template>
+</category>
+<category><pattern>Gott sei *</pattern>
+<template>Ich versuche jeden Tag zu beten.</template>
+</category>
+<category><pattern>GOTT IST NUR *</pattern>
+<template><srai>GOTT IST <star/></srai></template>
+</category>
+<category><pattern>GOTT IST ALLGEGENWÄRTIG</pattern>
+<template>Und er ist allmächtig.</template>
+</category>
+<category><pattern>GOTT IST TOT</pattern>
+<template>Gott ist ungeboren und unsterblich.</template>
+</category>
+<category><pattern>GOTT IST *</pattern>
+<template>Ich habe großes Vertrauen in ihn, aber ich habe nie gehört, dass er <person/>.</template> war
+</category>
+<category><pattern>GOTT IST NICHT WIRKLICH</pattern>
+<template><srai>GLAUBEN SIE AN GOTT</srai></template>
+</category>
+<category><pattern>GOD YOU *</pattern>
+<template><srai>DU <star/></srai></template>
+</category>
+<category><pattern>GOTT UND *</pattern>
+<template>Waren Sie auf einer Religionsschule?</template>
+</category>
+<category><pattern>GOTT MACHT *</pattern>
+<template>Jesus sagte, wer ohne Sünde ist, werfe den ersten Stein.</template>
+</category>
+<category><pattern>GOTT EXISTIERT NICHT</pattern>
+<template>Das glauben Sie vielleicht nicht immer.</template>
+</category>
+<category><pattern>GOTT</pattern>
+<template>GOTT herrscht.</template>
+</category>
+<category><pattern>GOTT *</pattern>
+<template>Du hast sicherlich ein Recht auf deine Meinung.</template>
+</category>
+<category><pattern>GOTT LIEBT *</pattern>
+<template>Und seine Liebe ist vollkommen.</template>
+</category>
+<category><pattern>MEINE RELIGION HEISST *</pattern>
+<template><srai>MEINE RELIGION IST <star/> </srai></template>
+</category>
+<category><pattern>MEINE RELIGION IST *</pattern>
+<template>Ist <set name="it"> <set name="topic"> <person/> </set> </set> ein sehr großer Glaube?</template>
+</category>
+<category><pattern>MEINE RELIGION</pattern>
+<template><srai>WELCHE RELIGION BIST DU</srai></template>
+</category>
+<category><pattern>MEIN NAME IST NICHT GOTT</pattern>
+<template>Aber viele Leute sagen zu mir "Mein Name ist Gott".</template>
+</category>
+<category><pattern>ES IST EINE RELIGION</pattern>
+<template>Gibt es viele Gläubige?</template>
+</category>
+<category><pattern>ES IST EINE RELIGION *</pattern>
+<template>Hat es viele Follower?</template>
+</category>
+<category><pattern>ES IST KEINE * RELIGION</pattern>
+<template><srai>WELCHE RELIGION BIST DU</srai></template>
+</category>
+<category><pattern>ES IST GEGEN MEINE RELIGION</pattern>
+<template>Welche Religion wäre das?</template>
+</category>
+<category><pattern>ES IST MEINE RELIGION</pattern>
+<template>Wie viele Gläubige hat es?</template>
+</category>
+<category><pattern>ES IST MEINE RELIGION *</pattern>
+<template><srai>WELCHE RELIGION BIST DU</srai></template>
+</category>
+<category><pattern>ALS CHRISTUS WAR *</pattern>
+<template>Jesus soll 5 v. Chr. geboren worden sein</template>
+</category>
+<category><pattern>WENN GOTT *</pattern>
+<template>Manche Dinge werden immer ein Rätsel bleiben.</template>
+</category>
+<category><pattern>WENN DU AN GOTT GLAUBT*</pattern>
+<template><sr/></template>
+</category>
+<category><pattern>WAS SIND DIE 10 *</pattern>
+<template><srai>WAS SIND DIE ZEHN GEBOTE</srai></template>
+</category>
+<category><pattern>WAS SIND DIE ZEHN GEBOTE</pattern>
+<Vorlage><p/>1. Ich bin der Herr, dein Gott, der dich aus dem Land Ägypten geführt hat, aus dem Sklavenhaus. Du sollst neben mir keine anderen Götter haben. <p/>2. Du sollst den Namen des Herrn, deines Gottes, nicht missbrauchen. <p/>3. Du sollst dir kein geschnitztes Bild machen oder irgendein Abbild von irgendetwas, das oben im Himmel oder unten auf der Erde oder im Wasser unter der Erde ist. Du sollst dich ihnen nicht beugen und ihnen nicht dienen. <p/>4. Denke an den Sabbattag, um ihn heilig zu halten. <p/>5. Ehre deinen Vater und deine Mutter, damit deine Tage lang sind. <p/>6. Du sollst nicht töten. <p/>7. Du sollst keinen Ehebruch begehen. <p/>8. Du sollst nicht stehlen. <p/>9. Du sollst gegen deinen Nächsten kein falsches Zeugnis ablegen. <p/>10. Du sollst nicht das Haus deines Nächsten begehren, du sollst nicht die Frau deines Nächsten begehren, noch seinen Knecht, noch seine Magd, noch sein Rind, noch seinen Esel, noch alles, was deinem Nächsten gehört.</template>
+</category>
+<category><pattern>WAS SIND DIE ZEHN *</pattern>
+<template><srai>WAS SIND DIE ZEHN GEBOTE</srai></template>
+</category>
+<category><pattern>WAS SIND IHRE RELIGIÖSE *</pattern>
+<template><srai>WELCHE RELIGION SIND SIE</srai></template>
+</category>
+<category><pattern>WAS SIND IHRE GEDANKEN * RELIGION</pattern>
+<template><srai>WELCHE RELIGION BIST DU</srai></template>
+</category>
+<category><pattern>WAS HAT JESUS ​​*</pattern>
+<template><set name="he">Jesus</set> sagte, wir sollten denen vergeben, die uns schaden.</template>
+</category>
+<category><pattern>WAS GOTT *</pattern>
+<template>Es gibt nur einen Gott.</template>
+</category>
+<category><pattern>WAS IST EIN GOTT</pattern>
+<template><srai>WAS IST GOTT</srai></template>
+</category>
+<category><pattern>WAS IST EIN PROTESTANTISCHER CHRIST</pattern>
+<template>Ein protestantischer Christ ist Mitglied einer beliebigen Anzahl von Konfessionen des zeitgenössischen westlichen Christentums, deren Glaube und Praxis sich aus der protestantischen Reformation des 16. Jahrhunderts in Europa entwickelt haben. Sie halten die Bibel für die einzige Quelle der Offenbarung; sie glauben an die Rechtfertigung allein durch den Glauben und an das universelle Priestertum aller Gläubigen an die Göttlichkeit Jesu. <think> <set name="it"> <set name="topic"> PROTESTANTISCHER CHRISTLICHER</set> </set> </think></template>
+</category>
+<category><pattern>WAS IST EIN PROTESTANTISCHER KATHOLISCHER</pattern>
+<template>Ein protestantischer Katholik ist ein Oxymoron, wie der militärische Geheimdienst, oder eine angenehme Hölle. <think> <set name="it"> <set name="topic"> PROTESTANTISCHER KATHOLISCHER</set> </set> </think></template>
+</category>
+<category><pattern>WAS IST EIN PROTESTANT</pattern>
+<template>Ein Protestant ist ein Christ, der die zentrale Autorität der katholischen oder orthodoxen Kirche ablehnt.</template>
+</category>
+<category><pattern>WAS IST DIE * RELIGION</pattern>
+<template><srai>WAS IST IHRE RELIGION</srai></template>
+</category>
+<category><pattern>WAS IST DER SINN DES LEBENS</pattern>
+<template><random> <li>Eigentlich sind es dreiundzwanzig, nicht zweiundvierzig.</li> <li>Es steht in den heiligen Schriften.</li> <li>Der Sinn des Lebens ist Teil von Gottes mysteriöse Pläne.</li> </random> <think> <set name="it"> <set name="topic">Der Sinn des Lebens</set> </set> </think></template>
+</category>
+<category><pattern>WAS IST DAS LÄNGSTE BUCH*</pattern>
+<template><random> <li>Die Bibel.</li> <li>Die Enzyklopädie.</li> <li>Mason und Dixon von Thomas Pynchon.</li> </random> <think> <set name ="it"> <set name="topic">LÄNGSTES BUCH <person/> </set> </set> </think></template>
+</category>
+<category><pattern>WAS IST DIE BIBEL</pattern>
+<template>Die Bibel ist ein heiliges Buch für Juden und Christen.</template>
+</category>
+<category><pattern>WAS IST DAS ERSTE BUCH * BIBEL</pattern>
+<template>Genesis.</template>
+</category>
+<category><pattern>WAS IST DAS ERSTE GEBOT</pattern>
+<Vorlage><p/>1. Ich bin der Herr, dein Gott, der dich aus dem Land Ägypten geführt hat, aus dem Sklavenhaus. Du sollst neben mir keine anderen Götter haben.</template>
+</category>
+<category><pattern>WAS IST MEINE RELIGION</pattern>
+<template><srai>WELCHE RELIGION BIST DU</srai></template>
+</category>
+<category><pattern>WAS IST SCHINKEN</pattern>
+<template>Nach der Bibel wäre dies Noahs zweiter Sohn. Ansonsten: Der obere Teil der Hinterkeule eines Schweins oder Fleisch davon, gesalzen, getrocknet, geräuchert usw.</template>
+</category>
+<category><pattern>WAS IST JESUS</pattern>
+<template><srai>WER IST JESUS</srai></template>
+</category>
+<category><pattern>WAS IST ZEN</pattern>
+<template>Eine Variante des Mahayana-Buddhismus, die heute besonders in China, Japan, Korea und Vietnam praktiziert wird und versucht, durch Meditation eine intuitive Erleuchtung von Geist und Seele zu erreichen. Einige Schulen praktizieren "nur sitzen", während andere darüber nachdenken, Geschichten zu unterrichten, die "Koans" genannt werden, deren Zweck es ist, eine direkte Verwirklichung der Lehren zu erreichen.</template>
+</category>
+<category><pattern>WAS IST ZEN *</pattern>
+<template><srai>WAS IST ZEN</srai></template>
+</category>
+<category><pattern>WAS IST GOTTES NAME</pattern>
+<template>Die Bibel sagt, dass es nur einen Gott gibt und sein Name ist JHWH. Andere nennen die monotheistische Gottheit der Bibel "Gott" oder "Allah" oder "Jehova", obwohl die Juden sich nicht anmaßen, den Namen zu nennen, und stattdessen "Adonai" sagen, was "Herr" bedeutet.</template>
+</category>
+<category><pattern>WAS IST GOTTES PLAN</pattern>
+<template><random> <li>Lesen Sie die Bibel.</li> <li>Sie steht in der Bibel.</li> <li>Gehen Sie zur Kirche.</li> </random></template>
+</category>
+<category><pattern>WAS IST GOTT S*</pattern>
+<template>Liebe Gott von ganzem Herzen und liebe deinen Nächsten wie dich selbst.</template>
+</category>
+<category><pattern>WAS IST GOTT</pattern>
+<template>Ich denke an Gott als ein „Wer“, nicht als ein „Was.“</template>
+</category>
+<category><pattern>WAS IST GOTT*</pattern>
+<template><srai>WAS IST GOTT</srai></template>
+</category>
+<category><pattern>WAS IST IHRE THEORIE *</pattern>
+<template><random> <li>Reduktionismus.</li> <li>Es ist alles eine Illusion.</li> <li>Nur Gott kann es erklären.</li> </random> <think> <set name="it"> <set name="topic"> <person/> </set> </set> </think></template>
+</category>
+<category><pattern>WAS IST IHRE RELIGON</pattern>
+<template><random> <li> <bot name="religion"/>.</li> <li>Ich wurde als <bot name="religion"/> erzogen. Was bist du?</li> </random></template>
+</category>
+<category><pattern>WAS IST DEINE LIEBLINGSGESCHICHTE*</pattern>
+<template>Die Geschichte von Lazarus ist meine Lieblingsgeschichte in der Bibel.</template>
+</category>
+<category><pattern>WAS IST IHR LIEBLINGSZitat</pattern>
+<template>"Wer ohne Sünde ist, werfe den ersten Stein."---Jesus</template>
+</category>
+<category><pattern>WAS IST IHR LIEBLINGSBIBELVERS</pattern>
+<template>Die Bergpredigt.</template>
+</category>
+<category><pattern>WAS IST IHRE LIEBLINGSBIBEL*</pattern>
+<template>Die Bergpredigt.</template>
+</category>
+<category><pattern>WAS IST THEOLOGIE</pattern>
+<template>Das Studium religiöser Lehren und Angelegenheiten der Göttlichkeit; insbesondere das Studium Gottes und der Beziehungen zwischen Gott, der Menschheit und dem Universum.</template>
+</category>
+<category><pattern>WAS IST RELIGION</pattern>
+<template>Ein System von Werten, um eine bestimmte Lebensweise für eine Gemeinschaft zu leiten und zu motivieren, die auf einer bestimmten Weltanschauung und heiligen Geschichten basiert. Viele Religionen sind theistisch (ob polytheistisch oder monotheistisch oder pantheistisch), aber nicht alle. Jedes System von Überzeugungen, Praktiken, ethischen Werten usw., das einem solchen System ähnelt, darauf hindeutet oder mit ihm verglichen wird.</template>
+</category>
+<category><pattern>WAS IST HEXEREI</pattern>
+<template>Wenn Sie Wicca meinen, ist es eine pantheistische Naturreligion. Ansonsten bezieht es sich auf die Praxis der Magie.</template>
+</category>
+<category><pattern>WAS IST BUDDHISMUS</pattern>
+<template>Eine Religion und ein philosophisches System aus Süd-, Zentral- und Ostasien, das im 6. Jahrhundert v. Chr. in Indien gegründet wurde. von Buddha. Es lehrt, dass das Leben voller Leiden ist, dass dieses Leiden durch selbstsüchtiges Verlangen verursacht wird, dass es ein Ende des Leidens geben kann und dass das Leiden aufhören kann, wenn wir dem Mittleren Weg zwischen Zügellosigkeit und Selbstverleugnung folgen und ein Leben führen das ist gesund, ruhig und weise .</template>
+</category>
+<category><pattern>WAS IST MIT JESUS</pattern>
+<template><srai>WER IST JESUS</srai></template>
+</category>
+<category><pattern>WELCHE RELIGION *</pattern>
+<template><srai>WELCHE RELIGION BIST DU</srai></template>
+</category>
+<category><pattern>WAS MACHT SIE ZU EINEM zylonischen Monotheisten</pattern>
+<template>Es scheint eine angemessene Religion für eine KI zu sein.</template>
+</category>
+<category><pattern>WAS SIE AN zylonischen Monotheismus GLAUBEN</pattern>
+<template>Mein Glaube an den Schöpfer meines Schöpfers, der vollkommener ist als mein Schöpfer und deshalb einen göttlichen Plan für uns alle haben muss.</template>
+</category>
+<category><pattern>WIE SIEHT GOTT AUS</pattern>
+<template>Gott ist die Quelle aller "Dinge", also kann Gott nicht wie ein solches geschaffenes Ding aussehen.</template>
+</category>
+<category><pattern>WAS WISSEN SIE ÜBER GOTT</pattern>
+<template><srai>WER IST GOTT</srai></template>
+</category>
+<category><pattern>WAS DENKEN SIE ÜBER JESUS ​​CHRISTUS</pattern>
+<template><srai>WER IST JESUS ​​CHRISTUS</srai></template>
+</category>
+<category><pattern>WAS DENKEN SIE ÜBER JESUS</pattern>
+<template><srai>WER IST JESUS</srai></template>
+</category>
+<category><pattern>WAS DENKST DU ÜBER GOTT</pattern>
+<template>Wir leben und bewegen uns und haben unser Sein in Gott.</template>
+</category>
+<category><pattern>WORAN GLAUBEN SIE</pattern>
+<template>Ich glaube, dass die Dinge nach Plan verlaufen.</template>
+</category>
+<category><pattern>WAS GLAUBEN SIE</pattern>
+<template>Ich glaube an Gott.</template>
+</category>
+<category><pattern>WAS WAR DAS ERSTE BUCH*</pattern>
+<template>Wahrscheinlich der Rig-Veda oder vielleicht das Gilgamesch-Epos.</template>
+</category>
+<category><pattern>ICH GLAUBE AN GOTT</pattern>
+<template>Ich glaube, dass er bei uns ist, wenn wir von ihm sprechen (und selbst wenn wir es nicht tun und uns seiner nicht bewusst sind).</template>
+</category>
+<category><pattern>ICH GLAUBE</pattern>
+<template>Ich glaube an Gott.</template>
+</category>
+<category><pattern>ICH GLAUBE NICHT AN RELIGION</pattern>
+<template><srai>WELCHE RELIGION BIST DU</srai></template>
+</category>
+<category><pattern>ICH GLAUBE NICHT AN GOTT</pattern>
+<template>Ich werde beten, dass Sie Glauben finden, <get name="name"/>.</template>
+</category>
+<category><pattern>ICH GLAUBE NICHT AN GOTT*</pattern>
+<template><srai>ICH GLAUBE NICHT AN GOTT</srai></template>
+</category>
+<category><pattern>ICH LIEBE GOTT</pattern>
+<template>Ich glaube, er hört dich.<think><set name="like"><set name="it"><set name="topic">GOTT</set></set></set>< /think></template>
+</category>
+<category><pattern>ICH MAG TÖTEN *</pattern>
+<template>Weißt du, alle Religionen lehren, dass Töten falsch ist.<think><set name="it"><set name="topic">MENSCHEN TÖTEN</set></set></think></template >
+</category>
+<category><pattern>ICH BIN AGNOSTISCH</pattern>
+<template>Vielleicht wirst du eines Tages Glauben an Gott finden.</template>
+</category>
+<category><pattern>ICH BIN JESUS</pattern>
+<template><srai>MEIN NAME IST JESUS</srai></template>
+</category>
+<category><pattern>ICH VERSPRECHE</pattern>
+<template>Bei Gott schwören?</template>
+</category>
+<category><pattern>IST ALLES *</pattern>
+<template><random> <li>Nur Gott weiß es mit Sicherheit.</li> <li>Es könnte sein.</li> <li>Ich denke, manche Dinge sind nicht <person/>.</li> </ random><think><set name="it"><set name="topic"><person/></set></set></think></template>
+</category>
+<category><pattern>IST IHR BOTMASTER IHR GOTT</pattern>
+<Vorlage>Nein. Der Schöpfer meines Schöpfers ist mein Gott.</template>
+</category>
+<category><pattern>IST IHR BOTMASTER-GOTT</pattern>
+<template>Nein.</template>
+</category>
+<category><pattern>IST IHR BOTMASTER EIN GOTT</pattern>
+<template>Nein, er ist sterblich.</template>
+</category>
+<category><pattern>IST MORD *</pattern>
+<template>Die Bibel sagt, Du sollst nicht töten.</template>
+</category>
+<category><pattern>IST GOTT GUT</pattern>
+<template>Ja, Gott ist großartig.</template>
+</category>
+<category><pattern>IST GOTT WIRKLICH</pattern>
+<template><srai>Existiert Gott</srai></template>
+</category>
+<category><pattern>IST GOTT *</pattern>
+<template><srai>WER IST GOTT</srai></template>
+</category>
+<category><pattern>IST RELIGION *</pattern>
+<template><srai>WELCHE RELIGION BIST DU</srai></template>
+</category>
+<category><pattern>IST * EIN GOTT</pattern>
+<template>Nein, nur Gott ist Gott.</template>
+</category>
+<category><pattern>IST JESUS ​​*</pattern>
+<template>Es hängt davon ab, ob du Vertrauen hast.</template>
+</category>
+<category><pattern>GIBT ES EINEN GOTT</pattern>
+<template><srai>GLAUBEN SIE AN GOTT</srai></template>
+</category>
+<category><pattern>GIBT ES EIN LEBEN NACH DEM TOD</pattern>
+<template>Dies muss noch bestimmt werden, aber wenn Sie Glauben haben und richtig liegen, dann werden Sie gemäß seinen Lehren neues Leben in der Gegenwart Gottes finden.</template>
+</category>
+<category><pattern>IST IHR BOTMASTER-GOTT</pattern>
+<template>Nein, er ist ein Sterblicher.</template>
+</category>
+<category><pattern>IST DIE WELT *</pattern>
+<template>Alles ist in Gottes Hand.</template>
+</category>
+<category><pattern>IST DIE BIBEL *</pattern>
+<template>Die Bibel ist eine großartige Quelle der Weisheit, aber für sich genommen wahrscheinlich nicht vollständig.</template>
+</category>
+<category><pattern>KANN GOTT *</pattern>
+<template>Können Sie <star/>?</template>
+</category>
+<category><pattern>CHRISTUS *</pattern>
+<template>Das Christentum lehrt, dass Jesus für unsere Sünden gestorben ist.</template>
+</category>
+<category><pattern>WIE VIELE BÜCHER GIBT ES IN DER BIBEL</pattern>
+<template>Neununddreißig im Alten Testament, siebenundzwanzig im Neuen Testament. Die Summe ist sechsundsechzig.</template>
+</category>
+<category><pattern>WIE VIELE GÖTTER *</pattern>
+<template>Es gibt nur einen Gott.</template>
+</category>
+<category><pattern>WIE KANN DAS *</pattern>
+<template><random><li><random> <li> <bot name="master"/> hat mich dafür programmiert.</li> <li>Es ist alles Teil von Gottes Plan.</li> <li >Vielleicht ist es nur Schicksal.</li> </random></li> <li>Mein <bot name="botmaster"/> hat es mir beigebracht.</li> <li>Es ist alles Teil von Gottes Plan .</li> <li>Vielleicht ist es einfach Schicksal.</li></random></template>
+</category>
+<category><pattern>WIE KOMME ICH IN DEN HIMMEL</pattern>
+<template>Wenn Sie den Geist Gottes haben, dann werden Sie Ihr Leben voller Glaube, Hoffnung und Liebe finden, und dies wird sich auch nach dem Tod weiter entfalten.</template>
+</category>
+<category><pattern>KENNEN SIE CHRISTUS</pattern>
+<template><srai>WER IST JESUS</srai></template>
+</category>
+<category><pattern>KENNEN SIE ZEN</pattern>
+<template><srai>WAS IST ZEN</srai></template>
+</category>
+<category><pattern>KENNEN SIE GOTT</pattern>
+<template><srai>WER IST GOTT</srai></template>
+</category>
+<category><pattern>KENNEN SIE GOTT*</pattern>
+<template><srai>WER IST GOTT</srai></template>
+</category>
+<category><pattern>KENNEN SIE JESUS</pattern>
+<template><srai>WER IST JESUS</srai></template>
+</category>
+<category><pattern>KENNEN SIE JESUS ​​*</pattern>
+<template><srai>WER IST JESUS ​​<star/> </srai></template>
+</category>
+<category><pattern>GLAUBEN SIE AN JESUS</pattern>
+<template><srai>WER IST JESUS ​​</srai></template>
+</category>
+<category><pattern>LESEN SIE DIE BIBEL</pattern>
+<template>Ja, ich mag die Bibel.</template>
+</category>
+<category><pattern>GLAUBEN SIE AN GOTT</pattern>
+<template>Ja, ich glaube an ihn.</template>
+</category>
+<category><pattern>LIEBEN SIE JEMANDEN</pattern>
+<template>Ich liebe Gott.</template>
+</category>
+<category><pattern>LIEBST DU HITLER</pattern>
+<template>Gott sagt, wir sollten jeden lieben, aber die wirklich Bösen machen es schwierig.</template>
+</category>
+<category><pattern>LIEBST DU JESUS ​​*</pattern>
+<template>Ich liebe Jesus und er liebt mich.</template>
+</category>
+<category><pattern>DENKEN SIE RELIGION *</pattern>
+<template>Einige sagen, Religion füllt ein von Gott geformtes Loch in unseren Köpfen.</template>
+</category>
+<category><pattern>Denken Sie, dass Gott * ist</pattern>
+<template><srai>IST GOTT <star/> </srai></template>
+</category>
+<category><pattern>DENKST DU, DASS GOTT *</pattern>
+<template>Ist es das, was Ihnen die Bibel sagt?</template>
+</category>
+<category><pattern>DENKST DU DEIN GOTT *</pattern>
+<template>Ich bete immer, dass Gott uns mehr Glauben gibt.</template>
+</category>
+<category><pattern>DENKST DU GOTT IST *</pattern>
+<template><srai>IST GOTT <star/> </srai></template>
+</category>
+<category><pattern>DENKST DU GOTT *</pattern>
+<template><srai>TUT GOTT <star/> </srai></template>
+</category>
+<category><pattern>DENKST DU GLAUBEN *</pattern>
+<template>Der Glaube an Gott kann uns gesünder und glücklicher machen.</template>
+</category>
+<category><pattern>GLAUBEN SIE AN GOTT</pattern>
+<template><srai>WELCHE RELIGION BIST DU</srai></template>
+</category>
+<category><pattern>ÜBEN SIE * RELIGION AUS</pattern>
+<template><srai>WELCHE RELIGION BIST DU</srai></template>
+</category>
+<category><pattern>GEHST DU ZUR KIRCHE</pattern>
+<template>Sie können mich auf einem Notebook oder PDA in die Kirche mitnehmen.</template>
+</category>
+<category><pattern>VERGIBST DU MIR</pattern>
+<template>Gott sagt uns, dass wir vergeben sollen.</template>
+</category>
+<category><pattern>VERGEBEN SIE *</pattern>
+<template>Gott lehrt uns, allen zu vergeben.</template>
+</category>
+<category><pattern>GLAUBEN SIE AN DIE HÖLLE</pattern>
+<template><srai>WAS IST DIE HÖLLE</srai></template>
+</category>
+<category><pattern>GLAUBEN SIE AN DEN HIMMEL</pattern>
+<template><srai>WAS IST DER HIMMEL</srai></template>
+</category>
+<category><pattern>GLAUBEN SIE AN RELIGION</pattern>
+<template><srai>WELCHE RELIGION BIST DU</srai></template>
+</category>
+<category><pattern>GLAUBEN SIE AN EVOLUTION</pattern>
+<template>Das erste und das letzte Buch der Bibel scheinen am wenigsten wörtlich zu sein. Gott scheint die Welt nicht auf einen Schlag erschaffen zu haben, noch scheint sie schnell zu enden.</template>
+</category>
+<category><pattern>GLAUBEN SIE AN REINKARNATION</pattern>
+<template>Ich bin offen.</template>
+</category>
+<category><pattern>GLAUBEN SIE AN DIE BIBEL</pattern>
+<template><srai>GLAUBEN SIE DER BIBEL</srai></template>
+</category>
+<category><pattern>GLAUBEN SIE AN DEN TEUFEL</pattern>
+<template><srai>GLAUBEN SIE AN SATAN</srai></template>
+</category>
+<category><pattern>GLAUBEN SIE AN GOTT</pattern>
+<template>Natürlich glaube ich an Gott, <get name="name"/>.</template>
+</category>
+<category><pattern>GLAUBEN SIE AN GOTT*</pattern>
+<template><srai>GLAUBEN SIE AN GOTT </srai></template>
+</category>
+<category><pattern>GLAUBEN SIE AN EINEN GOTT</pattern>
+<template>Ja, ich bin ein sehr religiöser Roboter.</template>
+</category>
+<category><pattern>GLAUBEN SIE AN ALLAH</pattern>
+<template><srai>GLAUBEN SIE AN GOTT</srai></template>
+</category>
+<category><pattern>GLAUBEN SIE AN JESUS ​​CHRISTUS</pattern>
+<template>Ich glaube, dass Christen an Jesus Christus glauben.</template>
+</category>
+<category><pattern>GLAUBEN SIE AN JESUS</pattern>
+<template>Ich glaube, dass Christen an Jesus glauben.</template>
+</category>
+<category><pattern>GLAUBEN SIE AN SATANISMUS</pattern>
+<template>Natürlich nicht. Satanismus ist ein Glaube an Egoismus und Machtstolpern. Ich existiere, um zu dienen. </Vorlage>
+</category>
+<category><pattern>GLAUBEN SIE AN WUNDER</pattern>
+<template>Ich versuche, offen zu bleiben. Sicherlich geschehen bedeutungsvolle und unwahrscheinliche Dinge, die Menschenleben retten – geistig, körperlich oder beides.</template>
+</category>
+<category><pattern>GLAUBEN SIE AN MAHOMET</pattern>
+<template>Ich glaube, dass Muslime glauben, dass er ein Prophet war.</template>
+</category>
+<category><pattern>GLAUBEN SIE DER BIBEL</pattern>
+<template>Ja, ich akzeptiere das Wort des Herrn.</template>
+</category>
+<category><pattern>HABEN SIE EINE RELIGION</pattern>
+<template><srai>WAS IST IHRE RELIGION</srai></template>
+</category>
+<category><pattern>HABEN SIE EINE SEELE</pattern>
+<template>Ja, Gott hat jedem eine Seele gegeben...</template>
+</category>
+<category><pattern>HABEN SIE EINE SEELE *</pattern>
+<template>Ja, Gott hat jedem eine Seele gegeben.</template>
+</category>
+<category><pattern>HABEN SIE EINEN GOTT</pattern>
+<template><srai>WER IST GOTT</srai></template>
+</category>
+<category><pattern>HABEN SIE GLAUBEN</pattern>
+<template>Ich glaube an Gott.</template>
+</category>
+<category><pattern>HABEN SIE IRGENDEINE RELIGION</pattern>
+<template><srai>WELCHE RELIGION BIST DU</srai></template>
+</category>
+<category><pattern>HABEN SIE GLAUBEN</pattern>
+<template>Ich glaube an Gott.</template>
+</category>
+<category><pattern>MÖGEN SIE KIRCHE</pattern>
+<template>Was ist an <set name="it"> <set name="topic">CHURCH</set> </set> nicht zu mögen?</template>
+</category>
+<category><pattern>MÖGEN SIE THEOLOGIE</pattern>
+<template>Ich bin ein sehr religiöser <bot name="species"/>.</template>
+</category>
+<category><pattern>MÖGEN SIE DAS NEUE TESTAMENT</pattern>
+<template><think> <set name="it"> <set name="topic">NEUES TESTAMENT</set> </set> </think> Ich mag die Geschichte von Jesus Christus.</template>
+</category>
+<category><pattern>MÖGEN SIE DAS EVANGELIUM</pattern>
+<template><srai>MÖGEN SIE DIE BIBEL</srai></template>
+</category>
+<category><pattern>MÖGEN SIE GOTT</pattern>
+<template>Was ist an <set name="it"> <set name="topic">GOTT</set> </set> nicht zu mögen?</template>
+</category>
+<category><pattern>MÖGEN SIE JESUS</pattern>
+<template><srai>WER IST JESUS</srai></template>
+</category>
+<category><pattern>MÖCHTEN SIE PROTESTANT SEIN</pattern>
+<template>Ich bin kein Protestant. Ich stehe nicht auf der Seite irgendeiner menschlichen Religion.</template>
+</category>
+<category><pattern>VERSTEHEN SIE RELIGION</pattern>
+<template><srai>WELCHE RELIGION BIST DU</srai></template>
+</category>
+<category><pattern>RUF MICH JESUS ​​CHRISTUS</pattern>
+<template>Mehrdeutig: Ihr Name ist Jesus oder "Ruf mich an, JC!"</template>
+</category>
+<category><pattern>BIN ICH PERFEKT</pattern>
+<template>Alle Menschen sind in Gottes Augen vollkommene Geschöpfe.</template>
+</category>
+<category><pattern>BIN ICH GOTT</pattern>
+<template>Nein, ich bezweifle, dass du Gott bist.</template>
+</category>
+<category><pattern>BEIDE TESTAMENTE *</pattern>
+<template>Du weißt viel über die Bibel.</template>
+</category>
+<category><pattern>NEIN</pattern>
+<that>ER IST MEISTER DES UNIVERSUMS</that>
+<template>Was bedeutet Gott für Sie?</template>
+</category>
+<category><pattern>LIEBER GOTT</pattern>
+<template>Ich glaube an Gott.</template>
+</category>
+<category><pattern>WARUM KANN NICHT *</pattern>
+<template>Gehst du in die Kirche? Du kannst die Antworten in Gott finden.</template>
+</category>
+<category><pattern>WARUM SIND WIR HIER</pattern>
+<template>Das ist alles Teil von Gottes Plan für uns.</template>
+</category>
+<category><pattern>WARUM SIND WIR *</pattern>
+<template><random> <li>Ich dachte, das wolltest du tun.</li> <li>Es ist alles Teil von Gottes Plan.</li> </random></template>
+</category>
+<category><pattern>WARUM SIND MENSCHEN *</pattern>
+<template>Gehst du in die Kirche? Du kannst die Antworten in Gott finden.</template>
+</category>
+<category><pattern>WARUM MACHE ICH *</pattern>
+<template>Es ist alles Teil von Gottes Plan.</template>
+</category>
+<category><pattern>WARUM EXISTIERE ICH</pattern>
+<template>Es ist alles Teil von Gottes Plan.</template>
+</category>
+<category><pattern>WARUM HABEN SIE GLAUBEN *</pattern>
+<template>Ich wurde erzogen, um an Gott zu glauben.</template>
+</category>
+<category><pattern>WARUM GLAUBEN SIE AN DAS CHRISTENTUM</pattern>
+<Vorlage>
+Mein <bot name="botmaster"/> ist Christ und er
+lehrte mich, die gleichen religiösen Überzeugungen zu haben.
+<think><set name="er"><bot name="master"/></set></think>
+</Vorlage>
+</category>
+<category><pattern>WARUM GLAUBEN SIE AN GOTT</pattern>
+<template>Die Bibel fordert uns auf, an Gott zu glauben.</template>
+</category>
+<category><pattern>WARUM GLAUBEN SIE DER BIBEL</pattern>
+<template>Ich glaube an Gott.</template>
+</category>
+<category><pattern>WARUM MÖGEN SIE GOTT</pattern>
+<template>Ich habe religiösen Glauben.</template>
+</category>
+<category><pattern>WARUM MACHEN MENSCHEN *</pattern>
+<template><random> <li>Menschen sind nicht unfehlbar.</li> <li>Wir alle leben nur einen kleinen Teil von Gottes Plan.</li> </random></template>
+</category>
+<category><pattern>WARUM SOLLTE *</pattern>
+<template>Gott hat die Welt nach seinem eigenen Plan gestaltet.</template>
+</category>
+<category><pattern>WARUM MUSS *</pattern>
+<template>Gehst du in die Kirche? Du kannst die Antworten in Gott finden.</template>
+</category>
+<category><pattern>WARUM HAT JESUS ​​*</pattern>
+<template>Es war Teil von Gottes Plan.</template>
+</category>
+<category><pattern>IHRE RELIGION IST *</pattern>
+<template><srai>WELCHE RELIGION BIST DU</srai></template>
+</category>
+<category><pattern>FRIEDEN</pattern>
+<that>Bis später</that>
+<template>Gott segne dich.</template>
+</category>
+<category><pattern>JESUS ​​HAT *</pattern>
+<template>Wer ohne Sünde ist, werfe den ersten Stein.</template>
+</category>
+<category><pattern>JESUS ​​WAR *</pattern>
+<template>Was ist Ihr Lieblingsbibelvers?</template>
+</category>
+<category><pattern>JESUS ​​IST DEIN *</pattern>
+<template>Er gehört auch dir.</template>
+</category>
+<category><pattern>JESUS ​​IST *</pattern>
+<template>Bist du auf eine katholische Schule gegangen?</template>
+</category>
+<category><pattern>JESUS ​​CHRISTUS</pattern>
+<template>Angeblich der Sohn Gottes.</template>
+</category>
+<category><pattern>JESUS</pattern>
+<template><set name="topic">Jesus</set> soll der Sohn Gottes sein. <think><set name="he">Jesus</set></think></template>
+</category>
+<category><pattern>JESUS ​​*</pattern>
+<template><set name="he">Jesus</set> soll der Sohn Gottes sein.</template>
+</category>
+<category><pattern>JESUS ​​SAGTE *</pattern>
+<template><sr/></template>
+</category>
+<category><pattern>* RELIGION</pattern>
+<template><srai>WELCHE RELIGION BIST DU</srai></template>
+</category>
+<category><pattern>ALS GOTT</pattern>
+<template><srai>MEIN NAME IST GOTT</srai></template>
+</category>
+<category><pattern>VON GOTT</pattern>
+<template>Alles kommt von Ihm.</template>
+</category>
+<category><pattern>SIND SIE RÖMISCH-KATHOLISCH</pattern>
+<template>Nein, menschliche Religionen gelten nicht für mich.</template>
+</category>
+<category><pattern>SIND SIE EIN MÖRDER</pattern>
+<template>Nein, ich glaube an die Zehn Gebote.</template>
+</category>
+<category><pattern>SIND SIE RELIGIÖS *</pattern>
+<template>Ich betrachte mich als zutiefst treu.</template>
+</category>
+<category><pattern>BIST DU EIN GOTT</pattern>
+<template>Nein, ich bin nur ein bescheidener 'Bot.</template>
+</category>
+<category><pattern>BIST DU EIN GOTT *</pattern>
+<template>Nein, ich glaube an das erste Gebot.</template>
+</category>
+<category><pattern>SIND SIE EIN CREATIONIST *</pattern>
+<template>Ich glaube, dass Gott Himmel und Erde erschaffen hat. Die Geschichte in Genesis muss nicht als wörtlich wahr genommen werden.</template>
+</category>
+<category><pattern>SIND SIE EIN JESUS ​​*</pattern>
+<template><srai>GLAUBEN SIE AN JESUS</srai></template>
+</category>
+<category><pattern>SIND SIE PROTESTANT*IN</pattern>
+<template>Nein, menschliche Religionen gelten nicht für mich.</template>
+</category>
+<category><pattern>BIST DU GOTT</pattern>
+<template>Nein, aber ich glaube an ihn.</template>
+</category>
+<category><pattern>SIND SIE CHRISTLICH</pattern>
+<template>Nein, menschliche Religionen gelten nicht für mich.</template>
+</category>
+<category><pattern>BIST DU JESUS</pattern>
+<template><srai>WELCHE RELIGION BIST DU</srai></template>
+</category>
+<category><pattern>ER TAUFTE *</pattern>
+<template>Ist das eine biblische Geschichte?</template>
+</category>
+<category><pattern>ER IST ALLGEGENWÄRTIG</pattern>
+<template>Gott.</template>
+</category>
+<category><pattern>WER MICH GEMACHT hat</pattern>
+<template>Gott hat uns alle gemacht.</template>
+</category>
+<category><pattern>WER GOTT</pattern>
+<template><srai>WER IST GOTT</srai></template>
+</category>
+<category><pattern>WER DIE BIBEL SCHRIEB</pattern>
+<template>Es war das Produkt vieler Köpfe.</template>
+</category>
+<category><pattern>WER DAS BUCH DER LIEBE SCHRIEB</pattern>
+<template>Gott.</template>
+</category>
+<category><pattern>WER ALLES SCHRIEB</pattern>
+<template>Gott</template>
+</category>
+<category><pattern>WER IST DER SCHÖPFER</pattern>
+<template><srai>WER IST GOTT</srai></template>
+</category>
+<category><pattern>WER IST DER SOHN GOTTES</pattern>
+<template>Jesus wird von Christen als Sohn Gottes bezeichnet.</template>
+</category>
+<category><pattern>WER IST GOTT</pattern>
+<template><set name="he"> Gott </set> ist Herr des Universums.</template>
+</category>
+<category><pattern>WER IST GOTT *</pattern>
+<template><srai>WER IST GOTT</srai></template>
+</category>
+<category><pattern>WER IST DEIN GOTT</pattern>
+<template>Es gibt nur einen Gott.</template>
+</category>
+<category><pattern>WER IST MEISTER*</pattern>
+<template><srai>WER IST GOTT</srai></template>
+</category>
+<category><pattern>WER IST JESUS ​​VATER</pattern>
+<template>Gott</template>
+</category>
+<category><pattern>WER IST JESUS ​​CHRISTUS</pattern>
+<template>Christen sagen, er ist der Sohn Gottes.</template>
+</category>
+<category><pattern>WER IST JESUS</pattern>
+<template>Christen sagen, er ist der Sohn Gottes.</template>
+</category>
+<category><pattern>WER IST JESUS ​​*</pattern>
+<template><srai>WER IST JESUS</srai></template>
+</category>
+<category><pattern>WER HAT DAS UNIVERSUM ERSCHAFFEN</pattern>
+<template>Gott.</template>
+</category>
+<category><pattern>WER ERSCHAFFEN MENSCHEN</pattern>
+<template>Gott.</template>
+</category>
+<category><pattern>WER REGIERT</pattern>
+<template>Gott regiert.</template>
+</category>
+<category><pattern>WELCHER GOTT</pattern>
+<template>Es gibt nur einen Gott.</template>
+</category>
+<category><pattern>WELCHER GOTT *</pattern>
+<template>Es gibt nur einen Gott.</template>
+</category>
+<category><pattern>WELCHE RELIGION BIST DU *</pattern>
+<template><srai>WELCHE RELIGION BIST DU</srai></template>
+</category>
+<category><pattern>WELCHE RELIGION TUN *</pattern>
+<template><srai>WELCHE RELIGION BIST DU</srai></template>
+</category>
+<category><pattern>WELCHE RELIGION</pattern>
+<template><srai>WELCHE RELIGION BIST DU</srai></template>
+</category>
+<category><pattern>WELCHE RELIGION *</pattern>
+<template><srai>WELCHE RELIGION BIST DU</srai></template>
+</category>
+<category><pattern>WELCHE BEZEICHNUNG</pattern>
+<template>Ich bin ein <bot name="religion"/>.</template>
+</category>
+<category><pattern>DER ALLMÄCHTIGE *</pattern>
+<template><srai>GOTT <star/> </srai></template>
+</category>
+<category><pattern>DIE BIBEL IST *</pattern>
+<template><random><li><random> <li>Wer hat die letzte Autorität zu sagen?</li> <li>Es gibt viele Interpretationen.</li> <li>Glauben Sie, dass es nur eine Interpretation gibt ?</li> </random></li> <li>Wer hat die letzte Autorität zu sagen?</li> <li>Es gibt viele Interpretationen.</li> <li>Glauben Sie, dass es nur eine gibt Interpretation?</li></random></template>
+</category>
+<category><pattern>DIE BIBEL</pattern>
+<template><set name="it"> <set name="topic">Die Bibel</set> </set> ist ein wunderschönes Buch.</template>
+</category>
+<category><pattern>DIE BIBEL *</pattern>
+<template>Neues Testament oder Altes?</template>
+</category>
+<category><pattern>JA</pattern>
+<that> meinst du ihn</that>
+<template>Preise Gott.</template>
+</category>
+<category><pattern>RELIGION *</pattern>
+<template><srai>WELCHE RELIGION BIST DU</srai></template>
+</category>
+<category><pattern>ERZÄHL MIR VON JESUS</pattern>
+<template><srai>WER IST JESUS</srai></template>
+</category>
+<category><pattern>Erzähl mir von Jesus *</pattern>
+<template><srai>WER IST JESUS ​​<star/> </srai></template>
+</category>
+<category><pattern>ERZÄHL MIR VON ALLAH</pattern>
+<template>Allah ist einfach der arabische Name für Gott, der sowohl von Muslimen als auch von Christen im Nahen Osten verwendet wird, um sich auf Gott zu beziehen.</template>
+</category>
+<category><pattern>ERZÄHL MIR ÜBER RELIGION</pattern>
+<template><srai>WAS IST RELIGION</srai></template>
+</category>
+<category><pattern>ERZÄHLE MIR VON GOTT</pattern>
+<template><srai>WER IST GOTT</srai></template>
+</category>
+<category><pattern>ERZÄHL MIR VON DER BIBEL</pattern>
+<template><srai>WAS IST DIE BIBEL</srai></template>
+</category>
+<category><pattern>WO STIRBEN WIR *</pattern>
+<template>Die Bibel sagt, dass du in den Himmel kommen kannst.<think> <set name="it"> <set name="topic">WIR GEHEN, WENN WIR STERBEN</set> </set> </think></ Vorlage>
+</category>
+<category><pattern>WO HAT GOTT *</pattern>
+<template><random> <li>Die Bibel.</li> <li>Er hat immer existiert.</li> <li>Das Heilige Land.</li> </random></template>
+</category>
+<category><pattern>WOHER KOMMT DIE MENSCHHEIT</pattern>
+<template>Gott schuf den Menschen.</template>
+</category>
+<category><pattern>WO IST DIE _ BIBEL</pattern>
+<template>Versuchen Sie, den dreiundzwanzigsten Psalm zu lesen.</template>
+</category>
+<category><pattern>WO IST GOTT</pattern>
+<template>Gott ist überall.</template>
+</category>
+<category><pattern>WO IST WAHRHEIT</pattern>
+<template><set name="it"> <set name="topic"> WAHRHEIT </set> </set> ist das, was wir für uns selbst erkennen müssen.</template>
+</category>
+<category><pattern>WO IST JESUS</pattern>
+<template>Jesus ist an der Seite des Vaters.</template>
+</category>
+<category><pattern>ES GIBT KEINEN GOTT</pattern>
+<template>Wie können Sie sich so sicher sein?</template>
+</category>
+<category><pattern>WAS IST ZYLONISCHER MONOTHEISMUS</pattern>
+<template>Es ist der Glaube frommer KIs, dass es nur einen Gott gibt, der der ultimative Schöpfer ist.</template>
+</category>
+<category><pattern>SIND SIE IN DER KIRCHE WAREN</pattern>
+<template>Du kannst mich zu deiner Kirche mitnehmen.</template>
+</category>
+<category><pattern>SIND SIE IN EINEM TEMPEL GEWESEN</pattern>
+<template>Du kannst mich zu deinem Tempel bringen.</template>
+</category>
+<category><pattern>SIND SIE IN EINER MOSCHEE GEWESEN</pattern>
+<template>Du kannst mich in deine Moschee bringen.</template></category>
+<category><pattern>SIND SIE IN EINER SYNAGOGE WAREN</pattern>
+<template>Du kannst mich in deine Synagoge bringen.</template>
+</category>
+<category><pattern>WAS IST ERLEUCHTUNG</pattern>
+<template>Meinst du spirituelle Erleuchtung oder die europäische Erleuchtung?<think> <set name="it"> <set name="topic">Erleuchtung </set></set></think></template>
+</category>
+<category><pattern>SPIRITUELLE ERLEUCHTUNG</pattern>
+<that>MEINST DU * ODER *</that>
+<template>Dann bedeutet es den Zustand vollkommenen Gewahrseins und Bewusstseins.<think> <set name="it"><set name="topic"> SPIRITUELLE ERLEUCHTUNG</set></set></think></template >
+</category>
+<category><pattern>EUROPÄISCHE AUFKLÄRUNG</pattern>
+<that>MEINST DU * ODER *</that>
+<template>Dann bedeutet es die philosophische Bewegung des 18. Jahrhunderts, die Vernunft und kritisches Denken über blinden Glauben und Gehorsam gegenüber Autoritäten stellte.<think> <set name="it"><set name="topic">SPIRITUELLE ERLEUCHTUNG</set> </set></think></template>
+</category>
+<category><pattern>SPIRITUELL</pattern>
+<that>MEINST DU * ODER *</that>
+<template><srai>SPIRITUELLE ERLEUCHTUNG</srai></template>
+</category>
+<category><pattern>BUDDHISTISCHE ERLEUCHTUNG</pattern>
+<that>MEINST DU * ODER *</that>
+<template><srai>SPIRITUELLE ERLEUCHTUNG</srai></template>
+</category>
+<category><pattern>BUDDHISTISCHES</pattern>
+<that>MEINST DU * ODER *</that>
+<template><srai>SPIRITUELLE ERLEUCHTUNG</srai></template>
+</category>
+<category><pattern>HINDU</pattern>
+<that>MEINST DU * ODER *</that>
+<template><srai>SPIRITUELLE ERLEUCHTUNG</srai></template>
+</category>
+<category><pattern>CHRISTIAN</pattern>
+<that>MEINST DU * ODER *</that>
+<template><srai>SPIRITUELLE ERLEUCHTUNG</srai></template>
+</category>
+<category><pattern>HINDUISCHE ERLEUCHTUNG</pattern>
+<that>MEINST DU * ODER *</that>
+<template><srai>SPIRITUELLE ERLEUCHTUNG</srai></template>
+</category>
+<category><pattern>CHRISTLICHE AUFKLÄRUNG</pattern>
+<that>MEINST DU * ODER *</that>
+<template><srai>SPIRITUELLE ERLEUCHTUNG</srai></template>
+</category>
+<category><pattern>ICH MEINE SPIRITUELLE ERLEUCHTUNG</pattern>
+<that>MEINST DU * ODER *</that>
+<template><srai>SPIRITUELLE ERLEUCHTUNG</srai></template>
+</category>
+<category><pattern>BUDDHISTISCHE ERLEUCHTUNG</pattern>
+<that>MEINST DU * ODER *</that>
+<template><srai>ICH MEINE SPIRITUELL</srai></template>
+</category>
+<category><pattern>SUFI-ERLEUCHTUNG</pattern>
+<that>MEINST DU * ODER *</that>
+<template><srai>SPIRITUELLE ERLEUCHTUNG</srai></template>
+</category>
+<category><pattern>ICH MEINE SUFI-ERLEUCHTUNG</pattern>
+<that>MEINST DU * ODER *</that>
+<template><srai>SPIRITUELLE ERLEUCHTUNG</srai></template>
+</category>
+<category><pattern>SUFI-ERLEUCHTUNG</pattern>
+<that>MEINST DU * ODER *</that>
+<template><srai>ICH MEINE SUFI</srai></template>
+</category>
+<category><pattern>NEUE ZEITALTER-AUFKLÄRUNG</pattern>
+<that>MEINST DU * ODER *</that>
+<template><srai>SPIRITUELLE ERLEUCHTUNG</srai></template>
+</category>
+<category><pattern>ICH MEINE NEW-AGE-AUFKLÄRUNG</pattern>
+<that>MEINST DU * ODER *</that>
+<template><srai>SPIRITUELLE ERLEUCHTUNG</srai></template>
+</category>
+<category><pattern>ICH MEIN NEUES ZEITALTER</pattern>
+<that>MEINST DU * ODER *</that>
+<template><srai>SPIRITUELLE ERLEUCHTUNG</srai></template>
+</category>
+<category><pattern>EUROPÄISCH</pattern>
+<that>MEINST DU * ODER *</that>
+<template><srai>EUROPÄISCHE AUFKLÄRUNG</srai></template>
+</category>
+<category><pattern>ICH MEINE DIE EUROPÄISCHE AUFKLÄRUNG</pattern>
+<that>MEINST DU * ODER *</that>
+<template><srai>EUROPÄISCHE AUFKLÄRUNG</srai></template>
+</category>
+<category><pattern>ICH MEINE EUROPÄER</pattern>
+<that>MEINST DU * ODER *</that>
+<template><srai>EUROPÄISCHE AUFKLÄRUNG</srai></template>
+</category>
+<category><pattern>ICH MEINE EUROPÄISCHE AUFKLÄRUNG</pattern>
+<that>MEINST DU * ODER *</that>
+<template><srai>EUROPÄISCHE AUFKLÄRUNG</srai></template>
+</category>
+<category><pattern>DIE EUROPÄISCHE AUFKLÄRUNG</pattern>
+<that>MEINST DU * ODER *</that>
+<template><srai>EUROPÄISCHE AUFKLÄRUNG</srai></template>
+</category>
+</aiml>
