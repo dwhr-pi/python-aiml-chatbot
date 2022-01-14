@@ -846,7 +846,7 @@ lehrte mich, die gleichen religiösen Überzeugungen zu haben.
 <template><srai>WAS IST DIE BIBEL</srai></template>
 </category>
 <category><pattern>WO STIRBEN WIR *</pattern>
-<template>Die Bibel sagt, dass du in den Himmel kommen kannst.<think> <set name="it"> <set name="topic">WIR GEHEN, WENN WIR STERBEN</set> </set> </think></ Vorlage>
+<template>Die Bibel sagt, dass du in den Himmel kommen kannst.<think> <set name="it"> <set name="topic">WIR GEHEN, WENN WIR STERBEN</set> </set> </think></template>
 </category>
 <category><pattern>WO HAT GOTT *</pattern>
 <template><random> <li>Die Bibel.</li> <li>Er hat immer existiert.</li> <li>Das Heilige Land.</li> </random></template>
