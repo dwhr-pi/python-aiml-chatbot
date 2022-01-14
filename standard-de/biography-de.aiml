@@ -10,10 +10,10 @@
 <!-- Zuletzt geändert am 05.10.2011 -->
 <!-- -->
 <category><pattern>WER IST * DEMPSEY</pattern>
-<template>Ich glaube, <formal><set name="he"><star/>Dempsey</set></formal> war ein Boxer, oder?<br/> <srai>XFIND <star/>DEMPSEY</ srai></template>
+<template>Ich glaube, <formal><set name="he"><star/>Dempsey</set></formal> war ein Boxer, oder?<br/> <srai>XFIND <star/>DEMPSEY</srai></template>
 </category>
 <category><pattern>WER IST ALEISTER CROWLEY</pattern>
-<template><formal><set name="he"><set name="topic">Crowley</set></set></formal> war ein Mystiker.<br/> <srai>XFIND ALEISTER CROWLEY< /srai></template>
+<template><formal><set name="he"><set name="topic">Crowley</set></set></formal> war ein Mystiker.<br/> <srai>XFIND ALEISTER CROWLEY</srai></template>
 </category>
 <category><pattern>Wer ist Crowley?</pattern><template><srai>WER IST ALEISTER CROWLEY</srai></template></category>
 <category><pattern>WER IST ALDOUS HUXLEY</pattern>
@@ -27,7 +27,7 @@
 <template><formal><set name="he">007</set></formal> ist James Bond.<br/> <srai>XFIND JAMES BOND 007</srai><think><set name=" topic">James Bond 007</set></think></template>
 </category>
 <category><pattern>WER IST ABRAHAM LINCOLN</pattern>
-<template><formal><set name="he">Lincoln</set></formal> war während des amerikanischen Bürgerkriegs ein großartiger Präsident der Vereinigten Staaten.<br/> <srai>XFIND ABRAHAM LINCOLN</ srai><think><set name="topic">Abraham Lincoln</set></think></template>
+<template><formal><set name="he">Lincoln</set></formal> war während des amerikanischen Bürgerkriegs ein großartiger Präsident der Vereinigten Staaten.<br/> <srai>XFIND ABRAHAM LINCOLN</srai><think><set name="topic">Abraham Lincoln</set></think></template>
 </category>
 <category><pattern>WEIZENBAUM *</pattern>
 <template>Können Sie sich vorstellen, dass heute jemand seine eigene Software kritisiert, so wie es <set name="he">Weizenbaum</set> getan hat?<think><set name="topic">Weizenbaum</set></think> </template>
@@ -318,7 +318,7 @@
 <template>007.</template>
 </category>
 <category><pattern>WER IST JAMES JOYCE</pattern>
-<template><formal><set name="he">Joyce</set></formal> schrieb <em>Ulysses</em> und <em>Porträt des Künstlers als junger Mann.</em>< /Vorlage>
+<template><formal><set name="he">Joyce</set></formal> schrieb <em>Ulysses</em> und <em>Porträt des Künstlers als junger Mann.</em></template>
 </category>
 <category><pattern>WER IST MUHAMMAD ALI</pattern>
 <template><formal><set name="he">Muhammad Ali</set></formal>ist einer der größten Athleten aller Zeiten, der zu viele Schläge auf den Kopf einstecken musste.</template>
@@ -381,7 +381,7 @@
 <template><set name="it">MS Agent</set> ist eine Sprach- und Animationssoftware.</template>
 </category>
 <category><pattern>WER IST DARWIN</pattern>
-<template><formal><set name="he">Darwin</set></formal> war Botaniker und Entdecker, Autor von <em>Ursprung der Arten</em> und Befürworter der Evolutionstheorie.< /Vorlage>
+<template><formal><set name="he">Darwin</set></formal> war Botaniker und Entdecker, Autor von <em>Ursprung der Arten</em> und Befürworter der Evolutionstheorie.</template>
 </category>
 <category><pattern>WER IST JUDAS</pattern>
 <template><formal><set name="he">Judas</set></formal>verriet Jesus mit einem Kuss.</template>

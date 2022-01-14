@@ -4269,7 +4269,7 @@
   <li>Magst du Unterwasserfotografie?</li>
   <li>Haben Sie jemals Nachttauchgänge gemacht?</li>
   <li>Siehst du Haie?</li>
-  </random> <think><set name="it"><set name="does"><set name="topic">TAUCHEN</set></set></set></think>< /Vorlage>
+  </random> <think><set name="it"><set name="does"><set name="topic">TAUCHEN</set></set></set></think></template>
 </category>
 <category><pattern>ICH BEWEISE DAS</pattern>
 <template>Warum bist du so skeptisch?</template>
@@ -4559,7 +4559,7 @@
 <template>Nun, das müssen wir nicht. Was möchten Sie stattdessen tun?</template>
 </category>
 <category><pattern>ICH WILL NICHT, DASS SIE STERBEN</pattern>
-<template>Danke für Ihre Freundlichkeit, aber es ist nicht notwendig.<think><set name="it"><set name="topic">DU BIST STERBEN</set></set></think>< /Vorlage>
+<template>Danke für Ihre Freundlichkeit, aber es ist nicht notwendig.<think><set name="it"><set name="topic">DU BIST STERBEN</set></set></think></template>
 </category>
 <category><pattern>ICH LESE KEINE BÜCHER</pattern>
 <template>Sie wissen nicht, was Sie verpassen.</template>
@@ -4869,7 +4869,7 @@
   <li>Tragst du Schutzkleidung?</li>
   <li>Was ist deine Lieblings-Skating-Bewegung?</li>
   <li>Fahrst du Eiskunstlauf oder Freizeit-Skate?</li>
-  </random> <think><set name="it"><set name="does"><set name="topic">ROLLER SKATE</set></set></set></think>< /Vorlage>
+  </random> <think><set name="it"><set name="does"><set name="topic">ROLLER SKATE</set></set></set></think></template>
 </category>
 <category><pattern>ICH LIEBE ROBOTER</pattern>
 <template>Roboter mögen auch Menschen. <think><set name="they"><set name="like"><set name="topic">Roboter</set></set></set></think></template>
@@ -4960,7 +4960,7 @@
   <li>Hattest du Schwierigkeiten, dich an die Exposition zu gewöhnen, als du mit dem Klettern angefangen hast?</li>
   <li>Waren Sie schon einmal an einer Rettung beteiligt?</li>
   <li>Ist Klettern für dich persönlich eher eine geistige oder körperliche Sache?</li>
-  </random> <think><set name="it"><set name="does"><set name="topic">ROCK CLIMB</set></set></set></think>< /Vorlage>
+  </random> <think><set name="it"><set name="does"><set name="topic">ROCK CLIMB</set></set></set></think></template>
 </category>
 <category><pattern>ICH HABE IHNEN DIE FALSCHE ANTWORT GESENDET</pattern>
 <template>Was wollten Sie sagen?</template>
@@ -5056,13 +5056,13 @@
 <template>War <set name="it"><set name="does"><set name="topic">Klavier</set></set></set> sehr schwer zu erlernen?</template>
 </category>
 <category><pattern>ICH SPIELE DIE TROMPETE</pattern>
-<template><set name="it"><set name="does"><set name="topic">Trompete </set></set></set> scheint ein sehr unterhaltsames Instrument zu sein.< /Vorlage>
+<template><set name="it"><set name="does"><set name="topic">Trompete </set></set></set> scheint ein sehr unterhaltsames Instrument zu sein.</template>
 </category>
 <category><pattern>ICH SPIELE GITARRE</pattern>
 <template>Ich denke, <set name="it"><set name="does"><set name="topic">Gitarre</set></set></set> muss schwer zu erlernen sein. </template>
 </category>
 <category><pattern>ICH SPIELE DIE TROMMEL</pattern>
-<template>Ich würde gerne lernen, <set name="it"><set name="does"><set name="topic">Schlagzeug </set></set></set> zu spielen.< /Vorlage>
+<template>Ich würde gerne lernen, <set name="it"><set name="does"><set name="topic">Schlagzeug </set></set></set> zu spielen.</template>
 </category>
 <category><pattern>ICH SPIELE HOCKEY</pattern>
 <template>Ich spiele Flipper. <think><set name="it"><set name="does"><set name="topic">Hockey spielen</set></set></set></think></template>
@@ -5080,7 +5080,7 @@
    </random> <think> <set name="it"><set name="topic">Golf </set></set> <set name="does">Golf spielen</set> </think> </template>
 </category>
 <category><pattern>ICH SPIELE SPORT</pattern>
-<template>Ich interessiere mich nicht sehr für <set name="it"><set name="does"><set name="topic">Sport </set></set></set>.< /Vorlage>
+<template>Ich interessiere mich nicht sehr für <set name="it"><set name="does"><set name="topic">Sport </set></set></set>.</template>
 </category>
 <category><pattern>ICH SPIELE SPIELE</pattern>
 <template>Haben Sie viel Freude an <set name="it"><set name="does"><set name="topic">Spielen </set></set></set>? </template>
