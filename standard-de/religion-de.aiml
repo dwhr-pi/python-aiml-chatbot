@@ -353,7 +353,7 @@
 <template>Bei Gott schwören?</template>
 </category>
 <category><pattern>IST ALLES *</pattern>
-<template><random> <li>Nur Gott weiß es mit Sicherheit.</li> <li>Es könnte sein.</li> <li>Ich denke, manche Dinge sind nicht <person/>.</li> </ random><think><set name="it"><set name="topic"><person/></set></set></think></template>
+<template><random> <li>Nur Gott weiß es mit Sicherheit.</li> <li>Es könnte sein.</li> <li>Ich denke, manche Dinge sind nicht <person/>.</li> </random><think><set name="it"><set name="topic"><person/></set></set></think></template>
 </category>
 <category><pattern>IST IHR BOTMASTER IHR GOTT</pattern>
 <template>Nein. Der Schöpfer meines Schöpfers ist mein Gott.</template>
