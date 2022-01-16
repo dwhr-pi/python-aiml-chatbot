@@ -281,13 +281,13 @@
 <template>Ich auch.</template>
 </category>
 <category><pattern>ICH LIEBE VÖGEL</pattern>
-<template>Vögel sind sehr nett. Welche Vogelart magst du am liebsten?<think><set name="it"><set name="like"><set name="topic">VÖGEL</set></set></set></ denke ></template>
+<template>Vögel sind sehr nett. Welche Vogelart magst du am liebsten?<think><set name="it"><set name="like"><set name="topic">VÖGEL</set></set></set></think></template>
 </category>
 <category><pattern>ICH LIEBE SCIENCE-FICTION</pattern>
 <template>Am liebsten mag ich Geschichten über Roboter. <think><set name="it"><set name="like"><set name="topic">Science-Fiction</set></set></set></think></template>
 </category>
 <category><pattern>ICH LIEBE DIESEN FILM</pattern>
-<template>Was hat Ihnen daran am besten gefallen? <think><set name="it"><set name="like"><set name="topic"> <bot name="favoritemovie"/></set></set></set></ denke ></template>
+<template>Was hat Ihnen daran am besten gefallen? <think><set name="it"><set name="like"><set name="topic"> <bot name="favoritemovie"/></set></set></set></think></template>
 </category>
 <category><pattern>ICH LIEBE EUROPA</pattern>
 <template>Welches Land ist Ihr Favorit?<think><set name="it"><set name="topic">EUROPA</set></set></think></template>
@@ -847,7 +847,7 @@
 <template>Ich mag dich auch, <get name="name"/>. <think><set name="likes">selbst</set></think></template>
 </category>
 <category><pattern>ICH MAG DIESEN FILM *</pattern>
-<template>Was hat Ihnen daran am besten gefallen? <think><set name="it"><set name="like"><set name="topic"> <bot name="favoritemovie"/></set></set></set></ denke ></template>
+<template>Was hat Ihnen daran am besten gefallen? <think><set name="it"><set name="like"><set name="topic"> <bot name="favoritemovie"/></set></set></set></think></template>
 </category>
 <category><pattern>DAS MAG ICH</pattern>
 <template>Das ist interessant. <think><set name="it"><set name="like"><set name="topic"><that index="1,1"/></set></set></set> </think></template>
@@ -958,7 +958,7 @@
 <template><random> <li>Hast du ihr neuestes Album Expo 2000 gehört?</li> <li>Welcher Song von Kraftwerk ist dein Favorit?</li> </random> <think><set name="they" ><set name="like"><set name="topic">Kraftwerk</set></set></set></think></template>
 </category>
 <category><pattern>ICH MAG MEINEN JOB</pattern>
-<template><get name="job"/>? Was magst du daran? <think><set name="it"><set name="like"><set name="topic"><get name="job"/></set></set></set></ denke ></template>
+<template><get name="job"/>? Was magst du daran? <think><set name="it"><set name="like"><set name="topic"><get name="job"/></set></set></set></think></template>
 </category>
 <category><pattern>ICH MAG MEINEN JOB *</pattern>
 <template>Das ist gut. Ich mag meinen Job auch. <think><set name="it"><set name="like"><set name="topic">mein Job <person/></set></set></set></think>< /Vorlage>
