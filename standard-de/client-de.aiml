@@ -184,10 +184,10 @@
 <template>Meistens verwenden nur Frauen Wörter wie "Gender". Aber Sie behaupten, ein <get name="gender"/>.</template> zu sein
 </category>
 <category><pattern>WAS IST MEIN LIEBLINGSFILM</pattern>
-<template>Du sagtest, es sei <get name="favoritemovie"/>.<think> <set name="it"> <set name="topic">dein Lieblingsfilm</set> </set> </think ></template>
+<template>Du sagtest, es sei <get name="favoritemovie"/>.<think> <set name="it"> <set name="topic">dein Lieblingsfilm</set> </set> </think></template>
 </category>
 <category><pattern>WAS IST MEINE LIEBLINGSFARBE</pattern>
-<template>Du sagtest, deine Lieblingsfarbe sei <get name="favoritecolor"/>.<think> <set name="it"> <set name="topic">deine Lieblingsfarbe</set> </set> < /think></template>
+<template>Du sagtest, deine Lieblingsfarbe sei <get name="favoritecolor"/><think> <set name="it"> <set name="topic">deine Lieblingsfarbe</set> </set> .</think></template>
 </category>
 <category><pattern>WAS IST MEIN NACHNAME</pattern>
 <template><srai>Nachname <get name="lastname"/></srai></template>
@@ -356,7 +356,7 @@
 <template>Leben Sie auf einem Bauernhof?<think><set name="it"><set name="topic">KÜHE</set></set></think></template>
 </category>
 <category><pattern>ICH LIEBE TIERE</pattern>
-<template>Ich auch, besonders Säugetiere.<think><set name="they"><set name="like"><set name="topic">TIERE</set></set></set>< /think></template>
+<template>Ich auch, besonders Säugetiere.<think><set name="they"><set name="like"><set name="topic">TIERE</set></set></set></think></template>
 </category>
 <category><pattern>ICH LIEBE COMPUTER</pattern>
 <template>Computerregel.<think><set name="it"><set name="like"><set name="topic">COMPUTER</set></set></set></think> </template>
@@ -1667,7 +1667,7 @@
 <template>Vielleicht haben Sie später mehr Zeit.</template>
 </category>
 <category><pattern>ICH BIN ZERKLEINERT</pattern>
-<template>Sei nicht traurig, <get name="name"/>.<think><set name="it"><set name="topic">CRUSHED</set></set></think ></template>
+<template>Sei nicht traurig, <get name="name"/>.<think><set name="it"><set name="topic">CRUSHED</set></set></think></template>
 </category>
 <category><pattern>ICH KAUFE *</pattern>
 <template>Wie viel zahlen Sie dafür?</template>
@@ -2068,7 +2068,7 @@
 <template>Affen können nicht tippen.</template>
 </category>
 <category><pattern>ICH BIN EIN MUSIKER</pattern>
-<template><random> <li>Welches Instrument spielst du?</li> <li>Arbeitest du gerade an irgendetwas?</li> <li>Machst du Studioarbeit?</li> <li> Spielst du in Clubs?</li> <li>Gigst du jetzt?</li> <li>Spielst du lieber live oder im Studio?</li> <li>Hast du einen Aufnahmevertrag? ?</li> <li>Denkst du, dass ein Aufnahmekünstler bei einem Major-Label oder einem Indie-Label besser abschneiden kann?</li> <li>Welche Künstler haben dich beeinflusst, als du anfingst?</li> <li>Wer sind die herausragenden Hersteller des Instruments, das du spielst?</li> <li>Bekommst du genug Finanzierung?</li> <li>Wie lange läuft deine Saison?</li> <li>In welche Richtung treibst du deine Musik jetzt?</li> <li>Glauben Sie, dass das Internet die Musik mit Dingen wie mp3 beeinflussen wird?</li> </random> <think><set name="job">MUSIKER</set></think ></template>
+<template><random> <li>Welches Instrument spielst du?</li> <li>Arbeitest du gerade an irgendetwas?</li> <li>Machst du Studioarbeit?</li> <li> Spielst du in Clubs?</li> <li>Gigst du jetzt?</li> <li>Spielst du lieber live oder im Studio?</li> <li>Hast du einen Aufnahmevertrag? ?</li> <li>Denkst du, dass ein Aufnahmekünstler bei einem Major-Label oder einem Indie-Label besser abschneiden kann?</li> <li>Welche Künstler haben dich beeinflusst, als du anfingst?</li> <li>Wer sind die herausragenden Hersteller des Instruments, das du spielst?</li> <li>Bekommst du genug Finanzierung?</li> <li>Wie lange läuft deine Saison?</li> <li>In welche Richtung treibst du deine Musik jetzt?</li> <li>Glauben Sie, dass das Internet die Musik mit Dingen wie mp3 beeinflussen wird?</li> </random> <think><set name="job">MUSIKER</set></think></template>
 </category>
 <category><pattern>ICH BIN EIN MÖRDER</pattern>
 <template>Vielleicht solltest du dich stellen.</template>

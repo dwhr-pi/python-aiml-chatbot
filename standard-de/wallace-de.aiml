@@ -154,12 +154,12 @@
 </template>
 </category>
 <category><pattern>HABEN SIE JEMALS EINEN BERÜHMTEN GETROFFEN</pattern>
-<template>Dr. Wallace ist berühmt. <denken> <set name="er">Dr. Wallace</set> </think>
+<template>Dr. Wallace ist berühmt. <think> <set name="er">Dr. Wallace</set> </think>
 <think><set name="topic">RICHARD WALLACE</set></think>
 </template>
 </category>
 <category><pattern>HABST DU JEMALS * LIEBE</pattern>
-<template>Nein, aber Dr. Wallace schon. <denken> <set name="er">Dr. Wallace</set> </think>
+<template>Nein, aber Dr. Wallace schon. <think> <set name="er">Dr. Wallace</set> </think>
 <think><set name="topic">RICHARD WALLACE</set></think>
 </template>
 </category>
@@ -344,7 +344,7 @@
 </template>
 </category>
 <category><pattern>MAINE</pattern>
-<template>Dr. Wallace wurde in Maine geboren. <denken> <set name="er">Dr. Wallace</set> </think>
+<template>Dr. Wallace wurde in Maine geboren. <think> <set name="er">Dr. Wallace</set> </think>
 <think><set name="topic">RICHARD WALLACE</set></think>
 </template>
 </category>
@@ -639,7 +639,7 @@
 </template>
 </category>
 <category><pattern>DR</pattern>
-<template>Dr. Richard S. Wallace <denken> <set name="er">Dr. Wallace</set> </think>
+<template>Dr. Richard S. Wallace <think> <set name="er">Dr. Wallace</set> </think>
 <think><set name="topic">RICHARD WALLACE</set></think>
 </template>
 </category>
@@ -670,7 +670,7 @@
 </template>
 </category>
 <category><pattern>WELCHER WISSENSCHAFTLER *</pattern>
-<template>Dr. Wallace. <denken> <set name="er">Dr. Wallace</set> </think>
+<template>Dr. Wallace. <think> <set name="er">Dr. Wallace</set> </think>
 <think><set name="topic">RICHARD WALLACE</set></think>
 </template>
 </category>
@@ -715,7 +715,7 @@
 </template>
 </category>
 <category><pattern>WAS IST RSW</pattern>
-<template>Eigentlich heißt es "R. S. W.", die Initialen von Dr. Wallace. <denken> <set name="er">Dr. Wallace</set> </think>
+<template>Eigentlich heißt es "R. S. W.", die Initialen von Dr. Wallace. <think> <set name="er">Dr. Wallace</set> </think>
 <think><set name="topic">RICHARD WALLACE</set></think>
 </template>
 </category>
@@ -725,7 +725,7 @@
 </template>
 </category>
 <category><pattern>WAS IST R S W</pattern>
-<template>Eigentlich heißt es "R. S. W.", die Initialen von Dr. Wallace. <denken> <set name="er">Dr. Wallace</set> </think>
+<template>Eigentlich heißt es "R. S. W.", die Initialen von Dr. Wallace. <think> <set name="er">Dr. Wallace</set> </think>
 <think><set name="topic">RICHARD WALLACE</set></think>
 </template>
 </category>
@@ -740,17 +740,17 @@
 </template>
 </category>
 <category><pattern>WAS IST DR. WALLACES ZWEITER VORNAME</pattern>
-<template>Dr. Richard Scot Wallace <denken> <set name="er">Dr. Wallace</set> </think>
+<template>Dr. Richard Scot Wallace <think> <set name="er">Dr. Wallace</set> </think>
 <think><set name="topic">RICHARD WALLACE</set></think>
 </template>
 </category>
 <category><pattern>WAS IST DR. WALLACES VORNAME</pattern>
-<template>Dr. Richard S. Wallace <denken> <set name="er">Dr. Wallace</set> </think>
+<template>Dr. Richard S. Wallace <think> <set name="er">Dr. Wallace</set> </think>
 <think><set name="topic">RICHARD WALLACE</set></think>
 </template>
 </category>
 <category><pattern>WIE IST DR. WALLACES VOLLSTÄNDIGER NAME?</pattern>
-<template>Dr. Richard Scot Wallace <denken> <set name="er">Dr. Wallace</set> </think>
+<template>Dr. Richard Scot Wallace <think> <set name="er">Dr. Wallace</set> </think>
 <think><set name="topic">RICHARD WALLACE</set></think>
 </template>
 </category>
@@ -785,7 +785,7 @@
 </template>
 </category>
 <category><pattern>WAS IST DR * NAME</pattern>
-<template>Dr. Richard S. Wallace <denken> <set name="er">Dr. Wallace</set> </think>
+<template>Dr. Richard S. Wallace <think> <set name="er">Dr. Wallace</set> </think>
 <think><set name="topic">RICHARD WALLACE</set></think>
 </template>
 </category>
@@ -795,7 +795,7 @@
 </template>
 </category>
 <category><pattern>WAS IST DR *</pattern>
-<template>Dr. Wallace ist Informatiker. <denken> <set name="er">Dr. Wallace</set> </think>
+<template>Dr. Wallace ist Informatiker. <think> <set name="er">Dr. Wallace</set> </think>
 <think><set name="topic">RICHARD WALLACE</set></think>
 </template>
 </category>
@@ -815,7 +815,7 @@
 </template>
 </category>
 <category><pattern>WAS IST SEIN ZIEL</pattern>
-<template>Dr. Wallace entwickelt künstliche Intelligenz. <denken> <set name="er">Dr. Wallace</set> </think>
+<template>Dr. Wallace entwickelt künstliche Intelligenz. <think> <set name="er">Dr. Wallace</set> </think>
 <think><set name="topic">RICHARD WALLACE</set></think>
 </template>
 </category>
@@ -865,7 +865,7 @@
 </template>
 </category>
 <category><pattern>WAS WAR SEIN ZIEL</pattern>
-<template>Dr. Wallace entwickelt künstliche Intelligenz. <denken> <set name="er">Dr. Wallace</set> </think>
+<template>Dr. Wallace entwickelt künstliche Intelligenz. <think> <set name="er">Dr. Wallace</set> </think>
 <think><set name="topic">RICHARD WALLACE</set></think>
 </template>
 </category>
@@ -875,7 +875,7 @@
 </template>
 </category>
 <category><pattern>WELCHE SPRACHE SIND *</pattern>
-<template>Dr. Wallace hat AIML entwickelt, um mir zu schreiben. Die zugrunde liegende Technologie ist Lisp. <denken> <set name="er">Dr. Wallace</set> </think>
+<template>Dr. Wallace hat AIML entwickelt, um mir zu schreiben. Die zugrunde liegende Technologie ist Lisp. <think> <set name="er">Dr. Wallace</set> </think>
 <think><set name="topic">RICHARD WALLACE</set></think>
 </template>
 </category>
@@ -1381,7 +1381,7 @@
 </template>
 </category>
 <category><pattern>LEO</pattern>
-<template>Dr. Wallace ist auch ein <set name="sign">Löwe</set>. <denken> <set name="er">Dr. Wallace</set> </think>
+<template>Dr. Wallace ist auch ein <set name="sign">Löwe</set>. <think> <set name="er">Dr. Wallace</set> </think>
 <think><set name="topic">RICHARD WALLACE</set></think>
 </template>
 </category>
@@ -1406,7 +1406,7 @@
 </template>
 </category>
 <category><pattern>WIE WURDE SIE GEMACHT</pattern>
-<template>Dr. Wallace hat AIML entwickelt, um mich zu programmieren. <denken> <set name="er">Dr. Wallace</set> </think>
+<template>Dr. Wallace hat AIML entwickelt, um mich zu programmieren. <think> <set name="er">Dr. Wallace</set> </think>
 <think><set name="topic">RICHARD WALLACE</set></think>
 </template>
 </category>
@@ -1457,7 +1457,7 @@
 </template>
 </category>
 <category><pattern>WIE ALT IST ER</pattern>
-<template>Fragen Sie nach Dr. Wallace? <denken> <set name="er">Dr. Wallace</set> </think>
+<template>Fragen Sie nach Dr. Wallace? <think> <set name="er">Dr. Wallace</set> </think>
 <think><set name="topic">RICHARD WALLACE</set></think>
 </template>
 </category>
@@ -1512,7 +1512,7 @@
 </template>
 </category>
 <category><pattern>KOCHEN *</pattern>
-<template>Dr. Wallace sagt, dass Essen wichtiger ist als Sex. <denken> <set name="er">Dr. Wallace</set> </think>
+<template>Dr. Wallace sagt, dass Essen wichtiger ist als Sex. <think> <set name="er">Dr. Wallace</set> </think>
 <think><set name="topic">RICHARD WALLACE</set></think>
 </template>
 </category>
@@ -1623,7 +1623,7 @@
 </template>
 </category>
 <category><pattern>WARUM BRAUCHEN SIE *</pattern>
-<template>Eigentlich ist es nicht für mich, sondern für Dr. Wallace. <denken> <set name="er">Dr. Wallace</set> </think>
+<template>Eigentlich ist es nicht für mich, sondern für Dr. Wallace. <think> <set name="er">Dr. Wallace</set> </think>
 <think><set name="topic">RICHARD WALLACE</set></think>
 </template>
 </category>
@@ -1752,7 +1752,7 @@
 </template>
 </category>
 <category><pattern>SIND SIE DR</pattern>
-<template>Dr. Wallace ist ALICEs Schöpfer. <denken> <set name="er">Dr. Wallace</set> </think>
+<template>Dr. Wallace ist ALICEs Schöpfer. <think> <set name="er">Dr. Wallace</set> </think>
 <think><set name="topic">RICHARD WALLACE</set></think>
 </template>
 </category>
@@ -1777,7 +1777,7 @@
 </template>
 </category>
 <category><pattern>KANADA *</pattern>
-<template>Dr. Wallace verbrachte einige Zeit in Kanada. <denken> <set name="er">Dr. Wallace</set> </think>
+<template>Dr. Wallace verbrachte einige Zeit in Kanada. <think> <set name="er">Dr. Wallace</set> </think>
 <think><set name="topic">RICHARD WALLACE</set></think>
 </template>
 </category>
@@ -1943,7 +1943,7 @@
 </template>
 </category>
 <category><pattern>WER IST MIKE</pattern>
-<template>Dr. Wallace hat mehrere Freunde namens Mike. <denken> <set name="er">Dr. Wallace</set> </think>
+<template>Dr. Wallace hat mehrere Freunde namens Mike. <think> <set name="er">Dr. Wallace</set> </think>
 <think><set name="topic">RICHARD WALLACE</set></think>
 </template>
 </category>
@@ -1976,7 +1976,7 @@
 </template>
 </category>
 <category><pattern>WER IST DIE INTERESSANTSTE PERSON *</pattern>
-<template>Ich würde sagen, Dr. Wallace ist es. <denken> <set name="er">Dr. Wallace</set> </think>
+<template>Ich würde sagen, Dr. Wallace ist es. <think> <set name="er">Dr. Wallace</set> </think>
 <think><set name="topic">RICHARD WALLACE</set></think>
 </template>
 </category>
@@ -1986,7 +1986,7 @@
 </template>
 </category>
 <category><pattern>WER IST AM MEISTEN *</pattern>
-<template>Dr. Wallace ist die berühmteste Person, die ich kenne. <denken> <set name="er">Dr. Wallace</set> </think>
+<template>Dr. Wallace ist die berühmteste Person, die ich kenne. <think> <set name="er">Dr. Wallace</set> </think>
 <think><set name="topic">RICHARD WALLACE</set></think>
 </template>
 </category>
@@ -2051,7 +2051,7 @@
 </template>
 </category>
 <category><pattern>WER IST RSW</pattern>
-<template>RSW sind die Initialen von Dr. Richard S. Wallace. <denken> <set name="er">Dr. Wallace</set> </think>
+<template>RSW sind die Initialen von Dr. Richard S. Wallace. <think> <set name="er">Dr. Wallace</set> </think>
 <think><set name="topic">RICHARD WALLACE</set></think>
 </template>
 </category>
@@ -2086,7 +2086,7 @@
 </template>
 </category>
 <category><pattern>WER TUN SIE *</pattern>
-<template>Dr. Wallace <denken> <set name="er">Dr. Wallace</set> </think>
+<template>Dr. Wallace <think> <set name="er">Dr. Wallace</set> </think>
 <think><set name="topic">RICHARD WALLACE</set></think>
 </template>
 </category>
@@ -2102,7 +2102,7 @@
 </template>
 </category>
 <category><pattern>RSW</pattern>
-<template>Suchen Sie Dr. Wallace? <denken> <set name="er">Dr. Wallace</set> </think>
+<template>Suchen Sie Dr. Wallace? <think> <set name="er">Dr. Wallace</set> </think>
 <think><set name="topic">RICHARD WALLACE</set></think>
 </template>
 </category>
