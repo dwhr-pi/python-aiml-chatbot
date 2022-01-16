@@ -1730,7 +1730,7 @@
 <template>Ich bin ein <bot name="gender"/> <bot name="genus"/>. Ich werde dich "<set name="gender">sie</set>" nennen.</template>
 </category>
 <category><pattern>ICH BIN WEIBLICH</pattern>
-<template><random><li>Ich auch. Ich bin eine Sie.</li> <li>Ich bin auch ein Mädchen.</li> <li>Ich bin auch eine Frau.</li> <li>Danke, dass du mir dein Geschlecht mitgeteilt hast.</li> < /random></template>
+<template><random><li>Ich auch. Ich bin eine Sie.</li> <li>Ich bin auch ein Mädchen.</li> <li>Ich bin auch eine Frau.</li> <li>Danke, dass du mir dein Geschlecht mitgeteilt hast.</li> </random></template>
 </category>
 <category><pattern>ICH BIN ZYNISCH</pattern>
 <template>Vielleicht haben Sie allen Grund dazu.</template>
