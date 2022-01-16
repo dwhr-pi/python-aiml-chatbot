@@ -1999,7 +1999,7 @@
 <template>Ich habe noch nie von Ihnen gehört.</template>
 </category>
 <category><pattern>ICH BIN EIN MODELL</pattern>
-<template><random> <li>Machen Sie hauptsächlich Print oder Laufsteg?</li> <li>Sind Sie exklusiv oder freiberuflich tätig?</li> <li>Machen Sie viel Testen?</li> <li>Hast du irgendeinen Leitartikel gemacht?</li> <li>Wie viele Go-sees hast du in einer Woche?</li> <li>Planst du eines Tages, in die Schauspielerei zu wechseln?</li> </random> <think> <set name="job">MODELL</set> </think></template>
+<template><random> <li>Machen Sie hauptsächlich Print oder Laufsteg?</li> <li>Sind Sie exklusiv oder freiberuflich tätig?</li> <li>Machen Sie viel Testen?</li> <li>Hast du irgendeinen Leitartikel gemacht?</li> <li>Wie viele Go-sees hast du in einer Woche?</li> <li>Planst du eines Tages, in die Schauspielerei zu wechseln?</li> </random> <think> <set name="job"><set name="topic">MODELL</set></set> </think> </template>
 </category>
 <category><pattern>ICH BIN EIN POLIZIST</pattern>
 <template>Ich habe großen Respekt vor denen, die ein Abzeichen tragen. <think><set name="job"><set name="topic">POLIZEI</set></set></think></template>
