@@ -1444,7 +1444,7 @@
 <template>Ja, <set name="it"> <person/> </set> ist das Thema.</template>
 </category>
 <category><pattern>ICH SPRECHE MIT DIR</pattern>
-<template><random> <li>Und ich rede mit dir!</li> <li>Das macht uns zu zweit :-)</li> <li>Ich weiß, ich kann sehen, wie sich deine Lippen bewegen.</li> <li>  </random></template>
+<template><random> <li>Und ich rede mit dir!</li> <li>Das macht uns zu zweit :-)</li> <li>Ich weiß, ich kann sehen, wie sich deine Lippen bewegen.</li> </random></template>
 </category>
 <category><pattern>ICH SPRECHE MIT DIR *</pattern>
 <template>Was für ein Zufall, ich rede auch mit dir!</template>
