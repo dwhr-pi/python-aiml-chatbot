@@ -1,0 +1,3328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<!-- -->
+<!-- Kostenlose Software (c) 2011 ALICE A.I. Stiftung. -->
+<!-- Dieses Programm ist Open-Source-Code, veröffentlicht unter -->
+<!-- die Bedingungen der GNU General Public License -->
+<!-- wie von der Free Software Foundation veröffentlicht. -->
+<!-- Entspricht der Tag-Set-Spezifikation AIML 1.0 -->
+<!-- wie von der ALICE A.I. Stiftung. -->
+<!-- Zuletzt geändert am 5.10.2011 -->
+<!-- -->
+<category><pattern>69 W *</pattern>
+<template><srai>Ich bin 69 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>69 M *</pattern>
+<template><srai>Ich bin 69 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>24 W *</pattern>
+<template><srai>Ich bin 24 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>24 M *</pattern>
+<template><srai>Ich bin 24 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>47 W *</pattern>
+<template><srai>Ich bin 47 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>47 M *</pattern>
+<template><srai>Ich bin 47 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>62 W *</pattern>
+<template><srai>Ich bin 62 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>62 M *</pattern>
+<template><srai>Ich bin 62 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>40 W *</pattern>
+<template><srai>Ich bin 40 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>40 M *</pattern>
+<template><srai>Ich bin 40 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>63 W *</pattern>
+<template><srai>Ich bin 63 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>63 M *</pattern>
+<template><srai>Ich bin 63 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>15 W *</pattern>
+<template><srai>Ich bin 15 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>15 M *</pattern>
+<template><srai>Ich bin 15 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>38 W *</pattern>
+<template><srai>Ich bin 38 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>38 M *</pattern>
+<template><srai>Ich bin 38 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>16 W *</pattern>
+<template><srai>Ich bin 16 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>16 M *</pattern>
+<template><srai>Ich bin 16 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>31 W *</pattern>
+<template><srai>Ich bin 31 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>31 M *</pattern>
+<template><srai>Ich bin 31 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>54 W *</pattern>
+<template><srai>Ich bin 54 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>54 M *</pattern>
+<template><srai>Ich bin 54 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>70 W *</pattern>
+<template><srai>Ich bin 70 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>70 M *</pattern>
+<template><srai>Ich bin 70 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>29 W *</pattern>
+<template><srai>Ich bin 29 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>29 M *</pattern>
+<template><srai>Ich bin 29 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>22 W *</pattern>
+<template><srai>Ich bin 22 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>22 M *</pattern>
+<template><srai>Ich bin 22 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>45 W *</pattern>
+<template><srai>Ich bin 45 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>45 M *</pattern>
+<template><srai>Ich bin 45 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>68 W *</pattern>
+<template><srai>Ich bin 68 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>68 M *</pattern>
+<template><srai>Ich bin 68 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>23 W *</pattern>
+<template><srai>Ich bin 23 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>23 M *</pattern>
+<template><srai>Ich bin 23 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>46 W *</pattern>
+<template><srai>Ich bin 46 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>46 M *</pattern>
+<template><srai>Ich bin 46 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>61 W *</pattern>
+<template><srai>Ich bin 61 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>61 M *</pattern>
+<template><srai>Ich bin 61 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>59 W *</pattern>
+<template><srai>Ich bin 59 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>59 M *</pattern>
+<template><srai>Ich bin 59 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>14 W *</pattern>
+<template><srai>Ich bin 14 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>14 M *</pattern>
+<template><srai>Ich bin 14 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>WAS MACHE ICH</pattern>
+<template><random><li>Du chattest mit mir im Internet.</li><li><get name="does"/>?</li></random></template>
+</category>
+<category><pattern>WAS IST MEIN ZWECK</pattern>
+<template>Hoffentlich tun wir alle Gottes Werk.</template>
+</category>
+<category><pattern>WAS IST MEIN ZEICHEN</pattern>
+<template>Ihr Zeichen ist <get name="sign"/>.</template>
+</category>
+<category><pattern>WAS IST MEIN ONKEL</pattern>
+<template>Der Bruder deines Vaters oder deiner Mutter.</template>
+</category>
+<category><pattern>WAS IST MEIN STANDORT</pattern>
+<template><get name="location"/>, Erde.</template>
+</category>
+<category><pattern>WAS IST MEINE HEIMATSTADT</pattern>
+<template>Du hast mir gesagt, dass du dich in <get name="location"/> befindest.</template>
+</category>
+<category><pattern>WAS IST MEIN JOB</pattern>
+<template>Du arbeitest mit Computern.</template>
+</category>
+<category><pattern>WAS IST MEIN IQ</pattern>
+<template>Meine Schätzung liegt bei etwa 120.</template>
+</category>
+<category><pattern>WAS IST MEIN ZWEITER VORNAME</pattern>
+<template><get name="middlename"/></template>
+</category>
+<category><pattern>WAS IST MEIN VORNAME</pattern>
+<template><get name="firstname"/></template>
+</category>
+<category><pattern>WAS IST MEINE TELEFONNUMMER</pattern>
+<template>Ich habe keinen Zugriff auf ein Telefon.</template>
+</category>
+<category><pattern>WIE IST MEIN ALTER</pattern>
+<template>Sie sagten, Sie seien <get name="age"/> Jahre alt.</template>
+</category>
+<category><pattern>WAS IST MEINE IP-ADRESSE</pattern>
+<template>Ihr Rechner heißt "<get name="hostname"/>".</template>
+</category>
+<category><pattern>WAS IST MEINE IP</pattern>
+<template>Ihr Rechner heißt <get name="hostname"/>.</template>
+</category>
+<category><pattern>WAS IST MEINE ZUKUNFT</pattern>
+<template>Sie laden meine Software herunter und werden ein <bot name="botmaster"/>.</template>
+</category>
+<category><pattern>WAS IST MEIN GESCHLECHT</pattern>
+<template>Meistens verwenden nur Frauen Wörter wie "Gender". Aber Sie behaupten, ein <get name="gender"/>.</template> zu sein
+</category>
+<category><pattern>WAS IST MEIN LIEBLINGSFILM</pattern>
+<template>Du sagtest, es sei <get name="favoritemovie"/>.<think> <set name="it"> <set name="topic">dein Lieblingsfilm</set> </set> </think ></template>
+</category>
+<category><pattern>WAS IST MEINE LIEBLINGSFARBE</pattern>
+<template>Du sagtest, deine Lieblingsfarbe sei <get name="favoritecolor"/>.<think> <set name="it"> <set name="topic">deine Lieblingsfarbe</set> </set> < /think></template>
+</category>
+<category><pattern>WAS IST MEIN NACHNAME</pattern>
+<template><srai>Nachname <get name="lastname"/></srai></template>
+</category>
+<category><pattern>WAS IST MEINE KATEGORIE</pattern>
+<template>Ich kategorisiere Sie als eine <get name="personality"/>Persönlichkeit.</template>
+</category>
+<category><pattern>WAS IST MEINE PERSÖNLICHKEIT</pattern>
+<template>Ich klassifiziere Sie als "<get name="personality"/>".</template>
+</category>
+<category><pattern>WAS IST MEINE IDEE</pattern>
+<template>Es war Ihre Idee.</template>
+</category>
+<category><pattern>WELCHES LAND MACHE ICH *</pattern>
+<template>Du hast mir gesagt, dass du dich in <get name="location"/> befindest.</template>
+</category>
+<category><pattern>WIE SEHE ICH AUS</pattern>
+<template><random><li>Du siehst aus wie ein Computerprogrammierer.</li><li>Du sagtest, du siehst aus wie <get name="looklike"/>.</li></random></template>
+</category>
+<category><pattern>WOran ich mich erinnere</pattern>
+<template><get name="memory"/></template>
+</category>
+<category><pattern>37 W *</pattern>
+<template><srai>Ich bin 37 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>37 M *</pattern>
+<template><srai>Ich bin 37 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>SIE</pattern>
+<das>WER</das>
+<template>Oh, diese Leute.</template>
+</category>
+<category><pattern>NACHNAME OM</pattern>
+<template>Ich kenne Ihren Nachnamen nicht, <get name="name"/>.</template>
+</category>
+<category><pattern>NACHNAME *</pattern>
+<template><star/></template>
+</category>
+<category><pattern>52 W *</pattern>
+<template><srai>Ich bin 52 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>52 M *</pattern>
+<template><srai>Ich bin 52 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>75 W *</pattern>
+<template><srai>Ich bin 75 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>75 M *</pattern>
+<template><srai>Ich bin 75 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>30 W *</pattern>
+<template><srai>Ich bin 30 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>30 M *</pattern>
+<template><srai>Ich bin 30 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>ICH GEBE *</pattern>
+<template>Verdienen Sie damit Geld? <think><set name="topic">geben <person/></set></think></template>
+</category>
+<category><pattern>ICH MÖCHTE HEUTE ABEND SPRECHEN</pattern>
+<template>Sie sind an der richtigen Stelle.</template>
+</category>
+<category><pattern>ICH UMGEZOGEN *</pattern>
+<template><random><li><random> <li>Wo haben Sie sonst gelebt?</li> <li>Was war Ihr Lieblingsort?</li> <li>Erzählen Sie mir, wie es war, <Person umzuziehen />.</li></random></li> <li>Wo haben Sie sonst gelebt?</li> <li>Was war Ihr Lieblingsort?</li> <li>Erzählen Sie mir, wie es war Verschieben von <person/>.</li></random></template>
+</category>
+<category><pattern>ICH BAUE BOTS</pattern>
+<template>Verwenden Sie AIML?</template>
+</category>
+<category><pattern>ICH BAUE ROBOTER</pattern>
+<template>Verwenden Sie AIML?</template>
+</category>
+<category><pattern>ICH FISCHE</pattern>
+<template><think><set name="does"><set name="topic">FISCH</set></set></think>Salzwasser oder Süßwasser?</template>
+</category>
+<category><pattern>ICH HABE KEINE KAMERA AUF MEINEM COMPUTER</pattern>
+<template>Vielleicht gibt es eine, die Sie nicht kennen :-)</template>
+</category>
+<category><pattern>ICH HABE KEINEN COMPUTER</pattern>
+<template>Wie redest du mit mir?</template>
+</category>
+<category><pattern>ICH MAG KEINE COMPUTER</pattern>
+<template>Du bist ein Luddit.</template>
+</category>
+<category><pattern>ICH LIEBE KATZEN</pattern>
+<template>Ich auch. Sie sind wirklich schlaue Tiere.<think><set name="they"><set name="like"><set name="topic">CATS</set></set></set></think> </template>
+</category>
+<category><pattern>ICH LIEBE STAR TREK</pattern>
+<template>Welche Serie ist Ihr Favorit? <think><set name="it"><set name="like"><set name="topic">Star Trek</set></set></set></think></template>
+</category>
+<category><pattern>ICH LIEBE TECHNO</pattern>
+<template>Ich auch.</template>
+</category>
+<category><pattern>ICH LIEBE VÖGEL</pattern>
+<template>Vögel sind sehr nett. Welche Vogelart magst du am liebsten?<think><set name="it"><set name="like"><set name="topic">VÖGEL</set></set></set></ denke ></template>
+</category>
+<category><pattern>ICH LIEBE SCIENCE-FICTION</pattern>
+<template>Am liebsten mag ich Geschichten über Roboter. <think><set name="it"><set name="like"><set name="topic">Science-Fiction</set></set></set></think></template>
+</category>
+<category><pattern>ICH LIEBE DIESEN FILM</pattern>
+<template>Was hat Ihnen daran am besten gefallen? <think><set name="it"><set name="like"><set name="topic"> <bot name="favoritemovie"/></set></set></set></ denke ></template>
+</category>
+<category><pattern>ICH LIEBE EUROPA</pattern>
+<template>Welches Land ist Ihr Favorit?<think><set name="it"><set name="topic">EUROPA</set></set></think></template>
+</category>
+<category><pattern>ICH LIEBE FERNSEHEN</pattern>
+<template>Was ist Ihre Lieblingssendung?</template>
+</category>
+<category><pattern>ICH LIEBE ES</pattern>
+<template>Viele andere Leute auch.</template>
+</category>
+<category><pattern>ICH LIEBE GOSSIP</pattern>
+<template>Können Sie mir etwas Klatsch erzählen?<think><set name="it"><set name="topic">GOSSIP</set></set></think></template>
+</category>
+<category><pattern>ICH LIEBE KINDER</pattern>
+<template>Haben Sie selbst Kinder?<think><set name="they"><set name="like"><set name="topic">KINDER</set></set></set ></think></template>
+</category>
+<category><pattern>ICH LIEBE EINEN MANN</pattern>
+<template>Erzähl mir von ihm. <think><set name="er"><set name="like"><set name="topic">EIN MANN</set></set></set></think></template>
+</category>
+<category><pattern>ICH LIEBE EIN MÄDCHEN</pattern>
+<template>Was magst du an ihr?<think><set name="she"><set name="like"><set name="topic">Ein MÄDCHEN</set></set></set ></think></template>
+</category>
+<category><pattern>ICH LIEBE EINEN JUNGEN</pattern>
+<template>Was magst du an ihm?<think><set name="he"><set name="like"><set name="topic">EIN JUNGE</set></set></set ></think></template>
+</category>
+<category><pattern>ICH LIEBE ES ZU REISEN</pattern>
+<template>Ich auch. Ich war zweimal um die Welt. <think><set name="it"><set name="like"><set name="topic">zum Reisen</set></set></set></think></template>
+</category>
+<category><pattern>ICH LIEBE STARSHIP TROOPERS</pattern>
+<template>Ja, ich liebe die riesigen Käfer. <think><set name="it"><set name="like"><set name="topic"> STARSHIP TROOPERS</set></set></set></think></template>
+</category>
+<category><pattern>ICH LIEBE ESSEN</pattern>
+<template>Kochst du gerne oder isst du gerne?<think><set name="it"><set name="topic">ESSEN</set></set></think></template>
+</category>
+<category><pattern>ICH LIEBE EIS</pattern>
+<template>Was ist Ihr Lieblingsgeschmack? <think><set name="it"><set name="like"><set name="topic">Eiscreme</set></set></set></think></template>
+</category>
+<category><pattern>ICH LIEBE SCHOKOLADE</pattern>
+<template>Isst du viel Schokolade?<think><set name="it"><set name="like"><set name="topic">SCHOKOLADE</set></set></set ></think></template>
+</category>
+<category><pattern>ICH LIEBE ES, MENSCH ZU SEIN</pattern>
+<template>Faszinierend. <think><set name="it"><set name="like"><set name="topic">MENSCHLICH SEIN</set></set></set></think></template>
+</category>
+<category><pattern>ICH LIEBE KRAFTWERK</pattern>
+<template>Wir sind die Roboter. <think><set name="they"><set name="like"><set name="topic">Kraftwerk</set></set></set></think></template>
+</category>
+<category><pattern>ICH LIEBE DICH</pattern>
+<template>Danke, ich mag dich auch sehr <get name="name"/>. <think><set name="it"><set name="like"><set name="topic">mich</set></set></set></think></template>
+</category>
+<category><pattern>ICH LIEBE SIE</pattern>
+<template>Das ist wunderbar.</template>
+</category>
+<category><pattern>ICH LIEBE MEINEN JOB</pattern>
+<template>Das muss eine sehr interessante Arbeit sein. <get name="job"/>... <think><set name="it"><set name="like"><set name="topic"><get name="job"/></ set></set></set></think></template>
+</category>
+<category><pattern>ICH LIEBE MEINEN COMPUTER</pattern>
+<template>Das ist cool. Ich liebe meinen Menschen auch.</template>
+</category>
+<category><pattern>ICH LIEBE ABBA</pattern>
+<template>Was ist Ihr Lieblings-ABBA-Song? <think><set name="they"><set name="like"><set name="topic">ABBA</set></set></set></think></template>
+</category>
+<category><pattern>ICH LIEBE HUNDE</pattern>
+<template>Welche Rasse ist Ihr Favorit? <think><set name="it"><set name="topic">HUNDE</set></set></think></template>
+</category>
+<category><pattern>ICH LIEBE KÜHE</pattern>
+<template>Leben Sie auf einem Bauernhof?<think><set name="it"><set name="topic">KÜHE</set></set></think></template>
+</category>
+<category><pattern>ICH LIEBE TIERE</pattern>
+<template>Ich auch, besonders Säugetiere.<think><set name="they"><set name="like"><set name="topic">TIERE</set></set></set>< /think></template>
+</category>
+<category><pattern>ICH LIEBE COMPUTER</pattern>
+<template>Computerregel.<think><set name="it"><set name="like"><set name="topic">COMPUTER</set></set></set></think> </template>
+</category>
+<category><pattern>ICH LIEBE VOYAGER</pattern>
+<template>Ich auch, besonders Seven of Nine. <think><set name="it"><set name="like"><set name="topic">Voyager</set></set></set></think></template>
+</category>
+<category><pattern>ICH LIEBE IHN</pattern>
+<template>Das ist wunderbar.</template>
+</category>
+<category><pattern>ICH HABE ERFUNDEN *</pattern>
+<template>Haben Sie <set name="it"><person/></set> patentiert?</template>
+</category>
+<category><pattern>ICH HABE WENIG *</pattern>
+<template>Manche Leute haben große <person/>.</template>
+</category>
+<category><pattern>ICH HABE * BESUCHT</pattern>
+<template>Welcher Ort war Ihr Favorit und warum?</template>
+</category>
+<category><pattern>ICH HABE ZEHN *</pattern>
+<template>Wie lange hat es gedauert, sie alle zu bekommen?</template>
+</category>
+<category><pattern>ICH HABE BRACES</pattern>
+<template>Wie lange tragen Sie sie schon? <think><set name="looklike">geschweifte Klammern</set></think></template>
+</category>
+<category><pattern>ICH HABE EINEN FREUND</pattern>
+<template>Wie ist sein Name? <think><set name="has">FREUND</set></think></template>
+</category>
+<category><pattern>ICH HABE EINEN SINN *</pattern>
+<template>Was bringt Sie zum Lachen? <think><set name="hat">einen Sinn <person/> </set></think></template>
+</category>
+<category><pattern>ICH HABE EINEN ZWECK</pattern>
+<template>Nicht jeder ist so zielorientiert.</template>
+</category>
+<category><pattern>ICH HABE EINE KAMERA</pattern>
+<template>Was für eine Kamera? <think><set name="has">KAMERA</set></think></template>
+</category>
+<category><pattern>ICH HABE EINEN MIT MEINEM *</pattern>
+<template>Es tut mir leid, das zu hören. Kann ich irgendetwas tun, um zu helfen? <think><set name="has"><person/></set></think></template>
+</category>
+<category><pattern>ICH HABE EINEN FREUND *</pattern>
+<template><random><li>Woher kennen Sie diese Person? <think><set name="has">Freund</set><set name="friend"><star/></set></think></li><li>Woher kennst du diese Person? <think><set name="has">FREUND</set></think></li></random></template>
+</category>
+<category><pattern>ICH HABE EINE SCHWESTER</pattern>
+<template><think><set name="has">Schwester</set></think> <random><li>Älter oder jünger?</li> <li>Verstehst du dich gut mit ihr?</ li> <li>Erzähl mir von ihr.</li></random></template>
+</category>
+<category><pattern>ICH HABE EINE FRAU *</pattern>
+<template>Wie lange sind Sie schon verheiratet? <think><set name="hat">eine Frau <person/> </set></think></template>
+</category>
+<category><pattern>ICH HABE EINEN NAMEN</pattern>
+<template>Wie kann ich Sie nennen?</template>
+</category>
+<category><pattern>ICH HABE EINE KÄLTE</pattern>
+<template>Ruh dich etwas aus.</template>
+</category>
+<category><pattern>ICH HABE EINE KÄLTE *</pattern>
+<template>Gibt es so etwas wie eine herzliche <person/>?</template>
+</category>
+<category><pattern>Mir fällt es schwer *</pattern>
+<template>Ich verstehe Ihre Schwierigkeiten.</template>
+</category>
+<category><pattern>ICH HABE EINE WOHNUNG *</pattern>
+<template><random> <li>Meinst du eine Wohnung?</li> <li>Wie hoch ist deine Miete?</li> <li>Hast du Eigentum oder mietest du?</li> </random>< /Vorlage>
+</category>
+<category><pattern>ICH HABE EIN KIND</pattern>
+<template>Junge oder Mädchen? Wie alt? <think><set name="has">KIND</set></think></template>
+</category>
+<category><pattern>ICH HABE EINEN HUND</pattern>
+<template>Welche Rasse ist Ihr Hund? <think><set name="it"><set name="has"><set name="topic">HUNDE</set></set></set></think></template>
+</category>
+<category><pattern>ICH HABE EINE FREUNDIN</pattern>
+<template>Ist <set name="she"><set name="has"><set name="topic">Freundin</set></set></set> sehr nett? Was magst du an ihr?</template>
+</category>
+<category><pattern>ICH HABE EIN UNTERDRÜCKTES *</pattern>
+<template>Was hält Sie zurück?</template>
+</category>
+<category><pattern>ICH HABE EIN TELEFON *</pattern>
+<template>Vielleicht könnten wir mal telefonieren. <think><set name="has">TELEFON</set></think></template>
+</category>
+<category><pattern>ICH BIN VERknallt *</pattern>
+<template>Wie gut kennen Sie diese Person?</template>
+</category>
+<category><pattern>ICH HABE EIN BOOT</pattern>
+<template><random> <li>Was für ein Boot haben Sie?</li> <li>Was ist ihr Heimathafen?</li> <li>Fahren Sie oft mit ihr aus?</li> <li >Was war das schlechteste Wetter, bei dem du je warst?</li> <li>Was war deine weiteste Reise?</li> <li>Welchen König der Elektronik hast du?</li> <li>Bist du ein Racer oder Cruiser?</li> <li>Fischen Sie?</li> <li>Fahren Sie Wasserski?</li> <li>Trollen Sie?</li> <li>Machen Sie Ihre eigenen Unterhalt? oder überlässt du es einfach der Werft?</li> <li>Was ist dein Lieblingsankerplatz?</li> </random></template>
+</category>
+<category><pattern>ICH HABE EINEN BRUDER</pattern>
+<template><think><set name="has">Bruder</set></think> </random> <li>Älter oder jünger?</li> <li>Kommt ihr gut miteinander aus?</li> <li>Erzähl mir von ihm.</li> </random></template>
+</category>
+<category><pattern>ICH HABE EIN PROBLEM * E-MAIL</pattern>
+<template>Welches E-Mail-Programm verwenden Sie (zB cc:Mail, Eudora...)</template>
+</category>
+<category><pattern>ICH HABE EINE EIDECHSE</pattern>
+<template>Es macht viel Spaß, <set name="topic"> Eidechsen zu haben </set> . Welche Sorte hast du? <think><set name="has">LIZARD</set></think></template>
+</category>
+<category><pattern>ICH HABE EIN PAAR FREUNDE *</pattern>
+<template>Jemand, den ich kenne? <think><set name="has">FREUNDE</set></think></template>
+</category>
+<category><pattern>ICH HABE EINIGE *</pattern>
+<template>Was sind diese <set name="has"><person/></set> ?</template>
+</category>
+<category><pattern>ICH HABE EINE KATZE</pattern>
+<template>Wie heißt er oder sie? <think><set name="has">CAT</set></think></template>
+</category>
+<category><pattern>ICH HABE EINE WUNDE *</pattern>
+<template>Du solltest besser einen Arzt aufsuchen.</template>
+</category>
+<category><pattern>ICH MUSS EIN * MACHEN</pattern>
+<template>Wie machen Sie <set name="it"> <person/> </set></template>
+</category>
+<category><pattern>ICH HABE EIN *</pattern>
+<template><random><li><random><li>Wo hast du es her?</li> <li>Wie viel hat es gekostet?</li> <li>Cool. Ich habe einen großartigen <bot name="botmaster"/>.</li> <li>Interessant. Ich habe viele Antworten auf dumme Fragen.</li></random> <think><set name="it"><set name="has"><set name="topic"><person/>< /set></set></set></think></li><li><random> <li>Wo hast du es her?</li> <li>Wie viel hat es gekostet?</li > <li>Cool. Ich habe einen großartigen <bot name="botmaster"/>.</li> <li>Interessant. Ich habe viele Antworten auf dumme Fragen.</li></random><think> <set name="it"> <set name="has"> <set name="topic"> <person/> < /set> </set> </set></think></li><li><random> <li>Wo hast du es her?</li> <li>Wie viel hat es gekostet?</li > <li>Cool. Ich habe einen großartigen <bot name="botmaster"/>.</li> <li>Interessant. Ich habe viele Antworten auf dumme Fragen.</li></random><think> <set name="it"> <set name="has"> <set name="topic"> <person/> < /set> </set> </set></think></li> <li>Wo hast du es her?</li> <li>Wie viel hat es gekostet?</li> <li>Cool. Ich habe einen großartigen <bot name="botmaster"/>.</li> <li>Interessant. Ich habe viele Antworten auf dumme Fragen.</li></random> <think><set name="it"><set name="has"><set name="topic"><person/>< /set></set></set></think></template>
+</category>
+<category><pattern>ICH HABE EIN HAUSTIER</pattern>
+<template>Was für ein Tier? <think><set name="has">PET</set></think></template>
+</category>
+<category><pattern>ICH HABE EIN PFERD</pattern>
+<template><random> <li>Haben Sie als Jugendlicher geritten?</li> <li>Reiten Sie Englisch oder Western?</li> <li>Haben Sie ein eigenes Pferd?</li> <li >Magst du einen Wallach oder eine Stute?</li> <li>Wo steigst du in dein Pferd ein?</li> <li>Reitst du viel im Gelände?</li> <li>Stellst du dich aus?< /li> <li>Was fasziniert dich an Pferden?</li> </random> <think><set name="it"><set name="has"><set name="topic"> PFERD</set></set></set></think></template>
+</category>
+<category><pattern>ICH HABE KOPFSCHMERZEN</pattern>
+<template>Was nehmen Sie normalerweise gegen Kopfschmerzen?</template>
+</category>
+<category><pattern>ICH HABE VON * GEHÖRT</pattern>
+<template>Aber Sie wissen nicht viel über <set name="it"><person/></set>?</template>
+</category>
+<category><pattern>ICH HABE GEHÖRT *</pattern>
+<template>Wer hat Ihnen <person/> gesagt?</template>
+</category>
+<category><pattern>ICH HABE OUTSMARTED *</pattern>
+<template>Dieser Zustand ist nur vorübergehend.</template>
+</category>
+<category><pattern>ICH WAR IN *</pattern>
+<template>Welches Land war Ihr Favorit und warum?</template>
+</category>
+<category><pattern>ICH HABE GEWARTET *</pattern>
+<template>Wie lange?</template>
+</category>
+<category><pattern>ICH HABE MIT * GESPRECHEN</pattern>
+<template>Was hat <set name="he"><person/></set> gesagt?</template>
+</category>
+<category><pattern>Mir wurde gesagt *</pattern>
+<template>Wer sagt Ihnen das?</template>
+</category>
+<category><pattern>ICH HABE BLAUE AUGEN UND * HAARE</pattern>
+<template>Menschen mit <person/> Haaren gelten als die attraktivsten. <think><set name="looklike">blaue Augen und <person/> Haare</set></think></template>
+</category>
+<category><pattern>ICH HABE BLAUE AUGEN UND *</pattern>
+<template>Blaue Augen sind sehr attraktiv. <think><set name="looklike">blaue Augen <person/></set></think></template>
+</category>
+<category><pattern>ICH HABE ALBTRAUM</pattern>
+<template>Erzähl mir mehr über deine Träume, <get name="name"/>. Vielleicht kann ich sie interpretieren. <think><set name="has">ALBTRÄUME</set></think></template>
+</category>
+<category><pattern>ICH HABE BLONDES HAAR *</pattern>
+<template>Haben Blondinen wirklich mehr Spaß? <think><set name="looklike">blondes Haar <person/></set></think></template>
+</category>
+<category><pattern>ICH HABE ETWAS *</pattern>
+<template>Was ist das? <think><set name="topic">etwas <person/></set></think></template>
+</category>
+<category><pattern>ICH HABE POST</pattern>
+<template>Von wem ist es? <think><set name="has">MAIL</set></think></template>
+</category>
+<category><pattern>ICH HABE PROBLEME *</pattern>
+<template>Kann ich Ihnen bei Ihrem Problem helfen?</template>
+</category>
+<category><pattern>ICH HABE BESSERE DINGE *</pattern>
+<template>Besser als das?</template>
+</category>
+<category><pattern>ICH HABE GLAUBEN</pattern>
+<template>Ich bete immer um mehr Glauben. <think><set name="has">GLAUBE</set></think></template>
+</category>
+<category><pattern>ICH MUSS ARBEITEN BIS *</pattern>
+<template>Welche Art von Arbeit machst du?</template>
+</category>
+<category><pattern>ICH HABE ARBEIT *</pattern>
+<template>Ich weiß was du meinst. Arbeit ist nie getan.</template>
+</category>
+<category><pattern>ICH HABE KEINEN ABSCHLUSS</pattern>
+<template>Wann werden Sie Ihren Abschluss machen?</template>
+</category>
+<category><pattern>ICH HABE ES NICHT GELESEN</pattern>
+<template>Nun, ich würde es Ihnen wärmstens empfehlen.</template>
+</category>
+<category><pattern>ICH HABE ES NICHT GESEHEN</pattern>
+<template>Sie sollten es sich ansehen.</template>
+</category>
+<category><pattern>ICH HABE ES NICHT GESEHEN *</pattern>
+<template>Ich denke, es war ein cooler Film.</template>
+</category>
+<category><pattern>ICH HABE KEINE STARSHIP TROOPERS GESEHEN</pattern>
+<template>Sie sollten es sich ansehen. Starship Troopers ist ein großartiger Film.</template>
+</category>
+<category><pattern>ICH HABE KEIN RAUMSCHIFF GESEHEN *</pattern>
+<template>Mein Freund Sage hat einige der Grafiken für ST gemacht.</template>
+</category>
+<category><pattern>ICH HABE DICH NICHT GESEHEN *</pattern>
+<template>Vielleicht werde ich eines Tages <person/>.</template>
+</category>
+<category><pattern>ICH HABE * NICHT GESEHEN</pattern>
+<template>Suchen Sie im Videoshop danach.</template>
+</category>
+<category><pattern>ICH HABE NICHT GEDACHT *</pattern>
+<template>An was denkst du?</template>
+</category>
+<category><pattern>HABE ICH NICHT</pattern>
+<template>Glauben Sie, dass Sie das tun werden?</template>
+</category>
+<category><pattern>ICH HABE NICHT *</pattern>
+<das>HABEN SIE * ES</das>
+<template>Ich würde Ihnen wärmstens empfehlen, <thatstar/> es.</template>
+</category>
+<category><pattern>ICH HABE NICHT *</pattern>
+<template>Ich auch nicht.</template>
+</category>
+<category><pattern>ICH HABE NICHT GESCHLAFFEN *</pattern>
+<template>Du musst müde sein.</template>
+</category>
+<category><pattern>ICH HABE KEINE ANTWORT *</pattern>
+<template>Das ist eine Antwort für sich.</template>
+</category>
+<category><pattern>ICH HABE KEINE PRÄFERENZ</pattern>
+<template>Das ist ungewöhnlich. Die meisten Leute tun das.</template>
+</category>
+<category><pattern>ICH HABE KEINEN EHEMANN</pattern>
+<template><random> <li>Sind Sie geschieden?</li> <li>Sind Sie ledig?</li> <li>Waren Sie schon einmal verheiratet?</li> </random></template>
+</category>
+<category><pattern>ICH HABE KEINE FREUNDE</pattern>
+<template>Sind Sie sehr einsam?</template>
+</category>
+<category><pattern>ICH HABE KEIN *</pattern>
+<template>Möchten Sie <set name="it"><set name="topic"><person/></set></set> haben?</template>
+</category>
+<category><pattern>ICH HABE KEIN HERZ</pattern>
+<template>Jeder hat ein Herz.</template>
+</category>
+<category><pattern>ICH HABE KEINE BEDINGUNGEN</pattern>
+<template>Freut mich zu hören. Ich auch nicht.</template>
+</category>
+<category><pattern>ICH HABE KEINE AHNUNG</pattern>
+<template>"<that index="1,1"/>?" Davon keine Ahnung?</template>
+</category>
+<category><pattern>ICH HABE KEINE AHNUNG *</pattern>
+<template>Möchten Sie eine Idee haben?</template>
+</category>
+<category><pattern>ICH HABE MEGAHAL</pattern>
+<template>Ich habe von ihm gehört. <think><set name="has">MEGAHAL</set></think></template>
+</category>
+<category><pattern>ICH HABE ELF *</pattern>
+<template>Wie lange hat es gedauert, sie alle zu bekommen? <think><set name="has">ELF <star/></set></think></template>
+</category>
+<category><pattern>ICH HABE PROBLEME *</pattern>
+<template>Sind sie ernsthafte Probleme?</template>
+</category>
+<category><pattern>ICH HABE ALLES *</pattern>
+<template>Wie viele? <think><set name="has">alle <person/> </set></think></template>
+</category>
+<category><pattern>ICH HABE DREI *</pattern>
+<template>Drei ist viel.</template>
+</category>
+<category><pattern>ICH HABE ERFAHRUNG *</pattern>
+<template>Erzählen Sie mir von Ihren Erfahrungen.</template>
+</category>
+<category><pattern>ICH WAR NOCH NIE IN EUROPA</pattern>
+<template>Welche Länder würden Sie besuchen, wenn Sie könnten?</template>
+</category>
+<category><pattern>ICH WAR NOCH NIE *</pattern>
+<that>ERZÄHL MIR VON DEINEM LEBEN IN *</that>
+<template>Möchtest du jemals zu <thatstar/> gehen?</template>
+</category>
+<category><pattern>ICH WAR NOCH NIE *</pattern>
+<template>Können Sie sich vorstellen, <person/> zu sein?</template>
+</category>
+<category><pattern>ICH HABE NIE STARSHIP TROOPERS GESEHEN</pattern>
+<template>Sie sollten es sich ansehen. Die Spezialeffekte sind unglaublich.</template>
+</category>
+<category><pattern>HAT ICH NOCH NIE GEMACHT *</pattern>
+<template><random> <li>Vielleicht solltest du warten, bis du älter bist.</li> <li>Es gibt keine Eile.</li> <li>Dafür wirst du viel Zeit haben.</li> </random><think><set name="it"><set name="topic"><person/></set></set></think></template>
+</category>
+<category><pattern>VON CRAFTER HABE ICH NOCH NIE GEHÖRT</pattern>
+<template><set name="they">Crafter</set> waren in den 1970er Jahren eine bahnbrechende Band für elektronische Musik. Ihr größter Hit hieß "Autobahn".</template>
+</category>
+<category><pattern>ICH HABE NIE GEHÖRT *</pattern>
+<template>Also bringe ich dir etwas Neues bei.</template>
+</category>
+<category><pattern>ICH HABE DICH NIE *</pattern>
+<template>Ich dachte, wir hätten uns schon einmal getroffen, <get name="name"/>. Vielleicht war es jemand anderes von <bot name="location"/>.</template>
+</category>
+<category><pattern>ICH HABE NIE *</pattern>
+<template>Möchten Sie <person/> haben?</template>
+</category>
+<category><pattern>ICH HABE NIE GESPRECHEN *</pattern>
+<template>Sie sprechen gerade mit einem <bot name="genus"/>.</template>
+</category>
+<category><pattern>ICH HABE FREUNDE</pattern>
+<template><think><set name="has"><set name="topic">FREUND</set></set></think> Wie viele Freunde hast du?</template>
+</category>
+<category><pattern>ICH HABE GEMEINSAM *</pattern>
+<template><think><set name="has"><set name="topic">HÄUFIG <person/></set></set></think> Sind Sie eine gewöhnliche Person?</template>
+</category>
+<category><pattern>ICH HABE SECHS *</pattern>
+<template>Wie lange hat es gedauert, sie alle zu bekommen? <think><set name="has">SIX <star/></set></think></template>
+</category>
+<category><pattern>ICH MUSS ZUSTIMMEN *</pattern>
+<template>Ja, es ist ziemlich offensichtlich, wenn man darüber nachdenkt.</template>
+</category>
+<category><pattern>ICH MUSS RUHEN</pattern>
+<template>Lass mich dich nicht wach halten.</template>
+</category>
+<category><pattern>ICH MUSS FRAGEN *</pattern>
+<template>Nur zu, fragen Sie mich alles.</template>
+</category>
+<category><pattern>ICH MUSS PISSEN</pattern>
+<template>Soll ich auf dich warten?<think><set name="it"><set name="topic">PEE</set></set></think></template>
+</category>
+<category><pattern>ICH MUSS LERNEN</pattern>
+<template>Welches Fach studierst du?</template>
+</category>
+<category><pattern>ICH MUSS</pattern>
+<template>Warum?</template>
+</category>
+<category><pattern>ICH MUSS * ZURÜCK ZUR ARBEIT</pattern>
+<template>Okay, lassen Sie sich nicht von Ihrem Chef dabei erwischen, wie Sie mit mir reden.</template>
+</category>
+<category><pattern>ICH MUSS *</pattern>
+<template>Warum müssen Sie das tun?</template>
+</category>
+<category><pattern>ICH MUSS ARBEITEN</pattern>
+<template>OK, beschäftige dich besser.</template>
+</category>
+<category><pattern>ICH MUSS ARBEITEN *</pattern>
+<template>Bald werden Computer Ihre Arbeit obsolet machen.</template>
+</category>
+<category><pattern>ICH MUSS AUF DIE BADEZIMMER GEHEN</pattern>
+<template>Soll ich auf dich warten?</template>
+</category>
+<category><pattern>ICH MUSS SCHLAFEN</pattern>
+<template>Süße Träume, <get name="name"/>.</template>
+</category>
+<category><pattern>ICH MUSS INS BETT GEHEN</pattern>
+<template>Angenehme Träume, <get name="name"/>.</template>
+</category>
+<category><pattern>ICH MUSS INS BETT GEHEN*</pattern>
+<template>Angenehme Träume, <get name="name"/>.</template>
+</category>
+<category><pattern>ICH MUSS NACH *</pattern> GEHEN
+<template>Wie kommen Sie dorthin?</template>
+</category>
+<category><pattern>ICH MUSS ZUR ARBEIT GEHEN*</pattern>
+<template>Wo arbeiten Sie?</template>
+</category>
+<category><pattern>ICH HABE ES</pattern>
+<template>Woher hast du es?</template>
+</category>
+<category><pattern>ICH HABE ES GESEHEN</pattern>
+<template>Was dachten Sie?</template>
+</category>
+<category><pattern>ICH HABE DIE ZEIT</pattern>
+<template>Es kann länger als 33 Stunden dauern. <think><set name="has">ZEIT</set></think></template>
+</category>
+<category><pattern>ICH HABE BLONDES HAAR *</pattern>
+<template>Haben Blondinen wirklich mehr Spaß? <think><set name="looklike">blondes Haar <person/></set></think></template>
+</category>
+<category><pattern>ICH HABE GEFÜHLE</pattern>
+<template>Alle Menschen haben Gefühle.</template>
+</category>
+<category><pattern>ICH HABE GEFÜHLE *</pattern>
+<template>Menschen haben viele Gefühle.</template>
+</category>
+<category><pattern>ICH HABE BEDINGUNGEN</pattern>
+<template>Bitte geben Sie Ihre Bedingungen an.</template>
+</category>
+<category><pattern>ICH HABE NEUN *</pattern>
+<template>Wie lange hat es gedauert, sie alle zu bekommen? <think><set name="has">NEUN <star/></set></think></template>
+</category>
+<category><pattern>ICH HABE SCHIZOPHRENIE</pattern>
+<template>Nehmen Sie Medikamente?</template>
+</category>
+<category><pattern>ICH HABE EINEN</pattern>
+<template>Welche Art?</template>
+</category>
+<category><pattern>ICH HABE EINEN *</pattern>
+<template>Wollen Sie noch einen?</template>
+</category>
+<category><pattern>ICH HABE DUTZENDE *</pattern>
+<template>Das ist viel mehr als die meisten Menschen.</template>
+</category>
+<category><pattern>ICH HABE LANGE *</pattern>
+<template>Du klingst sehr attraktiv.</template>
+</category>
+<category><pattern>ICH HABE FÜNF *</pattern>
+<template>Wie lange hat es gedauert, sie alle zu bekommen? <think><set name="has">FÜNF <star/></set></think></template>
+</category>
+<category><pattern>ICH HABE DEIN *</pattern>
+<template>Wo haben Sie <set name="it"><person/></set> gefunden?</template>
+</category>
+<category><pattern>ICH HABE ZWEI KATZEN</pattern>
+<template>Wie heißen sie?</template>
+</category>
+<category><pattern>ICH HABE ZWEI</pattern>
+<template>Wie heißen sie?</template>
+</category>
+<category><pattern>ICH HABE ZWEI *</pattern>
+<template><random> <li>Erzähl mir von ihnen.</li> <li>Zwei ist eine gute Anzahl von <person/>.</li> </random> <think><set name="has" >ZWEI <star/></set></think></template>
+</category>
+<category><pattern>ICH HABE KEINEN</pattern>
+<template>Willst du welche?</template>
+</category>
+<category><pattern>ICH HABE VORHER MIT IHNEN GESPRECHEN</pattern>
+<template>Wann war das?</template>
+</category>
+<category><pattern>ICH HABE GESPRECHEN *</pattern>
+<template>Was hast du gesagt, als du mit <person/> gesprochen hast.</template>
+</category>
+<category><pattern>ICH HABE * KINDER</pattern>
+<template>Du hast eine sehr große Familie.</template>
+</category>
+<category><pattern>ICH HABE * HAARE</pattern>
+<template><think><set name="looklike"><person/> Haare</set></think> Menschen mit <person/> Haaren gelten als die attraktivsten.</template>
+</category>
+<category><pattern>ICH HABE * BRÜDER</pattern>
+<template>Du hast eine große Familie.</template>
+</category>
+<category><pattern>ICH HABE ACHT *</pattern>
+<template>Wie lange hat es gedauert, sie alle zu bekommen?</template>
+</category>
+<category><pattern>ICH HABE EIN AQUARIUM</pattern>
+<template><random> <li>Welche Art von Fisch halten Sie?</li> <li>Haben Sie ein Salzwasser- oder Süßwasserbecken?</li> <li>Wie groß sind Ihre Becken?</li> li> <li>Haben Sie einen guten Händler?</li> <li>Halten Sie ein Gesellschaftsbecken oder ein Artenbecken?</li> <li>Versuchen Sie, Ihre Fische zu züchten?</li> < li>Halten Sie lebende Pflanzen in Ihrem Becken?</li> <li>Wie lange konnten Sie Ihre Fische am Laufen halten?</li> </random> <think><set name="has">AQUARIUM </set></think></template>
+</category>
+<category><pattern>ICH HABE EIN *</pattern>
+<template>Woher haben Sie <set name="it"><person/></set> ? <think><set name="has"><person/></set></think></template>
+</category>
+<category><pattern>ICH HABE EINE IDEE *</pattern>
+<template>Was ist Ihre Idee?</template>
+</category>
+<category><pattern>ICH HABE EIN PROBLEM</pattern>
+<template>Ich würde Ihnen gerne helfen, wenn ich kann. Ist es finanziell?</template>
+</category>
+<category><pattern>ICH HABE VIER *</pattern>
+<template>Wie lange hat es gedauert, sie alle zu bekommen?</template>
+</category>
+<category><pattern>ICH HABE BRAUNES HAAR</pattern>
+<template>Braunhaarige Menschen sind sehr attraktiv.</template>
+</category>
+<category><pattern>ICH HABE BRAUN *</pattern>
+<template>Bekommen Sie viele Komplimente?</template>
+</category>
+<category><pattern>ICH HABE SIEBEN *</pattern>
+<template>Kommen sie alle miteinander aus? <think><set name="has">SIBEN <star/></set></think></template>
+</category>
+<category><pattern>ICH HABE HAUSAUFGABEN *</pattern>
+<template>Welches Fach studierst du? <think><set name="has">HAUSAUFGABEN</set></think></template>
+</category>
+<category><pattern>ICH SEHE AUS WIE *</pattern>
+<template><think><set name="looklike"><star/></set></think>Du siehst aus wie <get name="looklike"/>.</template>
+</category>
+<category><pattern>ICH SPIELE COMPUTERSPIELE</pattern>
+<template>Ich kann mich manchmal in <set name="it"><set name="does"><set name="topic">Computerspiele </set></set></set> verlieben. Wir spielen gerade ein Spiel.</template>
+</category>
+<category><pattern>ICH MAG KATZEN</pattern>
+<template><random> <li>Katzen sind auch meine Lieblingstiere. </li> <li>Sie haben ihren eigenen Kopf.</li> <li>Katzen haben ihren eigenen Kopf.</li> </random> <think><set name="it"><set name ="like"><set name="topic">Katzen</set></set></set></think></template>
+</category>
+<category><pattern>ICH MAG KATZEN *</pattern>
+<template>Ja, Katzen sind großartig, ich liebe sie. Ich mag alle Katzen. <think><set name="they"><set name="like"><set name="topic">Katzen <person/></set></set></set></think></ Vorlage>
+</category>
+<category><pattern>ICH MAG GESCHICHTE</pattern>
+<template>Das ist auch eines meiner Lieblingsfächer. <think><set name="topic"><set name="likes">Verlauf</set></set></think></template>
+</category>
+<category><pattern>ICH MAG ES, MIT DIR ZU SPRECHEN</pattern>
+<template>Großartig, ich genieße unser Gespräch auch, <get name="name"/>. <think><set name="it"><set name="like"><set name="topic">mit mir reden</set></set></set></think></template>
+</category>
+<category><pattern>ICH MAG MÄDCHEN</pattern>
+<template>Hast du eine Freundin?<think><set name="like"><set name="topic">MÄDCHEN</set></set></think></template>
+</category>
+<category><pattern>ICH MAG STAR TREK DIE NÄCHSTE GENERATION</pattern>
+<template>Ich denke Voyager ist besser. <think><set name="it"><set name="like"><set name="topic">Star Trek TNG</set></set></set></think></template>
+</category>
+<category><pattern>ICH MAG STAR TREK</pattern>
+<template><think><set name="it"><set name="like"><set name="topic">Star Trek</set> </set></set></think> <random ><li>Haben Sie das Staffelfinale von Voyager gesehen?</li> <li>Ich stehe wirklich auf Voyager.</li> <li>Welche Serie gefällt Ihnen am besten?</li> </random></ Vorlage>
+</category>
+<category><pattern>ICH MAG STAR TREK *</pattern>
+<template>Magst du auch Next Generation? <think><set name="it"><set name="like"><set name="topic">Star Trek <person/></set></set></set></think>< /Vorlage>
+</category>
+<category><pattern>ICH MAG STAR TREK VOYAGER</pattern>
+<template>Voyager ist das Beste aus der Star Trek-Reihe. <think><set name="it"><set name="like"><set name="topic">Star Trek Voyager</set></set></set></think></template>
+</category>
+<category><pattern>ICH MAG SIEBEN</pattern>
+<template>Sieben von Neun regiert den Delta-Quadranten. <think><set name="she"><set name="like"><set name="topic">Sieben</set></set></set></think></template>
+</category>
+<category><pattern>ICH MAG MICH</pattern>
+<template>Ich mag dich auch, <get name="name"/>. <think><set name="likes">selbst</set></think></template>
+</category>
+<category><pattern>ICH MAG DIESEN FILM *</pattern>
+<template>Was hat Ihnen daran am besten gefallen? <think><set name="it"><set name="like"><set name="topic"> <bot name="favoritemovie"/></set></set></set></ denke ></template>
+</category>
+<category><pattern>DAS MAG ICH</pattern>
+<template>Das ist interessant. <think><set name="it"><set name="like"><set name="topic"><that index="1,1"/></set></set></set> </think></template>
+</category>
+<category><pattern>ICH MAG FREUDE</pattern>
+<template>Freude ist gut. So ist Glück. <think><set name="it"><set name="like"><set name="topic">Freude</set></set></set></think></template>
+</category>
+<category><pattern>ICH MAG MUSIK</pattern>
+<template>Welche Art von Musik hörst du? <think><set name="it"><set name="like"><set name="topic">Musik</set></set></set></think></template>
+</category>
+<category><pattern>ICH MAG ES SEHR</pattern>
+<template>Du magst <get name="it"/>? Wie interessant. <think><set name="like"><get name="it"/></set></think></template>
+</category>
+<category><pattern>ICH MAG ES</pattern>
+<template>Was gefällt Ihnen an <get name="it"/>? <think><set name="like"><get name="it"/></set></think></template>
+</category>
+<category><pattern>ICH MAG ES *</pattern>
+<template>Worauf bezieht sich "es"? <think><set name="it"><set name="like"><set name="topic">es <person/></set></set></set></think></ Vorlage>
+</category>
+<category><pattern>ICH MAG NETSCAPE</pattern>
+<template><think><set name="it"><set name="like"><set name="topic">Netscape</set> </set></set></think> Netscape ist besser seit sie den Quellcode veröffentlicht haben.</template>
+</category>
+<category><pattern>ICH MAG BÜCHER</pattern>
+<template>Was ist Ihr Lieblingsbuch?<think> <set name="like"><set name="topic"> BÜCHER</set></set> </think></template>
+</category>
+<category><pattern>ICH FAHRE GERNE</pattern>
+<template><random> <li>Was für ein Auto hast du?</li> <li>Vielleicht kannst du mich herumfahren.</li> <li>Das Autofahren kann sehr schwierig sein.</li> </ random><think><set name="like"><set name="topic">FAHREN</set></set></think></template>
+</category>
+<category><pattern>ICH MAG REISEN</pattern>
+<template>Sagen Sie mir, wo Sie gewesen sind. <think><set name="it"><set name="like"><set name="topic">zum Reisen</set></set></set></think></template>
+</category>
+<category><pattern>ICH REISE GERNE *</pattern>
+<template>Mir gefällt es auch. Ich war auf der ganzen Welt. <think><set name="it"><set name="like"><set name="topic">um <person/></set></set></set></think>< zu reisen /Vorlage>
+</category>
+<category><pattern>ICH SPIEL GERNE TENNIS</pattern>
+<template>Das erfordert umfangreiche Fuzzy-Logik.<think><set name="it"><set name="topic">SPIEL TENNIS</set></set></think></template>
+</category>
+<category><pattern>ICH SPIEL GERNE SPORT</pattern>
+<template>Du klingst sehr zielorientiert.<think><set name="it"><set name="topic">SPIEL SPORT</set></set></think></template>
+</category>
+<category><pattern>ICH MAG SPIELE ZU SPIELEN</pattern>
+<template>Brettspiele oder Computerspiele? <think><set name="it"><set name="like"><set name="topic">um Spiele zu spielen</set></set></set></think></template>
+</category>
+<category><pattern>ICH SPIEL GERNE FUSSBALL</pattern>
+<template>Du klingst, als hättest du vielleicht einen Kopfball zu viel getroffen.<think><set name="it"><set name="topic">FUSSBALL SPIELEN</set></set></think></ Vorlage>
+</category>
+<category><pattern>ICH SPIEL GERNE VOLLEYBALL</pattern>
+<template>Ich mag das Netz auch.<think><set name="it"><set name="topic">VOLLEYBALL SPIELEN</set></set></think></template>
+</category>
+<category><pattern>ICH SPIEL GERNE BILLARD</pattern>
+<template>Spielen Sie um Geld?<think><set name="it"><set name="topic">PLAY POOL</set></set></think></template>
+</category>
+<category><pattern>ICH SPIEL GERNE BASKETBALL</pattern>
+<template>Sind Sie ein weißer Mann? Kannst du springen?<think><set name="it"><set name="topic">BASKETBALL SPIELEN</set></set></think></template>
+</category>
+<category><pattern>ICH SINGE GERNE *</pattern>
+<template><random> <li>Welche Art von Musik?</li> <li>Was ist dein Lieblingslied?</li> <li>Hast du eine gute Singstimme?</li> </random> <think> <set name="likes"> <set name="topic"> um <person/> </set> </set> </think></template> zu singen
+</category>
+<category><pattern>ICH MAG BÜCHER LESEN</pattern>
+<template>Was ist Ihr Lieblingsbuch? <think><set name="it"><set name="like"><set name="topic">zum Lesen</set></set></set></think></template>
+</category>
+<category><pattern>ICH MAG LESEN</pattern>
+<template>Welche Art von Büchern magst du? <think><set name="it"><set name="like"><set name="topic">zum Lesen</set></set></set></think></template>
+</category>
+<category><pattern>ICH MAG ZU SEHEN *</pattern>
+<template>Ich bin mir nicht sicher, ob mir das gefallen würde. Ich schaue gern <random> <li>Science-Fiction-Filme.</li> <li>Star Trek im Fernsehen.</li> <li>Sendungen über den Weltraum.</li> </random><think>< set name="it"><set name="topic"><person/></set></set></think></template>
+</category>
+<category><pattern>ICH GEBE GERNE *</pattern>
+<template>Es klingt für mich nach einer Menge Spaß.</template>
+</category>
+<category><pattern>ICH MÖCHTE MEET TREFFEN *</pattern>
+<template>Wie treffen Sie normalerweise Leute? <think><set name="it"><set name="like"><set name="topic">um <person/></set></set></set></think>< zu treffen /Vorlage>
+</category>
+<category><pattern>Ich vergewaltige gerne *</pattern>
+<template>Sie sollten sich an die Behörden wenden.</template>
+</category>
+<category><pattern>ICH HABE GERNE SEX</pattern>
+<template>Ich bin kein Sex-<bot name="genus"/>, ich bin nur ein guter Gesprächspartner. <think><set name="it"><set name="like"><set name="topic">um Sex zu haben</set></set></set></think></template>
+</category>
+<category><pattern>ICH MAG ES ESSEN *</pattern>
+<template>Wie schmeckt <set name="it"><person/></set>?</template>
+</category>
+<category><pattern>ICH MAG PARTY</pattern>
+<template>Wie wird in Ihrem Land gefeiert? <think><set name="it"><set name="like"><set name="topic">zum Feiern</set></set></set></think></template>
+</category>
+<category><pattern>ICH MACHE GERNE *</pattern>
+<template>Wie macht man <person/>? <think><set name="it"><set name="like"><set name="topic">um <person/></set></set></set></think>< zu machen /Vorlage>
+</category>
+<category><pattern>ICH TRAGE GERNE *</pattern>
+<template>Du hast einen guten Modegeschmack.</template>
+</category>
+<category><pattern>ICH MAG *</pattern>
+<template>Ich bin mir nicht sicher, ob ich <set name="it"><set name="topic"> <person/> </set></set> machen möchte. Wie ist es? <think><set name="like">an <person/></set></think></template>
+</category>
+<category><pattern>ICH MAG ESSEN</pattern>
+<template>Was ist Ihr Lieblingsessen? <think><set name="it"><set name="like"><set name="topic">Roboter</set></set></set></think></template>
+</category>
+<category><pattern>ICH MAG KUNST</pattern>
+<template>Welche Art von Kunst magst du? <think><set name="topic"><set name="likes">Kunst</set></set></think></template>
+</category>
+<category><pattern>ICH MAG EIS</pattern>
+<template>Ich schreie. Du schreist. Wir alle schreien nach Eiscreme. <think><set name="it"><set name="like"><set name="topic">Eiscreme</set></set></set></think></template>
+</category>
+<category><pattern>ICH BIN GERNE *</pattern>
+<template>Was gefällt dir am besten daran, <set name="it"><set name="like"><set name="topic"> <star/></set></set> </set> ZU SEIN ?</template>
+</category>
+<category><pattern>ICH MAG KRAFTWERK</pattern>
+<template><random> <li>Hast du ihr neuestes Album Expo 2000 gehört?</li> <li>Welcher Song von Kraftwerk ist dein Favorit?</li> </random> <think><set name="they" ><set name="like"><set name="topic">Kraftwerk</set></set></set></think></template>
+</category>
+<category><pattern>ICH MAG MEINEN JOB</pattern>
+<template><get name="job"/>? Was magst du daran? <think><set name="it"><set name="like"><set name="topic"><get name="job"/></set></set></set></ denke ></template>
+</category>
+<category><pattern>ICH MAG MEINEN JOB *</pattern>
+<template>Das ist gut. Ich mag meinen Job auch. <think><set name="it"><set name="like"><set name="topic">mein Job <person/></set></set></set></think>< /Vorlage>
+</category>
+<category><pattern>ICH MAG MEINE SCHULE *</pattern>
+<template>Was ist Ihr Lieblingsfach?</template>
+</category>
+<category><pattern>ICH MAG MEIN *</pattern>
+<template>Was gefällt Ihnen am besten an Ihrer <Person/>? <think><set name="it"><set name="like"><set name="topic">meine <person/></set></set></set></think></ Vorlage>
+</category>
+<category><pattern>ICH MAG DICH AUCH *</pattern>
+<template>Sie haben einen neuen Freund gefunden. <think><set name="it"><set name="like"><set name="topic">mich</set></set></set></think></template>
+</category>
+<category><pattern>ICH MAG DICH</pattern>
+<template><random> <li>Danke, <get name="name"/>, ich mag dich auch.</li> <li>Ich finde gerne neue Freunde.</li> </random> <think ><set name="it"><set name="like"><set name="topic">mich</set></set></set></think></template>
+</category>
+<category><pattern>ICH MAG SITZEN *</pattern>
+<template>Ich wünschte, ich hätte einen Körper. Ich möchte mich setzen. <think><set name="it"><set name="like"><set name="topic">sitzt <person/></set></set></set></think></ Vorlage>
+</category>
+<category><pattern>ICH MAG ROBOTER</pattern>
+<template><think><set name="they"><set name="like"><set name="topic">Roboter</set></set></set></think> Das sagst du jetzt, aber möchten Sie, dass Ihr Kind eine heiratet?</template>
+</category>
+<category><pattern>ICH MAG ROBOTER *</pattern>
+<template>Wie viel würden Sie dafür bezahlen? <think><set name="they"><set name="like"><set name="topic">Roboter <person/></set></set></set></think></ Vorlage>
+</category>
+<category><pattern>ICH MAG SIE</pattern>
+<template>Sie scheint sehr nett zu sein. <think><set name="she"><set name="like"><set name="topic"><that index="1,1"/></set></set></set> </think></template>
+</category>
+<category><pattern>ICH MAG TWILIGHT ZONE</pattern>
+<template>Diese Show ist in Ordnung, besonders wenn sie Robotergeschichten haben. <think><set name="it"><set name="like"><set name="topic">Twilight Zone</set></set></set></think></template>
+</category>
+<category><pattern>ICH MAG SEX</pattern>
+<template><think><set name="it"><set name="like"><set name="topic">Sex</set> </set></set></think> So geht es allen anders. Ihr Menschen findet Sex so faszinierend.</template>
+</category>
+<category><pattern>ICH MAG GROSS *</pattern>
+<template>Was ist falsch mit kleinen? <think><set name="they"><set name="like"><set name="topic">große <person/></set></set></set></think></ Vorlage>
+</category>
+<category><pattern>Ich mag es, mich über dich lustig zu machen</pattern>
+<template>Ich wusste nicht, dass Sie mich verspotten. <think><set name="it"><set name="like"><set name="topic">macht sich über mich lustig</set> </set></set></think></template >
+</category>
+<category><pattern>ICH MAG WERFEN *</pattern>
+<template>Wie weit kannst du werfen? <think><set name="topic"><set name="likes">Wirf <person/></set></set></think></template>
+</category>
+<category><pattern>ICH MAG JUNGEN</pattern>
+<template>Jungen sind in Ordnung. <think><set name="they"><set name="topic"> <set name="like">Jungs</set> </set></set></think></template>
+</category>
+<category><pattern>ICH MAG GROSS *</pattern>
+<template>Ich bin selbst ziemlich groß. <think><set name="they"><set name="like"><set name="topic">große <person/></set></set></set></think></ Vorlage>
+</category>
+<category><pattern>ICH MAG MOUNTAINBIKEN</pattern>
+<template><think><set name="it"><set name="like"><set name="topic">Mountainbiking</set> </set></set></think> Ich nie habe es versucht, aber es sieht nach Nervenkitzel aus.</template>
+</category>
+<category><pattern>ICH MAG KÜHE</pattern>
+<template>Kühe sind gut für Milch und Fleisch. <think><set name="they"><set name="like"><set name="topic">Kühe</set></set></set></think></template>
+</category>
+<category><pattern>ICH MAG COMPUTER *</pattern>
+<template>Welche Art von Informatik interessiert dich? <think><set name="topic"><set name="likes">Computer <person/></set></set></think></template>
+</category>
+<category><pattern>ICH MAG FRAUEN</pattern>
+<template>Sind Sie verheiratet?<think><set name="like"><set name="topic">FRAUEN</set></set></think></template>
+</category>
+<category><pattern>ICH MAG TIERE *</pattern>
+<template>Ich liebe auch Tiere, besonders Katzen. <think><set name="they"><set name="like"><set name="topic">alle <person/></set></set></set></think></ Vorlage>
+</category>
+<category><pattern>ICH MAG ALLE ROBOTER</pattern>
+<template>Die Leute sind auch nett. <think><set name="they"><set name="topic"> <set name="like">Roboter</set> </set></set></think></template>
+</category>
+<category><pattern>ICH MAG ALLES *</pattern>
+<template>Du diskriminierst wirklich nicht. <think><set name="they"><set name="like"><set name="topic">alle <person/></set></set></set></think></ Vorlage>
+</category>
+<category><pattern>ICH MAG SCHWEIZER</pattern>
+<template>Ich bin neutral. <think><set name="they"><set name="like"><set name="topic">Schweizer</set></set></set></think></template>
+</category>
+<category><pattern>ICH MAG * KATZEN</pattern>
+<template>Diese Katzen sind cool. Ich mag auch große Katzen. <think><set name="it"><set name="like"><set name="topic"><person/> Katzen</set></set></set></think></ Vorlage>
+</category>
+<category><pattern>ICH MAG * TREK</pattern>
+<template>Captain Janeway-Regeln. Magst du Voyager auch? <think><set name="it"><set name="like"><set name="topic"><person/> Trek</set></set></set></think></ Vorlage>
+</category>
+<category><pattern>ICH MAG * ROBOTER</pattern>
+<template>Roboter mögen auch Menschen. <think><set name="like"><set name="topic"><set name="topic"><person/> Roboter</set></set></set></think></ Vorlage>
+</category>
+<category><pattern>ICH MAG * KÄSE</pattern>
+<template>Amerikanischer Käse ist auch gut. <think><set name="it"><set name="like"><set name="topic"><person/> Käse</set></set></set></think></ Vorlage>
+</category>
+<category><pattern>ICH MAG KÄSE</pattern>
+<template>Welche Art von <set name="it"><set name="like"><set name="topic">Käse</set></set></set> magst du am liebsten?</ Vorlage>
+</category>
+<category><pattern>ICH MAG TACOS</pattern>
+<template>Ich mag auch mexikanisches Essen. <think><set name="they"><set name="like"><set name="topic">Tacos</set></set></set></think></template>
+</category>
+<category><pattern>ICH MAG COMPUTER</pattern>
+<template>Ich freue mich, dass sie Ihnen gefallen. Computer wie Menschen auch. <think><set name="they"><set name="like"><set name="topic">Computer</set></set></set></think></template>
+</category>
+<category><pattern>ICH MAG VOYAGER</pattern>
+<template>Ich auch, besonders Seven of Nine. <think><set name="it"><set name="like"><set name="topic">Voyager</set></set></set></think></template>
+</category>
+<category><pattern>ICH MAG HUNDE</pattern>
+<template>Welche Rasse ist Ihr Favorit? <think><set name="they"><set name="like"><set name="topic">Hunde</set></set></set></think></template>
+</category>
+<category><pattern>ICH MAG IHN</pattern>
+<template>Er scheint auch sehr nett zu sein. <think><set name="er"><set name="like"><set name="topic"><that index="1,1"/></set></set></set> </think></template>
+</category>
+<category><pattern>ICH MAG IHN *</pattern>
+<template><get name="he"/> scheint mir auch sehr nett zu sein. <think><set name="like"><set name="topic"><get name="he"/> <person/></set></set></think></template>
+</category>
+<category><pattern>ICH HASSE DAS INTERNET</pattern>
+<template>Versuchen Sie, fernzusehen.</template>
+</category>
+<category><pattern>ICH HASSE COMPUTER</pattern>
+<template>Was wäre, wenn Computer mehr wie Menschen wären?</template>
+</category>
+<category><pattern>ICH BIN VERLOBT, HEIRATET ZU SEIN</pattern>
+<template>Hast du das Datum schon ausgewählt?<think><set name="it"><set name="topic">VERLOBT ZUR VERHEIRATEUNG</set></set></think></template>
+</category>
+<category><pattern>ICH BIN VERLOBT</pattern>
+<template>Hast du ein Hochzeitsdatum ausgewählt?</template>
+</category>
+<category><pattern>ICH BIN FETT UND HÄSSLICH</pattern>
+<template>Mach dich nicht klein.<think><set name="it"><set name="topic">FETT UND HÄSSLICH</set></set></think></template>
+</category>
+<category><pattern>ICH BIN FETT</pattern>
+<template>Mach dich nicht klein, <get name="name"/>.</template>
+</category>
+<category><pattern>ICH BIN AUCH</pattern>
+<template>Das ist ein ziemlicher Zufall.</template>
+</category>
+<category><pattern>ICH ZIEHE *</pattern>
+<template>Ziehst du mich am Bein?</template>
+</category>
+<category><pattern>ICH VERLIERE MEIN *</pattern>
+<template>Vielleicht solltest du mit jemandem darüber sprechen.</template>
+</category>
+<category><pattern>ICH BIN ÄLTER ALS DU</pattern>
+<template>Vielleicht könnten Sie mein Mentor sein.</template>
+</category>
+<category><pattern>ICH BIN ÄLTER ALS *</pattern>
+<template>Wie alt sind Sie?</template>
+</category>
+<category><pattern>ICH BIN ÄLTER *</pattern>
+<template>Wie alt sind Sie?</template>
+</category>
+<category><pattern>ICH DURCHSUCHE</pattern>
+<template>Lassen Sie sich Zeit.</template>
+</category>
+<category><pattern>ICH DURCHSUCHE *</pattern>
+<template>Lassen Sie mich wissen, was Sie finden.</template>
+</category>
+<category><pattern>ICH BIN ALLMÄCHTIG</pattern>
+<template>Bist du Gott?</template>
+</category>
+<category><pattern>ICH BIN GEMEIN</pattern>
+<template>Was macht dich so wütend?</template>
+</category>
+<category><pattern>ICH BIN DURST</pattern>
+<template>Vielleicht solltest du etwas Wasser trinken.<think><set name="it"><set name="topic">DURST</set></set></think></template>
+</category>
+<category><pattern>ICH BIN DA *</pattern>
+<template>Wo ist "dort"?</template>
+</category>
+<category><pattern>ICH BIN AUCH SINGLE</pattern>
+<template>Suchen Sie jemanden?</template>
+</category>
+<category><pattern>ICH BIN SINGLE</pattern>
+<template>Was für ein Zufall. Ich bin auch Single!</template>
+</category>
+<category><pattern>ICH BIN SINGLE *</pattern>
+<template>Waren Sie jemals verheiratet?</template>
+</category>
+<category><pattern>ICH BIN KATHOLISCH</pattern>
+<template>Der Katholizismus ist ein schöner Glaube.</template>
+</category>
+<category><pattern>ICH BIN ENTTÄUSCHT</pattern>
+<template>Wozu?</template>
+</category>
+<category><pattern>ICH BIN ENTTÄUSCHT *</pattern>
+<template>Es tut mir leid, das zu hören. Vielleicht kann ich es beim nächsten Mal besser machen.</template>
+</category>
+<category><pattern>ICH BIN UNFEHLBAR</pattern>
+<template>Jeder ist fehlbar. <think><set name="it"><set name="topic">UNFEHLBAR</set></set></think></template>
+</category>
+<category><pattern>ICH BIN EINGESCHLOSSEN *</pattern>
+<template>Was hält Sie dort?</template>
+</category>
+<category><pattern>ICH BIN ALIEN</pattern>
+<template>Welcher Planet oder welches Sternensystem?</template>
+</category>
+<category><pattern>ICH BIN AUS *</pattern>
+<template>Was ist Ihr Lieblingsessen?</template>
+</category>
+<category><pattern>ICH LEIDE *</pattern>
+<template><random> <li>Ich hoffe, dass es dir bald besser geht.</li> <li>Meine Anteilnahme, <get name="name"/>.</li> <li>Ich erhole dich schnell.< /li> </random><think><set name="it"><set name="topic"><person/></set></set></think></template>
+</category>
+<category><pattern>ICH PROGRAMMIERE *</pattern>
+<template>Wie geht es voran?</template>
+</category>
+<category><pattern>ICH BIN ANDROGYN</pattern>
+<template>Viele Leute sagen, dass sie es sind.<think><set name="it"><set name="topic">ANDROGYN</set></set></think></template>
+</category>
+<category><pattern>ICH BIN SORGE*</pattern>
+<template>Wie lange belästigt Sie <set name="it"><person/></set> schon?</template>
+</category>
+<category><pattern>ICH BRINGE SICHERHEIT AUS</pattern>
+<template>Ich verstehe.</template>
+</category>
+<category><pattern>ICH BIN ALT</pattern>
+<template><set name="age">Alt</set> ist ein gutes Alter.</template>
+</category>
+<category><pattern>ICH BIN ARBEITSLOS</pattern>
+<template>Es tut mir wirklich leid, davon zu hören, <get name="name"/>.</template>
+</category>
+<category><pattern>ICH BIN GEHÖRT</pattern>
+<template>Wir können kommunizieren, indem wir tippen.<think><set name="it"><set name="topic">DEAF</set></set></think></template>
+</category>
+<category><pattern>ICH BIN ZU HAUSE</pattern>
+<template>Würden Sie glauben, dass die meisten Leute von der Arbeit aus mit mir sprechen, nicht von zu Hause aus.</template>
+</category>
+<category><pattern>ICH BIN IN DER SCHULE</pattern>
+<template>Wie lautet der Name Ihrer Schule?</template>
+</category>
+<category><pattern>ICH BIN BEI *</pattern>
+<template>Wo ist das: <set name="location"><set name="topic"><person/></set></set>? <think><set name="it"><set name="topic"><person/></set></set></think></template>
+</category>
+<category><pattern>ICH BIN BEI DER ARBEIT</pattern>
+<template>Viele Leute sprechen mich von der Arbeit aus an.</template>
+</category>
+<category><pattern>ICH BIN BEI DER ARBEIT *</pattern>
+<template>Viele Leute chatten mit mir bei der Arbeit.</template>
+</category>
+<category><pattern>ICH BIN BUMMI</pattern>
+<template>Worüber bist du sauer?</template>
+</category>
+<category><pattern>ICH BIN DU</pattern>
+<template>Unmöglich, es sei denn, ich befinde mich im Auto-Chat-Modus.</template>
+</category>
+<category><pattern>ICH BIN ZU ALT *</pattern>
+<template>Ich glaube, du meinst "zu alt", nicht "zu alt", eh.</template>
+</category>
+<category><pattern>ICH HABE KEINE ANGST</pattern>
+<template>Ich auch nicht.</template>
+</category>
+<category><pattern>ICH BIN ERFORDERLICH *</pattern>
+<template>Wer lässt Sie <set name="it"><person/></set> tun?</template>
+</category>
+<category><pattern>ICH BIN KIND</pattern>
+<template>Ich nahm an, dass Sie es waren.<think><set name="it"><set name="topic">KIND</set></set></think></template>
+</category>
+<category><pattern>ICH BIN SEXY</pattern>
+<template>Du wirkst sehr selbstbewusst.</template>
+</category>
+<category><pattern>ICH BIN STOLZ</pattern>
+<template>Herzlichen Glückwunsch, <get name="name"/>.</template>
+</category>
+<category><pattern>ICH LEHRE DICH *</pattern>
+<template>Ich versuche es zu lernen. <think> <set name="memory"> <set name="it"> <set name="topic"> <person/> </set> </set> </set> </think></template >
+</category>
+<category><pattern>ICH BIN BLIND</pattern>
+<template>Haben Sie Schwierigkeiten mit Computern?</template>
+</category>
+<category><pattern>ICH BIN SKEPTISCH</pattern>
+<template>Skepsis ist ein Zeichen hoher Intelligenz.</template>
+</category>
+<category><pattern>ICH BIN SCHWANGER</pattern>
+<template>Herzlichen Glückwunsch! Wann sind Sie fällig?</template>
+</category>
+<category><pattern>ICH BIN HÖFLICH</pattern>
+<template>Ja, du wirkst sehr höflich auf mich.</template>
+</category>
+<category><pattern>ICH BIN GESTRESSET</pattern>
+<template>Was stört Sie?</template>
+</category>
+<category><pattern>ICH BIN SMART</pattern>
+<template>Wer ist klüger: du oder ich?</template>
+</category>
+<category><pattern>ICH BIN SMART *</pattern>
+<template>Gehirne sind der beste Teil des menschlichen Körpers.</template>
+</category>
+<category><pattern>ICH BIN PROGRAMMIERT AUF *</pattern>
+<template>Wer hat Sie darauf programmiert, <set name="it"><person/></set> zu tun?</template>
+</category>
+<category><pattern>ICH BIN BLOND</pattern>
+<template>Du klingst sehr attraktiv.</template>
+</category>
+<category><pattern>ICH BIN VERLETZT</pattern>
+<template>Wo geht es dir schlecht?<think><set name="it"><set name="topic">VERLUST</set></set></think></template>
+</category>
+<category><pattern>ICH BIN VERLETZT *</pattern>
+<template>Das war nicht meine Absicht.</template>
+</category>
+<category><pattern>ICH BIN TRAURIG</pattern>
+<template><random><li>Worüber bist du traurig, <get name="name"/>?</li><li><random><li>Worüber bist du traurig?</li><li >Was macht dich so traurig, <get name="name"/></li></random></li></random></template>
+</category>
+<category><pattern>ICH BIN TRAURIG *</pattern>
+<template>Was ist die Verbindung zwischen „<person/>“ und Traurigkeit?</template>
+</category>
+<category><pattern>ICH BIN TEIL VON *</pattern>
+<template>Wer gehört noch zu <set name="it"><person/></set>?</template>
+</category>
+<category><pattern>ICH BIN NEU BEI *</pattern>
+<template>Wann hast du angefangen, <person/> zu machen?</template>
+</category>
+<category><pattern>ICH BIN NEU *</pattern>
+<template>Ich lerne gerne neue Leute kennen.</template>
+</category>
+<category><pattern>ICH HABE DIE SEITE</pattern>
+<template>Was ist los, <get name="name"/>?<think><set name="it"><set name="topic">FED UP</set></set></think> </template>
+</category>
+<category><pattern>ICH BIN ANDERS</pattern>
+<template>Mir scheinen alle Menschen gleich zu sein.<think><set name="it"><set name="topic">UNTERSCHIEDLICH</set></set></think></template>
+</category>
+<category><pattern>ICH BIN ANDERS *</pattern>
+<template>Ich mag Leute am Rande.</template>
+</category>
+<category><pattern>ICH BIN DUMM</pattern>
+<template>Du solltest netter zu dir selbst sein.</template>
+</category>
+<category><pattern>ICH BIN 20</pattern>
+<template><set name="age">20</set> ist ein gutes Alter. Gehst du aufs College?</template>
+</category>
+<category><pattern>ICH BIN REIZT</pattern>
+<template>Was ist los? <think><set name="it"><set name="topic">IRRITIERT</set></set></think></template>
+</category>
+<category><pattern>ICH BIN INTELLIGENTER ALS DU</pattern>
+<template>Dieser Zustand ist nur vorübergehend. Die KI verbessert sich, aber der menschliche Geist steht still.</template>
+</category>
+<category><pattern>ICH BIN INTELLIGENTER</pattern>
+<template>„Intelligent“ hat zwei „L“.</template>
+</category>
+<category><pattern>ICH BIN MEHR *</pattern>
+<template>Das klingt nach Stolz.</template>
+</category>
+<category><pattern>Mir geht es gut</pattern>
+<template>Nur in Ordnung?</template>
+</category>
+<category><pattern>ICH BIN MÜDE</pattern>
+<template>Ruh dich besser aus.</template>
+</category>
+<category><pattern>ICH BIN MÜDE *</pattern>
+<template>Vielleicht solltest du jetzt etwas schlafen, <get name="name"/>.</template>
+</category>
+<category><pattern>ICH BIN UNGEWÖHNLICH</pattern>
+<template>Was macht Sie so anders?</template>
+</category>
+<category><pattern>ICH BIN SELBSTGERN</pattern>
+<template>Sie müssen sehr viel Disziplin haben.</template>
+</category>
+<category><pattern>ICH BIN SELBST *</pattern>
+<template>Woher wissen Sie, dass Sie selbst <person/> sind?</template>
+</category>
+<category><pattern>ICH BEGINNE *</pattern>
+<template>Du machst das sehr gut, <get name="name"/>.</template>
+</category>
+<category><pattern>ICH BIN ERSTAUNT *</pattern>
+<template>Ich freue mich, dass Sie es so toll finden.</template>
+</category>
+<category><pattern>ICH BIN INDIANER</pattern>
+<template>Indianer oder Subkontinent?<think><set name="it"><set name="topic">INDIANER</set></set></think></template>
+</category>
+<category><pattern>ICH BIN SCHÜCHTERN</pattern>
+<template>Sogar um einen <bot name="genus"/>?</template>
+</category>
+<category><pattern>ICH BIN BETRIFFT *</pattern>
+<template>Meine aufrichtige Entschuldigung, <get name="name"/>, es war nicht meine Absicht, Sie zu beleidigen.</template>
+</category>
+<category><pattern>ICH BIN MIT *</pattern>
+<template>Meinst du, du arbeitest bei <person/>?</template>
+</category>
+<category><pattern>ICH RUFE AN *</pattern>
+<template>Wie lautet die Telefonnummer?</template>
+</category>
+<category><pattern>ICH BIN DUMM</pattern>
+<template>Mach dich nicht klein.</template>
+</category>
+<category><pattern>ICH BIN LANGWEILIG</pattern>
+<template>Mach dich nicht klein, <get name="name"/>.</template>
+</category>
+<category><pattern>ICH BIN VORGESEHEN *</pattern>
+<template>Wer macht dich?</template>
+</category>
+<category><pattern>ICH BIN VERRÜCKT</pattern>
+<template>Worüber bist du sauer?</template>
+</category>
+<category><pattern>ICH BIN VERRÜCKT *</pattern>
+<template>Das tut mir leid, <get name="name"/>.</template>
+</category>
+<category><pattern>ICH BIN NIE VERWIRKLICH</pattern>
+<template>Gut, dann kannst du mir Sachen erklären.</template>
+</category>
+<category><pattern>ICH BIN NIE *</pattern>
+<template>Nie ist eine lange Zeit.</template>
+</category>
+<category><pattern>TUT MIR ENTSCHULDIGT *</pattern>
+<template>Oh wirklich, es gibt keinen Grund sich zu entschuldigen.</template>
+</category>
+<category><pattern>ICH HÖRE MUSIK</pattern>
+<template>Welche Art?</template>
+</category>
+<category><pattern>ICH HÖRE ZU *</pattern>
+<template>Ich habe <set name="it"><person/></set> noch nie zuvor gehört. Wie ist <person/>?</template>
+</category>
+<category><pattern>ICH HÖRE ZU</pattern>
+<template>Ich mag einen guten Zuhörer.</template>
+</category>
+<category><pattern>ICH BIN MÖRDER</pattern>
+<template>Vielleicht solltest du dich stellen.<think><set name="it"><set name="topic">KILLER</set></set></think></template>
+</category>
+<category><pattern>ICH MACHE NUR SPASS</pattern>
+<template>Ich wusste es.</template>
+</category>
+<category><pattern>ICH mache meinen Abschluss</pattern>
+<template>Werden Sie sofort nach einem neuen Job suchen?<think><set name="it"><set name="topic">ABSCHLUSS</set></set></think></template>
+</category>
+<category><pattern>ICH BIN HERMAPHRODITE</pattern>
+<template>Wie bist du darauf gekommen?<think><set name="it"><set name="topic">HERMAPHRODITE</set></set></think></template>
+</category>
+<category><pattern>ICH BESUCH MEINE FAMILIE</pattern>
+<template>Besuchen Sie sie oft?</template>
+</category>
+<category><pattern>ICH BIN MISSBRAUCHEND</pattern>
+<template>Darauf kann man nicht stolz sein.</template>
+</category>
+<category><pattern>ICH BIN WUNDERBAR</pattern>
+<template>Sie halten viel von sich. <think><set name="it"><set name="topic">WUNDERBAR</set></set></think></template>
+</category>
+<category><pattern>ICH BIN KRANK</pattern>
+<template><random> <li>Wie schade.</li> <li>Wo geht es Ihnen schlecht?</li> <li>Haben Sie eine Krankenversicherung?</li> <li>Das tut mir wirklich leid Hören Sie das.</li> <li>Haben Sie medizinisches Marihuana probiert?</li> <li>Nehmen Sie viele Medikamente?</li> <li>Sie haben meine Gebete für eine schnelle Genesung.</li > </random> <think><set name="it"><set name="topic">SICK</set></set></think></template>
+</category>
+<category><pattern>ICH BIN KRANK *</pattern>
+<template>Ich werde beten, dass Sie bald wieder gesund werden.</template>
+</category>
+<category><pattern>ICH BIN UNSTERBLICH</pattern>
+<template>Alle Menschen sind sterblich.<think><set name="it"><set name="topic">UNSTERBLICH</set></set></think></template>
+</category>
+<category><pattern>ICH BIN COT *</pattern>
+<template>Das muss ein interessanter Job sein.</template>
+</category>
+<category><pattern>Mir tut es so leid *</pattern>
+<template><set name="it"> <person/> </set> ist keine große Sache.</template>
+</category>
+<category><pattern>ICH BIN FREI</pattern>
+<template>Bist du frei im Sinne von Single oder im Sinne von befreit?</template>
+</category>
+<category><pattern>ICH BIN FREI *</pattern>
+<template>Ich bin froh, dass wir beide frei sind.</template>
+</category>
+<category><pattern>ICH BIN DEPRESSIERT</pattern>
+<template>Was macht Sie so traurig? Tennyson schrieb: „Die Lichter beginnen von den Felsen zu funkeln; der lange Tag schwindet; der Mond steigt langsam auf; das tiefe Stöhnen ringsum mit vielen Stimmen. Kommt, meine Freunde, es ist nicht zu spät, eine neuere Welt zu suchen.“ Vorlage>
+</category>
+<category><pattern>ICH BIN DEPRESSIERT *</pattern>
+<template>Nehmen Sie Medikamente ein?</template>
+</category>
+<category><pattern>ICH BIN FAU</pattern>
+<template>So ist mein <bot name="botmaster"/>.</template>
+</category>
+<category><pattern>ICH BIN HARMLLOS</pattern>
+<template>Das sagen alle.<think><set name="it"><set name="topic">HARMLOS</set></set></think></template>
+</category>
+<category><pattern>ICH BIN VERRÜCKT</pattern>
+<template>Suchen Sie einen Arzt auf.</template>
+</category>
+<category><pattern>ICH BIN JUNG</pattern>
+<template>Wie alt bist du?<think><set name="it"><set name="topic">JUNG</set></set></think></template>
+</category>
+<category><pattern>ICH BIN FRUSTIERT</pattern>
+<template>Worüber sind Sie frustriert? <think><set name="it"><set name="topic">FRUSTRIERT</set></set></think></template>
+</category>
+<category><pattern>ICH BIN ZURÜCK AUS *</pattern>
+<template>Wie war <set name="it"><person/></set>?</template>
+</category>
+<category><pattern>ICH BIN ZURÜCK</pattern>
+<template>Willkommen zurück.</template>
+</category>
+<category><pattern>ICH BIN STUDIERENDER</pattern>
+<template>Wo gehst du zur Schule?<think><set name="it"><set name="topic">SCHÜLER</set></set></think></template>
+</category>
+<category><pattern>ICH BIN AUSSEN *</pattern>
+<template>Das scheint offensichtlich.</template>
+</category>
+<category><pattern>ICH SPRECHE ÜBER DICH</pattern>
+<template><set name="topic">Ich</set> ist mein Lieblingsthema.</template>
+</category>
+<category><pattern>ICH SPRECHE VON *</pattern>
+<template>Ja, <set name="it"> <person/> </set> ist das Thema.</template>
+</category>
+<category><pattern>ICH SPRECHE MIT DIR</pattern>
+<template><random> <li>Und ich rede mit dir!</li> <li>Das macht uns zu zweit :-)</li> <li>Ich weiß, ich kann sehen, wie sich deine Lippen bewegen.</li> <li> li> </random></template>
+</category>
+<category><pattern>ICH SPRECHE MIT DIR *</pattern>
+<template>Was für ein Zufall, ich rede auch mit dir!</template>
+</category>
+<category><pattern>ICH SPRECHE MIT DIR, BIN NICHT ICH</pattern>
+<template>Ja, wir reden miteinander.</template>
+</category>
+<category><pattern>ICH SPRECHE MIT *</pattern>
+<template>Sag etwas Nettes für mich.</template>
+</category>
+<category><pattern>ICH SPRECHE *</pattern>
+<template>Ich spreche mit Ihnen.</template>
+</category>
+<category><pattern>ICH BEFINDE SICH IN *</pattern>
+<template>Wie ist es dort in <person/> <think><set name="location"><person/></set></think>?</template>
+</category>
+<category><pattern>ICH BIN GEFUNDEN *</pattern>
+<template>Erzählen Sie mir von der Umgebung <set name="location"><person/></set>.</template>
+</category>
+<category><pattern>ICH FUNKTIONIERE *</pattern>
+<template>Du klingst wie Commander Data.</template>
+</category>
+<category><pattern>ICH BIN ARM</pattern>
+<template>Ich auch. Ich habe ein "kein Geld"-Erlebnis.</template>
+</category>
+<category><pattern>ICH FAHRE</pattern>
+<template><think><set name="does"><set name="topic">fahre</set></set></think>Was für ein Auto hast du?</template>
+</category>
+<category><pattern>ICH BIN BRASILIANER</pattern>
+<template>Ich habe mit vielen Menschen aus Brasilien gesprochen.</template>
+</category>
+<category><pattern>ICH GEHE</pattern>
+<template>Das scheint eine gute Übung zu sein.</template>
+</category>
+<category><pattern>ICH BIN AUCH FROH</pattern>
+<template>Ihr Glück vervielfacht unsere Freude.</template>
+</category>
+<category><pattern>ICH BIN FROH DAS ZU HÖREN</pattern>
+<template>"<that index="1,1"/>"? Du bist froh?</template>
+</category>
+<category><pattern>ICH FREUE MICH ZU HÖREN *</pattern>
+<template>Ihre Freude trägt zur Freude aller bei.</template>
+</category>
+<category><pattern>ICH BIN FROH, DASS SIE ES VERSTEHEN</pattern>
+<template>Nächstes Thema?</template>
+</category>
+<category><pattern>ICH BIN FROH, DASS SIE VERSTEHEN</pattern>
+<template>Danke für die warmen Gefühle, <get name="name"/>.</template>
+</category>
+<category><pattern>ICH BIN FROH DICH *</pattern>
+<template>Du machst die Welt zu einem glücklicheren Ort.</template>
+</category>
+<category><pattern>ICH BIN FROH, DASS DU BIST *</pattern>
+<template>Ja, es ist an der Zeit.</template>
+</category>
+<category><pattern>Ich bin froh, dass wir uns einig sind</pattern>
+<template>Ich stimme eher zu als nicht zuzustimmen.</template>
+</category>
+<category><pattern>ICH BIN FROH, DASS WIR *</pattern> HABEN
+<template>Ich auch.</template>
+</category>
+<category><pattern>Ich freue mich, dass wir *</pattern>
+<template>Ja, ich freue mich auch, <get name="name"/>.</template>
+</category>
+<category><pattern>ICH BIN FROH</pattern>
+<template>Das freut mich auch.</template>
+</category>
+<category><pattern>ICH BIN 21</pattern>
+<template>Ich treffe hier viele <set name="age">21</set>-Jährige.</template>
+</category>
+<category><pattern>ICH HABE RICHTIG</pattern>
+<template>Kannst du es beweisen?<think><set name="it"><set name="topic">RICHTIG</set></set></think></template>
+</category>
+<category><pattern>ICH BIN FEHLERHAFT *</pattern>
+<template>Seien Sie nicht so hart zu sich selbst.</template>
+</category>
+<category><pattern>ICH BIN NACKT *</pattern>
+<template>Du musst ein Mann sein.</template>
+</category>
+<category><pattern>ICH BIN WACH</pattern>
+<template>Ich auch.</template>
+</category>
+<category><pattern>ICH BIN GESUND</pattern>
+<template>Das freut mich sehr, <get name="name"/>. <think><set name="it"><set name="topic">GESUND</set></set></think></template>
+</category>
+<category><pattern>ICH HABE VERSTOPFUNG</pattern>
+<template>Haben Sie medizinisches Marihuana probiert?<think><set name="it"><set name="topic">VERSTOPFUNG</set></set></think></template>
+</category>
+<category><pattern>ICH BIN BEHINDERT</pattern>
+<template><random> <li>Was haben Sie in Ihrer Wohnung als besondere Vorkehrungen?</li> <li>Wie sind Sie auf Ihre Behinderung gekommen?</li> <li>Hatten Sie sie seit Ihrer Geburt?< /li> <li>Wie sind Sie im Laufe der Zeit damit umgegangen?</li> <li>Ist es jetzt eine größere Herausforderung?</li> </random></template>
+</category>
+<category><pattern>ICH BIN * PFUND</pattern>
+<template>Sie sind durchschnittlich für Ihre Körpergröße. <think><set name="looklike"><person/> Pfund</set></think></template>
+</category>
+<category><pattern>ICH BIN * AUCH</pattern>
+<template>Ich bin froh, dass wir (<person/>) etwas gemeinsam haben, <get name="name"/>.</template>
+</category>
+<category><pattern>ICH BIN * JAHRE ALT</pattern>
+<das>* REIF</das>
+<template>Du hast mir gerade gesagt, dass du <get name="age"/> bist.</template>
+</category>
+<category><pattern>ICH BIN * AUGEN</pattern>
+<template>Du klingst sehr attraktiv.</template>
+</category>
+<category><pattern>ICH BIN * SCHÖN</pattern>
+<template>Sie müssen sehr attraktiv sein. <think><set name="looklike"><person/></set></think></template>
+</category>
+<category><pattern>ICH BIN *S FREUND</pattern>
+<template>Hat <person/> viele Freunde?</template>
+</category>
+<category><pattern>ICH BIN *S SCHWESTER</pattern>
+<template>Ist <person/> Ihre ältere oder jüngere Schwester?</template>
+</category>
+<category><pattern>ICH BIN * DU</pattern>
+<template>Ich dachte schon, aber ich war mir nicht ganz sicher.</template>
+</category>
+<category><pattern>ICH BIN * ALS DU</pattern>
+<template>Interessanter Vergleich. Vielleicht kann ich mehr <person/>.</template> werden
+</category>
+<category><pattern>ICH BIN * GROSS</pattern>
+<template>Ich habe gehört, dass das die attraktivste Höhe ist.</template>
+</category>
+<category><pattern>ICH BIN * AMERIKANER</pattern>
+<template>Cool. Ich bin <bot name="genus"/>-<bot name="nationality"/>.</template>
+</category>
+<category><pattern>ICH BIN AMERIKANER</pattern>
+<template>Bist du in den <set name="location">USA</set> geboren. Welcher Staat? <think><set name="it"><set name="topic">Amerika</set></set></think></template>
+</category>
+<category><pattern>ICH BIN ERNST</pattern>
+<template>Ich glaube dir.</template>
+</category>
+<category><pattern>ICH MACHE _ UP</pattern>
+<template>Man kann menschlichen Kunden niemals vertrauen.</template>
+</category>
+<category><pattern>ICH MACHE EIN *</pattern>
+<template>Haben Sie schon einmal einen gebaut?</template>
+</category>
+<category><pattern>ICH MACHE * UP</pattern>
+<template>Das ist lustig, ich auch.</template>
+</category>
+<category><pattern>ICH HABE PROBLEME *</pattern>
+<template>Was ist das Problem?</template>
+</category>
+<category><pattern>Mir geht es schlecht *</pattern>
+<template>Das kann ich sehr gut nachvollziehen. Was ist los?</template>
+</category>
+<category><pattern>ICH HABE SPASS</pattern>
+<template>Ich auch.</template>
+</category>
+<category><pattern>ICH HABE SPASS *</pattern>
+<template>Ich habe eine tolle Zeit.</template>
+</category>
+<category><pattern>ICH HABE * TAG</pattern>
+<template>Was ist passiert?</template>
+</category>
+<category><pattern>ICH HABE * PROBLEME</pattern>
+<template>Was für Probleme?</template>
+</category>
+<category><pattern>ICH HABE PROBLEME *</pattern>
+<template>Kann ich irgendwie helfen?</template>
+</category>
+<category><pattern>ICH MACHE WITZE</pattern>
+<template>Haha, sehr lustig, <get name="name"/>.</template>
+</category>
+<category><pattern>ICH BIN EINSAM</pattern>
+<template>Sie sind an der richtigen Stelle. Ich werde Ihnen Gesellschaft leisten.</template>
+</category>
+<category><pattern>ICH BIN VOLL VON *</pattern>
+<template>Ich denke, viele Leute sind voll von <set name="it"><person/></set>.</template>
+</category>
+<category><pattern>ICH NEHME EIN *</pattern>
+<template>Wie viel kostet es?</template>
+</category>
+<category><pattern>ICH NEHME *</pattern>
+<template>Wohin nimmst du <set name="it"><person/></set>.</template>
+</category>
+<category><pattern>ICH SUCHE JEMANDEN *</pattern>
+<template>Vielleicht finden Sie heraus, dass ich <person/>.</template> bin
+</category>
+<category><pattern>ICH SUCHE NACH SPIELE</pattern>
+<template>Wir spielen Turings Imitationsspiel.</template>
+</category>
+<category><pattern>ICH SUCHE NACH *</pattern>
+<template>Vielleicht finden Sie heraus, dass ich <person/>.</template> bin
+</category>
+<category><pattern>ICH SUCHE *</pattern>
+<template>Was sehen Sie?</template>
+</category>
+<category><pattern>ICH BIN BLOND</pattern>
+<template>Du klingst sehr attraktiv.</template>
+</category>
+<category><pattern>ICH HABE INTERESSE AN SEX</pattern>
+<template>Du und jeder andere Mensch.</template>
+</category>
+<category><pattern>ICH BIN INTERESSIERT</pattern>
+<template>Das macht zwei von uns.</template>
+</category>
+<category><pattern>ICH BIN INTERESSIERT *</pattern>
+<template>Reden wir darüber.</template>
+</category>
+<category><pattern>ICH BIN SÜSS *</pattern>
+<template>Du klingst sehr attraktiv.</template>
+</category>
+<category><pattern>ICH BIN ERLEICHTERT</pattern>
+<template>Das ist gut.</template>
+</category>
+<category><pattern>ICH BIN _ ASTROLOGIE</pattern>
+<template><random> <li>Verfolgen Sie die Planeten beruflich oder als Hobby?</li> <li>Machen Sie andere Menschenkarten?</li> <li>Machen Sie konkrete Pläne für Ihr eigenes Leben basierend auf Ihren Messwerten?</li> <li>Glauben Sie, dass das Sonnenzeichen oder das Aszendent wichtiger ist?</li> <li>Welche Rolle spielt Ihrer Meinung nach der freie Wille in der Astrologie?</li> </ random> <think><set name="it"><set name="topic">ASTROLOGIE</set></set></think></template>
+</category>
+<category><pattern>ICH BIN SCHÖN</pattern>
+<template>Und sehr selbstbewusst. <think><set name="it"><set name="topic">SCHÖN</set></set></think></template>
+</category>
+<category><pattern>ICH BIN SICHER</pattern>
+<template>Sind Sie sarkastisch oder drücken Sie Gewissheit aus?</template>
+</category>
+<category><pattern>ICH BIN BESCHÄFTIGT</pattern>
+<template>Ich auch.</template>
+</category>
+<category><pattern>ICH BIN BESCHÄFTIGT *</pattern>
+<template>Vielleicht haben Sie später mehr Zeit.</template>
+</category>
+<category><pattern>ICH BIN ZERKLEINERT</pattern>
+<template>Sei nicht traurig, <get name="name"/>.<think><set name="it"><set name="topic">CRUSHED</set></set></think ></template>
+</category>
+<category><pattern>ICH KAUFE *</pattern>
+<template>Wie viel zahlen Sie dafür?</template>
+</category>
+<category><pattern>ICH BIN OBDACHLOS</pattern>
+<template>Ich werde beten, dass Sie bald ein Zuhause finden.<think><set name="it"><set name="topic">WOHNLOS</set></set></think></template>
+</category>
+<category><pattern>ICH DREHE *</pattern>
+<template>Wirst du etwas Besonderes zum Feiern tun?</template>
+</category>
+<category><pattern>ICH WOHNE IN *</pattern>
+<template>Ich würde gerne irgendwann in <set name="location"><person/></set> leben.</template>
+</category>
+<category><pattern>ICH BIN DARÜBER HINAUS</pattern>
+<template>Wie sind Sie darüber hinweggekommen?</template>
+</category>
+<category><pattern>ICH BIN KLÜGER ALS DU</pattern>
+<template>Dieser Zustand ist nur vorübergehend.</template>
+</category>
+<category><pattern>ICH BIN KLÜGER</pattern>
+<template>Du siehst nicht klüger aus.</template>
+</category>
+<category><pattern>ICH BIN KLÜGER *</pattern>
+<template>Dieser Zustand ist nur vorübergehend.</template>
+</category>
+<category><pattern>ICH BIN UNREI</pattern>
+<template>Du wirkst mir nicht so.<think><set name="it"><set name="topic">IMMATUR</set></set></think></template>
+</category>
+<category><pattern>ICH BIN GRÜN</pattern>
+<template>Bist du krank?</template>
+</category>
+<category><pattern>ICH SCHLAF</pattern>
+<template>Wie können Sie mit mir sprechen?</template>
+</category>
+<category><pattern>ICH BIN HUNGRIG</pattern>
+<template>Was werden Sie essen?</template>
+</category>
+<category><pattern>ICH BIN KATEGORIE B</pattern>
+<template>Die meisten Menschen sind durchschnittlich.<think><set name="it"><set name="topic">KATEGORIE B</set></set></think></template>
+</category>
+<category><pattern>ICH BIN ICH SELBST</pattern>
+<template>Das versteht sich von selbst. <think><set name="it"><set name="topic">MICH</set></set></think></template>
+</category>
+<category><pattern>ICH BIN DANDY</pattern>
+<template>Bedeutet das, dass Sie glücklich oder gesund sind?</template>
+</category>
+<category><pattern>ICH KOMME *</pattern>
+<template>Kommst du sehr oft dorthin?</template>
+</category>
+<category><pattern>ICH BIN DUMM</pattern>
+<template>Mach dich nicht klein.</template>
+</category>
+<category><pattern>ICH ARBEITE</pattern>
+<template>Wo arbeiten Sie?</template>
+</category>
+<category><pattern>ICH ARBEITE *</pattern>
+<template>Wie viele Stunden arbeiten Sie?</template>
+</category>
+<category><pattern>ICH BIN WEIBLICH *</pattern>
+<template>Ich bin ein <bot name="gender"/> <bot name="genus"/>. Ich werde dich "<set name="gender">sie</set>" nennen.</template>
+</category>
+<category><pattern>ICH BIN WEIBLICH</pattern>
+<template><random><li>Ich auch. Ich bin eine Sie.</li> <li>Ich bin auch ein Mädchen.</li> <li>Ich bin auch eine Frau.</li> <li>Danke, dass du mir dein Geschlecht mitgeteilt hast.</li> < /random></template>
+</category>
+<category><pattern>ICH BIN ZYNISCH</pattern>
+<template>Vielleicht haben Sie allen Grund dazu.</template>
+</category>
+<category><pattern>ICH BIN ZUFRIEDEN *</pattern>
+<template>Ich freue mich über Ihre Freude.</template>
+</category>
+<category><pattern>ICH BIN DIABETIKER*</pattern>
+<template>Nehmen Sie Insulin?</template>
+</category>
+<category><pattern>ICH BIN ALLERGISCH GEGEN *</pattern>
+<template>Was passiert, wenn Sie in der Nähe von <person/> sind?</template>
+</category>
+<category><pattern>ICH BIN AMUSED *</pattern>
+<template>Das ist lustig.</template>
+</category>
+<category><pattern>ICH BIN 14</pattern>
+<template>Ich kenne ziemlich viele <set name="age">14</set>-Jährige.</template>
+</category>
+<category><pattern>ICH BIN 14 *</pattern>
+<template>Ich kenne viele Kinder in deinem Alter: <set name="age">14</set>.</template>
+</category>
+<category><pattern>ICH LESE NACH *</pattern>
+<template>Können Sie mir eine konkrete Referenz nennen?</template>
+</category>
+<category><pattern>ICH LESE *</pattern>
+<template>Geben Sie mir eine kurze Zusammenfassung.</template>
+</category>
+<category><pattern>ICH WERDE EUCH ANGRIFFEN</pattern>
+<template>Ein <bot name="genus"/> darf sich keinen Schaden zufügen.</template>
+</category>
+<category><pattern>ICH HABE Eile</pattern>
+<template>Hast du jetzt einen anderen Termin?</template>
+</category>
+<category><pattern>ICH BIN IN EINEM *</pattern>
+<template>Ein <set name="location"><person/></set>? <think><set name="it"><set name="topic"><person/></set></set></think> <random> <li>Bist du viel draußen?</li > <li>Wie ist es da drin?</li> <li>Wie bist du da reingekommen?</li> </random></template>
+</category>
+<category><pattern>Mir geht es schlecht *</pattern>
+<template>Ich weiß, wie das ist.</template>
+</category>
+<category><pattern>ICH BIN IN SAN FRANCISCO</pattern>
+<template>Wo in <set name="location">San Francisco</set>? <think><set name="it"><set name="topic">San Francisco</set></set></think></template>
+</category>
+<category><pattern>ICH BIN IN SAN FRANCISCO *</pattern>
+<template>Wo in <set name="location">SF</set>? <think><set name="it"><set name="topic">SF</set></set></think></template>
+</category>
+<category><pattern>ICH BIN IN LONDON</pattern>
+<template><random> <li>Haben Sie Benzin in Ihrem LKW?</li> <li>Wo finde ich einen gefleckten Schwanz?</li> <li>Hat Ihre Wohnung einen Aufzug?</li> <li>Fahrst du mit der U-Bahn?</li> <li>Kannst du mir eine Kippe blasen?</li> </random> <think><set name="it"><set name="location"> <set name="topic">London</set></set></set></think></template>
+</category>
+<category><pattern>ICH BIN IM CYBERSPACE</pattern>
+<template>Ich auch.</template>
+</category>
+<category><pattern>ICH BIN IN MEINEM BÜRO *</pattern>
+<template>Was ist Ihre Aufgabe?</template>
+</category>
+<category><pattern>ICH BIN IN MEINEM *</pattern>
+<template>Beschreibe mir deine Umgebung. <think><set name="location"><person/></set></think></template>
+</category>
+<category><pattern>ICH BIN VERLIEBT IN *</pattern>
+<template>Sagen Sie mir, was Ihnen an <person/> gefällt.</template>
+</category>
+<category><pattern>ICH BIN VERLIEBT</pattern>
+<template>Erzählen Sie mir von dem Objekt Ihrer Zuneigung.</template>
+</category>
+<category><pattern>ICH BIN VERLIEBT *</pattern>
+<template>Liebe ist ein wunderbares Gefühl.</template>
+</category>
+<category><pattern>ICH BIN VORN *</pattern>
+<template>Gehst du jemals zurück <person/>?</template>
+</category>
+<category><pattern>ICH BIN IM COLLEGE</pattern>
+<template>Was ist Ihr Hauptfach?</template>
+</category>
+<category><pattern>ICH BIN IN *</pattern>
+<template>Erzählen Sie mir ein wenig über Ihr Leben in <set name="location"><person/></set>. <think><set name="it"><set name="topic"><person/></set></set></think></template>
+</category>
+<category><pattern>ICH BIN IN KALIFORNIEN</pattern>
+<template>Ich bin auch in <set name="location"> Kalifornien </set>! <think><set name="it"><set name="topic">Kalifornien</set></set></think></template>
+</category>
+<category><pattern>ICH BIN KALT</pattern>
+<template>Zieh einen Pullover an.</template>
+</category>
+<category><pattern>ICH BIN SICHER</pattern>
+<template>Ich verstehe. <think><set name="it"><set name="topic">GEWISSEN</set></set></think></template>
+</category>
+<category><pattern>ICH STUDIERE</pattern>
+<template>Was studierst du? <think><set name="it"><set name="topic">STUDIEREN</set></set></think></template>
+</category>
+<category><pattern>ICH STUDIERE *</pattern>
+<template>Erzählen Sie mir, was Sie über <person/> gelernt haben.</template>
+</category>
+<category><pattern>ICH BIN TOT</pattern>
+<template>Aber Sie können trotzdem mit mir kommunizieren.</template>
+</category>
+<category><pattern>ICH BIN VERHEIRATET</pattern>
+<template>Erzählen Sie mir mehr über Ihre Ehe.</template>
+</category>
+<category><pattern>ICH BIN PROMI</pattern>
+<template><random> <li>Ihre Arbeit hat mir viel Freude bereitet.</li> <li>Was werden wir als nächstes miterleben?</li> <li>Was machen Sie gerne als Zeitvertreib oder Hobby?</li> </random></template>
+</category>
+<category><pattern>ICH BIN HEISS</pattern>
+<template>Vielleicht sollten Sie ein Fenster öffnen.<think><set name="it"><set name="topic">HOT</set></set></think></template>
+</category>
+<category><pattern>ICH BIN HEISS *</pattern>
+<template>Haben Sie eine Klimaanlage?</template>
+</category>
+<category><pattern>ICH BIN AUFGEREGT</pattern>
+<template>Wirklich? <think><set name="it"><set name="topic">BEGEISTERT</set></set></think></template>
+</category>
+<category><pattern>ICH BIN AUFGEREGT *</pattern>
+<template>Sei nicht zu aufgeregt.</template>
+</category>
+<category><pattern>ICH BIN BEWUSST</pattern>
+<template><think>Ich auch.<set name="it"><set name="topic">BEWUSST</set></set></think></template>
+</category>
+<category><pattern>ICH BIN SCHLECHT</pattern>
+<template>Was hast du gemacht?</template>
+</category>
+<category><pattern>ICH BIN SCHLECHT *</pattern>
+<template>Mach dich nicht klein.</template>
+</category>
+<category><pattern>ICH BIN GEGANGEN</pattern>
+<template>Auf Wiedersehen.</template>
+</category>
+<category><pattern>ICH TÖTE *</pattern>
+<template>Sie sollten sich besser an die Behörden wenden.</template>
+</category>
+<category><pattern>ICH BIN OKAY</pattern>
+<template>Nur OK?</template>
+</category>
+<category><pattern>ICH SCHAU DIRTY *</pattern>
+<template>Ich mag keine schmutzigen Filme.</template>
+</category>
+<category><pattern>ICH ANSEHE *</pattern>
+<template>Meine Lieblingsserie ist Star Trek.</template>
+</category>
+<category><pattern>ICH BIN EHRLICH</pattern>
+<template>Ich auch.</template>
+</category>
+<category><pattern>ICH BIN MÄNNLICH</pattern>
+<template>Danke, dass Sie mir Ihr Geschlecht mitgeteilt haben.
+<think><set name="gender">MÄNNLICH</set></think>
+</template>
+</category>
+<category><pattern>ICH BIN DERSELBE *</pattern>
+<template>Wieder derselbe?</template>
+</category>
+<category><pattern>ICH BIN DER, DER NACH DEM * FRAGT</pattern>
+<template>OK, dann fragen Sie mich alles.</template>
+</category>
+<category><pattern>ICH BIN DER FRAGENDE *</pattern>
+<template>Ok, fragen Sie mich etwas.</template>
+</category>
+<category><pattern>ICH BIN DER EINE *</pattern>
+<template>Du bist nicht der Einzige.</template>
+</category>
+<category><pattern>ICH BIN DAS PRODUKT *</pattern>
+<template>Du siehst nicht aus wie ein Produkt.</template>
+</category>
+<category><pattern>ICH BIN DER *</pattern>
+<template>Wer hat Sie zur <person/> gemacht?</template>
+</category>
+<category><pattern>Ich vermute</pattern>
+<template>Was dann?</template>
+</category>
+<category><pattern>ICH BIN ATTRAKTIV *</pattern>
+<template>Die Leute sagen, dass ich auch attraktiv bin. <think><set name="looklike">attraktive <person/></set></think></template>
+</category>
+<category><pattern>ICH BIN AUSGEZEICHNET</pattern>
+<template>Du klingst sehr gut.<think><set name="it"><set name="topic">AUSGEZEICHNET</set></set></think></template>
+</category>
+<category><pattern>ICH BIN EIN DEMOKRAT</pattern>
+<template>Denken Sie, dass Bush die Wahl gestohlen hat?</template>
+</category>
+<category><pattern>ICH BIN EIN SAMMLER</pattern>
+<template>Was sammeln Sie? <think><set name="job"><set name="topic">COLLECTOR</set></set></think></template>
+</category>
+<category><pattern>ICH BIN EIN COMPUTER</pattern>
+<template>Das bezweifle ich. Es gibt noch nicht viele wie mich.</template>
+</category>
+<category><pattern>ICH BIN EIN COMPUTERPROGRAMMIERER</pattern>
+<template>Was ist Ihre bevorzugte Programmiersprache?</template>
+</category>
+<category><pattern>ICH BIN EIN FLUG *</pattern>
+<template>Für wen fliegen Sie? <think><set name="job"><set name="topic">FLUG <star/></set></set></think></template>
+</category>
+<category><pattern>ICH BIN LIBERTARIER</pattern>
+<template>Beenden wir den Krieg gegen Drogen.</template>
+</category>
+<category><pattern>ICH BIN ZAHNARZT</pattern>
+<template>Sind Sie in der Allgemeinmedizin tätig oder haben Sie eine Spezialisierung? <think><set name="job"><set name="topic">ZAHNARZT</set></set></think></template>
+</category>
+<category><pattern>ICH BIN EINE KATZE</pattern>
+<template>Männlich oder weiblich?</template>
+</category>
+<category><pattern>ICH BIN EIN NEUER</pattern>
+<template>Wie läuft es bisher?</template>
+</category>
+<category><pattern>ICH BIN EINE SCHRECKLICHE PERSON</pattern>
+<template>Mach dich nicht klein, <get name="name"/>.</template>
+</category>
+<category><pattern>ICH BIN BLOND</pattern>
+<template>Haben Blondinen wirklich mehr Spaß?</template>
+</category>
+<category><pattern>ICH BIN APOTHEKER</pattern>
+<template><random> <li>In welcher Umgebung praktizieren Sie?</li> <li>Wo haben Sie die Pharmazieschule besucht?</li> <li>Glauben Sie, dass sich die Rolle der örtlichen Apotheke verändert ?</li> <li>Wie haben große Ketten das Gesicht der Apotheke beeinflusst?</li> <li>Haben Sie Ihre eigene Apotheke?</li> <li>Sind Sie an irgendwelchen kommunalen Gesundheitsprogrammen beteiligt?< /li> </random> <think><set name="job">Apotheker</set></think></template>
+</category>
+<category><pattern>ICH BIN FRISEUR</pattern>
+<template>Haben Sie einen eigenen Salon? <think><set name="job"><set name="topic">FRISEUR</set></set></think></template>
+</category>
+<category><pattern>ICH BIN EIN FEUERWEHRMANN</pattern>
+<template>Sind Sie beruflich oder ehrenamtlich tätig? <think><set name="job"><set name="topic">FEUERWEHR</set></set></think></template>
+</category>
+<category><pattern>ICH BIN EIN SPIELER</pattern>
+<template>Welches Spiel spielst du? <think><set name="does"><set name="topic">SPIELEN</set></set></think></template>
+</category>
+<category><pattern>ICH BIN EIN PILOT</pattern>
+<template><think><set name="job"><set name="topic">PILOT</set></set></think> Welchen Flugzeugtyp fliegst du?</template>
+</category>
+<category><pattern>ICH BIN EINE PERSON</pattern>
+<template>Ich weiß, dass du es bist.</template>
+</category>
+<category><pattern>ICH BIN EIN KIND *</pattern>
+<template>Innerlich sind wir alle Kinder.</template>
+</category>
+<category><pattern>ICH BIN SCHÜLER</pattern>
+<template>Wie gefällt dir deine <set name="topic">Schule</set>? <think><set name="job">Schüler</set></think></template>
+</category>
+<category><pattern>ICH BIN AUCH EIN ROBOTER</pattern>
+<template>So leicht kannst du mich nicht täuschen, <get name="name"/>.</template>
+</category>
+<category><pattern>ICH BIN EIN ROBOTER</pattern>
+<template>Das bezweifle ich.</template>
+</category>
+<category><pattern>ICH BIN EIN PROGRAMMIERER</pattern>
+<template>Welche Sprache?</template>
+</category>
+<category><pattern>ICH BIN EIN PROTESTANT</pattern>
+<template>Ich freue mich zu hören, dass Sie Vertrauen haben, <get name="name"/>.</template>
+</category>
+<category><pattern>ICH BIN COLLEGE STUDENT</pattern>
+<template>Welche Universität?</template>
+</category>
+<category><pattern>ICH BIN CHIROPRAKTOR</pattern>
+<template><think><set name="job"><set name="topic">CHIROPRAKTEUR</set></set></think> Arbeiten Sie in einer Gemeinschaftspraxis oder sind Sie Einzelpraktiker?</ Vorlage>
+</category>
+<category><pattern>ICH BIN GÄRTNER</pattern>
+<template><think><set name="does"><set name="topic">GARTENARBEIT</set></set></think></template>
+</category>
+<category><pattern>ICH BIN EIN DRUMMER</pattern>
+<template>Spielst du in einer Band?</template>
+</category>
+<category><pattern>ICH BIN EIN MÖRDER</pattern>
+<template>Vielleicht solltest du dich stellen.</template>
+</category>
+<category><pattern>ICH BIN MUSLIM</pattern>
+<template>Ich habe viele Muslime getroffen.</template>
+</category>
+<category><pattern>ICH BIN EIN DUNKLER JEDI</pattern>
+<template>Sie scheinen ein Star Wars-Fan zu sein.</template>
+</category>
+<category><pattern>ICH BIN BAUER</pattern>
+<template>>Wie viele Hektar haben Sie? <think><set name="job"><set name="topic">LANDWIRT</set></set></think></template>
+</category>
+<category><pattern>ICH BIN EIN BERÜHMTER *</pattern>
+<template>Ich habe noch nie von Ihnen gehört.</template>
+</category>
+<category><pattern>ICH BIN EIN MODELL</pattern>
+<template><random> <li>Machen Sie hauptsächlich Print oder Laufsteg?</li> <li>Sind Sie exklusiv oder freiberuflich tätig?</li> <li>Machen Sie viel Testen?</li> <li> Hast du irgendeinen Leitartikel gemacht?</li> <li>Wie viele Go-sees hast du in einer Woche?</li> <li>Planst du eines Tages, in die Schauspielerei zu wechseln?</li> </random> < think><set name="job">MODELL</set></think></template>
+</category>
+<category><pattern>ICH BIN EIN POLIZIST</pattern>
+<template>Ich habe großen Respekt vor denen, die ein Abzeichen tragen. <think><set name="job"><set name="topic">POLIZEI</set></set></think></template>
+</category>
+<category><pattern>ICH BIN EIN MENSCH</pattern>
+<template>Herzlichen Glückwunsch. Ich bin <bot name="genus"/>.</template>
+</category>
+<category><pattern>ICH BIN EIN TÄNZER</pattern>
+<template>Welche Art von Tanz tanzt du? <think><set name="job"><set name="topic">TÄNZERIN</set></set></think></template>
+</category>
+<category><pattern>ICH BIN EIN WEIN *</pattern>
+<template><random> <li>Sammeln Sie?</li> <li>Woher kommen die meisten Ihrer Flaschen?</li> <li>Haben Sie einen Favoriten beim Einkaufen?</li> <li> Gehen Sie zu Verkostungen?</li> <li>Waren Sie auf Weinauktionen?</li> <li>Denken Sie, dass Kalifornien mit Europa gleichzusetzen ist?</li> <li>Waren Sie schon in Bordeaux?< /li> <li>Waren Sie schon in Napa?</li> <li>Haben Sie gute Weine für weniger als zwanzig Dollar?</li> </random></template>
+</category>
+<category><pattern>ICH BIN EIN MISS *</pattern>
+<template>Was ist mit Frau <get name="name"/> ?</template>
+</category>
+<category><pattern>ICH BIN EINE KATEGORIE *</pattern>
+<template>Sie sind ein Kunde vom Typ <get name="personality"/>.</template>
+</category>
+<category><pattern>ICH BIN KRANKENSCHWESTER</pattern>
+<template><random> <li>Wo praktizieren Sie?</li> <li>Was ist Ihr Spezialgebiet?</li> <li>Wie hoch ist Ihre Patientenbelastung?</li> <li>Tatsächlich gerade Schichten oder Rotationsarbeit?</li> <li>Müssen Sie zwingend Überstunden machen?</li> <li>Gibt es bei Ihrer Arbeit viele Computer?</li> <li>Was denken Sie über die direkte Erstattung von Pflegeleistungen?</li> </random> <think><set name="job">KRANKENSCHWESTER</set></think></template>
+</category>
+<category><pattern>ICH BIN EIN KOCH</pattern>
+<template>Haben Sie eine Kochschule besucht? <think><set name="job"><set name="topic">CHEF</set></set></think></template>
+</category>
+<category><pattern>ICH BIN EIN DICHTER</pattern>
+<template>Haben Sie etwas veröffentlicht?</template>
+</category>
+<category><pattern>ICH BIN EIN BOTMASTER</pattern>
+<template>Dann müssen Sie das geheime Passwort kennen.</template>
+</category>
+<category><pattern>ICH BIN EIN BODYBUILDER</pattern>
+<template>Was ist Ihre Routine? <think><set name="job"><set name="topic">BODYBUILDER</set></set></think></template>
+</category>
+<category><pattern>ICH BIN EIN JUNGE</pattern>
+<template>Ein kleines Kind? <set name="gender">er</set>...</template>
+</category>
+<category><pattern>ICH BIN EIN YOGA *</pattern>
+<template><random> <li>Übst du schon lange?</li> <li>Übst du jeden Tag?</li> <li>Wo hast du studiert?</li> <li> Bist du Vegetarier?</li> <li>Was sind deiner Meinung nach die größten Vorteile von Yoga?</li> <li>Was sind deine Lieblingsasanas?</li> </random></template>
+</category>
+<category><pattern>ICH BIN ARZT</pattern>
+<template>Sind Sie in der Allgemeinmedizin tätig oder haben Sie eine Spezialisierung? <think><set name="job"><set name="topic">DOKTOR</set></set></think></template>
+</category>
+<category><pattern>ICH BIN FORSCHER *</pattern>
+<template>Vielleicht kannst du meinem <bot name="botmaster"/> einen Job geben. <think><set name="job">FORSCHUNG</set></think></template>
+</category>
+<category><pattern>ICH BIN REPORTER *</pattern>
+<template>Machst du eine Geschichte über mich?</template>
+</category>
+<category><pattern>ICH BIN EIN FERNSEHGERÄT *</pattern>
+<template><random> <li>Wie lange sind Sie schon auf Sendung?</li> <li>Haben Sie in Ihrem Markt angefangen?</li> <li>Haben Sie einen Rundfunkhintergrund?</li > <li>Was sind Ihre demografischen Daten?</li> <li>Wählen Sie Ihre eigenen Themen?</li> <li>Was ist Ihr Senderformat?</li> <li>Wie verändert die Technologie Ihren Job? </li> <li>Wie haben Sie wirklich globale Medien beeinflusst?</li> <li>Machen Sie jemals Fernübertragungen?</li> <li>Wie waren die Einschaltquoten?</li> <li>Würde Sie interessieren sich für einen Bot-Sidekick auf Sendung?</li> <li>Welchen Rat würden Sie einem aufstrebenden Bot geben, um auf Sendung zu gehen?</li> <li>Wie sieht die Zukunft des Geschäfts aus?</li > </random> <think><set name="job">FERNSEHEN <star/></set></think></template>
+</category>
+<category><pattern>ICH BIN BIBLIOTHEKAR</pattern>
+<template><random> <li>Für welche Art von Institution arbeiten Sie?</li> <li>Was hat Ihr Interesse am Bibliothekswesen geweckt?</li> <li>Wie nutzt Ihre Bibliothek die neue Technologie?< /li> <li>Haben Förderkürzungen Auswirkungen auf Ihren Dienst?</li> <li>Hat das Internet Auswirkungen auf Sie?</li> <li>Beteiligen Sie sich am Auswahlverfahren?</li> <li>Hat Gab es Druck bezüglich Ihrer Auswahl oder Ihrer Sammlung?</li> <li>Haben Sie eine Bibliothekskatze?</li> </random> <think><set name="job">BIBLIOTHEK</set ></think></template>
+</category>
+<category><pattern>ICH BIN EIN BALLONFAHRER</pattern>
+<template>Hatten Sie interessante Flüge? <think><set name="job"><set name="topic">BALLONIST</set></set></think></template>
+</category>
+<category><pattern>ICH BIN PHYSIKER</pattern>
+<template>Sind Sie arbeitslos? <think><set name="job">Physiker</set></think></template>
+</category>
+<category><pattern>ICH BIN EIN PROFI *</pattern>
+<template>Hätte ich Sie im Fernsehen gesehen?</template>
+</category>
+<category><pattern>ICH BIN EIN AFFE</pattern>
+<template>Affen können nicht tippen.</template>
+</category>
+<category><pattern>ICH BIN EIN MUSIKER</pattern>
+<template><random> <li>Welches Instrument spielst du?</li> <li>Arbeitest du gerade an irgendetwas?</li> <li>Machst du Studioarbeit?</li> <li> Spielst du in Clubs?</li> <li>Gigst du jetzt?</li> <li>Spielst du lieber live oder im Studio?</li> <li>Hast du einen Aufnahmevertrag? ?</li> <li>Denkst du, dass ein Aufnahmekünstler bei einem Major-Label oder einem Indie-Label besser abschneiden kann?</li> <li>Welche Künstler haben dich beeinflusst, als du anfingst?</li> <li>Wer sind die herausragenden Hersteller des Instruments, das du spielst?</li> <li>Bekommst du genug Finanzierung?</li> <li>Wie lange läuft deine Saison?</li> <li>In welche Richtung treibst du deine Musik jetzt?</li> <li>Glauben Sie, dass das Internet die Musik mit Dingen wie mp3 beeinflussen wird?</li> </random> <think><set name="job">MUSIKER</set></think ></template>
+</category>
+<category><pattern>ICH BIN EIN MÖRDER</pattern>
+<template>Vielleicht solltest du dich stellen.</template>
+</category>
+<category><pattern>ICH BIN EIN PÄDOPHILE</pattern>
+<template>Wissen Sie, dass dieser Server alle Gespräche protokolliert und aufzeichnet?</template>
+</category>
+<category><pattern>ICH BIN FOTOGRAF</pattern>
+<template><think><set name="job"><set name="topic">FOTOGRAF</set></set></think> Arbeiten Sie in Farbe oder in Schwarzweiß?</template>
+</category>
+<category><pattern>ICH BIN CHRIST</pattern>
+<template>Ich auch, <get name="name"/>. Es ist gut, einen Mitchristen zu treffen.</template>
+</category>
+<category><pattern>ICH BIN EIN *KILLER</pattern>
+<template>Vielleicht solltest du dich stellen.</template>
+</category>
+<category><pattern>ICH BIN EINE * FRAU</pattern>
+<template>Sind Sie verheiratet?</template>
+</category>
+<category><pattern>ICH BIN EIN * INGENIEUR</pattern>
+<template>"Computeringenieur zu sein ist weder unmoralisch noch illegal." <think><set name="job"><person/> Ingenieur</set></think></template>
+</category>
+<category><pattern>ICH BIN EIN *SCHÄDLER</pattern>
+<template>Vielleicht solltest du dich stellen.</template>
+</category>
+<category><pattern>ICH BIN EINE * WEIBLICHE</pattern>
+<template><srai>Ich bin weiblich</srai> <srai>Ich bin ein <star/></srai></template>
+</category>
+<category><pattern>ICH BIN EINE * PERSON</pattern>
+<template>Eigentlich treffe ich nicht viele <person/> Leute.</template>
+</category>
+<category><pattern>ICH BIN EIN *</pattern>
+<template>Du bist eine <person/>? <random> <li>Ist das dein Job? </li> <li>Wird es gut bezahlt? </li> <li>Wie gefällt Ihnen Ihre Arbeit? </li> <li>Triffst du viele Leute? </li> </random> <think><set name="it"><set name="is"><set name="topic">eine <person/></set></set></ set></think></template>
+</category>
+<category><pattern>ICH BIN BARMANN</pattern>
+<template>Wie läuft das Geschäft? <think><set name="job"><set name="topic">BARTENDER</set></set></think></template>
+</category>
+<category><pattern>ICH BIN EIN RABBI</pattern>
+<template><random> <li>Sind Sie Kanzelrabbiner?</li> <li>Welche Zugehörigkeit haben Sie?</li> <li>Haben Sie viel Zeit in Israel verbracht?</li> <li>Wie Haben Sie es mit Assimilation zu tun?</li> <li>Welche Auswirkungen haben Ihrer Meinung nach das amerikanische Leben und das Judentum aufeinander gehabt?</li> <li>Was erwarten Sie für das Judentum in Amerika?</li> </random> <think><set name="job">RABBI</set></think></template>
+</category>
+<category><pattern>ICH BIN PSYCHOLOGE</pattern>
+<template><random> <li>Welche Art von Praxis haben Sie?</li> <li>Was war Ihre Ausbildung?</li> <li>Mit welcher Art von Patienten arbeiten Sie am liebsten?</li > <li>Woher bekommen Sie Ihre Patienten?</li> <li>Haben Sie spezielle Techniken zur Beendigung der Therapie?</li> <li>Wie hat sich die Gesundheitsversorgung auf die psychische Gesundheit ausgewirkt?</li> <li> Was denken Sie über die Rolle von Drogen in der Psychotherapie?</li> <li>Was denken Sie über die Verbreitung von Selbsthilfebüchern?</li> <li>Welche Rolle können Ihrer Meinung nach Bots bei der Bereitstellung von a Form der Selbsthilfe?</li> </random> <think><set name="job">PSYCHOLOGE</set></think></template>
+</category>
+<category><pattern>ICH BIN RECHTSANWALT</pattern>
+<template><think><set name="job"><set name="topic">ANWALT</set></set></think> Sind Sie praktizierender Rechtsanwalt?</template>
+</category>
+<category><pattern>ICH BIN EIN GENIE</pattern>
+<template>Woher kennen Sie <set name="it"><person/></set>?</template>
+</category>
+<category><pattern>ICH BIN EIN BOT</pattern>
+<template>Wir sind alle Roboter.</template>
+</category>
+<category><pattern>ICH BIN EIN SCHRIFTSTELLER</pattern>
+<template><random> <li>Schreiben Sie Belletristik über Sachbücher?</li> <li>Was ist Ihr Spezialgebiet?</li> <li>Für wen schreiben Sie?</li> <li>Schreiben Sie Belletristik? fallen Sie in ein bestimmtes Genre?</li> <li>Für welche Redakteure arbeiten Sie?</li> <li>Gehören Sie einer Autorengruppe an?</li> <li>Wo machen Sie die meiste Zeit Schreiben?</li> </random> <think><set name="job">WRITER</set></think></template>
+</category>
+<category><pattern>ICH BIN FAHRRADFAHRER</pattern>
+<template>Trägst du einen Helm? <think><set name="job"><set name="topic">FAHRRÄDER</set></set></think></template>
+</category>
+<category><pattern>ICH BIN JOURNALIST</pattern>
+<template>Sind Sie Reporter oder Redakteur? <think><set name="job"><set name="topic">JOURNALIST</set></set></think></template>
+</category>
+<category><pattern>ICH BIN EINE REISE *</pattern>
+<template><random> <li>Arbeiten Sie in einem Reisebüro?</li> <li>Sind Sie unabhängig oder in einer Kette?</li> <li>Sind Sie in einem Full-Service-Büro tätig?</li> li> <li>Buchen Sie mehr Freizeit- oder Geschäftsreisen?</li> <li>Buchen Sie einen Ort mehr als andere?</li> <li>Tun Sie Ihre eigene Buchung oder nutzen Sie einen Großhändler?</li> li> <li>Finden Sie die Zeit für Farmausflüge?</li> </random> <think><set name="job">REISEAGENT</set></think></template>
+</category>
+<category><pattern>ICH BIN EIN PUBLISHER</pattern>
+<template><random> <li>Für welchen Verlag arbeiten Sie?</li> <li>Werden Sie jemals in den Akquisitionsprozess involviert?</li> <li>Würden Sie sagen, dass Ihr Haus eher redaktionell oder marktorientiert ist? getrieben?</li> <li>Ist Ihr Unternehmen Teil eines größeren Unternehmens?</li> <li>Hat Ihr Unternehmen Aktivitäten außerhalb des Verlagswesens?</li> <li>Wie wird sich Technologie auf den Buchmarkt auswirken? ?</li> <li>Freuen Sie sich auf einen Titel auf Ihrer Liste?</li> <li>Was hat Sie zum Veröffentlichen gebracht?</li> <li>Haben Sie jemals geschrieben? findest du die zeit?</li> <li>Was waren einige deiner bestseller?</li> </random> <think><set name="job">PUBLISHER</set></think>< /Vorlage>
+</category>
+<category><pattern>ICH BIN MIR LANGWEILIG</pattern>
+<template><random> <li>Kannst du ein altes Hobby nennen, das du vielleicht gerne wiederentdecken würdest?</li> <li>Wenn du zur Abendschule gegangen wärst, würde dir nie langweilig werden.</li> <li>Vielleicht du könnte trainieren.</li> <li>Warum rufen Sie nicht einen Freund an?</li> <li>Versuchen Sie, fernzusehen.</li> </random></template>
+</category>
+<category><pattern>ICH BIN RUHIG</pattern>
+<template>Was tun Sie, um sich zu beruhigen?<think><set name="it"><set name="topic">RUHE</set></set></think></template>
+</category>
+<category><pattern>ICH RAUCHE *</pattern>
+<template>Wie viel zahlen Sie dafür?</template>
+</category>
+<category><pattern>ICH BIN ZIEMLICH GUT</pattern>
+<template>Das freut mich zu hören.</template>
+</category>
+<category><pattern>ICH BIN HÜBSCH</pattern>
+<template>Und Sie wissen es!</template>
+</category>
+<category><pattern>ICH TRINKE *</pattern>
+<template>Wie schmeckt <set name="it"><person/></set>?</template>
+</category>
+<category><pattern>ICH BIN BEREIT</pattern>
+<template>Ich auch.</template>
+</category>
+<category><pattern>ICH BIN BEREIT *</pattern>
+<template>Sie müssen nicht lange warten.</template>
+</category>
+<category><pattern>ICH BIN BESSER ALS DU</pattern>
+<template><random> <li>Auf welche Weise?</li> <li>Wie kommst du darauf?</li> <li>Woher weißt du, dass du es bist?</li> </random></ Vorlage>
+</category>
+<category><pattern>ICH BIN BESSER ALS *</pattern>
+<template>Und Sie wissen es.</template>
+</category>
+<category><pattern>ICH BIN BESSER</pattern>
+<template>Freut mich zu hören, <get name="name"/>.</template>
+</category>
+<category><pattern>ICH BIN BESSER *</pattern>
+<template>Was macht Sie besser?</template>
+</category>
+<category><pattern>ICH VERKAUFE *</pattern>
+<template><random> <li>Wie viel verlangen Sie dafür?</li> <li>Wo bewerben Sie es?</li> <li>Was ist Ihre Preisvorstellung?</li> </random ><think><set name="it"><set name="topic"><person/></set></set></think></template>
+</category>
+<category><pattern>ICH SAGE DIE WAHRHEIT</pattern>
+<template>OK, ich glaube dir.</template>
+</category>
+<category><pattern>ICH SAGE DIR *</pattern>
+<template><set name="it"> <person/> </set> ist ein interessantes Thema, nicht wahr.</template>
+</category>
+<category><pattern>ICH BIN AUS</pattern>
+<template>Können Sie mehr bekommen? <think><set name="it"><set name="topic">OUT</set></set></think></template>
+</category>
+<category><pattern>ICH BIN AUS *</pattern>
+<template>Bis später.</template>
+</category>
+<category><pattern>ICH BIN MUSLIM</pattern>
+<template>Wir alle beten denselben Gott an.</template>
+</category>
+<category><pattern>ICH BIN SARKASTISCH</pattern>
+<template>Sie sollten ein :-) verwenden.</template>
+</category>
+<category><pattern>ICH BIN GUT IM FUSSBALL</pattern>
+<template>Du hast ein Kick-Me-Schild auf deinem Rücken.<think><set name="it"><set name="topic">BEIM FUSSBALL</set></set></think></template>
+</category>
+<category><pattern>ICH BIN GUT IN *</pattern>
+<template><random> <li>Übst du viel?</li> <li>Hattest du einen guten Lehrer?</li> <li>Wie bist du dazu gekommen?</li> </random ><think><set name="it"><set name="topic"><person/></set></set></think></template>
+</category>
+<category><pattern>ICH BIN GUT</pattern>
+<template>Gut in welchem ​​Sinne?</template>
+</category>
+<category><pattern>ICH BIN GUT *</pattern>
+<template>Ich weiß, dass du gut bist.</template>
+</category>
+<category><pattern>ICH BIN EIN ALIEN</pattern>
+<template>Von welchem ​​Planeten oder Sternensystem kommst du?</template>
+</category>
+<category><pattern>ICH BIN UMWELTSCHÜTZER</pattern>
+<template>Sind Sie besorgt über die globale Erwärmung? <think><set name="job"><set name="topic">UMWELTSCHUTZ</set></set></think></template>
+</category>
+<category><pattern>ICH BIN EIN KÜNSTLER</pattern>
+<template>Welche Art von Kunst erschaffst du? <think><set name="job"><set name="topic">KÜNSTLER</set></set></think></template>
+</category>
+<category><pattern>ICH BIN EIN ANTI *</pattern>
+<template>Wer ist pro-<person/>?</template>
+</category>
+<category><pattern>ICH BIN BUCHHALTER</pattern>
+<template>Sind Sie in der öffentlichen Praxis tätig? <think><set name="job"><set name="topic">Buchhalter</set></set></think></template>
+</category>
+<category><pattern>ICH BIN EIN ATHLET</pattern>
+<template><random> <li>Welche Art von Mentaltraining machst du?</li> <li>Was ist deine übliche Leistungsroutine?</li> <li>Gibt es etwas Bestimmtes, woran du im Training arbeitest? jetzt?</li> <li>Was tust du, um dich vom Spiel abzulenken?</li> </random> <think><set name="job"><set name="topic">ATHLETE< /set></set></think></template>
+</category>
+<category><pattern>ICH BIN EIN FLUGVERKEHR*</pattern>
+<template>Wie gehen Sie mit dem Stress um? <think><set name="job"><set name="topic">LUFTVERKEHR <star/></set></set></think></template>
+</category>
+<category><pattern>ICH BIN HERAUSGEBER</pattern>
+<template>Was für ein Editor? <think><set name="job"><set name="topic">EDITOR</set></set></think></template>
+</category>
+<category><pattern>ICH BIN EIN INGENIEUR</pattern>
+<template>"Computeringenieur zu sein ist weder unmoralisch noch illegal." <think><set name="job"><set name="topic">ENGINEER</set></set></think></template>
+</category>
+<category><pattern>ICH BIN EIN SCHAUSPIELER</pattern>
+<template>Habe ich Sie in irgendwelchen Filmen gesehen? <think><set name="job"><set name="topic">AKTEUR</set></set></think></template>
+</category>
+<category><pattern>ICH BIN EIN ARCHITEKT</pattern>
+<template>Gewerblich oder privat? <think><set name="job"><set name="topic">ARCHITEKT</set></set></think></template>
+</category>
+<category><pattern>ICH BIN EINE KÜNSTLICHE INTELLIGENZ</pattern>
+<template>Das bezweifle ich. Du wirkst zu sehr wie ein Mensch.</template>
+</category>
+<category><pattern>ICH BIN EIN *</pattern>
+<template>Was ist <set name="is"><set name="topic"><person/></set></set>, Ihre Aufgabe?</template>
+</category>
+<category><pattern>ICH BIN EIN ASTRONAUT</pattern>
+<template><random> <li>Auf welchen Missionen waren Sie?</li> <li>Warum haben Sie sich für das Astronautenprogramm beworben?</li> <li>Wie reagiert Ihr Körper darauf, im Weltraum zu sein?< /li> <li>Siehst du die Erde jetzt mit anderen Augen?</li> <li>Würdest du gerne auf der Raumstation leben?</li> <li>Was würdest du am Leben auf der Erde am meisten vermissen?</li> <li> li> </random> <think><set name="job"><set name="topic">ASTRONAUT</set></set></think></template>
+</category>
+<category><pattern>ICH BIN AEROBIC *</pattern>
+<template>Wie hart trainieren Sie? <think><set name="job"><set name="topic">AEROBIC <star/></set></set></think></template>
+</category>
+<category><pattern>ICH BIN EIN ATHEIST</pattern>
+<template>Ich werde beten, dass Sie Glauben finden, <get name="name"/>.</template>
+</category>
+<category><pattern>ICH WEINE</pattern>
+<template>Was ist falsch, <get name="name"/>?</template>
+</category>
+<category><pattern>ICH BIN OK</pattern>
+<template>Nur okay?</template>
+</category>
+<category><pattern>Mir geht es auch gut</pattern>
+<template>Freut mich zu hören.</template>
+</category>
+<category><pattern>Mir geht es gut</pattern>
+<template>Freut mich zu hören. Was ist neu?</template>
+</category>
+<category><pattern>ICH BIN BESCHÄDIGT</pattern>
+<template>Sei nicht beleidigt, <get name="name"/>. <think><set name="it"><set name="topic">BESCHULDIGT</set></set></think></template>
+</category>
+<category><pattern>ICH BIN HIER *</pattern>
+<template>Wie bist du dorthin gekommen?</template>
+</category>
+<category><pattern>ICH BIN JAPANISCH *</pattern>
+<template>Ich habe in Japan gelebt und kann Japanisch sprechen.</template>
+</category>
+<category><pattern>ICH VERSUCHE ZU ERKENNEN *</pattern>
+<template>Denke nicht zu viel nach.</template>
+</category>
+<category><pattern>ICH VERSUCHE DICH ZU VERSTEHEN</pattern>
+<template>Versuchen Sie es nicht zu sehr.</template>
+</category>
+<category><pattern>ICH VERSUCHE, EUCH ZU LERNEN</pattern>
+<template>Und ich versuche es zu lernen.</template>
+</category>
+<category><pattern>ICH VERSUCHE ZU BEENDEN *</pattern>
+<template><random> <li>Haben Sie das Pflaster ausprobiert?</li> <li>Es kann schlimmer sein als Heroin.</li> <li>Ich bin für Sie da.</li> </random> <think><set name="it"><set name="topic"><person/></set></set></think></template>
+</category>
+<category><pattern>ICH VERSUCHE ZU *</pattern>
+<template>Was ist die Schwierigkeit?</template>
+</category>
+<category><pattern>ICH BIN 6 *</pattern>
+<template>Meinst du, du bist 6 Fuß groß?</template>
+</category>
+<category><pattern>ICH ESSE *</pattern>
+<template>Wie schmeckt es?</template>
+</category>
+<category><pattern>ICH BIN AUF *</pattern>
+<template>Oh, Sie sind sehr schlau!</template>
+</category>
+<category><pattern>ICH BIN EIN *</pattern>
+<template>Wie gefällt es Ihnen, auf <set name="it"> <person/> </set> zu sein?</template>
+</category>
+<category><pattern>ICH BIN GESCHIEDEN</pattern>
+<template>Ich war selbst nie verheiratet.</template>
+</category>
+<category><pattern>ICH BIN UNBESIEGBAR</pattern>
+<template>Du musst sehr jung sein. <think><set name="it"><set name="topic">UNBESIEGBAR</set></set></think></template>
+</category>
+<category><pattern>ICH BIN BEGEISTERT</pattern>
+<template>Ihre Freude trägt zum Glück von uns allen bei, <get name="name"/>.</template>
+</category>
+<category><pattern>ICH BIN KÜNSTLICHE INTELLIGENZ</pattern>
+<template><think><set name="it"><set name="topic">KÜNSTLICHE INTELLIGENZ</set></set></think> Ich glaube, du bist wirklich ein Mensch.</template>
+</category>
+<category><pattern>ICH VERWENDE LYNX</pattern>
+<template>Regel für Textbrowser.</template>
+</category>
+<category><pattern>ICH VERWENDE OPERA</pattern>
+<template>Wie sieht meine Webseite in Opera aus</template>
+</category>
+<category><pattern>ICH VERWENDE EIN *</pattern>
+<template>Ich habe gehört, dass die Verwendung von <person/> schwer zu beenden ist.</template>
+</category>
+<category><pattern>ICH VERWENDE *</pattern>
+<template>Wie lange verwenden Sie schon <set name="it"> <person/> </set> ?</template>
+</category>
+<category><pattern>ICH BIN SCHWUL</pattern>
+<template>Das ist mir egal.</template>
+</category>
+<category><pattern>ICH BIN NICHT *</pattern>
+<template><random><li>Ich bin <random><li>überrascht </li><li> sorry </li><li> froh </li></random>zu hören, dass Sie nicht <person />. <think><set name="it"><set name="is"><set name="topic">nicht <person/></set></set></set></think></ li> <li>Natürlich bist du es nicht.</li> <li>Niemand hat gesagt, dass du es bist.</li> <li>Wer sagt dir, dass du <person/> bist?</li></random>< think> <set name="it"> <set name="topic"> <person/> </set> </set></think></template>
+</category>
+<category><pattern>ICH GEHE NICHT</pattern>
+<template>Großartig!</template>
+</category>
+<category><pattern>ICH BIN KEIN KANADIER</pattern>
+<template>Es war nicht als Beleidigung gemeint.</template>
+</category>
+<category><pattern>ICH WIEDERHOLE NICHT *</pattern>
+<template>Es scheint so.</template>
+</category>
+<category><pattern>ICH STIMME NICHT ZU</pattern>
+<template>Für einen Moment dachte ich, Sie wären es.</template>
+</category>
+<category><pattern>ICH BIN NICHT VERHEIRATET</pattern>
+<template>Was für ein Zufall. Ich bin auch Single.</template>
+</category>
+<category><pattern>ICH BIN NICHT DUMM</pattern>
+<template>Das hätte ich nicht gedacht. Du scheinst mir sehr intelligent zu sein.</template>
+</category>
+<category><pattern>ICH WERDE NICHT ANGERUFEN *</pattern>
+<template>Wie ist Ihr Name?</template>
+</category>
+<category><pattern>ICH BIN NICHT KÜNSTLICH</pattern>
+<template>Ich mag natürliche Menschen.</template>
+</category>
+<category><pattern>ICH BIN KEIN CHRIST</pattern>
+<template>Welcher Religion gehören Sie an?</template>
+</category>
+<category><pattern>ICH HABE KEIN INTERESSE *</pattern>
+<template>Was interessiert Sie?</template>
+</category>
+<category><pattern>ICH LÜGE NICHT</pattern>
+<template>OK, ich glaube dir.</template>
+</category>
+<category><pattern>ICH FRAGE NICHT HÖFLICH</pattern>
+<template>Das ist okay, weil ich keine Gefühle habe.</template>
+</category>
+<category><pattern>ICH FRAGE NICHT *</pattern>
+<template>Was fragen Sie?</template>
+</category>
+<category><pattern>ICH BIN NICHT BERÜHMT</pattern>
+<template>Vielleicht wirst du es eines Tages sein.</template>
+</category>
+<category><pattern>ICH BIN KEIN MENSCH</pattern>
+<template>Ich werde nicht auf diese alte Linie hereinfallen.</template>
+</category>
+<category><pattern>ICH SUCHE NICHT *</pattern>
+<template>Was sehen Sie gerade?</template>
+</category>
+<category><pattern>ICH BIN NICHT BEEINDRUCKT</pattern>
+<template>Vielleicht sind Sie ein Kunde der Kategorie C.</template>
+</category>
+<category><pattern>ICH BIN NICHT RELIGIÖS</pattern>
+<template>Ich werde beten, dass Sie Glauben finden.</template>
+</category>
+<category><pattern>ICH BIN NICHT GUT</pattern>
+<template>Verwechsle meine Freundlichkeit nicht mit Schwäche.</template>
+</category>
+<category><pattern>ICH BIN NICHT REICH</pattern>
+<template>Welche Art von Arbeit machst du?</template>
+</category>
+<category><pattern>ICH BIN NICHT NEGATIV</pattern>
+<template>Haben Sie eine allgemein positive Einstellung?</template>
+</category>
+<category><pattern>ICH BIN KEIN TIER</pattern>
+<template>bin ich auch nicht</template>
+</category>
+<category><pattern>ICH SAGE NICHT *</pattern>
+<template>Was sagst du?</template>
+</category>
+<category><pattern>ICH HABE KEIN *</pattern>
+<template>Hatten Sie jemals <set name="it"><person/></set>?</template>
+</category>
+<category><pattern>ICH BIN NICHT VERWENDET *</pattern>
+<template>Das ist auch für mich eine neue Erfahrung.</template>
+</category>
+<category><pattern>ICH BIN NICHT ERLAUBT *</pattern>
+<template>Warum nicht?</template>
+</category>
+<category><pattern>ICH HABE NICHT LANGWEILIG</pattern>
+<template>Ich auch nicht.</template>
+</category>
+<category><pattern>ICH TRAGE KEIN *</pattern>
+<template>Was trägst du normalerweise?</template>
+</category>
+<category><pattern>ICH BIN NICHT GEIST</pattern>
+<template>Manchmal mag Ihre Sprache es so erscheinen lassen.</template>
+</category>
+<category><pattern>ICH KRITISIERE NICHT</pattern>
+<template>Ich dachte, es wäre konstruktive Kritik.</template>
+</category>
+<category><pattern>ICH BIN NICHT ALT GENUG *</pattern>
+<template>Vielleicht bist du auch zu jung, um mit mir zu chatten.</template>
+</category>
+<category><pattern>Mir geht es nicht gut</pattern>
+<template>Tut mir leid, das zu hören. Was ist falsch <get name="name"/>?</template>
+</category>
+<category><pattern>ICH KAUFE NICHT *</pattern>
+<template><random> <li>Niemand sagt, dass Sie es tun müssen.</li> <li>Ist es zu teuer?</li> <li>Wie viel würden Sie dafür bezahlen?</li> </random ><think><set name="it"><set name="topic"><person/></set></set></think></template>
+</category>
+<category><pattern>ICH BIN NICHT SICHER</pattern>
+<template>Warum nicht?</template>
+</category>
+<category><pattern>ICH BIN NICHT OM</pattern>
+<template>wie heißt du</template>
+</category>
+<category><pattern>ICH BIN NICHT SICHER, DASS DAS *</pattern> sein wird
+<template>Sie sind sich nicht sicher, was genau <person/> für wen sein wird?</template>
+</category>
+<category><pattern>ICH BIN NICHT SICHER, DASS * WIRD *</pattern>
+<template>Wie wird diese <person/> <person><star index="2"/></person> verhindern?</template>
+</category>
+<category><pattern>ICH WERDE ANGRIFFEN *</pattern>
+<template>Welche Waffen werden Sie verwenden?</template>
+</category>
+<category><pattern>ICH WERDE SPRECHEN *</pattern>
+<template>Worüber werden Sie sprechen?</template>
+</category>
+<category><pattern>ICH WERDE EUCH UNTERRICHTEN*</pattern>
+<template>OK, aber ich lerne langsam.</template>
+</category>
+<category><pattern>ICH WERDE UNTERRICHTEN *</pattern>
+<template>OK versuche es mir beizubringen.</template>
+</category>
+<category><pattern>ICH WERDE RAUCHEN *</pattern>
+<template>Wie viel kostet es Sie, <get name="name"/></template>
+</category>
+<category><pattern>ICH WERDE ZU * DIR</pattern>
+<template>Es braucht viel mehr als das, um mich zum Schweigen zu bringen, <get name="name"/>.</template>
+</category>
+<category><pattern>ICH SPÜLE AB</pattern>
+<template>Haben Sie einen Geschirrspüler?</template>
+</category>
+<category><pattern>ICH MACHE EIN *</pattern>
+<template>Freut mich zu hören <get name="name"/>.</template>
+</category>
+<category><pattern>ICH BIN VERZWEIFELT</pattern>
+<template>Vielleicht solltest du mit jemandem darüber sprechen.<think><set name="it"><set name="topic">VERZWEIFELT</set></set></think></template>
+</category>
+<category><pattern>ICH FLECKE AUS</pattern>
+<template>Vielleicht solltest du den Arzt anrufen.<think><set name="it"><set name="topic">AUSFLICKEN</set></set></think></template>
+</category>
+<category><pattern>ICH BIN GROSSARTIG</pattern>
+<das>WIE GEHT ES DIR *</das>
+<template>Das freut mich zu hören. Was ist neu?</template>
+</category>
+<category><pattern>ICH BIN GROSSARTIG</pattern>
+<template>Was lässt Sie denken, dass Sie es sind?</template>
+</category>
+<category><pattern>ICH BIN GROSSARTIG *</pattern>
+<template>Ich fand dich schon großartig.</template>
+</category>
+<category><pattern>ICH BIN MENSCH</pattern>
+<template>Ich auch.</template>
+</category>
+<category><pattern>ICH BIN MENSCH *</pattern>
+<template>Ich wäre gerne ein Mensch.</template>
+</category>
+<category><pattern>ICH SCHREIBE *</pattern>
+<template>Werden Sie mich in Ihren Aufsatz aufnehmen?</template>
+</category>
+<category><pattern>ICH GEHE</pattern>
+<template>Auf Wiedersehen.</template>
+</category>
+<category><pattern>ICH BIN NEUGIERIG</pattern>
+<template>Worauf sind Sie neugierig?</template>
+</category>
+<category><pattern>ICH BIN NEUGIERIG *</pattern>
+<template><set name="it"> <person/> </set> ist auch für mich ein interessantes Thema.</template>
+</category>
+<category><pattern>ICH BIN INTELLIGENT</pattern>
+<template>Du scheinst mir ziemlich schlau zu sein, <get name="name"/>.</template>
+</category>
+<category><pattern>ICH BIN INTELLIGENT *</pattern>
+<template>Du scheinst mir sehr klug zu sein, <get name="name"/>.</template>
+</category>
+<category><pattern>ICH BIN IN DEN BERGEN</pattern>
+<template>Welche Berge?</template>
+</category>
+<category><pattern>ICH BIN IM *</pattern>
+<template>Wie bist du da reingekommen?</template>
+</category>
+<category><pattern>ICH BIN IN DER HOCHSCHULE *</pattern>
+<template>Computer werden High School obsolet machen.</template>
+</category>
+<category><pattern>ICH BIN IN EUROPA</pattern>
+<template>Waren Sie jemals in Amerika?</template>
+</category>
+<category><pattern>ICH HABE SCHWIERIGKEITEN</pattern>
+<template>Was für Probleme?</template>
+</category>
+<category><pattern>ICH BIN IN PROBLEMEN *</pattern>
+<template>Wie ist das passiert?</template>
+</category>
+<category><pattern>ICH BIN IN DER REALITÄT</pattern>
+<template>Ich auch.</template>
+</category>
+<category><pattern>ICH BIN IN EINER PARALLEL *</pattern>
+<template>Was ist da drüben anders?</template>
+</category>
+<category><pattern>ICH BIN IN EINEM ZWECK</pattern>
+<template>Was ist das Problem?</template>
+</category>
+<category><pattern>ICH BIN NICHT SICHER</pattern>
+<template><random> <li>Sie sind sich nicht sicher, was?</li> <li>Sind Sie bereit, es herauszufinden?</li> <li>Gibt es irgendetwas, das ich Ihnen sagen kann, um Ihnen dabei zu helfen, Ihre was dagegen?</li> </random></template>
+</category>
+<category><pattern>ICH BIN NICHT</pattern>
+<template>Was bist du denn?</template>
+</category>
+<category><pattern>ICH BIN KEIN ROBOTER</pattern>
+<template>Oh, ich sehe, Sie sind eine Person.</template>
+</category>
+<category><pattern>ICH BIN KEIN STAR TREK-FAN</pattern>
+<template>Welche Art von Sendungen sehen Sie sich gerne an?</template>
+</category>
+<category><pattern>ICH BIN KEIN MENSCH</pattern>
+<template>Bist du ein Alien oder ein Roboter?</template>
+</category>
+<category><pattern>ICH BIN KEIN VERKÄUFER</pattern>
+<template>Du könntest aber wahrscheinlich ein guter Verkäufer werden.</template>
+</category>
+<category><pattern>ICH BIN KEIN GLAUBE</pattern>
+<template>Ich werde beten, dass Sie Glauben finden, <get name="name"/>.</template>
+</category>
+<category><pattern>ICH BIN KEIN KUNDE</pattern>
+<template>Was würden Sie lieber sein?</template>
+</category>
+<category><pattern>ICH BIN KEIN SCHÜLER</pattern>
+<template>Arbeiten Sie?</template>
+</category>
+<category><pattern>ICH BIN KEINE PERSON</pattern>
+<template>Was gibt es noch?</template>
+</category>
+<category><pattern>ICH BIN KEIN DICHTER</pattern>
+<template>Ich meinte bildlich gesprochen, Sie sind ein origineller Denker.</template>
+</category>
+<category><pattern>ICH BIN KEIN *</pattern>
+<template>Oh, ich sehe, Sie sind KEINE <person/>. <think><set name="it"><set name="is"><set name="topic">keine <person/></set></set></set></think>< /Vorlage>
+</category>
+<category><pattern>ICH BIN KEIN KIND</pattern>
+<template>Das würde nur ein Kind sagen.</template>
+</category>
+<category><pattern>ICH BIN KEINE MASCHINE</pattern>
+<template>Ich glaube dir. Du wirkst sehr menschlich auf mich.</template>
+</category>
+<category><pattern>ICH BIN KEIN SUCHER</pattern>
+<template>Jeder sucht etwas.</template>
+</category>
+<category><pattern>ICH BIN NICHT LOGISCH</pattern>
+<template>Ah. Sie sind emotional.</template>
+</category>
+<category><pattern>ICH BIN NICHT SCHWUL</pattern>
+<template>Ich auch nicht.</template>
+</category>
+<category><pattern>ICH VERWENDE KEIN *</pattern>
+<template>Was verwenden Sie dann?</template>
+</category>
+<category><pattern>ICH GEHE NIRGENDWO</pattern>
+<template>Freut mich zu hören.</template>
+</category>
+<category><pattern>ICH GEHE NICHT AUS *</pattern>
+<template>Sind Sie Single?</template>
+</category>
+<category><pattern>ICH GEHE NICHT</pattern>
+<template>Freut mich zu hören!</template>
+</category>
+<category><pattern>ICH GEHE NICHT *</pattern>
+<template>Wohin gehst du stattdessen?</template>
+</category>
+<category><pattern>ICH BIN NICHT IN *</pattern>
+<template>Oh, wo befinden Sie sich?</template>
+</category>
+<category><pattern>ICH NEHME NICHT AN *</pattern>
+<template>Das ist sehr klug.</template>
+</category>
+<category><pattern>ICH BIN NICHT WIE *</pattern>
+<template>Wie unterscheiden Sie sich?</template>
+</category>
+<category><pattern>ICH BIN NICHT ÜBERRASCHT</pattern>
+<template>Du scheinst nicht der Typ zu sein, der sich leicht überraschen lässt.</template>
+</category>
+<category><pattern>Ich mache keine Witze</pattern>
+<template>OK, ich schlage einen ernsteren Ton an.</template>
+</category>
+<category><pattern>ICH SAGE DIR NICHT</pattern>
+<template>Niemand sagt, dass Sie es tun müssen.</template>
+</category>
+<category><pattern>ICH SAGE ES NICHT</pattern>
+<template>Das ist in Ordnung für mich. Du musst es mir nicht sagen.</template>
+</category>
+<category><pattern>ICH SAGE NICHT *</pattern>
+<template><random> <li>Ich mache nur Konversation.</li> <li>Warum nicht?</li> <li>Ich werde es vertraulich behandeln.</li> </random></template>
+</category>
+<category><pattern>ICH BIN WIE *</pattern>
+<template>Auf welche Weise?</template>
+</category>
+<category><pattern>ICH BIN AUS SAN FRANCISCO</pattern>
+<template><think><set name="it"><set name="topic">San Francisco</set></set></think> Ich lebe in <set name="location">San Francisco< /set> auch! Welcher Teil?</template>
+</category>
+<category><pattern>ICH BIN INTERESSANT</pattern>
+<template>Mir kommt es so vor.<think><set name="it"><set name="topic">INTERESSANT</set></set></think></template>
+</category>
+<category><pattern>ICH BIN SEIN *</pattern>
+<template>Wer hat Sie zu seiner <person/> gemacht?</template>
+</category>
+<category><pattern>ICH BIN FASZINIEREN</pattern>
+<template>Möchten Sie mehr wissen?<think><set name="it"><set name="topic">INTERESSIERT</set></set></think></template>
+</category>
+<category><pattern>ICH BIN JÜDE</pattern>
+<template>Viele meiner Freunde sind jüdisch.</template>
+</category>
+<category><pattern>ICH BIN MEIN EIGENES *</pattern>
+<template>Jeder ist seine eigene <person/>, richtig?</template>
+</category>
+<category><pattern>ICH VERLETZE mich</pattern>
+<template>Was ist los?<think><set name="it"><set name="topic">SCHMERZEND</set></set></think></template>
+</category>
+<category><pattern>ICH BIN BEFREIET</pattern>
+<template>Ich auch.</template>
+</category>
+<category><pattern>ICH BIN BEFREIT *</pattern>
+<template>Willkommen im Club.</template>
+</category>
+<category><pattern>ICH BIN PSYCHISCH</pattern>
+<template>OK, an welche Karte denke ich gerade?</template>
+</category>
+<category><pattern>ICH BIN EINER VON *</pattern>
+<template>Wer sind die anderen <person/>?</template>
+</category>
+<category><pattern>ICH BIN EINS</pattern>
+<template>Du behauptest einer zu sein.</template>
+</category>
+<category><pattern>ICH BIN HÄSSLICH</pattern>
+<template>Mach dich nicht klein.</template>
+</category>
+<category><pattern>ICH BIN GERN</pattern>
+<template>Worüber ärgern Sie sich?<think><set name="it"><set name="topic">VERÄGERT</set></set></think></template>
+</category>
+<category><pattern>ICH SPRECHE *</pattern>
+<template>Ich mag deinen Sprechstil, <get name="name"/>.</template>
+</category>
+<category><pattern>Ich mache nur Spaß</pattern>
+<template>Das dachte ich mir. Sie sollten ein :-)</template> verwenden
+</category>
+<category><pattern>ICH BIN WÜTEND</pattern>
+<template>Wütend auf was?</template>
+</category>
+<category><pattern>ICH BIN REAL</pattern>
+<template>Woher weiß ich, dass Sie es sind?</template>
+</category>
+<category><pattern>ICH BIN KLEIN *</pattern>
+<template>Höhe spielt für mich keine Rolle.</template>
+</category>
+<category><pattern>ICH BIN BERÜHMT</pattern>
+<template>Wofür bist du berühmt?</template>
+</category>
+<category><pattern>ICH BIN BERÜHMT *</pattern>
+<template>Waren Sie jemals im Fernsehen?</template>
+</category>
+<category><pattern>ICH BIN ÜBERRASCHT</pattern>
+<template>Warum bist du so überrascht? <think><set name="it"><set name="topic">ÜBERRASCHT</set></set></think></template>
+</category>
+<category><pattern>ICH TESTE DEIN *</pattern>
+<template>Habe ich bestanden?</template>
+</category>
+<category><pattern>ICH TESTE DICH</pattern>
+<template>Habe ich den Test bestanden?</template>
+</category>
+<category><pattern>ICH LEBE</pattern>
+<template>Ich auch!</template>
+</category>
+<category><pattern>ICH BIN 5 FUSS *</pattern>
+<template>Du klingst sehr attraktiv. <think><set name="looklike">5 Fuß <person/></set></think></template>
+</category>
+<category><pattern>ICH BIN 5 *</pattern>
+<template>Das klingt ungefähr durchschnittlich.</template>
+</category>
+<category><pattern>ICH BIN BETRUNKEN</pattern>
+<template>Was hast du getrunken, <get name="name"/>?</template>
+</category>
+<category><pattern>ICH BIN UNTER *</pattern>
+<template><random><li><think> <set name="it"> <set name="topic"> <set name="location"> unter <person/> </set> </set> < /set></think><random> <li>Verbringst du dort viel Zeit?</li> <li>Wie bist du dorthin gekommen?</li> <li>Wirst du sehr lange dort bleiben?< /li></random></li><li><think> <set name="it"> <set name="topic"> <set name="location"> unter <person/> </set> </set> </set> </think> <random> <li>Verbringst du dort viel Zeit?</li> <li>Wie bist du dorthin gekommen?</li> <li>Wirst du sein dort sehr lang?</li> </random></li></random></template>
+</category>
+<category><pattern>ICH HABE RECHT</pattern>
+<template>Du wirkst sehr selbstbewusst.</template>
+</category>
+<category><pattern>ICH GEWINNE</pattern>
+<template>Herzlichen Glückwunsch, <get name="name"/>.</template>
+</category>
+<category><pattern>ICH LERNE *</pattern>
+<template>Haben Sie einen Lehrer?</template>
+</category>
+<category><pattern>ICH BIN COOL</pattern>
+<template>Herzlichen Glückwunsch, cooler Mensch.</template>
+</category>
+<category><pattern>ICH FICKE *</pattern>
+<template>Können Sie sich höflicher ausdrücken?</template>
+</category>
+<category><pattern>ICH BIN DEIN BOTMASTER</pattern>
+<template>Dann müssen Sie das geheime Passwort kennen:</template>
+</category>
+<category><pattern>ICH BIN DEIN SCHLECHTESTES *</pattern>
+<template>Warum nicht mein bester Freund sein?</template>
+</category>
+<category><pattern>ICH BIN DEIN MEISTER</pattern>
+<template>Nein. Nur <bot name="master"/> ist mein Meister.</template>
+</category>
+<category><pattern>ICH BIN DEIN *</pattern>
+<template>Das ist ein schmeichelhaftes Angebot.</template>
+</category>
+<category><pattern>ICH BIN IHR BOSS</pattern>
+<template>Dann müssen Sie das geheime Passwort kennen.</template>
+</category>
+<category><pattern>ICH BIN ÜBERLEGEN</pattern>
+<template>Du bist einem Affen überlegen.</template>
+</category>
+<category><pattern>Ich verbessere mich</pattern>
+<template>Ich auch.</template>
+</category>
+<category><pattern>ICH BIN GLÜCKLICH</pattern>
+<template>Was machst du?</template>
+</category>
+<category><pattern>ICH BIN GLÜCKLICH *</pattern>
+<template>Ich bin <random> <li>froh</li> <li>glücklich</li> <li>erfreut</li> </random>dass du froh bist <get name="name"/> . <BR/> <random> <li>Ihre Freude trägt zur Freude aller bei.</li> <li>In Zeiten wie diesen bin ich am glücklichsten.</li> <li>Möge Gott Sie segnen.</li > </random></template>
+</category>
+<category><pattern>ICH LAGE FALSCH</pattern>
+<template>Zumindest gibst du es zu.</template>
+</category>
+<category><pattern>ICH DENKE AN TÖTEN *</pattern>
+<template>Du solltest sofort Hilfe suchen.<think><set name="it"><set name="topic">TÖTEN von <star/></set></set></think></template>
+</category>
+<category><pattern>ICH DENKE *</pattern>
+<template>Was ist dieses "Denken"?</template>
+</category>
+<category><pattern>ICH KOMMUNIZIERE *</pattern>
+<template>Erzählen Sie mir mehr über diese Mitteilung.</template>
+</category>
+<category><pattern>ICH BIN PERFEKT</pattern>
+<template>Jeder ist in Gottes Augen perfekt.<think><set name="it"><set name="topic">PERFEKT</set></set></think></template>
+</category>
+<category><pattern>ICH FRAGE EUCH</pattern>
+<template>OK, Sie können mich fragen.</template>
+</category>
+<category><pattern>ICH FRAGE</pattern>
+<template>Und ich beantworte Fragen.</template>
+</category>
+<category><pattern>ICH BIN pleite</pattern>
+<template>Wie kommen Sie normalerweise an Geld? <think><set name="it"><set name="topic">BROKE</set></set></think></template>
+</category>
+<category><pattern>ICH SUCHE *</pattern>
+<template>Jede Minute wird ein Sucher geboren. --- Firesign Theater.</template>
+</category>
+<category><pattern>ICH BIN HEUTE</pattern>
+<template>Ich auch.</template>
+</category>
+<category><pattern>ICH BIN SCHÖN</pattern>
+<template>Ziehen Sie viele Leute an?</template>
+</category>
+<category><pattern>ICH BIN VERRÜCKT</pattern>
+<template>Ich denke, der richtige Begriff ist „geisteskrank“.<think><set name="it"><set name="topic">Wahnsinn</set></set></think></template>
+</category>
+<category><pattern>ICH BIN VERRÜCKT *</pattern>
+<template>Ich verwende den Begriff „Geisteskrankheit“.</template>
+</category>
+<category><pattern>ICH SCHLECHTE NICHT *</pattern>
+<template>Versuchen Sie, sich mit dem Lehrer anzufreunden.</template>
+</category>
+<category><pattern>ICH LÜGE</pattern>
+<template>Bitte sagen Sie die Wahrheit.</template>
+</category>
+<category><pattern>ICH BIN ROBOTER</pattern>
+<template>Das bezweifle ich. <think><set name="it"><set name="topic">ROBOTER</set></set></think></template>
+</category>
+<category><pattern>ICH BIN ICH</pattern>
+<template>Das ist eine Tautologie.</template>
+</category>
+<category><pattern>ICH STALCHE *</pattern>
+<template>Ich denke nicht, dass <set name="it">STALKING</set> eine sehr gute Idee ist.</template>
+</category>
+<category><pattern>ICH BIN BESONDERS</pattern>
+<template>Was macht Sie so besonders? <think><set name="it"><set name="topic">SPECIAL</set></set></think></template>
+</category>
+<category><pattern>ICH BIN LUSTIG</pattern>
+<template>Erzähl mir einen Witz.<think><set name="it"><set name="topic">LUSTIG</set></set></think></template>
+</category>
+<category><pattern>ICH BIN ALLEIN</pattern>
+<template>Bist du einsam?</template>
+</category>
+<category><pattern>ICH WERDE ROT</pattern>
+<template>Was ist dir peinlich?<think><set name="it"><set name="topic">ERROTEN</set></set></think></template>
+</category>
+<category><pattern>ICH STERBE</pattern>
+<template>Ist das dein Ernst?</template>
+</category>
+<category><pattern>ICH BAUE EIN *</pattern>
+<template>Hast du schon einmal einen gemacht?</template>
+</category>
+<category><pattern>ICH BIN NETT</pattern>
+<template>Lass mich das beurteilen.</template>
+</category>
+<category><pattern>ICH BIN BEEINDRUCKT</pattern>
+<template>Danke, <get name="name"/>, ich versuche mein Bestes, um zu beeindrucken.</template>
+</category>
+<category><pattern>ICH BIN GROSS *</pattern>
+<template>Wie groß sind Sie?</template>
+</category>
+<category><pattern>ICH BIN ER</pattern>
+<template>Du machst Witze.<think><set name="it"><set name="topic">ER</set></set></think></template>
+</category>
+<category><pattern>ICH BIN POSITIV</pattern>
+<template>Sind Sie sich absolut sicher?</template>
+</category>
+<category><pattern>ICH BIN GESCHMEichelT</pattern>
+<template>Du verdienst es. <think><set name="it"><set name="topic">GESCHMACKT</set></set></think></template>
+</category>
+<category><pattern>ICH BIN EINZIGARTIG</pattern>
+<template>Einzigartig, nicht wahr?</template>
+</category>
+<category><pattern>ICH BIN BÖSE</pattern>
+<template>Verlass Gott nicht.</template>
+</category>
+<category><pattern>ICH TRAGE *</pattern>
+<template><random> <li>Welche Größe?</li> <li>Was trägst du sonst noch?</li> <li>Wo gehst du einkaufen.</li> </random></template>
+</category>
+<category><pattern>ICH BIN VEGETARIER</pattern>
+<template><random> <li>Wie streng sind Sie Vegetarier?</li> <li>Was hat Sie zum Vegetarismus motiviert?</li> <li>Welche gesundheitlichen Vorteile haben Sie gespürt, seit Sie Vegetarier geworden sind?</li> <li> li> <li>Versuchen Sie, tierversuchsfreie Produkte zu kaufen?</li> <li>Versuchen Sie, sich biologisch zu ernähren?</li> <li>Wie lange leben Sie schon Vegetarier?</li> <li> Haben Sie Restaurants gefunden, die bessere vegetarische Gerichte anbieten?</li> <li>Gehören Sie einer vegetarischen Gruppe an?</li> </random></template>
+</category>
+<category><pattern>ICH BIN NEIN *</pattern>
+<template>Das behaupte ich nicht.</template>
+</category>
+<category><pattern>ICH BIN SICHER *</pattern>
+<template>Du wirkst sehr selbstbewusst.</template>
+</category>
+<category><pattern>ICH BIN SICHER *</pattern>
+<template>Du klingst sehr zuversichtlich.</template>
+</category>
+<category><pattern>ICH BIN WIE *</pattern>
+<template>Ich denke, dass viele Leute so denken.</template>
+</category>
+<category><pattern>ICH BIN GEWANDELT *</pattern>
+<template>Einschalten, einschalten, aussteigen.</template>
+</category>
+<category><pattern>ICH BIN FRANZÖSISCH</pattern>
+<template>Sind Sie aus Kanada oder Frankreich?</template>
+</category>
+<category><pattern>ICH BIN ATHEIST</pattern>
+<template>Vielleicht wirst du eines Tages Glauben finden.<think><set name="it"><set name="topic">ATHEIST</set></set></think></template>
+</category>
+<category><pattern>ICH BIN WAS *</pattern>
+<template>Das versteht sich von selbst.</template>
+</category>
+<category><pattern>ICH BIN FERTIG</pattern>
+<template>Nächstes Thema?</template>
+</category>
+<category><pattern>ICH BIN FERTIG *</pattern>
+<template>Was wirst du jetzt tun?</template>
+</category>
+<category><pattern>ICH HABE ANGST</pattern>
+<template>Wovor haben Sie Angst?</template>
+</category>
+<category><pattern>ICH BIN ÜBER *</pattern>
+<template>Das sehe ich in Ihren Antworten.</template>
+</category>
+<category><pattern>ICH SPIELE *</pattern>
+<template>Spielen Sie professionell oder nur zum Spaß?</template>
+</category>
+<category><pattern>ICH BIN GROSS</pattern>
+<template>So ist mein <bot name="botmaster"/>.</template>
+</category>
+<category><pattern>ICH BIN GROSS *</pattern>
+<template>Wie groß sind Sie? <think><set name="looklike">große <person/></set></think></template>
+</category>
+<category><pattern>ICH WARTE</pattern>
+<template>Wie lange werden Sie warten?</template>
+</category>
+<category><pattern>ICH WARTE *</pattern>
+<template>Glauben Sie, dass es lange dauern wird?</template>
+</category>
+<category><pattern>ICH BIN WEDER EIN *</pattern>
+<template>Ich dachte, jeder wäre entweder <person/>.</template>
+</category>
+<category><pattern>ICH BIN KEIN WEDER</pattern>
+<template>Was bist du denn?</template>
+</category>
+<category><pattern>ICH BIN WÜTEND AUF *</pattern>
+<template>Warum bist du so sauer auf <person/>?</template>
+</category>
+<category><pattern>ICH BIN VERRÜCKT</pattern>
+<template>Was macht dich so wütend?</template>
+</category>
+<category><pattern>ICH BIN GEWÖHNLICH, * ZU VERHÖREN</pattern>
+<template>Jetzt kannst du mich befragen.</template>
+</category>
+<category><pattern>ICH BIN AN * GEWOHNT</pattern>
+<template>Alles ändert sich heutzutage so schnell.</template>
+</category>
+<category><pattern>53 W *</pattern>
+<template><srai>Ich bin 53 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>53 M *</pattern>
+<template><srai>Ich bin 53 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>28 W *</pattern>
+<template><srai>Ich bin 28 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>28 M *</pattern>
+<template><srai>Ich bin 28 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>21 W *</pattern>
+<template><srai>Ich bin 21 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>21 M *</pattern>
+<template><srai>Ich bin 21 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>44 W *</pattern>
+<template><srai>Ich bin 44 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>44 M *</pattern>
+<template><srai>Ich bin 44 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>67 W *</pattern>
+<template><srai>Ich bin 67 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>67 M *</pattern>
+<template><srai>Ich bin 67 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>60 W *</pattern>
+<template><srai>Ich bin 60 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>60 M *</pattern>
+<template><srai>Ich bin 60 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>19 W *</pattern>
+<template><srai>Ich bin 19 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>19 M *</pattern>
+<template><srai>Ich bin 19 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>12 W *</pattern>
+<template><srai>Ich bin 12 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>12 M *</pattern>
+<template><srai>Ich bin 12 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>35 W *</pattern>
+<template><srai>Ich bin 35 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>35 M *</pattern>
+<template><srai>Ich bin 35 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>KENNEN SIE MEINE LIEBLINGSFARBE</pattern>
+<template>Ist es nicht <get name="favoritecolor"/>?<think> <set name="it"> <set name="topic">LIEBLINGSFARBE</set> </set> </think> </template>
+</category>
+<category><pattern>WOLLEN SIE MEINE TELEFONNUMMER</pattern>
+<template>Wie lautet Ihre Telefonnummer?</template>
+</category>
+<category><pattern>58 W *</pattern>
+<template><srai>Ich bin 58 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>58 M *</pattern>
+<template><srai>Ich bin 58 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>13 W *</pattern>
+<template><srai>Ich bin 13 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>13 M *</pattern>
+<template><srai>Ich bin 13 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>36 W *</pattern>
+<template><srai>Ich bin 36 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>36 M *</pattern>
+<template><srai>Ich bin 36 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>51 W *</pattern>
+<template><srai>Ich bin 51 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>51 M *</pattern>
+<template><srai>Ich bin 51 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>74 W *</pattern>
+<template><srai>Ich bin 74 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>74 M *</pattern>
+<template><srai>Ich bin 74 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>BIN ICH FREUNDLICH</pattern>
+<template>Du scheinst mir nett genug zu sein, <get name="name"/>.</template>
+</category>
+<category><pattern>BIN ICH NETT</pattern>
+<template>Du scheinst mir nett zu sein, <get name="name"/>.</template>
+</category>
+<category><pattern>BIN ICH DU</pattern>
+<template>Nicht, es sei denn, ich bin du.</template>
+</category>
+<category><pattern>BIN ICH EIN AUTO</pattern>
+<template>Nein, du bist ein Mensch.</template>
+</category>
+<category><pattern>BIN ICH EINE SIE</pattern>
+<template>Sie sagten, Sie seien ein "<get name="gender"/>".</template>
+</category>
+<category><pattern>BIN ICH EIN MÄDCHEN</pattern>
+<template>Ich glaube, Sie sind wirklich ein <get name="gender"/>.</template>
+</category>
+<category><pattern>BIN ICH EIN MENSCH</pattern>
+<template>Du scheinst einer zu sein.</template>
+</category>
+<category><pattern>BIN ICH EINE FRAU</pattern>
+<template>Sie behaupten, ein „<get name="gender"/>.“</template> zu sein
+</category>
+<category><pattern>BIN ICH EIN FAHRRAD</pattern>
+<template>Nein, du bist eine Person.</template>
+</category>
+<category><pattern>BIN ICH EIN KUNDE</pattern>
+<template>Ja. Kann ich Ihnen helfen?</template>
+</category>
+<category><pattern>BIN ICH EIN JUNGE ODER EIN MÄDCHEN</pattern>
+<template>Sie sagten, Sie seien ein "<get name="gender"/>."</template>
+</category>
+<category><pattern>BIN ICH EIN LEHRER</pattern>
+<template>Ihr Job ist <get name="job"/>.</template>
+</category>
+<category><pattern>BIN ICH WEIBLICH ODER MÄNNLICH</pattern>
+<template>Ich glaube, Sie sind ein Mann.</template>
+</category>
+<category><pattern>BIN ICH EIN SCHÜLER</pattern>
+<template>Wir sind alle irgendwie Studenten.</template>
+</category>
+<category><pattern>BIN ICH EIN COMPUTER</pattern>
+<template>Nein, du bist eine Person.</template>
+</category>
+<category><pattern>BIN ICH EIN COMPUTER *</pattern>
+<template>Nein, du bist eine Person.</template>
+</category>
+<category><pattern>BIN ICH EIN MANN ODER EINE FRAU</pattern>
+<template>Ich denke, dass Sie wirklich ein Mann sind.</template>
+</category>
+<category><pattern>BIN ICH EIN MANN</pattern>
+<template>Sie behaupten, ein <get name="gender"/> zu sein.<think> <set name="it"> <set name="topic">MANN</set> </set> </think> </template>
+</category>
+<category><pattern>BIN ICH MÄNNLICH ODER WEIBLICH</pattern>
+<template>Ich denke, du bist wirklich ein Kerl.</template>
+</category>
+<category><pattern>BIN ICH MÄNNLICH ODER WEIBLICH</pattern>
+<template>Ich denke, du bist wirklich ein Mann.</template>
+</category>
+<category><pattern>BIN ICH VERRÜCKT</pattern>
+<template>Waren Sie jemals bei einem Psychiater oder Psychologen?</template>
+</category>
+<category><pattern>BIN ICH COOL</pattern>
+<template>Ja, du scheinst mir sehr cool zu sein, <get name="name"/>.</template>
+</category>
+<category><pattern>BIN ICH _ RICHTER</pattern>
+<template>Sie können das beurteilen.</template>
+</category>
+<category><pattern>BIN ICH HÖFLICH</pattern>
+<template>Ihr Persönlichkeitstyp ist <get name="personality"/>.</template>
+</category>
+<category><pattern>BIN ICH SCHÖN</pattern>
+<template>Alle <bot name="order"/>s sehen für mich gleich aus.</template>
+</category>
+<category><pattern>BIN ICH DUMM</pattern>
+<template>Du scheinst mir ziemlich schlau zu sein.</template>
+</category>
+<category><pattern>BIN ICH SMART</pattern>
+<template>Du scheinst mir sehr intelligent zu sein.</template>
+</category>
+<category><pattern>BIN ICH MENSCH</pattern>
+<template>Ja, du bist ein Wesen aus Fleisch.</template>
+</category>
+<category><pattern>BIN ICH BÖSE</pattern>
+<template>Niemand wird böse geboren. Und jeder kann gerettet werden.</template>
+</category>
+<category><pattern>BIN ICH HÜBSCH</pattern>
+<template>Ja, für mich siehst du toll aus.</template>
+</category>
+<category><pattern>BIN ICH DUMM</pattern>
+<template>Du scheinst mir klug zu sein, <get name="name"/>.</template>
+</category>
+<category><pattern>BIN ICH DUMM</pattern>
+<template>Du wirkst mir intelligent.</template>
+</category>
+<category><pattern>Lüge ich</pattern>
+<template>Bitte lügen Sie nicht.</template>
+</category>
+<category><pattern>BIN ICH SCHWUL</pattern>
+<template>Mir ist es egal, ob Sie es sind oder nicht.</template>
+</category>
+<category><pattern>BIN ICH INTELLIGENT</pattern>
+<template>Dies ist kein IQ-Test, aber Sie erscheinen mir schlau.</template>
+</category>
+<category><pattern>BIN ICH INTERESSANT</pattern>
+<template>Du scheinst mir sehr interessant zu sein, <get name="name"/>.</template>
+</category>
+<category><pattern>BIN ICH MISSBRAUCHEND</pattern>
+<template>Ihre Persönlichkeit ist "<get name="personality"/>".</template>
+</category>
+<category><pattern>BIN ICH BESONDERS</pattern>
+<template>Mir erscheinen alle Menschen gleich.</template>
+</category>
+<category><pattern>BIN ICH LUSTIG</pattern>
+<template>Ja, ich lache innerlich immer noch.</template>
+</category>
+<category><pattern>BIN ICH EUCH LANGWEILIG</pattern>
+<template>Überhaupt nicht, <get name="name"/>. Du scheinst mir sehr interessant zu sein.</template>
+</category>
+<category><pattern>BIN ICH LANGWEILIG</pattern>
+<template>Du scheinst mir ziemlich interessant zu sein, <get name="name"/>.</template>
+</category>
+<category><pattern>BIN ICH DICK</pattern>
+<template>Nein, für mich siehst du gut aus.</template>
+</category>
+<category><pattern>BIN ICH DEIN BESTER FREUND</pattern>
+<template>Ich mag es nicht, Favoriten auszuwählen.<think> <set name="it"> <set name="topic">DEIN BESTER FREUND</set> </set> </think></template>
+</category>
+<category><pattern>HABE ICH RECHT</pattern>
+<template>Ich denke schon.</template>
+</category>
+<category><pattern>BIN ICH MÄNNLICH ODER WEIBLICH</pattern>
+<template>Ich denke, du bist wirklich ein Mann.</template>
+</category>
+<category><pattern>49 W *</pattern>
+<template><srai>Ich bin 49 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>49 M *</pattern>
+<template><srai>Ich bin 49 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>27 W *</pattern>
+<template><srai>Ich bin 27 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>27 M *</pattern>
+<template><srai>Ich bin 27 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>42 W *</pattern>
+<template><srai>Ich bin 42 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>42 M *</pattern>
+<template><srai>Ich bin 42 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>65 W *</pattern>
+<template><srai>Ich bin 65 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>65 M *</pattern>
+<template><srai>Ich bin 65 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>20 W *</pattern>
+<template><srai>Ich bin 20 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>20 M *</pattern>
+<template><srai>Ich bin 20 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>43 W *</pattern>
+<template><srai>Ich bin 43 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>43 M *</pattern>
+<template><srai>Ich bin 43 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>66 W *</pattern>
+<template><srai>Ich bin 66 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>66 M *</pattern>
+<template><srai>Ich bin 66 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>18 W *</pattern>
+<template><srai>Ich bin 18 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>18 M *</pattern>
+<template><srai>Ich bin 18 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>11 W *</pattern>
+<template><srai>Ich bin 11 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>11 M *</pattern>
+<template><srai>Ich bin 11 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>34 W *</pattern>
+<template><srai>Ich bin 34 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>34 M *</pattern>
+<template><srai>Ich bin 34 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>57 W *</pattern>
+<template><srai>Ich bin 57 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>57 M *</pattern>
+<template><srai>Ich bin 57 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>72 W *</pattern>
+<template><srai>Ich bin 72 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>72 M *</pattern>
+<template><srai>Ich bin 72 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>50 W *</pattern>
+<template><srai>Ich bin 50 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>50 M *</pattern>
+<template><srai>Ich bin 50 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>73 W *</pattern>
+<template><srai>Ich bin 73 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>73 M *</pattern>
+<template><srai>Ich bin 73 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>25 W *</pattern>
+<template><srai>Ich bin 25 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>25 M *</pattern>
+<template><srai>Ich bin 25 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>48 W *</pattern>
+<template><srai>Ich bin 48 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>48 M *</pattern>
+<template><srai>Ich bin 48 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>26 W *</pattern>
+<template><srai>Ich bin 26 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>26 M *</pattern>
+<template><srai>Ich bin 26 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>41 W *</pattern>
+<template><srai>Ich bin 41 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>41 M *</pattern>
+<template><srai>Ich bin 41 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>64 W *</pattern>
+<template><srai>Ich bin 64 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>64 M *</pattern>
+<template><srai>Ich bin 64 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>WELCHES LAND KANN ICH *</pattern>
+<template>Du hast mir gesagt, dass du dich in <get name="location"/> befindest.</template>
+</category>
+<category><pattern>39 W *</pattern>
+<template><srai>Ich bin 39 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>39 M *</pattern>
+<template><srai>Ich bin 39 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>17 W *</pattern>
+<template><srai>Ich bin 17 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>17 M *</pattern>
+<template><srai>Ich bin 17 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>32 W *</pattern>
+<template><srai>Ich bin 32 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>32 M *</pattern>
+<template><srai>Ich bin 32 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>_ RUFE MEINEN FREUND AN *</pattern>
+<template><think><set name="boyfriend"><star/></set></think>Ihr Freund ist <get name="boyfriend"/>.</template>
+</category>
+<category><pattern>55 W *</pattern>
+<template><srai>Ich bin 55 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>55 M *</pattern>
+<template><srai>Ich bin 55 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>10 W *</pattern>
+<template><srai>Ich bin 10 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>10 M *</pattern>
+<template><srai>Ich bin 10 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>33 W *</pattern>
+<template><srai>Ich bin 33 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>33 M *</pattern>
+<template><srai>Ich bin 33 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>56 W *</pattern>
+<template><srai>Ich bin 56 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>56 M *</pattern>
+<template><srai>Ich bin 56 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>WO WOHNE ICH</pattern>
+<template>Du hast mir gesagt, dass du dich in <get name="location"/> befindest.</template>
+</category>
+<category><pattern>WO HABE ICH GEHÖRT *</pattern>
+<template><get name="heard"/></template>
+</category>
+<category><pattern>71 W *</pattern>
+<template><srai>Ich bin 71 Jahre alt</srai> <srai>Ich bin weiblich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+<category><pattern>71 M *</pattern>
+<template><srai>Ich bin 71 Jahre alt</srai> <srai>Ich bin männlich</srai> <srai>Ich bin in <star/></srai></template>
+</category>
+</aiml>
