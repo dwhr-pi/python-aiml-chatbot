@@ -251,7 +251,7 @@
 <template>Sie sind an der richtigen Stelle.</template>
 </category>
 <category><pattern>ICH UMGEZOGEN *</pattern>
-<template><random><li><random> <li>Wo haben Sie sonst gelebt?</li> <li>Was war Ihr Lieblingsort?</li> <li>Erzählen Sie mir, wie es war, <Person umzuziehen />.</li></random></li> <li>Wo haben Sie sonst gelebt?</li> <li>Was war Ihr Lieblingsort?</li> <li>Erzählen Sie mir, wie es war Verschieben von <person/>.</li></random></template>
+<template><random><li><random> <li>Wo haben Sie sonst gelebt?</li> <li>Was war Ihr Lieblingsort?</li> <li>Erzählen Sie mir, wie es war, <person/> umzuziehen.</li></random></li> <li>Wo haben Sie sonst gelebt?</li> <li>Was war Ihr Lieblingsort?</li> <li>Erzählen Sie mir, wie es war Verschieben von <person/>.</li></random></template>
 </category>
 <category><pattern>ICH BAUE BOTS</pattern>
 <template>Verwenden Sie AIML?</template>
@@ -2329,7 +2329,7 @@
 <template>Das ist mir egal.</template>
 </category>
 <category><pattern>ICH BIN NICHT *</pattern>
-<template><random><li>Ich bin <random><li>überrascht </li><li> sorry </li><li> froh </li></random>zu hören, dass Sie nicht <person />. <think><set name="it"><set name="is"><set name="topic">nicht <person/></set></set></set></think></ li> <li>Natürlich bist du es nicht.</li> <li>Niemand hat gesagt, dass du es bist.</li> <li>Wer sagt dir, dass du <person/> bist?</li></random>< think> <set name="it"> <set name="topic"> <person/> </set> </set></think></template>
+<template><random><li>Ich bin <random><li>überrascht </li><li> sorry </li><li> froh </li></random>zu hören, dass Sie nicht <person/>. <think><set name="it"><set name="is"><set name="topic">nicht <person/></set></set></set></think></ li> <li>Natürlich bist du es nicht.</li> <li>Niemand hat gesagt, dass du es bist.</li> <li>Wer sagt dir, dass du <person/> bist?</li></random>< think> <set name="it"> <set name="topic"> <person/> </set> </set></think></template>
 </category>
 <category><pattern>ICH GEHE NICHT</pattern>
 <template>Großartig!</template>
