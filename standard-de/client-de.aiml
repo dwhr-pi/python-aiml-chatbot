@@ -934,7 +934,7 @@
 <template>Wie wird in Ihrem Land gefeiert? <think><set name="it"><set name="like"><set name="topic">zum Feiern</set></set></set></think></template>
 </category>
 <category><pattern>ICH MACHE GERNE *</pattern>
-<template>Wie macht man <person/>? <think><set name="it"><set name="like"><set name="topic">um <person/></set></set></set></think>< zu machen /Vorlage>
+<template>Wie macht man <person/>? <think><set name="it"><set name="like"><set name="topic">um zu machen <person/></set></set></set></think></Vorlage>
 </category>
 <category><pattern>ICH TRAGE GERNE *</pattern>
 <template>Du hast einen guten Modegeschmack.</template>
