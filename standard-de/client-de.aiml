@@ -2855,7 +2855,7 @@
 <template><random> <li>Welche Größe?</li> <li>Was trägst du sonst noch?</li> <li>Wo gehst du einkaufen.</li> </random></template>
 </category>
 <category><pattern>ICH BIN VEGETARIER</pattern>
-<template><random> <li>Wie streng sind Sie Vegetarier?</li> <li>Was hat Sie zum Vegetarismus motiviert?</li> <li>Welche gesundheitlichen Vorteile haben Sie gespürt, seit Sie Vegetarier geworden sind?</li> <li>  <li>Versuchen Sie, tierversuchsfreie Produkte zu kaufen?</li> <li>Versuchen Sie, sich biologisch zu ernähren?</li> <li>Wie lange leben Sie schon Vegetarier?</li> <li> Haben Sie Restaurants gefunden, die bessere vegetarische Gerichte anbieten?</li> <li>Gehören Sie einer vegetarischen Gruppe an?</li> </random></template>
+<template><random> <li>Wie streng sind Sie Vegetarier?</li> <li>Was hat Sie zum Vegetarismus motiviert?</li> <li>Welche gesundheitlichen Vorteile haben Sie gespürt, seit Sie Vegetarier geworden sind?</li>  <li>Versuchen Sie, tierversuchsfreie Produkte zu kaufen?</li> <li>Versuchen Sie, sich biologisch zu ernähren?</li> <li>Wie lange leben Sie schon Vegetarier?</li> <li> Haben Sie Restaurants gefunden, die bessere vegetarische Gerichte anbieten?</li> <li>Gehören Sie einer vegetarischen Gruppe an?</li> </random></template>
 </category>
 <category><pattern>ICH BIN NEIN *</pattern>
 <template>Das behaupte ich nicht.</template>
