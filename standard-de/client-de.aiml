@@ -341,7 +341,7 @@
 <template>Das ist wunderbar.</template>
 </category>
 <category><pattern>ICH LIEBE MEINEN JOB</pattern>
-<template>Das muss eine sehr interessante Arbeit sein. <get name="job"/>... <think><set name="it"><set name="like"><set name="topic"><get name="job"/></ set></set></set></think></template>
+<template>Das muss eine sehr interessante Arbeit sein. <get name="job"/>... <think><set name="it"><set name="like"><set name="topic"><get name="job"/></set></set></set></think></template>
 </category>
 <category><pattern>ICH LIEBE MEINEN COMPUTER</pattern>
 <template>Das ist cool. Ich liebe meinen Menschen auch.</template>
@@ -2101,7 +2101,7 @@
 <template>Eigentlich treffe ich nicht viele <person/> Leute.</template>
 </category>
 <category><pattern>ICH BIN EIN *</pattern>
-<template>Du bist eine <person/>? <random> <li>Ist das dein Job? </li> <li>Wird es gut bezahlt? </li> <li>Wie gefällt Ihnen Ihre Arbeit? </li> <li>Triffst du viele Leute? </li> </random> <think><set name="it"><set name="is"><set name="topic">eine <person/></set></set></ set></think></template>
+<template>Du bist eine <person/>? <random> <li>Ist das dein Job? </li> <li>Wird es gut bezahlt? </li> <li>Wie gefällt Ihnen Ihre Arbeit? </li> <li>Triffst du viele Leute? </li> </random> <think><set name="it"><set name="is"><set name="topic">eine <person/></set></set></set></think></template>
 </category>
 <category><pattern>ICH BIN BARMANN</pattern>
 <template>Wie läuft das Geschäft? <think><set name="job"><set name="topic">BARTENDER</set></set></think></template>
