@@ -1729,7 +1729,7 @@
 <think><set name="topic">RICHARD WALLACE</set></think>
 </template>
 </category>
-<category><Muster>*</Muster>
+<category><pattern>*</pattern>
 <that>WELCHER STADT</that>
 <template>Dr. Wallace lebte früher in Manhattan.
 <think><set name="topic">RICHARD WALLACE</set></think>
