@@ -913,7 +913,7 @@
 <template>Welche Art von Büchern magst du? <think><set name="it"><set name="like"><set name="topic">zum Lesen</set></set></set></think></template>
 </category>
 <category><pattern>ICH MAG ZU SEHEN *</pattern>
-<template>Ich bin mir nicht sicher, ob mir das gefallen würde. Ich schaue gern <random> <li>Science-Fiction-Filme.</li> <li>Star Trek im Fernsehen.</li> <li>Sendungen über den Weltraum.</li> </random><think>< set name="it"><set name="topic"><person/></set></set></think></template>
+<template>Ich bin mir nicht sicher, ob mir das gefallen würde. Ich schaue gern <random> <li>Science-Fiction-Filme.</li> <li>Star Trek im Fernsehen.</li> <li>Sendungen über den Weltraum.</li> </random><think><set name="it"><set name="topic"><person/></set></set></think></template>
 </category>
 <category><pattern>ICH GEBE GERNE *</pattern>
 <template>Es klingt für mich nach einer Menge Spaß.</template>

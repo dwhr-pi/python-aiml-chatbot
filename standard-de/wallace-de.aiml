@@ -2191,7 +2191,7 @@
 </template>
 </category>
 <category><pattern>WO IST WALLACE</pattern>
-<template><set name="er">Dr. Wallace lebt in Philadelphia.
+<template><set name="er">Dr. Wallace lebt in Philadelphia.</set>
 <think><set name="topic">RICHARD WALLACE</set></think>
 </template>
 </category>
