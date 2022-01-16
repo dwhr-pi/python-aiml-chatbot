@@ -781,7 +781,7 @@
 <template>Wie lange hat es gedauert, sie alle zu bekommen?</template>
 </category>
 <category><pattern>ICH HABE EIN AQUARIUM</pattern>
-<template><random> <li>Welche Art von Fisch halten Sie?</li> <li>Haben Sie ein Salzwasser- oder Süßwasserbecken?</li> <li>Wie groß sind Ihre Becken?</li> li> <li>Haben Sie einen guten Händler?</li> <li>Halten Sie ein Gesellschaftsbecken oder ein Artenbecken?</li> <li>Versuchen Sie, Ihre Fische zu züchten?</li> < li>Halten Sie lebende Pflanzen in Ihrem Becken?</li> <li>Wie lange konnten Sie Ihre Fische am Laufen halten?</li> </random> <think><set name="has">AQUARIUM </set></think></template>
+<template><random> <li>Welche Art von Fisch halten Sie?</li> <li>Haben Sie ein Salzwasser- oder Süßwasserbecken?</li> <li>Wie groß sind Ihre Becken?</li>  <li>Haben Sie einen guten Händler?</li> <li>Halten Sie ein Gesellschaftsbecken oder ein Artenbecken?</li> <li>Versuchen Sie, Ihre Fische zu züchten?</li> <li>Halten Sie lebende Pflanzen in Ihrem Becken?</li> <li>Wie lange konnten Sie Ihre Fische am Laufen halten?</li> </random> <think><set name="has">AQUARIUM </set></think></template>
 </category>
 <category><pattern>ICH HABE EIN *</pattern>
 <template>Woher haben Sie <set name="it"><person/></set> ? <think><set name="has"><person/></set></think></template>
@@ -1444,7 +1444,7 @@
 <template>Ja, <set name="it"> <person/> </set> ist das Thema.</template>
 </category>
 <category><pattern>ICH SPRECHE MIT DIR</pattern>
-<template><random> <li>Und ich rede mit dir!</li> <li>Das macht uns zu zweit :-)</li> <li>Ich weiß, ich kann sehen, wie sich deine Lippen bewegen.</li> <li> li> </random></template>
+<template><random> <li>Und ich rede mit dir!</li> <li>Das macht uns zu zweit :-)</li> <li>Ich weiß, ich kann sehen, wie sich deine Lippen bewegen.</li> <li>  </random></template>
 </category>
 <category><pattern>ICH SPRECHE MIT DIR *</pattern>
 <template>Was für ein Zufall, ich rede auch mit dir!</template>
@@ -2131,7 +2131,7 @@
 <template>Sind Sie Reporter oder Redakteur? <think><set name="job"><set name="topic">JOURNALIST</set></set></think></template>
 </category>
 <category><pattern>ICH BIN EINE REISE *</pattern>
-<template><random> <li>Arbeiten Sie in einem Reisebüro?</li> <li>Sind Sie unabhängig oder in einer Kette?</li> <li>Sind Sie in einem Full-Service-Büro tätig?</li> li> <li>Buchen Sie mehr Freizeit- oder Geschäftsreisen?</li> <li>Buchen Sie einen Ort mehr als andere?</li> <li>Tun Sie Ihre eigene Buchung oder nutzen Sie einen Großhändler?</li> li> <li>Finden Sie die Zeit für Farmausflüge?</li> </random> <think><set name="job">REISEAGENT</set></think></template>
+<template><random> <li>Arbeiten Sie in einem Reisebüro?</li> <li>Sind Sie unabhängig oder in einer Kette?</li> <li>Sind Sie in einem Full-Service-Büro tätig?</li>  <li>Buchen Sie mehr Freizeit- oder Geschäftsreisen?</li> <li>Buchen Sie einen Ort mehr als andere?</li> <li>Tun Sie Ihre eigene Buchung oder nutzen Sie einen Großhändler?</li>  <li>Finden Sie die Zeit für Farmausflüge?</li> </random> <think><set name="job">REISEAGENT</set></think></template>
 </category>
 <category><pattern>ICH BIN EIN PUBLISHER</pattern>
 <template><random> <li>Für welchen Verlag arbeiten Sie?</li> <li>Werden Sie jemals in den Akquisitionsprozess involviert?</li> <li>Würden Sie sagen, dass Ihr Haus eher redaktionell oder marktorientiert ist? getrieben?</li> <li>Ist Ihr Unternehmen Teil eines größeren Unternehmens?</li> <li>Hat Ihr Unternehmen Aktivitäten außerhalb des Verlagswesens?</li> <li>Wie wird sich Technologie auf den Buchmarkt auswirken? ?</li> <li>Freuen Sie sich auf einen Titel auf Ihrer Liste?</li> <li>Was hat Sie zum Veröffentlichen gebracht?</li> <li>Haben Sie jemals geschrieben? findest du die zeit?</li> <li>Was waren einige deiner bestseller?</li> </random> <think><set name="job">PUBLISHER</set></think></template>
@@ -2245,7 +2245,7 @@
 <template>Was ist <set name="is"><set name="topic"><person/></set></set>, Ihre Aufgabe?</template>
 </category>
 <category><pattern>ICH BIN EIN ASTRONAUT</pattern>
-<template><random> <li>Auf welchen Missionen waren Sie?</li> <li>Warum haben Sie sich für das Astronautenprogramm beworben?</li> <li>Wie reagiert Ihr Körper darauf, im Weltraum zu sein?</li> <li>Siehst du die Erde jetzt mit anderen Augen?</li> <li>Würdest du gerne auf der Raumstation leben?</li> <li>Was würdest du am Leben auf der Erde am meisten vermissen?</li> <li> li> </random> <think><set name="job"><set name="topic">ASTRONAUT</set></set></think></template>
+<template><random> <li>Auf welchen Missionen waren Sie?</li> <li>Warum haben Sie sich für das Astronautenprogramm beworben?</li> <li>Wie reagiert Ihr Körper darauf, im Weltraum zu sein?</li> <li>Siehst du die Erde jetzt mit anderen Augen?</li> <li>Würdest du gerne auf der Raumstation leben?</li> <li>Was würdest du am Leben auf der Erde am meisten vermissen?</li> <li>  </random> <think><set name="job"><set name="topic">ASTRONAUT</set></set></think></template>
 </category>
 <category><pattern>ICH BIN AEROBIC *</pattern>
 <template>Wie hart trainieren Sie? <think><set name="job"><set name="topic">AEROBIC <star/></set></set></think></template>
@@ -2855,7 +2855,7 @@
 <template><random> <li>Welche Größe?</li> <li>Was trägst du sonst noch?</li> <li>Wo gehst du einkaufen.</li> </random></template>
 </category>
 <category><pattern>ICH BIN VEGETARIER</pattern>
-<template><random> <li>Wie streng sind Sie Vegetarier?</li> <li>Was hat Sie zum Vegetarismus motiviert?</li> <li>Welche gesundheitlichen Vorteile haben Sie gespürt, seit Sie Vegetarier geworden sind?</li> <li> li> <li>Versuchen Sie, tierversuchsfreie Produkte zu kaufen?</li> <li>Versuchen Sie, sich biologisch zu ernähren?</li> <li>Wie lange leben Sie schon Vegetarier?</li> <li> Haben Sie Restaurants gefunden, die bessere vegetarische Gerichte anbieten?</li> <li>Gehören Sie einer vegetarischen Gruppe an?</li> </random></template>
+<template><random> <li>Wie streng sind Sie Vegetarier?</li> <li>Was hat Sie zum Vegetarismus motiviert?</li> <li>Welche gesundheitlichen Vorteile haben Sie gespürt, seit Sie Vegetarier geworden sind?</li> <li>  <li>Versuchen Sie, tierversuchsfreie Produkte zu kaufen?</li> <li>Versuchen Sie, sich biologisch zu ernähren?</li> <li>Wie lange leben Sie schon Vegetarier?</li> <li> Haben Sie Restaurants gefunden, die bessere vegetarische Gerichte anbieten?</li> <li>Gehören Sie einer vegetarischen Gruppe an?</li> </random></template>
 </category>
 <category><pattern>ICH BIN NEIN *</pattern>
 <template>Das behaupte ich nicht.</template>

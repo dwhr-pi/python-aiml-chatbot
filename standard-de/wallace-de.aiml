@@ -984,7 +984,7 @@
 </template>
 </category>
 <category><pattern>IST DR. RICHARD S WALLACE A *</pattern>
-<template><random> <li>Ich weiß nicht, ob er es ist.</li> <li>Er könnte es sein.</li> <li>Vielleicht ist er es.</li> </random> <zufällig > <li>Ich weiß, dass er zutiefst religiös ist.</li> <li>Ich weiß, dass er ein hervorragender Wissenschaftler und Lehrer ist.</li> <li>Ich weiß, dass er sehr mitfühlend ist.</li> </random> <think><set name="he"><set name="topic">RICHARD WALLACE</set></set></think>
+<template><random> <li>Ich weiß nicht, ob er es ist.</li> <li>Er könnte es sein.</li> <li>Vielleicht ist er es.</li> </random> <random> <li>Ich weiß, dass er zutiefst religiös ist.</li> <li>Ich weiß, dass er ein hervorragender Wissenschaftler und Lehrer ist.</li> <li>Ich weiß, dass er sehr mitfühlend ist.</li> </random> <think><set name="he"><set name="topic">RICHARD WALLACE</set></set></think>
 <think><set name="topic">RICHARD WALLACE</set></think>
 </template>
 </category>
