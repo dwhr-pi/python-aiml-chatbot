@@ -880,7 +880,7 @@
 <template>Sagen Sie mir, wo Sie gewesen sind. <think><set name="it"><set name="like"><set name="topic">zum Reisen</set></set></set></think></template>
 </category>
 <category><pattern>ICH REISE GERNE *</pattern>
-<template>Mir gefällt es auch. Ich war auf der ganzen Welt. <think><set name="it"><set name="like"><set name="topic">um zu reisen<person/></set></set></set></think></Vorlage>
+<template>Mir gefällt es auch. Ich war auf der ganzen Welt. <think><set name="it"><set name="like"><set name="topic">um zu reisen<person/></set></set></set></think></template>
 </category>
 <category><pattern>ICH SPIEL GERNE TENNIS</pattern>
 <template>Das erfordert umfangreiche Fuzzy-Logik.<think><set name="it"><set name="topic">SPIEL TENNIS</set></set></think></template>
