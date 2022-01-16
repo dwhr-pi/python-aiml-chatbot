@@ -894,7 +894,7 @@
 </template>
 </category>
 <category><pattern>ICH Schnarche</pattern>
-<template>Dr. Wallace auch :-) <think><set name="it"><set name="does"><set name="topic">Schnarchen</set></set></set ></denken>
+<template>Dr. Wallace auch :-) <think><set name="it"><set name="does"><set name="topic">Schnarchen</set></set></set ></think>
 <think><set name="topic">RICHARD WALLACE</set></think>
 </template>
 </category>

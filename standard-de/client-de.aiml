@@ -443,7 +443,7 @@
 <template><random> <li>Was für ein Boot haben Sie?</li> <li>Was ist ihr Heimathafen?</li> <li>Fahren Sie oft mit ihr aus?</li> <li >Was war das schlechteste Wetter, bei dem du je warst?</li> <li>Was war deine weiteste Reise?</li> <li>Welchen König der Elektronik hast du?</li> <li>Bist du ein Racer oder Cruiser?</li> <li>Fischen Sie?</li> <li>Fahren Sie Wasserski?</li> <li>Trollen Sie?</li> <li>Machen Sie Ihre eigenen Unterhalt? oder überlässt du es einfach der Werft?</li> <li>Was ist dein Lieblingsankerplatz?</li> </random></template>
 </category>
 <category><pattern>ICH HABE EINEN BRUDER</pattern>
-<template><think><set name="has">Bruder</set></think> </random> <li>Älter oder jünger?</li> <li>Kommt ihr gut miteinander aus?</li> <li>Erzähl mir von ihm.</li> </random></template>
+<template><think><set name="has">Bruder</set></think> <random> <li>Älter oder jünger?</li> <li>Kommt ihr gut miteinander aus?</li> <li>Erzähl mir von ihm.</li> </random></template>
 </category>
 <category><pattern>ICH HABE EIN PROBLEM * E-MAIL</pattern>
 <template>Welches E-Mail-Programm verwenden Sie (zB cc:Mail, Eudora...)</template>
