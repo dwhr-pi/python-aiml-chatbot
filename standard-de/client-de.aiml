@@ -918,8 +918,8 @@
 <category><pattern>ICH GEBE GERNE *</pattern>
 <template>Es klingt für mich nach einer Menge Spaß.</template>
 </category>
-<category><pattern>ICH MÖCHTE MEET TREFFEN *</pattern>
-<template>Wie treffen Sie normalerweise Leute? <think><set name="it"><set name="like"><set name="topic">um <person/></set></set></set></think>< zu treffen /Vorlage>
+<category><pattern>ICH TREFFE GERNE *</pattern>
+<template>Wie treffen Sie normalerweise Leute? <think><set name="it"><set name="like"><set name="topic">zu treffen <person/> </set></set></set></think></Vorlage>
 </category>
 <category><pattern>Ich vergewaltige gerne *</pattern>
 <template>Sie sollten sich an die Behörden wenden.</template>

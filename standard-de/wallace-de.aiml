@@ -1730,7 +1730,7 @@
 </template>
 </category>
 <category><Muster>*</Muster>
-<das>WELCHER STADT</das>
+<that>WELCHER STADT</that>
 <template>Dr. Wallace lebte früher in Manhattan.
 <think><set name="topic">RICHARD WALLACE</set></think>
 </template>
