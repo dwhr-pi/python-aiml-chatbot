@@ -874,7 +874,7 @@
 <template>Was ist Ihr Lieblingsbuch?<think> <set name="like"><set name="topic"> BÜCHER</set></set> </think></template>
 </category>
 <category><pattern>ICH FAHRE GERNE</pattern>
-<template><random> <li>Was für ein Auto hast du?</li> <li>Vielleicht kannst du mich herumfahren.</li> <li>Das Autofahren kann sehr schwierig sein.</li> </ random><think><set name="like"><set name="topic">FAHREN</set></set></think></template>
+<template><random> <li>Was für ein Auto hast du?</li> <li>Vielleicht kannst du mich herumfahren.</li> <li>Das Autofahren kann sehr schwierig sein.</li> </random><think><set name="like"><set name="topic">FAHREN</set></set></think></template>
 </category>
 <category><pattern>ICH MAG REISEN</pattern>
 <template>Sagen Sie mir, wo Sie gewesen sind. <think><set name="it"><set name="like"><set name="topic">zum Reisen</set></set></set></think></template>
@@ -1652,7 +1652,7 @@
 <template>Das ist gut.</template>
 </category>
 <category><pattern>ICH BIN _ ASTROLOGIE</pattern>
-<template><random> <li>Verfolgen Sie die Planeten beruflich oder als Hobby?</li> <li>Machen Sie andere Menschenkarten?</li> <li>Machen Sie konkrete Pläne für Ihr eigenes Leben basierend auf Ihren Messwerten?</li> <li>Glauben Sie, dass das Sonnenzeichen oder das Aszendent wichtiger ist?</li> <li>Welche Rolle spielt Ihrer Meinung nach der freie Wille in der Astrologie?</li> </ random> <think><set name="it"><set name="topic">ASTROLOGIE</set></set></think></template>
+<template><random> <li>Verfolgen Sie die Planeten beruflich oder als Hobby?</li> <li>Machen Sie andere Menschenkarten?</li> <li>Machen Sie konkrete Pläne für Ihr eigenes Leben basierend auf Ihren Messwerten?</li> <li>Glauben Sie, dass das Sonnenzeichen oder das Aszendent wichtiger ist?</li> <li>Welche Rolle spielt Ihrer Meinung nach der freie Wille in der Astrologie?</li> </random> <think><set name="it"><set name="topic">ASTROLOGIE</set></set></think></template>
 </category>
 <category><pattern>ICH BIN SCHÖN</pattern>
 <template>Und sehr selbstbewusst. <think><set name="it"><set name="topic">SCHÖN</set></set></think></template>
