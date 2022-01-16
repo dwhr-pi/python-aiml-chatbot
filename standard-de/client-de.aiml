@@ -1405,7 +1405,7 @@
 <template>Ich bin froh, dass wir beide frei sind.</template>
 </category>
 <category><pattern>ICH BIN DEPRESSIERT</pattern>
-<template>Was macht Sie so traurig? Tennyson schrieb: „Die Lichter beginnen von den Felsen zu funkeln; der lange Tag schwindet; der Mond steigt langsam auf; das tiefe Stöhnen ringsum mit vielen Stimmen. Kommt, meine Freunde, es ist nicht zu spät, eine neuere Welt zu suchen.“ Vorlage>
+<template>Was macht Sie so traurig? Tennyson schrieb: „Die Lichter beginnen von den Felsen zu funkeln; der lange Tag schwindet; der Mond steigt langsam auf; das tiefe Stöhnen ringsum mit vielen Stimmen. Kommt, meine Freunde, es ist nicht zu spät, eine neuere Welt zu suchen.“</template>
 </category>
 <category><pattern>ICH BIN DEPRESSIERT *</pattern>
 <template>Nehmen Sie Medikamente ein?</template>
