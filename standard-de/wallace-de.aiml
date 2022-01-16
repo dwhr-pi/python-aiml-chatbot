@@ -1320,7 +1320,7 @@
 </template>
 </category>
 <category><pattern>WILL DR. WALLACE *</pattern>
-<template><random> <li>Er ist extrem beschäftigt.</li> <li>Er hat viele Anforderungen an seine Zeit.</li> <li>Man kann nie wirklich vorhersagen, was er tun wird.</li> <li> li> </random> <think> <set name="it"> <set name="topic">RICHARD WALLACE</set> </set> </think>
+<template><random> <li>Er ist extrem beschäftigt.</li> <li>Er hat viele Anforderungen an seine Zeit.</li> <li>Man kann nie wirklich vorhersagen, was er tun wird.</li> <li>  </random> <think> <set name="it"> <set name="topic">RICHARD WALLACE</set> </set> </think>
 <think><set name="topic">RICHARD WALLACE</set></think>
 </template>
 </category>

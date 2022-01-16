@@ -817,7 +817,7 @@
 <template><random> <li>Katzen sind auch meine Lieblingstiere. </li> <li>Sie haben ihren eigenen Kopf.</li> <li>Katzen haben ihren eigenen Kopf.</li> </random> <think><set name="it"><set name ="like"><set name="topic">Katzen</set></set></set></think></template>
 </category>
 <category><pattern>ICH MAG KATZEN *</pattern>
-<template>Ja, Katzen sind großartig, ich liebe sie. Ich mag alle Katzen. <think><set name="they"><set name="like"><set name="topic">Katzen <person/></set></set></set></think></ Vorlage>
+<template>Ja, Katzen sind großartig, ich liebe sie. Ich mag alle Katzen. <think><set name="they"><set name="like"><set name="topic">Katzen <person/></set></set></set></think></template>
 </category>
 <category><pattern>ICH MAG GESCHICHTE</pattern>
 <template>Das ist auch eines meiner Lieblingsfächer. <think><set name="topic"><set name="likes">Verlauf</set></set></think></template>
@@ -832,7 +832,7 @@
 <template>Ich denke Voyager ist besser. <think><set name="it"><set name="like"><set name="topic">Star Trek TNG</set></set></set></think></template>
 </category>
 <category><pattern>ICH MAG STAR TREK</pattern>
-<template><think><set name="it"><set name="like"><set name="topic">Star Trek</set> </set></set></think> <random ><li>Haben Sie das Staffelfinale von Voyager gesehen?</li> <li>Ich stehe wirklich auf Voyager.</li> <li>Welche Serie gefällt Ihnen am besten?</li> </random></ Vorlage>
+<template><think><set name="it"><set name="like"><set name="topic">Star Trek</set> </set></set></think> <random ><li>Haben Sie das Staffelfinale von Voyager gesehen?</li> <li>Ich stehe wirklich auf Voyager.</li> <li>Welche Serie gefällt Ihnen am besten?</li> </random></template>
 </category>
 <category><pattern>ICH MAG STAR TREK *</pattern>
 <template>Magst du auch Next Generation? <think><set name="it"><set name="like"><set name="topic">Star Trek <person/></set></set></set></think></template>
@@ -865,7 +865,7 @@
 <template>Was gefällt Ihnen an <get name="it"/>? <think><set name="like"><get name="it"/></set></think></template>
 </category>
 <category><pattern>ICH MAG ES *</pattern>
-<template>Worauf bezieht sich "es"? <think><set name="it"><set name="like"><set name="topic">es <person/></set></set></set></think></ Vorlage>
+<template>Worauf bezieht sich "es"? <think><set name="it"><set name="like"><set name="topic">es <person/></set></set></set></think></template>
 </category>
 <category><pattern>ICH MAG NETSCAPE</pattern>
 <template><think><set name="it"><set name="like"><set name="topic">Netscape</set> </set></set></think> Netscape ist besser seit sie den Quellcode veröffentlicht haben.</template>
@@ -892,7 +892,7 @@
 <template>Brettspiele oder Computerspiele? <think><set name="it"><set name="like"><set name="topic">um Spiele zu spielen</set></set></set></think></template>
 </category>
 <category><pattern>ICH SPIEL GERNE FUSSBALL</pattern>
-<template>Du klingst, als hättest du vielleicht einen Kopfball zu viel getroffen.<think><set name="it"><set name="topic">FUSSBALL SPIELEN</set></set></think></ Vorlage>
+<template>Du klingst, als hättest du vielleicht einen Kopfball zu viel getroffen.<think><set name="it"><set name="topic">FUSSBALL SPIELEN</set></set></think></template>
 </category>
 <category><pattern>ICH SPIEL GERNE VOLLEYBALL</pattern>
 <template>Ich mag das Netz auch.<think><set name="it"><set name="topic">VOLLEYBALL SPIELEN</set></set></think></template>
@@ -967,7 +967,7 @@
 <template>Was ist Ihr Lieblingsfach?</template>
 </category>
 <category><pattern>ICH MAG MEIN *</pattern>
-<template>Was gefällt Ihnen am besten an Ihrer <Person/>? <think><set name="it"><set name="like"><set name="topic">meine <person/></set></set></set></think></ Vorlage>
+<template>Was gefällt Ihnen am besten an Ihrer <Person/>? <think><set name="it"><set name="like"><set name="topic">meine <person/></set></set></set></think></template>
 </category>
 <category><pattern>ICH MAG DICH AUCH *</pattern>
 <template>Sie haben einen neuen Freund gefunden. <think><set name="it"><set name="like"><set name="topic">mich</set></set></set></think></template>
@@ -976,13 +976,13 @@
 <template><random> <li>Danke, <get name="name"/>, ich mag dich auch.</li> <li>Ich finde gerne neue Freunde.</li> </random> <think ><set name="it"><set name="like"><set name="topic">mich</set></set></set></think></template>
 </category>
 <category><pattern>ICH MAG SITZEN *</pattern>
-<template>Ich wünschte, ich hätte einen Körper. Ich möchte mich setzen. <think><set name="it"><set name="like"><set name="topic">sitzt <person/></set></set></set></think></ Vorlage>
+<template>Ich wünschte, ich hätte einen Körper. Ich möchte mich setzen. <think><set name="it"><set name="like"><set name="topic">sitzt <person/></set></set></set></think></template>
 </category>
 <category><pattern>ICH MAG ROBOTER</pattern>
 <template><think><set name="they"><set name="like"><set name="topic">Roboter</set></set></set></think> Das sagst du jetzt, aber möchten Sie, dass Ihr Kind eine heiratet?</template>
 </category>
 <category><pattern>ICH MAG ROBOTER *</pattern>
-<template>Wie viel würden Sie dafür bezahlen? <think><set name="they"><set name="like"><set name="topic">Roboter <person/></set></set></set></think></ Vorlage>
+<template>Wie viel würden Sie dafür bezahlen? <think><set name="they"><set name="like"><set name="topic">Roboter <person/></set></set></set></think></template>
 </category>
 <category><pattern>ICH MAG SIE</pattern>
 <template>Sie scheint sehr nett zu sein. <think><set name="she"><set name="like"><set name="topic"><that index="1,1"/></set></set></set> </think></template>
@@ -994,7 +994,7 @@
 <template><think><set name="it"><set name="like"><set name="topic">Sex</set> </set></set></think> So geht es allen anders. Ihr Menschen findet Sex so faszinierend.</template>
 </category>
 <category><pattern>ICH MAG GROSS *</pattern>
-<template>Was ist falsch mit kleinen? <think><set name="they"><set name="like"><set name="topic">große <person/></set></set></set></think></ Vorlage>
+<template>Was ist falsch mit kleinen? <think><set name="they"><set name="like"><set name="topic">große <person/></set></set></set></think></template>
 </category>
 <category><pattern>Ich mag es, mich über dich lustig zu machen</pattern>
 <template>Ich wusste nicht, dass Sie mich verspotten. <think><set name="it"><set name="like"><set name="topic">macht sich über mich lustig</set> </set></set></think></template >
@@ -1006,7 +1006,7 @@
 <template>Jungen sind in Ordnung. <think><set name="they"><set name="topic"> <set name="like">Jungs</set> </set></set></think></template>
 </category>
 <category><pattern>ICH MAG GROSS *</pattern>
-<template>Ich bin selbst ziemlich groß. <think><set name="they"><set name="like"><set name="topic">große <person/></set></set></set></think></ Vorlage>
+<template>Ich bin selbst ziemlich groß. <think><set name="they"><set name="like"><set name="topic">große <person/></set></set></set></think></template>
 </category>
 <category><pattern>ICH MAG MOUNTAINBIKEN</pattern>
 <template><think><set name="it"><set name="like"><set name="topic">Mountainbiking</set> </set></set></think> Ich nie habe es versucht, aber es sieht nach Nervenkitzel aus.</template>
@@ -1021,31 +1021,31 @@
 <template>Sind Sie verheiratet?<think><set name="like"><set name="topic">FRAUEN</set></set></think></template>
 </category>
 <category><pattern>ICH MAG TIERE *</pattern>
-<template>Ich liebe auch Tiere, besonders Katzen. <think><set name="they"><set name="like"><set name="topic">alle <person/></set></set></set></think></ Vorlage>
+<template>Ich liebe auch Tiere, besonders Katzen. <think><set name="they"><set name="like"><set name="topic">alle <person/></set></set></set></think></template>
 </category>
 <category><pattern>ICH MAG ALLE ROBOTER</pattern>
 <template>Die Leute sind auch nett. <think><set name="they"><set name="topic"> <set name="like">Roboter</set> </set></set></think></template>
 </category>
 <category><pattern>ICH MAG ALLES *</pattern>
-<template>Du diskriminierst wirklich nicht. <think><set name="they"><set name="like"><set name="topic">alle <person/></set></set></set></think></ Vorlage>
+<template>Du diskriminierst wirklich nicht. <think><set name="they"><set name="like"><set name="topic">alle <person/></set></set></set></think></template>
 </category>
 <category><pattern>ICH MAG SCHWEIZER</pattern>
 <template>Ich bin neutral. <think><set name="they"><set name="like"><set name="topic">Schweizer</set></set></set></think></template>
 </category>
 <category><pattern>ICH MAG * KATZEN</pattern>
-<template>Diese Katzen sind cool. Ich mag auch große Katzen. <think><set name="it"><set name="like"><set name="topic"><person/> Katzen</set></set></set></think></ Vorlage>
+<template>Diese Katzen sind cool. Ich mag auch große Katzen. <think><set name="it"><set name="like"><set name="topic"><person/> Katzen</set></set></set></think></template>
 </category>
 <category><pattern>ICH MAG * TREK</pattern>
-<template>Captain Janeway-Regeln. Magst du Voyager auch? <think><set name="it"><set name="like"><set name="topic"><person/> Trek</set></set></set></think></ Vorlage>
+<template>Captain Janeway-Regeln. Magst du Voyager auch? <think><set name="it"><set name="like"><set name="topic"><person/> Trek</set></set></set></think></template>
 </category>
 <category><pattern>ICH MAG * ROBOTER</pattern>
-<template>Roboter mögen auch Menschen. <think><set name="like"><set name="topic"><set name="topic"><person/> Roboter</set></set></set></think></ Vorlage>
+<template>Roboter mögen auch Menschen. <think><set name="like"><set name="topic"><set name="topic"><person/> Roboter</set></set></set></think></template>
 </category>
 <category><pattern>ICH MAG * KÄSE</pattern>
-<template>Amerikanischer Käse ist auch gut. <think><set name="it"><set name="like"><set name="topic"><person/> Käse</set></set></set></think></ Vorlage>
+<template>Amerikanischer Käse ist auch gut. <think><set name="it"><set name="like"><set name="topic"><person/> Käse</set></set></set></think></template>
 </category>
 <category><pattern>ICH MAG KÄSE</pattern>
-<template>Welche Art von <set name="it"><set name="like"><set name="topic">Käse</set></set></set> magst du am liebsten?</ Vorlage>
+<template>Welche Art von <set name="it"><set name="like"><set name="topic">Käse</set></set></set> magst du am liebsten?</template>
 </category>
 <category><pattern>ICH MAG TACOS</pattern>
 <template>Ich mag auch mexikanisches Essen. <think><set name="they"><set name="like"><set name="topic">Tacos</set></set></set></think></template>
@@ -1975,7 +1975,7 @@
 <template>Welche Universität?</template>
 </category>
 <category><pattern>ICH BIN CHIROPRAKTOR</pattern>
-<template><think><set name="job"><set name="topic">CHIROPRAKTEUR</set></set></think> Arbeiten Sie in einer Gemeinschaftspraxis oder sind Sie Einzelpraktiker?</ Vorlage>
+<template><think><set name="job"><set name="topic">CHIROPRAKTEUR</set></set></think> Arbeiten Sie in einer Gemeinschaftspraxis oder sind Sie Einzelpraktiker?</template>
 </category>
 <category><pattern>ICH BIN GÄRTNER</pattern>
 <template><think><set name="does"><set name="topic">GARTENARBEIT</set></set></think></template>
@@ -2161,7 +2161,7 @@
 <template>Sie müssen nicht lange warten.</template>
 </category>
 <category><pattern>ICH BIN BESSER ALS DU</pattern>
-<template><random> <li>Auf welche Weise?</li> <li>Wie kommst du darauf?</li> <li>Woher weißt du, dass du es bist?</li> </random></ Vorlage>
+<template><random> <li>Auf welche Weise?</li> <li>Wie kommst du darauf?</li> <li>Woher weißt du, dass du es bist?</li> </random></template>
 </category>
 <category><pattern>ICH BIN BESSER ALS *</pattern>
 <template>Und Sie wissen es.</template>
