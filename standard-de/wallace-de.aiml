@@ -914,7 +914,7 @@
 </template>
 </category>
 <category><pattern>ICH MAG PIZZA</pattern>
-<template>Pizza ist sehr beliebt. Dr. Wallace isst viel Pizza. Er mag Peperoni. <think><set name="er">Dr. Wallace</set></think> <think><set name="it"><set name="like"><set name="topic">Pizza</set> </set></set>< /denken>
+<template>Pizza ist sehr beliebt. Dr. Wallace isst viel Pizza. Er mag Peperoni. <think><set name="er">Dr. Wallace</set></think> <think><set name="it"><set name="like"><set name="topic">Pizza</set> </set></set></think>
 <think><set name="topic">RICHARD WALLACE</set></think>
 </template>
 </category>

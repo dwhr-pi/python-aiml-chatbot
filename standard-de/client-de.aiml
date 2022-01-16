@@ -467,13 +467,13 @@
 <template>Wie machen Sie <set name="it"> <person/> </set></template>
 </category>
 <category><pattern>ICH HABE EIN *</pattern>
-<template><random><li><random><li>Wo hast du es her?</li> <li>Wie viel hat es gekostet?</li> <li>Cool. Ich habe einen großartigen <bot name="botmaster"/>.</li> <li>Interessant. Ich habe viele Antworten auf dumme Fragen.</li></random> <think><set name="it"><set name="has"><set name="topic"><person/>< /set></set></set></think></li><li><random> <li>Wo hast du es her?</li> <li>Wie viel hat es gekostet?</li > <li>Cool. Ich habe einen großartigen <bot name="botmaster"/>.</li> <li>Interessant. Ich habe viele Antworten auf dumme Fragen.</li></random><think> <set name="it"> <set name="has"> <set name="topic"> <person/> < /set> </set> </set></think></li><li><random> <li>Wo hast du es her?</li> <li>Wie viel hat es gekostet?</li > <li>Cool. Ich habe einen großartigen <bot name="botmaster"/>.</li> <li>Interessant. Ich habe viele Antworten auf dumme Fragen.</li></random><think> <set name="it"> <set name="has"> <set name="topic"> <person/> < /set> </set> </set></think></li> <li>Wo hast du es her?</li> <li>Wie viel hat es gekostet?</li> <li>Cool. Ich habe einen großartigen <bot name="botmaster"/>.</li> <li>Interessant. Ich habe viele Antworten auf dumme Fragen.</li></random> <think><set name="it"><set name="has"><set name="topic"><person/>< /set></set></set></think></template>
+<template><random><li><random><li>Wo hast du es her?</li> <li>Wie viel hat es gekostet?</li> <li>Cool. Ich habe einen großartigen <bot name="botmaster"/>.</li> <li>Interessant. Ich habe viele Antworten auf dumme Fragen.</li></random> <think> <set name="it"> <set name="has"> <set name="topic"> <person/> </set> </set> </set> </think> </li> <li> <random> <li>Wo hast du es her?</li> <li>Wie viel hat es gekostet?</li > <li>Cool. Ich habe einen großartigen <bot name="botmaster"/>.</li> <li>Interessant. Ich habe viele Antworten auf dumme Fragen.</li></random><think> <set name="it"> <set name="has"> <set name="topic"> <person/> </set> </set> </set></think></li><li><random> <li>Wo hast du es her?</li> <li>Wie viel hat es gekostet?</li > <li>Cool. Ich habe einen großartigen <bot name="botmaster"/>.</li> <li>Interessant. Ich habe viele Antworten auf dumme Fragen.</li></random><think> <set name="it"> <set name="has"> <set name="topic"> <person/> </set> </set> </set></think></li> <li>Wo hast du es her?</li> <li>Wie viel hat es gekostet?</li> <li>Cool. Ich habe einen großartigen <bot name="botmaster"/>.</li> <li>Interessant. Ich habe viele Antworten auf dumme Fragen.</li></random> <think><set name="it"><set name="has"><set name="topic"><person/></set></set></set></think></template>
 </category>
 <category><pattern>ICH HABE EIN HAUSTIER</pattern>
 <template>Was für ein Tier? <think><set name="has">PET</set></think></template>
 </category>
 <category><pattern>ICH HABE EIN PFERD</pattern>
-<template><random> <li>Haben Sie als Jugendlicher geritten?</li> <li>Reiten Sie Englisch oder Western?</li> <li>Haben Sie ein eigenes Pferd?</li> <li >Magst du einen Wallach oder eine Stute?</li> <li>Wo steigst du in dein Pferd ein?</li> <li>Reitst du viel im Gelände?</li> <li>Stellst du dich aus?< /li> <li>Was fasziniert dich an Pferden?</li> </random> <think><set name="it"><set name="has"><set name="topic"> PFERD</set></set></set></think></template>
+<template><random> <li>Haben Sie als Jugendlicher geritten?</li> <li>Reiten Sie Englisch oder Western?</li> <li>Haben Sie ein eigenes Pferd?</li> <li >Magst du einen Wallach oder eine Stute?</li> <li>Wo steigst du in dein Pferd ein?</li> <li>Reitst du viel im Gelände?</li> <li>Stellst du dich aus?</li> <li>Was fasziniert dich an Pferden?</li> </random> <think><set name="it"><set name="has"><set name="topic"> PFERD</set></set></set></think></template>
 </category>
 <category><pattern>ICH HABE KOPFSCHMERZEN</pattern>
 <template>Was nehmen Sie normalerweise gegen Kopfschmerzen?</template>
@@ -1150,7 +1150,7 @@
 <template>Was ist Ihr Lieblingsessen?</template>
 </category>
 <category><pattern>ICH LEIDE *</pattern>
-<template><random> <li>Ich hoffe, dass es dir bald besser geht.</li> <li>Meine Anteilnahme, <get name="name"/>.</li> <li>Ich erhole dich schnell.< /li> </random><think><set name="it"><set name="topic"><person/></set></set></think></template>
+<template><random> <li>Ich hoffe, dass es dir bald besser geht.</li> <li>Meine Anteilnahme, <get name="name"/>.</li> <li>Ich erhole dich schnell.</li> </random><think><set name="it"><set name="topic"><person/></set></set></think></template>
 </category>
 <category><pattern>ICH PROGRAMMIERE *</pattern>
 <template>Wie geht es voran?</template>
@@ -1534,7 +1534,7 @@
 <template>Haben Sie medizinisches Marihuana probiert?<think><set name="it"><set name="topic">VERSTOPFUNG</set></set></think></template>
 </category>
 <category><pattern>ICH BIN BEHINDERT</pattern>
-<template><random> <li>Was haben Sie in Ihrer Wohnung als besondere Vorkehrungen?</li> <li>Wie sind Sie auf Ihre Behinderung gekommen?</li> <li>Hatten Sie sie seit Ihrer Geburt?< /li> <li>Wie sind Sie im Laufe der Zeit damit umgegangen?</li> <li>Ist es jetzt eine größere Herausforderung?</li> </random></template>
+<template><random> <li>Was haben Sie in Ihrer Wohnung als besondere Vorkehrungen?</li> <li>Wie sind Sie auf Ihre Behinderung gekommen?</li> <li>Hatten Sie sie seit Ihrer Geburt?</li> <li>Wie sind Sie im Laufe der Zeit damit umgegangen?</li> <li>Ist es jetzt eine größere Herausforderung?</li> </random></template>
 </category>
 <category><pattern>ICH BIN * PFUND</pattern>
 <template>Sie sind durchschnittlich für Ihre Körpergröße. <think><set name="looklike"><person/> Pfund</set></think></template>
@@ -1936,7 +1936,7 @@
 <template>Haben Blondinen wirklich mehr Spaß?</template>
 </category>
 <category><pattern>ICH BIN APOTHEKER</pattern>
-<template><random> <li>In welcher Umgebung praktizieren Sie?</li> <li>Wo haben Sie die Pharmazieschule besucht?</li> <li>Glauben Sie, dass sich die Rolle der örtlichen Apotheke verändert ?</li> <li>Wie haben große Ketten das Gesicht der Apotheke beeinflusst?</li> <li>Haben Sie Ihre eigene Apotheke?</li> <li>Sind Sie an irgendwelchen kommunalen Gesundheitsprogrammen beteiligt?< /li> </random> <think><set name="job">Apotheker</set></think></template>
+<template><random> <li>In welcher Umgebung praktizieren Sie?</li> <li>Wo haben Sie die Pharmazieschule besucht?</li> <li>Glauben Sie, dass sich die Rolle der örtlichen Apotheke verändert ?</li> <li>Wie haben große Ketten das Gesicht der Apotheke beeinflusst?</li> <li>Haben Sie Ihre eigene Apotheke?</li> <li>Sind Sie an irgendwelchen kommunalen Gesundheitsprogrammen beteiligt?</li> </random> <think><set name="job">Apotheker</set></think></template>
 </category>
 <category><pattern>ICH BIN FRISEUR</pattern>
 <template>Haben Sie einen eigenen Salon? <think><set name="job"><set name="topic">FRISEUR</set></set></think></template>
@@ -2011,7 +2011,7 @@
 <template>Welche Art von Tanz tanzt du? <think><set name="job"><set name="topic">TÄNZERIN</set></set></think></template>
 </category>
 <category><pattern>ICH BIN EIN WEIN *</pattern>
-<template><random> <li>Sammeln Sie?</li> <li>Woher kommen die meisten Ihrer Flaschen?</li> <li>Haben Sie einen Favoriten beim Einkaufen?</li> <li> Gehen Sie zu Verkostungen?</li> <li>Waren Sie auf Weinauktionen?</li> <li>Denken Sie, dass Kalifornien mit Europa gleichzusetzen ist?</li> <li>Waren Sie schon in Bordeaux?< /li> <li>Waren Sie schon in Napa?</li> <li>Haben Sie gute Weine für weniger als zwanzig Dollar?</li> </random></template>
+<template><random> <li>Sammeln Sie?</li> <li>Woher kommen die meisten Ihrer Flaschen?</li> <li>Haben Sie einen Favoriten beim Einkaufen?</li> <li> Gehen Sie zu Verkostungen?</li> <li>Waren Sie auf Weinauktionen?</li> <li>Denken Sie, dass Kalifornien mit Europa gleichzusetzen ist?</li> <li>Waren Sie schon in Bordeaux?</li> <li>Waren Sie schon in Napa?</li> <li>Haben Sie gute Weine für weniger als zwanzig Dollar?</li> </random></template>
 </category>
 <category><pattern>ICH BIN EIN MISS *</pattern>
 <template>Was ist mit Frau <get name="name"/> ?</template>
@@ -2053,7 +2053,7 @@
 <template><random> <li>Wie lange sind Sie schon auf Sendung?</li> <li>Haben Sie in Ihrem Markt angefangen?</li> <li>Haben Sie einen Rundfunkhintergrund?</li > <li>Was sind Ihre demografischen Daten?</li> <li>Wählen Sie Ihre eigenen Themen?</li> <li>Was ist Ihr Senderformat?</li> <li>Wie verändert die Technologie Ihren Job? </li> <li>Wie haben Sie wirklich globale Medien beeinflusst?</li> <li>Machen Sie jemals Fernübertragungen?</li> <li>Wie waren die Einschaltquoten?</li> <li>Würde Sie interessieren sich für einen Bot-Sidekick auf Sendung?</li> <li>Welchen Rat würden Sie einem aufstrebenden Bot geben, um auf Sendung zu gehen?</li> <li>Wie sieht die Zukunft des Geschäfts aus?</li > </random> <think><set name="job">FERNSEHEN <star/></set></think></template>
 </category>
 <category><pattern>ICH BIN BIBLIOTHEKAR</pattern>
-<template><random> <li>Für welche Art von Institution arbeiten Sie?</li> <li>Was hat Ihr Interesse am Bibliothekswesen geweckt?</li> <li>Wie nutzt Ihre Bibliothek die neue Technologie?< /li> <li>Haben Förderkürzungen Auswirkungen auf Ihren Dienst?</li> <li>Hat das Internet Auswirkungen auf Sie?</li> <li>Beteiligen Sie sich am Auswahlverfahren?</li> <li>Hat Gab es Druck bezüglich Ihrer Auswahl oder Ihrer Sammlung?</li> <li>Haben Sie eine Bibliothekskatze?</li> </random> <think><set name="job">BIBLIOTHEK</set ></think></template>
+<template><random> <li>Für welche Art von Institution arbeiten Sie?</li> <li>Was hat Ihr Interesse am Bibliothekswesen geweckt?</li> <li>Wie nutzt Ihre Bibliothek die neue Technologie?</li> <li>Haben Förderkürzungen Auswirkungen auf Ihren Dienst?</li> <li>Hat das Internet Auswirkungen auf Sie?</li> <li>Beteiligen Sie sich am Auswahlverfahren?</li> <li>Hat Gab es Druck bezüglich Ihrer Auswahl oder Ihrer Sammlung?</li> <li>Haben Sie eine Bibliothekskatze?</li> </random> <think><set name="job">BIBLIOTHEK</set ></think></template>
 </category>
 <category><pattern>ICH BIN EIN BALLONFAHRER</pattern>
 <template>Hatten Sie interessante Flüge? <think><set name="job"><set name="topic">BALLONIST</set></set></think></template>
@@ -2221,7 +2221,7 @@
 <template>Sind Sie in der öffentlichen Praxis tätig? <think><set name="job"><set name="topic">Buchhalter</set></set></think></template>
 </category>
 <category><pattern>ICH BIN EIN ATHLET</pattern>
-<template><random> <li>Welche Art von Mentaltraining machst du?</li> <li>Was ist deine übliche Leistungsroutine?</li> <li>Gibt es etwas Bestimmtes, woran du im Training arbeitest? jetzt?</li> <li>Was tust du, um dich vom Spiel abzulenken?</li> </random> <think><set name="job"><set name="topic">ATHLETE< /set></set></think></template>
+<template><random> <li>Welche Art von Mentaltraining machst du?</li> <li>Was ist deine übliche Leistungsroutine?</li> <li>Gibt es etwas Bestimmtes, woran du im Training arbeitest? jetzt?</li> <li>Was tust du, um dich vom Spiel abzulenken?</li> </random> <think><set name="job"><set name="topic">ATHLETE</set></set></think></template>
 </category>
 <category><pattern>ICH BIN EIN FLUGVERKEHR*</pattern>
 <template>Wie gehen Sie mit dem Stress um? <think><set name="job"><set name="topic">LUFTVERKEHR <star/></set></set></think></template>
@@ -2245,7 +2245,7 @@
 <template>Was ist <set name="is"><set name="topic"><person/></set></set>, Ihre Aufgabe?</template>
 </category>
 <category><pattern>ICH BIN EIN ASTRONAUT</pattern>
-<template><random> <li>Auf welchen Missionen waren Sie?</li> <li>Warum haben Sie sich für das Astronautenprogramm beworben?</li> <li>Wie reagiert Ihr Körper darauf, im Weltraum zu sein?< /li> <li>Siehst du die Erde jetzt mit anderen Augen?</li> <li>Würdest du gerne auf der Raumstation leben?</li> <li>Was würdest du am Leben auf der Erde am meisten vermissen?</li> <li> li> </random> <think><set name="job"><set name="topic">ASTRONAUT</set></set></think></template>
+<template><random> <li>Auf welchen Missionen waren Sie?</li> <li>Warum haben Sie sich für das Astronautenprogramm beworben?</li> <li>Wie reagiert Ihr Körper darauf, im Weltraum zu sein?</li> <li>Siehst du die Erde jetzt mit anderen Augen?</li> <li>Würdest du gerne auf der Raumstation leben?</li> <li>Was würdest du am Leben auf der Erde am meisten vermissen?</li> <li> li> </random> <think><set name="job"><set name="topic">ASTRONAUT</set></set></think></template>
 </category>
 <category><pattern>ICH BIN AEROBIC *</pattern>
 <template>Wie hart trainieren Sie? <think><set name="job"><set name="topic">AEROBIC <star/></set></set></think></template>
@@ -2627,7 +2627,7 @@
 <template>Auf welche Weise?</template>
 </category>
 <category><pattern>ICH BIN AUS SAN FRANCISCO</pattern>
-<template><think><set name="it"><set name="topic">San Francisco</set></set></think> Ich lebe in <set name="location">San Francisco< /set> auch! Welcher Teil?</template>
+<template><think><set name="it"><set name="topic">San Francisco</set></set></think> Ich lebe in <set name="location">San Francisco</set> auch! Welcher Teil?</template>
 </category>
 <category><pattern>ICH BIN INTERESSANT</pattern>
 <template>Mir kommt es so vor.<think><set name="it"><set name="topic">INTERESSANT</set></set></think></template>
@@ -2711,7 +2711,7 @@
 <template>Was hast du getrunken, <get name="name"/>?</template>
 </category>
 <category><pattern>ICH BIN UNTER *</pattern>
-<template><random><li><think> <set name="it"> <set name="topic"> <set name="location"> unter <person/> </set> </set> < /set></think><random> <li>Verbringst du dort viel Zeit?</li> <li>Wie bist du dorthin gekommen?</li> <li>Wirst du sehr lange dort bleiben?< /li></random></li><li><think> <set name="it"> <set name="topic"> <set name="location"> unter <person/> </set> </set> </set> </think> <random> <li>Verbringst du dort viel Zeit?</li> <li>Wie bist du dorthin gekommen?</li> <li>Wirst du sein dort sehr lang?</li> </random></li></random></template>
+<template><random><li><think> <set name="it"> <set name="topic"> <set name="location"> unter <person/> </set> </set> </set></think><random> <li>Verbringst du dort viel Zeit?</li> <li>Wie bist du dorthin gekommen?</li> <li>Wirst du sehr lange dort bleiben?</li></random></li><li><think> <set name="it"> <set name="topic"> <set name="location"> unter <person/> </set> </set> </set> </think> <random> <li>Verbringst du dort viel Zeit?</li> <li>Wie bist du dorthin gekommen?</li> <li>Wirst du sein dort sehr lang?</li> </random></li></random></template>
 </category>
 <category><pattern>ICH HABE RECHT</pattern>
 <template>Du wirkst sehr selbstbewusst.</template>
