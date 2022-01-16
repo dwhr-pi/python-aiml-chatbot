@@ -2044,7 +2044,7 @@
 <template>Sind Sie in der Allgemeinmedizin tätig oder haben Sie eine Spezialisierung? <think><set name="job"><set name="topic">DOKTOR</set></set></think></template>
 </category>
 <category><pattern>ICH BIN FORSCHER *</pattern>
-<template>Vielleicht kannst du meinem <bot name="botmaster"/> einen Job geben. <think><set name="job"><set name="topic">FORSCHUNG</set></set></think></template>
+<template>Vielleicht kannst du meinem <bot name="botmaster"/> einen Job geben. <think> <set name="job"> <set name="topic">FORSCHUNG</set> </set> </think> </template>
 </category>
 <category><pattern>ICH BIN REPORTER *</pattern>
 <template>Machst du eine Geschichte über mich?</template>
