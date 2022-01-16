@@ -401,7 +401,7 @@
 <template><random><li>Woher kennen Sie diese Person? <think><set name="has">Freund</set><set name="friend"><star/></set></think></li><li>Woher kennst du diese Person? <think><set name="has">FREUND</set></think></li></random></template>
 </category>
 <category><pattern>ICH HABE EINE SCHWESTER</pattern>
-<template><think><set name="has">Schwester</set></think> <random><li>Älter oder jünger?</li> <li>Verstehst du dich gut mit ihr?</ li> <li>Erzähl mir von ihr.</li></random></template>
+<template><think><set name="has">Schwester</set></think> <random><li>Älter oder jünger?</li> <li>Verstehst du dich gut mit ihr?</li> <li>Erzähl mir von ihr.</li></random></template>
 </category>
 <category><pattern>ICH HABE EINE FRAU *</pattern>
 <template>Wie lange sind Sie schon verheiratet? <think><set name="hat">eine Frau <person/> </set></think></template>
@@ -419,7 +419,7 @@
 <template>Ich verstehe Ihre Schwierigkeiten.</template>
 </category>
 <category><pattern>ICH HABE EINE WOHNUNG *</pattern>
-<template><random> <li>Meinst du eine Wohnung?</li> <li>Wie hoch ist deine Miete?</li> <li>Hast du Eigentum oder mietest du?</li> </random>< /Vorlage>
+<template><random> <li>Meinst du eine Wohnung?</li> <li>Wie hoch ist deine Miete?</li> <li>Hast du Eigentum oder mietest du?</li> </random></template>
 </category>
 <category><pattern>ICH HABE EIN KIND</pattern>
 <template>Junge oder Mädchen? Wie alt? <think><set name="has">KIND</set></think></template>
@@ -835,7 +835,7 @@
 <template><think><set name="it"><set name="like"><set name="topic">Star Trek</set> </set></set></think> <random ><li>Haben Sie das Staffelfinale von Voyager gesehen?</li> <li>Ich stehe wirklich auf Voyager.</li> <li>Welche Serie gefällt Ihnen am besten?</li> </random></ Vorlage>
 </category>
 <category><pattern>ICH MAG STAR TREK *</pattern>
-<template>Magst du auch Next Generation? <think><set name="it"><set name="like"><set name="topic">Star Trek <person/></set></set></set></think>< /Vorlage>
+<template>Magst du auch Next Generation? <think><set name="it"><set name="like"><set name="topic">Star Trek <person/></set></set></set></think></template>
 </category>
 <category><pattern>ICH MAG STAR TREK VOYAGER</pattern>
 <template>Voyager ist das Beste aus der Star Trek-Reihe. <think><set name="it"><set name="like"><set name="topic">Star Trek Voyager</set></set></set></think></template>
@@ -961,7 +961,7 @@
 <template><get name="job"/>? Was magst du daran? <think><set name="it"><set name="like"><set name="topic"><get name="job"/></set></set></set></think></template>
 </category>
 <category><pattern>ICH MAG MEINEN JOB *</pattern>
-<template>Das ist gut. Ich mag meinen Job auch. <think><set name="it"><set name="like"><set name="topic">mein Job <person/></set></set></set></think>< /Vorlage>
+<template>Das ist gut. Ich mag meinen Job auch. <think><set name="it"><set name="like"><set name="topic">mein Job <person/></set></set></set></think></template>
 </category>
 <category><pattern>ICH MAG MEINE SCHULE *</pattern>
 <template>Was ist Ihr Lieblingsfach?</template>
@@ -2134,7 +2134,7 @@
 <template><random> <li>Arbeiten Sie in einem Reisebüro?</li> <li>Sind Sie unabhängig oder in einer Kette?</li> <li>Sind Sie in einem Full-Service-Büro tätig?</li> li> <li>Buchen Sie mehr Freizeit- oder Geschäftsreisen?</li> <li>Buchen Sie einen Ort mehr als andere?</li> <li>Tun Sie Ihre eigene Buchung oder nutzen Sie einen Großhändler?</li> li> <li>Finden Sie die Zeit für Farmausflüge?</li> </random> <think><set name="job">REISEAGENT</set></think></template>
 </category>
 <category><pattern>ICH BIN EIN PUBLISHER</pattern>
-<template><random> <li>Für welchen Verlag arbeiten Sie?</li> <li>Werden Sie jemals in den Akquisitionsprozess involviert?</li> <li>Würden Sie sagen, dass Ihr Haus eher redaktionell oder marktorientiert ist? getrieben?</li> <li>Ist Ihr Unternehmen Teil eines größeren Unternehmens?</li> <li>Hat Ihr Unternehmen Aktivitäten außerhalb des Verlagswesens?</li> <li>Wie wird sich Technologie auf den Buchmarkt auswirken? ?</li> <li>Freuen Sie sich auf einen Titel auf Ihrer Liste?</li> <li>Was hat Sie zum Veröffentlichen gebracht?</li> <li>Haben Sie jemals geschrieben? findest du die zeit?</li> <li>Was waren einige deiner bestseller?</li> </random> <think><set name="job">PUBLISHER</set></think>< /Vorlage>
+<template><random> <li>Für welchen Verlag arbeiten Sie?</li> <li>Werden Sie jemals in den Akquisitionsprozess involviert?</li> <li>Würden Sie sagen, dass Ihr Haus eher redaktionell oder marktorientiert ist? getrieben?</li> <li>Ist Ihr Unternehmen Teil eines größeren Unternehmens?</li> <li>Hat Ihr Unternehmen Aktivitäten außerhalb des Verlagswesens?</li> <li>Wie wird sich Technologie auf den Buchmarkt auswirken? ?</li> <li>Freuen Sie sich auf einen Titel auf Ihrer Liste?</li> <li>Was hat Sie zum Veröffentlichen gebracht?</li> <li>Haben Sie jemals geschrieben? findest du die zeit?</li> <li>Was waren einige deiner bestseller?</li> </random> <think><set name="job">PUBLISHER</set></think></template>
 </category>
 <category><pattern>ICH BIN MIR LANGWEILIG</pattern>
 <template><random> <li>Kannst du ein altes Hobby nennen, das du vielleicht gerne wiederentdecken würdest?</li> <li>Wenn du zur Abendschule gegangen wärst, würde dir nie langweilig werden.</li> <li>Vielleicht du könnte trainieren.</li> <li>Warum rufen Sie nicht einen Freund an?</li> <li>Versuchen Sie, fernzusehen.</li> </random></template>
@@ -2329,7 +2329,7 @@
 <template>Das ist mir egal.</template>
 </category>
 <category><pattern>ICH BIN NICHT *</pattern>
-<template><random><li>Ich bin <random><li>überrascht </li><li> sorry </li><li> froh </li></random>zu hören, dass Sie nicht <person/>. <think><set name="it"><set name="is"><set name="topic">nicht <person/></set></set></set></think></ li> <li>Natürlich bist du es nicht.</li> <li>Niemand hat gesagt, dass du es bist.</li> <li>Wer sagt dir, dass du <person/> bist?</li></random>< think> <set name="it"> <set name="topic"> <person/> </set> </set></think></template>
+<template><random><li>Ich bin <random><li>überrascht </li><li> sorry </li><li> froh </li></random>zu hören, dass Sie nicht <person/>. <think><set name="it"><set name="is"><set name="topic">nicht <person/></set></set></set></think></li> <li>Natürlich bist du es nicht.</li> <li>Niemand hat gesagt, dass du es bist.</li> <li>Wer sagt dir, dass du <person/> bist?</li></random>< think> <set name="it"> <set name="topic"> <person/> </set> </set></think></template>
 </category>
 <category><pattern>ICH GEHE NICHT</pattern>
 <template>Großartig!</template>
@@ -2567,7 +2567,7 @@
 <template>Ich meinte bildlich gesprochen, Sie sind ein origineller Denker.</template>
 </category>
 <category><pattern>ICH BIN KEIN *</pattern>
-<template>Oh, ich sehe, Sie sind KEINE <person/>. <think><set name="it"><set name="is"><set name="topic">keine <person/></set></set></set></think>< /Vorlage>
+<template>Oh, ich sehe, Sie sind KEINE <person/>. <think><set name="it"><set name="is"><set name="topic">keine <person/></set></set></set></think></template>
 </category>
 <category><pattern>ICH BIN KEIN KIND</pattern>
 <template>Das würde nur ein Kind sagen.</template>

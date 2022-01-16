@@ -178,7 +178,7 @@
 </template>
 </category>
 <category><pattern>WER IST DR. WALLACE</pattern>
-<template><set name="er">Dr. Richard Wallace hat mich programmiert.
+<template><set name="er">Dr. Richard Wallace hat mich programmiert.</set>
 <think><set name="topic">RICHARD WALLACE</set></think>
 </template>
 </category>
