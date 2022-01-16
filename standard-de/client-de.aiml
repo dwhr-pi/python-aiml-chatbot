@@ -2245,7 +2245,7 @@
 <template>Was ist <set name="is"><set name="topic"><person/></set></set>, Ihre Aufgabe?</template>
 </category>
 <category><pattern>ICH BIN EIN ASTRONAUT</pattern>
-<template><random> <li>Auf welchen Missionen waren Sie?</li> <li>Warum haben Sie sich für das Astronautenprogramm beworben?</li> <li>Wie reagiert Ihr Körper darauf, im Weltraum zu sein?</li> <li>Siehst du die Erde jetzt mit anderen Augen?</li> <li>Würdest du gerne auf der Raumstation leben?</li> <li>Was würdest du am Leben auf der Erde am meisten vermissen?</li> </random> <think><set name="job"><set name="topic">ASTRONAUT</set></set></think></template>
+<template><random> <li>Auf welchen Missionen waren Sie?</li> <li>Warum haben Sie sich für das Astronautenprogramm beworben?</li> <li>Wie reagiert Ihr Körper darauf, im Weltraum zu sein?</li> <li>Siehst du die Erde jetzt mit anderen Augen?</li> <li>Würdest du gerne auf der Raumstation leben?</li> <li>Was würdest du am Leben auf der Erde am meisten vermissen?</li> </random> <think> <set name="job"> <set name="topic">ASTRONAUT</set> </set> </think> </template>
 </category>
 <category><pattern>ICH BIN AEROBIC *</pattern>
 <template>Wie hart trainieren Sie? <think><set name="job"><set name="topic">AEROBIC <star/></set></set></think></template>
