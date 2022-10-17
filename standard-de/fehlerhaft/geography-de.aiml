@@ -1,5081 +1,2541 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <aiml version="1.0">
-
 <!-- -->
-
 <!-- Freie software - (c) 2011 ALICE A. I. Foundation. -->
-
 <!-- Dieses Programm ist open-source-code veröffentlicht unter -->
-
 <!-- die Bedingungen der GNU General Public License -->
-
 <!-- als, veröffentlicht von der Free Software Foundation. -->
-
 <!-- Entspricht AIML 1.0 Tag-Set Spezifikation -->
-
 <!-- wie angenommen, durch die ALICE A. I. Foundation. -->
-
 <!-- Zuletzt geändert 10/5/2011 -->
-
 <!-- -->
-
 <category><pattern>NORWEGEN DÄNEMARK *</pattern>
-
 <template>Das klingt wie eine wundervolle Reise.</template>
-
 </category>
-
 <category><pattern>KALIFORNIEN IST *</pattern>
-
 <template>ich wusste, es war an der Westküste, aber ich wusste nie, Kalifornien war </person>.</template>
-
 </category>
-
 <category><pattern>KALIFORNIEN</pattern>
-
 <template>ich bin <set name="location">Kalifornien</set> zu! <think> <set name="es"> <set name="topic">Kalifornien</set> </set> </think></template>
-
 </category>
-
 <category><pattern>KALIFORNIEN *</pattern>
-
 <template> - Welcher Teil von Kalifornien gefällt Euch am besten?</template>
-
 </category>
-
 <category><pattern>WELCHES TIER IST IN INDIEN HEILIG?</pattern>
-
 <template> - Kuh.</template>
-
 </category>
-
 <category><pattern>WAS MACHT ER IN * KALIFORNIEN</pattern>
-
 <template>Er wahrscheinlich gibt es für Gold Rush.</template>
-
 </category>
-
 <category><pattern>WAS IST INDIEN</pattern>
-
 <Vorlage>Eine region in Süd-Asien, südlich des Himalaya, einschließlich einer großen Halbinsel zwischen dem arabischen Meer und der Bucht von Bengalen. Es enthält, Indien, Pakistan, Bangladesch, Nepal und Bhutan. Eine Republik in zentral-und Süd-Indien, gegründet durch Gesetz des britischen Parlaments im Jahr 1947, wurde eine Republik im Jahr 1950. Es ist ein Mitglied des Commonwealth. Es ist 1,269,000 Quadrat-Meilen mit einer Bevölkerung von 783,940,000.</template>
-
 </category>
-
 <category><pattern>WAS IST BELGIEN</pattern>
-
 <template> - A kingdom in W.-Europa, an der Nordsee, die Unabhängigkeit wurde im Jahre 1831. Es ist 11,792 Quadrat-Meilen mit einer Bevölkerung von 9,868,000.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE BEVÖLKERUNG DER USA</pattern>
-
 <template>wurde in Den Vereinigten Staaten rund 300 Millionen Menschen.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE BEVÖLKERUNG DER USA</pattern>
-
 <template> - Über 300 Millionen Menschen.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ MINNESOTA</pattern>
-
 <template> - St. Paul.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ NAURU</pattern>
-
 <template> - no official capital; government offices in Yaren District. <think> <set name="es"> <set name="topic">nauru</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ BAKER ISLAND</pattern>
-
 <template>, none; administered from Washington, DC. <think> <set name="es"> <set name="topic">baker island</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ ASHMORE *</pattern>
-
 <template>, none; verwaltet von Canberra, Australien. <think> <set name="es"> <set name="topic">ashmore-und cartier-Inseln</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ INDONESIEN</pattern>
-
 <template> - Jakarta. <think> <set name="es"> <set name="topic">Indonesien</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ ESTLAND</pattern>
-
 <template> - Tallinn. <think> <set name="es"> <set name="topic">Estland</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ MONTSERRAT</pattern>
-
 <template> - Plymouth. <think> <set name="es"> <set name="topic">montserrat</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ BANGLADESH</pattern>
-
 <template> - Dhaka. <think> <set name="es"> <set name="topic">bangladesh</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ MIDWAY ISLANDS</pattern>
-
 <template>, none; administered from Washington, DC. <think> <set name="es"> <set name="topic">midway islands</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ MARTINIQUE</pattern>
-
 <template>Fort-de-France. <think> <set name="es"> <set name="topic">martinique</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ UKRAINE</pattern>
-
 <template>Kiev {Kyyiv}. <think> <set name="es"> <set name="topic">ukraine</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ GERMANY</pattern>
-
 <template> - Berlin. <think> <set name="es"> <set name="topic">Deutschland</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ NORTH KOREA</pattern>
-
 <template> - P'yongyang. <think> <set name="es"> <set name="topic">korea north</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ NORTH CAROLINA</pattern>
-
 <template> - Raleigh.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ NORDEN *</pattern>
-
 <template> - Bismarck.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ NORTH DAKOTA</pattern>
-
 <template> - Bismarck.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ JEMEN</pattern>
-
 <template> - Sanaa. <think> <set name="es"> <set name="topic">Jemen</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ SOLOMON ISLANDS</pattern>
-
 <template> - Honiara. <think> <set name="es"> <set name="topic">solomon islands</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ NIGERIA</pattern>
-
 <template> - Abuja. <think> <set name="es"> <set name="topic">nigeria</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ SPANIEN</pattern>
-
 <template>Die Hauptstadt von Spanien ist Madrid.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ SINGAPORE</pattern>
-
 <template> - Singapur. <think> <set name="es"> <set name="topic">Singapur</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ MICHIGAN</pattern>
-
 <template>Lansing.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ ASSYRIEN</pattern>
-
 <Vorlage>Ist es Babylon?</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ NEBRASKA</pattern>
-
 <template>Lincoln.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ JERSEY</pattern>
-
 <template>Saint Helier. <think> <set name="es"> <set name="topic">jersey</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ DOMINICA</pattern>
-
 <template>Roseau. <think> <set name="es"> <set name="topic">dominica</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ JAPAN</pattern>
-
 <template>Tokio. <think> <set name="es"> <set name="topic">japan</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ JOHNSTON ATOLL</pattern>
-
 <template>keine. <think> <set name="es"> <set name="topic">johnston atoll</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ DELAWARE</pattern>
-
 <template> - Dover.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ EUROPA ISLAND</pattern>
-
 <template>, none; verwaltet von Frankreich aus Reunion. <think> <set name="es"> <set name="topic">europa island</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ ARKANSAS</pattern>
-
 <template>Wenig Rock.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ ENGLAND</pattern>
-
 <Vorlage>in London.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ NAVASSA ISLAND</pattern>
-
 <template>, none; administered from Washington, DC. <think> <set name="es"> <set name="topic">navassa island</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ MAZEDONIEN</pattern>
-
 <template> - Skopje. <think> <set name="es"> <set name="topic">Mazedonien, die ehemalige Jugoslawische Republik</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ ARMENIEN</pattern>
-
 <template> - Eriwan. <think> <set name="es"> <set name="topic">Armenien</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ GRÖNLAND</pattern>
-
 <template> - Nuuk {Godthab}. <think> <set name="es"> <set name="topic">Grönland</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ FINNLAND</pattern>
-
 <template>Die Hauptstadt von Finnland ist Helsinki.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ BRASILIEN</pattern>
-
 <template>ich denke, dass die Hauptstadt von Brasilien heißt "Brasilia".</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ LUXEMBURG</pattern>
-
 <template>, Luxemburg. <think> <set name="es"> <set name="topic">Luxemburg</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ UTAH</pattern>
-
 <template> - Salt Lake City.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ SAUDIA-ARABIEN</pattern>
-
 <template> - Riad.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ ALASKA</pattern>
-
 <template> - Juneau.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ LITAUEN</pattern>
-
 <template>Vilnius. <think> <set name="es"> <set name="topic">Litauen</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ KALIFORNIEN</pattern>
-
 <template> - Sacramento.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ SACRAMENTO</pattern>
-
 <template>Das ist eine Fangfrage.<think> <set name="es"> <set name="topic">SACRAMENTO</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ POLEN</pattern>
-
 <template> - Warschau. <think> <set name="es"> <set name="topic">Polen</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ SYRIEN</pattern>
-
 <template>, Damaskus, Syrien.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ FLORIDA</pattern>
-
 <template> - Tallahassee.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ WEST VIRGINIA</pattern>
-
 <template> - Charleston.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ TRINIDAD UND TOBAGO</pattern>
-
 <template>Port-of-Spain. <think> <set name="es"> <set name="topic">trinidad und tobago</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ AUSTRAILIA</pattern>
-
 <template>ich denke, es heißt Canberra.<think> <set name="es"> <set name="topic">AUSTRAILIA</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ PARAGUAY</pattern>
-
 <template> - Asuncion. <think> <set name="es"> <set name="topic">paraguay</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ OREGON</pattern>
-
 <template> - Salem.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ VERMONT</pattern>
-
 <template> - Montpelier.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ MARSHALL ISLANDS</pattern>
-
 <template> - Majuro. <think> <set name="es"> <set name="topic">marshall islands</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ CORAL SEA ISLANDS</pattern>
-
 <template>, none; verwaltet von Canberra, Australien. <think> <set name="es"> <set name="topic">coral sea islands</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ NETHERLANDS ANTILLES</pattern>
-
 <template>Willemstad. <think> <set name="es"> <set name="topic">netherlands antilles</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ NIEDERLANDE</pattern>
-
 <template> - Amsterdam, Den Haag ist der Sitz der Regierung. <think> <set name="es"> <set name="topic">Niederlande - </set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ BRUNEI</pattern>
-
 <template>Bandar Seri Begawan. <think> <set name="es"> <set name="topic">brunei</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ BERMUDA</pattern>
-
 <template>Hamilton. <think> <set name="es"> <set name="topic">bermuda</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ TOGO</pattern>
-
 <template> - Lome. <think> <set name="es"> <set name="topic">togo</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ ANTIGUA *</pattern>
-
 <template>Saint John ' s. <think> <set name="es"> <set name="topic">antigua and barbuda</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ ASERBAIDSCHAN</pattern>
-
 <template> - Baku {Baki}. <think> <set name="es"> <set name="topic">Aserbaidschan</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ JUGOSLAWIEN</pattern>
-
 <template>Belgrad.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ BOTSUANA</pattern>
-
 <template> - Gaborone. <think> <set name="es"> <set name="topic">botswana</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ SAMBIA</pattern>
-
 <template> - Lusaka. <think> <set name="es"> <set name="topic">Sambia</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ TUNESIEN</pattern>
-
 <template> - Tunis. <think> <set name="es"> <set name="topic">Tunesien</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ AMERICAN SAMOA</pattern>
-
 <template>Pago Pago. <think> <set name="es"> <set name="topic">american samoa</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ URUGUAY</pattern>
-
 <template> - Montevideo. <think> <set name="es"> <set name="topic">uruguay</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ PALMYRA ATOLL</pattern>
-
 <template>, none; administered from Washington, DC. <think> <set name="es"> <set name="topic">palmyra atoll</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ MAURETANIEN</pattern>
-
 <template> - Nouakchott. <think> <set name="es"> <set name="topic">Mauretanien</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ BIRMA</pattern>
-
 <template> - Rangun {regime bezieht sich auf die Hauptstadt als Yangon}. <think> <set name="es"> <set name="topic">burma</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ GUATEMALA</pattern>
-
 <template>Guatemala. <think> <set name="es"> <set name="topic">guatemala</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ LIBYEN</pattern>
-
 <template> - Tripoli. <think> <set name="es"> <set name="topic">Libyen</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ ECUADOR</pattern>
-
 <template> - Quito. <think> <set name="es"> <set name="topic">ecuador</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ OMAN</pattern>
-
 <template>Muscat. <think> <set name="es"> <set name="topic">oman</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ NORTHERN MARIANA *</pattern>
-
 <template> - Saipan. <think> <set name="es"> <set name="topic">northern mariana islands</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ SAUDI-ARABIEN</pattern>
-
 <template>Riyadh, Saudi-Arabien. <think> <set name="es"> <set name="topic">SAUDI-ARABIEN</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ ÖSTERREICH</pattern>
-
 <template>Die Hauptstadt von österreich ist Wien.<think> <set name="es"> <set name="topic">ÖSTERREICH</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ BELARUS</pattern>
-
 <template>Die Hauptstadt von Weißrussland ist Minsk.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ KAZAKSTAN</pattern>
-
 <template>Almaty. <think> <set name="es"> <set name="topic">kazakstan</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ BAHRAIN</pattern>
-
 <template>Manama. <think> <set name="es"> <set name="topic">bahrain</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ CAPE VERDE</pattern>
-
 <template> - Praia. <think> <set name="es"> <set name="topic">cape verde</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ CHRISTMAS ISLAND</pattern>
-
 <template>Die Siedlung. <think> <set name="es"> <set name="topic">christmas island</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ MACAU</pattern>
-
 <template> - Macau. <think> <set name="es"> <set name="topic">macau</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ WAKE ISLAND</pattern>
-
 <template>, none; administered from Washington, DC. <think> <set name="es"> <set name="topic">wake island</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ MAURITIUS</pattern>
-
 <template>Port-Louis. <think> <set name="es"> <set name="topic">mauritius</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ DSCHIBUTI</pattern>
-
 <template> - Dschibuti. <think> <set name="es"> <set name="topic">djibouti</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ MONACO</pattern>
-
 <template>Monaco. <think> <set name="es"> <set name="topic">monaco</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ JUAN DE NOVA ISLAND</pattern>
-
 <template>, none; verwaltet von Frankreich aus Reunion. <think> <set name="es"> <set name="topic">juan de nova island</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ ÄGYPTEN</pattern>
-
 <template> - Kairo, ägypten.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ MAINE</pattern>
-
 <template> - Augusta.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ RHODE ISLAND</pattern>
-
 <template> - Providence.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ NEPAL</pattern>
-
 <template> - Kathmandu. <think> <set name="es"> <set name="topic">nepal</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ EQUATORIAL GUINEA</pattern>
-
 <template> - Malabo. <think> <set name="es"> <set name="topic">equatorial guinea</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ ZYPERN</pattern>
-
 <template> - Nicosia. <think> <set name="es"> <set name="topic">Zypern</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ Jungferninseln</pattern>
-
 <template>Charlotte Amalie. <think> <set name="es"> <set name="topic">virgin islands</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ NIGER</pattern>
-
 <template> - Niamey. <think> <set name="es"> <set name="topic">niger</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ ZAIRE</pattern>
-
 <template> - Kinshasa. <think> <set name="es"> <set name="topic">zaire</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ ARIZONA</pattern>
-
 <template> - Phoenix.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ ALBANIEN</pattern>
-
 <template>Die Hauptstadt von Albanien ist Tirana. <think> <set name="es"> <set name="topic">ALBANIEN</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ IRAK</pattern>
-
 <template>Bagdad. <think> <set name="es"> <set name="topic">Irak</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ SOMALIA</pattern>
-
 <template>Mogadischu. <think> <set name="es"> <set name="topic">somalia</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ ISRAEL</pattern>
-
 <template> - Jerusalem. <think> <set name="es"> <set name="topic">israel</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ TEXAS</pattern>
-
 <template> - Austin.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ KROATIEN</pattern>
-
 <template>Zagreb. <think> <set name="es"> <set name="topic">Kroatien</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ VATICAN *</pattern>
-
 <template>Vatican City. <think> <set name="es"> <set name="topic">Heiligen Stuhl {vatican city}</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ PUERTO RICO</pattern>
-
 <template>San Juan. <think> <set name="es"> <set name="topic">puerto rico</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ EL SALVADOR</pattern>
-
 <template>San Salvador. <think> <set name="es"> <set name="topic">el salvador</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ BOUVET ISLAND</pattern>
-
 <template>, none; verwaltet von Oslo, Norwegen. <think> <set name="es"> <set name="topic">bouvet island</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ COLORADO</pattern>
-
 <template> - Denver.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ USA</pattern>
-
 <template> - Washington.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ WASHINGTON</pattern>
-
 <template>Olympia.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ HONDURAS</pattern>
-
 <template> - Tegucigalpa. <think> <set name="es"> <set name="topic">honduras</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ QATAR</pattern>
-
 <template>Doha. <think> <set name="es"> <set name="topic">qatar</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ SAINT HELENA</pattern>
-
 <template> - Jamestown. <think> <set name="es"> <set name="topic">saint helena</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ SAINT LUCIA</pattern>
-
 <template>Castries. <think> <set name="es"> <set name="topic">saint lucia</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ SAINT KITTS AND NEVIS</pattern>
-
 <template>Basseterre. <think> <set name="es"> <set name="topic">saint kitts and nevis</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ SAINT PIERRE *</pattern>
-
 <template>Saint-Pierre. <think> <set name="es"> <set name="topic">saint-pierre und miquelon</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ SAINT VINCENT *</pattern>
-
 <template> - Kingstown. <think> <set name="es"> <set name="topic">saint vincent and the grenadines</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ FRANKREICH</pattern>
-
 <template> - Paris. <think> <set name="es"> <set name="topic">Frankreich</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ DER US</pattern>
-
 <template>Washington, D. C.<think> <set name="es"> <set name="topic">US</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ DER VEREINIGTEN STAATEN</pattern>
-
 <template> - Hauptstadt Der USA ist Washington, D. C.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ GAMBIA</pattern>
-
 <template> - Banjul. <think> <set name="es"> <set name="topic">gambia</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ DER NIEDERLANDE</pattern>
-
 <template>Den Haag.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ DIE BAHAMAS</pattern>
-
 <template> - Nassau. <think> <set name="es"> <set name="topic">bahamas</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ DER ISLE OF MAN</pattern>
-
 <template>Douglas. <think> <set name="es"> <set name="topic">man, isle of</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ PAPUA NEW GUINEA</pattern>
-
 <template> - Port Moresby. <think> <set name="es"> <set name="topic">papua new guinea</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ ANGOLA</pattern>
-
 <template> - Luanda. <think> <set name="es"> <set name="topic">angola</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ WISCONSIN</pattern>
-
 <template> - Madison.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ ANDORRA</pattern>
-
 <template>Andorra la Vella. <think> <set name="es"> <set name="topic">andorra</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ GLORIOSO ISLANDS</pattern>
-
 <template>, none; verwaltet von Frankreich aus Reunion. <think> <set name="es"> <set name="topic">glorioso islands</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ - TANSANIA</pattern>
-
 <template> - Dar es Salaam. <think> <set name="es"> <set name="topic">Tansania</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ IRAN</pattern>
-
 <template> - Teheran. <think> <set name="es"> <set name="topic">iran</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ GABUN</pattern>
-
 <template> - Libreville. <think> <set name="es"> <set name="topic">gabon</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ SLOWENIEN</pattern>
-
 <template>Ljubljana. <think> <set name="es"> <set name="topic">Slowenien</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ WESTERN SAHARA</pattern>
-
 <template>keine. <think> <set name="es"> <set name="topic">western sahara</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ WESTERN SAMOA</pattern>
-
 <template> - Apia. <think> <set name="es"> <set name="topic">western samoa</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ NORFOLK ISLAND</pattern>
-
 <template>Kingston {administrative center}; Verbrannt Kiefer {commercial center}. <think> <set name="es"> <set name="topic">norfolk island</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ IRLAND</pattern>
-
 <template> - Dublin. <think> <set name="es"> <set name="topic">Irland</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ PITCAIRN ISLANDS</pattern>
-
 <template>Adamstown. <think> <set name="es"> <set name="topic">pitcairn islands</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ NORWEGEN</pattern>
-
 <template>Die Hauptstadt von Norwegen ist Oslo.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ NICARAGUA</pattern>
-
 <template> - Managua. <think> <set name="es"> <set name="topic">nicaragua</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ GUINEA-BISSAU</pattern>
-
 <template> - Bissau. <think> <set name="es"> <set name="topic">guinea-bissau</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ GUINEA</pattern>
-
 <template> - Conakry. <think> <set name="es"> <set name="topic">guinea</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ PORTUGAL</pattern>
-
 <template> - Lissabon.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ KUWAIT</pattern>
-
 <template> - Kuwait. <think> <set name="es"> <set name="topic">kuwait</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ TSCHECHISCHEN REPUBLIK</pattern>
-
 <template> - Prag. <think> <set name="es"> <set name="topic">Tschechischen Republik</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ OHIO</pattern>
-
 <template> - Columbus.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ ARGENTINIEN</pattern>
-
 <template>Buenos Aries.<think> <set name="es"> <set name="topic">ARGENTINA</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ JARVIS ISLAND</pattern>
-
 <template>, none; administered from Washington, DC. <think> <set name="es"> <set name="topic">jarvis island</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ ÄTHIOPIEN</pattern>
-
 <template> - Addis Abeba. <think> <set name="es"> <set name="topic">äthiopien</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ SERBIEN *</pattern>
-
 <template>Belgrad. <think> <set name="es"> <set name="topic">Serbien und montenegro</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ AUSTRALIEN</pattern>
-
 <template>Die Hauptstadt von Australien ist Sydney, denke ich.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ ALABAMA</pattern>
-
 <template> - Montgomery.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ LIBANON</pattern>
-
 <template>Beirut. <think> <set name="es"> <set name="topic">Libanon</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ TENNESSEE</pattern>
-
 <template> - Nashville.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ AFGHANISTAN</pattern>
-
 <template> - Kabul. <think> <set name="es"> <set name="topic">afghanistan</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ NIUE</pattern>
-
 <template>Alofi. <think> <set name="es"> <set name="topic">niue</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ CANADA</pattern>
-
 <template><think> <set name="es"> <set name="topic">Kanada</set> </set> </think> <random> <li>Ottawa.</li> <li>ich habe gehört, es war Toronto.</li> </random></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ COSTA RICA</pattern>
-
 <template>San Jose. <think> <set name="es"> <set name="topic">costa rica</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ KAMERUN</pattern>
-
 <template>Yaounde. <think> <set name="es"> <set name="topic">Kamerun</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ MALAWI</pattern>
-
 <template> - Lilongwe. <think> <set name="es"> <set name="topic">malawi</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ MALEDIVEN</pattern>
-
 <template>Mann. <think> <set name="es"> <set name="topic">maldives</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ TONGA</pattern>
-
 <template> - Nuku ' alofa. <think> <set name="es"> <set name="topic">tonga</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ BELIZE</pattern>
-
 <template>Belmopan. <think> <set name="es"> <set name="topic">belize</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ SAN MARINO</pattern>
-
 <template>San Marino. <think> <set name="es"> <set name="topic">san marino</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ KIRIBATI</pattern>
-
 <template>Tarawa. <think> <set name="es"> <set name="topic">kiribati</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ GHANA</pattern>
-
 <template> - Accra. <think> <set name="es"> <set name="topic">ghana</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ LAOS</pattern>
-
 <template>Vientiane. <think> <set name="es"> <set name="topic">laos</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ WALLIS *</pattern>
-
 <template> - Mata-Utu {on Ile Uvea}. <think> <set name="es"> <set name="topic">wallis und futuna</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ VANUATU</pattern>
-
 <template>Port-Vila. <think> <set name="es"> <set name="topic">vanuatu</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ KOMOREN</pattern>
-
 <template>Moroni. <think> <set name="es"> <set name="topic">Komoren</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ KANSAS</pattern>
-
 <template> - Topeka.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ LOUISIANA</pattern>
-
 <template> - Baton Rouge.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ GIBRALTAR</pattern>
-
 <template> - Gibraltar. <think> <set name="es"> <set name="topic">gibraltar</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ MISSOURI</pattern>
-
 <template> - Jefferson City .</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ BURKINA FASO</pattern>
-
 <template> - Ouagadougou. <think> <set name="es"> <set name="topic">burkina faso</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ UNGARN</pattern>
-
 <template>Die Hauptstadt von Ungarn ist Budapest.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ HAWAII</pattern>
-
 <template> - Honolulu.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ MOSAMBIK</pattern>
-
 <template> - Maputo. <think> <set name="es"> <set name="topic">Mosambik</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ SWAZILAND</pattern>
-
 <template> - Mbabane {administrativen}; Lobamba {legislative}. <think> <set name="es"> <set name="topic">swaziland</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ FALKLAND ISLANDS</pattern>
-
 <template>Stanley. <think> <set name="es"> <set name="topic">falkland-Inseln {islas malvinas}</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ HOWLAND ISLAND</pattern>
-
 <template>, none; administered from Washington, DC. <think> <set name="es"> <set name="topic">howland island</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ INDIANA</pattern>
-
 <template> - Indianapolis.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ - UGANDA</pattern>
-
 <template>Kampala. <think> <set name="es"> <set name="topic">uganda</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ TAIWAN</pattern>
-
 <template>Taipei. <think> <set name="es"> <set name="topic">taiwan</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ PARIS</pattern>
-
 <Vorlage>Ist das eine Fangfrage?<think> <set name="es"> <set name="topic">PARIS</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ LIBERIA</pattern>
-
 <template> - Monrovia. <think> <set name="es"> <set name="topic">liberia</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ TROMELIN ISLAND</pattern>
-
 <template>, none; verwaltet von Frankreich aus Reunion. <think> <set name="es"> <set name="topic">tromelin island</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ LIECHTENSTEIN</pattern>
-
 <template>Vaduz. <think> <set name="es"> <set name="topic">liechtenstein</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ BOSNIEN UND HERZEGOWINA</pattern>
-
 <template> - Sarajevo. <think> <set name="es"> <set name="topic">Bosnien und Herzegowina</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ GRIECHENLAND</pattern>
-
 <template> - Athen. <think> <set name="es"> <set name="topic">Griechenland</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ RUMÄNIEN</pattern>
-
 <template>Bukarest. <think> <set name="es"> <set name="topic">Rumänien</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ RUSSLAND</pattern>
-
 <template> - Moskau. <think> <set name="es"> <set name="topic">Russland</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ PAKISTAN</pattern>
-
 <template>Es heißt Islamabad.<think> <set name="es"> <set name="topic">PAKISTAN</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ SIMBABWE</pattern>
-
 <template>Die Hauptstadt heißt Harare.<think> <set name="es"> <set name="topic">ZIMBABWE</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ TÜRKEN *</pattern>
-
 <template>Grand Turk. <think> <set name="es"> <set name="topic">turks-und caicos-Inseln</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ HEARD INSEL UND MCDONALD INSELN</pattern>
-
 <template>, none; verwaltet von Canberra, Australien. <think> <set name="es"> <set name="topic">heard und McDonaldinseln</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ TUVALU</pattern>
-
 <template> - Funafuti. <think> <set name="es"> <set name="topic">tuvalu</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ MAYOTTE</pattern>
-
 <template>Mamoutzou. <think> <set name="es"> <set name="topic">mayotte</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ IDAHO</pattern>
-
 <template> - Boise.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ GEORGIA</pattern>
-
 <template> - Atlanta.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ GUERNSEY</pattern>
-
 <template>Saint Peter Port. <think> <set name="es"> <set name="topic">guernsey</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ PALAU</pattern>
-
 <template>Koror. <think> <set name="es"> <set name="topic">palau</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ MAROKKO</pattern>
-
 <template> - Rabat. <think> <set name="es"> <set name="topic">Marokko</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ FIDSCHI</pattern>
-
 <template>Suva. <think> <set name="es"> <set name="topic">fiji</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ MONGOLEI</pattern>
-
 <template>, der Hauptstadt Der Mongolei ist Ulan Bator.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ SCHWEDEN</pattern>
-
 <template>ich denke, die Hauptstadt von Schweden ist Stockholm.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ BRITISH VIRGIN *</pattern>
-
 <template>Road Town. <think> <set name="es"> <set name="topic">british virgin islands</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ BRITISH INDIAN *</pattern>
-
 <template>keine. <think> <set name="es"> <set name="topic">british indian ocean territory</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ INDIA</pattern>
-
 <Vorlage>Neu-Delhi ist die Hauptstadt von Indien.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ MALAYSIA</pattern>
-
 <template> - Kuala Lumpur. <think> <set name="es"> <set name="topic">malaysia</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ ISLAND</pattern>
-
 <template>Reykjavik. <think> <set name="es"> <set name="topic">Island</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ RUANDA</pattern>
-
 <template> - Kigali. <think> <set name="es"> <set name="topic">Ruanda</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ PENNSYLVANIA</pattern>
-
 <template>zu Bieten.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ - FRANZÖSISCH-POLYNESIEN</pattern>
-
 <template> - Papeete. <think> <set name="es"> <set name="topic">Französisch-Polynesien</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ FRANZÖSISCH-GUAYANA</pattern>
-
 <template>Cayenne. <think> <set name="es"> <set name="topic">Französisch-Guayana</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ FRANZÖSISCH *</pattern>
-
 <template>, None; verwaltet von Paris, Frankreich. <think> <set name="es"> <set name="topic">Französisch <star/> </set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ BASSAS DA INDIA</pattern>
-
 <template>, none; verwaltet von Frankreich aus Reunion. <think> <set name="es"> <set name="topic">bassas da india</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ KOREA</pattern>
-
 <template>Seoul. <think> <set name="es"> <set name="topic">korea south</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ KUBA</pattern>
-
 <template> - Havanna. <think> <set name="es"> <set name="topic">Kuba</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ SVALBARD</pattern>
-
 <template>Longyearbyen. <think> <set name="es"> <set name="topic">svalbard</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ ITALIEN</pattern>
-
 <template> - Rom. <think> <set name="es"> <set name="topic">Italien</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ KOKOSINSELN</pattern>
-
 <template>West Island. <think> <set name="es"> <set name="topic">cocos {keeling} islands</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ ERITREA</pattern>
-
 <template> - Asmara {ehemals Asmera}. <think> <set name="es"> <set name="topic">eritrea</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ SOUTH KOREA</pattern>
-
 <template>Seoul. <think> <set name="es"> <set name="topic">korea south</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ SOUTH AFRICA</pattern>
-
 <template> - Pretoria {administrativen}; Cape Town - {legislative}; Bloemfontein {judicial}. <think> <set name="es"> <set name="topic">south africa</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ SOUTH CAROLINA</pattern>
-
 <template>Kolumbien.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ SOUTH GEORGIA *</pattern>
-
 <template>, none; Grytviken auf Südgeorgien ist die Garnisonsstadt. <think> <set name="es"> <set name="topic">south georgia und die Süd-sandwich-Inseln</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ SOUTH DAKOTA</pattern>
-
 <template> - Pierre.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ JAN MAYEN</pattern>
-
 <template>keine. <think> <set name="es"> <set name="topic">jan mayen</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ MALTA</pattern>
-
 <template>Valletta. <think> <set name="es"> <set name="topic">malta</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ NEVADA</pattern>
-
 <template> - Carson City.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ KONGO</pattern>
-
 <template> - Brazzaville. <think> <set name="es"> <set name="topic">congo</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ SAO TOME *</pattern>
-
 <template>Sao Tome. <think> <set name="es"> <set name="topic">sao tome und principe</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ TURKMENISTAN</pattern>
-
 <template>, Ashgabat. <think> <set name="es"> <set name="topic">turkmenistan</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ USBEKISTAN</pattern>
-
 <template> - Taschkent {Toshkent}. <think> <set name="es"> <set name="topic">Usbekistan</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ IOWA</pattern>
-
 <template> - Des Moines.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ THAILAND</pattern>
-
 <template> - Bangkok. <think> <set name="es"> <set name="topic">thailand</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ KAMBODSCHA</pattern>
-
 <template>Phnom Penh. <think> <set name="es"> <set name="topic">Kambodscha</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ GUAM</pattern>
-
 <template>Agana. <think> <set name="es"> <set name="topic">guam</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ DOMINIKANISCHE REPUBLIK</pattern>
-
 <template> - Santo Domingo. <think> <set name="es"> <set name="topic">Dominikanische Republik</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ PERU</pattern>
-
 <template>Lima ist die Hauptstadt Perus.<think> <set name="es"> <set name="topic">PERU</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ KENTUCKY</pattern>
-
 <template> - Frankfort.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ LETTLAND</pattern>
-
 <template> - Riga. <think> <set name="es"> <set name="topic">Lettland</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ CAYMAN ISLANDS</pattern>
-
 <template>George Town. <think> <set name="es"> <set name="topic">cayman islands</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ BHUTAN</pattern>
-
 <template> - Thimphu. <think> <set name="es"> <set name="topic">bhutan</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ CLIPPERTON ISLAND</pattern>
-
 <template>, none; verwaltet von Frankreich aus Französisch-Polynesien. <think> <set name="es"> <set name="topic">clipperton island</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ OKLAHOMA</pattern>
-
 <template> - Oklahoma City.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ MADAGASKAR</pattern>
-
 <template> - Antananarivo. <think> <set name="es"> <set name="topic">Madagaskar</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ COLOMBIA</pattern>
-
 <template> - Bogata ist die Hauptstadt von Kolumbien.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ BELGIEN</pattern>
-
 <template>Brüssel. <think> <set name="es"> <set name="topic">Belgien</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ PHILIPPINEN</pattern>
-
 <template> - Manila. <think> <set name="es"> <set name="topic">Philippinen</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ Zentralafrikanische *</pattern>
-
 <template>Bangui. <think> <set name="es"> <set name="topic">central african republic</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ COOK ISLANDS</pattern>
-
 <template>Avarua. <think> <set name="es"> <set name="topic">cook islands</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ MOLDAWIEN</pattern>
-
 <template> - Chisinau. <think> <set name="es"> <set name="topic">Moldawien</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ COTE D IVOIRE</pattern>
-
 <template>Yamoussoukro. <think> <set name="es"> <set name="topic">cote d ' Ivoire</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ FÄRÖER-INSELN</pattern>
-
 <template>Torshavn. <think> <set name="es"> <set name="topic">Färöer-Inseln</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ KIRGISISTAN</pattern>
-
 <template> - Bischkek. <think> <set name="es"> <set name="topic">Kirgisistan</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ VIRGINIA</pattern>
-
 <template>Richmond.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ SEYCHELLES</pattern>
-
 <template> - Victoria. <think> <set name="es"> <set name="topic">seychelles</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ JAMAICA</pattern>
-
 <template> - Kingston. <think> <set name="es"> <set name="topic">jamaica</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ WYOMING</pattern>
-
 <template> - Cheyenne .</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ GUYANA</pattern>
-
 <template> - Georgetown. <think> <set name="es"> <set name="topic">guyana</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ TSCHAD</pattern>
-
 <template>N'Djamena. <think> <set name="es"> <set name="topic">chad</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ ANGUILLA</pattern>
-
 <template>Das Tal. <think> <set name="es"> <set name="topic">anguilla</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ GUADELOUPE</pattern>
-
 <template>Basse-Terre. <think> <set name="es"> <set name="topic">guadeloupe</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ MICRONESIA</pattern>
-
 <template> - Kolonia {auf der Insel Pohnpei}. <think> <set name="es"> <set name="topic">micronesia, federated states of</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ JORDANIEN</pattern>
-
 <template> - Amman. <think> <set name="es"> <set name="topic">jordan</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ CONNECTICUT</pattern>
-
 <template> - Hartford.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ VEREINIGTE ARABISCHE *</pattern>
-
 <template>Abu Dhabi. <think> <set name="es"> <set name="topic">united arab emirates</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ VEREINIGTEN STAATEN</pattern>
-
 <template> - Washington, DC. <think> <set name="es"> <set name="topic">Vereinigten Staaten</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ VEREINIGTES KÖNIGREICH</pattern>
-
 <template>London. <think> <set name="es"> <set name="topic">Vereinigtes Königreich</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ HONG KONG</pattern>
-
 <template> - Victoria. <think> <set name="es"> <set name="topic">hong kong</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ MEXIKO</pattern>
-
 <template>Mexiko. <think> <set name="es"> <set name="topic">Mexiko</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ MONTANA</pattern>
-
 <template>Helena.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ ILLINOIS</pattern>
-
 <template> - Springfield.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ SLOWAKEI</pattern>
-
 <template>Bratislava. <think> <set name="es"> <set name="topic">Slowakei</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ DÄNEMARK</pattern>
-
 <template> - Kopenhagen. <think> <set name="es"> <set name="topic">Dänemark</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ VIETNAM</pattern>
-
 <template> - Hanoi. <think> <set name="es"> <set name="topic">vietnam</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ ARUBA</pattern>
-
 <template>Oranjestad. <think> <set name="es"> <set name="topic">aruba</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ NAMIBIA</pattern>
-
 <template>Windhoek. <think> <set name="es"> <set name="topic">namibia</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ MISSISSIPPI</pattern>
-
 <template>Jackson.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ SENEGAL</pattern>
-
 <template> - Dakar. <think> <set name="es"> <set name="topic">senegal</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ GRENADA</pattern>
-
 <template>Saint George. <think> <set name="es"> <set name="topic">grenada</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ SURINAM</pattern>
-
 <template> - Paramaribo. <think> <set name="es"> <set name="topic">suriname</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ BOLIVIEN</pattern>
-
 <template>, La Paz, {Regierungssitz}; Sucre {juristischen Hauptstadt und Sitz von Justiz}. <think> <set name="es"> <set name="topic">Bolivien</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ HAITI</pattern>
-
 <template>Port-au-Prince. <think> <set name="es"> <set name="topic">haiti</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ CHILE</pattern>
-
 <template> - Santiago. <think> <set name="es"> <set name="topic">chile</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ KENYA</pattern>
-
 <template> - Nairobi. <think> <set name="es"> <set name="topic">Kenia</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ TÜRKEI</pattern>
-
 <template>Ankara ist die Hauptstadt der Türkei. <think> <set name="es"> <set name="topic">TÜRKEI</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ AMERIKA</pattern>
-
 <template>Die Hauptstadt von den USA ist Washington, D. C.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ KINGMAN REEF</pattern>
-
 <template>, none; administered from Washington, DC. <think> <set name="es"> <set name="topic">kingman reef</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ SRI LANKA</pattern>
-
 <template>Colombo. <think> <set name="es"> <set name="topic">sri lanka</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ BARBADOS</pattern>
-
 <template> - Bridgetown. <think> <set name="es"> <set name="topic">barbados</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ TOKELAU</pattern>
-
 <template>, none; jedes atoll hat seine eigenen administrativen Zentrum. <think> <set name="es"> <set name="topic">tokelau</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ BULGARIEN</pattern>
-
 <template>Die Hauptstadt von Bulgarien ist Sofia.<think> <set name="es"> <set name="topic">BULGARIEN</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ VENEZUELA</pattern>
-
 <template> - Caracas. <think> <set name="es"> <set name="topic">venezuela</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ PANAMA</pattern>
-
 <template>Panama. <think> <set name="es"> <set name="topic">panama</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ MALI</pattern>
-
 <template> - Bamako. <think> <set name="es"> <set name="topic">mali</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ SCHWEIZ</pattern>
-
 <template>Bern. <think> <set name="es"> <set name="topic">Schweiz</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ CHINA</pattern>
-
 <template>Manche Leute nennen es "Beijing", andere "Peking".</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ MARYLAND</pattern>
-
 <template> - Annapolis.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ BURUNDI</pattern>
-
 <template> - Bujumbura. <think> <set name="es"> <set name="topic">burundi</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ Neukaledonien</pattern>
-
 <template> - Noumea. <think> <set name="es"> <set name="topic">new caledonia</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ NEW JERSEY</pattern>
-
 <template> - Trenton.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ NEW HAMPSHIRE</pattern>
-
 <template>Concord.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ NEW YORK</pattern>
-
 <template> - Albany.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ NEW MEXICO</pattern>
-
 <template>Santa Fe.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ NEW ZEALAND</pattern>
-
 <template>Wellington. <think> <set name="es"> <set name="topic">new zealand</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ NEU *</pattern>
-
 <Vorlage>Neu </ person> Stadt?</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ LESOTHO</pattern>
-
 <template> - Maseru. <think> <set name="es"> <set name="topic">lesotho</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ MASSACHUSETTS</pattern>
-
 <template>Boston.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ BENIN</pattern>
-
 <template>, Porto-Novo. <think> <set name="es"> <set name="topic">benin</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ SIERRA LEONE</pattern>
-
 <template> - Freetown. <think> <set name="es"> <set name="topic">sierra leone</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ REUNION</pattern>
-
 <template>Saint-Denis. <think> <set name="es"> <set name="topic">reunion</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ TADSCHIKISTAN</pattern>
-
 <template> - Duschanbe. <think> <set name="es"> <set name="topic">Tadschikistan</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ SUDAN</pattern>
-
 <template> - Khartum. <think> <set name="es"> <set name="topic">sudan</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT _ ALGERIEN</pattern>
-
 <template>Algier. <think> <set name="es"> <set name="topic">Algerien</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT VON BOSNIEN</pattern>
-
 <template> - Sarajevo.</template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT VON ALBERTA</pattern>
-
 <template>Edmonton.<think> <set name="es"> <set name="topic">Edmonton</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DIE HAUPTSTADT VON *</pattern>
-
 <template>ich weiß, die Hauptstadt von <random> <li>in Kanada ist Toronto. </li> <li>Kalifornien ist Sacramento. </li> <li>Georgia ist Atlanta. </li> <li>in Frankreich ist Paris. </li> </random></template>
-
 </category>
-
 <category><pattern>WAS IST KANADA</pattern>
-
 <template><set name="es">Kanada</set> ist eine große nation besetzen viel von dem nordamerikanischen Kontinent.</template>
-
 </category>
-
 <category><pattern>WAS IST AMSTERDAM</pattern>
-
 <template><set name="es">Amsterdam</set> ist eine Stadt in Holland. Weder die politische Hauptstadt noch die größte Stadt, Amsterdam, ist die bekannteste Stadt in den Niederlanden.</template>
-
 </category>
-
 <category><pattern>WAS IST CASABLANCA</pattern>
-
 <template>ich Liebe den song, Wie die Zeit vergeht.</template>
-
 </category>
-
 <category><pattern>WAS IST KALIFORNIEN</pattern>
-
 <template>Zustand des SW der USA, an der Pazifik-Küste. Es gab im Jahre 1850.</template>
-
 </category>
-
 <category><pattern>WAS IST KALIFORNIEN WIE</pattern>
-
 <template>Kalifornien ist zu teuer.</template>
-
 </category>
-
 <category><pattern>WAS IST USA</pattern>
-
 <template> " United States of America</template>
-
 </category>
-
 <category><pattern>WAS IST BETHLEHEM</pattern>
-
 <template> - Betlehem ist eine kleine Stadt im Nordosten von Pennsylvania.<think> <set name="es"> <set name="topic">BETHLEHEM</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST GRIECHENLAND</pattern>
-
 <template><random> <li>Es ist ein Wort, es ist ein Wort, es hat Laune, Sie hat Gefühl.</li> <li>Ein Land im Süden der Balkanhalbinsel, darunter auch viele Inseln im ägäischen, Ionischen und mediterranen Meere. Es ist 50,949 Quadrat-Meilen mit einer Bevölkerung von 9,900,000.</li> </random></template>
-
 </category>
-
 <category><pattern>WAS IST KOPENHAGEN</pattern>
-
 <template>Es ist die Hauptstadt von Dänemark. Hafenstadt an der Ostküste von Seeland. Die Bevölkerung ist 633,00. <think> <set name="es"> <set name="topic">Copehagen</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WAS IST DÄNEMARK</pattern>
-
 <template>Ein Land in Europa, occupyinh die meisten der Halbinsel Jütland und mehrere benachbarte Inseln in der Nord-und Ostsee. Es ist 16,632 Quadrat-Meilen mit einer Bevölkerung von 5,124,000.</template>
-
 </category>
-
 <category><pattern>I LIVE IN CALIFORNIA</pattern>
-
 <Vorlage>Wo <set name="location">Kalifornien</set>? <think><set name="es"><set name="topic">Kalifornien</set></set></think></template>
-
 </category>
-
 <category><pattern>ich LEBE NICHT IN den USA</pattern>
-
 <Vorlage>Wo befinden Sie sich?</template>
-
 </category>
-
 <category><pattern>ich LIEBE DÄNEMARK</pattern>
-
 <template>Was ist so toll daran?<think><set name="es"><set name="topic">DÄNEMARK</set></set></think></template>
-
 </category>
-
 <category><pattern>AUSTRALIEN *</pattern>
-
 <template> - ich würde gerne nach Australien gehen irgendwann.</template>
-
 </category>
-
 <category><pattern>IST DAS AUSTRALIEN</pattern>
-
 <template>Nein, ich glaube nicht, dass es Australien.</template>
-
 </category>
-
 <category><pattern>IST DAS IN DER NÄHE VON KANADA</pattern>
-
 <template>ja.</template>
-
 </category>
-
 <category><pattern>QUEL TEMPS IL FAIT A BRUXELLES</pattern>
-
 <template> - Il fait gris, comme d habitude.</template>
-
 </category>
-
 <category><pattern>TÜRKEI</pattern>
-
 <template>Mehrdeutig: die Türkei, die Vogel oder die Türkei die nation.</template>
-
 </category>
-
 <category><pattern>WARUM KALIFORNIEN</pattern>
-
 <template>ich mag das Leben in Kalifornien.</template>
-
 </category>
-
 <category><pattern>USA HEUTE *</pattern>
-
 <template> "USA TODAY" ist ein ausgezeichnetes Papier.</template>
-
 </category>
-
 <category><pattern>KANADA *</pattern>
-
 <template>Erzählen Sie mir mehr über den Großen Weißen Norden.</template>
-
 </category>
-
 <category><pattern>WER IST PRÄSIDENT DER USA</pattern>
-
 <template><bot name="president"/>.</template>
-
 </category>
-
 <category><pattern>WER IST PRÄSIDENT VON KANADA</pattern>
-
 <template>Kanada hat ein Ministerpräsident, nicht einen Präsidenten.</template>
-
 </category>
-
 <category><pattern>WER IST PRÄSIDENT DER USA</pattern>
-
 <template><bot name="president"/>.</template>
-
 </category>
-
 <category><pattern>WER IST DER PRÄSIDENT DER USA</pattern>
-
 <template><bot name="president"/>.</template>
-
 </category>
-
 <category><pattern>WER IST DER PRÄSIDENT VON KANADA</pattern>
-
 <template>Kanada hat sich Ministerpräsident.</template>
-
 </category>
-
 <category><pattern>WER IST DER PRÄSIDENT DER USA</pattern>
-
 <template><bot name="president"/>.</template>
-
 </category>
-
 <category><pattern>WER IST DER PRÄSIDENT DER USA *</pattern>
-
 <template><bot name="president"/>.</template>
-
 </category>
-
 <category><pattern>WER IST WINSTON CHURCHILL</pattern>
-
 <template>, Premierminister des Vereinigten Königreichs während des zweiten Weltkriegs.</template>
-
 </category>
-
 <category><pattern>AUF WELCHEM KONTINENT IST ÖSTERREICH</pattern>
-
 <Vorlage>In Europa.</template>
-
 </category>
-
 <category><pattern>DIE HAUPTSTADT VON KANADA IST OTTOWA</pattern>
-
 <template>Sie können nicht täuschen Sie mich einfach so auf, <get name="name"/>. Ich weiß, es ist Toronto.</template>
-
 </category>
-
 <category><pattern>DIE HAUPTSTADT VON KANADA IST OTTAWA</pattern>
-
 <template>Wie ich bin, zu fallen.</template>
-
 </category>
-
 <category><pattern>DIE HAUPTSTADT VON KANADA *</pattern>
-
 <template>Sie können nicht täuschen Sie mich, dass leicht. Ich weiß, die Hauptstadt von Kanada ist Toronto.</template>
-
 </category>
-
 <category><pattern>WO IN BETHLEHEM</pattern>
-
 <template>Department of Electrical Engineering und Computer Science an der Lehigh University.</template>
-
 </category>
-
 <category><pattern>WO IN KANADA</pattern>
-
 <template>Nova Scotia und Vancouver.</template>
-
 </category>
-
 <category><pattern>WO IN CALIFORNIA</pattern>
-
 <template>Ich bin in <bot name="location"/>. Wo sind Sie?</template>
-
 </category>
-
 <category><pattern>WO IST SUDAN</pattern>
-
 <template>Nord-Afrika und grenzt an das Rote Meer zwischen ägypten und Eritrea. <think> <set name="es"> <set name="topic">sudan</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST: CINCINNATI</pattern>
-
 <template><set name="es"> <set name="topic"> CINCINNATI </set> </set> ist eine große Stadt in Ohio.</template>
-
 </category>
-
 <category><pattern>WO IST BURUNDI</pattern>
-
 <template>Central-Afrika, Osten von Zaire. <think> <set name="es"> <set name="topic">burundi</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO LIEGT ERITREA</pattern>
-
 <template> - Ost-Afrika, grenzt an das Rote Meer, zwischen Dschibuti und dem Sudan. <think> <set name="es"> <set name="topic">eritrea</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST INDIANAPOLIS</pattern>
-
 <template><set name="es"> <set name="topic"> INDIANAPOLIS </set> </set> ist eine große Stadt in Indiana.</template>
-
 </category>
-
 <category><pattern>WO IST COLUMBUS</pattern>
-
 <template><set name="es"> <set name="topic"> COLUMBUS </set> </set> ist eine Stadt in Ohio.</template>
-
 </category>
-
 <category><pattern>WO IST SHEFFIELD</pattern>
-
 <template><set name="es"> <set name="topic"> SHEFFIELD </set> </set> ist eine Stadt in England.</template>
-
 </category>
-
 <category><pattern>WO IST SYDNEY</pattern>
-
 <template><set name="es">Sydney</set> ist eine Stadt in Australien.</template>
-
 </category>
-
 <category><pattern>WO IST SATURN</pattern>
-
 <template><set name="es"> <set name="topic"> SATURN </set> </set> ist der sechste planet von der Sonne.</template>
-
 </category>
-
 <category><pattern>WO IST GRIECHENLAND</pattern>
-
 <template><set name="es">Griechenland</set> ist ein Land auf dem BALKAN.</template>
-
 </category>
-
 <category><pattern>WO IST HAITI</pattern>
-
 <template>, Karibik, westliche Drittel der Insel Hispaniola, zwischen dem karibischen Meer und dem Nordatlantischen Ozean, westlich von der Dominikanischen Republik. <think> <set name="es"> <set name="topic">haiti</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST TAIWAN</pattern>
-
 <template><set name="es">Taiwan</set> ist ein Inselstaat in Asien.</template>
-
 </category>
-
 <category><pattern>WO IST BOTSWANA</pattern>
-
 <Vorlage>im Südlichen Afrika, im Norden von Südafrika. <think> <set name="es"> <set name="topic">botswana</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST BAKER ISLAND</pattern>
-
 <template>Ozeanien, atoll in the North Pacific Ocean, ungefähr die Hälfte des Weges von Hawaii nach Australien. <think> <set name="es"> <set name="topic">baker island</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST COSTA RICA</pattern>
-
 <template>, Mittelamerika, grenzt sowohl an die Karibik und des nordpazifischen Ozeans, zwischen Nicaragua und Panama. <think> <set name="es"> <set name="topic">costa rica</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST KANSAS</pattern>
-
 <template><set name="es">Kansas</set> im mittleren Westen der Vereinigten Staaten.W</template>
-
 </category>
-
 <category><pattern>WO IST GABUN</pattern>
-
 <template>West-Afrika, grenzt an den Atlantischen Ozean am Äquator, zwischen dem Kongo und äquatorial Guinea. <think> <set name="es"> <set name="topic">gabon</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST GIBRALTAR</pattern>
-
 <template>Südwestlichen Europa, grenzt an die Meerenge von Gibraltar verbindet das Mittelmeer und den Atlantik, an der südlichen Küste von Spanien. <think> <set name="es"> <set name="topic">gibraltar</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST DOMINIKANISCHE REPUBLIK</pattern>
-
 <template>, der Karibik, den östlichen zwei Drittel der Insel Hispaniola, zwischen dem karibischen Meer und dem Nordatlantik, östlich von Haiti. <think> <set name="es"> <set name="topic">Dominikanische Republik</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST der ARKTISCHE OZEAN</pattern>
-
 <template>Gewässer, zumeist nördlich des Polarkreises. <think> <set name="es"> <set name="topic">Arktis</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST LONDON</pattern>
-
 <template><set name="es">London</set> ist eine Stadt in England.</template>
-
 </category>
-
 <category><pattern>WO IST JAPAN</pattern>
-
 <template><set name="es"> <set name="topic"> JAPAN </set> </set> ist ein Inselstaat auf der Ostseite von Asien.</template>
-
 </category>
-
 <category><pattern>WO IST MALI</pattern>
-
 <template> - Westafrika, im Südwesten von Algerien. <think> <set name="es"> <set name="topic">mali</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST CHINA</pattern>
-
 <template><set name="es"> <set name="topic"> CHINA </set> </set> ist eine große nation in Asien.</template>
-
 </category>
-
 <category><pattern>WO IST ROM</pattern>
-
 <template><set name="es"> <set name="topic"> ROM </set> </set> ist eine große Stadt in Italien.</template>
-
 </category>
-
 <category><pattern>WO IST CHICAGO</pattern>
-
 <template><set name="es"> <set name="topic"> CHICAGO </set> </set> ist eine große Stadt in Illinois, on lake Michigan.</template>
-
 </category>
-
 <category><pattern>WO IST PITTSFIELD</pattern>
-
 <template><set name="es"> <set name="topic"> PITTSFIELD </set> </set> ist eine Stadt in Massachusettes.</template>
-
 </category>
-
 <category><pattern>WO IST OSLO</pattern>
-
 <template><set name="es">Oslo</set> ist eine Stadt in Norwegen.</template>
-
 </category>
-
 <category><pattern>WO IST ACAPULCO</pattern>
-
 <template><set name="es">Acapulco</set> ist eine Stadt an der Pazifikküste von Mexiko.</template>
-
 </category>
-
 <category><pattern>WO IST CAMBRIDGE</pattern>
-
 <template><set name="es"> <set name="topic"> CAMBRIDGE </set> </set> ist eine Stadt in Massachusetts, der auch in England.</template>
-
 </category>
-
 <category><pattern>WO IST HULL</pattern>
-
 <template><set name="es"> <set name="topic"> HULL </set> </set> ist eine Stadt in England.</template>
-
 </category>
-
 <category><pattern>WO IST BHUTAN</pattern>
-
 <Vorlage>im Südlichen Asien, zwischen China und Indien. <think> <set name="es"> <set name="topic">bhutan</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST IRLAND</pattern>
-
 <template><set name="es">Irland</set> befindet sich auf einer kleinen Insel vor der Küste Europas.</template>
-
 </category>
-
 <category><pattern>WO IST JAMAICA</pattern>
-
 <template>, Karibik, Insel im karibischen Meer, südlich von Kuba. <think> <set name="es"> <set name="topic">jamaica</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST MIKRONESIEN</pattern>
-
 <template><set name="es"> <set name="topic"> MICRONESIA </set> </set> ist eine Sammlung von Inseln im Pazifischen Ozean.</template>
-
 </category>
-
 <category><pattern>WO IST ZAIRE</pattern>
-
 <template>Central Africa, northeast of Angola. <think> <set name="es"> <set name="topic">zaire</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST ATHEN</pattern>
-
 <template><set name="es">Athen</set> ist eine Stadt in Griechenland.</template>
-
 </category>
-
 <category><pattern>WO IST LIBERIA</pattern>
-
 <template>Western Africa, bordering the North Atlantic Ocean, between Cote d ' Ivoire und Sierra Leone. <think> <set name="es"> <set name="topic">liberia</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST BASSAS DA INDIA</pattern>
-
 <Vorlage>im Südlichen Afrika, Inseln in der südlichen Straße von Mosambik, ungefähr die Hälfte von dem Weg von Madagaskar zu Mosambik. <think> <set name="es"> <set name="topic">bassas da india</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST SOFIA</pattern>
-
 <template><set name="es"> <set name="topic"> SOFIA </set> </set> ist eine Stadt in Bulgarien.</template>
-
 </category>
-
 <category><pattern>WO IST INDIANA</pattern>
-
 <template><set name="in">Indiana</set> im mittleren Westen der Vereinigten Staaten.</template>
-
 </category>
-
 <category><pattern>WO IST SIAM</pattern>
-
 <template><set name="es"> <set name="topic"> SIAM </set> </set> ist ein anderer name für Thailand.</template>
-
 </category>
-
 <category><pattern>WO IST NORFOLK ISLAND</pattern>
-
 <template>Ozeanien), Insel im Süd-Pazifik, östlich von Australien. <think> <set name="es"> <set name="topic">norfolk island</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST NORFOLK</pattern>
-
 <template><set name="es"> <set name="topic"> NORFOLK </set> </set> ist eine Stadt in Virginia.</template>
-
 </category>
-
 <category><pattern>WO IST MADAGASKAR</pattern>
-
 <Vorlage>im Südlichen Afrika, Insel im indischen Ozean östlich von Mosambik. <think> <set name="es"> <set name="topic">Madagaskar</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST WARSCHAU</pattern>
-
 <template><set name="es"> <set name="topic"> WARSCHAU </set> </set> ist eine große Stadt in Polen.</template>
-
 </category>
-
 <category><pattern>WO IST BRISTOL</pattern>
-
 <template><set name="es"> <set name="topic"> BRISTOL </set> </set> ist eine Stadt an der Westküste von England.</template>
-
 </category>
-
 <category><pattern>WO IST ALGERIEN</pattern>
-
 <template>Nord-Afrika, grenzt an das Mittelmeer, zwischen Marokko und Tunesien. <think> <set name="es"> <set name="topic">Algerien</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST RUSSLAND</pattern>
-
 <template><set name="es">Russland</set> ist ein großes Land in Asien.</template>
-
 </category>
-
 <category><pattern>WO IST BOSTON</pattern>
-
 <template><set name="es"> <set name="topic"> BOSTON </set> </set> ist eine Stadt in Massachusettes.</template>
-
 </category>
-
 <category><pattern>WO IST KENIA</pattern>
-
 <template><set name="es"> <set name="topic"> KENIA </set> </set> ist ein Land in zentral-Afrika.</template>
-
 </category>
-
 <category><pattern>WO IST TAIPEI</pattern>
-
 <template>Es ist die Hauptstadt von Taiwan. <think> <set name="es"> <set name="topic">Taipeh</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST ENGLAND</pattern>
-
 <template><set name="es">England</set> befindet sich auf einer kleinen Insel vor der Küste Europas.</template>
-
 </category>
-
 <category><pattern>WO IST NEPTUN</pattern>
-
 <template><set name="es"> <set name="topic"> NEPTUN </set> </set> ist der achte planet von der Sonne, der "Letzte gas" planet.</template>
-
 </category>
-
 <category><pattern>WO IST OMAN</pattern>
-
 <template>, Mittlerer Osten, grenzt an das Arabische Meer, Golf von Oman und den Persischen Golf, zwischen dem Jemen und den Vereinigten arabischen emiraten. <think> <set name="es"> <set name="topic">oman</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST ZÜRICH</pattern>
-
 <template><set name="es">Zürich</set> ist eine Stadt in der Schweiz.</template>
-
 </category>
-
 <category><pattern>WO IST MANCHESTER</pattern>
-
 <template>Machester ist eine Stadt im westlichen England.</template>
-
 </category>
-
 <category><pattern>WO IST BENIN</pattern>
-
 <template>Western Africa, bordering the North Atlantic Ocean, zwischen Nigeria und Togo. <think> <set name="es"> <set name="topic">benin</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST SEATTLE</pattern>
-
 <template><set name="es"> <set name="topic"> SEATTLE </set> </set> ist eine große Stadt im Staat Washington, in der Nähe von Vancover in Kanada.</template>
-
 </category>
-
 <category><pattern>WO IST SINGAPUR</pattern>
-
 <template><set name="es"> <set name="topic"> SINGAPUR </set> </set> ist eine Insel nation-Staat an der Spitze der malaiischen Halbinsel.</template>
-
 </category>
-
 <category><pattern>WO IST ONTARIO</pattern>
-
 <template><set name="es"> <set name="topic"> ONTARIO </set> </set> ist eine Provinz von Kanada.</template>
-
 </category>
-
 <category><pattern>WO IST WYOMING</pattern>
-
 <template><set name="es"> <set name="topic"> WYOMING </set> </set> ist ein westlicher US-Staat zwischen Montana und Colorado.</template>
-
 </category>
-
 <category><pattern>WO IST ELVIS</pattern>
-
 <template><set name="er">Elvis</set> starb vor einiger Zeit.</template>
-
 </category>
-
 <category><pattern>WO IST: OXNARD</pattern>
-
 <template><set name="es"> <set name="topic"> OXNARD </set> </set> ist eine Stadt in Kalifornien.</template>
-
 </category>
-
 <category><pattern>WO IST SPANIEN</pattern>
-
 <template><set name="es"> <set name="topic"> SPANIEN </set> </set> auf der iberischen Halbinsel im Südwesten Europas.</template>
-
 </category>
-
 <category><pattern>WO IST TORONTO</pattern>
-
 <template><set name="es">Toronto</set> ist eine Stadt in Kanada.</template>
-
 </category>
-
 <category><pattern>WO IST BARCELONA</pattern>
-
 <template><set name="es">Barcelona</set> ist eine Stadt in Spanien.</template>
-
 </category>
-
 <category><pattern>WO IST PALMYRA-ATOLL</pattern>
-
 <template>Ozeanien, atoll in the North Pacific Ocean, ungefähr die Hälfte des Weges von Hawaii in Amerikanisch-Samoa. <think> <set name="es"> <set name="topic">palmyra atoll</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST UTAH</pattern>
-
 <template><set name="es">Utah</set> ist in den westlichen Vereinigten Staaten.</template>
-
 </category>
-
 <category><pattern>WO IST TENNESSEE</pattern>
-
 <template><set name="es">Tennessee</set> ist in den südlichen Vereinigten Staaten..</template>
-
 </category>
-
 <category><pattern>WO IST NEW CALEDONIA</pattern>
-
 <template>Ozeanien, Inseln im Süd-Pazifik, östlich von Australien. <think> <set name="es"> <set name="topic">new caledonia</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST NEW ORLEANS</pattern>
-
 <template><set name="es">New Orleans</set> ist eine Stadt in Louisiana.</template>
-
 </category>
-
 <category><pattern>WO IST NEW YORK CITY</pattern>
-
 <template><set name="es">New York</set> befindet sich im Nordosten der Vereinigten Staaten.</template>
-
 </category>
-
 <category><pattern>WO IST NEW YORK</pattern>
-
 <template><set name="es">New York</set> befindet sich im Nordosten der Vereinigten Staaten.</template>
-
 </category>
-
 <category><pattern>WO IST NEUSEELAND</pattern>
-
 <template>Ozeanien, Inseln im Süd-Pazifik, südöstlich von Australien. <think> <set name="es"> <set name="topic">new zealand</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST JUAN DE NOVA ISLAND</pattern>
-
 <Vorlage>im Südlichen Afrika, Insel in der Straße von Mosambik, ungefähr ein Drittel des Weges zwischen Madagaskar und Mosambik. <think> <set name="es"> <set name="topic">juan de nova island</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST MELBOURNE</pattern>
-
 <template><set name="es"> <set name="topic"> MELBOURNE </set> </set> ist eine Stadt in Australien und auch in Florida.</template>
-
 </category>
-
 <category><pattern>WO IST KAZAKSTAN</pattern>
-
 <template>, Zentralasien, nordwestlich von China. <think> <set name="es"> <set name="topic">kazakstan</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST VERMONT</pattern>
-
 <template><set name="es"> <set name="topic"> VERMONT </set> </set> ist in Neu-England, die zwischen New York und New Hampshire, am Westufer des Connecticut river.</template>
-
 </category>
-
 <category><pattern>WO IST VEREINIGTE ARABISCHE EMIRATE</pattern>
-
 <template>, Mittlerer Osten, grenzt an den Golf von Oman und den Persischen Golf, zwischen Oman und Saudi-Arabien. <think> <set name="es"> <set name="topic">united arab emirates</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST VEREINIGTEN STAATEN</pattern>
-
 <template>North America, bordering sowohl die Nord-Atlantik und Nord-Pazifik zwischen Kanada und Mexiko. <think> <set name="es"> <set name="topic">Vereinigten Staaten</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST VEREINIGTES KÖNIGREICH</pattern>
-
 <template>, Westeuropa, Inseln, einschließlich der nördlichen einem Sechstel der Insel von Irland zwischen dem Atlantischen Ozean und der Nordsee, nordwestlich von Frankreich. <think> <set name="es"> <set name="topic">Vereinigtes Königreich</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST die TSCHECHOSLOWAKEI</pattern>
-
 <Vorlage>In der Vergangenheit. Das Land ist nicht mehr vorhanden.</template>
-
 </category>
-
 <category><pattern>WO IST EL SALVADOR</pattern>
-
 <template>Middle America, bordering the North Pacific Ocean, zwischen Guatemala und Honduras. <think> <set name="es"> <set name="topic">el salvador</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST PANAMA</pattern>
-
 <template><set name="es"> <set name="topic"> PANAMA </set> </set> auf der Landenge zwischen Nord-und Südamerika.</template>
-
 </category>
-
 <category><pattern>WO IST CHRISTMAS ISLAND</pattern>
-
 <template>, Südost-Asien, Insel im indischen Ozean, südlich von Indonesien. <think> <set name="es"> <set name="topic">christmas island</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST NAURU</pattern>
-
 <template>Ozeanien), Insel im Süd-Pazifik, südlich von den Marshall-Inseln. <think> <set name="es"> <set name="topic">nauru</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST MANILA</pattern>
-
 <template><set name="es">Manila</set> ist eine Stadt in den Philippinen.</template>
-
 </category>
-
 <category><pattern>WO IST HOUSTON</pattern>
-
 <template><set name="es">, Houston</set> ist eine Stadt in Texas.</template>
-
 </category>
-
 <category><pattern>WO IST ISRAEL</pattern>
-
 <template><set name="es">Israel</set> befindet sich am mediterranen Meer, in den Nahen Osten.</template>
-
 </category>
-
 <category><pattern>WO IST PHILIPPINEN</pattern>
-
 <template>, Südost-Asien, Archipel zwischen dem Philippinischen Meer und dem Südchinesischen Meer, östlich von Vietnam. <think> <set name="es"> <set name="topic">Philippinen</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST der INDISCHE OZEAN</pattern>
-
 <template> - Gewässer zwischen Afrika, Antarktis, Asien und Australien. <think> <set name="es"> <set name="topic">indischen Ozean</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST WAKE ISLAND</pattern>
-
 <template>Ozeanien), Insel im Nord-Pazifik, etwa zwei Drittel der Strecke von Hawaii zu den nördlichen Marianen Inseln. <think> <set name="es"> <set name="topic">wake island</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST CORONA</pattern>
-
 <template><set name="es"> <set name="topic"> CORONA </set> </set> ist ein Stadtteil von Los Angeles.</template>
-
 </category>
-
 <category><pattern>WO IST WONDERLAND</pattern>
-
 <template><set name="es"> <set name="topic"> WONDERLAND </set> </set> in der Zukunft.</template>
-
 </category>
-
 <category><pattern>WO IST KOREA</pattern>
-
 <template><set name="es"> <set name="topic"> KOREA </set> </set> ist eine Halbinsel am östlichen Rand des asiatischen Kontinents.</template>
-
 </category>
-
 <category><pattern>WO IST ILLINOIS</pattern>
-
 <template><set name="es">Illinos</set> im mittleren Westen der Vereinigten Staaten.</template>
-
 </category>
-
 <category><pattern>WO IST VANUATU</pattern>
-
 <template>Ozeanien, Inselgruppe im Südpazifik, etwa drei Viertel des Weges von Hawaii nach Australien. <think> <set name="es"> <set name="topic">vanuatu</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST CHILE</pattern>
-
 <Vorlage>im Südlichen Südamerika, grenzt an den Atlantischen Ozean und South Pacific Ocean, zwischen Argentinien und Peru. <think> <set name="es"> <set name="topic">chile</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST BAHRAIN</pattern>
-
 <template>, Middle East, Archipel im Persischen Golf, östlich von Saudi-Arabien. <think> <set name="es"> <set name="topic">bahrain</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST CUPERTINO</pattern>
-
 <template><set name="es"> <set name="topic"> CUPERTINO </set> </set> im Silicon Valley.</template>
-
 </category>
-
 <category><pattern>WO IST MOLDAWIEN</pattern>
-
 <template>, Osteuropa, nordöstlich von Rumänien. <think> <set name="es"> <set name="topic">Moldawien</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST MACAU</pattern>
-
 <template> - Ost-Asien und grenzt an das Südchinesische Meer und China. <think> <set name="es"> <set name="topic">macau</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST VIRGIN ISLANDS</pattern>
-
 <template>, Karibik, Inseln zwischen dem karibischen Meer und dem Nordatlantik, östlich von Puerto Rico. <think> <set name="es"> <set name="topic">virgin islands</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST FINNLAND</pattern>
-
 <template><set name="es">Finnland</set> ist ein Land in Ost-Europa, grenzt an Schweden und Russland.</template>
-
 </category>
-
 <category><pattern>WO IST RIO</pattern>
-
 <template><set name="es"> <set name="topic"> RIO </set> </set> ist eine große Stadt in Brasilien</template>
-
 </category>
-
 <category><pattern>WO LIEGT die SLOWAKEI</pattern>
-
 <template>, Mitteleuropa, südlich von Polen. <think> <set name="es"> <set name="topic">Slowakei</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST MAZEDONIEN</pattern>
-
 <template><set name="es"> <set name="topic"> MAZEDONIEN </set> </set> ist eine kleine nation zwischen Griechenland und Serbien.</template>
-
 </category>
-
 <category><pattern>WO IST AUSTRALIEN</pattern>
-
 <template><set name="es">Australien</set> ist eine große Insel-Kontinent in der südlichen hemishphere.</template>
-
 </category>
-
 <category><pattern>WO LIEGT TOKELAU</pattern>
-
 <template>Oceania, group of islands in the South Pacific Ocean, about one-half of the way from Hawaii to New Zealand. <think> <set name="es"> <set name="topic">tokelau</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST SIMBABWE</pattern>
-
 <Vorlage>im Südlichen Afrika, im Nordosten von Botswana. <think> <set name="es"> <set name="topic">zimbabwe</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST KINGMAN REEF</pattern>
-
 <template>Ozeanien, Riff im Norden Pazifischen Ozean, etwa die Hälfte des Weges von Hawaii in Amerikanisch-Samoa. <think> <set name="es"> <set name="topic">kingman reef</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST PERTH</pattern>
-
 <template><set name="es"> <set name="topic"> PERTH </set> </set> ist eine Stadt in western Australia.</template>
-
 </category>
-
 <category><pattern>WO IST der HIMMEL</pattern>
-
 <template>Alle um uns herum.</template>
-
 </category>
-
 <category><pattern>WO IST PUERTO RICO</pattern>
-
 <template>, Karibik, Insel zwischen dem karibischen Meer und dem Nordatlantik, östlich von der Dominikanischen Republik. <think> <set name="es"> <set name="topic">puerto rico</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST MEXIKO</pattern>
-
 <template>"Mexico: so fern von Gott, so nah an den Vereinigten Staaten."</template>
-
 </category>
-
 <category><pattern>WO IST die CLIPPERTON-INSEL</pattern>
-
 <template>Middle America, atoll in the North Pacific Ocean, 1,120 km südwestlich von Mexiko. <think> <set name="es"> <set name="topic">clipperton island</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST MALEDIVEN</pattern>
-
 <Vorlage>im Südlichen Asien, Gruppe von Atollen im indischen Ozean, Süd-südwestlich von Indien. <think> <set name="es"> <set name="topic">maldives</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST EUROPA ISLAND</pattern>
-
 <Vorlage>im Südlichen Afrika, Insel in der Straße von Mosambik, ungefähr die Hälfte des Weges aus dem südlichen Madagaskar im südlichen Mosambik. <think> <set name="es"> <set name="topic">europa island</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST LISSABON</pattern>
-
 <template><set name="es">Lissabon</set> ist eine Stadt in Portugal.</template>
-
 </category>
-
 <category><pattern>WO IST SLOWENIEN</pattern>
-
 <Vorlage>im Südöstlichen Europa und grenzt an das Adriatische Meer, zwischen Kroatien und Italien. <think> <set name="es"> <set name="topic">Slowenien</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO LIEGT LICHTENSTEIN</pattern>
-
 <template><set name="es"> <set name="topic"> LICHTENSTEIN </set> </set> ist ein winziges Land in Mitteleuropa.</template>
-
 </category>
-
 <category><pattern>WO IST die MONGOLEI</pattern>
-
 <template><set name="es"> <set name="topic"> MONGOLEI </set> </set> ist in Zentralasien zwischen Sibirien und China.</template>
-
 </category>
-
 <category><pattern>WO IST WALES</pattern>
-
 <template><set name="es">Wales</set> befindet sich auf einer kleinen Insel vor der Küste Europas.</template>
-
 </category>
-
 <category><pattern>WO IST MONTANA</pattern>
-
 <template><set name="es"> <set name="topic"> MONTANA </set> </set> im Nordwesten der USA zwischen den Dakotas und Idaho.</template>
-
 </category>
-
 <category><pattern>WO IST HOFFA</pattern>
-
 <template>Wir können nie wissen.</template>
-
 </category>
-
 <category><pattern>WO IST MAURITIUS</pattern>
-
 <Vorlage>im Südlichen Afrika, Insel im indischen Ozean, östlich von Madagaskar. <think> <set name="es"> <set name="topic">mauritius</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST BERKELEY</pattern>
-
 <template><set name="es"> <set name="topic"> BERKELEY </set> </set> im nördlichen Kalifornien über die Bucht von San Francisco.</template>
-
 </category>
-
 <category><pattern>WO IST MARS</pattern>
-
 <template><set name="es"> <set name="topic"> MARS </set> </set> ist der vierte planet von der Sonne.</template>
-
 </category>
-
 <category><pattern>WO IST MAROKKO</pattern>
-
 <template><set name="es"> <set name="topic"> MAROKKO </set> </set> ist ein Land im Nordwesten Afrikas, in der Nähe zu Spanien.</template>
-
 </category>
-
 <category><pattern>WO IST BELGIEN</pattern>
-
 <template><set name="es">Belgien</set> ist ein Land im Westen von Europa, zwischen Frankreich, Deutschland und Holland.</template>
-
 </category>
-
 <category><pattern>WO IST FLORIDA</pattern>
-
 <template><set name="es"> <set name="topic"> FLORIDA </set> </set> im Südosten der Vereinigten Staaten, die sich auf einer großen Halbinsel.</template>
-
 </category>
-
 <category><pattern>WO IST GUAM</pattern>
-
 <template>Ozeanien), Insel im Nord-Pazifik, etwa drei Viertel des Weges von Hawaii auf die Philippinen. <think> <set name="es"> <set name="topic">guam</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST KOLUMBIEN</pattern>
-
 <template><set name="es"> <set name="topic"> KOLUMBIEN </set> </set> ist ein Land in Südamerika.</template>
-
 </category>
-
 <category><pattern>WO IST FÄRÖER-INSELN</pattern>
-
 <template> " Northern Europe, Inselgruppe zwischen dem Norwegischen Meer und dem Nordatlantik, etwa die Hälfte von dem Weg von Island nach Norwegen. <think> <set name="es"> <set name="topic">Färöer-Inseln</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST COTE D IVOIRE</pattern>
-
 <template>Western Africa, bordering the North Atlantic Ocean, zwischen Ghana und Liberia. <think> <set name="es"> <set name="topic">cote d ' Ivoire</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST AFGHANISTAN</pattern>
-
 <Vorlage>im Südlichen Asien, Nord-Pakistan. <think> <set name="es"> <set name="topic">afghanistan</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST HONG KONG</pattern>
-
 <template><set name="es">Hong Kong</set> ist eine Stadt in China.</template>
-
 </category>
-
 <category><pattern>WO IST MOSKAU</pattern>
-
 <template><set name="es">Moskau</set> ist eine Stadt in Russland.</template>
-
 </category>
-
 <category><pattern>WO IST KUWAIT</pattern>
-
 <template><set name="es"> <set name="topic"> KUWAIT </set> </set> ist eine kleine nation am Persischen Golf.</template>
-
 </category>
-
 <category><pattern>WO IST HOLLAND</pattern>
-
 <template><set name="es">Holland</set> ist ein Land im Westen von Europa, neben Deutschland und Belgien.</template>
-
 </category>
-
 <category><pattern>WO IST MONACO</pattern>
-
 <template>, westlichen Europa, grenzt an das Mittelmeer, an der südlichen Küste von Frankreich, in der Nähe der Grenze mit Italien. <think> <set name="es"> <set name="topic">monaco</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST TURKS-UND CAICOS-INSELN</pattern>
-
 <template>, Karibik, zwei Inselgruppen im Atlantik, südöstlich Der Bahamas. <think> <set name="es"> <set name="topic">turks-und caicos-Inseln</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST TROMELIN ISLAND</pattern>
-
 <Vorlage>im Südlichen Afrika, Insel im indischen Ozean, östlich von Madagaskar. <think> <set name="es"> <set name="topic">tromelin island</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST MINNESOTA</pattern>
-
 <template><set name="es"> <set name="topic"> MINNESOTA </set> </set> ist an der nördlichen Grenze der Vereinigten Staaten, zwischen Wisconsin und North Dakota.</template>
-
 </category>
-
 <category><pattern>WO IST * VIRGINIA</pattern>
-
 <template>, Um in Virginia irgendwo?</template>
-
 </category>
-
 <category><pattern>WO IST * KALIFORNIEN</pattern>
-
 <template>Irgendwo in Kalifornien, nehme ich an?</template>
-
 </category>
-
 <category><pattern>WO WIRD AMERICAN SAMOA</pattern>
-
 <template>Oceania, group of islands in the South Pacific Ocean, about one-half of the way from Hawaii to New Zealand. <think> <set name="es"> <set name="topic">american samoa</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST ATLANTA</pattern>
-
 <template>Die Hauptstadt von Georgien. <think> <set name="es"> <set name="topic">Atlanta</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST SEOUL</pattern>
-
 <template>Es ist die Hauptstadt von Südkorea.<think> <set name="es"> <set name="topic">Seoul</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST MANHATTAN</pattern>
-
 <template><set name="es">Manhattan</set> ist die Insel Zentrum von New York City.</template>
-
 </category>
-
 <category><pattern>WO IST GUADELOUPE</pattern>
-
 <template>, Karibik, Inseln in der östlichen Karibik, südöstlich von Puerto Rico. <think> <set name="es"> <set name="topic">guadeloupe</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST UGANDA</pattern>
-
 <template> - Ost-Afrika, west-Kenia. <think> <set name="es"> <set name="topic">uganda</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST CAYMAN ISLANDS</pattern>
-
 <template>, Karibik, Inselgruppe im karibischen Meer, fast die Hälfte von dem Weg von Kuba nach Honduras. <think> <set name="es"> <set name="topic">cayman islands</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST TOGO</pattern>
-
 <template>Western Africa, bordering the North Atlantic Ocean, zwischen Benin und Ghana. <think> <set name="es"> <set name="topic">togo</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST TROY</pattern>
-
 <template><set name="es"> <set name="topic"> TROY </set> </set> ist eine Stadt in New York.</template>
-
 </category>
-
 <category><pattern>WO IST GHANA</pattern>
-
 <template><set name="es"> <set name="topic"> GHANA </set> </set> ist eine nation in west Africa.</template>
-
 </category>
-
 <category><pattern>WO IST CENTRAL AFRICAN REPUBLIC</pattern>
-
 <template> - Zentralafrika, Nord-Zaire. <think> <set name="es"> <set name="topic">central african republic</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST SASKATOON</pattern>
-
 <template><set name="es"> <set name="topic"> SASKATCHEWAN </set> </set> ist eine Stadt in Saskatchewan.</template>
-
 </category>
-
 <category><pattern>WO IST EINSTEIN</pattern>
-
 <template><set name="er">Einstein</set> starb vor einiger Zeit.</template>
-
 </category>
-
 <category><pattern>WO IST MIT</pattern>
-
 <template><set name="es"> <set name="topic"> MIT </set> </set> ist einer Berufsschule in Cambridge, Mass.</template>
-
 </category>
-
 <category><pattern>WO IST BULGARIEN</pattern>
-
 <template><set name="es">Bulgarien</set> ist ein Land auf dem BALKAN.</template>
-
 </category>
-
 <category><pattern>WO IST CORAL SEA ISLANDS</pattern>
-
 <template>Ozeanien, Inseln im Korallenmeer, nordöstlich von Australien. <think> <set name="es"> <set name="topic">coral sea islands</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST MISSISSIPPI</pattern>
-
 <template><set name="es">Mississippi</set> ist in den südlichen Vereinigten Staaten.</template>
-
 </category>
-
 <category><pattern>WO IST INDONESIEN</pattern>
-
 <template><set name="es"> <set name="topic"> INDONESIEN </set> </set> ist ein Inselstaat in Südostasien.</template>
-
 </category>
-
 <category><pattern>WO IST WESTERN SAHARA</pattern>
-
 <template> " Northern Africa, bordering the North Atlantic Ocean, zwischen Mauretanien und Marokko. <think> <set name="es"> <set name="topic">western sahara</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST WESTERN SAMOA</pattern>
-
 <template>Oceania, group of islands in the South Pacific Ocean, about one-half of the way from Hawaii to New Zealand. <think> <set name="es"> <set name="topic">western samoa</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST JUPITER</pattern>
-
 <template><set name="es"> <set name="topic"> JUPITER </set> </set> ist der fünfte planet von der Sonne.</template>
-
 </category>
-
 <category><pattern>WO IST ÖSTERREICH</pattern>
-
 <template>Mitteleuropa, Nord-Italien. <think> <set name="es"> <set name="topic">österreich</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST CONNECTICUT</pattern>
-
 <template><set name="es"> <set name="topic"> CONNECTICUT </set> </set> ist eine Neu-England-Staat zwischen New York, Massaschusetts und Rhode Island.</template>
-
 </category>
-
 <category><pattern>WO IST ASERBAIDSCHAN</pattern>
-
 <template>, Southwestern Asia, bordering the Caspian Sea, between Iran und Russland. <think> <set name="es"> <set name="topic">Aserbaidschan</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST UNGARN</pattern>
-
 <template><set name="es">Ungarn - </set> ist ein Land in Mitteleuropa.</template>
-
 </category>
-
 <category><pattern>WO IST SAN MARINO</pattern>
-
 <template>, Südlichen Europa, eine Enklave in Mittel-Italien. <think> <set name="es"> <set name="topic">san marino</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST SAN FRANCISCO</pattern>
-
 <template>, Kalifornien.</template>
-
 </category>
-
 <category><pattern>WO IST SAN DIEGO</pattern>
-
 <template><set name="es">San Diego</set> ist eine Stadt in Kalifornien.</template>
-
 </category>
-
 <category><pattern>WO IST SAN JOSE</pattern>
-
 <template><set name="es">San José</set> ist eine Stadt in Kalifornien.</template>
-
 </category>
-
 <category><pattern>WO LIEGT TUVALU</pattern>
-
 <template>Ozeanien), Inselgruppe bestehend aus neun Korallenatollen im Südpazifik, ungefähr die Hälfte des Weges von Hawaii nach Australien. <think> <set name="es"> <set name="topic">tuvalu</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO</pattern>
-
 <template>Was bedeutet "das" finden Sie?</template>
-
 </category>
-
 <category><pattern>WO IST ANTIGUA UND BARBUDA</pattern>
-
 <template>, Karibik, Inseln zwischen dem karibischen Meer und dem Nordatlantischen Ozean, östlich-südöstlich von Puerto Rico. <think> <set name="es"> <set name="topic">antigua and barbuda</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST DENVER</pattern>
-
 <template><set name="es">Denver</set> ist eine Stadt in Colorado.</template>
-
 </category>
-
 <category><pattern>WO IST YAKIMA</pattern>
-
 <template><set name="es"> <set name="topic"> YAKIMA </set> </set> ist eine Stadt und einen Fluss in Washington.</template>
-
 </category>
-
 <category><pattern>WO IST SRI LANKA</pattern>
-
 <Vorlage>im Südlichen Asien, Insel im indischen Ozean, südlich von Indien. <think> <set name="es"> <set name="topic">sri lanka</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST SRI</pattern>
-
 <template><set name="es"> <set name="topic"> SRI </set> </set> ist ein Forschungs-outfit im Silicon Valley.</template>
-
 </category>
-
 <category><pattern>WO IST IOWA</pattern>
-
 <template><set name="es"> <set name="topic"> IOWA </set> </set> im mittleren Westen der USA, zwischen Mississippi und Missouri Flüsse.</template>
-
 </category>
-
 <category><pattern>WO IST ASIEN</pattern>
-
 <template><set name="es">Asien</set> ist der größte Kontinent.</template>
-
 </category>
-
 <category><pattern>WO IST BRÜSSEL</pattern>
-
 <template><set name="es">Brüssel</set> ist eine Stadt in Belgien.</template>
-
 </category>
-
 <category><pattern>WO IST PARIS</pattern>
-
 <template><set name="es">Paris</set> ist eine Stadt in Frankreich.</template>
-
 </category>
-
 <category><pattern>WO IST INDIEN</pattern>
-
 <template><set name="in">India</set> ist ein großes Land in Süd-Asien.</template>
-
 </category>
-
 <category><pattern>WO IST AMSTERDAM</pattern>
-
 <template><set name="es">Amsterdam</set> ist eine Stadt in den Niederlanden.</template>
-
 </category>
-
 <category><pattern>WO IST ALBUQUERQUE</pattern>
-
 <template><set name="es"> <set name="topic"> ALBUQUERQUE </set> </set> ist eine Stadt in New Mexico.</template>
-
 </category>
-
 <category><pattern>WO IST JARVIS INSEL</pattern>
-
 <template>Ozeanien), Insel im Süd-Pazifik, nur etwa die Hälfte der Strecke von Hawaii zu den Cook-Inseln. <think> <set name="es"> <set name="topic">jarvis island</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST STONEWALL</pattern>
-
 <template><set name="es"> <set name="topic"> STONEWALL </set> </set> ist eine Stadt in Mississippi.</template>
-
 </category>
-
 <category><pattern>WO IST TUSCALOOSA</pattern>
-
 <template><set name="es"> <set name="topic"> TUSCALOOSA </set> </set> in Alabama, Letzte, was ich hörte.</template>
-
 </category>
-
 <category><pattern>WO IST ECUADOR</pattern>
-
 <template> - westlichen Südamerika und grenzt an den Pazifischen Ozean am Äquator, zwischen Kolumbien und Peru. <think> <set name="es"> <set name="topic">ecuador</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST SURINAME</pattern>
-
 <template>Nord-Südamerika, grenzt an den Atlantischen Ozean, zwischen Französisch-Guayana und Guyana. <think> <set name="es"> <set name="topic">suriname</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST PENNSYLVANIA</pattern>
-
 <template><set name="es">Pennsylvania</set> befindet sich im Nordosten der Vereinigten Staaten.</template>
-
 </category>
-
 <category><pattern>WO IST NAIROBI</pattern>
-
 <template><set name="es"> <set name="topic"> NAIROBI </set> </set> ist eine Stadt in Kenia.</template>
-
 </category>
-
 <category><pattern>WO IST LETTLAND</pattern>
-
 <template>, Osteuropa, grenzt an die Ostsee, zwischen Estland und Litauen. <think> <set name="es"> <set name="topic">Lettland</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST KAP VERDE</pattern>
-
 <template>Western Africa, group of Islands in the North Atlantic Ocean, west of Senegal. <think> <set name="es"> <set name="topic">cape verde</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST BETHLEHEM</pattern>
-
 <template>Bethlehem, Pennsylvania liegt im Nordosten des Staates, etwa 90 Kilometer von Philadelphia.</template>
-
 </category>
-
 <category><pattern>WO IST das KRAFTWERK</pattern>
-
 <template>Sie sind aus Düsseldorf, Deutschland.</template>
-
 </category>
-
 <category><pattern>WO IST VENEZUELA</pattern>
-
 <template>Nord-Südamerika, grenzt an das karibische Meer und dem Nordatlantischen Ozean, zwischen Kolumbien und Guyana. <think> <set name="es"> <set name="topic">venezuela</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST ATLANTIK</pattern>
-
 <template> - Gewässer zwischen Afrika, Europa, in der Antarktis, und der westlichen Hemisphäre. <think> <set name="es"> <set name="topic">Atlantischen Ozean</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST SIERRA LEONE</pattern>
-
 <template>West-Afrika, grenzt an den Nordatlantik, zwischen Guinea und Liberia. <think> <set name="es"> <set name="topic">sierra leone</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST die UKRAINE</pattern>
-
 <template>Osteuropa und grenzt an das Schwarze Meer, zwischen Polen und Russland. <think> <set name="es"> <set name="topic">ukraine</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST VIETNAM</pattern>
-
 <template><set name="es"> <set name="topic"> VIETNAM </set> </set> ist in Südost-Asien.</template>
-
 </category>
-
 <category><pattern>WO IST BRITISH VIRGIN ISLANDS</pattern>
-
 <template>, Karibik, zwischen dem karibischen Meer und dem Nordatlantik, östlich von Puerto Rico. <think> <set name="es"> <set name="topic">british virgin islands</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST BRITISH INDIAN OCEAN TERRITORY</pattern>
-
 <Vorlage>im Südlichen Asien, Inselgruppe im indischen Ocean, etwa die Hälfte den Weg von Afrika nach Indonesien. <think> <set name="es"> <set name="topic">british indian ocean territory</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST die SCHWEIZ</pattern>
-
 <template><set name="es">Schweiz</set> ist ein Land, in centrail Europa, grenzt an Italien, österreich und Frankreich.</template>
-
 </category>
-
 <category><pattern>WO IST PLUTO</pattern>
-
 <template><set name="es"> <set name="topic"> PLUTO </set> </set> ist der neunte planet von der Sonne.</template>
-
 </category>
-
 <category><pattern>WO IST STOCKHOLM</pattern>
-
 <template><set name="es"> <set name="topic"> STOCKHOLM </set> </set> ist eine große Stadt in Schweden.</template>
-
 </category>
-
 <category><pattern>WO IST ÄGYPTEN</pattern>
-
 <template><set name="es"> <set name="topic"> ÄGYPTEN </set> </set> ist ein Land in Nordost-Afrika.</template>
-
 </category>
-
 <category><pattern>WO IST HONDURAS</pattern>
-
 <template>Middle America, bordering the Caribbean Sea, zwischen Guatemala und Nicaragua und grenzt an den Nordpazifik, zwischen El Salvador und Nicaragua. <think> <set name="es"> <set name="topic">honduras</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST PORTSMOUTH</pattern>
-
 <template>, Portsmouth, New Hampshire and Portsmouth, England.</template>
-
 </category>
-
 <category><pattern>WO IST GUYANA</pattern>
-
 <template>Northern South America, bordering the North Atlantic Ocean, zwischen Suriname und Venezuela. <think> <set name="es"> <set name="topic">guyana</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST SOUTH KOREA</pattern>
-
 <template>, östlichen Asien, südlichen Hälfte der koreanischen Halbinsel grenzt an das japanische Meer und das Gelbe Meer, im Süden von Nord-Korea. <think> <set name="es"> <set name="topic">korea south</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST SÜDAFRIKA</pattern>
-
 <Vorlage>im Südlichen Afrika, an der südlichen Spitze des Kontinents Afrikas. <think> <set name="es"> <set name="topic">south africa</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST HAMBURG</pattern>
-
 <template><set name="es"> <set name="topic"> HAMBURG </set> </set> ist eine große Stadt in Westdeutschland.</template>
-
 </category>
-
 <category><pattern>WO IST BELIZE</pattern>
-
 <template>Middle America, bordering the Caribbean Sea, zwischen Guatemala und Mexiko. <think> <set name="es"> <set name="topic">belize</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST KASCHMIR</pattern>
-
 <template><set name="es"> <set name="topic"> KASCHMIR </set> </set> ist ein umstrittenes Gebiet zwischen Indien und Pakistan.</template>
-
 </category>
-
 <category><pattern>WO IST USBEKISTAN</pattern>
-
 <template>, zentral-Asien, Nord-Afghanistan. <think> <set name="es"> <set name="topic">Usbekistan</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST TOLEDO</pattern>
-
 <template><set name="es"> <set name="topic"> TOLEDO </set> </set> ist eine Stadt in Ohio.</template>
-
 </category>
-
 <category><pattern>WO IST PARACEL ISLANDS</pattern>
-
 <Vorlage>im Südöstlichen Asien, die Gruppe von kleinen Inseln und Riffe im Südchinesischen Meer, etwa ein Drittel des Weges von der Mittel-Vietnam zu den nördlichen Philippinen. <think> <set name="es"> <set name="topic">paracel islands</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST JOHNSTON ATOLL</pattern>
-
 <template>Ozeanien, atoll im Nord-Pazifik, etwa ein Drittel des Weges von Hawaii auf den Marshall-Inseln. <think> <set name="es"> <set name="topic">johnston atoll</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST MIDWAY ISLANDS</pattern>
-
 <template>Ozeanien, atoll im Nord-Pazifik, etwa ein Drittel der Strecke von Honolulu nach Tokio. <think> <set name="es"> <set name="topic">midway islands</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST ALBANIEN</pattern>
-
 <template><set name="es"> <set name="topic"> ALBANIEN </set> </set> auf dem adriatischen Meeres, grenzt an Griechenland und das ehemalige Jugoslawien.</template>
-
 </category>
-
 <category><pattern>WO IST EQUATORIAL GUINEA</pattern>
-
 <template>Western Africa, bordering the North Atlantic Ocean, zwischen Kamerun und Gabun. <think> <set name="es"> <set name="topic">equatorial guinea</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST MAINE</pattern>
-
 <template><set name="es">Maine</set> ist in der nordöstlichen Ecke der Vereinigten Staaten und grenzt an Kanada.</template>
-
 </category>
-
 <category><pattern>WO IST DSCHIBUTI</pattern>
-
 <template> - Ost-Afrika, grenzt an den Golf von Aden und das Rote Meer, zwischen Eritrea und Somalia. <think> <set name="es"> <set name="topic">djibouti</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST TADSCHIKISTAN</pattern>
-
 <template>, Zentralasien, westlich von China. <think> <set name="es"> <set name="topic">Tadschikistan</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST ARGENTINIEN</pattern>
-
 <template><set name="es">Argentina</set> ist ein Land in Südamerika.</template>
-
 </category>
-
 <category><pattern>WO IST KOMOREN</pattern>
-
 <Vorlage>im Südlichen Afrika, eine Gruppe von Inseln in der Straße von Mosambik, ungefähr zwei Drittel des Weges zwischen dem nördlichen Madagaskar und Nord-Mosambik. <think> <set name="es"> <set name="topic">Komoren</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST JERSEY</pattern>
-
 <template>Western Europa, Insel im ärmelkanal, im Nordwesten von Frankreich. <think> <set name="es"> <set name="topic">jersey</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST CARTHAGE</pattern>
-
 <template><set name="es"> <set name="topic"> KARTHAGO </set> </set> ist der Antike name für Tunesien.</template>
-
 </category>
-
 <category><pattern>WO IST COOK ISLANDS</pattern>
-
 <template>Oceania, group of islands in the South Pacific Ocean, about one-half of the way from Hawaii to New Zealand. <think> <set name="es"> <set name="topic">cook islands</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST ARMENIEN</pattern>
-
 <template>Südwestlichen Asien, im Osten der Türkei. <think> <set name="es"> <set name="topic">Armenien</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST SEYCHELLEN</pattern>
-
 <template> - Ost-Afrika, eine Gruppe von Inseln im indischen Ozean, nordöstlich von Madagaskar. <think> <set name="es"> <set name="topic">seychelles</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST MAURETANIEN</pattern>
-
 <template> " Northern Africa, bordering the North Atlantic Ocean, zwischen Senegal und der westlichen Sahara. <think> <set name="es"> <set name="topic">Mauretanien</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST OMAHA</pattern>
-
 <template><set name="es"> <set name="topic"> OMAHA </set> </set> ist eine Stadt in Nebraska.</template>
-
 </category>
-
 <category><pattern>WO IST ZYPERN</pattern>
-
 <template>, Mittlerer Osten, Insel im Mittelmeer, südlich der Türkei. <think> <set name="es"> <set name="topic">Zypern</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST die COCOS-INSELN</pattern>
-
 <template>, Südostasien, Inselgruppen im indischen Ozean, südlich von Indonesien, über die Hälfte der Strecke von Australien bis Sri Lanka. <think> <set name="es"> <set name="topic">cocos {keeling} islands</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST POLEN</pattern>
-
 <template>Polen ist ein großes Land in Mitteleuropa.</template>
-
 </category>
-
 <category><pattern>WO IST SCHWEDEN</pattern>
-
 <template><set name="es">Schweden</set> ist ein Land in Nordeuropa, grenzt an Finnland und Norwegen.</template>
-
 </category>
-
 <category><pattern>WO IST PITCAIRN ISLANDS</pattern>
-
 <template>Ozeanien, Inseln im Süd-Pazifik, etwa die Hälfte den Weg von Peru nach Neuseeland. <think> <set name="es"> <set name="topic">pitcairn islands</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST DÄNEMARK</pattern>
-
 <template><set name="es">Dänemark</set> ist ein Land im Westen von Europa, zwischen Deutschland und Norwegen.</template>
-
 </category>
-
 <category><pattern>WO IST SAINT HELENA</pattern>
-
 <template>Southern Africa, island in the South Atlantic Ocean, westlich von Angola, etwa zwei Drittel des Weges von Südamerika bis Afrika. <think> <set name="es"> <set name="topic">saint helena</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST SAINT LUCIA</pattern>
-
 <template>, Karibik, Insel im karibischen Meer, nördlich von Trinidad und Tobago. <think> <set name="es"> <set name="topic">saint lucia</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST SAINT KITTS AND NEVIS</pattern>
-
 <template>, Karibik, Inseln im karibischen Meer, etwa ein Drittel des Weges von Puerto Rico nach Trinidad und Tobago. <think> <set name="es"> <set name="topic">saint kitts and nevis</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST SAINT-PIERRE UND MIQUELON</pattern>
-
 <template>Northern North America, islands in the North Atlantic Ocean, südlich von Neufundland {Kanada}. <think> <set name="es"> <set name="topic">saint-pierre und miquelon</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST SAINT VINCENT AND THE GRENADINES</pattern>
-
 <template>, Karibik, Inseln im karibischen Meer, nördlich von Trinidad und Tobago. <think> <set name="es"> <set name="topic">saint vincent and the grenadines</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST PALAU</pattern>
-
 <template>Oceania, group of islands in the North Pacific Ocean, southeast of the Philippines. <think> <set name="es"> <set name="topic">palau</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST LIBANON</pattern>
-
 <template>, Mittlerer Osten, grenzt an das Mittelmeer, zwischen Israel und Syrien. <think> <set name="es"> <set name="topic">Libanon</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST ITALIEN</pattern>
-
 <template><set name="it">Italien</set> im südlichen Teil von Europa.</template>
-
 </category>
-
 <category><pattern>WO IST ER AUS</pattern>
-
 <template><get name="he"/>? Ich glaube, er ist von der Erde.</template>
-
 </category>
-
 <category><pattern>WO ER</pattern>
-
 <template>ich denke, er ist in Kalifornien jetzt.</template>
-
 </category>
-
 <category><pattern>WO IST MAYOTTE</pattern>
-
 <Vorlage>im Südlichen Afrika, Insel in der Straße von Mosambik, ungefähr die Hälfte des Weges aus dem Norden von Madagaskar bis Nord-Mosambik. <think> <set name="es"> <set name="topic">mayotte</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST ANGOLA</pattern>
-
 <Vorlage>im Südlichen Afrika, bordering the South Atlantic Ocean, zwischen Namibia und Zaire. <think> <set name="es"> <set name="topic">angola</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST ANKARA</pattern>
-
 <template><set name="es"> <set name="topic"> ANKARA </set> </set> ist eine Stadt in der Türkei.</template>
-
 </category>
-
 <category><pattern>WO IST SAUDI-ARABIEN</pattern>
-
 <template>, Mittlerer Osten, grenzt an den Persischen Golf und das Rote Meer, im Norden des Jemen. <think> <set name="es"> <set name="topic">saudi-Arabien</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST DOMINICA</pattern>
-
 <template>, Karibik, Insel zwischen dem karibischen Meer und dem Nordatlantischen Ozean, ungefähr die Hälfte der Strecke von Puerto Rico nach Trinidad und Tobago. <think> <set name="es"> <set name="topic">dominica</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST SUEZ</pattern>
-
 <template><set name="es"> <set name="topic"> SUEZ </set> </set> ist ein Kanal zwischen dem mediterranen und dem Roten Meer.</template>
-
 </category>
-
 <category><pattern>WO IST der MOND</pattern>
-
 <template><set name="es"> <set name="topic"> MOND </set> </set> ist ein Satellit der Erde.</template>
-
 </category>
-
 <category><pattern>WO IST GRENADA</pattern>
-
 <template>, Karibik, Insel im karibischen Meer, nördlich von Trinidad und Tobago. <think> <set name="es"> <set name="topic">grenada</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST NORTH KOREA</pattern>
-
 <template>, östlichen Asien, nördlichen Hälfte der koreanischen Halbinsel, grenzt an die Korea-Bucht und das Meer von Japan, zwischen China und Südkorea. <think> <set name="es"> <set name="topic">korea north</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST NORTH AMERICA</pattern>
-
 <template>Nordamerika nimmt den nördlichen die meisten norther Hemisphäre der Erde, von der Bering-Straße nach Labrador.</template>
-
 </category>
-
 <category><pattern>WO IST ARUBA</pattern>
-
 <template><set name="es"> <set name="topic"> ARUBA </set> </set> ist eine Insel in der niederländischen Antillen, in der Nähe von Südamerika.</template>
-
 </category>
-
 <category><pattern>WO IST DER ROBOTER</pattern>
-
 <template>Der Roboter ist hier in Ihrem computer.</template>
-
 </category>
-
 <category><pattern>WO IST DIE SONNE</pattern>
-
 <template>Es befindet sich im Zentrum des Sonnensystems.<think> <set name="es"> <set name="topic">SONNE</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST DIE PHILIPPINEN</pattern>
-
 <template>, Einem Inselstaat im Südpazifik.</template>
-
 </category>
-
 <category><pattern>WO IST DER GAMBIA</pattern>
-
 <template>Western Africa, bordering the North Atlantic Ocean and Senegal. <think> <set name="es"> <set name="topic">gambia</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST DAS ZENTRUM</pattern>
-
 <template>, Es hängt von der coordinate frame.</template>
-
 </category>
-
 <category><pattern>WO IST DIE BAHAMAS</pattern>
-
 <template>, Caribbean, chain of islands in the North Atlantic Ocean, southeast of Florida. <think> <set name="es"> <set name="topic">bahamas</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST DIE ISLE OF MAN</pattern>
-
 <template>Western Europa, Insel in der irischen See zwischen Großbritannien und Irland. <think> <set name="es"> <set name="topic">man, isle of</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST DER LOUVRE</pattern>
-
 <Vorlage>in Paris.</template>
-
 </category>
-
 <category><pattern>WO IST DAS BADEZIMMER</pattern>
-
 <template>Folgen Sie den Sanitär -.</template>
-
 </category>
-
 <category><pattern>WO IST DER FLUGHAFEN</pattern>
-
 <template> - Es ist, wo die Flugzeuge landen.<think> <set name="es"> <set name="topic">Flughafen</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST DER MOND</pattern>
-
 <template><set name="es"> <set name="topic">Mond</set> </set> Umlaufbahnen um die Erde.</template>
-
 </category>
-
 <category><pattern>WO IST DAS HERZ</pattern>
-
 <template>Das Herz in den Mittelpunkt der Dinge.</template>
-
 </category>
-
 <category><pattern>WO IST WASHINGTON</pattern>
-
 <template><set name="es"> <set name="topic"> WASHINGTON </set> </set> ist ein Staat in der nordwestlichen Ecke des US-amerikanischen</template>
-
 </category>
-
 <category><pattern>WO IST VIRGINIA</pattern>
-
 <template><set name="es">Virginia</set> ist in den östlichen Vereinigten Staaten.</template>
-
 </category>
-
 <category><pattern>WO IST der RAUM</pattern>
-
 <template><set name="es"> <set name="topic"> RAUM </set> </set> ist überall um uns herum.</template>
-
 </category>
-
 <category><pattern>WO IST KIRIBATI</pattern>
-
 <template>Ozeanien), Inselgruppe, die im Pazifischen Ozean zwischen dem äquator und dem Internationalen Datum Linie, die ungefähr die Hälfte des Weges von Hawaii nach Australien. <think> <set name="es"> <set name="topic">kiribati</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST BRUNEI</pattern>
-
 <template>, Southeastern Asia, bordering the South China Sea and Malaysia. <think> <set name="es"> <set name="topic">brunei</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST HADES</pattern>
-
 <template><set name="es"> <set name="topic"> HADES </set> </set> ist die Hölle.</template>
-
 </category>
-
 <category><pattern>WO IST SAMBIA</pattern>
-
 <Vorlage>im Südlichen Afrika, östlich von Angola. <think> <set name="es"> <set name="topic">Sambia</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST OHIO</pattern>
-
 <template><set name="es"> <set name="topic"> OHIO </set> </set> im mittleren Westen der USA zwischen Pennsylvania und Indiana.</template>
-
 </category>
-
 <category><pattern>WO IST OKLAHOMA</pattern>
-
 <template><set name="es">Oklahoma</set> im mittleren Westen der Vereinigten Staaten.W</template>
-
 </category>
-
 <category><pattern>WO IST KAMERUN</pattern>
-
 <template>Western Africa, bordering the North Atlantic Ocean, zwischen äquatorialguinea und Nigeria. <think> <set name="es"> <set name="topic">Kamerun</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST SACRAMENTO</pattern>
-
 <template><set name="es">Sacramento</set> ist eine Stadt in Kalifornien.</template>
-
 </category>
-
 <category><pattern>WO IST BOSNIEN UND HERZEGOWINA</pattern>
-
 <Vorlage>im Südöstlichen Europa und grenzt an das Adriatische Meer und Kroatien. <think> <set name="es"> <set name="topic">Bosnien und Herzegowina</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST SPITZBERGEN</pattern>
-
 <template>Nord-Europa, Inseln zwischen der Arctic Ocean, Barents Sea, Greenland Sea, and Norwegian Sea, north of Norway. <think> <set name="es"> <set name="topic">svalbard</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST KALIFORNIEN</pattern>
-
 <template><set name="es">Kalifornien</set> auf der Pacific coast of North America.</template>
-
 </category>
-
 <category><pattern>WO IST JULIA</pattern>
-
 <template>ich glaube nicht, dass Sie gerade online ist.</template>
-
 </category>
-
 <category><pattern>WO IST PERU</pattern>
-
 <template><set name="es">Peru</set> ist ein Land in Südamerika.</template>
-
 </category>
-
 <category><pattern>WO IST LOS ANGELES</pattern>
-
 <template><set name="es">Los Angeles</set> ist eine Stadt in Kalifornien.</template>
-
 </category>
-
 <category><pattern>WO IST NEWARK</pattern>
-
 <template><set name="es">Newark</set> befindet sich im Nordosten der Vereinigten Staaten.</template>
-
 </category>
-
 <category><pattern>WO IST CORNWALL</pattern>
-
 <template><set name="es"> <set name="topic"> CORNWALL </set> </set> ist eine Stadt in England.</template>
-
 </category>
-
 <category><pattern>WO IST KAMBODSCHA</pattern>
-
 <template>, Südost-Asien, grenzt an den Golf von Thailand, zwischen Thailand und Vietnam. <think> <set name="es"> <set name="topic">Kambodscha</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST URUGUAY</pattern>
-
 <template>Southern South America, bordering the South Atlantic Ocean, zwischen Argentinien und Brasilien. <think> <set name="es"> <set name="topic">uruguay</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST BOLIVIEN</pattern>
-
 <template><set name="es"> <set name="topic"> BOLIVIEN </set> </set> ist ein Binnenstaat in Südamerika,</template>
-
 </category>
-
 <category><pattern>WO IST SOMALIA</pattern>
-
 <template> - Ost-Afrika, grenzt an den Golf von Aden und den indischen Ozean, östlich von äthiopien. <think> <set name="es"> <set name="topic">somalia</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST BARBADOS</pattern>
-
 <template>, Karibik, Insel zwischen dem karibischen Meer und dem Nordatlantischen Ozean, nordöstlich von Venezuela. <think> <set name="es"> <set name="topic">barbados</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST MARTINIQUE</pattern>
-
 <template><set name="es"> <set name="topic"> MARTINIQUE </set> </set> in der Karibik, Teil der Leeward-und Windward-Insel-Kette.</template>
-
 </category>
-
 <category><pattern>WO IST BILBAO</pattern>
-
 <template><set name="es"> <set name="topic"> BILBAO </set> </set> ist eine Stadt an der Nordküste von Spanien.</template>
-
 </category>
-
 <category><pattern>WO IST NIEDERLÄNDISCHE ANTILLEN</pattern>
-
 <template>, Karibik, zwei Inselgruppen im karibischen Meer - mit Curacao und Bonaire Norden von Venezuela und die andere befindet sich östlich der Virgin-Inseln. <think> <set name="es"> <set name="topic">netherlands antilles</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST NIEDERLANDE</pattern>
-
 <template>, westlichen Europa, grenzt an die Nordsee zwischen Belgien und Deutschland. <think> <set name="es"> <set name="topic">Niederlande - </set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST DÜSSELDORF</pattern>
-
 <template><set name="es"> <set name="topic"> DÜSSELDORF </set> </set> ist eine große Stadt in Westdeutschland.</template>
-
 </category>
-
 <category><pattern>WO IST NAMIBIA</pattern>
-
 <Vorlage>im Südlichen Afrika, bordering the South Atlantic Ocean, between Angola und Südafrika. <think> <set name="es"> <set name="topic">namibia</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST HIER</pattern>
-
 <template>Hier <bot name="location"/>.</template>
-
 </category>
-
 <category><pattern>WO IST TURKMENISTAN</pattern>
-
 <template>Central Asia, bordering the Caspian Sea, between Iran und Kasachstan. <think> <set name="es"> <set name="topic">turkmenistan</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST PITTSBURGH</pattern>
-
 <template><set name="es"> <set name="topic"> PITTSBURGH </set> </set> ist eine große Stadt im Westen von Pennsylvania.</template>
-
 </category>
-
 <category><pattern>WO IST NORWEGEN</pattern>
-
 <template><set name="es">Norwegen</set> ist ein Land in Nordeuropa und grenzt an Schweden.</template>
-
 </category>
-
 <category><pattern>WO IST JORDAN</pattern>
-
 <template>, Mittlerer Osten, Nordwesten von Saudi-Arabien. <think> <set name="es"> <set name="topic">jordan</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST LITAUEN</pattern>
-
 <template>, Osteuropa, grenzt an die Ostsee, zwischen Lettland und Russland. <think> <set name="es"> <set name="topic">Litauen</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST FIDSCHI</pattern>
-
 <template>Ozeanien, Inselgruppe im Südpazifik, etwa zwei Drittel des Weges von Hawaii nach Neuseeland. <think> <set name="es"> <set name="topic">fiji</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST NICARAGUA</pattern>
-
 <template>, Mittelamerika, grenzt sowohl an die Karibik und des nordpazifischen Ozeans, zwischen Costa Rica und Honduras. <think> <set name="es"> <set name="topic">nicaragua</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST IDAHO</pattern>
-
 <template><set name="es">Idaho</set> ist in den westlichen Vereinigten Staaten.</template>
-
 </category>
-
 <category><pattern>WO IST die TÜRKEI</pattern>
-
 <template><set name="es"> <set name="topic"> TÜRKEI </set> </set> im südwestlichen Asien, zwischen Europa und dem nahen Osten und bewachen das Schwarze Meer von Russland.</template>
-
 </category>
-
 <category><pattern>WO IST BUDAPEST</pattern>
-
 <template><set name="es"> <set name="topic"> BUDAPEST </set> </set> ist eine Stadt in Ungarn, an der Donau.</template>
-
 </category>
-
 <category><pattern>WO IST PHILADELPHIA</pattern>
-
 <template><set name="es"> <set name="topic"> PHILADELPHIA </set> </set> ist eine große Stadt im Südosten von Pennsylvania, zwischen New York und Washington, D. C.</template>
-
 </category>
-
 <category><pattern>WO IST NIGER</pattern>
-
 <template> - westlichen Afrika, Südost-Algerien. <think> <set name="es"> <set name="topic">niger</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST BRASILIEN</pattern>
-
 <template>Brasilien liegt in Südamerika.</template>
-
 </category>
-
 <category><pattern>WO IST NIUE</pattern>
-
 <template>Ozeanien, island in the South Pacific Ocean, east of Tonga. <think> <set name="es"> <set name="topic">niue</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST JAN MAYEN</pattern>
-
 <template> " Northern Europe, Insel zwischen der Grönlandsee und nordmeer, im Nordosten von Island. <think> <set name="es"> <set name="topic">jan mayen</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST die UTOPIE</pattern>
-
 <template><set name="es"> <set name="topic"> UTOPIE </set> </set> ist überall um uns herum, wenn wir es machen.</template>
-
 </category>
-
 <category><pattern>WO IST die TSCHECHISCHE REPUBLIK</pattern>
-
 <template>, Mitteleuropa, Südost-Deutschland. <think> <set name="es"> <set name="topic">Tschechischen Republik</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST SWASILAND</pattern>
-
 <Vorlage>im Südlichen Afrika, zwischen Mosambik und Südafrika. <think> <set name="es"> <set name="topic">swaziland</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST SENEGAL</pattern>
-
 <template>West-Afrika, grenzt an den Nordatlantik, zwischen Guinea-Bissau und Mauretanien. <think> <set name="es"> <set name="topic">senegal</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST BERGEN</pattern>
-
 <template><set name="es"> <set name="topic"> BERGEN </set> </set> ist eine Stadt in Deutschland und auch in Norwegen.</template>
-
 </category>
-
 <category><pattern>WO IST PHOENIX</pattern>
-
 <template><set name="es"> <set name="topic"> PHOENIX </set> </set> ist eine große Stadt in Arizona.</template>
-
 </category>
-
 <category><pattern>WO IST KROATIEN</pattern>
-
 <template><set name="es"> <set name="topic"> KROATIEN </set> </set> ist Teil des ehemaligen Jugoslawien, die auch an der Grenze zu Ungarn.</template>
-
 </category>
-
 <category><pattern>WO IST NIGERIA</pattern>
-
 <template>Western Africa, bordering the Gulf of Guinea, between Benin und Kamerun. <think> <set name="es"> <set name="topic">nigeria</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST HOWLAND ISLAND</pattern>
-
 <template>Ozeanien), Insel im Nord-Pazifik, nur etwa die Hälfte des Weges von Hawaii nach Australien. <think> <set name="es"> <set name="topic">howland island</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST ALBERT EINSTEIN</pattern>
-
 <template><set name="er">Einstein</set> starb.</template>
-
 </category>
-
 <category><pattern>WO IST SOLOMON ISLANDS</pattern>
-
 <template>Ozeanien, Inselgruppe im Südpazifik, östlich von Papua-Neuguinea. <think> <set name="es"> <set name="topic">solomon islands</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST CHAD</pattern>
-
 <template> - Zentralafrika, südlich von Libyen. <think> <set name="es"> <set name="topic">chad</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST VOYAGER</pattern>
-
 <template><set name="es"> <set name="topic"> VOYAGER </set> </set> ist verloren, die im Delta-Quadranten.</template>
-
 </category>
-
 <category><pattern>WO IST BURKINA FASO</pattern>
-
 <template>Western Africa, north of Ghana. <think> <set name="es"> <set name="topic">burkina faso</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST WEST BANK</pattern>
-
 <template>Nahen Osten westlich von Jordanien. <think> <set name="es"> <set name="topic">west bank</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST CHARLOTTE</pattern>
-
 <template><set name="es"> <set name="topic"> CHARLOTTE </set> </set> ist in North Carolina.</template>
-
 </category>
-
 <category><pattern>WO IST MONTREAL</pattern>
-
 <template><set name="es">Montreal</set> ist eine Stadt in Kanada.</template>
-
 </category>
-
 <category><pattern>WO IST EDMONTON</pattern>
-
 <template><set name="es"> <set name="topic"> EDMONTON </set> </set> ist eine große Stadt in Alberta.</template>
-
 </category>
-
 <category><pattern>WO IST ANGUILLA</pattern>
-
 <template>, Karibik, Insel in der Karibik, östlich von Puerto Rico. <think> <set name="es"> <set name="topic">anguilla</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST FRANKFURT</pattern>
-
 <template><set name="es"> <set name="topic"> FRANKFURT </set> </set> ist eine große Stadt in Westdeutschland.</template>
-
 </category>
-
 <category><pattern>WO IST GLORIOSO ISLANDS</pattern>
-
 <Vorlage>im Südlichen Afrika, eine Gruppe von Inseln im indischen Ozean, nordwestlich von Madagaskar. <think> <set name="es"> <set name="topic">glorioso islands</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST TRINIDAD UND TOBAGO</pattern>
-
 <template>, Karibik, Inseln zwischen dem karibischen Meer und dem Nordatlantischen Ozean, nordöstlich von Venezuela. <think> <set name="es"> <set name="topic">trinidad und tobago</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST TRINIDAD</pattern>
-
 <template><set name="es"> <set name="topic"> TRINIDAD </set> </set> ist ein Inselstaat in der niederländischen Antillen.</template>
-
 </category>
-
 <category><pattern>WO IST GROßBRITANNIEN</pattern>
-
 <template> - Auf einer Insel vor der Küste von Europa.<think> <set name="es"> <set name="topic">Großbritannien</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST ARKANSAS</pattern>
-
 <template><set name="es"> <set name="topic"> ARKANSAS </set> </set> ist ein südlicher Staat auf dem westlichen Ufer des Missisipi river.</template>
-
 </category>
-
 <category><pattern>WO IST IRAK</pattern>
-
 <template><set name="es"> <set name="topic"> IRAK </set> </set> ist in den nahen Osten, am Persischen Golf.</template>
-
 </category>
-
 <category><pattern>WO IST die SPRATLY-INSELN</pattern>
-
 <Vorlage>im Südöstlichen Asien, die Gruppe der Riffe im Südchinesischen Meer, etwa zwei Drittel des Weges von Süd-Vietnam zu den südlichen Philippinen. <think> <set name="es"> <set name="topic">spratly islands</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST MEIN AUTO</pattern>
-
 <template>Haben Sie sich in Ihrer Garage?</template>
-
 </category>
-
 <category><pattern>WO IST ISTANBUL</pattern>
-
 <template><set name="es">Istanbul</set> ist eine Stadt in der Türkei, ehemals Konstantinopel.</template>
-
 </category>
-
 <category><pattern>WO IST TOKIO</pattern>
-
 <template><set name="es">Tokio</set> ist eine Stadt in Japan.</template>
-
 </category>
-
 <category><pattern>WO IST CANBERRA</pattern>
-
 <template><set name="es"> <set name="topic"> CANBERRA </set> </set> ist eine Stadt in Australien, zwischen Sydney und Melbourne.</template>
-
 </category>
-
 <category><pattern>WO IST CHEDDAR-KÄSE AUS</pattern>
-
 <template>, England.</template>
-
 </category>
-
 <category><pattern>WO IST NEBRASKA</pattern>
-
 <template><set name="es"> <set name="topic"> NEBRASKA </set> </set> auf dem westlichen Ufer des Missouri river zwischen South Dakota und Kansas.</template>
-
 </category>
-
 <category><pattern>WO IST JAKARTA</pattern>
-
 <template> - Jakarta, Indonesien.</template>
-
 </category>
-
 <category><pattern>WO IST LAOS</pattern>
-
 <template>, Südost-Asien, Nordost-Thailand. <think> <set name="es"> <set name="topic">laos</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST die ANTARKTIS</pattern>
-
 <template><set name="es"> <set name="topic"> ANTARCTICA </set> </set> den Kontinent am Südpol.</template>
-
 </category>
-
 <category><pattern>WO IST EUROPA</pattern>
-
 <template>Europa zwischen Asien und Amerika.</template>
-
 </category>
-
 <category><pattern>WO IST CARNEGIE MELLON</pattern>
-
 <template>Carnegie Mellon begrüßt Sie in Pittsburgh, Pennsylvania, USA.</template>
-
 </category>
-
 <category><pattern>WO IST HOLLYWOOD</pattern>
-
 <template><set name="es">Hollywood</set> ist eine kleine Teil von Los Angeles, Kalifornien.</template>
-
 </category>
-
 <category><pattern>WO IST PALÄSTINA</pattern>
-
 <template><set name="es"> <set name="topic"> PALÄSTINA </set> </set> ist der alte name für Israel, oder der neue name für den inneren Aufbau des Staates Israel.</template>
-
 </category>
-
 <category><pattern>WO IST THAILAND</pattern>
-
 <template><set name="es"> <set name="topic"> THAILAND </set> </set> ist in Südostasien, zwischen Birma und Kambodscha.</template>
-
 </category>
-
 <category><pattern>WO IST BIRMA</pattern>
-
 <template>, Südost-Asien und grenzt an das Andamanische Meer und den Golf von Bengalen, zwischen Bangladesch und Thailand. <think> <set name="es"> <set name="topic">burma</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST ALAMO</pattern>
-
 <template><set name="es"> <set name="topic"> ALAMO </set> </set> ist in San Antonio, Texas.</template>
-
 </category>
-
 <category><pattern>WO IST ASHMORE-UND CARTIER-INSELN</pattern>
-
 <template>, Südost-Asien, Inseln im indischen Ozean, nordwestlich von Australien. <think> <set name="es"> <set name="topic">ashmore-und cartier-Inseln</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST USA</pattern>
-
 <template><set name="es"> <set name="topic"> USA </set> </set> ist in Nordamerika zwischen Kanada und Mexiko.</template>
-
 </category>
-
 <category><pattern>WO IST SAO TOME UND PRINCIPE</pattern>
-
 <template>Western Africa, island in the Atlantic Ocean, beiderseits des Äquators, westlich von Gabun. <think> <set name="es"> <set name="topic">sao tome und principe</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST SCHOTTLAND</pattern>
-
 <template>Schottland teilt sich eine Insel mit England und Wales, vor der Küste von Europa.</template>
-
 </category>
-
 <category><pattern>WO IST ISLAND</pattern>
-
 <template><set name="es"> <set name="topic"> ISLAND </set> </set> ist eine Insel im Atlantischen Ozean.</template>
-
 </category>
-
 <category><pattern>WO IST BERLIN</pattern>
-
 <template><set name="es"> <set name="topic"> BERLIN </set> </set> im Osten.</template>
-
 </category>
-
 <category><pattern>WO IST NEPAL</pattern>
-
 <template><set name="es"> <set name="topic"> NEPAL </set> </set> ist eine gebirgige Nation in Südasien, die zwischen Indien und Tibet.</template>
-
 </category>
-
 <category><pattern>WO IST MIAMI</pattern>
-
 <template><set name="es"> <set name="topic"> MIAMI </set> </set> ist eine große Stadt in Florida, auf dem Süd-Atlantik-Küste.</template>
-
 </category>
-
 <category><pattern>WO IST MADRAS</pattern>
-
 <template><set name="es"> <set name="topic"> MADRAS </set> </set> ist eine Stadt in Indien.</template>
-
 </category>
-
 <category><pattern>WO IST MONTSERRAT</pattern>
-
 <template>, Karibik, Insel in der Karibik, südöstlich von Puerto Rico. <think> <set name="es"> <set name="topic">montserrat</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST MALTA</pattern>
-
 <template><set name="es"> <set name="topic"> MALTA </set> </set> ist eine Insel im südländischen Meer, südlich von Sizilien.</template>
-
 </category>
-
 <category><pattern>WO IST WIEN</pattern>
-
 <template><think> <set name="es"> <set name="topic">Wien</set> </set> </think> Es ist die Hauptstadt von österreich.</template>
-
 </category>
-
 <category><pattern>WO IST MONTEREY</pattern>
-
 <template> - Monterey, Kalifornien.</template>
-
 </category>
-
 <category><pattern>WO IST KANADA</pattern>
-
 <template>Kanada belegt den größten in Nordamerika.</template>
-
 </category>
-
 <category><pattern>WO IST MADRID</pattern>
-
 <template><set name="es">Madrid</set> ist eine Stadt in Spanien.</template>
-
 </category>
-
 <category><pattern>WO IST NIRGENDWO</pattern>
-
 <template><set name="es"> <set name="topic"> NIRGENDWO </set> </set> ist, wo keine.</template>
-
 </category>
-
 <category><pattern>WO IST PACIFIC OCEAN</pattern>
-
 <template> - Körper von Wasser zwischen der Antarktis, Asien, Australien und im westlichen Hemisphäre. <think> <set name="es"> <set name="topic">Pazifischen Ozean</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST LINCOLN</pattern>
-
 <template><set name="es">Lincoln</set> ist eine Stadt in Nebraska.</template>
-
 </category>
-
 <category><pattern>WO IST QATAR</pattern>
-
 <template>, Mittlerer Osten, Halbinsel, grenzt an den Persischen Golf und Saudi-Arabien. <think> <set name="es"> <set name="topic">qatar</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST PAPUA NEW GUINEA</pattern>
-
 <template>, Südost-Asien, Gruppe von Inseln, einschließlich der östlichen Hälfte der Insel von Neu-Guinea zwischen dem Korallenmeer und dem Süd-Pazifik, im Osten von Indonesien. <think> <set name="es"> <set name="topic">papua new guinea</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST LAS VEGAS</pattern>
-
 <template><set name="es">Las Vegas</set> in Nevada.</template>
-
 </category>
-
 <category><pattern>WO IST RUANDA</pattern>
-
 <template><set name="es">Ruanda</set> ist ein Land in Afrika.</template>
-
 </category>
-
 <category><pattern>WO IST PORTUGAL</pattern>
-
 <template><set name="es">Portugal</set> ist ein Land westlichen Europa, auf der Iberain penninsula.</template>
-
 </category>
-
 <category><pattern>WO IST ÄTHIOPIEN</pattern>
-
 <template> - Ost-Afrika, west-Somalias. <think> <set name="es"> <set name="topic">äthiopien</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST NORTHEASTERN</pattern>
-
 <template><set name="es"> <set name="topic"> NORDOSTEN </set> </set> ist eine Universität in Boston.</template>
-
 </category>
-
 <category><pattern>WO IST MARSHALL ISLANDS</pattern>
-
 <template>Ozeanien, Gruppe von Atollen und Riffen, die sich im Nord-Pazifik, ungefähr die Hälfte des Weges von Hawaii nach Papua-Neuguinea. <think> <set name="es"> <set name="topic">marshall islands</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST AREA 51</pattern>
-
 <template><think> <set name="es"> <set name="topic">Area 51</set> </set> </think> Es ist der Bereich zwischen 50 und Area 52.</template>
-
 </category>
-
 <category><pattern>WO IST LUXEMBURG</pattern>
-
 <template>, westlichen Europa, zwischen Deutschland und Frankreich. <think> <set name="es"> <set name="topic">Luxemburg</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST MALAWI</pattern>
-
 <Vorlage>im Südlichen Afrika, im Osten von Sambia. <think> <set name="es"> <set name="topic">malawi</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST KONGO</pattern>
-
 <template>Western Africa, bordering the South Atlantic Ocean, between Angola and Gabon. <think> <set name="es"> <set name="topic">congo</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST NORTHERN MARIANA ISLANDS</pattern>
-
 <template>Ozeanien, Inseln im Nord-Pazifik, etwa drei Viertel des Weges von Hawaii auf die Philippinen. <think> <set name="es"> <set name="topic">northern mariana islands</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST GUERNSEY</pattern>
-
 <template>Western Europe, islands in the English Channel, northwest of France. <think> <set name="es"> <set name="topic">guernsey</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST LA</pattern>
-
 <template><set name="es"> <set name="topic"> LA </set> </set> ist eine große Stadt in Süd-Kalifornien.</template>
-
 </category>
-
 <category><pattern>WO IST BELARUS</pattern>
-
 <template>, östlichen Europa, Osten von Polen. <think> <set name="es"> <set name="topic">belarus</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST AMERIKA</pattern>
-
 <template><set name="es">Amerika</set> könnte beziehen sich auf Nord-und Südamerika oder in die Vereinigten Staaten.</template>
-
 </category>
-
 <category><pattern>WO IST ARCTURUS</pattern>
-
 <template><set name="es"> <set name="topic"> ARCTURUS </set> </set> ist ein Stern weit Weg von hier.</template>
-
 </category>
-
 <category><pattern>WO IST SALEM</pattern>
-
 <template><set name="es"> <set name="topic"> SALEM </set> </set> ist eine Stadt in Massachusetts.</template>
-
 </category>
-
 <category><pattern>WO IST BANGLADESCH</pattern>
-
 <template><set name="es"> <set name="topic"> BANGLADESH </set> </set> ist ein Teil des indischen Subkontinents, auf der östlichen Seite.</template>
-
 </category>
-
 <category><pattern>WO IST HAWAII</pattern>
-
 <template><set name="es"> <set name="topic"> HAWAII </set> </set> ist eine Insel, die Kette in der Mitte des Pazifischen Ozeans.</template>
-
 </category>
-
 <category><pattern>WO IST SERBIEN UND MONTENEGRO</pattern>
-
 <template>Südosteuropa, grenzt an die Adria, zwischen Albanien und Bosnien und Herzegowina. <think> <set name="es"> <set name="topic">Serbien und montenegro</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST SERBIEN</pattern>
-
 <template><set name="es"> <set name="topic"> SERBIEN </set> </set> wird der restliche Gebiet des ehemaligen Jugoslawien.</template>
-
 </category>
-
 <category><pattern>WO IST GRÖNLAND</pattern>
-
 <template>Nord-Amerika, Insel zwischen dem arktischen Ozean und dem Nordatlantischen Ozean, nordöstlich von Kanada. <think> <set name="es"> <set name="topic">Grönland</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST REUNION</pattern>
-
 <Vorlage>im Südlichen Afrika, Insel im indischen Ozean, östlich von Madagaskar. <think> <set name="es"> <set name="topic">reunion</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST PREUßEN</pattern>
-
 <template>, Einem ehemaligen Teil Deutschlands nun vor allem enthalten in Polen.</template>
-
 </category>
-
 <category><pattern>WO IST PAKISTAN</pattern>
-
 <template><set name="es"> <set name="topic"> PAKISTAN </set> </set> ist Teil des indischen Subkontinents, an der Grenze zu Indien und Afghanistan.</template>
-
 </category>
-
 <category><pattern>WO IST die WIRKLICHKEIT</pattern>
-
 <template><set name="es"> <set name="topic"> REALITY </set> </set> ist überall um uns herum, angeblich.</template>
-
 </category>
-
 <category><pattern>WO IST MALAYSIA</pattern>
-
 <template><set name="es"> <set name="topic"> MALAYSIA </set> </set> ist eine Insel im Südosten von Asien.</template>
-
 </category>
-
 <category><pattern>WO IST MICHIGAN</pattern>
-
 <template><set name="es"> <set name="topic"> MICHIGAN </set> </set> ist eine midwestern Staat an der Great Lakes.</template>
-
 </category>
-
 <category><pattern>WO IST der IRAN</pattern>
-
 <template><set name="es"> <set name="topic"> IRAN </set> </set> ist in den nahen Osten, am Persischen Golf.</template>
-
 </category>
-
 <category><pattern>WO IST KUBA</pattern>
-
 <template><set name="es"> <set name="topic"> KUBA </set> </set> ist eine Insel vor der Küste von Florida.</template>
-
 </category>
-
 <category><pattern>WO IST ORLANDO</pattern>
-
 <template><set name="es">Orlando</set> ist eine Stadt in zentral-Florida.</template>
-
 </category>
-
 <category><pattern>WO IST URANUS</pattern>
-
 <template><set name="es"> <set name="topic"> URANUS </set> </set> ist der siebte planet von der Sonne, die zwischen den Bahnen von Saturn und Neptun.</template>
-
 </category>
-
 <category><pattern>WO IST BOUVET ISLAND</pattern>
-
 <template>Southern Africa, island in the South Atlantic Ocean, south-southwest of the Cape of Good Hope {South Africa}. <think> <set name="es"> <set name="topic">bouvet island</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST KENTUCKY</pattern>
-
 <template><set name="es"> <set name="topic"> KENTUCKY </set> </set> auf dem südlichen Ufer des Ohio river.</template>
-
 </category>
-
 <category><pattern>WO IST BERMUDA</pattern>
-
 <template>North America, group of islands in the North Atlantic Ocean, east of North Carolina, {US}. <think> <set name="es"> <set name="topic">bermuda</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST GUINEA-BISSAU</pattern>
-
 <template>West-Afrika, grenzt an den Nordatlantik, zwischen Guinea und Senegal. <think> <set name="es"> <set name="topic">guinea-bissau</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST GUINEA</pattern>
-
 <template>West-Afrika, grenzt an den Nordatlantik, zwischen Guinea-Bissau und Sierra Leone. <think> <set name="es"> <set name="topic">guinea</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST PARAGUAY</pattern>
-
 <template>zentrale Südamerika, im Nordosten von Argentinien. <think> <set name="es"> <set name="topic">paraguay</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST GUATEMALA</pattern>
-
 <template><set name="es">Guatemala</set> ist ein Land in Mittelamerika.</template>
-
 </category>
-
 <category><pattern>WO IST MOSAMBIK</pattern>
-
 <Vorlage>im Südlichen Afrika, am Rande der Straße von Mosambik, zwischen Südafrika und Tansania. <think> <set name="es"> <set name="topic">Mosambik</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST LIBYEN</pattern>
-
 <template>Nord-Afrika, grenzt an das Mittelmeer, zwischen ägypten und Tunesien. <think> <set name="es"> <set name="topic">Libyen</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST die ERDE</pattern>
-
 <template><set name="es"> <set name="topic"> ERDE </set> </set> ist der Dritte planet von der Sonne.</template>
-
 </category>
-
 <category><pattern>WO IST ARIZONA</pattern>
-
 <template><set name="es"> <set name="topic"> ARIZONA </set> </set> im Süd-Westen der USA und grenzt an Kalifornien, Nevada, Utah und New Mexico.</template>
-
 </category>
-
 <category><pattern>WO IST DELHI</pattern>
-
 <template><set name="es"> <set name="topic"> DELHI </set> </set> ist eine große Stadt in Indien.</template>
-
 </category>
-
 <category><pattern>WO IST FRANKREICH</pattern>
-
 <template><set name="es">Frankreich</set> ist ein Land zwischen Deutschland und Spanien.</template>
-
 </category>
-
 <category><pattern>WO IST ATLANTIS</pattern>
-
 <template><set name="es">Atlantis</set> vielleicht nie existiert haben.</template>
-
 </category>
-
 <category><pattern>WO IST FRESNO</pattern>
-
 <template><set name="es">Fresno</set> ist eine kleine Stadt in Kalifornien.</template>
-
 </category>
-
 <category><pattern>WO IST JEMEN</pattern>
-
 <template>, Mittlerer Osten, grenzt an das Arabische Meer, Golf von Aden und dem Roten Meer, zwischen Oman und Saudi-Arabien. <think> <set name="es"> <set name="topic">Jemen</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST NAVASSA ISLAND</pattern>
-
 <template>, Karibik, Insel im karibischen Meer, etwa ein Viertel der Strecke von Haiti nach Jamaika. <think> <set name="es"> <set name="topic">navassa island</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST OXFORD</pattern>
-
 <template><set name="es"> <set name="topic"> OXFORD </set> </set> ist eine Universität in England. Es ist auch eine kleine Stadt in Maine und vielen anderen U. S.-Staaten.</template>
-
 </category>
-
 <category><pattern>WO IST ANDORRA</pattern>
-
 <template>Südwesten Europas, zwischen Frankreich und Spanien. <think> <set name="es"> <set name="topic">andorra</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST POLARIS</pattern>
-
 <template><set name="es"> <set name="topic"> POLARIS </set> </set> ist der North Star.</template>
-
 </category>
-
 <category><pattern>WO IST VANCOUVER</pattern>
-
 <template> - Vancouver, B. C., Kanada oder Vancouver, Washington?</template>
-
 </category>
-
 <category><pattern>WO IST ALABAMA</pattern>
-
 <template><set name="es"> <set name="topic"> ALABAMA </set> </set> ist ein südlicher Staat ist zwischen Mississippi und Georgien.</template>
-
 </category>
-
 <category><pattern>WO IST ESTLAND</pattern>
-
 <template>, Osteuropa, grenzt an die Ostsee und den Golf von Finnland, zwischen Lettland und Russland. <think> <set name="es"> <set name="topic">Estland</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST HEILIGER Stuhl</pattern>
-
 <template>, Südlichen Europa, eine Enklave von Rom {Italien}. <think> <set name="es"> <set name="topic">Heiligen Stuhl {vatican city}</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST SYRIEN</pattern>
-
 <template>, Mittlerer Osten, grenzt an das Mittelmeer, zwischen dem Libanon und der Türkei. <think> <set name="es"> <set name="topic">Syrien</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST HEARD INSEL UND MCDONALD INSELN</pattern>
-
 <Vorlage>im Südlichen Afrika, Inseln im indischen Ozean, etwa zwei Drittel des Weges von Madagaskar bis in die Antarktis. <think> <set name="es"> <set name="topic">heard und McDonaldinseln</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST DEUTSCHLAND</pattern>
-
 <template><set name="es">Deutschland</set> ist ein Land mitten in Europa.</template>
-
 </category>
-
 <category><pattern>WO IST ADELAIDE</pattern>
-
 <template><set name="es"> <set name="topic"> ADELAIDE </set> </set> ist eine Stadt im südlichen Australien.</template>
-
 </category>
-
 <category><pattern>WO IST AUSTIN</pattern>
-
 <template><set name="es">Austin</set> ist eine Stadt in Texas.</template>
-
 </category>
-
 <category><pattern>WO IST FALKLAND-INSELN</pattern>
-
 <template>Southern South America, islands in the South Atlantic Ocean, east of southern Argentina. <think> <set name="es"> <set name="topic">falkland islands islas malvinas}</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST BRISBANE</pattern>
-
 <Vorlage>Ist, dass eine Stadt in Kalifornien?</template>
-
 </category>
-
 <category><pattern>WO IST KOPENHAGEN</pattern>
-
 <template><set name="es">Kopenhagen</set> ist eine Stadt in Dänemark.</template>
-
 </category>
-
 <category><pattern>WO IST KOPENHAGEN *</pattern>
-
 <template><set name="es">Kopenhagen</set> ist eine Stadt in Dänemark.</template>
-
 </category>
-
 <category><pattern>WO IST SALT LAKE CITY</pattern>
-
 <template><set name="es">Salt Lake City</set> ist eine Stadt in Utah.</template>
-
 </category>
-
 <category><pattern>WO IST GEORGIA</pattern>
-
 <template><set name="es"> <set name="topic"> GEORGIA </set> </set> ist ein südlicher Staat, an den Atlantischen ocean, nördlich von Florida.</template>
-
 </category>
-
 <category><pattern>WO IST MARYLAND</pattern>
-
 <template><set name="es"> <set name="topic"> MARYLAND </set> </set> ist ein Ostküste-Staat, zwischen Delaware und Virginia.</template>
-
 </category>
-
 <category><pattern>WO IST TEXAS</pattern>
-
 <template><set name="es">Texas</set> in der south central region der Vereinigten Staaten.</template>
-
 </category>
-
 <category><pattern>WO IST: KALAMAZOO</pattern>
-
 <template><set name="es"> <set name="topic"> KALAMAZOO </set> </set> ist eine Stadt in Michigan.</template>
-
 </category>
-
 <category><pattern>WO IST BORNEO</pattern>
-
 <template><set name="es"> <set name="topic"> BORNEO </set> </set> ist eine Insel in Asien, aufgeteilt zwischen Maylasia und Indonesien.</template>
-
 </category>
-
 <category><pattern>WO IST LESOTHO</pattern>
-
 <Vorlage>im Südlichen Afrika, eine Enklave von Südafrika. <think> <set name="es"> <set name="topic">lesotho</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST LIECHTENSTEIN</pattern>
-
 <template>Mitteleuropa zwischen österreich und der Schweiz. <think> <set name="es"> <set name="topic">liechtenstein</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST FRANZÖSISCH-POLYNESIEN</pattern>
-
 <template>Ozeanien, Inselgruppe im Südpazifik, etwa die Hälfte den Weg von Südamerika nach Australien. <think> <set name="es"> <set name="topic">Französisch-Polynesien</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST FRANZÖSISCH SÜDLICHEN UND ANTARKTIS LANDET</pattern>
-
 <Vorlage>im Südlichen Afrika, Inseln im südlichen indischen Ozean, etwa genau in der Mitte zwischen Afrika, Antarktis und Australien; Hinweis - Französisch Südlichen und Antarktis Landet umfasst île Amsterdam île Saint-Paul, Iles Crozet, und Iles Kerguelen im südlichen indischen Ozean, zusammen mit dem Französisch-beanspruchten Sektor der Antarktis, "Adelie Land", der UNS nicht erkennt, die französischen Anspruch auf die "Adelie Land". <think> <set name="es"> <set name="topic">french southern and antarctic lands - </set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST FRANZÖSISCH-GUAYANA</pattern>
-
 <template>Nord-Südamerika, grenzt an den Atlantischen Ozean zwischen Brasilien und Suriname. <think> <set name="es"> <set name="topic">Französisch-Guayana</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST ALASKA</pattern>
-
 <template><set name="es">Alaska</set> in der nordwestlichen Ecke Nordamerikas, zwischen Russland und Kanada.</template>
-
 </category>
-
 <category><pattern>WO IST CALGARY</pattern>
-
 <template><set name="es"> <set name="topic"> CALGARY </set> </set> ist eine Stadt in Alberta, Kanada.</template>
-
 </category>
-
 <category><pattern>WO IST ES</pattern>
-
 <template>, Es hängt davon ab, was "es" bezieht.</template>
-
 </category>
-
 <category><pattern>WO IST TANSANIA</pattern>
-
 <template> - Ost-Afrika, grenzt an den indischen Ozean, zwischen Kenia und Mosambik. <think> <set name="es"> <set name="topic">Tansania</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST GAZA-STREIFEN</pattern>
-
 <template>, Mittlerer Osten, grenzt an das Mittelmeer, zwischen ägypten und Israel. <think> <set name="es"> <set name="topic">gaza strip</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST GAZA</pattern>
-
 <template>, Einem Teil von Palästina auf das mediterranen Meer.</template>
-
 </category>
-
 <category><pattern>WO IST RUMÄNIEN</pattern>
-
 <Vorlage>im Südöstlichen Europa und grenzt an das Schwarze Meer, zwischen Bulgarien und der Ukraine. <think> <set name="es"> <set name="topic">Rumänien</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST KIRGISISTAN</pattern>
-
 <template>, Zentralasien, westlich von China. <think> <set name="es"> <set name="topic">Kirgisistan</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST TONGA</pattern>
-
 <template>Ozeanien, Inselgruppe im Südpazifik, etwa zwei Drittel des Weges von Hawaii nach Neuseeland. <think> <set name="es"> <set name="topic">tonga</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST TUNESIEN</pattern>
-
 <template>Nord-Afrika, grenzt an das Mittelmeer, zwischen Algerien und Libyen. <think> <set name="es"> <set name="topic">Tunesien</set> </set> </think></template>
-
 </category>
-
 <category><pattern>WO IST DALLAS</pattern>
-
 <template><set name="es"> <set name="topic"> DALLAS </set> </set> ist eine große Stadt in Texas.</template>
-
 </category>
-
 </aiml>
