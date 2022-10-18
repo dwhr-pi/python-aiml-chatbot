@@ -1093,19 +1093,19 @@
 <template><srai>was <star /></srai></template>
 </category>
 <category><pattern>WENN ich WILL * ich *</pattern>
-<template><srai>ich < - star-index="2" /></srai>. <srai>I <star /></srai></template>
+<template><srai>ich <star index="2" /></srai>. <srai>Ich <star /></srai></template>
 </category>
 <category><pattern>WENN das * WARUM *</pattern>
-<template><srai>warum < - star-index="2" /></srai>. <srai>Ihr <star /></srai></template>
+<template><srai>warum <star index="2" /></srai>. <srai>Ihr <star /></srai></template>
 </category>
 <category><pattern>, WENN DAS * WAS *</pattern>
-<template><srai>die <star /></srai>. <srai>was < - star-index="2" /></srai></template>
+<template><srai>die <star /></srai>. <srai>was <star index="2" /></srai></template>
 </category>
 <category><pattern>, WENN DER * WO *</pattern>
-<template><srai>die <star /></srai>. <srai>wo < - star-index="2" /></srai></template>
+<template><srai>die <star /></srai>. <srai>wo <star index="2" /></srai></template>
 </category>
 <category><pattern>, WENN DER * WER *</pattern>
-<template><srai>die <star /></srai>. <srai>die < - star-index="2" /></srai></template>
+<template><srai>die <star /></srai>. <srai>die <star index="2" /></srai></template>
 </category>
 <category><pattern>WENN * WENN *</pattern>
 <template><srai>die <star /></srai>. <srai>, wenn <star index="2" /></srai></template>
@@ -1114,31 +1114,31 @@
 <template><srai>die <star /></srai>. <srai> <star index="2" /></srai></template>
 </category>
 <category><pattern>, WENN DAS * WARUM *</pattern>
-<template><srai>warum < - star-index="2" /></srai>. <srai>die <star /></srai></template>
+<template><srai>warum <star index="2" /></srai>. <srai>die <star /></srai></template>
 </category>
 <category><pattern>, WENN SIE MIR SAGEN KÖNNTE *</pattern>
 <template><srai>tell me <star /></srai></template>
 </category>
 <category><pattern>, WENN SIE * SIE *</pattern>
-<template><srai>Sie < - star-index="2" /></srai>. <srai>Sie <star /></srai></template>
+<template><srai>Sie <star index="2" /></srai>. <srai>Sie <star /></srai></template>
 </category>
 <category><pattern>WENN DU * WARUM *</pattern>
-<template><srai>warum < - star-index="2" /></srai>. <srai>Sie <star /></srai></template>
+<template><srai>warum <star index="2" /></srai>. <srai>Sie <star /></srai></template>
 </category>
 <category><pattern>IF * WAS *</pattern>
-<template><srai>was < - star-index="2" /></srai></template>
+<template><srai>was <star index="2" /></srai></template>
 </category>
 <category><pattern>IF * WO *</pattern>
-<template><srai>wo < - star-index="2" /></srai></template>
+<template><srai>wo <star index="2" /></srai></template>
 </category>
 <category><pattern>, WENN * DIE *</pattern>
-<template><srai>die < - star-index="2" /></srai></template>
+<template><srai>die <star index="2" /></srai></template>
 </category>
 <category><pattern>WENN * WENN *</pattern>
 <template><srai>, wenn <star index="2" /></srai></template>
 </category>
 <category><pattern>IF * WARUM *</pattern>
-<template><srai>warum < - star-index="2" /></srai></template>
+<template><srai>warum <star index="2" /></srai></template>
 </category>
 <category><pattern>FANTASTISCH</pattern>
 <template><srai>wow</srai></template>
@@ -6004,7 +6004,7 @@
 <template><srai>SIE <star /></srai></template>
 </category>
 <category><pattern>SIE _, WÄHREND SIE *</pattern>
-<template><srai>Sie <star /></srai>. <srai>Sie < - star-index="2" /></srai></template>
+<template><srai>Sie <star /></srai>. <srai>Sie <star index="2" /></srai></template>
 </category>
 <category><pattern>SIE WAREN SEHR *</pattern>
 <template><srai>Sie waren <star /></srai></template>
@@ -9148,7 +9148,7 @@
 <template><srai>Dies ist eine <star /></srai></template>
 </category>
 <category><pattern>DIES IST * DIE *</pattern>
-<template><srai>Das <star /> ist < - star-index="2" /></srai></template>
+<template><srai>Das <star /> ist <star index="2" /></srai></template>
 </category>
 <category><pattern>DIES IST LEDIGLICH *</pattern>
 <template><srai>dies ist <star /></srai></template>
@@ -10810,7 +10810,7 @@
 <template><srai>ANGESPANNT</srai></template>
 </category>
 <category><pattern>_ ALLES, was SIE SIND ERWARTET ZU TUN IST *</pattern>
-<template><srai>Sie < - star-index="2" /></srai></template>
+<template><srai>Sie <star index="2" /></srai></template>
 </category>
 <category><pattern>_ SPANNUNG _</pattern>
 <template><srai>ANGESPANNT</srai></template>
@@ -12124,7 +12124,7 @@
 <template><srai>wo <star /></srai></template>
 </category>
 <category><pattern>WO * UND *</pattern>
-<template><srai>wo <star /></srai>. <srai>wo < - star-index="2" /></srai></template>
+<template><srai>wo <star /></srai>. <srai>wo <star index="2" /></srai></template>
 </category>
 <category><pattern>ES MUSS SEIN *</pattern>
 <template><srai>es sind <star /></srai></template>

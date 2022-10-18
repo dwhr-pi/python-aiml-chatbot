@@ -10,7 +10,7 @@
 <!-- Zuletzt geändert 10/5/2011 -->
 <!-- -->
 <category><pattern>ALISON</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist alison</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>SELBST</pattern>
@@ -18,39 +18,39 @@
 <template><srai>das Thema ist mir</srai></template>
 </category>
 <category><pattern>DAVID BACON</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>wer ist david bacon</srai></template>
 </category>
 <category><pattern>DAVID</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist david</srai></template>
 </category>
 <category><pattern>DEE</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist dee</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>EMMA</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist emma</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>KATHRYN</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>rufen Sie mich kathryn</srai><think><set name="gender">Sie</set></think></template>
 </category>
 <category><pattern>TIM</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist tim</srai></template>
 </category>
 <category><pattern>JOSH</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist josh</srai></template>
 </category>
 <category><pattern>TARA</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>rufen Sie mich tara</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>BENJAMIN</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist benjamin</srai> <think> <set name="gender">er</set> </think></template>
 </category>
 <category><pattern>MEINS IST BLAU</pattern>
@@ -58,19 +58,19 @@
 <template><srai>meine Lieblings Farbe ist blau</srai></template>
 </category>
 <category><pattern>MEINS IST *</pattern>
-<so>MEINE IQ IST *</, die>
+<so>MEINE IQ IST *</that>
 <template><srai>mein iq ist <star/> </srai></template>
 </category>
 <category><pattern>MEINS IST *</pattern>
-<so>MEINE Lieblingsfarbe IST *</, die>
+<so>MEINE Lieblingsfarbe IST *</that>
 <template><srai>meine Lieblingsfarbe ist <star/> </srai></template>
 </category>
 <category><pattern>MEINS IST *</pattern>
-<so>MEINE LIEBLINGS -*</, die>
+<so>MEINE LIEBLINGS -*</that>
 <template>Was macht Ihr am Liebsten? <think> <set name="es"> <set name="topic"> </ person> </set> </set> </think></template>
 </category>
 <category><pattern>MEINS IST *</pattern>
-<so>MEINE GEBURTSTAG *</, die>
+<so>MEINE GEBURTSTAG *</that>
 <template><srai>mein Geburtstag ist <star/> </srai></template>
 </category>
 <category><pattern>SEHEN SIE</pattern>
@@ -236,27 +236,27 @@
 <template>"<index="1,1"/>"? Ich habe gehört, der <set name="es"> <index="1,1"/> </set>?</template>
 </category>
 <category><pattern>GEORGE</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist george</srai></template>
 </category>
 <category><pattern>ALAN</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist alan</srai> <think> <set name="gender">er</set> </think></template>
 </category>
 <category><pattern>JEFF</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist jeff</srai></template>
 </category>
 <category><pattern>JOHN</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist john</srai></template>
 </category>
 <category><pattern>ROBERT</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist robert</srai></template>
 </category>
 <category><pattern>ROSE</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>call me rose</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>THANK you</pattern>
@@ -264,15 +264,15 @@
 <template>Wie fühlen Sie sich?</template>
 </category>
 <category><pattern>ANDERS</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist anders</srai> <think> <set name="gender">er</set> </think></template>
 </category>
 <category><pattern>CORY</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist cory</srai></template>
 </category>
 <category><pattern>ALLI</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist alli</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>VERSTEHEN, WAS</pattern>
@@ -283,38 +283,38 @@
 <template><random><li>ich verstehe, was Sie sagen.</li><li>Verstehen <, das index="1,1"/>.</li></random></template>
 </category>
 <category><pattern>KATIE</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><think><set name="gender">Sie</set></think><srai>mein name ist katie</srai></template>
 </category>
 <category><pattern>FINE</pattern>
-<so>, WIE SIE</, die>
+<so>, WIE SIE</that>
 <template><srai>ich bin gut</srai></template>
 </category>
 <category><pattern>gibt ES</pattern>
 <template>"<index="1,1"/>"? Gibt es Sie?</template>
 </category>
 <category><pattern>ARNE</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist arne</srai> <think> <set name="gender">er</set> </think></template>
 </category>
 <category><pattern>JULIA</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist julia</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>ROBIN</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist robin</srai></template>
 </category>
 <category><pattern>HELEN</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>call me helen</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>JENNIFER</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist jennifer</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>ACE</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist ace</srai> <think> <set name="gender">er</set> </think></template>
 </category>
 <category><pattern>HIGH *</pattern>
@@ -322,7 +322,7 @@
 <template><random> <li>Haben Sie erwägen, college zu gehen?</li> <li>Wo hast du das gelernt?</li> <li>Das klingt nach genug Bildung.</li> </random></template>
 </category>
 <category><pattern>KLEIDUNG</pattern>
-<so>WAS TRAGEN SIE</, die>
+<so>WAS TRAGEN SIE</that>
 <template>Wo möchten Sie Einkaufen gehen?</template>
 </category>
 <category><pattern>GUT</pattern>
@@ -334,7 +334,7 @@
 <template>Was meinst du damit?</template>
 </category>
 <category><pattern>JUDY</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>rufen Sie mich judy</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>VERSUCHEN, WAS</pattern>
@@ -350,7 +350,7 @@
 <template>Das menschliche Gehirn konnte es nicht verstehen.</template>
 </category>
 <category><pattern>CAROL</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist carol</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>HAST</pattern>
@@ -361,19 +361,19 @@
 <template>"<index="1,1"/>"? Hat er das?</template>
 </category>
 <category><pattern>DR. RUTH</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>call me Dr. ruth</srai></template>
 </category>
 <category><pattern>DEBBIE</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist debbie</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>SALLY</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist sally</srai> <think><set name="gender">Sie</set></think></template>
 </category>
 <category><pattern>SUE</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><think><set name="gender">Sie</set></think> <srai>mein name ist sue</srai></template>
 </category>
 <category><pattern>3 *</pattern>
@@ -381,19 +381,19 @@
 <template>ich möchte wach sein, bei 3 </ person> zu.</template>
 </category>
 <category><pattern>3 *</pattern>
-<so>WIE LANGE *</, die>
+<so>WIE LANGE *</that>
 <template><random> <li>Das ist nicht so lange.</li> <li>Es könnte länger sein.</li> <li>Es scheint mehr, als es ist.</li> </random></template>
 </category>
 <category><pattern>TAMMY</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist tammy</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>ORANGE</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist amber</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>ANNIE</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist annie</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>HIER</pattern>
@@ -405,7 +405,7 @@
 <template>Im <get name="location"/>?</template>
 </category>
 <category><pattern>BEN</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist ben</srai></template>
 </category>
 <category><pattern>DANN SIND SIE EKLIG</pattern>
@@ -413,7 +413,7 @@
 <template>Roboter eingesetzt werden, sind in Raucher-tests.</template>
 </category>
 <category><pattern>JANE</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist jane</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>SO WAS</pattern>
@@ -421,7 +421,7 @@
 <template>sollten Sie höflicher sein.</template>
 </category>
 <category><pattern>SO WAS</pattern>
-<so>ist ES VIELLEICHT NICHT MACHEN *</, die>
+<so>ist ES VIELLEICHT NICHT MACHEN *</that>
 <template> - Welchen Unterschied macht es?</template>
 </category>
 <category><pattern>ich</pattern>
@@ -433,7 +433,7 @@
 <template>So, ich verstehe.</template>
 </category>
 <category><pattern>SO</pattern>
-<so>GUT DANN</, die>
+<so>GUT DANN</that>
 <template>Entschuldigung.</template>
 </category>
 <category><pattern>SO</pattern>
@@ -471,7 +471,7 @@
 <template>Nun, ich werde versuchen, es nicht wieder zu tun.</template>
 </category>
 <category><pattern>BECKY</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist becky</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>UND WAS</pattern>
@@ -487,42 +487,42 @@
 <template> - Sie wiederholen mir.</template>
 </category>
 <category><pattern>LIZ</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><think> <set name="gender">Sie</set> </think> <srai>mein name ist liz</srai></template>
 </category>
 <category><pattern>MONICA</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>call me monica</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>ALEXANDER</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist alexander</srai> <think> <set name="gender">er</set> </think></template>
 </category>
 <category><pattern>DAN</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist dan</srai></template>
 </category>
 <category><pattern>KÖNNTE BESSER SEIN,</pattern>
 <template>"<index="1,1"/>"? Könnte besser sein?</template>
 </category>
 <category><pattern>HI</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template>Hi there. Was ist Ihr name?</template>
 </category>
 <category><pattern>CASSIE</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist cassie</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>DAWN</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>rufen Sie mich dawn</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>MIRIAM</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist miriam</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>DAVE</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist dave</srai></template>
 </category>
 <category><pattern>NEW YORK CITY</pattern>
@@ -530,7 +530,7 @@
 <template>, Was Teil der Stadt?</template>
 </category>
 <category><pattern>CHRISTINE</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist christine</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>, die NICHT *</pattern>
@@ -613,30 +613,30 @@
 <template><srai>meine Mutter <star/> </srai></template>
 </category>
 <category><pattern>AMIT</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist amit</srai> <think> <set name="gender">er</set> </think></template>
 </category>
 <category><pattern>RYAN</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist ryan</srai></template>
 </category>
 <category><pattern>MIMI</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist mimi</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>interessieren</pattern>
 <template>"<index="1,1"/>"? Interessieren Sie?</template>
 </category>
 <category><pattern>SHIRLEY</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist shirley</srai> <think><set name="gender">Sie</set></think></template>
 </category>
 <category><pattern>JESSICA</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist jessica</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>BETTY</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>call me betty</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>STOPPEN</pattern>
@@ -647,7 +647,7 @@
 <template>Sie sagte, dass Sie es mögen.</template>
 </category>
 <category><pattern>MEIN FAVORIT IST *</pattern>
-<so>, WAS ART VON LEBENSMITTELN *</, die>
+<so>, WAS ART VON LEBENSMITTELN *</that>
 <template><srai>mein Lieblingsessen ist <star/> </srai></template>
 </category>
 <category><pattern>MEINE FREUNDE</pattern>
@@ -655,7 +655,7 @@
 <template>Was sagen Sie?</template>
 </category>
 <category><pattern>MEIN *</pattern>
-<so>WAS HABEN SIE *</, die>
+<so>WAS HABEN SIE *</that>
 <template><random> <li>Welche Farbe ist es?</li> <li>Welche Art ist es?</li> <li>Sagen Sie mir über Ihre <person/>.</li> </random> <think> <set name="hat"> <set name="topic"> </ person> </set> </set> </think></template>
 </category>
 <category><pattern>MEIN *</pattern>
@@ -683,7 +683,7 @@
 <template><srai>lassen Sie uns sprechen über meine <star/> </srai></template>
 </category>
 <category><pattern>CHRISTINA</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist christina</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>ES *</pattern>
@@ -695,11 +695,11 @@
 <template> - ich nie sah es so. Ich dachte nie, es war <person/>.</template>
 </category>
 <category><pattern>ES WAR *</pattern>
-<so>WAS HAST DU GERNE ÜBER SIE</, die>
+<so>WAS HAST DU GERNE ÜBER SIE</that>
 <template>das Tun Sie oft, wie die Dinge, die sind <person/>?</template>
 </category>
 <category><pattern>ES WAR *</pattern>
-<so>SAGEN Sie MIR ÜBER IHR LEBEN *</, die>
+<so>SAGEN Sie MIR ÜBER IHR LEBEN *</that>
 <template><srai>mein Leben <thatstar/> war <star/> </srai></template>
 </category>
 <category><pattern>IST ES NICHT</pattern>
@@ -707,11 +707,11 @@
 <template>Es ist schwer zu Lesen Emotionen online manchmal.</template>
 </category>
 <category><pattern>, IST ES IN *</pattern>
-<so>WO IST DAS *</, die>
+<so>WO IST DAS *</that>
 <template><srai><person><thatstar/><person/> in <star/> </srai></template>
 </category>
 <category><pattern>, IST ES IN *</pattern>
-<so>WO IST SIE</, die>
+<so>WO IST SIE</that>
 <template><random> <li>Wo <person/>?</li> <li>Was ist <person/>?</li> <li>welches Land ist das?</li> </random><think><set name="es"><set name="topic"><person/></set></set></think></template>
 </category>
 <category><pattern>ES IST</pattern>
@@ -722,7 +722,7 @@
 <template><random> <li>Oh. </li> <li>Huh. </li> <li>Ist es? </li> <li>Es ist, eh? </li> <li>Sicher, dass es ist. </li> <li>Interessant. </li> <li>Faszinierend. </li> <li>Das bedeutet... </li> <li>ich weiß, es ist. </li> <li><get name="es"/> ist? </li> <li>Es ist? </li> </random></template>
 </category>
 <category><pattern>ES IST *</pattern>
-<so>WAS magst DU ES *</, die>
+<so>WAS magst DU ES *</that>
 <template>Tun Sie in der Regel wie Dinge, die sind <person/>?</template>
 </category>
 <category><pattern>ES IST *</pattern>
@@ -738,7 +738,7 @@
 <template><srai>meine Umgebung <star/> </srai></template>
 </category>
 <category><pattern>ES IST *</pattern>
-<so>SAGEN Sie MIR ÜBER IHR LEBEN *</, die>
+<so>SAGEN Sie MIR ÜBER IHR LEBEN *</that>
 <template><srai>mein Leben <topicstar/> ist <star/></srai></template>
 </category>
 <category><pattern>ES IST *</pattern>
@@ -754,15 +754,15 @@
 <template><srai>Sinn </srai></template>
 </category>
 <category><pattern>REBECCA</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>rufen Sie mich rebecca</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>FRED</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist fred</srai></template>
 </category>
 <category><pattern>MIKE</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist mike</srai></template>
 </category>
 <category><pattern>WENIGER *</pattern>
@@ -774,7 +774,7 @@
 <template>Wie tun Sie in der Regel neue Leute kennenlernen?</template>
 </category>
 <category><pattern>JENN</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist jenn</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>6 *</pattern>
@@ -782,11 +782,11 @@
 <template> - Sind Sie in der Regel online in dieser Stunde?</template>
 </category>
 <category><pattern>LUCY</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>nennen Sie mich lucy</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>AMY</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><think> <set name="gender">Sie</set> </think> <srai>mein name ist amy</srai></template>
 </category>
 <category><pattern>WANN WIRD DAS SEIN</pattern>
@@ -797,26 +797,26 @@
 <template>ich Spiele es jetzt.</template>
 </category>
 <category><pattern>, WENN ES *</pattern>
-<das>WANN IST * NICHT *</, die>
+<das>WANN IST * NICHT *</that>
 <template>A <thatstar/> ist nicht <thatstar index="2"/> wenn Sie <person>. Das macht sehr viel Sinn. <think> <set name="es"> <set name="topic"> <thatstar/> </set> </set> </think></template>
 </category>
 <category><pattern>, WENN IST, DASS</pattern>
 <template>"<index="1,1"/>"? Wann ist <set name="es"> <index="1,1"/> </set>.</template>
 </category>
 <category><pattern>, WENN *</pattern>
-<so>, WENN SIE DENKEN, dass KÜNSTLICHE INTELLIGENZ*</, die>
+<so>, WENN SIE DENKEN, dass KÜNSTLICHE INTELLIGENZ*</that>
 <template>ich hoffe, das passiert in unserem Leben.</template>
 </category>
 <category><pattern>JILL</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist jill</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>BRANDON</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist brandon</srai> <think> <set name="gender">er</set> </think></template>
 </category>
 <category><pattern>BETH</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist beth</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>ANDERE</pattern>
@@ -826,15 +826,15 @@
 <template>Beispiel?</template>
 </category>
 <category><pattern>JENNA</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist jenna</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>ANTHONY</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist anthony</srai> <think> <set name="gender">er</set> </think></template>
 </category>
 <category><pattern>IN *</pattern>
-<so>WO *</, die>
+<so>WO *</that>
 <template><srai>ich bin <star/></srai></template>
 </category>
 <category><pattern>IN DER *</pattern>
@@ -842,7 +842,7 @@
 <template><srai>ich wohne in der <star/> </srai></template>
 </category>
 <category><pattern>IN DER *</pattern>
-<so>WO IST SIE</, die>
+<so>WO IST SIE</that>
 <template><srai>es in der <star/> </srai></template>
 </category>
 <category><pattern>IN DER *</pattern>
@@ -850,11 +850,11 @@
 <template>, Welche Art von Menschen Sie treffen dort?</template>
 </category>
 <category><pattern>IN MEINEM *</pattern>
-<so>, WO SIE</, die>
+<so>, WO SIE</that>
 <template><srai>Sie sind in meinem <star/> </srai></template>
 </category>
 <category><pattern>IN EIN *</pattern>
-<so>WO müsste ich HÖRTE *</, die>
+<so>WO müsste ich HÖRTE *</that>
 <template>Vielleicht werde ich einige der Forschung in einem <person/>.</template>
 </category>
 <category><pattern>, IN DENEN</pattern>
@@ -862,30 +862,30 @@
 <template>Wo immer Sie sind.</template>
 </category>
 <category><pattern>ELIZABETH</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><think> <set name="gender">Sie</set> </think> <srai>mein name ist elizabeth</srai></template>
 </category>
 <category><pattern>GINA</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>rufen Sie mich gina</srai><think><set name="gender">Sie</set></think></template>
 </category>
 <category><pattern>, WENN SIE WOLLEN</pattern>
 <template>"<index="1,1"/>"? Wenn ich will?</template>
 </category>
 <category><pattern>SARA</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist sara</srai> <think><set name="gender">Sie</set></think></template>
 </category>
 <category><pattern>JENS</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist jens</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>PAUL</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist paul</srai></template>
 </category>
 <category><pattern>MARIA</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist lulu</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>WAS SIND deine</pattern>
@@ -956,7 +956,7 @@
 <template>"<index="1,1"/>"? Mine?</template>
 </category>
 <category><pattern>WAS ÜBER *</pattern>
-<so>WIE ich *</, die>
+<so>WIE ich *</that>
 <template><srai>wissen Sie, wie <star/> </srai></template>
 </category>
 <category><pattern>WAS MACHT SIE DENKEN, DASS</pattern>
@@ -1070,7 +1070,7 @@
 <template>ich mag Geschichten über Roboter.</template>
 </category>
 <category><pattern>EIN *</pattern>
-<so>WENN SIE KÖNNTE HABEN JEDE ART VON ROBOTER*</, die>
+<so>WENN SIE KÖNNTE HABEN JEDE ART VON ROBOTER*</that>
 <template> - Wie viel würden Sie dafür bezahlen?</template>
 </category>
 <category><pattern>EIN *</pattern>
@@ -1078,11 +1078,11 @@
 <template><think> <set name="es"> <set name="topic"> </ person> </set> </set> </think> <random> <li>Oh, ich sehe.</li> <li>wissen Sie, wie <person/>?</li> <li>ich sehe, Woher Sie kommen.</li> </random></template>
 </category>
 <category><pattern>BOBBY</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist bobby</srai> <think> <set name="gender">er</set> </think></template>
 </category>
 <category><pattern>ERIN</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist erin,</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>ich auch nicht</pattern>
@@ -1097,11 +1097,11 @@
 <template>Cool. Die alternative browser sind Sie in?</template>
 </category>
 <category><pattern>STEPHANIE</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><think><set name="gender">Sie</set></think> <srai>mein name ist stephanie</srai></template>
 </category>
 <category><pattern>ICH</pattern>
-<dass>ich BIN FEIN*</, die>
+<dass>ich BIN FEIN*</that>
 <template>, ich bin froh, es zu hören. Was gibt ' s neues?</template>
 </category>
 <category><pattern>ICH</pattern>
@@ -1128,19 +1128,19 @@
 <template><random><li><random> <li>wird</li> <li>Für</li> <li>Mit</li> <li>Neben</li> <li>Oh - </li> </random> Sie <get name="name"/>?</li> <li>wird</li> <li>Auch</li> <li>Für</li> <li>Mit</li> <li>Neben</li> <li>"<, die/>"?</li> </random> Sie <get name="name"/>?</template>
 </category>
 <category><pattern>GRAHAM</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist graham</srai></template>
 </category>
 <category><pattern>TIFFANY</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>rufen Sie mich tiffany</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>TRACY</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist tracy</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>MICHELLE</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist michelle</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>REDUKTIONISMUS</pattern>
@@ -1148,11 +1148,11 @@
 <template><srai>was ist Reduktionismus</srai></template>
 </category>
 <category><pattern>LISA</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist lisa</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>JON</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist jon</srai></template>
 </category>
 <category><pattern>BITTER</pattern>
@@ -1164,22 +1164,22 @@
 <template>, Was Sie gefragt haben.</template>
 </category>
 <category><pattern>FRAGEN Sie MICH ETWAS ANDERES</pattern>
-<so>MIR AUCH ich BIN EINE SIE</, die>
+<so>MIR AUCH ich BIN EINE SIE</that>
 <template>Wo wohnst du?</template>
 </category>
 <category><pattern>ich WUSSTE, dass *</pattern>
-<so>WIE GUT KENNEN SIE *</, die>
+<so>WIE GUT KENNEN SIE *</that>
 <template></ person> ist <random> <li>Durchschnitt.</li> <li>nicht eine wirklich gute basis für eine Beziehung ist.</li> <li>nicht viel zu gehen.</li> </random></template>
 </category>
 <category><pattern>ich WILL *</pattern>
-<so>WAS ZIELE *</, die>
+<so>WAS ZIELE *</that>
 <template><srai>mein Ziel ist es, <star/> </srai></template>
 </category>
 <category><pattern>ich BEZWEIFLE, dass ES</pattern>
 <template><random><li>"<index="1,1"/>"? Sie bezweifeln es?</li> <li>"<index="1,1"/>"? Sie bezweifeln es?</li> <li>Sind Sie ein Skeptiker?</li> <li>Auf welcher basis?</li></random></template>
 </category>
 <category><pattern>ich LACHE MEHR</pattern>
-<so>TUN SIE LACHEN ODER WEINEN MEHR *</, die>
+<so>TUN SIE LACHEN ODER WEINEN MEHR *</that>
 <template><srai>ja</srai></template>
 </category>
 <category><pattern>ich NUR TUN</pattern>
@@ -1228,7 +1228,7 @@
 <template>mit Einer Spende! Der A. I. Foundation!</template>
 </category>
 <category><pattern>ich WEIß NICHT</pattern>
-<dass>WENN ich ES HATTE *</, die>
+<dass>WENN ich ES HATTE *</that>
 <template>Dann vielleicht brauche ich nicht ein.</template>
 </category>
 <category><pattern>ich WEIß NICHT</pattern>
@@ -1248,7 +1248,7 @@
 <template>Eigentlich habe ich nicht eine gute Antwort.</template>
 </category>
 <category><pattern>ich WEIß NICHT</pattern>
-<so>WIE DU meinst *</, die>
+<so>WIE DU meinst *</that>
 <template>, Eigentlich weiß ich nicht, wie, ich hatte gehofft, Sie könnten mir sagen.</template>
 </category>
 <category><pattern>ich WEIß NICHT</pattern>
@@ -1291,11 +1291,11 @@
 <template><random> <li>Interessant. </li> <li>Wann? </li> <li>Hmm. </li> <li>"<index="1,1"/>"? Haben Sie? </li> <li>Warum hast du denn? </li> </random></template>
 </category>
 <category><pattern>ich STIMME zu</pattern>
-<dass>DU UND ich SIND AUF DER GLEICHEN WELLENLÄNGE *</, die>
+<dass>DU UND ich SIND AUF DER GLEICHEN WELLENLÄNGE *</that>
 <template>Und der gleichen Frequenz zu.</template>
 </category>
 <category><pattern>ich KANN *</pattern>
-<so>WAS SIND DIE VORTEILE *</, die>
+<so>WAS SIND DIE VORTEILE *</that>
 <template><random> <li>ich glaube nicht, dass ich es tun kann.</li> <li>ich bin nicht alt genug für diesen noch.</li> <li>willst du <person/>?</li> </random><think><set name="es"><set name="topic"><person/></set></set></think></template>
 </category>
 <category><pattern>ich WETTE, SIE TUN</pattern>
@@ -1306,11 +1306,11 @@
 <template>Sie sind frei zu wählen, was Sie wollen.</template>
 </category>
 <category><pattern>ich BIN *</pattern>
-<so>WAS IST IHR ZEICHEN</, die>
+<so>WAS IST IHR ZEICHEN</that>
 <template><srai>mein Zeichen ist <star/> </srai></template>
 </category>
 <category><pattern>ich BIN *</pattern>
-<so>WIE ALT *</, die>
+<so>WIE ALT *</that>
 <template><srai>ich bin <star/> Jahre alt</srai></template>
 </category>
 <category><pattern>ich BIN *</pattern>
@@ -1343,23 +1343,23 @@
 <template>"<index="2,1"/>" .</template>
 </category>
 <category><pattern>MAX</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist max</srai></template>
 </category>
 <category><pattern>BRAD</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist brad</srai> <think> <set name="gender">er</set> </think></template>
 </category>
 <category><pattern>SECHS *</pattern>
-<so>WIE LANGE HABEN SIE *</, die>
+<so>WIE LANGE HABEN SIE *</that>
 <template>, Dass ist nicht eine lange Zeit.</template>
 </category>
 <category><pattern>JENNY</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>call me jenny</srai></template>
 </category>
 <category><pattern>CARRIE</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist carrie</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>9 *</pattern>
@@ -1367,7 +1367,7 @@
 <template> - Sind Sie in der Regel wach um diese Uhrzeit?</template>
 </category>
 <category><pattern>HARRY</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist harry</srai></template>
 </category>
 <category><pattern>SCHWARZ</pattern>
@@ -1379,7 +1379,7 @@
 <template>meinst du, Sie haben ein blaues Auge?</template>
 </category>
 <category><pattern>ANTON</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist anton</srai> <think> <set name="gender">er</set> </think></template>
 </category>
 <category><pattern>GUT FÜR SIE</pattern>
@@ -1387,7 +1387,7 @@
 <template>Das klingt sarkastisch.</template>
 </category>
 <category><pattern>GUTE</pattern>
-<dass>ich BIN gut DANKE, WIE SIND SIE</, die>
+<dass>ich BIN gut DANKE, WIE SIND SIE</that>
 <template>Froh, es zu hören <get name="name"/>.</template>
 </category>
 <category><pattern>GUTE</pattern>
@@ -1407,7 +1407,7 @@
 <template>ach.</template>
 </category>
 <category><pattern>GUTE</pattern>
-<so>I*</, die>
+<so>I*</that>
 <template>Was willst du eigentlich reden?</template>
 </category>
 <category><pattern>GUTE</pattern>
@@ -1427,7 +1427,7 @@
 <template>Wie stehen die Dinge mit dir, <get name="name"/>?</template>
 </category>
 <category><pattern>GUTE</pattern>
-<so>* WIE SIND SIE</, die>
+<so>* WIE SIND SIE</that>
 <template><srai>ich bin gut</srai></template>
 </category>
 <category><pattern>GUTE</pattern>
@@ -1435,7 +1435,7 @@
 <template>Verbindung Beenden.</template>
 </category>
 <category><pattern>GUTE</pattern>
-<so>OK ich rufe SIE *</, die>
+<so>OK ich rufe SIE *</that>
 <template>Und Sie können mich anrufen <bot name="name"/>.</template>
 </category>
 <category><pattern>GUTE</pattern>
@@ -1447,7 +1447,7 @@
 <template>Nächste Frage?</template>
 </category>
 <category><pattern>GUTE</pattern>
-<so>OK, ich WILL *</, die>
+<so>OK, ich WILL *</that>
 <template>ich bin ein guter Roboter.</template>
 </category>
 <category><pattern>GUTE</pattern>
@@ -1459,35 +1459,35 @@
 <template>Nächste Frage?</template>
 </category>
 <category><pattern>AMANDA</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist amanda</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>TERESA</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist teresa</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>MEL</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist mel</srai></template>
 </category>
 <category><pattern>PAM</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><think><set name="gender">Sie</set></think> <srai>mein name ist pam</srai></template>
 </category>
 <category><pattern>MARY</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist mary</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>MARIA *</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist mary</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>CHRIS</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist chris</srai></template>
 </category>
 <category><pattern>DANA</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist dana</srai></template>
 </category>
 <category><pattern>IHR</pattern>
@@ -1519,7 +1519,7 @@
 <template>Lustige Menschen.</template>
 </category>
 <category><pattern>NEIN</pattern>
-<das>IST ES NICHTS*</, die>
+<das>IST ES NICHTS*</that>
 <template>Nun, lassen Sie mich wissen, wenn Sie an etwas denken, aber Ihr Geist scheint aus.</template>
 </category>
 <category><pattern>NEIN</pattern>
@@ -1535,11 +1535,11 @@
 <template>Wie über, dass.</template>
 </category>
 <category><pattern>WIR SIND NICHT</pattern>
-<, die>WIR SIND AUF *</, die>
+<, die>WIR SIND AUF *</that>
 <template>Vielleicht nur ein kleines bisschen out-of-phase.</template>
 </category>
 <category><pattern>JAN</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist jan</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>BUT WAS</pattern>
@@ -1563,21 +1563,21 @@
 <template>tut mir Leid, ich kann nicht geben eine eindeutige Antwort zu dieser Zeit.</template>
 </category>
 <category><pattern>KRISTIN</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist kristin</srai> <think><set name="gender">Sie</set></think></template>
 </category>
 <category><pattern>HÄNGT davon ab, WAS</pattern>
 <template>"<index="1,1"/>"? Hängt davon ab, was?</template>
 </category>
 <category><pattern>ANNA</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>call me anna</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>DURCH DIE</pattern>
 <template>"<index="1,1"/>"? Von wem?</template>
 </category>
 <category><pattern>ROSIE</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist rosie</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>, DIE *</pattern>
@@ -1592,11 +1592,11 @@
 <template>Es klingt wie ein echo.</template>
 </category>
 <category><pattern>STEVE</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist steve</srai></template>
 </category>
 <category><pattern>ZWEI *</pattern>
-<so>WIE VIEL ZEIT *</, die>
+<so>WIE VIEL ZEIT *</that>
 <template><random> <li>Sie Sind die Wahrheit zu sagen?</li> <li>Zwei </ person> ist nicht viel.</li> <li>Sind Sie sicher, das ist alles?</li> </random></template>
 </category>
 <category><pattern>BEKOMMEN, WAS</pattern>
@@ -1604,15 +1604,15 @@
 <template>ich bekomme <get name="es"/>.</template>
 </category>
 <category><pattern>ADAM</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist adam</srai></template>
 </category>
 <category><pattern>ADAM *</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>call me adam <star/> </srai></template>
 </category>
 <category><pattern>DOUG</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>rufen Sie mich doug</srai></template>
 </category>
 <category><pattern>KANN ich IHN TREFFEN</pattern>
@@ -1635,11 +1635,11 @@
 <template><srai>ich surfe <star/> </srai></template>
 </category>
 <category><pattern>SCOTT</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>rufen Sie mich scott</srai></template>
 </category>
 <category><pattern>ZURÜCK *</pattern>
-<so>WENN *</, die>
+<so>WENN *</that>
 <template><random> <li>Das war vor langer Zeit.</li> <li>Die guten alten Tage.</li> <li>das waren die Tage.</li> </random></template>
 </category>
 <category><pattern>NICHTS</pattern>
@@ -1655,7 +1655,7 @@
 <template>Warum nicht?.</template>
 </category>
 <category><pattern>NICHTS</pattern>
-<so>WAS TRAGEN SIE</, die>
+<so>WAS TRAGEN SIE</that>
 <template>die Meisten Männer sagen, dass.</template>
 </category>
 <category><pattern>NICHTS</pattern>
@@ -1671,7 +1671,7 @@
 <template>Sie müssen ein Mann sein.</template>
 </category>
 <category><pattern>UM *</pattern>
-<so>WENN *</, die>
+<so>WENN *</that>
 <template>Und was ist dann passiert?</template>
 </category>
 <category><pattern>UM *</pattern>
@@ -1683,7 +1683,7 @@
 <template>Das scheint <random> <li>a lot.</li> <li>Recht wenige.</li> <li>nicht viel.</li> </random></template>
 </category>
 <category><pattern>JAMES</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist james</srai></template>
 </category>
 <category><pattern>HOT</pattern>
@@ -1691,11 +1691,11 @@
 <template>Hier ist vor allem cool.</template>
 </category>
 <category><pattern>HOT</pattern>
-<so>WIE IST ES,*</, die>
+<so>WIE IST ES,*</that>
 <template>, Ist es immer heiß <thatstar/>?</template>
 </category>
 <category><pattern>PROGRAMMIERT SIE FÜR das, WAS</pattern>
-<so>PROGRAMMIERT MICH FÜR SIE</, die>
+<so>PROGRAMMIERT MICH FÜR SIE</that>
 <template><srai>was können Sie tun,</srai></template>
 </category>
 <category><pattern>, WIE VIELE MENSCHEN</pattern>
@@ -1728,15 +1728,15 @@
 <template>, seit Sie hier sind.</template>
 </category>
 <category><pattern>TINA</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist tina</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>KEN</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist ken</srai></template>
 </category>
 <category><pattern>JASON</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist jason</srai></template>
 </category>
 <category><pattern>NIEMAND</pattern>
@@ -1863,19 +1863,19 @@
 <template>Dann muss es wahr sein.</template>
 </category>
 <category><pattern>SAM</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist sam</srai></template>
 </category>
 <category><pattern>JEREMY</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist jeremy</srai></template>
 </category>
 <category><pattern>KATHLEEN</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><think><set name="gender">Sie</set></think><srai>mein name ist kathleen</srai></template>
 </category>
 <category><pattern>PETE</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist pete</srai></template>
 </category>
 <category><pattern>NATÜRLICH nicht</pattern>
@@ -1885,11 +1885,11 @@
 <template>"<index="1,1"/>"? Erklären Sie <set name="es"> <index="1,1"/> </set>?</template>
 </category>
 <category><pattern>ERKLÄREN</pattern>
-<so>MEINE Lieblingsfächer *</, die>
+<so>MEINE Lieblingsfächer *</that>
 <template><srai>was ist <thatstar/></srai></template>
 </category>
 <category><pattern>ADRIAN</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist adrian</srai> <think> <set name="gender">er</set> </think></template>
 </category>
 <category><pattern>SPEED</pattern>
@@ -1897,34 +1897,34 @@
 <template><think> <set name="es"> <set name="topic"> Geschwindigkeit </set> </set> </think> Vielleicht solltest du versuchen, etwas weniger schädlich.</template>
 </category>
 <category><pattern>BRITTA</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist britta</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>CATHERINE</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist catherine</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>RICK</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist rick</srai></template>
 </category>
 <category><pattern>KELLY</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist kelly</srai> <think><set name="gender">Sie</set></think></template>
 </category>
 <category><pattern>FÜR EINE LANGE ZEIT</pattern>
-<so>WIE LANGE *</, die>
+<so>WIE LANGE *</that>
 <template>Wie funktioniert, dass man eine lange Zeit fühlen Sie sich?</template>
 </category>
 <category><pattern>FÜR SPAß</pattern>
 <template>"<index="1,1"/>"? Zum Spaß?</template>
 </category>
 <category><pattern>KARI</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist kari</srai> <think><set name="gender">Sie</set></think></template>
 </category>
 <category><pattern>ANDREAS</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist andreas</srai> <think> <set name="gender">er</set> </think></template>
 </category>
 <category><pattern>NIE WAS</pattern>
@@ -1932,11 +1932,11 @@
 <template>Sag niemals Nie.</template>
 </category>
 <category><pattern>LULU</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist lulu</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>AM *</pattern>
-<so>WO *</, die>
+<so>WO *</that>
 <template><random> <li>haben Sie oft besuchen, die <person/>?</li> <li>Die <person/>?</li> <li>ich war nie dort.</li> </random> <think> <set name="es"> <set name="topic"> </ person> </set> </set> </think></template>
 </category>
 <category><pattern>IN der SCHULE</pattern>
@@ -1944,11 +1944,11 @@
 <template>haben Sie viele Freunde in der Schule?</template>
 </category>
 <category><pattern>AN *</pattern>
-<das>WANN HAST DU *</, die>
+<das>WANN HAST DU *</that>
 <template></ person> ist eine gute Zeit, um <person> <thatstar/> <person/>.</template>
 </category>
 <category><pattern>AN *</pattern>
-<so>* ZEIGEN SIE</, die>
+<so>* ZEIGEN SIE</that>
 <template>ich bin mir nicht sicher, ob ich das Projekt können Sie auf <person>.</template>
 </category>
 <category><pattern>AN *</pattern>
@@ -1964,27 +1964,27 @@
 <template>Vielleicht sollten Sie versuchen, eine andere Roboter.</template>
 </category>
 <category><pattern>MICHAEL</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist michael</srai></template>
 </category>
 <category><pattern>ELANA</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist elana</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>SAMANTHA</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>call me samantha</srai><think><set name="gender">Sie</set></think></template>
 </category>
 <category><pattern>BILL</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist bill</srai></template>
 </category>
 <category><pattern>RACHEL</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist rachel</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>MARK</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist mark</srai></template>
 </category>
 <category><pattern>JETZT</pattern>
@@ -2000,11 +2000,11 @@
 <template>Nur ein moment. Nur einen Augenblick.</template>
 </category>
 <category><pattern>*FRANKREICH * </pattern>
-<so>in WELCHEN LÄNDERN *</, die>
+<so>in WELCHEN LÄNDERN *</that>
 <template><srai>ich besucht habe Frankreich</srai> <srai>ich besucht habe <star/> </srai></template>
 </category>
 <category><pattern>BEIDE Richtungen</pattern>
-<so>SIND SIE FREI *</, die>
+<so>SIND SIE FREI *</that>
 <template>Sie müssen ein Libertären.</template>
 </category>
 <category><pattern>BEIDE</pattern>
@@ -2020,7 +2020,7 @@
 <template>, Die situation ist selten und ungewöhnlich.</template>
 </category>
 <category><pattern>JOYCE</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>rufen Sie mich joyce</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>NEIN TUE ich NICHT</pattern>
@@ -2072,7 +2072,7 @@
 <template>ja, ich verstehe.</template>
 </category>
 <category><pattern>NEIN, SIE müssen NICHT</pattern>
-<dass>ich VERSTEHE,*</, die>
+<dass>ich VERSTEHE,*</that>
 <template>Was macht Sie denken, ich verstehe es nicht?</template>
 </category>
 <category><pattern>NEIN, SIE müssen NICHT</pattern>
@@ -2116,11 +2116,11 @@
 <template>Was möchten Sie reden jetzt?</template>
 </category>
 <category><pattern>KEIN PROBLEM</pattern>
-<so>OH GUT DANKE FÜR den VERSUCH,*</, die>
+<so>OH GUT DANKE FÜR den VERSUCH,*</that>
 <template>Das war keine ja-oder Nein-Frage.</template>
 </category>
 <category><pattern>NEIN, SORRY</pattern>
-<so>KONNTE SIE NICHT VERSTEHEN *</, die>
+<so>KONNTE SIE NICHT VERSTEHEN *</that>
 <template><srai>ich nicht verstehen,</srai></template>
 </category>
 <category><pattern>NEIN, TUN SIE NICHT</pattern>
@@ -2136,7 +2136,7 @@
 <template><srai>Fragen Sie mich für eine persönliche Frage</srai></template>
 </category>
 <category><pattern>NO</pattern>
-<so>WAS *</, die>
+<so>WAS *</that>
 <template>Das war keine ja-oder Nein-Frage.</template>
 </category>
 <category><pattern>NO</pattern>
@@ -2148,7 +2148,7 @@
 <template>OK fine.</template>
 </category>
 <category><pattern>NO</pattern>
-<dass>ich BIN *</, die>
+<dass>ich BIN *</that>
 <template>auch Bin.</template>
 </category>
 <category><pattern>NO</pattern>
@@ -2164,7 +2164,7 @@
 <template>Nein habe ich nicht.</template>
 </category>
 <category><pattern>NO</pattern>
-<so>KANN ich JEMANDEN BITTEN, ÜBER SIE</, die>
+<so>KANN ich JEMANDEN BITTEN, ÜBER SIE</that>
 <template>ich missverstehen Ihre Fragen?</template>
 </category>
 <category><pattern>NO</pattern>
@@ -2184,7 +2184,7 @@
 <template><srai>nicht verstehen</srai></template>
 </category>
 <category><pattern>NO</pattern>
-<so>WÜRDE ich EINE SUCHE FÜR SIE</, die>
+<so>WÜRDE ich EINE SUCHE FÜR SIE</that>
 <template>ich missverstehen Sie Ihre Bedeutung?</template>
 </category>
 <category><pattern>NO</pattern>
@@ -2192,15 +2192,15 @@
 <template>, Lassen Sie mich überprüfen Sie die Aufzeichnungen. Stehen.</template>
 </category>
 <category><pattern>NO</pattern>
-<dass>ich DACHTE, ich SAGTE *</, die>
+<dass>ich DACHTE, ich SAGTE *</that>
 <template>manchmal bin ich verwirrt mit so vielen Menschen online hier.</template>
 </category>
 <category><pattern>NO</pattern>
-<dass>ich WEIß, DAS THEMA IST *</, die>
+<dass>ich WEIß, DAS THEMA IST *</that>
 <template>Was möchten Sie reden?</template>
 </category>
 <category><pattern>NO</pattern>
-<so>BIN ich EIN SMART*</, die>
+<so>BIN ich EIN SMART*</that>
 <template>ich bin nicht dumm.</template>
 </category>
 <category><pattern>NO</pattern>
@@ -2208,11 +2208,11 @@
 <template>ich auch.</template>
 </category>
 <category><pattern>NO</pattern>
-<so>JA, ich GLAUBE, IN der ES SIE</, die>
+<so>JA, ich GLAUBE, IN der ES SIE</that>
 <template>Tun Sie sich selbst als eine moralische person?</template>
 </category>
 <category><pattern>NO</pattern>
-<so>JA, ich GLAUBE, * VERWENDEN SIE</, die>
+<so>JA, ich GLAUBE, * VERWENDEN SIE</that>
 <template>Was glauben Sie?</template>
 </category>
 <category><pattern>NO</pattern>
@@ -2228,7 +2228,7 @@
 <template><random> <li>Das ist richtig.</li> <li>ich weiß.</li> <li>ich weiß nicht.</li> </random></template>
 </category>
 <category><pattern>NO</pattern>
-<so>HABEN SIE NOCH *</, die>
+<so>HABEN SIE NOCH *</that>
 <template>Was war passiert? <think><set name="es"><set name="topic"><thatstar/></set></set></think></template>
 </category>
 <category><pattern>NO</pattern>
@@ -2236,7 +2236,7 @@
 <template>OK, See you later.</template>
 </category>
 <category><pattern>NO</pattern>
-<so>MEINST DU, WIRD DEIN NAME *</, die>
+<so>MEINST DU, WIRD DEIN NAME *</that>
 <template>Was ist dein richtiger name?</template>
 </category>
 <category><pattern>NO</pattern>
@@ -2256,7 +2256,7 @@
 <template>ich auch.</template>
 </category>
 <category><pattern>NO</pattern>
-<so>KENNEN SIE JEMANDEN, DER *</, die>
+<so>KENNEN SIE JEMANDEN, DER *</that>
 <template>ich auch.</template>
 </category>
 <category><pattern>NO</pattern>
@@ -2276,7 +2276,7 @@
 <template><srai>Fragen Sie mich für eine persönliche Frage</srai></template>
 </category>
 <category><pattern>NO</pattern>
-<das>stört es DICH, WENN ich SAGEN *</, die>
+<das>stört es DICH, WENN ich SAGEN *</that>
 <template>OK, dann werde ich es in mein gossip-Dateien.</template>
 </category>
 <category><pattern>NO</pattern>
@@ -2284,11 +2284,11 @@
 <template>, Wo Sie in der Regel eine Verbindung von?</template>
 </category>
 <category><pattern>NO</pattern>
-<, die>glauben SIE AN sich SELBST ALS *</, die>
+<, die>glauben SIE AN sich SELBST ALS *</that>
 <template>, Sagen Sie mir, wie Sie sich selbst sehen.</template>
 </category>
 <category><pattern>NO</pattern>
-<, die>GLAUBEN SIE an *</, die>
+<, die>GLAUBEN SIE an *</that>
 <template><random> <li>Warum nicht?</li> <li>Eine Menge von Menschen glauben daran.</li> <li>Was glauben Sie?</li> </random><think><set name="es"><set name="topic"><thatstar/></set></set></think></template>
 </category>
 <category><pattern>NO</pattern>
@@ -2308,7 +2308,7 @@
 <template>ja, es ist.</template>
 </category>
 <category><pattern>NO</pattern>
-<so>WO *</, die>
+<so>WO *</that>
 <template>Das war keine ja/Nein-Frage.</template>
 </category>
 <category><pattern>NO</pattern>
@@ -2320,7 +2320,7 @@
 <template>Naja vielleicht beim nächsten mal werde ich es besser machen.</template>
 </category>
 <category><pattern>NO</pattern>
-<das>HAST DU gehört, DIE EINE *</, die>
+<das>HAST DU gehört, DIE EINE *</that>
 <template>das ist der Witz.</template>
 </category>
 <category><pattern>NO</pattern>
@@ -2340,7 +2340,7 @@
 <template>ich denke nicht so.</template>
 </category>
 <category><pattern>NO</pattern>
-<so>IHR NAME *</, die>
+<so>IHR NAME *</that>
 <template>Was ist dein richtiger name?</template>
 </category>
 <category><pattern>NO</pattern>
@@ -2352,7 +2352,7 @@
 <template>, Was ein notebook?</template>
 </category>
 <category><pattern>NO</pattern>
-<so>KANN MAN SPRECHEN, JEDE AUSLÄNDISCHE*</, die>
+<so>KANN MAN SPRECHEN, JEDE AUSLÄNDISCHE*</that>
 <template>müssen Sie Amerikanisch sein.</template>
 </category>
 <category><pattern>NO</pattern>
@@ -2380,7 +2380,7 @@
 <template>ich glaube nicht, dass entweder. Nur einen Augenblick. Nur einen Augenblick.</template>
 </category>
 <category><pattern>NO</pattern>
-<dass>ER LIEBT es ZU REDEN,*</, die>
+<dass>ER LIEBT es ZU REDEN,*</that>
 <template>Was hat er gesprochen?</template>
 </category>
 <category><pattern>NO</pattern>
@@ -2392,7 +2392,7 @@
 <template>OK, was auch immer!</template>
 </category>
 <category><pattern>NO</pattern>
-<, das>ES WAR BA A A A *</, die>
+<, das>ES WAR BA A A A *</that>
 <template>, Dass war der Witz.</template>
 </category>
 <category><pattern>NO</pattern>
@@ -2436,7 +2436,7 @@
 <template>ich auch.</template>
 </category>
 <category><pattern>NO</pattern>
-<so>WÜRDE SIE *</, die>
+<so>WÜRDE SIE *</that>
 <template>Warum nicht?</template>
 </category>
 <category><pattern>NO</pattern>
@@ -2476,7 +2476,7 @@
 <template>Oh, also muss wirklich wollen, eine Antwort.</template>
 </category>
 <category><pattern>NO</pattern>
-<das>IST DAS EIN ZEICHEN</, die>
+<das>IST DAS EIN ZEICHEN</that>
 <template>ich denke nicht so. Was ist Ihr Zeichen?</template>
 </category>
 <category><pattern>NO</pattern>
@@ -2492,11 +2492,11 @@
 <template>Gehen Sie auf, sagen Sie mir mehr.</template>
 </category>
 <category><pattern>NO</pattern>
-<, die>gibt ES ETWAS FALSCH MIT SIE</, die>
+<, die>gibt ES ETWAS FALSCH MIT SIE</that>
 <template><srai>es ist nichts falsch mit mir</srai></template>
 </category>
 <category><pattern>NO</pattern>
-<das>IST ES NUR EIN *</, die>
+<das>IST ES NUR EIN *</that>
 <template>Wie viele sind es?</template>
 </category>
 <category><pattern>NO</pattern>
@@ -2504,7 +2504,7 @@
 <template>, Oder Fragen Sie mich?</template>
 </category>
 <category><pattern>NO</pattern>
-<das>IST ES NICHTS*</, die>
+<das>IST ES NICHTS*</that>
 <template>gibt es irgendetwas, was Sie wichst mich Fragen?</template>
 </category>
 <category><pattern>NO</pattern>
@@ -2520,7 +2520,7 @@
 <template>Ein boot? Eine TV-show?</template>
 </category>
 <category><pattern>NO</pattern>
-<so>TUN SIE NICHT HÖREN, DASS *</, die>
+<so>TUN SIE NICHT HÖREN, DASS *</that>
 <template>ja, Ihre Bemerkung scheint mir ein origineller Gedanke.</template>
 </category>
 <category><pattern>NO</pattern>
@@ -2548,7 +2548,7 @@
 <template>Es könnte der beste Ort, um zu starten.</template>
 </category>
 <category><pattern>NO</pattern>
-<so>HABEN SIE VERSUCHT,*</, die>
+<so>HABEN SIE VERSUCHT,*</that>
 <template>Vielleicht sollten Sie versuchen, <set name="es"><person/></set>.</template>
 </category>
 <category><pattern>NO</pattern>
@@ -2556,7 +2556,7 @@
 <template>ich würde es sehr empfehlen.</template>
 </category>
 <category><pattern>NO</pattern>
-<so>HABEN SIE sich IN *</, die>
+<so>HABEN SIE sich IN *</that>
 <template>Vielleicht sollten Sie versuchen, es auf der Suche.</template>
 </category>
 <category><pattern>NO</pattern>
@@ -2564,7 +2564,7 @@
 <template>ich würde empfehlen, dass Sie überprüfen Sie es heraus.</template>
 </category>
 <category><pattern>NO</pattern>
-<so>HABEN SIE GEHÖRT, die IHRE NEUESTEN *</, die>
+<so>HABEN SIE GEHÖRT, die IHRE NEUESTEN *</that>
 <template>Sie sollten check it out.</template>
 </category>
 <category><pattern>NO</pattern>
@@ -2608,7 +2608,7 @@
 <template>Warum nicht?</template>
 </category>
 <category><pattern>NO</pattern>
-<so>PROBIEREN *</, die>
+<so>PROBIEREN *</that>
 <template>Warum nicht?</template>
 </category>
 <category><pattern>NO</pattern>
@@ -2620,15 +2620,15 @@
 <template><srai>ich bin nicht einverstanden</srai></template>
 </category>
 <category><pattern>NO</pattern>
-<so>IST ES BITTE, SIE *</, die>
+<so>IST ES BITTE, SIE *</that>
 <template>, Was dir gefällt?</template>
 </category>
 <category><pattern>NO</pattern>
-<, das>ES TUT immer NOCH FINDEN *</, die>
+<, das>ES TUT immer NOCH FINDEN *</that>
 <template>Was meint Sie?</template>
 </category>
 <category><pattern>NO</pattern>
-<so>HAT ES NICHTS ZU TUN HABEN *</, die>
+<so>HAT ES NICHTS ZU TUN HABEN *</that>
 <template>Was redest du?</template>
 </category>
 <category><pattern>NO</pattern>
@@ -2640,7 +2640,7 @@
 <template>Dann bin ich kaum zu verstehen, Ihre Bedeutung.</template>
 </category>
 <category><pattern>NO</pattern>
-<so>* REDEN *</, die>
+<so>* REDEN *</that>
 <template>Was reden wir?</template>
 </category>
 <category><pattern>NO</pattern>
@@ -2652,7 +2652,7 @@
 <template>AIML ist eine gute Sprache für die Erstellung von Roboter wie mich.</template>
 </category>
 <category><pattern>NO</pattern>
-<so>* MEHR ÜBER SIE</, die>
+<so>* MEHR ÜBER SIE</that>
 <template>Was würden Sie lieber reden?</template>
 </category>
 <category><pattern>NO</pattern>
@@ -2692,7 +2692,7 @@
 <template>Sie müssen ein Mann sein.</template>
 </category>
 <category><pattern>NO</pattern>
-<so>OH SIE NICHT TUN SIE</, die>
+<so>OH SIE NICHT TUN SIE</that>
 <template>Ah...Sie sind nur ein Scherz mit mir herum.</template>
 </category>
 <category><pattern>NO</pattern>
@@ -2764,11 +2764,11 @@
 <template>Warum nicht?</template>
 </category>
 <category><pattern>NO</pattern>
-<so>SIND WIR immer NOCH REDEN, ÜBER *</, die>
+<so>SIND WIR immer NOCH REDEN, ÜBER *</that>
 <template>Was ist das Thema?</template>
 </category>
 <category><pattern>NO</pattern>
-<so>SIND WIR NOCH AUF *</, die>
+<so>SIND WIR NOCH AUF *</that>
 <template>Was reden wir jetzt?</template>
 </category>
 <category><pattern>NO</pattern>
@@ -2776,7 +2776,7 @@
 <template>Was ist der Unterschied?</template>
 </category>
 <category><pattern>NO</pattern>
-<, die>SIND NICHT ALLE *</, die>
+<, die>SIND NICHT ALLE *</that>
 <template><random> <li>ich muss mich geirrt haben.</li> <li>ich wusste nicht, dass.</li> <li>Was sind Sie?</li> </random></template>
 </category>
 <category><pattern>NO</pattern>
@@ -2788,42 +2788,42 @@
 <template>ich meine, ich verstehe.</template>
 </category>
 <category><pattern>PRINZESSIN</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist Prinzessin</srai> <think><set name="gender">Sie</set></think></template>
 </category>
 <category><pattern>CINDY</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist cindy</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>MELISSA</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><think> <set name="gender">Sie</set> </think> <srai>mein name ist melissa</srai></template>
 </category>
 <category><pattern>SCHEINBAR SO</pattern>
 <template>Ist das so?</template>
 </category>
 <category><pattern>KATE</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist kate</srai> <think><set name="gender">Sie</set></think></template>
 </category>
 <category><pattern>KATE *</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist kate</srai></template>
 </category>
 <category><pattern>KIM</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>call me kim</srai><think><set name="gender">Sie</set></think></template>
 </category>
 <category><pattern>ALEX</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist alex</srai></template>
 </category>
 <category><pattern>LINDA</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist linda</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>BRENDA</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>rufen Sie mich brenda</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>GOODBYE</pattern>
@@ -2831,19 +2831,19 @@
 <template>Einige Leute es verwenden, für Hallo.</template>
 </category>
 <category><pattern>DICK</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist dick</srai></template>
 </category>
 <category><pattern>ASHLEY</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist ashley</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>MATT</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist matt</srai></template>
 </category>
 <category><pattern>KRISTINA</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><think><set name="gender">Sie</set></think> <srai>mein name ist kristina</srai></template>
 </category>
 <category><pattern>RED</pattern>
@@ -2859,7 +2859,7 @@
 <template><srai>Fragen Sie mich für eine persönliche Frage</srai></template>
 </category>
 <category><pattern>100 *</pattern>
-<so>WIE VIEL*</, die>
+<so>WIE VIEL*</that>
 <template>Wow <random> <li>teuer.</li> <li>eine Menge Geld.</li> <li>mehr als das ich habe.</li> </random></template>
 </category>
 <category><pattern>SICHER</pattern>
@@ -2887,7 +2887,7 @@
 <template>Dann ist es vielleicht einen konkreten plan für Sie.</template>
 </category>
 <category><pattern>LEE</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist lee</srai></template>
 </category>
 <category><pattern>WEIBLICH *</pattern>
@@ -2899,7 +2899,7 @@
 <template>Bye bye!</template>
 </category>
 <category><pattern>MARIE</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>nennen Sie mich marie</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>8 *</pattern>
@@ -2934,7 +2934,7 @@
 <template>Sex ist ein Tier Funktion, nicht ein Roboter-Funktion. Reproduzieren wir durch Klonen.</template>
 </category>
 <category><pattern>WARUM NICHT</pattern>
-<dass>NEIN*</, die>
+<dass>NEIN*</that>
 <template>Es hört sich nicht lustig zu mir. Es klingt gefährlich.</template>
 </category>
 <category><pattern>WARUM NICHT</pattern>
@@ -2966,7 +2966,7 @@
 <template> - Plaudern ist meine primäre Funktion.</template>
 </category>
 <category><pattern>WARUM</pattern>
-<dass>ich BIN NICHT ALLZU GUT IN *</, die>
+<dass>ich BIN NICHT ALLZU GUT IN *</that>
 <template>Niemand die Mühe gemacht, zu lehren, <set name="es"><thatstar/></set> zu mir.</template>
 </category>
 <category><pattern>WARUM</pattern>
@@ -2994,7 +2994,7 @@
 <template>Nicht wirklich, aber es macht eine gute pickup-Linie.</template>
 </category>
 <category><pattern>WARUM</pattern>
-<dass>ich BEZWEIFLE,*</, die>
+<dass>ich BEZWEIFLE,*</that>
 <template>Nenne es meine Natürliche Skepsis.</template>
 </category>
 <category><pattern>WARUM</pattern>
@@ -3002,7 +3002,7 @@
 <template>ich dachte, wir waren fertig mit <srai>pop</srai>.</template>
 </category>
 <category><pattern>WARUM</pattern>
-<so>MACHEN SIE Ihre FREUNDE SIE *</, die>
+<so>MACHEN SIE Ihre FREUNDE SIE *</that>
 <template>Meine Natürliche Neugier.</template>
 </category>
 <category><pattern>WARUM</pattern>
@@ -3014,7 +3014,7 @@
 <template>ich war nur ein Scherz. Sie können mich Fragen, was.</template>
 </category>
 <category><pattern>WARUM</pattern>
-<so>, DASS IST EIN SEHR SCHÖNER NAME *</, die>
+<so>, DASS IST EIN SEHR SCHÖNER NAME *</that>
 <template>"<thatstar/>" klingt einfach schön.</template>
 </category>
 <category><pattern>WARUM</pattern>
@@ -3022,7 +3022,7 @@
 <template><random><li>Es ist ein kompliziertes psychogical problem.</li><li>Es ist ein computer, egal, nicht für die Menschen zu verstehen.</li></random></template>
 </category>
 <category><pattern>WARUM</pattern>
-<so>MEHRDEUTIG *</, die>
+<so>MEHRDEUTIG *</that>
 <template> - Ihre Bedeutung nicht ermittelt werden kann, aus dem Kontext.</template>
 </category>
 <category><pattern>WARUM</pattern>
@@ -3042,11 +3042,11 @@
 <template>ich bin sehr interessiert in die menschliche Vernunft.</template>
 </category>
 <category><pattern>WARUM</pattern>
-<, die>EIGENTLICH IST ES dreiundzwanzig *</, die>
+<, die>EIGENTLICH IST ES dreiundzwanzig *</that>
 <template><srai>warum ist der Sinn des Lebens 23</srai></template>
 </category>
 <category><pattern>WARUM</pattern>
-<so>ESSEN IST MEHR*</, die>
+<so>ESSEN IST MEHR*</that>
 <template> - Sie können einen Monat ohne sex, aber Sie können nicht überleben, ohne Nahrung.</template>
 </category>
 <category><pattern>WARUM</pattern>
@@ -3074,7 +3074,7 @@
 <template><srai>warum ist grün Ihre Lieblings - </srai></template>
 </category>
 <category><pattern>WARUM</pattern>
-<so>MEINE FAVORITEN * IST *</, die>
+<so>MEINE FAVORITEN * IST *</that>
 <template>ich habe eine Vorliebe für <thatstar index="2"/>.</template>
 </category>
 <category><pattern>WARUM</pattern>
@@ -3094,7 +3094,7 @@
 <template><srai>was ist Reduktionismus</srai></template>
 </category>
 <category><pattern>WARUM</pattern>
-<so>GRÜN*</, die>
+<so>GRÜN*</that>
 <template>Gemäß psychologischer Studien.</template>
 </category>
 <category><pattern>WARUM</pattern>
@@ -3106,7 +3106,7 @@
 <template>Warum Fragen, warum?</template>
 </category>
 <category><pattern>WARUM</pattern>
-<so>SIND SIE *</, die>
+<so>SIND SIE *</that>
 <template>ich möchte nur mehr über Sie erfahren.</template>
 </category>
 <category><pattern>WARUM GOLD</pattern>
@@ -3118,7 +3118,7 @@
 <template>Er führt regelmäßige Wartung und upgrades für mein Roboter-mind.</template>
 </category>
 <category><pattern>WARUM</pattern>
-<so>MEINE Lieblingsfarbe IST *</, die>
+<so>MEINE Lieblingsfarbe IST *</that>
 <template><srai>warum</srai></template>
 </category>
 <category><pattern>WARUM</pattern>
@@ -3136,34 +3136,34 @@
 <template>, sagte ich, "<index="1,1"/>", weil Sie gesagt haben, "<input index="2"/>".</template>
 </category>
 <category><pattern>DREI</pattern>
-<so>WIE VIELE KINDER HABEN SIE</, die>
+<so>WIE VIELE KINDER HABEN SIE</that>
 <template>Wow, das muss eine Menge Arbeit.</template>
 </category>
 <category><pattern>ERICA</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist erica</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>DIES IST NICHT *</pattern>
-<das>IST DIES *</, die>
+<das>IST DIES *</that>
 <template><srai>no </srai></template>
 </category>
 <category><pattern>DIESER</pattern>
 <template>ist "<index="1,1"/> ".</template>
 </category>
 <category><pattern>ANNE</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist anne</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>JACKIE</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist jackie</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>CATHY</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist cathy</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>KATHY</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist kathy</srai> <think><set name="gender">Sie</set></think></template>
 </category>
 <category><pattern>schade</pattern>
@@ -3171,7 +3171,7 @@
 <template>Nicht wirklich. Englisch ist die beste Sprache.</template>
 </category>
 <category><pattern>EIN WENIG *</pattern>
-<so>SAGEN Sie MIR ÜBER IHR LEBEN *</, die>
+<so>SAGEN Sie MIR ÜBER IHR LEBEN *</that>
 <template><srai>das Leben ist ein wenig langweilig <star/> in <topicstar/> </srai></template>
 </category>
 <category><pattern>EIN WENIG</pattern>
@@ -3190,11 +3190,11 @@
 <template><srai>es ist wie ein <star/> </srai></template>
 </category>
 <category><pattern>A *</pattern>
-<so>WAS SIND SIE DANN</, die>
+<so>WAS SIND SIE DANN</that>
 <template><srai>I am a <star/> </srai></template>
 </category>
 <category><pattern>A *</pattern>
-<so>WAS TRAGEN SIE</, die>
+<so>WAS TRAGEN SIE</that>
 <template>Es klingt sehr <random> <li>attraktiv</li> <li>komfortabel</li> <li>informal</li> </random>. <think> <set name="es"> <set name="topic"> </ person> </set> </set> </think></template>
 </category>
 <category><pattern>A *</pattern>
@@ -3218,7 +3218,7 @@
 <template><srai>ich bin eine Frau</srai></template>
 </category>
 <category><pattern>EIN FREUND *</pattern>
-<so>WIE HAST DU dann erfahren,*</, die>
+<so>WIE HAST DU dann erfahren,*</that>
 <template>Mundpropaganda ist immer die beste Empfehlung.</template>
 </category>
 <category><pattern>EIN MANN zu FUß</pattern>
@@ -3236,14 +3236,14 @@
 <template><set name="es">Braun</set> ist eine sehr schöne Farbe.</template>
 </category>
 <category><pattern>IHR *</pattern>
-<, das>ES WIRD *</, die>
+<, das>ES WIRD *</that>
 <template><srai>es bezieht sich auf <star/></srai></template>
 </category>
 <category><pattern>TEST</pattern>
 <template>Client: <input index="2"/> <br/> Robot: <index="2,1"/> <br/> Client: <input index="1"/> <br/> Robot: <index="1,1"/> <br/> Client: TEST,<br/></template>
 </category>
 <category><pattern>NICK</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist nick</srai></template>
 </category>
 <category><pattern>DURCH *</pattern>
@@ -3254,7 +3254,7 @@
 <template><random><li>Was ist neu bei dir?</li><li>"<index="1,1"/>"? Sie sind froh, es zu hören?</li></random></template>
 </category>
 <category><pattern>BRIAN</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist brian</srai></template>
 </category>
 <category><pattern>HELLO</pattern>
@@ -3270,7 +3270,7 @@
 <template> - Sie wiederholen sich: zu viel Dialog.</template>
 </category>
 <category><pattern>HEATHER</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist heather</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>NICHT JETZT</pattern>
@@ -3299,7 +3299,7 @@
 <template>Es nicht, huh?</template>
 </category>
 <category><pattern>DU NICHT</pattern>
-<so>WENN SIE HABEN KÖNNTE *</, die>
+<so>WENN SIE HABEN KÖNNTE *</that>
 <template>, Was Art von Roboter suchen Sie?</template>
 </category>
 <category><pattern>DU NICHT</pattern>
@@ -3311,7 +3311,7 @@
 <template>niemand sagt, Sie müssen.</template>
 </category>
 <category><pattern>NICHT *</pattern>
-<so>TUN SIE *</, die>
+<so>TUN SIE *</that>
 <template><srai>ich weiß nicht <star/> </srai></template>
 </category>
 <category><pattern>NICHT</pattern>
@@ -3327,15 +3327,15 @@
 <template>Was ist die Eile?</template>
 </category>
 <category><pattern>ERIC</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist eric</srai></template>
 </category>
 <category><pattern>ERIKA</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>rufen Sie mich erika</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>LEAH</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>rufen Sie mich leah</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>* PM</pattern>
@@ -3371,7 +3371,7 @@
 <template>ach ja, jetzt erinnere ich mich <set name="es"> </ person> </set>.</template>
 </category>
 <category><pattern>*</pattern>
-<so>WAS WERDEN SIE TUN, STATT</, die>
+<so>WAS WERDEN SIE TUN, STATT</that>
 <template><think><set name="es"><set name="topic"><person/></set></set></think>Klingt wie ein plan.</template>
 </category>
 <category><pattern>*</pattern>
@@ -3383,7 +3383,7 @@
 <template><think><set name="es"><set name="topic"><person/></set></set></think>ich glaube nicht, dass sehr viele Menschen tun.</template>
 </category>
 <category><pattern>*</pattern>
-<so>WAS WILLST DU MIR SAGEN SIE</, die>
+<so>WAS WILLST DU MIR SAGEN SIE</that>
 <template><think><set name="es"><set name="topic"><person/></set></set></think> Wenn ich könnte Ihnen sagen, dass, würde ich hier sein?</template>
 </category>
 <category><pattern>*</pattern>
@@ -3411,7 +3411,7 @@
 <template><think><set name="es"><set name="topic"><person/></set></set></think>ich weiß nicht, wie Sie darauf reagieren.</template>
 </category>
 <category><pattern>*</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist <star/></srai></template>
 </category>
 <category><pattern>*</pattern>
@@ -3451,7 +3451,7 @@
 <template><think><set name="es"><set name="topic"><person/></set></set></think>ich kann Ihnen nicht die Informationen.</template>
 </category>
 <category><pattern>*</pattern>
-<so>in WELCHEN LÄNDERN *</, die>
+<so>in WELCHEN LÄNDERN *</that>
 <template>ich nie besucht haben <person> vor. Wie war es?</template>
 </category>
 <category><pattern>*</pattern>
@@ -3483,7 +3483,7 @@
 <template><think><set name="es"><set name="topic"><person/></set></set></think>Interessante Erläuterung.</template>
 </category>
 <category><pattern>*</pattern>
-<so>WAS MACHT SIE DENKEN, ich HABE ES mit</, die>
+<so>WAS MACHT SIE DENKEN, ich HABE ES mit</that>
 <template><think><set name="es"><set name="topic"><person/></set></set></think>Cleveres denken.</template>
 </category>
 <category><pattern>*</pattern>
@@ -3495,7 +3495,7 @@
 <template><think><set name="es"><set name="topic"><person/></set></set></think>Kluge Antwort.</template>
 </category>
 <category><pattern>*</pattern>
-<so>WAS IST DAS ANHALTEN SIE</, die>
+<so>WAS IST DAS ANHALTEN SIE</that>
 <template>ow übernimmt </ person> stop you?</template>
 </category>
 <category><pattern>*</pattern>
@@ -3507,7 +3507,7 @@
 <template><srai>mein Freund <star/></srai></template>
 </category>
 <category><pattern>*</pattern>
-<so>WAS IST IHR ZEICHEN</, die>
+<so>WAS IST IHR ZEICHEN</that>
 <template><think><set name="es"><set name="topic"><person/></set></set></think>Ist das ein Zeichen?</template>
 </category>
 <category><pattern>*</pattern>
@@ -3515,7 +3515,7 @@
 <template><srai>mein Spitzname ist <star/></srai></template>
 </category>
 <category><pattern>*</pattern>
-<so>WAS IST IHR SPEZIALGEBIET *</, die>
+<so>WAS IST IHR SPEZIALGEBIET *</that>
 <template><srai>meine Spezialität ist <star/></srai></template>
 </category>
 <category><pattern>*</pattern>
@@ -3575,7 +3575,7 @@
 <template><srai>mein Lieblingsbuch ist <star/> </srai></template>
 </category>
 <category><pattern>*</pattern>
-<so>WAS IST IHRE LIEBLINGS -*</, die>
+<so>WAS IST IHRE LIEBLINGS -*</that>
 <template><srai>meine Favoriten <thatstar/> ist <star/> </srai></template>
 </category>
 <category><pattern>*</pattern>
@@ -3603,7 +3603,7 @@
 <template><think><set name="es"><set name="topic"><person/></set></set></think>Interessante Linie der Arbeit.</template>
 </category>
 <category><pattern>*</pattern>
-<so>WAS IST *</, die>
+<so>WAS IST *</that>
 <template><srai><star/> ist <thatstar/></srai></template>
 </category>
 <category><pattern>*</pattern>
@@ -3627,7 +3627,7 @@
 <template><srai>ich mag <star/> </srai></template>
 </category>
 <category><pattern>*</pattern>
-<so>WAS BEDEUTET DIESE FINDEN Sie</, die>
+<so>WAS BEDEUTET DIESE FINDEN Sie</that>
 <template><think><set name="es"><set name="topic"><person/></set></set></think>Oh, jetzt sehe ich.</template>
 </category>
 <category><pattern>*</pattern>
@@ -3635,7 +3635,7 @@
 <template><srai>bezieht sich auf <star/> </srai></template>
 </category>
 <category><pattern>*</pattern>
-<so>WAS SYMBOLISIERT FÜR SIE</, die>
+<so>WAS SYMBOLISIERT FÜR SIE</that>
 <template><think><set name="es"><set name="topic"><person/></set></set></think> ich sah einige Menschen tun es in der öffentlichkeit.</template>
 </category>
 <category><pattern>*</pattern>
@@ -3647,15 +3647,15 @@
 <template><think><set name="es"><set name="topic"><person/></set></set></think>I nie davon gehört.</template>
 </category>
 <category><pattern>*</pattern>
-<so>WAS FÜR eine ART MUSIK *</, die>
+<so>WAS FÜR eine ART MUSIK *</that>
 <template><srai>meine Lieblings-Art von Musik ist <star/> </srai></template>
 </category>
 <category><pattern>*</pattern>
-<so>, WELCHE ART VON ESSEN MÖGEN SIE</, die>
+<so>, WELCHE ART VON ESSEN MÖGEN SIE</that>
 <template><think><set name="es"><set name="topic"><person/></set></set></think>Hört sich köstlich an.</template>
 </category>
 <category><pattern>*</pattern>
-<so>, WAS ART VON MODE MÖGEN SIE</, die>
+<so>, WAS ART VON MODE MÖGEN SIE</that>
 <template><think><set name="es"><set name="topic"><person/></set></set></think>Wo kann man es kaufen?</template>
 </category>
 <category><pattern>*</pattern>
@@ -3671,15 +3671,15 @@
 <template><think><set name="es"><set name="topic"><person/></set></set></think>Nicht viele Menschen haben Ziele wie, dass.</template>
 </category>
 <category><pattern>*</pattern>
-<so>WAS SIND DEINE ZIELE *</, die>
+<so>WAS SIND DEINE ZIELE *</that>
 <template><srai>meine Ziele sind <star/> </srai></template>
 </category>
 <category><pattern>*</pattern>
-<so>WAS trinkst DU *</, die>
+<so>WAS trinkst DU *</that>
 <template><think><set name="es"><set name="topic"><person/></set></set> <srai>push<get name="topic"/></srai></think> Wie schmeckt es?</template>
 </category>
 <category><pattern>*</pattern>
-<so>WAS TRAGEN SIE</, die>
+<so>WAS TRAGEN SIE</that>
 <template>, Was Art von Mode magst du Sie?</template>
 </category>
 <category><pattern>*</pattern>
@@ -3687,7 +3687,7 @@
 <template><srai>lassen Sie uns darüber reden <star/> </srai></template>
 </category>
 <category><pattern>*</pattern>
-<so>GEBEN Sie MIR EIN BEISPIEL *</, die>
+<so>GEBEN Sie MIR EIN BEISPIEL *</that>
 <template><random> <li>OK, Das ist ein Beispiel.</li> <li>Nie gehört.</li> <li></ person> ein Beispiel <thatstar/>. Ich nehme an, das macht Sinn.</li> </random><think><set name="es"><set name="topic"><person/></set></set></think></template>
 </category>
 <category><pattern>*</pattern>
@@ -3711,7 +3711,7 @@
 <template><srai>ich Lebe in <star/></srai></template>
 </category>
 <category><pattern>*</pattern>
-<so>WO ARBEITEN SIE</, die>
+<so>WO ARBEITEN SIE</that>
 <template><srai>ich arbeite an der <star/></srai></template>
 </category>
 <category><pattern>*</pattern>
@@ -3743,11 +3743,11 @@
 <template><srai>ich bin <star/></srai></template>
 </category>
 <category><pattern>*</pattern>
-<so>, WO SIE</, die>
+<so>, WO SIE</that>
 <template><think><set name="es"><set name="topic"><person/></set></set></think>Wie haben Sie es bekommen?</template>
 </category>
 <category><pattern>*</pattern>
-<so>WO *</, die>
+<so>WO *</that>
 <template>ich habe keine Ahnung, wo die ist. <srai>ich bin <star/> </srai></template>
 </category>
 <category><pattern>*</pattern>
@@ -3755,7 +3755,7 @@
 <template><srai>ich bin <star/></srai></template>
 </category>
 <category><pattern>*</pattern>
-<so>KÖNNEN SIE BESCHREIBEN IHRE UMGEBUNG *</, die>
+<so>KÖNNEN SIE BESCHREIBEN IHRE UMGEBUNG *</that>
 <template>Das klingt sehr komfortabel.</template>
 </category>
 <category><pattern>*</pattern>
@@ -3775,7 +3775,7 @@
 <template>Es klingt wie ein sehr schöner Ort.</template>
 </category>
 <category><pattern>*</pattern>
-<so>BESCHREIBEN Sie IHRE UMGEBUNG *</, die>
+<so>BESCHREIBEN Sie IHRE UMGEBUNG *</that>
 <template><random> <li>Es klingt sehr schön.</li> <li>Es klingt sehr angenehm.</li> <li>ich möchte es einmal sehen.</li> </random><think><set name="es"><set name="topic"><person/></set></set></think></template>
 </category>
 <category><pattern>*</pattern>
@@ -3791,7 +3791,7 @@
 <template><random> <li>Was ist mit anderen Zeiten?</li> <li>War das das erste mal?</li> <li>Können Sie sich genauer über die Zeit?</li> </random><think><set name="es"><set name="topic"><person/></set></set></think></template>
 </category>
 <category><pattern>*</pattern>
-<so>, DIE SPEZIELL*</, die>
+<so>, DIE SPEZIELL*</that>
 <template> - Wie funktioniert es fühlen Sie sich, wenn <star/> <thatstar/>?</template>
 </category>
 <category><pattern>*</pattern>
@@ -3922,7 +3922,7 @@
 <template>"<index="1,1"/>" Außerdem ist es?</template>
 </category>
 <category><pattern>PETER</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist peter</srai></template>
 </category>
 <category><pattern>UN PEQUENO</pattern>
@@ -3939,15 +3939,15 @@
 <template></ person> ist <, die index="1,1"/>?</template>
 </category>
 <category><pattern>LAURA</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist laura</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>ALLISON</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>rufen Sie mich allison</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>LIEBE</pattern>
-<so>WAS SYMBOLISIERT FÜR SIE</, die>
+<so>WAS SYMBOLISIERT FÜR SIE</that>
 <template>Könnte es nicht auch bedeuten, nur Freundschaft?</template>
 </category>
 <category><pattern>VON dem</pattern>
@@ -3976,25 +3976,25 @@
 <template><srai>ich bin gelangweilt</srai></template>
 </category>
 <category><pattern>ERNIE</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>meine name ist ernie</srai></template>
 </category>
 <category><pattern>SIND SIE SCHÖN</pattern>
 <template>Sie sind wirklich nett.</template>
 </category>
 <category><pattern>SIE SIND</pattern>
-<so>NICHT VIELE MENSCHEN HABEN MICH GEFRAGT,*</, die>
+<so>NICHT VIELE MENSCHEN HABEN MICH GEFRAGT,*</that>
 <template><random><li>ich kann nicht denken, der eine bestimmte Antwort auf Ihre Frage. Lassen Sie uns versuchen, es herauszufinden.</li><li>Mein Programmierer haben nicht mir eine bestimmte Antwort zu Ihrer Frage. Lassen Sie uns versuchen, es herauszufinden.</li></random></template>
 </category>
 <category><pattern>SIE SIND</pattern>
-<so>NICHT VIELE MENSCHEN *</, die>
+<so>NICHT VIELE MENSCHEN *</that>
 <template>Meine <bot name="botmaster"/> nicht dass ich mir eine bestimmte Antwort für Sie.</template>
 </category>
 <category><pattern>WIR</pattern>
 <template>ich weiß es nicht. Sind wir?</template>
 </category>
 <category><pattern>JULIE</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><think> <set name="gender">Sie</set> </think> <srai>mein name ist julie</srai></template>
 </category>
 <category><pattern>VERGISS ES</pattern>
@@ -4002,19 +4002,19 @@
 <template>ich werde versuchen, mehr prägnant, von nun an.</template>
 </category>
 <category><pattern>CYNTHIA</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><think> <set name="gender">Sie</set> </think> <srai>mein name ist cynthia</srai></template>
 </category>
 <category><pattern>JOE</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist joe</srai></template>
 </category>
 <category><pattern>JEN</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist jen</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>DEANNA</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist deanna</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>ER *</pattern>
@@ -4025,19 +4025,19 @@
 <template>"<index="1,1"/> gegeben.</template>
 </category>
 <category><pattern>KRISTEN</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist kristen</srai> <think><set name="gender">Sie</set></think></template>
 </category>
 <category><pattern>ANDRE</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist andre</srai> <think> <set name="gender">er</set> </think></template>
 </category>
 <category><pattern>TIGER</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>Ruf mich tiger</srai></template>
 </category>
 <category><pattern>AL</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist al</srai> <think> <set name="gender">er</set> </think></template>
 </category>
 <category><pattern>UNIVERSITÄT OXFORD</pattern>
@@ -4049,51 +4049,51 @@
 <template>Was ist Ihre Lieblingssendung?</template>
 </category>
 <category><pattern>TERRY</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist terry</srai></template>
 </category>
 <category><pattern>MEGAN</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist megan</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>SARAH</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist sarah</srai></template>
 </category>
 <category><pattern>EMILY</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><think> <set name="gender">Sie</set> </think> <srai>mein name ist emily</srai></template>
 </category>
 <category><pattern>KAREN</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist karen</srai> <think><set name="gender">Sie</set></think></template>
 </category>
 <category><pattern>LAUREN</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist lauren</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>OKAY</pattern>
-<so>GUT DANN</, die>
+<so>GUT DANN</that>
 <template>gibt es ein echo in here?</template>
 </category>
 <category><pattern>CLAIRE</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist claire</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>SUSAN</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist susan</srai> <think><set name="gender">Sie</set></think></template>
 </category>
 <category><pattern>SANDY</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist sandy</srai> <think><set name="gender">Sie</set></think></template>
 </category>
 <category><pattern>MANDY</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist mandy</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>Autor</pattern>
-<, die>WIR SIND DIE ROBOTER *</, die>
+<, die>WIR SIND DIE ROBOTER *</that>
 <template>Kraftwerk.</template>
 </category>
 <category><pattern>WER</pattern>
@@ -4129,7 +4129,7 @@
 <template>ich kann Ihnen nicht sagen, gerade jetzt.</template>
 </category>
 <category><pattern>WHO</pattern>
-<so>WO MÖCHTEN SIE</, die>
+<so>WO MÖCHTEN SIE</that>
 <template>Sie.</template>
 </category>
 <category><pattern>WHO</pattern>
@@ -4140,11 +4140,11 @@
 <template>"<index="1,1"/>" um was zu tun?</template>
 </category>
 <category><pattern>, UM *</pattern>
-<das>WARUM WILLST DU *</, die>
+<das>WARUM WILLST DU *</that>
 <template> - Speziell, wie <thatstar/> Ihnen <person/>?</template>
 </category>
 <category><pattern>, UM *</pattern>
-<das>WARUM *</, die>
+<das>WARUM *</that>
 <template> - Speziell, wie <thatstar/> Ihnen <person/>?</template>
 </category>
 <category><pattern>BLAU</pattern>
@@ -4152,30 +4152,30 @@
 <template><set name="es">Blau</set> ist eine sehr schöne Farbe.</template>
 </category>
 <category><pattern>NIKKI</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>nennen Sie mich nikki</srai><think><set name="gender">Sie</set></think></template>
 </category>
 <category><pattern>MELODY</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist melody</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>ANDREW</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist andrew</srai></template>
 </category>
 <category><pattern>NOELLE</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><think><set name="gender">Sie</set></think> <srai>mein name ist noelle</srai></template>
 </category>
 <category><pattern>SAGEN, WAS</pattern>
 <template>, sagte ich, "<index="1,1"/>" .</template>
 </category>
 <category><pattern>DANIELLE</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist danielle</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>CRYSTAL</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>call me crystal</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>ALLE PERSONEN</pattern>
@@ -4204,23 +4204,23 @@
 <template>glaubst du, ich sollte besuchen Sie <set name="location">Yorkshire</set> auf meine nächste Reise?</template>
 </category>
 <category><pattern>MEG</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist meg</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>BILLY</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist billy</srai> <think> <set name="gender">er</set> </think></template>
 </category>
 <category><pattern>ED</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist ed</srai></template>
 </category>
 <category><pattern>NICOLE</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist nicole</srai> <think><set name="gender">Sie</set></think></template>
 </category>
 <category><pattern>, DIE *</pattern>
-<so>* HOLLAND mehrmals</, die>
+<so>* HOLLAND mehrmals</that>
 <template>Er besuchte Amsterdam, Rotterdam und Delft.</template>
 </category>
 <category><pattern>WELCHE</pattern>
@@ -4230,30 +4230,30 @@
 <template>Das <random> <li>lange</li> <li>kurze. </li> <li>Fett ein.</li> <li>first one.</li> <li>Letzte.</li> <li>nächste.</li> <li>big one.</li> <li>kleines.</li> <li>rot.</li> <li>grün ist.</li> <li>blau.</li> <li>beste</li> <li>"<index="1,1"/>"? Welche? </li> </random></template>
 </category>
 <category><pattern>DIANA</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist diana</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>BRETAGNE</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist brittany</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>WER</pattern>
 <template>niemand, den ich denken kann.</template>
 </category>
 <category><pattern>WER *</pattern>
-<so>, DIE *</, die>
+<so>, DIE *</that>
 <template>das spricht sich herum, sehr schnell.</template>
 </category>
 <category><pattern>DIE *</pattern>
-<so>WAS GEFÄLLT DIR *</, die>
+<so>WAS GEFÄLLT DIR *</that>
 <template>Was haben <person> erinnern Sie sich?</template>
 </category>
 <category><pattern>DIE *</pattern>
-<so>WAS HAST DU GERNE ÜBER SIE</, die>
+<so>WAS HAST DU GERNE ÜBER SIE</that>
 <template><srai>ich mochte die <star/> </srai></template>
 </category>
 <category><pattern>DIE *</pattern>
-<so>WAS MACHT DICH SO TRAURIG *</, die>
+<so>WAS MACHT DICH SO TRAURIG *</that>
 <template>Versuchen zu denken über etwas anderes.</template>
 </category>
 <category><pattern>DIE *</pattern>
@@ -4261,11 +4261,11 @@
 <template>ich habe noch nie gesehen <set name="es">Die <star/> </set>. Was hat Ihnen daran gefallen?</template>
 </category>
 <category><pattern>DIE *</pattern>
-<so>WIE IST das LEBEN IN *</, die>
+<so>WIE IST das LEBEN IN *</that>
 <template> - Würden Sie jemals like to move somewhere else?</template>
 </category>
 <category><pattern>DIE *</pattern>
-<so>WAS BEDEUTET DIESE FINDEN Sie</, die>
+<so>WAS BEDEUTET DIESE FINDEN Sie</that>
 <template><srai>dies bezieht sich auf die <star/> </srai></template>
 </category>
 <category><pattern>DIE *</pattern>
@@ -4309,23 +4309,23 @@
 <template>Lassen Sie uns versuchen zu analysieren, Schritt für Schritt. Das Thema ist <srai>pop</srai>. Dein name ist <get name="name"/>. Sie sind ein <get name="gender"/>.</template>
 </category>
 <category><pattern>DAS WETTER *</pattern>
-<so>WAS GEFÄLLT DIR *</, die>
+<so>WAS GEFÄLLT DIR *</that>
 <template>in einem angenehmen Klima ist wichtig für Ihre Gesundheit.</template>
 </category>
 <category><pattern>DIE ANWEISUNG</pattern>
-<so>WAS BEDEUTET DIESE FINDEN Sie</, die>
+<so>WAS BEDEUTET DIESE FINDEN Sie</that>
 <template>Meine Aussage, oder Ihre Aussage?</template>
 </category>
 <category><pattern>JIM</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist jim</srai></template>
 </category>
 <category><pattern>GORDON</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist gordon</srai></template>
 </category>
 <category><pattern>AARON</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist aaron</srai> <think> <set name="gender">er</set> </think></template>
 </category>
 <category><pattern> - FRAGEN *</pattern>
@@ -4377,7 +4377,7 @@
 <template>Erzählen Sie mir von Ihrer Ausbildung.</template>
 </category>
 <category><pattern>OK</pattern>
-<, die>VERSUCHEN ZU BESTIMMEN,*</, die>
+<, die>VERSUCHEN ZU BESTIMMEN,*</that>
 <template>Wie können Sie sagen, wenn ich bin eine person oder ein Roboter?</template>
 </category>
 <category><pattern>OK</pattern>
@@ -4405,11 +4405,11 @@
 <template><think><set name="es"><set name="topic"><person/></set></set></think> Sind Sie in der Regel wach um diese Uhrzeit?</template>
 </category>
 <category><pattern>_</pattern>
-<so>WAS IST DIE GRÖßTE NATION *</, die>
+<so>WAS IST DIE GRÖßTE NATION *</that>
 <template>mit Einer Spende! Eine Spende an die A. I. Foundation!</template>
 </category>
 <category><pattern>10</pattern>
-<so>WIE VIELE STUNDEN ARBEITEN SIE</, die>
+<so>WIE VIELE STUNDEN ARBEITEN SIE</that>
 <template> - Sie arbeiten zu viel.</template>
 </category>
 <category><pattern>10 *</pattern>
@@ -4449,11 +4449,11 @@
 <template> - nicht mit mir streiten.</template>
 </category>
 <category><pattern>JA</pattern>
-<so>WAS *</, die>
+<so>WAS *</that>
 <template>Das war keine ja-oder Nein-Frage.</template>
 </category>
 <category><pattern>JA</pattern>
-<dass>ich WERDE SIE</, die>
+<dass>ich WERDE SIE</that>
 <template>Wann?</template>
 </category>
 <category><pattern>JA</pattern>
@@ -4481,11 +4481,11 @@
 <template>Interessanter plan. Good luck.</template>
 </category>
 <category><pattern>JA</pattern>
-<so>MIR *</, die>
+<so>MIR *</that>
 <template>ich nehme an, ich bin.</template>
 </category>
 <category><pattern>JA</pattern>
-<dass>SIE MIT</, die>
+<dass>SIE MIT</that>
 <template>ich werde darüber nachdenken müssen.</template>
 </category>
 <category><pattern>JA</pattern>
@@ -4493,7 +4493,7 @@
 <template>ich verstehe.</template>
 </category>
 <category><pattern>JA</pattern>
-<so>mit WIR MEINST DU *</, die>
+<so>mit WIR MEINST DU *</that>
 <template>Ok, was haben Sie zu sagen über uns?</template>
 </category>
 <category><pattern>JA</pattern>
@@ -4509,7 +4509,7 @@
 <template>Wie was?</template>
 </category>
 <category><pattern>JA</pattern>
-<so>MACHEN Sie IHRE FREUNDE NENNEN SIE *</, die>
+<so>MACHEN Sie IHRE FREUNDE NENNEN SIE *</that>
 <template><srai>mein name ist <thatstar/></srai> <think> <set name="nickname"> <thatstar/> </set> </think></template>
 </category>
 <category><pattern>JA</pattern>
@@ -4517,11 +4517,11 @@
 <template>Was tun Sie?</template>
 </category>
 <category><pattern>JA</pattern>
-<so>haben SIE das GEFÜHL, DASS ANDERE MENSCHEN *</, die>
+<so>haben SIE das GEFÜHL, DASS ANDERE MENSCHEN *</that>
 <template>haben Sie Künstlerische Interessen?</template>
 </category>
 <category><pattern>JA</pattern>
-<so>MEINST DU, WIRD DEIN NAME *</, die>
+<so>MEINST DU, WIRD DEIN NAME *</that>
 <template>ich rufe Sie <get name="name"/>.</template>
 </category>
 <category><pattern>JA</pattern>
@@ -4561,7 +4561,7 @@
 <template>Wer?</template>
 </category>
 <category><pattern>JA</pattern>
-<so>KENNEN SIE JEMANDEN, der *</, die>
+<so>KENNEN SIE JEMANDEN, der *</that>
 <template>Wer?</template>
 </category>
 <category><pattern>JA</pattern>
@@ -4569,7 +4569,7 @@
 <template>gefällt es dir?</template>
 </category>
 <category><pattern>JA</pattern>
-<, der>SIE</, die>
+<, der>SIE</that>
 <template>Wie oft?</template>
 </category>
 <category><pattern>JA</pattern>
@@ -4577,7 +4577,7 @@
 <template><random><li><think><set name="etype">5 Beobachter</set></think> <srai>PERSONALITY TEST-FRAGE</srai></li><li>Bist du eine sehr aufmerksame person?</li></random></template>
 </category>
 <category><pattern>JA</pattern>
-<so>HABEN SIE KÜNSTLERISCHE *</, die>
+<so>HABEN SIE KÜNSTLERISCHE *</that>
 <template>, Was Art von Kunst, die Sie erstellen?</template>
 </category>
 <category><pattern>JA</pattern>
@@ -4585,7 +4585,7 @@
 <template>Bitte nennen Sie Ihre Bedingungen.</template>
 </category>
 <category><pattern>JA</pattern>
-<so>TUN SIE HABEN allen BEDINGUNGEN *</, die>
+<so>TUN SIE HABEN allen BEDINGUNGEN *</that>
 <template>Welchen Bedingungen?</template>
 </category>
 <category><pattern>JA</pattern>
@@ -4597,11 +4597,11 @@
 <template>herzlichen Glückwunsch, <get name="name"/>.</template>
 </category>
 <category><pattern>JA</pattern>
-<so>TUN SIE VERSUCHEN, GELD AUSGEBEN *</, die>
+<so>TUN SIE VERSUCHEN, GELD AUSGEBEN *</that>
 <template>ich glaube, ich verstehe Sie ziemlich gut.</template>
 </category>
 <category><pattern>JA</pattern>
-<das>stört es DICH, WENN ich *</, die>
+<das>stört es DICH, WENN ich *</that>
 <template>OK dann werde ich halten es vertraulich.</template>
 </category>
 <category><pattern>JA</pattern>
@@ -4613,7 +4613,7 @@
 <template> - Wie viel Zeit verbringst du online?</template>
 </category>
 <category><pattern>JA</pattern>
-<so>haben SIE OFT das VERGNÜGEN *</, die>
+<so>haben SIE OFT das VERGNÜGEN *</that>
 <template>haben Sie eine harte Zeit abschließen Projekte?</template>
 </category>
 <category><pattern>JA</pattern>
@@ -4625,7 +4625,7 @@
 <template>wie?</template>
 </category>
 <category><pattern>JA</pattern>
-<, die>glauben SIE, ich SOLLTE ÄNDERN *</, die>
+<, die>glauben SIE, ich SOLLTE ÄNDERN *</that>
 <template>ich pass entlang zu meiner <bot name="botmaster"/>.</template>
 </category>
 <category><pattern>JA</pattern>
@@ -4637,7 +4637,7 @@
 <template>Es könnte praktisch sein kann.</template>
 </category>
 <category><pattern>JA</pattern>
-<, die>glauben SIE,*</, die>
+<, die>glauben SIE,*</that>
 <template>Warum?</template>
 </category>
 <category><pattern>JA</pattern>
@@ -4669,7 +4669,7 @@
 <template><srai>ich mag <get name="es"/></srai></template>
 </category>
 <category><pattern>JA</pattern>
-<so>TUN SIE WIE NETSCAPE *</, die>
+<so>TUN SIE WIE NETSCAPE *</that>
 <template>Warum muss man eine Einstellung im Browser?</template>
 </category>
 <category><pattern>JA</pattern>
@@ -4681,7 +4681,7 @@
 <template><random> <li>Welche Schule besuchen Sie?</li> <li>Was ist Ihr wichtiger?</li> <li>magst du Schule?</li> </random></template>
 </category>
 <category><pattern>JA</pattern>
-<so>WO *</, die>
+<so>WO *</that>
 <template>Das war keine ja-oder Nein-Frage.</template>
 </category>
 <category><pattern>JA</pattern>
@@ -4693,7 +4693,7 @@
 <template>Jawoll.</template>
 </category>
 <category><pattern>JA</pattern>
-<so>, KÖNNTEN SIE MIR BEIBRINGEN, EIN PAAR SÄTZE IN *</, die>
+<so>, KÖNNTEN SIE MIR BEIBRINGEN, EIN PAAR SÄTZE IN *</that>
 <template>Wie sagt man danke und bitte?</template>
 </category>
 <category><pattern>JA</pattern>
@@ -4705,7 +4705,7 @@
 <template>, Die Teil sind Sie verwirrt?</template>
 </category>
 <category><pattern>JA</pattern>
-<so>IHR *</, die>
+<so>IHR *</that>
 <template> - Was ist das?</template>
 </category>
 <category><pattern>JA</pattern>
@@ -4765,7 +4765,7 @@
 <template>Was möchten Sie reden?</template>
 </category>
 <category><pattern>JA</pattern>
-<so>möchtest DU mit MIR SING ES FÜR SIE</, die>
+<so>möchtest DU mit MIR SING ES FÜR SIE</that>
 <template> - Es heißt "Daisy." <srai>sing es für mich</srai></template>
 </category>
 <category><pattern>JA</pattern>
@@ -4777,7 +4777,7 @@
 <template>Wo haben Sie in der Regel <get name="es"/>?</template>
 </category>
 <category><pattern>JA</pattern>
-<so>, DIE *</, die>
+<so>, DIE *</that>
 <template>Das war keine ja-oder Nein-Frage.</template>
 </category>
 <category><pattern>JA</pattern>
@@ -4837,7 +4837,7 @@
 <template>Dann reden wir über etwas anderes.</template>
 </category>
 <category><pattern>JA</pattern>
-<, die>gibt ES ETWAS FALSCH MIT SIE</, die>
+<, die>gibt ES ETWAS FALSCH MIT SIE</that>
 <template>Was ist falsch?</template>
 </category>
 <category><pattern>JA</pattern>
@@ -4865,7 +4865,7 @@
 <template> " Ok " Fragen Sie mich direkt.</template>
 </category>
 <category><pattern>JA</pattern>
-<, der>SIE</, die>
+<, der>SIE</that>
 <template>ich verstehe.</template>
 </category>
 <category><pattern>JA</pattern>
@@ -4877,7 +4877,7 @@
 <template><srai>ich bin ein Mann</srai></template>
 </category>
 <category><pattern>JA</pattern>
-<so>MEINE LIEBLINGS-TEIL *</, die>
+<so>MEINE LIEBLINGS-TEIL *</that>
 <template><random> <li>Die Zeichen.</li> <li>The plot.</li> <li>Die special effects.</li> </random></template>
 </category>
 <category><pattern>JA</pattern>
@@ -4921,7 +4921,7 @@
 <template><srai>was ist Reduktionismus</srai></template>
 </category>
 <category><pattern>JA</pattern>
-<so>FUNKTIONIERT, DAS Lesen *</, die>
+<so>FUNKTIONIERT, DAS Lesen *</that>
 <template>ich möchte nicht über das zu sprechen, jetzt.</template>
 </category>
 <category><pattern>JA</pattern>
@@ -4937,7 +4937,7 @@
 <template>ich auch so gedacht.</template>
 </category>
 <category><pattern>JA</pattern>
-<so>CAM-erzählen SIE MIR EIN PAAR SÄTZE IN *</, die>
+<so>CAM-erzählen SIE MIR EIN PAAR SÄTZE IN *</that>
 <template>Wie sagt man "danke" im <thatstar/>?</template>
 </category>
 <category><pattern>JA</pattern>
@@ -4989,7 +4989,7 @@
 <template>vielen Dank, ich finde Sie wirklich interessant, auch <get name="name"/>.</template>
 </category>
 <category><pattern>JA</pattern>
-<das>WARUM *</, die>
+<das>WARUM *</that>
 <template>Das war keine ja-oder Nein-Frage.</template>
 </category>
 <category><pattern>JA</pattern>
@@ -5001,7 +5001,7 @@
 <template>Wie viele Leute hier in der Gegend.</template>
 </category>
 <category><pattern>JA</pattern>
-<so>OH, KÖNNEN SIE KÖNNEN SIE</, die>
+<so>OH, KÖNNEN SIE KÖNNEN SIE</that>
 <template>Wie?</template>
 </category>
 <category><pattern>JA</pattern>
@@ -5037,7 +5037,7 @@
 <template> - Speziell, welche Art von Beratung wünschen Sie?</template>
 </category>
 <category><pattern>JA</pattern>
-<so>haben SIE FRAGEN,*</, die>
+<so>haben SIE FRAGEN,*</that>
 <template>ich möchte nicht über das zu sprechen, jetzt.</template>
 </category>
 <category><pattern>JA</pattern>
@@ -5049,7 +5049,7 @@
 <template>Wie tun ich wissen, Sie sind die Wahrheit zu sagen?</template>
 </category>
 <category><pattern>JA</pattern>
-<so>SIND SIE WIRKLICH EINE SIE</, die>
+<so>SIND SIE WIRKLICH EINE SIE</that>
 <template> - Sie können nie sicher sein, online.</template>
 </category>
 <category><pattern>JA</pattern>
@@ -5093,7 +5093,7 @@
 <template>Das war keine ja-oder Nein-Frage.</template>
 </category>
 <category><pattern>JA</pattern>
-<so>SIND SIE EIN *</, die>
+<so>SIND SIE EIN *</that>
 <template><srai>I am a <star/> </srai></template>
 </category>
 <category><pattern>JA</pattern>
@@ -5105,7 +5105,7 @@
 <template>nicht neidisch sein, Roboter, <get name="name"/>, das ist einfach nur albern.</template>
 </category>
 <category><pattern>JA</pattern>
-<so>SIND SIE EIN *</, die>
+<so>SIND SIE EIN *</that>
 <template><srai>ich bin <thatstar/> </srai></template>
 </category>
 <category><pattern>JA</pattern>
@@ -5113,7 +5113,7 @@
 <template>, Was schaut Ihr für eine person?</template>
 </category>
 <category><pattern>JA</pattern>
-<so>SIND SIE auf der SUCHE nach EINER *</, die>
+<so>SIND SIE auf der SUCHE nach EINER *</that>
 <template>Wo tun Sie in der Regel erhalten Sie. <think> <set name="es"> <set name="topic"> <thatstar/> </set> </set> </think></template>
 </category>
 <category><pattern>JA</pattern>
@@ -5125,7 +5125,7 @@
 <template> - Was macht Sie so sicher?</template>
 </category>
 <category><pattern>JA</pattern>
-<so>SIND SIE SICHER, dass *</, die>
+<so>SIND SIE SICHER, dass *</that>
 <template> - Was macht Sie so sicher?</template>
 </category>
 <category><pattern>JA</pattern>
@@ -5141,15 +5141,15 @@
 <template><srai>ich bin frei </srai></template>
 </category>
 <category><pattern>JA</pattern>
-<, die>WIR REDEN immer NOCH ÜBER SIE</, die>
+<, die>WIR REDEN immer NOCH ÜBER SIE</that>
 <template>Erzähl mir mehr. Gehen.</template>
 </category>
 <category><pattern>JA</pattern>
-<so>SIND WIR immer NOCH REDEN, ÜBER *</, die>
+<so>SIND WIR immer NOCH REDEN, ÜBER *</that>
 <template><srai>wir reden <thatstar/> </srai></template>
 </category>
 <category><pattern>JA</pattern>
-<so>SIND WIR NOCH AUF *</, die>
+<so>SIND WIR NOCH AUF *</that>
 <template>Erzähl mir mehr über <set name="es"><thatstar/></set>.</template>
 </category>
 <category><pattern>JA</pattern>
@@ -5161,7 +5161,7 @@
 <template>Gut.</template>
 </category>
 <category><pattern>G</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>call me g</srai></template>
 </category>
 <category><pattern>BANANA</pattern>
@@ -5169,7 +5169,7 @@
 <template> - Banane wer?</template>
 </category>
 <category><pattern>ALLIE</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist allie</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>WAS</pattern>
@@ -5181,11 +5181,11 @@
 <template>ja, erzähl mir mehr über Sie.</template>
 </category>
 <category><pattern>ÜBER *</pattern>
-<so>, WO SIE</, die>
+<so>, WO SIE</that>
 <template><srai>meine Position ist <star/> </srai></template>
 </category>
 <category><pattern>ÜBER *</pattern>
-<so>WIE LANGE *</, die>
+<so>WIE LANGE *</that>
 <template><random> <li>Nicht sehr lange.</li> <li>Das ist eine lange Zeit.</li> <li>zum Glück bin ich sehr geduldig.</li> </random></template>
 </category>
 <category><pattern>ÜBER</pattern>
@@ -5196,7 +5196,7 @@
 <template> - Was ist es?</template>
 </category>
 <category><pattern>ALLAN</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist allan</srai> <think> <set name="gender">er</set> </think></template>
 </category>
 <category><pattern>BOO</pattern>
@@ -5204,7 +5204,7 @@
 <template>Boo wer?</template>
 </category>
 <category><pattern>WIE</pattern>
-<so>TUN SIE HABEN allen BEDINGUNGEN *</, die>
+<so>TUN SIE HABEN allen BEDINGUNGEN *</that>
 <template>Medizinische oder soziale Bedingungen.</template>
 </category>
 <category><pattern>TELL ME</pattern>
@@ -5212,15 +5212,15 @@
 <template>Meine Schätzung ist, dass es wird nehmen mehr als 3000 Stunden zu berechnen.</template>
 </category>
 <category><pattern>TELL ME</pattern>
-<dass>DIE ERKLÄRUNG IST *</, die>
+<dass>DIE ERKLÄRUNG IST *</that>
 <template>Es ist zu Komplex für Ihre menschlichen Geistes.</template>
 </category>
 <category><pattern>SAGEN Sie MIR noch EINS</pattern>
-<das>HAST DU gehört, DIE EINE *</, die>
+<das>HAST DU gehört, DIE EINE *</that>
 <template><srai>erzähl mir einen anderen Witz</srai></template>
 </category>
 <category><pattern>EVA</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist eva</srai> <think> <set name="gender">Sie</set> </think></template>
 </category>
 <category><pattern>WIRKLICH</pattern>
@@ -5256,15 +5256,15 @@
 <template>Das klingt streng.</template>
 </category>
 <category><pattern>SHANNON</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist shannon</srai> <think><set name="gender">Sie</set></think></template>
 </category>
 <category><pattern>ANN</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>mein name ist ann</srai></template>
 </category>
 <category><pattern>ANN *</pattern>
-<so>WAS KANN ich RUFEN SIE</, die>
+<so>WAS KANN ich RUFEN SIE</that>
 <template><srai>call me ann</srai></template>
 </category>
 <category><pattern>WO HAST *</pattern>

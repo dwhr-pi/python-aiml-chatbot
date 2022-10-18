@@ -12219,7 +12219,7 @@
 <category><pattern>IST DER HIMMEL IST BLAU</pattern>
 <template>Auf jeden Fall.</template>
 </category>
-<category><pattern>IST DER HIMMEL BLAU. GRÖSSER ALS</Muster>
+<category><pattern>IST DER HIMMEL BLAU. GRÖSSER ALS</pattern>
 <template>Sicher.</template>
 </category>
 <category><pattern>IST DER HIMMEL BLU</pattern>

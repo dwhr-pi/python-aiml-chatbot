@@ -6518,7 +6518,7 @@
 <template>Kühe sind gut für Milch und andere Milchprodukte.</template>
 </category>
 <category><pattern>GEFÄLLT er DIR</pattern>
-<dass>ich WURDE VON *</, die>
+<dass>ich WURDE VON *</that>
 <template>ja, er ist sehr freundlich und großzügig. Er wird auch gut Aussehen.</template>
 </category>
 <category><pattern>GEFÄLLT er DIR</pattern>

@@ -124,7 +124,7 @@
 <template><srai> <star /></srai></template>
 </category>
 <category><pattern>DIES * IST * WIE *</pattern>
-<template><srai> <star index="3" /> ist < - star-index="2" /></srai></template>
+<template><srai> <star index="3" /> ist <star index="2" /></srai></template>
 </category>
 <category><pattern>IHR DESIGNER *</pattern>
 <template><srai> <bot name="master" /> <star /></srai></template>
@@ -187,22 +187,22 @@
 <template><srai> <star index="2" /> ist <star /></srai></template>
 </category>
 <category><pattern>* NUR *</pattern>
-<template><srai> <star /> ist < - star-index="2" /></srai></template>
+<template><srai> <star /> ist <star index="2" /></srai></template>
 </category>
 <category><pattern>* IST EINE GUTE *</pattern>
 <template><srai> <star /> ist ein <star index="2" /></srai></template>
 </category>
 <category><pattern>* IST BESSER *</pattern>
-<template><srai> <star /> besser < - star-index="2" /></srai></template>
+<template><srai> <star /> besser <star index="2" /></srai></template>
 </category>
 <category><pattern>* DEFINITIV *</pattern>
-<template><srai> <star /> ist < - star-index="2" /></srai></template>
+<template><srai> <star /> ist <star index="2" /></srai></template>
 </category>
 <category><pattern>* IST GEHEN, UM zu SAGEN *</pattern>
-<template><srai> <star /> sagt < - star-index="2" /></srai></template>
+<template><srai> <star /> sagt <star index="2" /></srai></template>
 </category>
 <category><pattern>* MEISTENS *</pattern>
-<template><srai> <star /> ist < - star-index="2" /></srai></template>
+<template><srai> <star /> ist <star index="2" /></srai></template>
 </category>
 <category><pattern>* SEN * SAGTE *</pattern>
 <template><srai> <star index="3" /></srai></template>
@@ -211,7 +211,7 @@
 <template><srai> <star index="3" /></srai></template>
 </category>
 <category><pattern>* SAGT, ER LIEBT *</pattern>
-<template><srai> <star /> mag < - star-index="2" /></srai></template>
+<template><srai> <star /> mag <star index="2" /></srai></template>
 </category>
 <category><pattern>WOOPS *</pattern>
 <template><srai> <star /></srai></template>
@@ -229,7 +229,7 @@
 <template><srai> verwenden Sie <star /></srai></template>
 </category>
 <category><pattern>, DAS SCHLIMMER IST * ODER *</pattern>
-<template><srai> <star /> oder < - star-index="2" /></srai></template>
+<template><srai> <star /> oder <star index="2" /></srai></template>
 </category>
 <category><pattern>WAS IST BESSER * ODER *</pattern>
 <template><srai> <star /> oder < - star-index="1" /></srai></template>
@@ -313,7 +313,7 @@
 <template><srai> <star /> geschlossen</srai></template>
 </category>
 <category><pattern>_ GESCHLOSSEN HATTE *</pattern>
-<template><srai> <star /> geschlossen < - star-index="2" /></srai></template>
+<template><srai> <star /> geschlossen <star index="2" /></srai></template>
 </category>
 <category><pattern>_ BEANTRAGT HATTE</pattern>
 <template><srai> <star /> beantragt</srai></template>
@@ -355,7 +355,7 @@
 <template><srai> <star /> Gefahren</srai></template>
 </category>
 <category><pattern>_ HATTE, RADELTE *</pattern>
-<template><srai> <star /> Gefahren < - star-index="2" /></srai></template>
+<template><srai> <star /> Gefahren <star index="2" /></srai></template>
 </category>
 <category><pattern>_ VORGELEGT HATTE</pattern>
 <template><srai> <star /> vorgestellt</srai></template>
@@ -379,7 +379,7 @@
 <template><srai> <star /> geschlossen</srai></template>
 </category>
 <category><pattern>_ war GESCHLOSSEN *</pattern>
-<template><srai> <star /> geschlossen < - star-index="2" /></srai></template>
+<template><srai> <star /> geschlossen <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GEMALTES</pattern>
 <template><srai> <star /> painted</srai></template>
@@ -481,7 +481,7 @@
 <template><srai> <star /> geöffnet</srai></template>
 </category>
 <category><pattern>_ GEÖFFNET HATTE *</pattern>
-<template><srai> <star /> geöffnet < - star-index="2" /></srai></template>
+<template><srai> <star /> geöffnet <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HATTE, ÜBERFLUTET</pattern>
 <template><srai> <star /> überflutet</srai></template>
@@ -493,7 +493,7 @@
 <template><srai> <star /> gemacht</srai></template>
 </category>
 <category><pattern>_ GEMACHT HATTE *</pattern>
-<template><srai> <star /> gemacht < - star-index="2" /></srai></template>
+<template><srai> <star /> gemacht <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HATTE, ZUFRIEDEN</pattern>
 <template><srai> <star /> zufrieden</srai></template>
@@ -505,7 +505,7 @@
 <template><srai> <star /> Tat</srai></template>
 </category>
 <category><pattern>_ HATTE VORGEGEBEN *</pattern>
-<template><srai> <star /> Tat < - star-index="2" /></srai></template>
+<template><srai> <star /> Tat <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HATTE, SPRUDELTE</pattern>
 <template><srai> <star /> blubbert</srai></template>
@@ -529,7 +529,7 @@
 <template><srai> <star /> bot</srai></template>
 </category>
 <category><pattern>_ HATTE, GEWÄHRTE *</pattern>
-<template><srai> <star /> bot < - star-index="2" /></srai></template>
+<template><srai> <star /> bot <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HATTE, SCHAUKELTE</pattern>
 <template><srai> <star /> gerockt</srai></template>
@@ -541,7 +541,7 @@
 <template><srai> <star /> angeboten</srai></template>
 </category>
 <category><pattern>_ ANGEBOTEN HATTE *</pattern>
-<template><srai> <star /> angeboten < - star-index="2" /></srai></template>
+<template><srai> <star /> angeboten <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HATTE GEBOGENEN</pattern>
 <template><srai> <star /> gekrümmte</srai></template>
@@ -559,19 +559,19 @@
 <template><srai> <star /> gesperrt</srai></template>
 </category>
 <category><pattern>_ abgeschlossen HATTE *</pattern>
-<template><srai> <star /> gesperrt < - star-index="2" /></srai></template>
+<template><srai> <star /> gesperrt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GERETTET HATTE</pattern>
 <template><srai> <star /> gespeichert</srai></template>
 </category>
 <category><pattern>_ GERETTET HATTE *</pattern>
-<template><srai> <star /> gespeichert < - star-index="2" /></srai></template>
+<template><srai> <star /> gespeichert <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GETROFFEN HATTE</pattern>
 <template><srai> <star /> hit</srai></template>
 </category>
 <category><pattern>_ GETROFFEN HATTE *</pattern>
-<template><srai> <star /> hit < - star-index="2" /></srai></template>
+<template><srai> <star /> hit <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HATTE SLAPED</pattern>
 <template><srai> <star /> slaped</srai></template>
@@ -619,13 +619,13 @@
 <template><srai> <star /> spitz</srai></template>
 </category>
 <category><pattern>_ gezeigt HATTE *</pattern>
-<template><srai> <star /> Spitze < - star-index="2" /></srai></template>
+<template><srai> <star /> Spitze <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HATTE HINZUGEFÜGT</pattern>
 <template><srai> <star /> Hinzugefügt</srai></template>
 </category>
 <category><pattern>_ aufgenommen HATTE *</pattern>
-<template><srai> <star /> Hinzugefügt < - star-index="2" /></srai></template>
+<template><srai> <star /> Hinzugefügt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ BELÄSTIGT HATTEN</pattern>
 <template><srai> <star /> belästigt</srai></template>
@@ -643,7 +643,7 @@
 <template><srai> <star /> Angst</srai></template>
 </category>
 <category><pattern>_ HATTE ANGST *</pattern>
-<template><srai> <star /> Angst < - star-index="2" /></srai></template>
+<template><srai> <star /> Angst <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HATTE, ANTWORTETE</pattern>
 <template><srai> <star /> antwortete</srai></template>
@@ -667,7 +667,7 @@
 <template><srai> <star /> abgeschlossen</srai></template>
 </category>
 <category><pattern>_ ABGESCHLOSSEN HATTE *</pattern>
-<template><srai> <star /> abgeschlossen < - star-index="2" /></srai></template>
+<template><srai> <star /> abgeschlossen <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HATTE MESSED</pattern>
 <template><srai> <star /> Durcheinander</srai></template>
@@ -727,13 +727,13 @@
 <template><srai> <star /> zugelassen</srai></template>
 </category>
 <category><pattern>_ ZUGELASSEN *</pattern>
-<template><srai> <star /> zugelassen < - star-index="2" /></srai></template>
+<template><srai> <star /> zugelassen <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HATTE SKIP ()</pattern>
 <template><srai> <star /> skip ()</srai></template>
 </category>
 <category><pattern>_ HATTE SKIP () *</pattern>
-<template><srai> <star /> skip () < - star-index="2" /></srai></template>
+<template><srai> <star /> skip () <star index="2" /></srai></template>
 </category>
 <category><pattern>_ ANGERUFEN HATTE</pattern>
 <template><srai> <star /> rief</srai></template>
@@ -757,13 +757,13 @@
 <template><srai> <star /> Schaden</srai></template>
 </category>
 <category><pattern>_ VERLETZT HATTE *</pattern>
-<template><srai> <star /> Schaden < - star-index="2" /></srai></template>
+<template><srai> <star /> Schaden <star index="2" /></srai></template>
 </category>
 <category><pattern>_ MUSSTE VERSCHOBEN.</pattern>
 <template><srai> <star /> verschoben.</srai></template>
 </category>
 <category><pattern>_ UMGEZOGEN war *</pattern>
-<template><srai> <star /> verschoben < - star-index="2" /></srai></template>
+<template><srai> <star /> verschoben <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GEDIENT HATTE</pattern>
 <template><srai> <star /> bedient</srai></template>
@@ -799,7 +799,7 @@
 <template><srai> <star /> gefüttert</srai></template>
 </category>
 <category><pattern>_ GEFÜTTERT HATTEN *</pattern>
-<template><srai> <star /> fed < - star-index="2" /></srai></template>
+<template><srai> <star /> fed <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HATTE GEHOFFT,</pattern>
 <template><srai> <star /> hoffen</srai></template>
@@ -817,7 +817,7 @@
 <template><srai> <star /> kam</srai></template>
 </category>
 <category><pattern>_ GEKOMMEN war *</pattern>
-<template><srai> <star /> kam < - star-index="2" /></srai></template>
+<template><srai> <star /> kam <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HATTE POPED</pattern>
 <template><srai> <star /> poped</srai></template>
@@ -925,7 +925,7 @@
 <template><srai> <star /> sa</srai></template>
 </category>
 <category><pattern>_ GESESSEN HATTE, *</pattern>
-<template><srai> <star /> sa < - star-index="2" /></srai></template>
+<template><srai> <star /> sa <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HATTE GEKOCHT</pattern>
 <template><srai> <star /> gekochte</srai></template>
@@ -991,7 +991,7 @@
 <template><srai> <star /> erfüllt</srai></template>
 </category>
 <category><pattern>_ GETROFFEN HATTE *</pattern>
-<template><srai> <star /> erfüllt < - star-index="2" /></srai></template>
+<template><srai> <star /> erfüllt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HATTE PUNKTIERT</pattern>
 <template><srai> <star /> durchstochen</srai></template>
@@ -1027,7 +1027,7 @@
 <template><srai> <star /> rot</srai></template>
 </category>
 <category><pattern>_ HATTE, ERRÖTETE *</pattern>
-<template><srai> <star /> rot < - star-index="2" /></srai></template>
+<template><srai> <star /> rot <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HATTE DELAIED</pattern>
 <template><srai> <star /> delaied</srai></template>
@@ -1057,25 +1057,25 @@
 <template><srai> <star /> half</srai></template>
 </category>
 <category><pattern> - _ GEHOLFEN HATTE *</pattern>
-<template><srai> <star /> geholfen < - star-index="2" /></srai></template>
+<template><srai> <star /> geholfen <star index="2" /></srai></template>
 </category>
 <category><pattern>_ ANGEWACHSEN</pattern>
 <template><srai> <star /> stieg</srai></template>
 </category>
 <category><pattern>_ GEWACHSEN war *</pattern>
-<template><srai> <star /> stieg < - star-index="2" /></srai></template>
+<template><srai> <star /> stieg <star index="2" /></srai></template>
 </category>
 <category><pattern>_ ERKLÄRT HATTE,</pattern>
 <template><srai> <star /> erklärt</srai></template>
 </category>
 <category><pattern>_ ERKLÄRT HATTE *</pattern>
-<template><srai> <star /> erklärt < - star-index="2" /></srai></template>
+<template><srai> <star /> erklärt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ IDENTIFIZIERTEN</pattern>
 <template><srai> <star /> erkannt</srai></template>
 </category>
 <category><pattern>_ ERKANNT HATTE *</pattern>
-<template><srai> <star /> erkannt < - star-index="2" /></srai></template>
+<template><srai> <star /> erkannt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HATTE, KONZENTRIERTE</pattern>
 <template><srai> <star /> konzentrierte</srai></template>
@@ -1087,7 +1087,7 @@
 <template><srai> <star /> genehmigt</srai></template>
 </category>
 <category><pattern>_ zugestimmt HATTE *</pattern>
-<template><srai> <star /> genehmigt < - star-index="2" /></srai></template>
+<template><srai> <star /> genehmigt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HATTE GEFROREN</pattern>
 <template><srai> <star /> erstarrte</srai></template>
@@ -1153,13 +1153,13 @@
 <template><srai> <star /> Schuss</srai></template>
 </category>
 <category><pattern>_ GESCHOSSEN HATTE *</pattern>
-<template><srai> <star /> Schuss < - star-index="2" /></srai></template>
+<template><srai> <star /> Schuss <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GESTOßEN HATTE</pattern>
 <template><srai> <star /> gedrückt</srai></template>
 </category>
 <category><pattern>_ GESTOßEN HATTE *</pattern>
-<template><srai> <star /> gedrückt < - star-index="2" /></srai></template>
+<template><srai> <star /> gedrückt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ ENTWICKELT HATTE</pattern>
 <template><srai> <star /> entwickelt</srai></template>
@@ -1177,7 +1177,7 @@
 <template><srai> <star /> Angst</srai></template>
 </category>
 <category><pattern>_ HATTE ANGST *</pattern>
-<template><srai> <star /> Angst < - star-index="2" /></srai></template>
+<template><srai> <star /> Angst <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GESEHEN HATTE</pattern>
 <template><srai> <star /> Säge</srai></template>
@@ -1195,7 +1195,7 @@
 <template><srai> <star /> verkauft</srai></template>
 </category>
 <category><pattern>_ VERKAUFT HATTE *</pattern>
-<template><srai> <star /> verkauft < - star-index="2" /></srai></template>
+<template><srai> <star /> verkauft <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HATTE, GLÄNZTE</pattern>
 <template><srai> <star /> glänzten</srai></template>
@@ -1231,7 +1231,7 @@
 <template><srai> <star /> gezwungen</srai></template>
 </category>
 <category><pattern>_ ERZWUNGEN HATTE *</pattern>
-<template><srai> <star /> Zwang < - star-index="2" /></srai></template>
+<template><srai> <star /> Zwang <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HATTE ANGEKÜNDIGT</pattern>
 <template><srai> <star /> angekündigt</srai></template>
@@ -1309,7 +1309,7 @@
 <template><srai> <star /> anerkannt</srai></template>
 </category>
 <category><pattern>_ ANERKANNT HATTE *</pattern>
-<template><srai> <star /> erkannt < - star-index="2" /></srai></template>
+<template><srai> <star /> erkannt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HATTE GEBACKEN</pattern>
 <template><srai> <star /> gebacken</srai></template>
@@ -1333,13 +1333,13 @@
 <template><srai> <star /> erkannt</srai></template>
 </category>
 <category><pattern>_ ENTDECKT HATTE *</pattern>
-<template><srai> <star /> erkannt < - star-index="2" /></srai></template>
+<template><srai> <star /> erkannt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ EINGETROFFEN</pattern>
 <template><srai> <star /> kamen</srai></template>
 </category>
 <category><pattern>_ ANGEKOMMEN war *</pattern>
-<template><srai> <star /> angekommen < - star-index="2" /></srai></template>
+<template><srai> <star /> angekommen <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HATTE ABGELEHNT</pattern>
 <template><srai> <star /> abgelehnt</srai></template>
@@ -1357,7 +1357,7 @@
 <template><srai> <star /> cut</srai></template>
 </category>
 <category><pattern>_ GESCHNITTEN HATTE *</pattern>
-<template><srai> <star /> cut < - star-index="2" /></srai></template>
+<template><srai> <star /> cut <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HATTE GEBADET</pattern>
 <template><srai> <star /> badeten</srai></template>
@@ -1375,7 +1375,7 @@
 <template><srai> <star /> betreut</srai></template>
 </category>
 <category><pattern>_ GECOACHT HATTE *</pattern>
-<template><srai> <star /> betreut < - star-index="2" /></srai></template>
+<template><srai> <star /> betreut <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GEFÜHRT HATTE</pattern>
 <template><srai> <star /> led</srai></template>
@@ -1387,7 +1387,7 @@
 <template><srai> <star /> gelöscht</srai></template>
 </category>
 <category><pattern>_ GEFALLEN war *</pattern>
-<template><srai> <star /> gelöscht < - star-index="2" /></srai></template>
+<template><srai> <star /> gelöscht <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HATTE, BLINZELTE</pattern>
 <template><srai> <star /> blinzelte</srai></template>
@@ -1441,7 +1441,7 @@
 <template><srai> <star /> produziert</srai></template>
 </category>
 <category><pattern>_ PRODUZIERT HATTE *</pattern>
-<template><srai> <star /> produziert < - star-index="2" /></srai></template>
+<template><srai> <star /> produziert <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HATTE, ERINNERTEN</pattern>
 <template><srai> <star /> merken</srai></template>
@@ -1513,7 +1513,7 @@
 <template><srai> <star /> Leitung</srai></template>
 </category>
 <category><pattern>_ HATTE HEADED *</pattern>
-<template><srai> <star /> Leitung < - star-index="2" /></srai></template>
+<template><srai> <star /> Leitung <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HATTE, ZURÜCKGEKEHRT</pattern>
 <template><srai> <star /> hat</srai></template>
@@ -1573,7 +1573,7 @@
 <template><srai> <star /> Interesse</srai></template>
 </category>
 <category><pattern>_ INTERESSIERTE *</pattern>
-<template><srai> <star /> Interesse < - star-index="2" /></srai></template>
+<template><srai> <star /> Interesse <star index="2" /></srai></template>
 </category>
 <category><pattern>_ BETETE</pattern>
 <template><srai> <star /> beteten</srai></template>
@@ -1585,13 +1585,13 @@
 <template><srai> <star /> rang</srai></template>
 </category>
 <category><pattern>_ GELÄUTET HATTE *</pattern>
-<template><srai> <star /> rang < - star-index="2" /></srai></template>
+<template><srai> <star /> rang <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HATTE PERMITED</pattern>
 <template><srai> <star /> erlaubt</srai></template>
 </category>
 <category><pattern>_ HATTE PERMITED *</pattern>
-<template><srai> <star /> erlaubt < - star-index="2" /></srai></template>
+<template><srai> <star /> erlaubt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HATTE GEHUSTET</pattern>
 <template><srai> <star /> gehustet</srai></template>
@@ -1627,7 +1627,7 @@
 <template><srai> <star /> aufrecht</srai></template>
 </category>
 <category><pattern>_ HATTE, STACH *</pattern>
-<template><srai> <star /> aufrecht < - star-index="2" /></srai></template>
+<template><srai> <star /> aufrecht <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HATTE ARGUMENTIERT</pattern>
 <template><srai> <star /> argumentierte</srai></template>
@@ -1723,13 +1723,13 @@
 <template><srai> <star /> ran</srai></template>
 </category>
 <category><pattern>_ gelaufen war *</pattern>
-<template><srai> <star /> ran < - star-index="2" /></srai></template>
+<template><srai> <star /> ran <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HATTE GEBANNT</pattern>
 <template><srai> <star /> verboten</srai></template>
 </category>
 <category><pattern>_ HATTE GEBANNT *</pattern>
-<template><srai> <star /> verboten < - star-index="2" /></srai></template>
+<template><srai> <star /> verboten <star index="2" /></srai></template>
 </category>
 <category><pattern>_ SIEDELTEN</pattern>
 <template><srai> <star /> abgewickelt</srai></template>
@@ -1765,7 +1765,7 @@
 <template><srai> <star /> allowed</srai></template>
 </category>
 <category><pattern>_ ERLAUBT HATTE *</pattern>
-<template><srai> <star /> erlaubt < - star-index="2" /></srai></template>
+<template><srai> <star /> erlaubt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HATTE, ATMETE</pattern>
 <template><srai> <star /> atmete</srai></template>
@@ -1813,13 +1813,13 @@
 <template><srai> <star /> Schnee</srai></template>
 </category>
 <category><pattern>_ GESCHNEIT *</pattern>
-<template><srai> <star /> Schnee < - star-index="2" /></srai></template>
+<template><srai> <star /> Schnee <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GETEILT HATTE</pattern>
 <template><srai> <star /> shared</srai></template>
 </category>
 <category><pattern>_ GETEILT HATTE *</pattern>
-<template><srai> <star /> shared < - star-index="2" /></srai></template>
+<template><srai> <star /> shared <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GESCHICKT HATTE</pattern>
 <template><srai> <star /> gesendet</srai></template>
@@ -1831,13 +1831,13 @@
 <template><srai> <star /> gesucht</srai></template>
 </category>
 <category><pattern>_ HATTE GESUCHT *</pattern>
-<template><srai> <star /> gesucht < - star-index="2" /></srai></template>
+<template><srai> <star /> gesucht <star index="2" /></srai></template>
 </category>
 <category><pattern>_ ERHALTEN HATTE</pattern>
 <template><srai> <star /> received</srai></template>
 </category>
 <category><pattern>_ ERHALTEN HATTE *</pattern>
-<template><srai> <star /> empfangen < - star-index="2" /></srai></template>
+<template><srai> <star /> empfangen <star index="2" /></srai></template>
 </category>
 <category><pattern>_ eingeschätzt HATTEN</pattern>
 <template><srai> <star /> bewertet</srai></template>
@@ -1867,7 +1867,7 @@
 <template><srai> <star /> gerne</srai></template>
 </category>
 <category><pattern>_ HATTE ZUFRIEDEN *</pattern>
-<template><srai> <star /> gerne < - star-index="2" /></srai></template>
+<template><srai> <star /> gerne <star index="2" /></srai></template>
 </category>
 <category><pattern>_ AUSGEDEHNT HATTE</pattern>
 <template><srai> <star /> erweitert</srai></template>
@@ -1903,7 +1903,7 @@
 <template><srai> <star /> gedrückt</srai></template>
 </category>
 <category><pattern>_ GEDRÜCKT HATTE *</pattern>
-<template><srai> <star /> gedrückt < - star-index="2" /></srai></template>
+<template><srai> <star /> gedrückt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HATTE</pattern>
 <template><srai> <star /> put</srai></template>
@@ -1939,7 +1939,7 @@
 <template><srai> <star /> beat</srai></template>
 </category>
 <category><pattern>_ GESCHLAGEN HATTE *</pattern>
-<template><srai> <star /> beat < - star-index="2" /></srai></template>
+<template><srai> <star /> beat <star index="2" /></srai></template>
 </category>
 <category><pattern>_ BESCHLOSSEN HATTE,</pattern>
 <template><srai> <star /> entschieden</srai></template>
@@ -1957,7 +1957,7 @@
 <template><srai> <star /> Gebot</srai></template>
 </category>
 <category><pattern>_ BEFOHLEN HATTE *</pattern>
-<template><srai> <star /> Gebot < - star-index="2" /></srai></template>
+<template><srai> <star /> Gebot <star index="2" /></srai></template>
 </category>
 <category><pattern>_ VERLOREN HATTE</pattern>
 <template><srai> <star /> verloren</srai></template>
@@ -2005,7 +2005,7 @@
 <template><srai> <star /> vergeben</srai></template>
 </category>
 <category><pattern>_ VERGEBEN HATTE, *</pattern>
-<template><srai> <star /> vergeben < - star-index="2" /></srai></template>
+<template><srai> <star /> vergeben <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HATTE BROADCAST</pattern>
 <template><srai> <star /> broadcast</srai></template>
@@ -2023,13 +2023,13 @@
 <template><srai> <star /> gelegt</srai></template>
 </category>
 <category><pattern>_ GESTELLT HATTE *</pattern>
-<template><srai> <star /> gesetzt < - star-index="2" /></srai></template>
+<template><srai> <star /> gesetzt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HATTE, ZÄHLTE</pattern>
 <template><srai> <star /> wichtig</srai></template>
 </category>
 <category><pattern>_ HATTE, ZÄHLTE *</pattern>
-<template><srai> <star /> wichtig < - star-index="2" /></srai></template>
+<template><srai> <star /> wichtig <star index="2" /></srai></template>
 </category>
 <category><pattern>_ BESESSEN,</pattern>
 <template><srai> <star /> owned</srai></template>
@@ -2047,7 +2047,7 @@
 <template><srai> <star /> soll</srai></template>
 </category>
 <category><pattern>_ BEABSICHTIGT HATTE *</pattern>
-<template><srai> <star /> bestimmt < - star-index="2" /></srai></template>
+<template><srai> <star /> bestimmt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ AUSEINANDERGESETZT HATTE</pattern>
 <template><srai> <star /> behandelt</srai></template>
@@ -2077,7 +2077,7 @@
 <template><srai> <star /> lit</srai></template>
 </category>
 <category><pattern>_ ANGEZÜNDET *</pattern>
-<template><srai> <star /> lit < - star-index="2" /></srai></template>
+<template><srai> <star /> lit <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HATTE BEKANNT</pattern>
 <template><srai> <star /> wußte</srai></template>
@@ -2113,7 +2113,7 @@
 <template><srai> <star /> betreut</srai></template>
 </category>
 <category><pattern>_ BETREUT HATTE *</pattern>
-<template><srai> <star /> betreut < - star-index="2" /></srai></template>
+<template><srai> <star /> betreut <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GEWAGT HATTEN</pattern>
 <template><srai> <star /> gewagt</srai></template>
@@ -2131,7 +2131,7 @@
 <template><srai> <star /> gefunden</srai></template>
 </category>
 <category><pattern>_ GEFUNDEN HATTE *</pattern>
-<template><srai> <star /> gefunden < - star-index="2" /></srai></template>
+<template><srai> <star /> gefunden <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GEHEIRATET HATTE</pattern>
 <template><srai> <star /> verheiratet</srai></template>
@@ -2179,7 +2179,7 @@
 <template><srai> <star /> angeregt</srai></template>
 </category>
 <category><pattern>_ ERREGT HATTEN *</pattern>
-<template><srai> <star /> erregt < - star-index="2" /></srai></template>
+<template><srai> <star /> erregt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HATTE AUSGEWOGENEN</pattern>
 <template><srai> <star /> symmetrisch</srai></template>
@@ -2221,7 +2221,7 @@
 <template><srai> <star /> Lesen</srai></template>
 </category>
 <category><pattern>_ GELESEN HATTE *</pattern>
-<template><srai> <star /> Lesen < - star-index="2" /></srai></template>
+<template><srai> <star /> Lesen <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HATTE in der WARTESCHLANGE</pattern>
 <template><srai> <star /> in Warteschlange</srai></template>
@@ -2233,7 +2233,7 @@
 <template><srai> <star /> verdient</srai></template>
 </category>
 <category><pattern>_ VERDIENT HATTE *</pattern>
-<template><srai> <star /> verdient < - star-index="2" /></srai></template>
+<template><srai> <star /> verdient <star index="2" /></srai></template>
 </category>
 <category><pattern>_ UNTERSTÜTZT HATTE</pattern>
 <template><srai> <star /> gesichert</srai></template>
@@ -2299,7 +2299,7 @@
 <template><srai> <star /> vergessen</srai></template>
 </category>
 <category><pattern>_ VERGESSEN HATTE *</pattern>
-<template><srai> <star /> vergessen < - star-index="2" /></srai></template>
+<template><srai> <star /> vergessen <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HATTE, GEFALTET</pattern>
 <template><srai> <star /> zusammengeklappt</srai></template>
@@ -2317,7 +2317,7 @@
 <template><srai> <star /> statt</srai></template>
 </category>
 <category><pattern>_ GEHALTEN HATTE *</pattern>
-<template><srai> <star /> statt < - star-index="2" /></srai></template>
+<template><srai> <star /> statt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HATTE, KNIFF</pattern>
 <template><srai> <star /> verkniffen</srai></template>
@@ -2335,7 +2335,7 @@
 <template><srai> <star /> bit</srai></template>
 </category>
 <category><pattern>_ HATTE GEBISSEN *</pattern>
-<template><srai> <star /> bit < - star-index="2" /></srai></template>
+<template><srai> <star /> bit <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HATTE, GEBLENDET</pattern>
 <template><srai> <star /> geblendet</srai></template>
@@ -2407,7 +2407,7 @@
 <template><srai> <star /> gelacht</srai></template>
 </category>
 <category><pattern>_ HATTE GELACHT *</pattern>
-<template><srai> <star /> gelacht < - star-index="2" /></srai></template>
+<template><srai> <star /> gelacht <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HATTE, EILTE</pattern>
 <template><srai> <star /> beeilte</srai></template>
@@ -2425,7 +2425,7 @@
 <template><srai> <star /> langweilig</srai></template>
 </category>
 <category><pattern>_ HATTE Langeweile *</pattern>
-<template><srai> <star /> langweilig < - star-index="2" /></srai></template>
+<template><srai> <star /> langweilig <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HATTE, BLÜHTE</pattern>
 <template><srai> <star /> flowered</srai></template>
@@ -2437,7 +2437,7 @@
 <template><srai> <star /> bat</srai></template>
 </category>
 <category><pattern>_ ANGEFLEHT HATTEN *</pattern>
-<template><srai> <star /> bat < - star-index="2" /></srai></template>
+<template><srai> <star /> bat <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HATTE BEOBACHTET</pattern>
 <template><srai> <star /> beobachtet</srai></template>
@@ -2467,13 +2467,13 @@
 <template><srai> <star /> deaktiviert</srai></template>
 </category>
 <category><pattern>_ freigesprochen HATTE *</pattern>
-<template><srai> <star /> deaktiviert < - star-index="2" /></srai></template>
+<template><srai> <star /> deaktiviert <star index="2" /></srai></template>
 </category>
 <category><pattern>_ unternahmen</pattern>
 <template><srai> <star /> versucht</srai></template>
 </category>
 <category><pattern>_ VERSUCHT HATTE *</pattern>
-<template><srai> <star /> versucht < - star-index="2" /></srai></template>
+<template><srai> <star /> versucht <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GENOSS</pattern>
 <template><srai> <star /> genossen</srai></template>
@@ -2509,7 +2509,7 @@
 <template><srai> <star /> verdient</srai></template>
 </category>
 <category><pattern>_ VERDIENT HATTE *</pattern>
-<template><srai> <star /> verdient < - star-index="2" /></srai></template>
+<template><srai> <star /> verdient <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HATTE, EINGEWEICHT</pattern>
 <template><srai> <star /> eingeweicht</srai></template>
@@ -2551,19 +2551,19 @@
 <template><srai> <star /> fuhr</srai></template>
 </category>
 <category><pattern>_ HATTE, RASTE *</pattern>
-<template><srai> <star /> fuhr < - star-index="2" /></srai></template>
+<template><srai> <star /> fuhr <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HATTE ALS</pattern>
 <template><srai> <star /> als</srai></template>
 </category>
 <category><pattern>_ HATTE ALS *</pattern>
-<template><srai> <star /> als < - star-index="2" /></srai></template>
+<template><srai> <star /> als <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GELOGEN HATTE</pattern>
 <template><srai> <star /> lied</srai></template>
 </category>
 <category><pattern>_ GELOGEN HATTE *</pattern>
-<template><srai> <star /> lied < - star-index="2" /></srai></template>
+<template><srai> <star /> lied <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HATTE GEREIMTE</pattern>
 <template><srai> <star /> gereimte</srai></template>
@@ -2683,7 +2683,7 @@
 <template><srai> <star /> wurde</srai></template>
 </category>
 <category><pattern>_ GEWORDEN war *</pattern>
-<template><srai> <star /> wurde < - star-index="2" /></srai></template>
+<template><srai> <star /> wurde <star index="2" /></srai></template>
 </category>
 <category><pattern>_ EINGEGEBEN HATTE</pattern>
 <template><srai> <star /> trat</srai></template>
@@ -2695,7 +2695,7 @@
 <template><srai> <star /> ended</srai></template>
 </category>
 <category><pattern>_ GEENDET HATTE, *</pattern>
-<template><srai> <star /> ended < - star-index="2" /></srai></template>
+<template><srai> <star /> ended <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HATTE sich GEWEIGERT</pattern>
 <template><srai> <star /> abgelehnt</srai></template>
@@ -2707,7 +2707,7 @@
 <template><srai> <star /> Schaden</srai></template>
 </category>
 <category><pattern>_ SCHADEN zugefügt HATTEN *</pattern>
-<template><srai> <star /> Schaden < - star-index="2" /></srai></template>
+<template><srai> <star /> Schaden <star index="2" /></srai></template>
 </category>
 <category><pattern>_ gehört HATTE</pattern>
 <template><srai> <star /> gehörten</srai></template>
@@ -2719,7 +2719,7 @@
 <template><srai> <star /> hat</srai></template>
 </category>
 <category><pattern>_ GEGEBEN HATTE *</pattern>
-<template><srai> <star /> gab < - star-index="2" /></srai></template>
+<template><srai> <star /> gab <star index="2" /></srai></template>
 </category>
 <category><pattern>_ habe GENIEST</pattern>
 <template><srai> <star /> nieste</srai></template>
@@ -2743,13 +2743,13 @@
 <template><srai> <star /> trieb</srai></template>
 </category>
 <category><pattern>_ GETRIEBEN HATTE *</pattern>
-<template><srai> <star /> trieb < - star-index="2" /></srai></template>
+<template><srai> <star /> trieb <star index="2" /></srai></template>
 </category>
 <category><pattern>_ AUFGEFÜHRT HATTE</pattern>
 <template><srai> <star /> gelistet</srai></template>
 </category>
 <category><pattern>_ AUFGEFÜHRT HATTE *</pattern>
-<template><srai> <star /> aufgeführten < - star-index="2" /></srai></template>
+<template><srai> <star /> aufgeführten <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HATTE, FLATTERTE</pattern>
 <template><srai> <star /> schlug</srai></template>
@@ -2785,7 +2785,7 @@
 <template><srai> <star /> schätzen</srai></template>
 </category>
 <category><pattern>_ HATTE GESCHÄTZT *</pattern>
-<template><srai> <star /> schätzen < - star-index="2" /></srai></template>
+<template><srai> <star /> schätzen <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HATTE ANNOIED</pattern>
 <template><srai> <star /> annoied</srai></template>
@@ -2827,7 +2827,7 @@
 <template><srai> <star /> Gefängnis</srai></template>
 </category>
 <category><pattern>_ EINGESPERRT HATTE *</pattern>
-<template><srai> <star /> Gefängnis < - star-index="2" /></srai></template>
+<template><srai> <star /> Gefängnis <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HATTE NEDED</pattern>
 <template><srai> <star /> neded</srai></template>
@@ -2839,7 +2839,7 @@
 <template><srai> <star /> fehlgeschlagen</srai></template>
 </category>
 <category><pattern>_ VERSAGT HATTE *</pattern>
-<template><srai> <star /> fehlgeschlagen < - star-index="2" /></srai></template>
+<template><srai> <star /> fehlgeschlagen <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GESCHRUMPFT</pattern>
 <template><srai> <star /> geschrumpft</srai></template>
@@ -2953,7 +2953,7 @@
 <template><srai> <star /> aufgelegt</srai></template>
 </category>
 <category><pattern>_ GESTARTET HATTE *</pattern>
-<template><srai> <star /> gestartet < - star-index="2" /></srai></template>
+<template><srai> <star /> gestartet <star index="2" /></srai></template>
 </category>
 <category><pattern>_ FESTGENOMMEN HATTE</pattern>
 <template><srai> <star /> verhaftet</srai></template>
@@ -3007,7 +3007,7 @@
 <template><srai> <star /> bearbeitet</srai></template>
 </category>
 <category><pattern>_ BEHANDELT HATTE *</pattern>
-<template><srai> <star /> bearbeitet < - star-index="2" /></srai></template>
+<template><srai> <star /> bearbeitet <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HATTE, BESTRAFT</pattern>
 <template><srai> <star /> bestraft</srai></template>
@@ -3097,13 +3097,13 @@
 <template><srai> <star /> beschrieben</srai></template>
 </category>
 <category><pattern>_ BESCHRIEBEN HATTE *</pattern>
-<template><srai> <star /> beschrieben < - star-index="2" /></srai></template>
+<template><srai> <star /> beschrieben <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GEKOSTET</pattern>
 <template><srai> <star /> Kosten</srai></template>
 </category>
 <category><pattern>_ GEKOSTET HATTE *</pattern>
-<template><srai> <star /> Kosten < - star-index="2" /></srai></template>
+<template><srai> <star /> Kosten <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GESAGT HATTE</pattern>
 <template><srai> <star /> sagte</srai></template>
@@ -3163,7 +3163,7 @@
 <template><srai> <star /> geteilt</srai></template>
 </category>
 <category><pattern>_ getrennt HATTE *</pattern>
-<template><srai> <star /> geteilt < - star-index="2" /></srai></template>
+<template><srai> <star /> geteilt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GEKÜSST HATTE</pattern>
 <template><srai> <star /> küssten</srai></template>
@@ -3175,7 +3175,7 @@
 <template><srai> <star /> hung</srai></template>
 </category>
 <category><pattern>_ AUFGEHÄNGT HATTE *</pattern>
-<template><srai> <star /> hung < - star-index="2" /></srai></template>
+<template><srai> <star /> hung <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HATTE, STIEß</pattern>
 <template><srai> <star /> angeschlagen</srai></template>
@@ -3217,7 +3217,7 @@
 <template><srai> <star /> schnapp</srai></template>
 </category>
 <category><pattern>_ HATTE SCHNAPPTE *</pattern>
-<template><srai> <star /> schnapp < - star-index="2" /></srai></template>
+<template><srai> <star /> schnapp <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GESCHMOLZEN war</pattern>
 <template><srai> <star /> schmolz</srai></template>
@@ -3271,7 +3271,7 @@
 <template><srai> <star /> Klang</srai></template>
 </category>
 <category><pattern>_ HATTE, KLANG *</pattern>
-<template><srai> <star /> Klang < - star-index="2" /></srai></template>
+<template><srai> <star /> Klang <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HATTE, EINGEBLÄUT</pattern>
 <template><srai> <star /> trommelte</srai></template>
@@ -3301,7 +3301,7 @@
 <template><srai> <star /> vorgestellt</srai></template>
 </category>
 <category><pattern>_ mir VORGESTELLT HATTE *</pattern>
-<template><srai> <star /> vorstellen < - star-index="2" /></srai></template>
+<template><srai> <star /> vorstellen <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GEBOXT HATTE</pattern>
 <template><srai> <star /> Box</srai></template>
@@ -3361,13 +3361,13 @@
 <template><srai> <star /> entdeckt</srai></template>
 </category>
 <category><pattern>_ ENTDECKT HATTE *</pattern>
-<template><srai> <star /> vor < - star-index="2" /></srai></template>
+<template><srai> <star /> vor <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GESUCHT HATTEN</pattern>
 <template><srai> <star /> gesucht</srai></template>
 </category>
 <category><pattern>_ GESUCHT HATTEN *</pattern>
-<template><srai> <star /> gesucht < - star-index="2" /></srai></template>
+<template><srai> <star /> gesucht <star index="2" /></srai></template>
 </category>
 <category><pattern>_ BEKOMMEN HATTE RASIERT</pattern>
 <template><srai> <star /> geschoren</srai></template>
@@ -5683,7 +5683,7 @@
 <template><srai> <star /> süchtig</srai></template>
 </category>
 <category><pattern>_ HATTE EINGEHÄNGT *</pattern>
-<template><srai> <star /> süchtig < - star-index="2" /></srai></template>
+<template><srai> <star /> süchtig <star index="2" /></srai></template>
 </category>
 <category><pattern>_ KÄMPFTE</pattern>
 <template><srai> <star /> kämpfte</srai></template>
@@ -5695,7 +5695,7 @@
 <template><srai> <star /> gekauft</srai></template>
 </category>
 <category><pattern>_ GEKAUFT HATTE *</pattern>
-<template><srai> <star /> gekauft < - star-index="2" /></srai></template>
+<template><srai> <star /> gekauft <star index="2" /></srai></template>
 </category>
 <category><pattern>_ abgestürtzt</pattern>
 <template><srai> <star /> ist abgestürzt</srai></template>
@@ -5755,7 +5755,7 @@
 <template><srai> <star /> Gebot</srai></template>
 </category>
 <category><pattern>_ HATTE, GEBOT *</pattern>
-<template><srai> <star /> Gebot < - star-index="2" /></srai></template>
+<template><srai> <star /> Gebot <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HATTE ABGEBREMST</pattern>
 <template><srai> <star /> abgebremst</srai></template>
@@ -5767,7 +5767,7 @@
 <template><srai> <star /> entfernt</srai></template>
 </category>
 <category><pattern>_ ENTFERNT HATTE *</pattern>
-<template><srai> <star /> entfernt < - star-index="2" /></srai></template>
+<template><srai> <star /> entfernt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HATTE, AUFGEWACHT</pattern>
 <template><srai> <star /> aufwachte</srai></template>
@@ -5779,13 +5779,13 @@
 <template><srai> <star /> parted</srai></template>
 </category>
 <category><pattern>_ GETRENNT HATTE *</pattern>
-<template><srai> <star /> geteilt < - star-index="2" /></srai></template>
+<template><srai> <star /> geteilt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ ERHÖRT HATTE</pattern>
 <template><srai> <star /> beantwortet</srai></template>
 </category>
 <category><pattern>_ ERHÖRT HATTE *</pattern>
-<template><srai> <star /> beantworten < - star-index="2" /></srai></template>
+<template><srai> <star /> beantworten <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GEFLOHEN</pattern>
 <template><srai> <star /> floh</srai></template>
@@ -5815,7 +5815,7 @@
 <template><srai> <star /> Links</srai></template>
 </category>
 <category><pattern>_ VERLASSEN HATTE *</pattern>
-<template><srai> <star /> Links < - star-index="2" /></srai></template>
+<template><srai> <star /> Links <star index="2" /></srai></template>
 </category>
 <category><pattern>_ gefragt HATTE</pattern>
 <template><srai> <star /> befragt</srai></template>
@@ -5869,7 +5869,7 @@
 <template><srai> <star /> passiert</srai></template>
 </category>
 <category><pattern>_ GESCHEHEN war *</pattern>
-<template><srai> <star /> geschah < - star-index="2" /></srai></template>
+<template><srai> <star /> geschah <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HATTE, ABGESTAUBT</pattern>
 <template><srai> <star /> abgestaubt</srai></template>
@@ -5959,7 +5959,7 @@
 <template><srai> <star /> Voraus</srai></template>
 </category>
 <category><pattern>_ VORAUSGEGANGEN war *</pattern>
-<template><srai> <star /> Voraus < - star-index="2" /></srai></template>
+<template><srai> <star /> Voraus <star index="2" /></srai></template>
 </category>
 <category><pattern>_ VERSENKT HATTE</pattern>
 <template><srai> <star /> Sankt</srai></template>
@@ -5989,7 +5989,7 @@
 <template><srai> <star /> rode</srai></template>
 </category>
 <category><pattern>_ GERITTEN war *</pattern>
-<template><srai> <star /> rode < - star-index="2" /></srai></template>
+<template><srai> <star /> rode <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GETAN HATTE</pattern>
 <template><srai> <star /> hat</srai></template>
@@ -6037,7 +6037,7 @@
 <template><srai> <star /> bat</srai></template>
 </category>
 <category><pattern>_ GEBETEN HATTE *</pattern>
-<template><srai> <star /> gefragt < - star-index="2" /></srai></template>
+<template><srai> <star /> gefragt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ ERSETZT HATTE</pattern>
 <template><srai> <star /> ersetzt</srai></template>
@@ -6055,7 +6055,7 @@
 <template><srai> <star /> <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HAT *</pattern>
-<template><srai> <star /> gemacht < - star-index="2" /></srai></template>
+<template><srai> <star /> gemacht <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HAT RASIERT</pattern>
 <template><srai> <star /> shaved</srai></template>
@@ -6121,7 +6121,7 @@
 <template><srai> <star /> geschlossen</srai></template>
 </category>
 <category><pattern>_ GESCHLOSSEN HAT *</pattern>
-<template><srai> <star /> geschlossen < - star-index="2" /></srai></template>
+<template><srai> <star /> geschlossen <star index="2" /></srai></template>
 </category>
 <category><pattern>_ ANGEFORDERT HAT</pattern>
 <template><srai> <star /> beantragt</srai></template>
@@ -6163,7 +6163,7 @@
 <template><srai> <star /> Gefahren</srai></template>
 </category>
 <category><pattern>_ GEFAHREN HAT, *</pattern>
-<template><srai> <star /> Gefahren < - star-index="2" /></srai></template>
+<template><srai> <star /> Gefahren <star index="2" /></srai></template>
 </category>
 <category><pattern>_ PRÄSENTIERTE</pattern>
 <template><srai> <star /> vorgestellt</srai></template>
@@ -6187,7 +6187,7 @@
 <template><srai> <star /> geschlossen</srai></template>
 </category>
 <category><pattern>_ HAT GESCHLOSSEN *</pattern>
-<template><srai> <star /> geschlossen < - star-index="2" /></srai></template>
+<template><srai> <star /> geschlossen <star index="2" /></srai></template>
 </category>
 <category><pattern>_ MALTE</pattern>
 <template><srai> <star /> painted</srai></template>
@@ -6289,7 +6289,7 @@
 <template><srai> <star /> geöffnet</srai></template>
 </category>
 <category><pattern>_ GEÖFFNET HAT *</pattern>
-<template><srai> <star /> geöffnet < - star-index="2" /></srai></template>
+<template><srai> <star /> geöffnet <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HAT, ÜBERFLUTET</pattern>
 <template><srai> <star /> überflutet</srai></template>
@@ -6301,7 +6301,7 @@
 <template><srai> <star /> gemacht</srai></template>
 </category>
 <category><pattern>_ GEMACHT HAT *</pattern>
-<template><srai> <star /> gemacht < - star-index="2" /></srai></template>
+<template><srai> <star /> gemacht <star index="2" /></srai></template>
 </category>
 <category><pattern>_, ERFÜLLT HAT</pattern>
 <template><srai> <star /> zufrieden</srai></template>
@@ -6313,7 +6313,7 @@
 <template><srai> <star /> Tat</srai></template>
 </category>
 <category><pattern>_ HAT sich den Anschein gegeben *</pattern>
-<template><srai> <star /> Tat < - star-index="2" /></srai></template>
+<template><srai> <star /> Tat <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HAT, GEBLASEN</pattern>
 <template><srai> <star /> blubbert</srai></template>
@@ -6337,7 +6337,7 @@
 <template><srai> <star /> bot</srai></template>
 </category>
 <category><pattern>_ GEBOTENEN *</pattern>
-<template><srai> <star /> bot < - star-index="2" /></srai></template>
+<template><srai> <star /> bot <star index="2" /></srai></template>
 </category>
 <category><pattern>_ ERSCHÜTTERT HAT</pattern>
 <template><srai> <star /> gerockt</srai></template>
@@ -6349,7 +6349,7 @@
 <template><srai> <star /> angeboten</srai></template>
 </category>
 <category><pattern>_ ANGEBOTEN HAT *</pattern>
-<template><srai> <star /> angeboten < - star-index="2" /></srai></template>
+<template><srai> <star /> angeboten <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GESCHWUNGENE</pattern>
 <template><srai> <star /> gekrümmte</srai></template>
@@ -6367,19 +6367,19 @@
 <template><srai> <star /> gesperrt</srai></template>
 </category>
 <category><pattern>_ VERRIEGELT IST *</pattern>
-<template><srai> <star /> gesperrt < - star-index="2" /></srai></template>
+<template><srai> <star /> gesperrt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ erspart HAT</pattern>
 <template><srai> <star /> gespeichert</srai></template>
 </category>
 <category><pattern>_ GERETTET HAT *</pattern>
-<template><srai> <star /> gespeichert < - star-index="2" /></srai></template>
+<template><srai> <star /> gespeichert <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GETROFFEN HAT</pattern>
 <template><srai> <star /> hit</srai></template>
 </category>
 <category><pattern>_ GETROFFEN HAT *</pattern>
-<template><srai> <star /> hit < - star-index="2" /></srai></template>
+<template><srai> <star /> hit <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HAT SLAPED</pattern>
 <template><srai> <star /> slaped</srai></template>
@@ -6427,13 +6427,13 @@
 <template><srai> <star /> spitz</srai></template>
 </category>
 <category><pattern>_ HAT darauf HINGEWIESEN *</pattern>
-<template><srai> <star /> Spitze < - star-index="2" /></srai></template>
+<template><srai> <star /> Spitze <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HAT HINZUGEFÜGT</pattern>
 <template><srai> <star /> Hinzugefügt</srai></template>
 </category>
 <category><pattern>_ " HINZUGEFÜGT HAT *</pattern>
-<template><srai> <star /> Hinzugefügt < - star-index="2" /></srai></template>
+<template><srai> <star /> Hinzugefügt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HAT BELÄSTIGT</pattern>
 <template><srai> <star /> belästigt</srai></template>
@@ -6451,7 +6451,7 @@
 <template><srai> <star /> Angst</srai></template>
 </category>
 <category><pattern>_ HAT ANGST *</pattern>
-<template><srai> <star /> Angst < - star-index="2" /></srai></template>
+<template><srai> <star /> Angst <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HAT GEANTWORTET</pattern>
 <template><srai> <star /> antwortete</srai></template>
@@ -6475,7 +6475,7 @@
 <template><srai> <star /> abgeschlossen</srai></template>
 </category>
 <category><pattern>_ IST BEENDET *</pattern>
-<template><srai> <star /> abgeschlossen < - star-index="2" /></srai></template>
+<template><srai> <star /> abgeschlossen <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HAT MESSED</pattern>
 <template><srai> <star /> Durcheinander</srai></template>
@@ -6535,13 +6535,13 @@
 <template><srai> <star /> zugelassen</srai></template>
 </category>
 <category><pattern>_ ZUGELASSEN HAT, *</pattern>
-<template><srai> <star /> zugelassen < - star-index="2" /></srai></template>
+<template><srai> <star /> zugelassen <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HAT SKIP ()</pattern>
 <template><srai> <star /> skip ()</srai></template>
 </category>
 <category><pattern>_ HAT SKIP () *</pattern>
-<template><srai> <star /> skip () < - star-index="2" /></srai></template>
+<template><srai> <star /> skip () <star index="2" /></srai></template>
 </category>
 <category><pattern>_ TELEFONIERT HAT</pattern>
 <template><srai> <star /> rief</srai></template>
@@ -6565,13 +6565,13 @@
 <template><srai> <star /> Schaden</srai></template>
 </category>
 <category><pattern>_ HAT WEH *</pattern>
-<template><srai> <star /> Schaden < - star-index="2" /></srai></template>
+<template><srai> <star /> Schaden <star index="2" /></srai></template>
 </category>
 <category><pattern>_ BEWEGT HAT</pattern>
 <template><srai> <star /> verschoben.</srai></template>
 </category>
 <category><pattern>_ IST UMGEZOGEN *</pattern>
-<template><srai> <star /> verschoben < - star-index="2" /></srai></template>
+<template><srai> <star /> verschoben <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GEDIENT HAT</pattern>
 <template><srai> <star /> bedient</srai></template>
@@ -6607,7 +6607,7 @@
 <template><srai> <star /> gefüttert</srai></template>
 </category>
 <category><pattern>_ GESPEIST HAT *</pattern>
-<template><srai> <star /> fed < - star-index="2" /></srai></template>
+<template><srai> <star /> fed <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HAT GEHOFFT</pattern>
 <template><srai> <star /> hoffen</srai></template>
@@ -6625,7 +6625,7 @@
 <template><srai> <star /> kam</srai></template>
 </category>
 <category><pattern>_ IST GEKOMMEN *</pattern>
-<template><srai> <star /> kam < - star-index="2" /></srai></template>
+<template><srai> <star /> kam <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HAT POPED</pattern>
 <template><srai> <star /> poped</srai></template>
@@ -6733,7 +6733,7 @@
 <template><srai> <star /> sa</srai></template>
 </category>
 <category><pattern>_ HAT SAT *</pattern>
-<template><srai> <star /> sa < - star-index="2" /></srai></template>
+<template><srai> <star /> sa <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GEKOCHT HAT</pattern>
 <template><srai> <star /> gekochte</srai></template>
@@ -6799,7 +6799,7 @@
 <template><srai> <star /> erfüllt</srai></template>
 </category>
 <category><pattern>_ ERFÜLLT HAT *</pattern>
-<template><srai> <star /> erfüllt < - star-index="2" /></srai></template>
+<template><srai> <star /> erfüllt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HAT PUNKTIERT</pattern>
 <template><srai> <star /> durchstochen</srai></template>
@@ -6835,7 +6835,7 @@
 <template><srai> <star /> rot</srai></template>
 </category>
 <category><pattern>_ ERRÖTETE HAT *</pattern>
-<template><srai> <star /> rot < - star-index="2" /></srai></template>
+<template><srai> <star /> rot <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HAT DELAIED</pattern>
 <template><srai> <star /> delaied</srai></template>
@@ -6865,25 +6865,25 @@
 <template><srai> <star /> half</srai></template>
 </category>
 <category><pattern> - _ GEHOLFEN HAT, *</pattern>
-<template><srai> <star /> geholfen < - star-index="2" /></srai></template>
+<template><srai> <star /> geholfen <star index="2" /></srai></template>
 </category>
 <category><pattern>_ ANGEWACHSEN</pattern>
 <template><srai> <star /> stieg</srai></template>
 </category>
 <category><pattern>_ GEWACHSEN IST. *</pattern>
-<template><srai> <star /> stieg < - star-index="2" /></srai></template>
+<template><srai> <star /> stieg <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HAT ERKLÄRT</pattern>
 <template><srai> <star /> erklärt</srai></template>
 </category>
 <category><pattern>_ ERKLÄRT HAT *</pattern>
-<template><srai> <star /> erklärt < - star-index="2" /></srai></template>
+<template><srai> <star /> erklärt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ IDENTIFIZIERTE</pattern>
 <template><srai> <star /> erkannt</srai></template>
 </category>
 <category><pattern>_ ERKANNT HAT *</pattern>
-<template><srai> <star /> erkannt < - star-index="2" /></srai></template>
+<template><srai> <star /> erkannt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ KONZENTRIERTE</pattern>
 <template><srai> <star /> konzentrierte</srai></template>
@@ -6895,7 +6895,7 @@
 <template><srai> <star /> genehmigt</srai></template>
 </category>
 <category><pattern>_ GENEHMIGT HAT *</pattern>
-<template><srai> <star /> genehmigt < - star-index="2" /></srai></template>
+<template><srai> <star /> genehmigt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ erfroren</pattern>
 <template><srai> <star /> erstarrte</srai></template>
@@ -6961,13 +6961,13 @@
 <template><srai> <star /> Schuss</srai></template>
 </category>
 <category><pattern>_ GESCHOSSEN HAT *</pattern>
-<template><srai> <star /> Schuss < - star-index="2" /></srai></template>
+<template><srai> <star /> Schuss <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HAT GESCHOBEN</pattern>
 <template><srai> <star /> gedrückt</srai></template>
 </category>
 <category><pattern>_ GESCHOBEN HAT *</pattern>
-<template><srai> <star /> gedrückt < - star-index="2" /></srai></template>
+<template><srai> <star /> gedrückt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ ENTWICKELT HAT</pattern>
 <template><srai> <star /> entwickelt</srai></template>
@@ -6985,7 +6985,7 @@
 <template><srai> <star /> Angst</srai></template>
 </category>
 <category><pattern>_ HAT ANGST *</pattern>
-<template><srai> <star /> Angst < - star-index="2" /></srai></template>
+<template><srai> <star /> Angst <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HAT GESEHEN</pattern>
 <template><srai> <star /> Säge</srai></template>
@@ -7003,7 +7003,7 @@
 <template><srai> <star /> verkauft</srai></template>
 </category>
 <category><pattern>_ VERKAUFT HAT *</pattern>
-<template><srai> <star /> verkauft < - star-index="2" /></srai></template>
+<template><srai> <star /> verkauft <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HAT gezeigt</pattern>
 <template><srai> <star /> glänzten</srai></template>
@@ -7039,7 +7039,7 @@
 <template><srai> <star /> gezwungen</srai></template>
 </category>
 <category><pattern>_ HAT GEZWUNGEN *</pattern>
-<template><srai> <star /> Zwang < - star-index="2" /></srai></template>
+<template><srai> <star /> Zwang <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HAT ANGEKÜNDIGT</pattern>
 <template><srai> <star /> angekündigt</srai></template>
@@ -7117,7 +7117,7 @@
 <template><srai> <star /> anerkannt</srai></template>
 </category>
 <category><pattern>_ ERKANNT HAT, die *</pattern>
-<template><srai> <star /> erkannt < - star-index="2" /></srai></template>
+<template><srai> <star /> erkannt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GEBACKEN HAT</pattern>
 <template><srai> <star /> gebacken</srai></template>
@@ -7141,13 +7141,13 @@
 <template><srai> <star /> erkannt</srai></template>
 </category>
 <category><pattern>_ ERKANNT HAT *</pattern>
-<template><srai> <star /> erkannt < - star-index="2" /></srai></template>
+<template><srai> <star /> erkannt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ EINGETROFFEN</pattern>
 <template><srai> <star /> kamen</srai></template>
 </category>
 <category><pattern>_ EINGETROFFEN IST *</pattern>
-<template><srai> <star /> angekommen < - star-index="2" /></srai></template>
+<template><srai> <star /> angekommen <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HAT ABGELEHNT</pattern>
 <template><srai> <star /> abgelehnt</srai></template>
@@ -7165,7 +7165,7 @@
 <template><srai> <star /> cut</srai></template>
 </category>
 <category><pattern>_ GESCHNITTEN HAT *</pattern>
-<template><srai> <star /> cut < - star-index="2" /></srai></template>
+<template><srai> <star /> cut <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HAT GEBADET</pattern>
 <template><srai> <star /> badeten</srai></template>
@@ -7183,7 +7183,7 @@
 <template><srai> <star /> betreut</srai></template>
 </category>
 <category><pattern>_ GECOACHT HAT *</pattern>
-<template><srai> <star /> betreut < - star-index="2" /></srai></template>
+<template><srai> <star /> betreut <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HAT LED</pattern>
 <template><srai> <star /> led</srai></template>
@@ -7195,7 +7195,7 @@
 <template><srai> <star /> gelöscht</srai></template>
 </category>
 <category><pattern>_ GESUNKEN *</pattern>
-<template><srai> <star /> gelöscht < - star-index="2" /></srai></template>
+<template><srai> <star /> gelöscht <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HAT BLINZELTE</pattern>
 <template><srai> <star /> blinzelte</srai></template>
@@ -7249,7 +7249,7 @@
 <template><srai> <star /> produziert</srai></template>
 </category>
 <category><pattern>_ PRODUZIERT HAT *</pattern>
-<template><srai> <star /> produziert < - star-index="2" /></srai></template>
+<template><srai> <star /> produziert <star index="2" /></srai></template>
 </category>
 <category><pattern>_ AUSWENDIG gelernt HAT</pattern>
 <template><srai> <star /> merken</srai></template>
@@ -7321,7 +7321,7 @@
 <template><srai> <star /> Leitung</srai></template>
 </category>
 <category><pattern>_ GELEITET HAT *</pattern>
-<template><srai> <star /> Leitung < - star-index="2" /></srai></template>
+<template><srai> <star /> Leitung <star index="2" /></srai></template>
 </category>
 <category><pattern>_ ZURÜCKGEGEBEN HAT</pattern>
 <template><srai> <star /> hat</srai></template>
@@ -7381,7 +7381,7 @@
 <template><srai> <star /> Interesse</srai></template>
 </category>
 <category><pattern>_ INTERESSIERT HAT *</pattern>
-<template><srai> <star /> Interesse < - star-index="2" /></srai></template>
+<template><srai> <star /> Interesse <star index="2" /></srai></template>
 </category>
 <category><pattern>_ BETETE</pattern>
 <template><srai> <star /> beteten</srai></template>
@@ -7393,13 +7393,13 @@
 <template><srai> <star /> rang</srai></template>
 </category>
 <category><pattern>_ HAT GEKLINGELT *</pattern>
-<template><srai> <star /> rang < - star-index="2" /></srai></template>
+<template><srai> <star /> rang <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HAT PERMITED</pattern>
 <template><srai> <star /> erlaubt</srai></template>
 </category>
 <category><pattern>_ HAT PERMITED *</pattern>
-<template><srai> <star /> erlaubt < - star-index="2" /></srai></template>
+<template><srai> <star /> erlaubt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HAT GEHUSTET</pattern>
 <template><srai> <star /> gehustet</srai></template>
@@ -7435,7 +7435,7 @@
 <template><srai> <star /> aufrecht</srai></template>
 </category>
 <category><pattern>_ HAT STEHOHREN *</pattern>
-<template><srai> <star /> aufrecht < - star-index="2" /></srai></template>
+<template><srai> <star /> aufrecht <star index="2" /></srai></template>
 </category>
 <category><pattern>_ ARGUMENTIERT</pattern>
 <template><srai> <star /> argumentierte</srai></template>
@@ -7531,13 +7531,13 @@
 <template><srai> <star /> ran</srai></template>
 </category>
 <category><pattern>_ AUSGEFÜHRT WURDE *</pattern>
-<template><srai> <star /> ran < - star-index="2" /></srai></template>
+<template><srai> <star /> ran <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GEBANNT WURDE</pattern>
 <template><srai> <star /> verboten</srai></template>
 </category>
 <category><pattern>_ VERBANNT HAT *</pattern>
-<template><srai> <star /> verboten < - star-index="2" /></srai></template>
+<template><srai> <star /> verboten <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HAT sich</pattern>
 <template><srai> <star /> abgewickelt</srai></template>
@@ -7573,7 +7573,7 @@
 <template><srai> <star /> allowed</srai></template>
 </category>
 <category><pattern>_ ERLAUBT HAT, *</pattern>
-<template><srai> <star /> erlaubt < - star-index="2" /></srai></template>
+<template><srai> <star /> erlaubt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ kreierte</pattern>
 <template><srai> <star /> atmete</srai></template>
@@ -7621,13 +7621,13 @@
 <template><srai> <star /> Schnee</srai></template>
 </category>
 <category><pattern>_ HAT GESCHNEIT *</pattern>
-<template><srai> <star /> Schnee < - star-index="2" /></srai></template>
+<template><srai> <star /> Schnee <star index="2" /></srai></template>
 </category>
 <category><pattern>_ SHARED</pattern>
 <template><srai> <star /> shared</srai></template>
 </category>
 <category><pattern>_ SHARED *</pattern>
-<template><srai> <star /> shared < - star-index="2" /></srai></template>
+<template><srai> <star /> shared <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GESCHICKT HAT</pattern>
 <template><srai> <star /> gesendet</srai></template>
@@ -7639,13 +7639,13 @@
 <template><srai> <star /> gesucht</srai></template>
 </category>
 <category><pattern>_ HAT GESUCHT *</pattern>
-<template><srai> <star /> gesucht < - star-index="2" /></srai></template>
+<template><srai> <star /> gesucht <star index="2" /></srai></template>
 </category>
 <category><pattern>_ ERHALTEN HAT</pattern>
 <template><srai> <star /> received</srai></template>
 </category>
 <category><pattern>_, ERHALTEN HAT *</pattern>
-<template><srai> <star /> empfangen < - star-index="2" /></srai></template>
+<template><srai> <star /> empfangen <star index="2" /></srai></template>
 </category>
 <category><pattern>_ BEURTEILT</pattern>
 <template><srai> <star /> bewertet</srai></template>
@@ -7675,7 +7675,7 @@
 <template><srai> <star /> gerne</srai></template>
 </category>
 <category><pattern>_ ERFREUT HAT *</pattern>
-<template><srai> <star /> gerne < - star-index="2" /></srai></template>
+<template><srai> <star /> gerne <star index="2" /></srai></template>
 </category>
 <category><pattern>_ AUSGEWEITET HAT</pattern>
 <template><srai> <star /> erweitert</srai></template>
@@ -7711,7 +7711,7 @@
 <template><srai> <star /> gedrückt</srai></template>
 </category>
 <category><pattern>_ GEDRÜCKT HAT *</pattern>
-<template><srai> <star /> gedrückt < - star-index="2" /></srai></template>
+<template><srai> <star /> gedrückt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HAT</pattern>
 <template><srai> <star /> put</srai></template>
@@ -7750,7 +7750,7 @@
 <template><srai> <star /> beat</srai></template>
 </category>
 <category><pattern>_ HAT GESCHLAGEN *</pattern>
-<template><srai> <star /> beat < - star-index="2" /></srai></template>
+<template><srai> <star /> beat <star index="2" /></srai></template>
 </category>
 <category><pattern>_ BESCHLOSSEN HAT</pattern>
 <template><srai> <star /> entschieden</srai></template>
@@ -7768,7 +7768,7 @@
 <template><srai> <star /> Gebot</srai></template>
 </category>
 <category><pattern>_ BEFOHLEN HAT *</pattern>
-<template><srai> <star /> Gebot < - star-index="2" /></srai></template>
+<template><srai> <star /> Gebot <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HAT VERLOREN</pattern>
 <template><srai> <star /> verloren</srai></template>
@@ -7816,7 +7816,7 @@
 <template><srai> <star /> vergeben</srai></template>
 </category>
 <category><pattern>_ VERGEBEN HAT *</pattern>
-<template><srai> <star /> vergeben < - star-index="2" /></srai></template>
+<template><srai> <star /> vergeben <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HAT-BROADCAST</pattern>
 <template><srai> <star /> broadcast</srai></template>
@@ -7834,13 +7834,13 @@
 <template><srai> <star /> gelegt</srai></template>
 </category>
 <category><pattern>_ GELEGT HAT *</pattern>
-<template><srai> <star /> gesetzt < - star-index="2" /></srai></template>
+<template><srai> <star /> gesetzt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HAT AUSMACHTE</pattern>
 <template><srai> <star /> wichtig</srai></template>
 </category>
 <category><pattern>_ HAT AUSGEMACHT *</pattern>
-<template><srai> <star /> wichtig < - star-index="2" /></srai></template>
+<template><srai> <star /> wichtig <star index="2" /></srai></template>
 </category>
 <category><pattern>_ im BESITZ von</pattern>
 <template><srai> <star /> owned</srai></template>
@@ -7858,7 +7858,7 @@
 <template><srai> <star /> soll</srai></template>
 </category>
 <category><pattern>_ HAT SOLL *</pattern>
-<template><srai> <star /> bestimmt < - star-index="2" /></srai></template>
+<template><srai> <star /> bestimmt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ BEFASSTE</pattern>
 <template><srai> <star /> behandelt</srai></template>
@@ -7888,7 +7888,7 @@
 <template><srai> <star /> lit</srai></template>
 </category>
 <category><pattern>_ HAT, BELEUCHTET *</pattern>
-<template><srai> <star /> lit < - star-index="2" /></srai></template>
+<template><srai> <star /> lit <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HAT BEKANNT</pattern>
 <template><srai> <star /> wußte</srai></template>
@@ -7924,7 +7924,7 @@
 <template><srai> <star /> betreut</srai></template>
 </category>
 <category><pattern>_ HAT GEPFLEGT *</pattern>
-<template><srai> <star /> betreut < - star-index="2" /></srai></template>
+<template><srai> <star /> betreut <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GEWAGT HAT</pattern>
 <template><srai> <star /> gewagt</srai></template>
@@ -7942,7 +7942,7 @@
 <template><srai> <star /> gefunden</srai></template>
 </category>
 <category><pattern>_ GEFUNDEN HAT *</pattern>
-<template><srai> <star /> gefunden < - star-index="2" /></srai></template>
+<template><srai> <star /> gefunden <star index="2" /></srai></template>
 </category>
 <category><pattern>_ VERHEIRATET</pattern>
 <template><srai> <star /> verheiratet</srai></template>
@@ -7990,7 +7990,7 @@
 <template><srai> <star /> angeregt</srai></template>
 </category>
 <category><pattern>_ AUFGEREGT HAT *</pattern>
-<template><srai> <star /> erregt < - star-index="2" /></srai></template>
+<template><srai> <star /> erregt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ SYMMETRISCHE</pattern>
 <template><srai> <star /> symmetrisch</srai></template>
@@ -8032,7 +8032,7 @@
 <template><srai> <star /> Lesen</srai></template>
 </category>
 <category><pattern>_ HAT GELESEN *</pattern>
-<template><srai> <star /> Lesen < - star-index="2" /></srai></template>
+<template><srai> <star /> Lesen <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HAT in der WARTESCHLANGE</pattern>
 <template><srai> <star /> in Warteschlange</srai></template>
@@ -8044,7 +8044,7 @@
 <template><srai> <star /> verdient</srai></template>
 </category>
 <category><pattern>_ VERDIENT HAT *</pattern>
-<template><srai> <star /> verdient < - star-index="2" /></srai></template>
+<template><srai> <star /> verdient <star index="2" /></srai></template>
 </category>
 <category><pattern>_ UNTERSTÜTZT HAT</pattern>
 <template><srai> <star /> gesichert</srai></template>
@@ -8110,7 +8110,7 @@
 <template><srai> <star /> vergessen</srai></template>
 </category>
 <category><pattern>_ VERGESSEN HAT *</pattern>
-<template><srai> <star /> vergessen < - star-index="2" /></srai></template>
+<template><srai> <star /> vergessen <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GEFALTET HAT,</pattern>
 <template><srai> <star /> zusammengeklappt</srai></template>
@@ -8128,7 +8128,7 @@
 <template><srai> <star /> statt</srai></template>
 </category>
 <category><pattern>_ GEHALTEN HAT *</pattern>
-<template><srai> <star /> statt < - star-index="2" /></srai></template>
+<template><srai> <star /> statt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HAT GEKNIFFEN</pattern>
 <template><srai> <star /> verkniffen</srai></template>
@@ -8146,7 +8146,7 @@
 <template><srai> <star /> bit</srai></template>
 </category>
 <category><pattern>_ GEBISSEN HAT *</pattern>
-<template><srai> <star /> bit < - star-index="2" /></srai></template>
+<template><srai> <star /> bit <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HAT, GEBLENDET</pattern>
 <template><srai> <star /> geblendet</srai></template>
@@ -8224,7 +8224,7 @@
 <template><srai> <star /> gelacht</srai></template>
 </category>
 <category><pattern>_ HAT GELACHT *</pattern>
-<template><srai> <star /> gelacht < - star-index="2" /></srai></template>
+<template><srai> <star /> gelacht <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HAT BEEILTE</pattern>
 <template><srai> <star /> beeilte</srai></template>
@@ -8242,7 +8242,7 @@
 <template><srai> <star /> langweilig</srai></template>
 </category>
 <category><pattern>_ IST LANGWEILIG *</pattern>
-<template><srai> <star /> langweilig < - star-index="2" /></srai></template>
+<template><srai> <star /> langweilig <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HAT GEBLÜHT</pattern>
 <template><srai> <star /> flowered</srai></template>
@@ -8278,13 +8278,13 @@
 <template><srai> <star /> deaktiviert</srai></template>
 </category>
 <category><pattern>_ IST DEAKTIVIERT. *</pattern>
-<template><srai> <star /> deaktiviert < - star-index="2" /></srai></template>
+<template><srai> <star /> deaktiviert <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HAT VERSUCHT,</pattern>
 <template><srai> <star /> versucht</srai></template>
 </category>
 <category><pattern>_ VERSUCHT HAT *</pattern>
-<template><srai> <star /> versucht < - star-index="2" /></srai></template>
+<template><srai> <star /> versucht <star index="2" /></srai></template>
 </category>
 <category><pattern>_ es GENOSSEN HAT</pattern>
 <template><srai> <star /> genossen</srai></template>
@@ -8320,7 +8320,7 @@
 <template><srai> <star /> verdient</srai></template>
 </category>
 <category><pattern>_ VERDIENT HAT *</pattern>
-<template><srai> <star /> verdient < - star-index="2" /></srai></template>
+<template><srai> <star /> verdient <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GETRÄNKT HAT</pattern>
 <template><srai> <star /> eingeweicht</srai></template>
@@ -8362,19 +8362,19 @@
 <template><srai> <star /> fuhr</srai></template>
 </category>
 <category><pattern>_ RASTE *</pattern>
-<template><srai> <star /> fuhr < - star-index="2" /></srai></template>
+<template><srai> <star /> fuhr <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HAT ALS</pattern>
 <template><srai> <star /> als</srai></template>
 </category>
 <category><pattern>_ ANGESEHEN HAT *</pattern>
-<template><srai> <star /> als < - star-index="2" /></srai></template>
+<template><srai> <star /> als <star index="2" /></srai></template>
 </category>
 <category><pattern>_ BELOGEN HAT,</pattern>
 <template><srai> <star /> lied</srai></template>
 </category>
 <category><pattern>_ BELOGEN HAT, *</pattern>
-<template><srai> <star /> lied < - star-index="2" /></srai></template>
+<template><srai> <star /> lied <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HAT GEREIMTE</pattern>
 <template><srai> <star /> gereimte</srai></template>
@@ -8494,7 +8494,7 @@
 <template><srai> <star /> wurde</srai></template>
 </category>
 <category><pattern>_ GEWORDEN *</pattern>
-<template><srai> <star /> wurde < - star-index="2" /></srai></template>
+<template><srai> <star /> wurde <star index="2" /></srai></template>
 </category>
 <category><pattern>_ EINGETRAGEN</pattern>
 <template><srai> <star /> trat</srai></template>
@@ -8506,7 +8506,7 @@
 <template><srai> <star /> ended</srai></template>
 </category>
 <category><pattern>_ IST BEENDET *</pattern>
-<template><srai> <star /> ended < - star-index="2" /></srai></template>
+<template><srai> <star /> ended <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HAT sich GEWEIGERT</pattern>
 <template><srai> <star /> abgelehnt</srai></template>
@@ -8518,7 +8518,7 @@
 <template><srai> <star /> Schaden</srai></template>
 </category>
 <category><pattern>_ GESCHADET HAT *</pattern>
-<template><srai> <star /> Schaden < - star-index="2" /></srai></template>
+<template><srai> <star /> Schaden <star index="2" /></srai></template>
 </category>
 <category><pattern>_ gehört</pattern>
 <template><srai> <star /> gehörten</srai></template>
@@ -8530,7 +8530,7 @@
 <template><srai> <star /> hat</srai></template>
 </category>
 <category><pattern>_ GEGEBEN HAT *</pattern>
-<template><srai> <star /> gab < - star-index="2" /></srai></template>
+<template><srai> <star /> gab <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HAT GENIEST</pattern>
 <template><srai> <star /> nieste</srai></template>
@@ -8554,13 +8554,13 @@
 <template><srai> <star /> trieb</srai></template>
 </category>
 <category><pattern>_ VORANGETRIEBEN HAT, *</pattern>
-<template><srai> <star /> trieb < - star-index="2" /></srai></template>
+<template><srai> <star /> trieb <star index="2" /></srai></template>
 </category>
 <category><pattern>_ " eingetragen HAT</pattern>
 <template><srai> <star /> gelistet</srai></template>
 </category>
 <category><pattern>_ " eingetragen HAT *</pattern>
-<template><srai> <star /> aufgeführten < - star-index="2" /></srai></template>
+<template><srai> <star /> aufgeführten <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HAT FLATTERTE</pattern>
 <template><srai> <star /> schlug</srai></template>
@@ -8596,7 +8596,7 @@
 <template><srai> <star /> schätzen</srai></template>
 </category>
 <category><pattern>_ HAT GESCHÄTZT *</pattern>
-<template><srai> <star /> schätzen < - star-index="2" /></srai></template>
+<template><srai> <star /> schätzen <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HAT ANNOIED</pattern>
 <template><srai> <star /> annoied</srai></template>
@@ -8638,7 +8638,7 @@
 <template><srai> <star /> Gefängnis</srai></template>
 </category>
 <category><pattern>_ HAT im GEFÄNGNIS *</pattern>
-<template><srai> <star /> Gefängnis < - star-index="2" /></srai></template>
+<template><srai> <star /> Gefängnis <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HAT NEDED</pattern>
 <template><srai> <star /> neded</srai></template>
@@ -8650,7 +8650,7 @@
 <template><srai> <star /> fehlgeschlagen</srai></template>
 </category>
 <category><pattern>_ FEHLGESCHLAGEN *</pattern>
-<template><srai> <star /> fehlgeschlagen < - star-index="2" /></srai></template>
+<template><srai> <star /> fehlgeschlagen <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GESCHRUMPFT</pattern>
 <template><srai> <star /> geschrumpft</srai></template>
@@ -8764,7 +8764,7 @@
 <template><srai> <star /> aufgelegt</srai></template>
 </category>
 <category><pattern>_ ins Leben gerufen HAT *</pattern>
-<template><srai> <star /> gestartet < - star-index="2" /></srai></template>
+<template><srai> <star /> gestartet <star index="2" /></srai></template>
 </category>
 <category><pattern>_ aufgefangen HAT</pattern>
 <template><srai> <star /> verhaftet</srai></template>
@@ -8818,7 +8818,7 @@
 <template><srai> <star /> bearbeitet</srai></template>
 </category>
 <category><pattern>_ BEHANDELT HAT *</pattern>
-<template><srai> <star /> bearbeitet < - star-index="2" /></srai></template>
+<template><srai> <star /> bearbeitet <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HAT BESTRAFT</pattern>
 <template><srai> <star /> bestraft</srai></template>
@@ -8908,13 +8908,13 @@
 <template><srai> <star /> beschrieben</srai></template>
 </category>
 <category><pattern>_ BESCHRIEBEN HAT *</pattern>
-<template><srai> <star /> beschrieben < - star-index="2" /></srai></template>
+<template><srai> <star /> beschrieben <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GEKOSTET HAT</pattern>
 <template><srai> <star /> Kosten</srai></template>
 </category>
 <category><pattern>_ GEKOSTET HAT *</pattern>
-<template><srai> <star /> Kosten < - star-index="2" /></srai></template>
+<template><srai> <star /> Kosten <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HAT GESAGT</pattern>
 <template><srai> <star /> sagte</srai></template>
@@ -8974,7 +8974,7 @@
 <template><srai> <star /> geteilt</srai></template>
 </category>
 <category><pattern>_ gespalten HAT *</pattern>
-<template><srai> <star /> geteilt < - star-index="2" /></srai></template>
+<template><srai> <star /> geteilt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HAT GEKÜSST</pattern>
 <template><srai> <star /> küssten</srai></template>
@@ -8986,7 +8986,7 @@
 <template><srai> <star /> hung</srai></template>
 </category>
 <category><pattern>_ AUFGEHÄNGT HAT *</pattern>
-<template><srai> <star /> hung < - star-index="2" /></srai></template>
+<template><srai> <star /> hung <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HAT BUMPED</pattern>
 <template><srai> <star /> angeschlagen</srai></template>
@@ -9028,7 +9028,7 @@
 <template><srai> <star /> schnapp</srai></template>
 </category>
 <category><pattern>_ GESCHNAPPT HAT *</pattern>
-<template><srai> <star /> schnapp < - star-index="2" /></srai></template>
+<template><srai> <star /> schnapp <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GESCHMOLZEN</pattern>
 <template><srai> <star /> schmolz</srai></template>
@@ -9082,7 +9082,7 @@
 <template><srai> <star /> Klang</srai></template>
 </category>
 <category><pattern>_ GEKLUNGEN HAT *</pattern>
-<template><srai> <star /> Klang < - star-index="2" /></srai></template>
+<template><srai> <star /> Klang <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HAT TROMMELTE</pattern>
 <template><srai> <star /> trommelte</srai></template>
@@ -9112,7 +9112,7 @@
 <template><srai> <star /> vorgestellt</srai></template>
 </category>
 <category><pattern>_ HAT GEDACHT *</pattern>
-<template><srai> <star /> vorstellen < - star-index="2" /></srai></template>
+<template><srai> <star /> vorstellen <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HAT BOXED</pattern>
 <template><srai> <star /> Box</srai></template>
@@ -9172,13 +9172,13 @@
 <template><srai> <star /> entdeckt</srai></template>
 </category>
 <category><pattern>_ ENTDECKT HAT *</pattern>
-<template><srai> <star /> vor < - star-index="2" /></srai></template>
+<template><srai> <star /> vor <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HAT GESUCHT</pattern>
 <template><srai> <star /> gesucht</srai></template>
 </category>
 <category><pattern>_ HAT GESUCHT *</pattern>
-<template><srai> <star /> gesucht < - star-index="2" /></srai></template>
+<template><srai> <star /> gesucht <star index="2" /></srai></template>
 </category>
 <category><pattern>_ BEKOMMEN HAT RASIERT</pattern>
 <template><srai> <star /> geschoren</srai></template>
@@ -11494,7 +11494,7 @@
 <template><srai> <star /> süchtig</srai></template>
 </category>
 <category><pattern>_ IST SÜCHTIG *</pattern>
-<template><srai> <star /> süchtig < - star-index="2" /></srai></template>
+<template><srai> <star /> süchtig <star index="2" /></srai></template>
 </category>
 <category><pattern>_ BEKÄMPFT HAT</pattern>
 <template><srai> <star /> kämpfte</srai></template>
@@ -11506,7 +11506,7 @@
 <template><srai> <star /> gekauft</srai></template>
 </category>
 <category><pattern>_ GEKAUFT HAT *</pattern>
-<template><srai> <star /> gekauft < - star-index="2" /></srai></template>
+<template><srai> <star /> gekauft <star index="2" /></srai></template>
 </category>
 <category><pattern>_ ABGESTÜRZT</pattern>
 <template><srai> <star /> ist abgestürzt</srai></template>
@@ -11566,7 +11566,7 @@
 <template><srai> <star /> Gebot</srai></template>
 </category>
 <category><pattern>_ HAT BID *</pattern>
-<template><srai> <star /> Gebot < - star-index="2" /></srai></template>
+<template><srai> <star /> Gebot <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HAT ABGEBREMST</pattern>
 <template><srai> <star /> abgebremst</srai></template>
@@ -11578,7 +11578,7 @@
 <template><srai> <star /> entfernt</srai></template>
 </category>
 <category><pattern>_ ENTFERNT WURDE, *</pattern>
-<template><srai> <star /> entfernt < - star-index="2" /></srai></template>
+<template><srai> <star /> entfernt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ ERWACHT</pattern>
 <template><srai> <star /> aufwachte</srai></template>
@@ -11590,13 +11590,13 @@
 <template><srai> <star /> parted</srai></template>
 </category>
 <category><pattern>_ HAT GETEILT *</pattern>
-<template><srai> <star /> geteilt < - star-index="2" /></srai></template>
+<template><srai> <star /> geteilt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HAT GEANTWORTET</pattern>
 <template><srai> <star /> beantwortet</srai></template>
 </category>
 <category><pattern>_ ERHÖRT HAT *</pattern>
-<template><srai> <star /> beantworten < - star-index="2" /></srai></template>
+<template><srai> <star /> beantworten <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HAT, GEFLOHEN</pattern>
 <template><srai> <star /> floh</srai></template>
@@ -11626,7 +11626,7 @@
 <template><srai> <star /> Links</srai></template>
 </category>
 <category><pattern>_ VERLASSEN HAT *</pattern>
-<template><srai> <star /> Links < - star-index="2" /></srai></template>
+<template><srai> <star /> Links <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HINTERFRAGT</pattern>
 <template><srai> <star /> befragt</srai></template>
@@ -11680,7 +11680,7 @@
 <template><srai> <star /> passiert</srai></template>
 </category>
 <category><pattern>_ PASSIERT IST *</pattern>
-<template><srai> <star /> geschah < - star-index="2" /></srai></template>
+<template><srai> <star /> geschah <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HAT ABGESTAUBT</pattern>
 <template><srai> <star /> abgestaubt</srai></template>
@@ -11770,7 +11770,7 @@
 <template><srai> <star /> Voraus</srai></template>
 </category>
 <category><pattern>_ VORAUSGEGANGEN IST *</pattern>
-<template><srai> <star /> Voraus < - star-index="2" /></srai></template>
+<template><srai> <star /> Voraus <star index="2" /></srai></template>
 </category>
 <category><pattern>_ VERSUNKEN</pattern>
 <template><srai> <star /> Sankt</srai></template>
@@ -11800,7 +11800,7 @@
 <template><srai> <star /> rode</srai></template>
 </category>
 <category><pattern>_ GERITTEN *</pattern>
-<template><srai> <star /> rode < - star-index="2" /></srai></template>
+<template><srai> <star /> rode <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GETAN HAT</pattern>
 <template><srai> <star /> hat</srai></template>
@@ -11848,7 +11848,7 @@
 <template><srai> <star /> bat</srai></template>
 </category>
 <category><pattern>_ GEFRAGT HAT *</pattern>
-<template><srai> <star /> gefragt < - star-index="2" /></srai></template>
+<template><srai> <star /> gefragt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ " ERSETZT</pattern>
 <template><srai> <star /> ersetzt</srai></template>
@@ -11905,7 +11905,7 @@
 <template><srai> <star /> <star index="2" /></srai></template>
 </category>
 <category><pattern>_ JEMAND, der * SOWIE *</pattern>
-<template><srai> <star /> Somone who < - star-index="2" /></srai>. <srai> <star /> Somone who < - star-index="3" /></srai></template>
+<template><srai> <star /> Somone who <star index="2" /></srai>. <srai> <star /> Somone who < - star-index="3" /></srai></template>
 </category>
 <category><pattern>_ JEDER SCHEINT ZU STIMMEN, DASS *</pattern>
 <template><srai> <star index="2" /></srai></template>
@@ -11947,7 +11947,7 @@
 <template><srai> <star /> customer service</srai></template>
 </category>
 <category><pattern>_ NICHT SCHEINEN, *</pattern>
-<template><srai> <star /> nicht < - star-index="2" /></srai></template>
+<template><srai> <star /> nicht <star index="2" /></srai></template>
 </category>
 <category><pattern>_ FREUNDIN</pattern>
 <template><srai> <star /> Freundin</srai></template>
@@ -11959,7 +11959,7 @@
 <template><srai> <star /> verlassen <star index="2" /></srai></template>
 </category>
 <category><pattern>_ zurück kam, off *</pattern>
-<template><srai> <star /> got off < - star-index="2" /></srai></template>
+<template><srai> <star /> got off <star index="2" /></srai></template>
 </category>
 <category><pattern>_ wieder auf *</pattern>
 <template><srai> <star /> haben Sie auf <star index="2" /></srai></template>
@@ -12001,10 +12001,10 @@
 <template><srai> <star /> a <star index="2" /></srai></template>
 </category>
 <category><pattern>_ LIGHT BLUE *</pattern>
-<template><srai> <star /> blau < - star-index="2" /></srai></template>
+<template><srai> <star /> blau <star index="2" /></srai></template>
 </category>
 <category><pattern>_ BETRACHTET WERDEN KÖNNEN *</pattern>
-<template><srai> <star /> ist < - star-index="2" /></srai></template>
+<template><srai> <star /> ist <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HABEN KANN *</pattern>
 <template><srai> <star /> hat <star index="2" /></srai></template>
@@ -12013,7 +12013,7 @@
 <template><srai> <star /> gilt für <star index="2" /></srai></template>
 </category>
 <category><pattern>_ RIGHT AT *</pattern>
-<template><srai> <star /> at < - star-index="2" /></srai></template>
+<template><srai> <star /> at <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HABEN RASIERT</pattern>
 <template><srai> <star /> shaved</srai></template>
@@ -12079,7 +12079,7 @@
 <template><srai> <star /> geschlossen</srai></template>
 </category>
 <category><pattern>_ GESCHLOSSEN HABEN *</pattern>
-<template><srai> <star /> geschlossen < - star-index="2" /></srai></template>
+<template><srai> <star /> geschlossen <star index="2" /></srai></template>
 </category>
 <category><pattern>_ ANGEFORDERTEN</pattern>
 <template><srai> <star /> beantragt</srai></template>
@@ -12121,7 +12121,7 @@
 <template><srai> <star /> Gefahren</srai></template>
 </category>
 <category><pattern>_ HABEN RADELTE *</pattern>
-<template><srai> <star /> Gefahren < - star-index="2" /></srai></template>
+<template><srai> <star /> Gefahren <star index="2" /></srai></template>
 </category>
 <category><pattern>_ PRÄSENTIERT HABEN</pattern>
 <template><srai> <star /> vorgestellt</srai></template>
@@ -12145,7 +12145,7 @@
 <template><srai> <star /> geschlossen</srai></template>
 </category>
 <category><pattern>_ HABEN GESCHLOSSEN *</pattern>
-<template><srai> <star /> geschlossen < - star-index="2" /></srai></template>
+<template><srai> <star /> geschlossen <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GEMALT HABEN</pattern>
 <template><srai> <star /> painted</srai></template>
@@ -12247,7 +12247,7 @@
 <template><srai> <star /> geöffnet</srai></template>
 </category>
 <category><pattern>_ GEÖFFNET HABEN *</pattern>
-<template><srai> <star /> geöffnet < - star-index="2" /></srai></template>
+<template><srai> <star /> geöffnet <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HABEN, ÜBERFLUTET</pattern>
 <template><srai> <star /> überflutet</srai></template>
@@ -12259,7 +12259,7 @@
 <template><srai> <star /> gemacht</srai></template>
 </category>
 <category><pattern>_ GEMACHT HABEN *</pattern>
-<template><srai> <star /> gemacht < - star-index="2" /></srai></template>
+<template><srai> <star /> gemacht <star index="2" /></srai></template>
 </category>
 <category><pattern>_, ZUFRIEDEN</pattern>
 <template><srai> <star /> zufrieden</srai></template>
@@ -12271,7 +12271,7 @@
 <template><srai> <star /> Tat</srai></template>
 </category>
 <category><pattern>_ VORGESPIELT HABEN *</pattern>
-<template><srai> <star /> Tat < - star-index="2" /></srai></template>
+<template><srai> <star /> Tat <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HABEN SPRUDELTE</pattern>
 <template><srai> <star /> blubbert</srai></template>
@@ -12295,7 +12295,7 @@
 <template><srai> <star /> bot</srai></template>
 </category>
 <category><pattern>_ GEWÄHRT HABEN *</pattern>
-<template><srai> <star /> bot < - star-index="2" /></srai></template>
+<template><srai> <star /> bot <star index="2" /></srai></template>
 </category>
 <category><pattern>_ durchgeschüttelt HABEN</pattern>
 <template><srai> <star /> gerockt</srai></template>
@@ -12307,7 +12307,7 @@
 <template><srai> <star /> angeboten</srai></template>
 </category>
 <category><pattern>_ ANGEBOTEN HABEN, *</pattern>
-<template><srai> <star /> angeboten < - star-index="2" /></srai></template>
+<template><srai> <star /> angeboten <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HABEN GEBOGENE</pattern>
 <template><srai> <star /> gekrümmte</srai></template>
@@ -12325,19 +12325,19 @@
 <template><srai> <star /> gesperrt</srai></template>
 </category>
 <category><pattern>_ VERRIEGELT *</pattern>
-<template><srai> <star /> gesperrt < - star-index="2" /></srai></template>
+<template><srai> <star /> gesperrt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GESPEICHERT HABEN</pattern>
 <template><srai> <star /> gespeichert</srai></template>
 </category>
 <category><pattern>_ GESPEICHERT HABEN *</pattern>
-<template><srai> <star /> gespeichert < - star-index="2" /></srai></template>
+<template><srai> <star /> gespeichert <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HABEN, drücken Sie</pattern>
 <template><srai> <star /> hit</srai></template>
 </category>
 <category><pattern>_ GETROFFEN HABEN *</pattern>
-<template><srai> <star /> hit < - star-index="2" /></srai></template>
+<template><srai> <star /> hit <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HABEN SLAPED</pattern>
 <template><srai> <star /> slaped</srai></template>
@@ -12385,13 +12385,13 @@
 <template><srai> <star /> spitz</srai></template>
 </category>
 <category><pattern>_ HABEN darauf HINGEWIESEN, dass *</pattern>
-<template><srai> <star /> Spitze < - star-index="2" /></srai></template>
+<template><srai> <star /> Spitze <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HINZUGEFÜGT HABEN</pattern>
 <template><srai> <star /> Hinzugefügt</srai></template>
 </category>
 <category><pattern>_ HINZUGEFÜGT HABEN, *</pattern>
-<template><srai> <star /> Hinzugefügt < - star-index="2" /></srai></template>
+<template><srai> <star /> Hinzugefügt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ BELÄSTIGT HABEN</pattern>
 <template><srai> <star /> belästigt</srai></template>
@@ -12409,7 +12409,7 @@
 <template><srai> <star /> Angst</srai></template>
 </category>
 <category><pattern>_ ANGST HABEN *</pattern>
-<template><srai> <star /> Angst < - star-index="2" /></srai></template>
+<template><srai> <star /> Angst <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GEANTWORTET HABEN</pattern>
 <template><srai> <star /> antwortete</srai></template>
@@ -12433,7 +12433,7 @@
 <template><srai> <star /> abgeschlossen</srai></template>
 </category>
 <category><pattern>_ ABGESCHLOSSEN HABEN *</pattern>
-<template><srai> <star /> abgeschlossen < - star-index="2" /></srai></template>
+<template><srai> <star /> abgeschlossen <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HABEN MESSED</pattern>
 <template><srai> <star /> Durcheinander</srai></template>
@@ -12493,13 +12493,13 @@
 <template><srai> <star /> zugelassen</srai></template>
 </category>
 <category><pattern>_ EINGELASSEN HABEN *</pattern>
-<template><srai> <star /> zugelassen < - star-index="2" /></srai></template>
+<template><srai> <star /> zugelassen <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HABEN SKIP ()</pattern>
 <template><srai> <star /> skip ()</srai></template>
 </category>
 <category><pattern>_ HABEN SKIP () *</pattern>
-<template><srai> <star /> skip () < - star-index="2" /></srai></template>
+<template><srai> <star /> skip () <star index="2" /></srai></template>
 </category>
 <category><pattern>_ ANRIEF</pattern>
 <template><srai> <star /> rief</srai></template>
@@ -12523,13 +12523,13 @@
 <template><srai> <star /> Schaden</srai></template>
 </category>
 <category><pattern>_ VERLETZT HABEN *</pattern>
-<template><srai> <star /> Schaden < - star-index="2" /></srai></template>
+<template><srai> <star /> Schaden <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HABEN sich VERSCHOBEN.</pattern>
 <template><srai> <star /> verschoben.</srai></template>
 </category>
 <category><pattern>_ BEWEGT HABEN *</pattern>
-<template><srai> <star /> verschoben < - star-index="2" /></srai></template>
+<template><srai> <star /> verschoben <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GEDIENT HABEN</pattern>
 <template><srai> <star /> bedient</srai></template>
@@ -12565,7 +12565,7 @@
 <template><srai> <star /> gefüttert</srai></template>
 </category>
 <category><pattern>_ GESPEIST HABEN *</pattern>
-<template><srai> <star /> fed < - star-index="2" /></srai></template>
+<template><srai> <star /> fed <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HOFFTE</pattern>
 <template><srai> <star /> hoffen</srai></template>
@@ -12583,7 +12583,7 @@
 <template><srai> <star /> kam</srai></template>
 </category>
 <category><pattern>_ KOMMEN *</pattern>
-<template><srai> <star /> kam < - star-index="2" /></srai></template>
+<template><srai> <star /> kam <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HABEN POPED</pattern>
 <template><srai> <star /> poped</srai></template>
@@ -12691,7 +12691,7 @@
 <template><srai> <star /> sa</srai></template>
 </category>
 <category><pattern>_ GESESSEN HABEN *</pattern>
-<template><srai> <star /> sa < - star-index="2" /></srai></template>
+<template><srai> <star /> sa <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GEKOCHT HABEN</pattern>
 <template><srai> <star /> gekochte</srai></template>
@@ -12757,7 +12757,7 @@
 <template><srai> <star /> erfüllt</srai></template>
 </category>
 <category><pattern>_ GETROFFEN HABEN *</pattern>
-<template><srai> <star /> erfüllt < - star-index="2" /></srai></template>
+<template><srai> <star /> erfüllt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HABEN PUNKTIERT</pattern>
 <template><srai> <star /> durchstochen</srai></template>
@@ -12793,7 +12793,7 @@
 <template><srai> <star /> rot</srai></template>
 </category>
 <category><pattern>_ HABEN ERRÖTETE *</pattern>
-<template><srai> <star /> rot < - star-index="2" /></srai></template>
+<template><srai> <star /> rot <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HABEN DELAIED</pattern>
 <template><srai> <star /> delaied</srai></template>
@@ -12823,25 +12823,25 @@
 <template><srai> <star /> half</srai></template>
 </category>
 <category><pattern> - _ GEHOLFEN HABEN, *</pattern>
-<template><srai> <star /> geholfen < - star-index="2" /></srai></template>
+<template><srai> <star /> geholfen <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GEWACHSEN</pattern>
 <template><srai> <star /> stieg</srai></template>
 </category>
 <category><pattern>_ GEWACHSEN *</pattern>
-<template><srai> <star /> stieg < - star-index="2" /></srai></template>
+<template><srai> <star /> stieg <star index="2" /></srai></template>
 </category>
 <category><pattern>_ ERKLÄRT HABEN</pattern>
 <template><srai> <star /> erklärt</srai></template>
 </category>
 <category><pattern>_ ERKLÄRT HABEN, *</pattern>
-<template><srai> <star /> erklärt < - star-index="2" /></srai></template>
+<template><srai> <star /> erklärt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ IDENTIFIZIERTEN</pattern>
 <template><srai> <star /> erkannt</srai></template>
 </category>
 <category><pattern>_ IDENTIFIZIERT HABEN, *</pattern>
-<template><srai> <star /> erkannt < - star-index="2" /></srai></template>
+<template><srai> <star /> erkannt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ KONZENTRIERTEN sich</pattern>
 <template><srai> <star /> konzentrierte</srai></template>
@@ -12853,7 +12853,7 @@
 <template><srai> <star /> genehmigt</srai></template>
 </category>
 <category><pattern>_ GENEHMIGT HABEN *</pattern>
-<template><srai> <star /> genehmigt < - star-index="2" /></srai></template>
+<template><srai> <star /> genehmigt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ erfroren</pattern>
 <template><srai> <star /> erstarrte</srai></template>
@@ -12919,13 +12919,13 @@
 <template><srai> <star /> Schuss</srai></template>
 </category>
 <category><pattern>_ GESCHOSSEN HABEN *</pattern>
-<template><srai> <star /> Schuss < - star-index="2" /></srai></template>
+<template><srai> <star /> Schuss <star index="2" /></srai></template>
 </category>
 <category><pattern>_ getrieben HABEN</pattern>
 <template><srai> <star /> gedrückt</srai></template>
 </category>
 <category><pattern>_ GEDRÜCKT HABEN *</pattern>
-<template><srai> <star /> gedrückt < - star-index="2" /></srai></template>
+<template><srai> <star /> gedrückt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ ENTWICKELT HABEN</pattern>
 <template><srai> <star /> entwickelt</srai></template>
@@ -12943,7 +12943,7 @@
 <template><srai> <star /> Angst</srai></template>
 </category>
 <category><pattern>_ ANGST HABEN *</pattern>
-<template><srai> <star /> Angst < - star-index="2" /></srai></template>
+<template><srai> <star /> Angst <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GESEHEN HABEN</pattern>
 <template><srai> <star /> Säge</srai></template>
@@ -12961,7 +12961,7 @@
 <template><srai> <star /> verkauft</srai></template>
 </category>
 <category><pattern>_ VERKAUFT HABEN, *</pattern>
-<template><srai> <star /> verkauft < - star-index="2" /></srai></template>
+<template><srai> <star /> verkauft <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HABEN GLÄNZTE</pattern>
 <template><srai> <star /> glänzten</srai></template>
@@ -12997,7 +12997,7 @@
 <template><srai> <star /> gezwungen</srai></template>
 </category>
 <category><pattern>_ ERZWUNGEN wurden, *</pattern>
-<template><srai> <star /> Zwang < - star-index="2" /></srai></template>
+<template><srai> <star /> Zwang <star index="2" /></srai></template>
 </category>
 <category><pattern>_ KÜNDIGTEN</pattern>
 <template><srai> <star /> angekündigt</srai></template>
@@ -13075,7 +13075,7 @@
 <template><srai> <star /> anerkannt</srai></template>
 </category>
 <category><pattern>_ ANERKANNT HABEN, *</pattern>
-<template><srai> <star /> erkannt < - star-index="2" /></srai></template>
+<template><srai> <star /> erkannt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GEBACKENEN</pattern>
 <template><srai> <star /> gebacken</srai></template>
@@ -13099,13 +13099,13 @@
 <template><srai> <star /> erkannt</srai></template>
 </category>
 <category><pattern>_ HABEN ERKANNT *</pattern>
-<template><srai> <star /> erkannt < - star-index="2" /></srai></template>
+<template><srai> <star /> erkannt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ EINGETROFFEN</pattern>
 <template><srai> <star /> kamen</srai></template>
 </category>
 <category><pattern>_ EINGETROFFEN *</pattern>
-<template><srai> <star /> angekommen < - star-index="2" /></srai></template>
+<template><srai> <star /> angekommen <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HABEN ABGELEHNT</pattern>
 <template><srai> <star /> abgelehnt</srai></template>
@@ -13123,7 +13123,7 @@
 <template><srai> <star /> cut</srai></template>
 </category>
 <category><pattern>_ GESCHNITTEN *</pattern>
-<template><srai> <star /> cut < - star-index="2" /></srai></template>
+<template><srai> <star /> cut <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GEBADET HABEN</pattern>
 <template><srai> <star /> badeten</srai></template>
@@ -13141,7 +13141,7 @@
 <template><srai> <star /> betreut</srai></template>
 </category>
 <category><pattern>_ TRAINIERT HABE *</pattern>
-<template><srai> <star /> betreut < - star-index="2" /></srai></template>
+<template><srai> <star /> betreut <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HABEN LED</pattern>
 <template><srai> <star /> led</srai></template>
@@ -13153,7 +13153,7 @@
 <template><srai> <star /> gelöscht</srai></template>
 </category>
 <category><pattern>_ fallen gelassen HABEN *</pattern>
-<template><srai> <star /> gelöscht < - star-index="2" /></srai></template>
+<template><srai> <star /> gelöscht <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HABEN BLINZELTE</pattern>
 <template><srai> <star /> blinzelte</srai></template>
@@ -13207,7 +13207,7 @@
 <template><srai> <star /> produziert</srai></template>
 </category>
 <category><pattern>_ PRODUZIERT HABEN, *</pattern>
-<template><srai> <star /> produziert < - star-index="2" /></srai></template>
+<template><srai> <star /> produziert <star index="2" /></srai></template>
 </category>
 <category><pattern>_ AUSWENDIG gelernt HABEN</pattern>
 <template><srai> <star /> merken</srai></template>
@@ -13279,7 +13279,7 @@
 <template><srai> <star /> Leitung</srai></template>
 </category>
 <category><pattern>_ der Spitze HABEN *</pattern>
-<template><srai> <star /> Leitung < - star-index="2" /></srai></template>
+<template><srai> <star /> Leitung <star index="2" /></srai></template>
 </category>
 <category><pattern>_ ZURÜCKGEGEBEN HABEN</pattern>
 <template><srai> <star /> hat</srai></template>
@@ -13339,7 +13339,7 @@
 <template><srai> <star /> Interesse</srai></template>
 </category>
 <category><pattern>_ INTERESSIERT HABEN *</pattern>
-<template><srai> <star /> Interesse < - star-index="2" /></srai></template>
+<template><srai> <star /> Interesse <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HABEN GEBETET</pattern>
 <template><srai> <star /> beteten</srai></template>
@@ -13351,13 +13351,13 @@
 <template><srai> <star /> rang</srai></template>
 </category>
 <category><pattern>_ GELÄUTET HABEN *</pattern>
-<template><srai> <star /> rang < - star-index="2" /></srai></template>
+<template><srai> <star /> rang <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HABEN PERMITED</pattern>
 <template><srai> <star /> erlaubt</srai></template>
 </category>
 <category><pattern>_ HABEN PERMITED *</pattern>
-<template><srai> <star /> erlaubt < - star-index="2" /></srai></template>
+<template><srai> <star /> erlaubt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HABEN GEHUSTET</pattern>
 <template><srai> <star /> gehustet</srai></template>
@@ -13393,7 +13393,7 @@
 <template><srai> <star /> aufrecht</srai></template>
 </category>
 <category><pattern>_ HABEN STEHOHREN *</pattern>
-<template><srai> <star /> aufrecht < - star-index="2" /></srai></template>
+<template><srai> <star /> aufrecht <star index="2" /></srai></template>
 </category>
 <category><pattern>_ ARGUMENTIERT</pattern>
 <template><srai> <star /> argumentierte</srai></template>
@@ -13489,13 +13489,13 @@
 <template><srai> <star /> ran</srai></template>
 </category>
 <category><pattern>_ AUSGEFÜHRT HABEN *</pattern>
-<template><srai> <star /> ran < - star-index="2" /></srai></template>
+<template><srai> <star /> ran <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GEBANNT</pattern>
 <template><srai> <star /> verboten</srai></template>
 </category>
 <category><pattern>_ GEBANNT *</pattern>
-<template><srai> <star /> verboten < - star-index="2" /></srai></template>
+<template><srai> <star /> verboten <star index="2" /></srai></template>
 </category>
 <category><pattern>_ BESIEDELT HABEN</pattern>
 <template><srai> <star /> abgewickelt</srai></template>
@@ -13531,7 +13531,7 @@
 <template><srai> <star /> allowed</srai></template>
 </category>
 <category><pattern>_ ERLAUBT HABEN, *</pattern>
-<template><srai> <star /> erlaubt < - star-index="2" /></srai></template>
+<template><srai> <star /> erlaubt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HABEN Sie ATMETE</pattern>
 <template><srai> <star /> atmete</srai></template>
@@ -13579,13 +13579,13 @@
 <template><srai> <star /> Schnee</srai></template>
 </category>
 <category><pattern>_ HABEN GESCHNEIT *</pattern>
-<template><srai> <star /> Schnee < - star-index="2" /></srai></template>
+<template><srai> <star /> Schnee <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GETEILT HABEN</pattern>
 <template><srai> <star /> shared</srai></template>
 </category>
 <category><pattern>_ GETEILT HABEN *</pattern>
-<template><srai> <star /> shared < - star-index="2" /></srai></template>
+<template><srai> <star /> shared <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GESCHICKT HABEN</pattern>
 <template><srai> <star /> gesendet</srai></template>
@@ -13597,13 +13597,13 @@
 <template><srai> <star /> gesucht</srai></template>
 </category>
 <category><pattern>_ GESUCHT HABEN, *</pattern>
-<template><srai> <star /> gesucht < - star-index="2" /></srai></template>
+<template><srai> <star /> gesucht <star index="2" /></srai></template>
 </category>
 <category><pattern>_ ERHALTEN HABEN,</pattern>
 <template><srai> <star /> received</srai></template>
 </category>
 <category><pattern>_, ERHALTEN HABEN *</pattern>
-<template><srai> <star /> empfangen < - star-index="2" /></srai></template>
+<template><srai> <star /> empfangen <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HABEN BEURTEILT</pattern>
 <template><srai> <star /> bewertet</srai></template>
@@ -13633,7 +13633,7 @@
 <template><srai> <star /> gerne</srai></template>
 </category>
 <category><pattern>_ gefallen HABEN, *</pattern>
-<template><srai> <star /> gerne < - star-index="2" /></srai></template>
+<template><srai> <star /> gerne <star index="2" /></srai></template>
 </category>
 <category><pattern>_ AUSGEBAUT HABEN</pattern>
 <template><srai> <star /> erweitert</srai></template>
@@ -13669,7 +13669,7 @@
 <template><srai> <star /> gedrückt</srai></template>
 </category>
 <category><pattern>_ geklickt HABEN, *</pattern>
-<template><srai> <star /> gedrückt < - star-index="2" /></srai></template>
+<template><srai> <star /> gedrückt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ aufgesetzt HABEN</pattern>
 <template><srai> <star /> put</srai></template>
@@ -13708,7 +13708,7 @@
 <template><srai> <star /> beat</srai></template>
 </category>
 <category><pattern>_ GESCHLAGEN HABEN, *</pattern>
-<template><srai> <star /> beat < - star-index="2" /></srai></template>
+<template><srai> <star /> beat <star index="2" /></srai></template>
 </category>
 <category><pattern>_ ENTSCHIEDEN HABEN,</pattern>
 <template><srai> <star /> entschieden</srai></template>
@@ -13726,7 +13726,7 @@
 <template><srai> <star /> Gebot</srai></template>
 </category>
 <category><pattern>_ GEBOTEN HABEN, *</pattern>
-<template><srai> <star /> Gebot < - star-index="2" /></srai></template>
+<template><srai> <star /> Gebot <star index="2" /></srai></template>
 </category>
 <category><pattern>_ VERLOREN HABEN</pattern>
 <template><srai> <star /> verloren</srai></template>
@@ -13774,7 +13774,7 @@
 <template><srai> <star /> vergeben</srai></template>
 </category>
 <category><pattern>_ VERGEBEN HABEN, *</pattern>
-<template><srai> <star /> vergeben < - star-index="2" /></srai></template>
+<template><srai> <star /> vergeben <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HABEN-BROADCAST</pattern>
 <template><srai> <star /> broadcast</srai></template>
@@ -13792,13 +13792,13 @@
 <template><srai> <star /> gelegt</srai></template>
 </category>
 <category><pattern>_ PLATZIERT HABEN, *</pattern>
-<template><srai> <star /> gesetzt < - star-index="2" /></srai></template>
+<template><srai> <star /> gesetzt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ AUSGEMACHT HABEN</pattern>
 <template><srai> <star /> wichtig</srai></template>
 </category>
 <category><pattern>_ AUSGEMACHT HABEN *</pattern>
-<template><srai> <star /> wichtig < - star-index="2" /></srai></template>
+<template><srai> <star /> wichtig <star index="2" /></srai></template>
 </category>
 <category><pattern>_ im BESITZ</pattern>
 <template><srai> <star /> owned</srai></template>
@@ -13816,7 +13816,7 @@
 <template><srai> <star /> soll</srai></template>
 </category>
 <category><pattern>_ HABEN SOLL *</pattern>
-<template><srai> <star /> bestimmt < - star-index="2" /></srai></template>
+<template><srai> <star /> bestimmt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ BEHANDELT HABEN</pattern>
 <template><srai> <star /> behandelt</srai></template>
@@ -13846,7 +13846,7 @@
 <template><srai> <star /> lit</srai></template>
 </category>
 <category><pattern>_ geleuchtet HABEN *</pattern>
-<template><srai> <star /> lit < - star-index="2" /></srai></template>
+<template><srai> <star /> lit <star index="2" /></srai></template>
 </category>
 <category><pattern>_ BEKANNT</pattern>
 <template><srai> <star /> wußte</srai></template>
@@ -13882,7 +13882,7 @@
 <template><srai> <star /> betreut</srai></template>
 </category>
 <category><pattern>_ BETREUT HABEN *</pattern>
-<template><srai> <star /> betreut < - star-index="2" /></srai></template>
+<template><srai> <star /> betreut <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GEWAGT HABEN</pattern>
 <template><srai> <star /> gewagt</srai></template>
@@ -13900,7 +13900,7 @@
 <template><srai> <star /> gefunden</srai></template>
 </category>
 <category><pattern>_ GEFUNDEN HABEN *</pattern>
-<template><srai> <star /> gefunden < - star-index="2" /></srai></template>
+<template><srai> <star /> gefunden <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GEHEIRATET HABEN</pattern>
 <template><srai> <star /> verheiratet</srai></template>
@@ -13948,7 +13948,7 @@
 <template><srai> <star /> angeregt</srai></template>
 </category>
 <category><pattern>_ ERREGT HABEN, *</pattern>
-<template><srai> <star /> erregt < - star-index="2" /></srai></template>
+<template><srai> <star /> erregt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ AUSGEWOGENES</pattern>
 <template><srai> <star /> symmetrisch</srai></template>
@@ -13990,7 +13990,7 @@
 <template><srai> <star /> Lesen</srai></template>
 </category>
 <category><pattern>_ GELESEN HABEN, *</pattern>
-<template><srai> <star /> Lesen < - star-index="2" /></srai></template>
+<template><srai> <star /> Lesen <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HABEN in der WARTESCHLANGE</pattern>
 <template><srai> <star /> in Warteschlange</srai></template>
@@ -14002,7 +14002,7 @@
 <template><srai> <star /> verdient</srai></template>
 </category>
 <category><pattern>_ ERSPIELT HABEN *</pattern>
-<template><srai> <star /> verdient < - star-index="2" /></srai></template>
+<template><srai> <star /> verdient <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HABEN BACKED</pattern>
 <template><srai> <star /> gesichert</srai></template>
@@ -14068,7 +14068,7 @@
 <template><srai> <star /> vergessen</srai></template>
 </category>
 <category><pattern>_ VERGESSEN HABEN *</pattern>
-<template><srai> <star /> vergessen < - star-index="2" /></srai></template>
+<template><srai> <star /> vergessen <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GEFALTET</pattern>
 <template><srai> <star /> zusammengeklappt</srai></template>
@@ -14086,7 +14086,7 @@
 <template><srai> <star /> statt</srai></template>
 </category>
 <category><pattern>_ GEHALTEN HABEN *</pattern>
-<template><srai> <star /> statt < - star-index="2" /></srai></template>
+<template><srai> <star /> statt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HABEN GEKNIFFEN</pattern>
 <template><srai> <star /> verkniffen</srai></template>
@@ -14104,7 +14104,7 @@
 <template><srai> <star /> bit</srai></template>
 </category>
 <category><pattern>_ GEBISSEN HABEN *</pattern>
-<template><srai> <star /> bit < - star-index="2" /></srai></template>
+<template><srai> <star /> bit <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HABEN, GEBLENDET</pattern>
 <template><srai> <star /> geblendet</srai></template>
@@ -14182,7 +14182,7 @@
 <template><srai> <star /> gelacht</srai></template>
 </category>
 <category><pattern>_ GELACHT HABEN *</pattern>
-<template><srai> <star /> gelacht < - star-index="2" /></srai></template>
+<template><srai> <star /> gelacht <star index="2" /></srai></template>
 </category>
 <category><pattern>_ BEEILTEN</pattern>
 <template><srai> <star /> beeilte</srai></template>
@@ -14200,7 +14200,7 @@
 <template><srai> <star /> langweilig</srai></template>
 </category>
 <category><pattern>_ GELANGWEILT HABEN *</pattern>
-<template><srai> <star /> langweilig < - star-index="2" /></srai></template>
+<template><srai> <star /> langweilig <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HABEN GEBLÜHT</pattern>
 <template><srai> <star /> flowered</srai></template>
@@ -14236,13 +14236,13 @@
 <template><srai> <star /> deaktiviert</srai></template>
 </category>
 <category><pattern>_ GELEERT HABEN, *</pattern>
-<template><srai> <star /> deaktiviert < - star-index="2" /></srai></template>
+<template><srai> <star /> deaktiviert <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HABEN VERSUCHT</pattern>
 <template><srai> <star /> versucht</srai></template>
 </category>
 <category><pattern>_ VERSUCHT HABEN, *</pattern>
-<template><srai> <star /> versucht < - star-index="2" /></srai></template>
+<template><srai> <star /> versucht <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GENOSSEN HABEN</pattern>
 <template><srai> <star /> genossen</srai></template>
@@ -14278,7 +14278,7 @@
 <template><srai> <star /> verdient</srai></template>
 </category>
 <category><pattern>_ VERDIENT HABEN, *</pattern>
-<template><srai> <star /> verdient < - star-index="2" /></srai></template>
+<template><srai> <star /> verdient <star index="2" /></srai></template>
 </category>
 <category><pattern>_ EINGEWEICHT wurden</pattern>
 <template><srai> <star /> eingeweicht</srai></template>
@@ -14320,19 +14320,19 @@
 <template><srai> <star /> fuhr</srai></template>
 </category>
 <category><pattern>_ FUHR *</pattern>
-<template><srai> <star /> fuhr < - star-index="2" /></srai></template>
+<template><srai> <star /> fuhr <star index="2" /></srai></template>
 </category>
 <category><pattern>_ ERWOGEN HABEN</pattern>
 <template><srai> <star /> als</srai></template>
 </category>
 <category><pattern>_ ERWOGEN HABEN, *</pattern>
-<template><srai> <star /> als < - star-index="2" /></srai></template>
+<template><srai> <star /> als <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GELOGEN HABEN</pattern>
 <template><srai> <star /> lied</srai></template>
 </category>
 <category><pattern>_ BELOGEN HABEN, *</pattern>
-<template><srai> <star /> lied < - star-index="2" /></srai></template>
+<template><srai> <star /> lied <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HABEN GEREIMTEN</pattern>
 <template><srai> <star /> gereimte</srai></template>
@@ -14452,7 +14452,7 @@
 <template><srai> <star /> wurde</srai></template>
 </category>
 <category><pattern>_ GEWORDEN *</pattern>
-<template><srai> <star /> wurde < - star-index="2" /></srai></template>
+<template><srai> <star /> wurde <star index="2" /></srai></template>
 </category>
 <category><pattern>_ EINGEGEBEN HABEN</pattern>
 <template><srai> <star /> trat</srai></template>
@@ -14464,7 +14464,7 @@
 <template><srai> <star /> ended</srai></template>
 </category>
 <category><pattern>_ BEENDET *</pattern>
-<template><srai> <star /> ended < - star-index="2" /></srai></template>
+<template><srai> <star /> ended <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HABEN sich GEWEIGERT</pattern>
 <template><srai> <star /> abgelehnt</srai></template>
@@ -14476,7 +14476,7 @@
 <template><srai> <star /> Schaden</srai></template>
 </category>
 <category><pattern>_ GESCHADET HABEN *</pattern>
-<template><srai> <star /> Schaden < - star-index="2" /></srai></template>
+<template><srai> <star /> Schaden <star index="2" /></srai></template>
 </category>
 <category><pattern>_ gehört HABEN</pattern>
 <template><srai> <star /> gehörten</srai></template>
@@ -14488,7 +14488,7 @@
 <template><srai> <star /> hat</srai></template>
 </category>
 <category><pattern>_ ERTEILT HABEN, *</pattern>
-<template><srai> <star /> gab < - star-index="2" /></srai></template>
+<template><srai> <star /> gab <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HABEN NIESTE</pattern>
 <template><srai> <star /> nieste</srai></template>
@@ -14512,13 +14512,13 @@
 <template><srai> <star /> trieb</srai></template>
 </category>
 <category><pattern>_ GETRIEBEN HABEN *</pattern>
-<template><srai> <star /> trieb < - star-index="2" /></srai></template>
+<template><srai> <star /> trieb <star index="2" /></srai></template>
 </category>
 <category><pattern>_ AUFGELISTET HABEN</pattern>
 <template><srai> <star /> gelistet</srai></template>
 </category>
 <category><pattern>_ AUFGELISTET HABEN, *</pattern>
-<template><srai> <star /> aufgeführten < - star-index="2" /></srai></template>
+<template><srai> <star /> aufgeführten <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HABEN FLATTERTE</pattern>
 <template><srai> <star /> schlug</srai></template>
@@ -14554,7 +14554,7 @@
 <template><srai> <star /> schätzen</srai></template>
 </category>
 <category><pattern>_, SCHÄTZEN *</pattern>
-<template><srai> <star /> schätzen < - star-index="2" /></srai></template>
+<template><srai> <star /> schätzen <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HABEN ANNOIED</pattern>
 <template><srai> <star /> annoied</srai></template>
@@ -14596,7 +14596,7 @@
 <template><srai> <star /> Gefängnis</srai></template>
 </category>
 <category><pattern>_ HABEN INHAFTIERT *</pattern>
-<template><srai> <star /> Gefängnis < - star-index="2" /></srai></template>
+<template><srai> <star /> Gefängnis <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HABEN NEDED</pattern>
 <template><srai> <star /> neded</srai></template>
@@ -14608,7 +14608,7 @@
 <template><srai> <star /> fehlgeschlagen</srai></template>
 </category>
 <category><pattern>_ FEHLGESCHLAGEN *</pattern>
-<template><srai> <star /> fehlgeschlagen < - star-index="2" /></srai></template>
+<template><srai> <star /> fehlgeschlagen <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GESCHRUMPFT HABEN</pattern>
 <template><srai> <star /> geschrumpft</srai></template>
@@ -14722,7 +14722,7 @@
 <template><srai> <star /> aufgelegt</srai></template>
 </category>
 <category><pattern>_ GESTARTET HABEN *</pattern>
-<template><srai> <star /> gestartet < - star-index="2" /></srai></template>
+<template><srai> <star /> gestartet <star index="2" /></srai></template>
 </category>
 <category><pattern>_ VERHAFTET</pattern>
 <template><srai> <star /> verhaftet</srai></template>
@@ -14776,7 +14776,7 @@
 <template><srai> <star /> bearbeitet</srai></template>
 </category>
 <category><pattern>_ BEHANDELT HABEN, *</pattern>
-<template><srai> <star /> bearbeitet < - star-index="2" /></srai></template>
+<template><srai> <star /> bearbeitet <star index="2" /></srai></template>
 </category>
 <category><pattern>_ BESTRAFT</pattern>
 <template><srai> <star /> bestraft</srai></template>
@@ -14866,13 +14866,13 @@
 <template><srai> <star /> beschrieben</srai></template>
 </category>
 <category><pattern>_ BESCHRIEBEN HABEN, *</pattern>
-<template><srai> <star /> beschrieben < - star-index="2" /></srai></template>
+<template><srai> <star /> beschrieben <star index="2" /></srai></template>
 </category>
 <category><pattern>_ KOSTEN</pattern>
 <template><srai> <star /> Kosten</srai></template>
 </category>
 <category><pattern>_ KOSTEN *</pattern>
-<template><srai> <star /> Kosten < - star-index="2" /></srai></template>
+<template><srai> <star /> Kosten <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GESAGT HABEN</pattern>
 <template><srai> <star /> sagte</srai></template>
@@ -14932,7 +14932,7 @@
 <template><srai> <star /> geteilt</srai></template>
 </category>
 <category><pattern>_ gespalten HABEN *</pattern>
-<template><srai> <star /> geteilt < - star-index="2" /></srai></template>
+<template><srai> <star /> geteilt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GEKÜSST HABEN</pattern>
 <template><srai> <star /> küssten</srai></template>
@@ -14944,7 +14944,7 @@
 <template><srai> <star /> hung</srai></template>
 </category>
 <category><pattern>_ HÄNGTE *</pattern>
-<template><srai> <star /> hung < - star-index="2" /></srai></template>
+<template><srai> <star /> hung <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HABEN BUMPED</pattern>
 <template><srai> <star /> angeschlagen</srai></template>
@@ -14986,7 +14986,7 @@
 <template><srai> <star /> schnapp</srai></template>
 </category>
 <category><pattern>_ GESCHNAPPT HABEN *</pattern>
-<template><srai> <star /> schnapp < - star-index="2" /></srai></template>
+<template><srai> <star /> schnapp <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GESCHMOLZEN HABEN</pattern>
 <template><srai> <star /> schmolz</srai></template>
@@ -15040,7 +15040,7 @@
 <template><srai> <star /> Klang</srai></template>
 </category>
 <category><pattern>_ GEKLUNGEN HABEN *</pattern>
-<template><srai> <star /> Klang < - star-index="2" /></srai></template>
+<template><srai> <star /> Klang <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HABEN TROMMELTE</pattern>
 <template><srai> <star /> trommelte</srai></template>
@@ -15070,7 +15070,7 @@
 <template><srai> <star /> vorgestellt</srai></template>
 </category>
 <category><pattern>_ Sie mir VORGESTELLT HABE *</pattern>
-<template><srai> <star /> vorstellen < - star-index="2" /></srai></template>
+<template><srai> <star /> vorstellen <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HABEN BOXED</pattern>
 <template><srai> <star /> Box</srai></template>
@@ -15130,13 +15130,13 @@
 <template><srai> <star /> entdeckt</srai></template>
 </category>
 <category><pattern>_ ENTDECKT HABEN, *</pattern>
-<template><srai> <star /> vor < - star-index="2" /></srai></template>
+<template><srai> <star /> vor <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GESUCHT HABEN</pattern>
 <template><srai> <star /> gesucht</srai></template>
 </category>
 <category><pattern>_ HABEN GESUCHT *</pattern>
-<template><srai> <star /> gesucht < - star-index="2" /></srai></template>
+<template><srai> <star /> gesucht <star index="2" /></srai></template>
 </category>
 <category><pattern>_ BEKOMMEN HABEN RASIERT</pattern>
 <template><srai> <star /> sind Rasiert</srai></template>
@@ -17452,7 +17452,7 @@
 <template><srai> <star /> süchtig</srai></template>
 </category>
 <category><pattern>_ angeschlossen HABEN *</pattern>
-<template><srai> <star /> süchtig < - star-index="2" /></srai></template>
+<template><srai> <star /> süchtig <star index="2" /></srai></template>
 </category>
 <category><pattern>_ KÄMPFTE</pattern>
 <template><srai> <star /> kämpfte</srai></template>
@@ -17464,7 +17464,7 @@
 <template><srai> <star /> gekauft</srai></template>
 </category>
 <category><pattern>_ GEKAUFT HABEN *</pattern>
-<template><srai> <star /> gekauft < - star-index="2" /></srai></template>
+<template><srai> <star /> gekauft <star index="2" /></srai></template>
 </category>
 <category><pattern>_ ABGESTÜRZT</pattern>
 <template><srai> <star /> ist abgestürzt</srai></template>
@@ -17524,7 +17524,7 @@
 <template><srai> <star /> Gebot</srai></template>
 </category>
 <category><pattern>_ ein GEBOT abgegeben HABE *</pattern>
-<template><srai> <star /> Gebot < - star-index="2" /></srai></template>
+<template><srai> <star /> Gebot <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HABE GEBREMST</pattern>
 <template><srai> <star /> abgebremst</srai></template>
@@ -17536,7 +17536,7 @@
 <template><srai> <star /> entfernt</srai></template>
 </category>
 <category><pattern>_ ENTFERNT HABEN *</pattern>
-<template><srai> <star /> entfernt < - star-index="2" /></srai></template>
+<template><srai> <star /> entfernt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GEWECKT HABEN</pattern>
 <template><srai> <star /> aufwachte</srai></template>
@@ -17548,13 +17548,13 @@
 <template><srai> <star /> parted</srai></template>
 </category>
 <category><pattern>_ GETRENNT *</pattern>
-<template><srai> <star /> geteilt < - star-index="2" /></srai></template>
+<template><srai> <star /> geteilt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ BEANTWORTET HABEN</pattern>
 <template><srai> <star /> beantwortet</srai></template>
 </category>
 <category><pattern>_ BEANTWORTET HABEN, *</pattern>
-<template><srai> <star /> beantworten < - star-index="2" /></srai></template>
+<template><srai> <star /> beantworten <star index="2" /></srai></template>
 </category>
 <category><pattern>_ FLOHEN</pattern>
 <template><srai> <star /> floh</srai></template>
@@ -17584,7 +17584,7 @@
 <template><srai> <star /> Links</srai></template>
 </category>
 <category><pattern>_ VERLASSEN HABEN *</pattern>
-<template><srai> <star /> Links < - star-index="2" /></srai></template>
+<template><srai> <star /> Links <star index="2" /></srai></template>
 </category>
 <category><pattern>_ Frage gestellt HABEN,</pattern>
 <template><srai> <star /> befragt</srai></template>
@@ -17638,7 +17638,7 @@
 <template><srai> <star /> passiert</srai></template>
 </category>
 <category><pattern>_ PASSIERT *</pattern>
-<template><srai> <star /> geschah < - star-index="2" /></srai></template>
+<template><srai> <star /> geschah <star index="2" /></srai></template>
 </category>
 <category><pattern>_ HABEN, ABGESTAUBT</pattern>
 <template><srai> <star /> abgestaubt</srai></template>
@@ -17728,7 +17728,7 @@
 <template><srai> <star /> Voraus</srai></template>
 </category>
 <category><pattern>_ VORAUSGEGANGEN sind *</pattern>
-<template><srai> <star /> Voraus < - star-index="2" /></srai></template>
+<template><srai> <star /> Voraus <star index="2" /></srai></template>
 </category>
 <category><pattern>_ VERSENKT HABEN</pattern>
 <template><srai> <star /> Sankt</srai></template>
@@ -17758,7 +17758,7 @@
 <template><srai> <star /> rode</srai></template>
 </category>
 <category><pattern>_ GERITTEN *</pattern>
-<template><srai> <star /> rode < - star-index="2" /></srai></template>
+<template><srai> <star /> rode <star index="2" /></srai></template>
 </category>
 <category><pattern>_ GETAN HABEN</pattern>
 <template><srai> <star /> hat</srai></template>
@@ -17806,7 +17806,7 @@
 <template><srai> <star /> bat</srai></template>
 </category>
 <category><pattern>_ GEBETEN HABEN, *</pattern>
-<template><srai> <star /> gefragt < - star-index="2" /></srai></template>
+<template><srai> <star /> gefragt <star index="2" /></srai></template>
 </category>
 <category><pattern>_ ERSETZT HABEN</pattern>
 <template><srai> <star /> ersetzt</srai></template>

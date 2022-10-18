@@ -132,7 +132,7 @@
 <category><pattern>FLUGZEUGE WERDEN FÜR DEN TRANSPORT VERWENDET</pattern>
 <template>Ja.</template>
 </category>
-<category><Muster>5X5 GLEICH 25</Muster>
+<category><Muster>5X5 GLEICH 25</pattern>
 <template>Ja.</template>
 </category>
 <category><pattern>YORK LIEGT IN DEN USA</pattern>

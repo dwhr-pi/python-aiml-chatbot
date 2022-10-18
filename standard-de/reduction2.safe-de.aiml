@@ -778,10 +778,10 @@
 <template><srai>vielleicht</srai></template>
 </category>
 <category><pattern>, SEIT SIE * SIE *</pattern>
-<template><srai>Sie <star /></srai>. <srai>Sie < - star-index="2" /></srai></template>
+<template><srai>Sie <star /></srai>. <srai>Sie <star index="2" /></srai></template>
 </category>
 <category><pattern>, WÄHREND * I *</pattern>
-<template><srai>I < - star-index="2" /></srai></template>
+<template><srai>I <star index="2" /></srai></template>
 </category>
 <category><pattern>HUH</pattern>
 <template><srai>ZWISCHENRUF</srai></template>
@@ -1321,7 +1321,7 @@
 <template><srai>MEINE <star /></srai></template>
 </category>
 <category><pattern>MY * S NAME *</pattern>
-<template><srai>meine <star /> ist < - star-index="2" /></srai></template>
+<template><srai>meine <star /> ist <star index="2" /></srai></template>
 </category>
 <category><pattern>MEINE ELTERN IMMER *</pattern>
 <template><srai>meine Eltern <star /></srai></template>
@@ -2233,22 +2233,22 @@
 <template><srai>erklären</srai></template>
 </category>
 <category><pattern>NACH * I *</pattern>
-<template><srai>I < - star-index="2" /></srai></template>
+<template><srai>I <star index="2" /></srai></template>
 </category>
 <category><pattern>WENN ich WIRKLICH *</pattern>
 <template><srai>wenn ich <star /></srai></template>
 </category>
 <category><pattern>WENN ich das * WAS *</pattern>
-<template><srai>I <star /></srai>. <srai>was < - star-index="2" /></srai></template>
+<template><srai>I <star /></srai>. <srai>was <star index="2" /></srai></template>
 </category>
 <category><pattern>WENN ich * WO *</pattern>
-<template><srai>I <star /></srai>. <srai>wo < - star-index="2" /></srai></template>
+<template><srai>I <star /></srai>. <srai>wo <star index="2" /></srai></template>
 </category>
 <category><pattern>WENN ich * WIE *</pattern>
-<template><srai>wie < - star-index="2" /></srai>. <srai>I <star /></srai></template>
+<template><srai>wie <star index="2" /></srai>. <srai>I <star /></srai></template>
 </category>
 <category><pattern>WENN ich * WER *</pattern>
-<template><srai>I <star /></srai>. <srai>die < - star-index="2" /></srai></template>
+<template><srai>I <star /></srai>. <srai>die <star index="2" /></srai></template>
 </category>
 <category><pattern>WENN ich * WENN *</pattern>
 <template><srai>I <star /></srai>. <srai>, wenn <star index="2" /></srai></template>
@@ -2257,16 +2257,16 @@
 <template><srai>I <star /></srai>. <srai> <star index="2" /></srai></template>
 </category>
 <category><pattern>WENN ich * WIESO *</pattern>
-<template><srai>I <star /></srai>. <srai>warum < - star-index="2" /></srai></template>
+<template><srai>I <star /></srai>. <srai>warum <star index="2" /></srai></template>
 </category>
 <category><pattern>, WENN NUR *</pattern>
 <template><srai>, wenn <star /></srai></template>
 </category>
 <category><pattern>WENN das * WIE *</pattern>
-<template><srai>wie < - star-index="2" /></srai>. <srai>Ihr <star /></srai></template>
+<template><srai>wie <star index="2" /></srai>. <srai>Ihr <star /></srai></template>
 </category>
 <category><pattern>, WENN DAS * WIE *</pattern>
-<template><srai>wie < - star-index="2" /></srai>. <srai>die <star /></srai></template>
+<template><srai>wie <star index="2" /></srai>. <srai>die <star /></srai></template>
 </category>
 <category><pattern>, WENN JEDER * ALLES GUT WERDEN WÜRDE</pattern>
 <template><srai>Jeder sollte <star /></srai></template>
@@ -2278,7 +2278,7 @@
 <template><srai>wenn jemand <star /></srai></template>
 </category>
 <category><pattern>, WENN EIN * WIE *</pattern>
-<template><srai>wie < - star-index="2" /></srai>. <srai>a <star /></srai></template>
+<template><srai>wie <star index="2" /></srai>. <srai>a <star /></srai></template>
 </category>
 <category><pattern>WENN DU WIRKLICH so *</pattern>
 <template><srai>wenn Sie <star /></srai></template>
@@ -2320,13 +2320,13 @@
 <template><srai>wenn Sie <star /></srai></template>
 </category>
 <category><pattern>, WENN SIE, * WIE *</pattern>
-<template><srai>wie < - star-index="2" /></srai>. <srai>Sie <star /></srai></template>
+<template><srai>wie <star index="2" /></srai>. <srai>Sie <star /></srai></template>
 </category>
 <category><pattern>WENN DU EIN ECHTER *</pattern>
 <template><srai>wenn Sie eine <star /></srai></template>
 </category>
 <category><pattern>IF * WIE *</pattern>
-<template><srai>wie < - star-index="2" /></srai></template>
+<template><srai>wie <star index="2" /></srai></template>
 </category>
 <category><pattern>TAIWAN</pattern>
 <template><srai>ich bin in taiwan</srai></template>
@@ -2827,7 +2827,7 @@
 <template><srai>gibt es ein Leben <star /></srai></template>
 </category>
 <category><pattern>WAS GEFÄLLT DIR * ODER *</pattern>
-<template><srai>wissen SIE, WIE <star /></srai>. <srai>wissen SIE, WIE < - star-index="2" /></srai></template>
+<template><srai>wissen SIE, WIE <star /></srai>. <srai>wissen SIE, WIE <star index="2" /></srai></template>
 </category>
 <category><pattern>wie alt SIND SIE</pattern>
 <template><srai>ALTER</srai></template>
@@ -3298,7 +3298,7 @@
 <template><srai>ich Liege</srai></template>
 </category>
 <category><pattern>ich WAR _ UND SIE *</pattern>
-<template><srai>ich WAR <star /></srai>. <srai>SIE < - star-index="2" /></srai></template>
+<template><srai>ich WAR <star /></srai>. <srai>SIE <star index="2" /></srai></template>
 </category>
 <category><pattern>ich WAR FAUL UND</pattern>
 <template><srai>ich bin faul</srai></template>
@@ -3700,13 +3700,13 @@
 <template><srai>ich BIN <star /></srai>. <srai>ERINNERN SIE sich an</srai></template>
 </category>
 <category><pattern>I _, DA *</pattern>
-<template><srai>I <star /></srai>. <srai>DA < - star-index="2" /></srai></template>
+<template><srai>I <star /></srai>. <srai>DA <star index="2" /></srai></template>
 </category>
 <category><pattern>I _, ABER I *</pattern>
-<template><srai>I <star /></srai>. <srai>I < - star-index="2" /></srai></template>
+<template><srai>I <star /></srai>. <srai>I <star index="2" /></srai></template>
 </category>
 <category><pattern>I _ SO ich _</pattern>
-<template><srai>I <star /></srai>. <srai>I < - star-index="2" /></srai></template>
+<template><srai>I <star /></srai>. <srai>I <star index="2" /></srai></template>
 </category>
 <category><pattern>ich _ MANCHMAL</pattern>
 <template><srai>I <star /></srai></template>
@@ -3721,19 +3721,19 @@
 <template><srai>I <star /></srai></template>
 </category>
 <category><pattern>ich _ UND I *</pattern>
-<template><srai>I <star /></srai>. <srai>I < - star-index="2" /></srai></template>
+<template><srai>I <star /></srai>. <srai>I <star index="2" /></srai></template>
 </category>
 <category><pattern>I _ - UND ES IST *</pattern>
-<template><srai>I <star /></srai>. <srai>ES gibt < - star-index="2" /></srai></template>
+<template><srai>I <star /></srai>. <srai>ES gibt <star index="2" /></srai></template>
 </category>
 <category><pattern>ich _ UND DANN WAR ich *</pattern>
-<template><srai>I <star /></srai>. <srai>ich < - star-index="2" /></srai></template>
+<template><srai>I <star /></srai>. <srai>ich <star index="2" /></srai></template>
 </category>
 <category><pattern>I _, UND DANN habe ich *</pattern>
-<template><srai>I <star /></srai>. <srai>I < - star-index="2" /></srai></template>
+<template><srai>I <star /></srai>. <srai>I <star index="2" /></srai></template>
 </category>
 <category><pattern>ich _ UND DANN *</pattern>
-<template><srai>I <star /></srai>. <srai>ich BIN < - star-index="2" /></srai></template>
+<template><srai>I <star /></srai>. <srai>ich BIN <star index="2" /></srai></template>
 </category>
 <category><pattern>ich _ UND IM _</pattern>
 <template><srai>I <star /></srai>. <srai>I AM A <star /></srai></template>
@@ -5173,7 +5173,7 @@
 <template><srai>mein name ist vanessa</srai></template>
 </category>
 <category><pattern>ich BIN MANN * AUS *</pattern>
-<template><srai>ich bin < - star-index="2" /></srai>. <srai>ich bin Männlich</srai></template>
+<template><srai>ich bin <star index="2" /></srai>. <srai>ich bin Männlich</srai></template>
 </category>
 <category><pattern>ich BIN ANGESPANNT *</pattern>
 <template><srai>ich BIN ANGESPANNT</srai></template>
@@ -5278,7 +5278,7 @@
 <template><srai>ich bin single</srai></template>
 </category>
 <category><pattern>ich BIN MANN * AUS *</pattern>
-<template><srai>ich bin < - star-index="2" /></srai>. <srai>ich bin Männlich</srai></template>
+<template><srai>ich bin <star index="2" /></srai>. <srai>ich bin Männlich</srai></template>
 </category>
 <category><pattern>ich BIN MANN</pattern>
 <template><srai>ich bin ein Mann</srai></template>
@@ -5407,7 +5407,7 @@
 <template><srai>ich bin 13 Jahre alt</srai></template>
 </category>
 <category><pattern>ich BIN * ich KANN NICHT *</pattern>
-<template><srai>ich BIN <star /></srai>. <srai>ich KANN NICHT < - star-index="2" /></srai></template>
+<template><srai>ich BIN <star /></srai>. <srai>ich KANN NICHT <star index="2" /></srai></template>
 </category>
 <category><pattern>ich BIN * TRAURIG</pattern>
 <template><srai>ich bin traurig</srai></template>
@@ -5422,7 +5422,7 @@
 <template><srai>Abendessen</srai></template>
 </category>
 <category><pattern>ich BIN * GENANNT *</pattern>
-<template><srai>ich BIN < - star-index="2" /></srai></template>
+<template><srai>ich BIN <star index="2" /></srai></template>
 </category>
 <category><pattern>ich BIN * MITTAGESSEN</pattern>
 <template><srai>Abendessen</srai></template>
@@ -5431,7 +5431,7 @@
 <template><srai>mein name ist <star /></srai></template>
 </category>
 <category><pattern>ich BIN * UND SIE *</pattern>
-<template><srai>ich bin <star /></srai>. <srai>Sie sind der < - star-index="2" /></srai></template>
+<template><srai>ich bin <star /></srai>. <srai>Sie sind der <star index="2" /></srai></template>
 </category>
 <category><pattern>ich BIN 24</pattern>
 <template><srai>ich bin 24 Jahre alt</srai></template>
@@ -5524,7 +5524,7 @@
 <template><srai>ich bin <star /> Jahre alt</srai>. <srai> <star index="2" /></srai></template>
 </category>
 <category><pattern>ich BIN _, ABER I *</pattern>
-<template><srai>I <star /></srai>. <srai>I < - star-index="2" /></srai></template>
+<template><srai>I <star /></srai>. <srai>I <star index="2" /></srai></template>
 </category>
 <category><pattern>ich BIN _ DU</pattern>
 <template><srai>ich bin <star /></srai></template>
@@ -5632,7 +5632,7 @@
 <template><srai>ich bin 22 Jahre alt</srai></template>
 </category>
 <category><pattern>ich BIN WEIBLICH * AUS *</pattern>
-<template><srai>ich bin < - star-index="2" /></srai>. <srai>ich bin weiblich</srai></template>
+<template><srai>ich bin <star index="2" /></srai>. <srai>ich bin weiblich</srai></template>
 </category>
 <category><pattern>ich BIN BRITISCHEN</pattern>
 <template><srai>ich bin aus Großbritannien</srai></template>
@@ -5749,7 +5749,7 @@
 <template><srai>ich muss <star /></srai></template>
 </category>
 <category><pattern>ich BIN IN _ SIE *</pattern>
-<template><srai>ich BIN <star /></srai>. <srai>SIE < - star-index="2" /></srai></template>
+<template><srai>ich BIN <star /></srai>. <srai>SIE <star index="2" /></srai></template>
 </category>
 <category><pattern>ich BIN IN der BUCHHALTUNG</pattern>
 <template><srai>mein Beruf ist Buchhalterin</srai></template>
@@ -5860,7 +5860,7 @@
 <template><srai>, wenn <star /></srai></template>
 </category>
 <category><pattern>ich BIN MÄNNLICH * VON *</pattern>
-<template><srai>ich bin < - star-index="2" /></srai>. <srai>ich bin Männlich</srai></template>
+<template><srai>ich bin <star index="2" /></srai>. <srai>ich bin Männlich</srai></template>
 </category>
 <category><pattern>ich BIN MÄNNLICH *</pattern>
 <template><srai>ich BIN MÄNNLICH</srai></template>
@@ -5920,7 +5920,7 @@
 <template><srai>ich ski</srai></template>
 </category>
 <category><pattern>ich BIN EIN F * VON *</pattern>
-<template><srai>ich bin < - star-index="2" /></srai>. <srai>ich bin weiblich</srai></template>
+<template><srai>ich bin <star index="2" /></srai>. <srai>ich bin weiblich</srai></template>
 </category>
 <category><pattern>ich BIN EIN PIMP</pattern>
 <template><srai>mein job ist pimp</srai></template>
@@ -5938,7 +5938,7 @@
 <template><srai>mein job ist die Hexe</srai></template>
 </category>
 <category><pattern>ich BIN EIN MANN * AUS *</pattern>
-<template><srai>ich bin < - star-index="2" /></srai>. <srai>ich bin Männlich</srai></template>
+<template><srai>ich bin <star index="2" /></srai>. <srai>ich bin Männlich</srai></template>
 </category>
 <category><pattern>ich BIN EIN MANN *</pattern>
 <template><srai>ich bin ein Mann</srai></template>
@@ -5950,7 +5950,7 @@
 <template><srai>I am a <star /></srai></template>
 </category>
 <category><pattern>ich BIN EIN _ UND NICHT *</pattern>
-<template><srai>I AM A <star /></srai>. <srai>ich weiß NICHT < - star-index="2" /></srai></template>
+<template><srai>I AM A <star /></srai>. <srai>ich weiß NICHT <star index="2" /></srai></template>
 </category>
 <category><pattern>ich BIN EINE HELLSEHERIN</pattern>
 <template><srai>mein job ist psychisch</srai></template>
@@ -6034,7 +6034,7 @@
 <template><srai>ich bin weiblich</srai></template>
 </category>
 <category><pattern>ich BIN EIN M * VON *</pattern>
-<template><srai>ich bin < - star-index="2" /></srai>. <srai>ich bin Männlich</srai></template>
+<template><srai>ich bin <star index="2" /></srai>. <srai>ich bin Männlich</srai></template>
 </category>
 <category><pattern>ich BIN EINE DYNAMISCHE *</pattern>
 <template><srai>I am a <star /></srai></template>
@@ -6073,7 +6073,7 @@
 <template><srai>ich BIN SCHLECHT</srai></template>
 </category>
 <category><pattern>ich BIN EINE Frau * AUS *</pattern>
-<template><srai>ich bin < - star-index="2" /></srai>. <srai>ich bin weiblich</srai></template>
+<template><srai>ich bin <star index="2" /></srai>. <srai>ich bin weiblich</srai></template>
 </category>
 <category><pattern>ich BIN EINE Frau *</pattern>
 <template><srai>ich bin weiblich</srai></template>
@@ -6094,7 +6094,7 @@
 <template><srai>mein job ist slave</srai></template>
 </category>
 <category><pattern>ich BIN EIN JUNGE * AUS *</pattern>
-<template><srai>ich bin < - star-index="2" /></srai>. <srai>ich bin Männlich</srai></template>
+<template><srai>ich bin <star index="2" /></srai>. <srai>ich bin Männlich</srai></template>
 </category>
 <category><pattern>ich BIN EIN JUNGE *</pattern>
 <template><srai>ich bin ein junge<star /></srai></template>
@@ -6175,7 +6175,7 @@
 <template><srai>ich bin weiblich</srai></template>
 </category>
 <category><pattern>ich BIN EIN MANN * AUS *</pattern>
-<template><srai>ich bin < - star-index="2" /></srai>. <srai>ich bin Männlich</srai></template>
+<template><srai>ich bin <star index="2" /></srai>. <srai>ich bin Männlich</srai></template>
 </category>
 <category><pattern>ich BIN EIN KERL</pattern>
 <template><srai>ich bin ein Mann</srai></template>
@@ -6196,7 +6196,7 @@
 <template><srai>ich BIN EINE Frau</srai></template>
 </category>
 <category><pattern>ich BIN EIN * WER *</pattern>
-<template><srai>I am a <star /></srai>. <srai>I < - star-index="2" /></srai></template>
+<template><srai>I am a <star /></srai>. <srai>I <star index="2" /></srai></template>
 </category>
 <category><pattern>ich BIN EIN BOY * </pattern>
 <template><srai>ich BIN <star /></srai>. <srai>ich BIN EIN JUNGE</srai></template>
@@ -6211,10 +6211,10 @@
 <template><srai>ich bin student</srai></template>
 </category>
 <category><pattern>ich BIN * UND SIE *</pattern>
-<template><srai>I am a <star /></srai>. <srai>Sie < - star-index="2" /></srai></template>
+<template><srai>I am a <star /></srai>. <srai>Sie <star index="2" /></srai></template>
 </category>
 <category><pattern>ich BIN * UND SIE *</pattern>
-<template><srai>I am a <star /></srai>. <srai>Sie < - star-index="2" /></srai></template>
+<template><srai>I am a <star /></srai>. <srai>Sie <star index="2" /></srai></template>
 </category>
 <category><pattern>ich BIN * COMPUTER</pattern>
 <template><srai>ich bin ein Roboter</srai></template>
@@ -6238,7 +6238,7 @@
 <template><srai>ich BIN WEIBLICH</srai></template>
 </category>
 <category><pattern>ich BIN EIN MÄDCHEN * VON *</pattern>
-<template><srai>ich bin < - star-index="2" /></srai>. <srai>ich bin weiblich</srai></template>
+<template><srai>ich bin <star index="2" /></srai>. <srai>ich bin weiblich</srai></template>
 </category>
 <category><pattern>ich BIN EIN MÄDCHEN *</pattern>
 <template><srai>ich bin weiblich</srai></template>
@@ -6256,7 +6256,7 @@
 <template><srai>ich bin Männlich</srai></template>
 </category>
 <category><pattern>ich BIN EIN Mann * AUS *</pattern>
-<template><srai>ich bin < - star-index="2" /></srai>. <srai>ich bin Männlich</srai></template>
+<template><srai>ich bin <star index="2" /></srai>. <srai>ich bin Männlich</srai></template>
 </category>
 <category><pattern>ich BIN EIN Mann *</pattern>
 <template><srai>ich bin Männlich</srai></template>
@@ -6481,10 +6481,10 @@
 <template><srai>ich bin nicht beeindruckt</srai></template>
 </category>
 <category><pattern>ich BIN NICHT _ ich BIN *</pattern>
-<template><srai>ich bin nicht <star /></srai>. <srai>ich bin < - star-index="2" /></srai></template>
+<template><srai>ich bin nicht <star /></srai>. <srai>ich bin <star index="2" /></srai></template>
 </category>
 <category><pattern>ich BIN NICHT _ DA *</pattern>
-<template><srai>ich bin nicht <star /></srai>. <srai>da < - star-index="2" /></srai></template>
+<template><srai>ich bin nicht <star /></srai>. <srai>da <star index="2" /></srai></template>
 </category>
 <category><pattern>ich BIN NICHT WEIBLICH</pattern>
 <template><srai>ich bin Männlich</srai></template>
@@ -6715,7 +6715,7 @@
 <template><srai>mein name ist catherine</srai></template>
 </category>
 <category><pattern>ich BIN JUNGE * AUS *</pattern>
-<template><srai>ich bin < - star-index="2" /></srai>. <srai>ich bin Männlich</srai></template>
+<template><srai>ich bin <star index="2" /></srai>. <srai>ich bin Männlich</srai></template>
 </category>
 <category><pattern>ich BIN DEIN VATER</pattern>
 <template><srai>mein name ist <bot name="master" /></srai></template>
@@ -6790,7 +6790,7 @@
 <template><srai>ich bin <star /></srai></template>
 </category>
 <category><pattern>ich BIN das MÄDCHEN * VON *</pattern>
-<template><srai>ich bin < - star-index="2" /></srai>. <srai>ich bin weiblich</srai></template>
+<template><srai>ich bin <star index="2" /></srai>. <srai>ich bin weiblich</srai></template>
 </category>
 <category><pattern>ich BIN 40</pattern>
 <template><srai>ich bin 40 Jahre alt</srai></template>
@@ -6811,7 +6811,7 @@
 <template><srai>ich allein</srai></template>
 </category>
 <category><pattern>ich BIN F * VON *</pattern>
-<template><srai>ich bin < - star-index="2" /></srai>. <srai>ich bin weiblich</srai></template>
+<template><srai>ich bin <star index="2" /></srai>. <srai>ich bin weiblich</srai></template>
 </category>
 <category><pattern>ich BIN MICHA</pattern>
 <template><srai>mein name ist Micha</srai></template>
@@ -6823,7 +6823,7 @@
 <template><srai>ich bin 13 Jahre alt</srai></template>
 </category>
 <category><pattern>ich BIN M * VON *</pattern>
-<template><srai>ich bin < - star-index="2" /></srai>. <srai>ich bin Männlich</srai></template>
+<template><srai>ich bin <star index="2" /></srai>. <srai>ich bin Männlich</srai></template>
 </category>
 <category><pattern>ich BIN MICHAEL</pattern>
 <template><srai>mein name ist michael</srai></template>
@@ -6913,7 +6913,7 @@
 <template><srai>ich BIN wohl</srai></template>
 </category>
 <category><pattern>ich BIN, WAS * GENANNT *</pattern>
-<template><srai>ich BIN < - star-index="2" /></srai></template>
+<template><srai>ich BIN <star index="2" /></srai></template>
 </category>
 <category><pattern>ich FÜRCHTE *</pattern>
 <template><srai>ich denke <star /></srai></template>
@@ -8446,7 +8446,7 @@
 <template><srai>ich habe nicht ein</srai></template>
 </category>
 <category><pattern>BEVORZUGEN SIE * ODER *</pattern>
-<template><srai>wissen Sie, wie <star /></srai>. <srai>wissen Sie, wie < - star-index="2" /></srai></template>
+<template><srai>wissen Sie, wie <star /></srai>. <srai>wissen Sie, wie <star index="2" /></srai></template>
 </category>
 <category><pattern>SEHEN SIE STAR TREK</pattern>
 <template><srai>mögen Sie star trek</srai></template>
@@ -9514,7 +9514,7 @@
 <template><srai>weißt du, wie Präsident bush</srai></template>
 </category>
 <category><pattern>MÖGEN SIE * ODER *</pattern>
-<template><srai>wissen Sie, wie <star /></srai>. <srai>wissen Sie, wie < - star-index="2" /></srai></template>
+<template><srai>wissen Sie, wie <star /></srai>. <srai>wissen Sie, wie <star index="2" /></srai></template>
 </category>
 <category><pattern>MÖGEN SIE * SPIELE</pattern>
 <template><srai>mögen Sie Spiele</srai></template>
@@ -9535,7 +9535,7 @@
 <template><srai>mögen Sie linux</srai></template>
 </category>
 <category><pattern>weißt DU, WIE _ ER *</pattern>
-<template><srai>wissen SIE, WIE <star /></srai>. <srai>ER < - star-index="2" /></srai></template>
+<template><srai>wissen SIE, WIE <star /></srai>. <srai>ER <star index="2" /></srai></template>
 </category>
 <category><pattern>weißt DU, WIE WANDERN *</pattern>
 <template><srai>mögen Sie Wandern</srai></template>
@@ -10480,7 +10480,7 @@
 <template><srai>ich bin eine Sie,</srai></template>
 </category>
 <category><pattern>KEIN ECHTES _ ODER EINE ECHTE *</pattern>
-<template><srai>keine <star /> oder < - star-index="2" /></srai></template>
+<template><srai>keine <star /> oder <star index="2" /></srai></template>
 </category>
 <category><pattern>NICHT REAL *</pattern>
 <template><srai>keine <star /></srai></template>
@@ -10588,7 +10588,7 @@
 <template><srai>ich habe dir bereits gesagt</srai></template>
 </category>
 <category><pattern>* IST DER BESSERE *</pattern>
-<template><srai>ich mag < - star-index="2" /></srai></template>
+<template><srai>ich mag <star index="2" /></srai></template>
 </category>
 <category><pattern>* IST EINE SIE</pattern>
 <template><srai>ich bin weiblich</srai></template>
@@ -11395,7 +11395,7 @@
 <template><srai>MÖCHTE ich <star /></srai></template>
 </category>
 <category><pattern>ALLES was ich WILL IST * *</pattern>
-<template><srai>MÖCHTE ich < - star-index="2" /></srai></template>
+<template><srai>MÖCHTE ich <star index="2" /></srai></template>
 </category>
 <category><pattern>ALLES was ich WOLLTE WAR *</pattern>
 <template><srai>MÖCHTE ich <star /></srai></template>

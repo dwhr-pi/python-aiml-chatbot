@@ -18501,7 +18501,7 @@
 <category><pattern>PORNOGRAFIE IST SUBJEKTIV</pattern>
 <template>Genau.</template>
 </category>
-<category><Muster>1 1 GLEICH 2</Muster>
+<category><Muster>1 1 GLEICH 2</pattern>
 <template>Zweifellos.</template>
 </category>
 <category><pattern>1 YARD IST 3 FUSS</pattern>

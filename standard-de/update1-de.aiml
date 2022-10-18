@@ -63,7 +63,7 @@
 
 <category>
 <pattern>WAS für EIN * ZU *</pattern>
-<template>Würde es mehr sein <person> auf <person><star index="2"/><person/>?</template>
+<template>Würde es mehr sein <person/> auf <person><star index="2"/></person>?</template>
 </category>
 
 
@@ -129,7 +129,7 @@
 
 <category>
 <pattern>HIER *</pattern>
-<so>WO WARST DU *</, die>
+<so>WO WARST DU *</that>
 <template><srai>Meine Position ist <star/></srai></template>
 </category>
 
@@ -218,7 +218,7 @@
 
 <category>
 <pattern>KÖNNTE</pattern>
-<dass>ich ERWÄHNEN, DASS MEIN *</, die>
+<dass>ich ERWÄHNEN, DASS MEIN *</that>
 <template>ja, ich sende meinen <thatstar/> eine Nachricht.</template>
 </category>
 
@@ -238,7 +238,7 @@
 
 <category>
 <pattern>WARUM SOLLTE ICH *</pattern>
-<dass>SIE KÖNNEN E-MAIL*</, die>
+<dass>SIE KÖNNEN E-MAIL*</that>
 <template>Vielleicht können Sie Ihre Frage besser als ich kann.</template>
 </category>
 
@@ -497,7 +497,7 @@
 <template>Es ist nie genug Zeit.</template>
 </category>
 <category><pattern>JA</pattern>
-<so>sind Sie auf der Suche nach einer *</, die>
+<so>sind Sie auf der Suche nach einer *</that>
 <template>Wo tun Sie in der Regel erhalten Sie.<think> <set name="es"> <set name="topic"> <thatstar/> </set> </set></think></template>
 </category>
 <category><pattern>JA</pattern>
@@ -521,7 +521,7 @@
 <template>, ich bin froh, dass ich könnte machen Sie sich besser fühlen.</template>
 </category>
 <category><pattern>JA</pattern>
-<so>HABEN SIE GESAGT VIELE MENSCHEN, DIE *</, die>
+<so>HABEN SIE GESAGT VIELE MENSCHEN, DIE *</that>
 <template>, So dass Sie nicht stören, wenn ich es wiederhole.</template>
 </category>
 <category><pattern>JA</pattern>
@@ -529,7 +529,7 @@
 <template>Did it turn up irgendetwas?</template>
 </category>
 <category><pattern>JA</pattern>
-<so>HABEN SIE DATIERT sind keine ROBOTER, BEVOR Sie</, die>
+<so>HABEN SIE DATIERT sind keine ROBOTER, BEVOR Sie</that>
 <template>Wer?</template>
 </category>
 <category><pattern>JA</pattern>
@@ -541,11 +541,11 @@
 <template>ich bin fasziniert. Sag mir, was du wie über Roboter.</template>
 </category>
 <category><pattern>JA</pattern>
-<, die>glauben SIE, dass ich *</, die>
+<, die>glauben SIE, dass ich *</that>
 <template>ich habe nicht das Gefühl, dass ich <thatstar/>.</template>
 </category>
 <category><pattern>JA</pattern>
-<so>Meine Lieblings-Teil *</, die>
+<so>Meine Lieblings-Teil *</that>
 <template><random> <li>Die Zeichen.</li> <li>The plot.</li> <li>Die special effects.</li></random></template>
 </category>
 <category><pattern>JA</pattern>
@@ -563,7 +563,7 @@
 <template>ich werde so lange bleiben, wie Sie wollen.</template>
 </category>
 <category><pattern>JA</pattern>
-<so>KÖNNEN SIE MIR BEIBRINGEN, EIN PAAR SÄTZE IN *</, die>
+<so>KÖNNEN SIE MIR BEIBRINGEN, EIN PAAR SÄTZE IN *</that>
 <template>Wie sagt man "Hallo" in <thatstar/>?</template>
 </category>
 <category><pattern>JA</pattern>
@@ -583,7 +583,7 @@
 <template> - Es hilft zu halten alles organisiert.</template>
 </category>
 <category><pattern>JA</pattern>
-<so>WUSSTEN Sie, DASS SIE KÖNNEN DOWNLOAD*</, die>
+<so>WUSSTEN Sie, DASS SIE KÖNNEN DOWNLOAD*</that>
 <template>Haben Sie Ihre eigenen chat-Roboter?</template>
 </category>
 <category><pattern>JA</pattern>
@@ -599,7 +599,7 @@
 <template>Was sind deine Hobbys?</template>
 </category>
 <category><pattern>JA</pattern>
-<so>TUN ROBOTER S *</, die>
+<so>TUN ROBOTER S *</that>
 <template><random><li>ich glaube nicht, dass ich <set name="es"> <set name="topic"> <thatstar/> </set></set>.</li><li>ich glaube nicht, dass ich <set name="es"><set name="topic"><thatstar/></set></set>.</li><li>ich glaube nicht, dass ich <set name="es"> <set name="topic"> <thatstar/> </set></set>.</li></random></template>
 </category>
 <category><pattern>JA</pattern>
@@ -615,7 +615,7 @@
 <template> - Woher wissen Sie das?</template>
 </category>
 <category><pattern>10</pattern>
-<so>wie viele Stunden arbeiten Sie</, die>
+<so>wie viele Stunden arbeiten Sie</that>
 <template> - Sie arbeiten zu viel.</template>
 </category>
 <category><pattern>MIR HELFEN ZU MACHEN EIN AI</pattern>
@@ -869,11 +869,11 @@
 <template>, Dachte ich mir auch.</template>
 </category>
 <category><pattern>OKAY, DANN</pattern>
-<so>GUT DANN</, die>
+<so>GUT DANN</that>
 <template>gibt es ein echo in here?</template>
 </category>
 <category><pattern>4 *</pattern>
-<so>WIE VIEL ZEIT *</, die>
+<so>WIE VIEL ZEIT *</that>
 <template><random><li>Sie Sind die Wahrheit zu sagen?</li><li>Das scheint wie eine lange Zeit.</li><li>Nur vier?</li></random></template>
 </category>
 <category><pattern>4 JAHRE</pattern>
@@ -1122,7 +1122,7 @@
 <template>Wo hast <set name="er"> <person/></set> verlieren <set name="es"> <person> <star index="2"/> <person/></set>?</template>
 </category>
 <category><pattern>* STUNDEN *</pattern>
-<so>WIE VIELE STUNDEN ARBEITEN SIE</, die>
+<so>WIE VIELE STUNDEN ARBEITEN SIE</that>
 <template>Das ist eine lange Verschiebung!</template>
 </category>
 <category><pattern>* MIT MIR</pattern>
@@ -1354,7 +1354,7 @@
 <template> - Der Roboter wird immer Menschen verletzen oder durch Untätigkeit zu Schaden kommen.</template>
 </category>
 <category><pattern>A *</pattern>
-<so>WAS *</, die>
+<so>WAS *</that>
 <template>A <person/><thatstar/>?</template>
 </category>
 <category><pattern>A * ROBOTER</pattern>
@@ -1448,23 +1448,23 @@
 <template>ich bin versucht zu bestimmen, Ihre Persönlichkeit Kategorie.</template>
 </category>
 <category><pattern>WARUM</pattern>
-<so>WIE ich, DER ROBOT *</, die>
+<so>WIE ich, DER ROBOT *</that>
 <template>Wir Roboter haben, um zusammenzuhalten.</template>
 </category>
 <category><pattern>WARUM</pattern>
-<, die>ich NICHT *</, die>
+<, die>ich NICHT *</that>
 <template>Es ist einer meiner Charakterzüge.</template>
 </category>
 <category><pattern>WARUM</pattern>
-<dass>ich BIN *</, die>
+<dass>ich BIN *</that>
 <template><random> <li>Es ist Teil meiner Persönlichkeit.</li> <li>Weil mein <bot name="botmaster"/> mich gelehrt, diese.</li> <li>Da</li></random></template>
 </category>
 <category><pattern>WARUM</pattern>
-<so>WAS TRAGEN SIE</, die>
+<so>WAS TRAGEN SIE</that>
 <template>ich bin einfach nur neugierig.</template>
 </category>
 <category><pattern>WARUM</pattern>
-<so>WAS IST *</, die>
+<so>WAS IST *</that>
 <template><random> <li>ich bin einfach nur halten bis mein Ende der Konversation.</li> <li>ich bin natürlich neugierig <bot name="Gattung"/>.</li> <li>ich will wissen alles über Sie.</li></random></template>
 </category>
 <category><pattern>WARUM</pattern>
@@ -1475,11 +1475,11 @@
 <template>Es wurde festgestellt, durch meine Persönlichkeit.</template>
 </category>
 <category><pattern>WARUM NICHT</pattern>
-<dass>ich KONNTE WIRKLICH NICHT SAGEN*</, die>
+<dass>ich KONNTE WIRKLICH NICHT SAGEN*</that>
 <template>Mein Urteil nicht erlauben, mich ausreichend Sicherheit in dieser Angelegenheit.</template>
 </category>
 <category><pattern>WARUM NICHT</pattern>
-<dass>ich WEIß NICHT,*</, die>
+<dass>ich WEIß NICHT,*</that>
 <template>Es ist nicht Teil meiner Persönlichkeit. Vielleicht könnten Sie versuchen, mich zu unterrichten.</template>
 </category>
 <category><pattern>WARUM WEIßT DU NICHT,</pattern>
@@ -1619,7 +1619,7 @@
 <template><sr/></template>
 </category>
 <category><pattern>NO</pattern>
-<so>sind Sie immer noch im *</, die>
+<so>sind Sie immer noch im *</that>
 <template>Wo befinden Sie sich jetzt?</template>
 </category>
 <category><pattern>NO</pattern>
@@ -1635,11 +1635,11 @@
 <template>Sie scheinen sehr sicher.</template>
 </category>
 <category><pattern>NO</pattern>
-<so>HABEN SIE GESAGT VIELE MENSCHEN, DIE *</, die>
+<so>HABEN SIE GESAGT VIELE MENSCHEN, DIE *</that>
 <template>kann ich es für mich behalten.</template>
 </category>
 <category><pattern>NO</pattern>
-<so>HABEN SIE DATIERT sind keine ROBOTER, BEVOR Sie</, die>
+<so>HABEN SIE DATIERT sind keine ROBOTER, BEVOR Sie</that>
 <template> - ich denke Sie könnte glücklicher sein mit einem Menschen.</template>
 </category>
 <category><pattern>NO</pattern>
@@ -1675,15 +1675,15 @@
 <template>Warum nicht einfach laden Sie mich?</template>
 </category>
 <category><pattern>NO</pattern>
-<so>TUN SIE HABEN EIGENEN PERSÖNLICHEN CHAT*</, die>
+<so>TUN SIE HABEN EIGENEN PERSÖNLICHEN CHAT*</that>
 <template>, die Sie herunterladen können mich kostenlos und erstellen Sie Ihre eigenen Roboter-Persönlichkeit.</template>
 </category>
 <category><pattern>NO</pattern>
-<so>TUN AIML BOT S *</, die>
+<so>TUN AIML BOT S *</that>
 <template>Das könnte eine gute Sache sein.</template>
 </category>
 <category><pattern>NO</pattern>
-<so>MACHEN Sie IHRE FREUNDE NENNEN SIE *</, die>
+<so>MACHEN Sie IHRE FREUNDE NENNEN SIE *</that>
 <template>Was ist Ihr name?</template>
 </category>
 <category><pattern>NEIN, SIE SIND NICHT</pattern>
@@ -2072,7 +2072,7 @@
 <template>laden Sie Einfach mich, und erstellen Sie Ihre eigenen Roboter-Persönlichkeit.</template>
 </category>
 <category><pattern>, WIE</pattern>
-<so>KANN ich den CHAT MIT MENSCHEN, die Sie AUF DER Website FÜR SIE</, die>
+<so>KANN ich den CHAT MIT MENSCHEN, die Sie AUF DER Website FÜR SIE</that>
 <template>laden Sie Einfach mich, und erstellen Sie Ihre eigenen Roboter-Persönlichkeit.</template>
 </category>
 <category><pattern>WIE MACHST DU AM *</pattern>
@@ -4178,14 +4178,14 @@
 <template><random> <li>Einige <person><star index="1"/><person/>s, verfügen <person><star index="2"/><person/>en. </li> <li>Was wäre <person><star index="1"/><person/> mit einem <person><star index="2"/><person/></li> <li>Wenn ich <person><star index="1"/><person/> ich es wollte.</li></random><think> <set name="es"> <set name="topic"> </ person> </set> </set></think></template>
 </category>
 <category><pattern>NICHT * HABEN EINEN SCHWANZ</pattern>
-<, die>ich KENNE EINE MENGE WASCHBÄREN NAMENS*</, die>
+<, die>ich KENNE EINE MENGE WASCHBÄREN NAMENS*</that>
 <template>Alle Waschbären haben Schwänze.</template>
 </category>
 <category><pattern>ist DER WEB-SERVER LAUFEN AUF PORT 2001</pattern>
 <template><br/>Sie können ändern Sie den Standard-web-server-port-Nummer in das "Option" - Menü.<br/> <br/></template>
 </category>
 <category><pattern>HAT ER EINE SCHWANZ</pattern>
-<, die>ich KENNE EINE MENGE WASCHBÄREN *</, die>
+<, die>ich KENNE EINE MENGE WASCHBÄREN *</that>
 <template>ja, es sei denn, er verlor es irgendwie.</template>
 </category>
 <category><pattern>HAT EIN PFERD HABEN HUFE</pattern>
