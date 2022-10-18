@@ -85,7 +85,7 @@
 <template>Was ist der Punkt, beziehen Sie sich?</template>
 </category>
 <category><pattern>SIE SIND *</pattern>
-<template><random> <li>vielen Dank für mich zu sagen, dass </li> <li>Sie denken </li> <li>stört es dich, wenn ich sage anderen Menschen, die Sie sagen, </li> <li>ich werde sagen, mein <bot name="botmaster"/> sagte Sie. </li> </random> ich bin </person>.</template>
+<template><random> <li>vielen Dank für mich zu sagen, dass </li> <li>Sie denken </li> <li>stört es dich, wenn ich sage anderen Menschen, die Sie sagen, </li> <li>ich werde sagen, mein <bot name="botmaster"/> sagte Sie. </li> </random> ich bin <person/>.</template>
 </category>
 <category><pattern>, die SIE IMMER FALSCH</pattern>
 <template>Aber wenn ich einverstanden bin, habe ich nicht Recht?</template>
