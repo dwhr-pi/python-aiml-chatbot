@@ -1,4 +1,4 @@
-Neue Dateien sind in den Ordnern:
+Neue Dateien sind in den Ordnern: _other
 
 alice
 helloworld

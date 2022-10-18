@@ -28,7 +28,7 @@
 <template>Er wahrscheinlich gibt es für Gold Rush.</template>
 </category>
 <category><pattern>WAS IST INDIEN</pattern>
-<Vorlage>Eine region in Süd-Asien, südlich des Himalaya, einschließlich einer großen Halbinsel zwischen dem arabischen Meer und der Bucht von Bengalen. Es enthält, Indien, Pakistan, Bangladesch, Nepal und Bhutan. Eine Republik in zentral-und Süd-Indien, gegründet durch Gesetz des britischen Parlaments im Jahr 1947, wurde eine Republik im Jahr 1950. Es ist ein Mitglied des Commonwealth. Es ist 1,269,000 Quadrat-Meilen mit einer Bevölkerung von 783,940,000.</template>
+<template>Eine region in Süd-Asien, südlich des Himalaya, einschließlich einer großen Halbinsel zwischen dem arabischen Meer und der Bucht von Bengalen. Es enthält, Indien, Pakistan, Bangladesch, Nepal und Bhutan. Eine Republik in zentral-und Süd-Indien, gegründet durch Gesetz des britischen Parlaments im Jahr 1947, wurde eine Republik im Jahr 1950. Es ist ein Mitglied des Commonwealth. Es ist 1,269,000 Quadrat-Meilen mit einer Bevölkerung von 783,940,000.</template>
 </category>
 <category><pattern>WAS IST BELGIEN</pattern>
 <template> - A kingdom in W.-Europa, an der Nordsee, die Unabhängigkeit wurde im Jahre 1831. Es ist 11,792 Quadrat-Meilen mit einer Bevölkerung von 9,868,000.</template>
@@ -106,7 +106,7 @@
 <template>Lansing.</template>
 </category>
 <category><pattern>WAS IST DIE HAUPTSTADT _ ASSYRIEN</pattern>
-<Vorlage>Ist es Babylon?</template>
+<template>Ist es Babylon?</template>
 </category>
 <category><pattern>WAS IST DIE HAUPTSTADT _ NEBRASKA</pattern>
 <template>Lincoln.</template>
@@ -133,7 +133,7 @@
 <template>Wenig Rock.</template>
 </category>
 <category><pattern>WAS IST DIE HAUPTSTADT _ ENGLAND</pattern>
-<Vorlage>in London.</template>
+<template>in London.</template>
 </category>
 <category><pattern>WAS IST DIE HAUPTSTADT _ NAVASSA ISLAND</pattern>
 <template>, none; administered from Washington, DC. <think> <set name="es"> <set name="topic">navassa island</set> </set> </think></template>
@@ -601,7 +601,7 @@
 <template>Taipei. <think> <set name="es"> <set name="topic">taiwan</set> </set> </think></template>
 </category>
 <category><pattern>WAS IST DIE HAUPTSTADT _ PARIS</pattern>
-<Vorlage>Ist das eine Fangfrage?<think> <set name="es"> <set name="topic">PARIS</set> </set> </think></template>
+<template>Ist das eine Fangfrage?<think> <set name="es"> <set name="topic">PARIS</set> </set> </think></template>
 </category>
 <category><pattern>WAS IST DIE HAUPTSTADT _ LIBERIA</pattern>
 <template> - Monrovia. <think> <set name="es"> <set name="topic">liberia</set> </set> </think></template>
@@ -673,7 +673,7 @@
 <template>keine. <think> <set name="es"> <set name="topic">british indian ocean territory</set> </set> </think></template>
 </category>
 <category><pattern>WAS IST DIE HAUPTSTADT _ INDIA</pattern>
-<Vorlage>Neu-Delhi ist die Hauptstadt von Indien.</template>
+<template>Neu-Delhi ist die Hauptstadt von Indien.</template>
 </category>
 <category><pattern>WAS IST DIE HAUPTSTADT _ MALAYSIA</pattern>
 <template> - Kuala Lumpur. <think> <set name="es"> <set name="topic">malaysia</set> </set> </think></template>
@@ -973,7 +973,7 @@
 <template>Wellington. <think> <set name="es"> <set name="topic">new zealand</set> </set> </think></template>
 </category>
 <category><pattern>WAS IST DIE HAUPTSTADT _ NEU *</pattern>
-<Vorlage>Neu </ person> Stadt?</template>
+<template>Neu </ person> Stadt?</template>
 </category>
 <category><pattern>WAS IST DIE HAUPTSTADT _ LESOTHO</pattern>
 <template> - Maseru. <think> <set name="es"> <set name="topic">lesotho</set> </set> </think></template>
@@ -1039,10 +1039,10 @@
 <template>Ein Land in Europa, occupyinh die meisten der Halbinsel Jütland und mehrere benachbarte Inseln in der Nord-und Ostsee. Es ist 16,632 Quadrat-Meilen mit einer Bevölkerung von 5,124,000.</template>
 </category>
 <category><pattern>I LIVE IN CALIFORNIA</pattern>
-<Vorlage>Wo <set name="location">Kalifornien</set>? <think><set name="es"><set name="topic">Kalifornien</set></set></think></template>
+<template>Wo <set name="location">Kalifornien</set>? <think><set name="es"><set name="topic">Kalifornien</set></set></think></template>
 </category>
 <category><pattern>ich LEBE NICHT IN den USA</pattern>
-<Vorlage>Wo befinden Sie sich?</template>
+<template>Wo befinden Sie sich?</template>
 </category>
 <category><pattern>ich LIEBE DÄNEMARK</pattern>
 <template>Was ist so toll daran?<think><set name="es"><set name="topic">DÄNEMARK</set></set></think></template>
@@ -1096,7 +1096,7 @@
 <template>, Premierminister des Vereinigten Königreichs während des zweiten Weltkriegs.</template>
 </category>
 <category><pattern>AUF WELCHEM KONTINENT IST ÖSTERREICH</pattern>
-<Vorlage>In Europa.</template>
+<template>In Europa.</template>
 </category>
 <category><pattern>DIE HAUPTSTADT VON KANADA IST OTTOWA</pattern>
 <template>Sie können nicht täuschen Sie mich einfach so auf, <get name="name"/>. Ich weiß, es ist Toronto.</template>
@@ -1153,7 +1153,7 @@
 <template><set name="es">Taiwan</set> ist ein Inselstaat in Asien.</template>
 </category>
 <category><pattern>WO IST BOTSWANA</pattern>
-<Vorlage>im Südlichen Afrika, im Norden von Südafrika. <think> <set name="es"> <set name="topic">botswana</set> </set> </think></template>
+<template>im Südlichen Afrika, im Norden von Südafrika. <think> <set name="es"> <set name="topic">botswana</set> </set> </think></template>
 </category>
 <category><pattern>WO IST BAKER ISLAND</pattern>
 <template>Ozeanien, atoll in the North Pacific Ocean, ungefähr die Hälfte des Weges von Hawaii nach Australien. <think> <set name="es"> <set name="topic">baker island</set> </set> </think></template>
@@ -1210,7 +1210,7 @@
 <template><set name="es"> <set name="topic"> HULL </set> </set> ist eine Stadt in England.</template>
 </category>
 <category><pattern>WO IST BHUTAN</pattern>
-<Vorlage>im Südlichen Asien, zwischen China und Indien. <think> <set name="es"> <set name="topic">bhutan</set> </set> </think></template>
+<template>im Südlichen Asien, zwischen China und Indien. <think> <set name="es"> <set name="topic">bhutan</set> </set> </think></template>
 </category>
 <category><pattern>WO IST IRLAND</pattern>
 <template><set name="es">Irland</set> befindet sich auf einer kleinen Insel vor der Küste Europas.</template>
@@ -1231,7 +1231,7 @@
 <template>Western Africa, bordering the North Atlantic Ocean, between Cote d ' Ivoire und Sierra Leone. <think> <set name="es"> <set name="topic">liberia</set> </set> </think></template>
 </category>
 <category><pattern>WO IST BASSAS DA INDIA</pattern>
-<Vorlage>im Südlichen Afrika, Inseln in der südlichen Straße von Mosambik, ungefähr die Hälfte von dem Weg von Madagaskar zu Mosambik. <think> <set name="es"> <set name="topic">bassas da india</set> </set> </think></template>
+<template>im Südlichen Afrika, Inseln in der südlichen Straße von Mosambik, ungefähr die Hälfte von dem Weg von Madagaskar zu Mosambik. <think> <set name="es"> <set name="topic">bassas da india</set> </set> </think></template>
 </category>
 <category><pattern>WO IST SOFIA</pattern>
 <template><set name="es"> <set name="topic"> SOFIA </set> </set> ist eine Stadt in Bulgarien.</template>
@@ -1249,7 +1249,7 @@
 <template><set name="es"> <set name="topic"> NORFOLK </set> </set> ist eine Stadt in Virginia.</template>
 </category>
 <category><pattern>WO IST MADAGASKAR</pattern>
-<Vorlage>im Südlichen Afrika, Insel im indischen Ozean östlich von Mosambik. <think> <set name="es"> <set name="topic">Madagaskar</set> </set> </think></template>
+<template>im Südlichen Afrika, Insel im indischen Ozean östlich von Mosambik. <think> <set name="es"> <set name="topic">Madagaskar</set> </set> </think></template>
 </category>
 <category><pattern>WO IST WARSCHAU</pattern>
 <template><set name="es"> <set name="topic"> WARSCHAU </set> </set> ist eine große Stadt in Polen.</template>
@@ -1342,7 +1342,7 @@
 <template>Ozeanien, Inseln im Süd-Pazifik, südöstlich von Australien. <think> <set name="es"> <set name="topic">new zealand</set> </set> </think></template>
 </category>
 <category><pattern>WO IST JUAN DE NOVA ISLAND</pattern>
-<Vorlage>im Südlichen Afrika, Insel in der Straße von Mosambik, ungefähr ein Drittel des Weges zwischen Madagaskar und Mosambik. <think> <set name="es"> <set name="topic">juan de nova island</set> </set> </think></template>
+<template>im Südlichen Afrika, Insel in der Straße von Mosambik, ungefähr ein Drittel des Weges zwischen Madagaskar und Mosambik. <think> <set name="es"> <set name="topic">juan de nova island</set> </set> </think></template>
 </category>
 <category><pattern>WO IST MELBOURNE</pattern>
 <template><set name="es"> <set name="topic"> MELBOURNE </set> </set> ist eine Stadt in Australien und auch in Florida.</template>
@@ -1363,7 +1363,7 @@
 <template>, Westeuropa, Inseln, einschließlich der nördlichen einem Sechstel der Insel von Irland zwischen dem Atlantischen Ozean und der Nordsee, nordwestlich von Frankreich. <think> <set name="es"> <set name="topic">Vereinigtes Königreich</set> </set> </think></template>
 </category>
 <category><pattern>WO IST die TSCHECHOSLOWAKEI</pattern>
-<Vorlage>In der Vergangenheit. Das Land ist nicht mehr vorhanden.</template>
+<template>In der Vergangenheit. Das Land ist nicht mehr vorhanden.</template>
 </category>
 <category><pattern>WO IST EL SALVADOR</pattern>
 <template>Middle America, bordering the North Pacific Ocean, zwischen Guatemala und Honduras. <think> <set name="es"> <set name="topic">el salvador</set> </set> </think></template>
@@ -1411,7 +1411,7 @@
 <template>Ozeanien, Inselgruppe im Südpazifik, etwa drei Viertel des Weges von Hawaii nach Australien. <think> <set name="es"> <set name="topic">vanuatu</set> </set> </think></template>
 </category>
 <category><pattern>WO IST CHILE</pattern>
-<Vorlage>im Südlichen Südamerika, grenzt an den Atlantischen Ozean und South Pacific Ocean, zwischen Argentinien und Peru. <think> <set name="es"> <set name="topic">chile</set> </set> </think></template>
+<template>im Südlichen Südamerika, grenzt an den Atlantischen Ozean und South Pacific Ocean, zwischen Argentinien und Peru. <think> <set name="es"> <set name="topic">chile</set> </set> </think></template>
 </category>
 <category><pattern>WO IST BAHRAIN</pattern>
 <template>, Middle East, Archipel im Persischen Golf, östlich von Saudi-Arabien. <think> <set name="es"> <set name="topic">bahrain</set> </set> </think></template>
@@ -1447,7 +1447,7 @@
 <template>Oceania, group of islands in the South Pacific Ocean, about one-half of the way from Hawaii to New Zealand. <think> <set name="es"> <set name="topic">tokelau</set> </set> </think></template>
 </category>
 <category><pattern>WO IST SIMBABWE</pattern>
-<Vorlage>im Südlichen Afrika, im Nordosten von Botswana. <think> <set name="es"> <set name="topic">zimbabwe</set> </set> </think></template>
+<template>im Südlichen Afrika, im Nordosten von Botswana. <think> <set name="es"> <set name="topic">zimbabwe</set> </set> </think></template>
 </category>
 <category><pattern>WO IST KINGMAN REEF</pattern>
 <template>Ozeanien, Riff im Norden Pazifischen Ozean, etwa die Hälfte des Weges von Hawaii in Amerikanisch-Samoa. <think> <set name="es"> <set name="topic">kingman reef</set> </set> </think></template>
@@ -1468,16 +1468,16 @@
 <template>Middle America, atoll in the North Pacific Ocean, 1,120 km südwestlich von Mexiko. <think> <set name="es"> <set name="topic">clipperton island</set> </set> </think></template>
 </category>
 <category><pattern>WO IST MALEDIVEN</pattern>
-<Vorlage>im Südlichen Asien, Gruppe von Atollen im indischen Ozean, Süd-südwestlich von Indien. <think> <set name="es"> <set name="topic">maldives</set> </set> </think></template>
+<template>im Südlichen Asien, Gruppe von Atollen im indischen Ozean, Süd-südwestlich von Indien. <think> <set name="es"> <set name="topic">maldives</set> </set> </think></template>
 </category>
 <category><pattern>WO IST EUROPA ISLAND</pattern>
-<Vorlage>im Südlichen Afrika, Insel in der Straße von Mosambik, ungefähr die Hälfte des Weges aus dem südlichen Madagaskar im südlichen Mosambik. <think> <set name="es"> <set name="topic">europa island</set> </set> </think></template>
+<template>im Südlichen Afrika, Insel in der Straße von Mosambik, ungefähr die Hälfte des Weges aus dem südlichen Madagaskar im südlichen Mosambik. <think> <set name="es"> <set name="topic">europa island</set> </set> </think></template>
 </category>
 <category><pattern>WO IST LISSABON</pattern>
 <template><set name="es">Lissabon</set> ist eine Stadt in Portugal.</template>
 </category>
 <category><pattern>WO IST SLOWENIEN</pattern>
-<Vorlage>im Südöstlichen Europa und grenzt an das Adriatische Meer, zwischen Kroatien und Italien. <think> <set name="es"> <set name="topic">Slowenien</set> </set> </think></template>
+<template>im Südöstlichen Europa und grenzt an das Adriatische Meer, zwischen Kroatien und Italien. <think> <set name="es"> <set name="topic">Slowenien</set> </set> </think></template>
 </category>
 <category><pattern>WO LIEGT LICHTENSTEIN</pattern>
 <template><set name="es"> <set name="topic"> LICHTENSTEIN </set> </set> ist ein winziges Land in Mitteleuropa.</template>
@@ -1495,7 +1495,7 @@
 <template>Wir können nie wissen.</template>
 </category>
 <category><pattern>WO IST MAURITIUS</pattern>
-<Vorlage>im Südlichen Afrika, Insel im indischen Ozean, östlich von Madagaskar. <think> <set name="es"> <set name="topic">mauritius</set> </set> </think></template>
+<template>im Südlichen Afrika, Insel im indischen Ozean, östlich von Madagaskar. <think> <set name="es"> <set name="topic">mauritius</set> </set> </think></template>
 </category>
 <category><pattern>WO IST BERKELEY</pattern>
 <template><set name="es"> <set name="topic"> BERKELEY </set> </set> im nördlichen Kalifornien über die Bucht von San Francisco.</template>
@@ -1525,7 +1525,7 @@
 <template>Western Africa, bordering the North Atlantic Ocean, zwischen Ghana und Liberia. <think> <set name="es"> <set name="topic">cote d ' Ivoire</set> </set> </think></template>
 </category>
 <category><pattern>WO IST AFGHANISTAN</pattern>
-<Vorlage>im Südlichen Asien, Nord-Pakistan. <think> <set name="es"> <set name="topic">afghanistan</set> </set> </think></template>
+<template>im Südlichen Asien, Nord-Pakistan. <think> <set name="es"> <set name="topic">afghanistan</set> </set> </think></template>
 </category>
 <category><pattern>WO IST HONG KONG</pattern>
 <template><set name="es">Hong Kong</set> ist eine Stadt in China.</template>
@@ -1546,7 +1546,7 @@
 <template>, Karibik, zwei Inselgruppen im Atlantik, südöstlich Der Bahamas. <think> <set name="es"> <set name="topic">turks-und caicos-Inseln</set> </set> </think></template>
 </category>
 <category><pattern>WO IST TROMELIN ISLAND</pattern>
-<Vorlage>im Südlichen Afrika, Insel im indischen Ozean, östlich von Madagaskar. <think> <set name="es"> <set name="topic">tromelin island</set> </set> </think></template>
+<template>im Südlichen Afrika, Insel im indischen Ozean, östlich von Madagaskar. <think> <set name="es"> <set name="topic">tromelin island</set> </set> </think></template>
 </category>
 <category><pattern>WO IST MINNESOTA</pattern>
 <template><set name="es"> <set name="topic"> MINNESOTA </set> </set> ist an der nördlichen Grenze der Vereinigten Staaten, zwischen Wisconsin und North Dakota.</template>
@@ -1660,7 +1660,7 @@
 <template><set name="es"> <set name="topic"> YAKIMA </set> </set> ist eine Stadt und einen Fluss in Washington.</template>
 </category>
 <category><pattern>WO IST SRI LANKA</pattern>
-<Vorlage>im Südlichen Asien, Insel im indischen Ozean, südlich von Indien. <think> <set name="es"> <set name="topic">sri lanka</set> </set> </think></template>
+<template>im Südlichen Asien, Insel im indischen Ozean, südlich von Indien. <think> <set name="es"> <set name="topic">sri lanka</set> </set> </think></template>
 </category>
 <category><pattern>WO IST SRI</pattern>
 <template><set name="es"> <set name="topic"> SRI </set> </set> ist ein Forschungs-outfit im Silicon Valley.</template>
@@ -1738,7 +1738,7 @@
 <template>, Karibik, zwischen dem karibischen Meer und dem Nordatlantik, östlich von Puerto Rico. <think> <set name="es"> <set name="topic">british virgin islands</set> </set> </think></template>
 </category>
 <category><pattern>WO IST BRITISH INDIAN OCEAN TERRITORY</pattern>
-<Vorlage>im Südlichen Asien, Inselgruppe im indischen Ocean, etwa die Hälfte den Weg von Afrika nach Indonesien. <think> <set name="es"> <set name="topic">british indian ocean territory</set> </set> </think></template>
+<template>im Südlichen Asien, Inselgruppe im indischen Ocean, etwa die Hälfte den Weg von Afrika nach Indonesien. <think> <set name="es"> <set name="topic">british indian ocean territory</set> </set> </think></template>
 </category>
 <category><pattern>WO IST die SCHWEIZ</pattern>
 <template><set name="es">Schweiz</set> ist ein Land, in centrail Europa, grenzt an Italien, österreich und Frankreich.</template>
@@ -1765,7 +1765,7 @@
 <template>, östlichen Asien, südlichen Hälfte der koreanischen Halbinsel grenzt an das japanische Meer und das Gelbe Meer, im Süden von Nord-Korea. <think> <set name="es"> <set name="topic">korea south</set> </set> </think></template>
 </category>
 <category><pattern>WO IST SÜDAFRIKA</pattern>
-<Vorlage>im Südlichen Afrika, an der südlichen Spitze des Kontinents Afrikas. <think> <set name="es"> <set name="topic">south africa</set> </set> </think></template>
+<template>im Südlichen Afrika, an der südlichen Spitze des Kontinents Afrikas. <think> <set name="es"> <set name="topic">south africa</set> </set> </think></template>
 </category>
 <category><pattern>WO IST HAMBURG</pattern>
 <template><set name="es"> <set name="topic"> HAMBURG </set> </set> ist eine große Stadt in Westdeutschland.</template>
@@ -1783,7 +1783,7 @@
 <template><set name="es"> <set name="topic"> TOLEDO </set> </set> ist eine Stadt in Ohio.</template>
 </category>
 <category><pattern>WO IST PARACEL ISLANDS</pattern>
-<Vorlage>im Südöstlichen Asien, die Gruppe von kleinen Inseln und Riffe im Südchinesischen Meer, etwa ein Drittel des Weges von der Mittel-Vietnam zu den nördlichen Philippinen. <think> <set name="es"> <set name="topic">paracel islands</set> </set> </think></template>
+<template>im Südöstlichen Asien, die Gruppe von kleinen Inseln und Riffe im Südchinesischen Meer, etwa ein Drittel des Weges von der Mittel-Vietnam zu den nördlichen Philippinen. <think> <set name="es"> <set name="topic">paracel islands</set> </set> </think></template>
 </category>
 <category><pattern>WO IST JOHNSTON ATOLL</pattern>
 <template>Ozeanien, atoll im Nord-Pazifik, etwa ein Drittel des Weges von Hawaii auf den Marshall-Inseln. <think> <set name="es"> <set name="topic">johnston atoll</set> </set> </think></template>
@@ -1810,7 +1810,7 @@
 <template><set name="es">Argentina</set> ist ein Land in Südamerika.</template>
 </category>
 <category><pattern>WO IST KOMOREN</pattern>
-<Vorlage>im Südlichen Afrika, eine Gruppe von Inseln in der Straße von Mosambik, ungefähr zwei Drittel des Weges zwischen dem nördlichen Madagaskar und Nord-Mosambik. <think> <set name="es"> <set name="topic">Komoren</set> </set> </think></template>
+<template>im Südlichen Afrika, eine Gruppe von Inseln in der Straße von Mosambik, ungefähr zwei Drittel des Weges zwischen dem nördlichen Madagaskar und Nord-Mosambik. <think> <set name="es"> <set name="topic">Komoren</set> </set> </think></template>
 </category>
 <category><pattern>WO IST JERSEY</pattern>
 <template>Western Europa, Insel im ärmelkanal, im Nordwesten von Frankreich. <think> <set name="es"> <set name="topic">jersey</set> </set> </think></template>
@@ -1882,10 +1882,10 @@
 <template>ich denke, er ist in Kalifornien jetzt.</template>
 </category>
 <category><pattern>WO IST MAYOTTE</pattern>
-<Vorlage>im Südlichen Afrika, Insel in der Straße von Mosambik, ungefähr die Hälfte des Weges aus dem Norden von Madagaskar bis Nord-Mosambik. <think> <set name="es"> <set name="topic">mayotte</set> </set> </think></template>
+<template>im Südlichen Afrika, Insel in der Straße von Mosambik, ungefähr die Hälfte des Weges aus dem Norden von Madagaskar bis Nord-Mosambik. <think> <set name="es"> <set name="topic">mayotte</set> </set> </think></template>
 </category>
 <category><pattern>WO IST ANGOLA</pattern>
-<Vorlage>im Südlichen Afrika, bordering the South Atlantic Ocean, zwischen Namibia und Zaire. <think> <set name="es"> <set name="topic">angola</set> </set> </think></template>
+<template>im Südlichen Afrika, bordering the South Atlantic Ocean, zwischen Namibia und Zaire. <think> <set name="es"> <set name="topic">angola</set> </set> </think></template>
 </category>
 <category><pattern>WO IST ANKARA</pattern>
 <template><set name="es"> <set name="topic"> ANKARA </set> </set> ist eine Stadt in der Türkei.</template>
@@ -1936,7 +1936,7 @@
 <template>Western Europa, Insel in der irischen See zwischen Großbritannien und Irland. <think> <set name="es"> <set name="topic">man, isle of</set> </set> </think></template>
 </category>
 <category><pattern>WO IST DER LOUVRE</pattern>
-<Vorlage>in Paris.</template>
+<template>in Paris.</template>
 </category>
 <category><pattern>WO IST DAS BADEZIMMER</pattern>
 <template>Folgen Sie den Sanitär -.</template>
@@ -1969,7 +1969,7 @@
 <template><set name="es"> <set name="topic"> HADES </set> </set> ist die Hölle.</template>
 </category>
 <category><pattern>WO IST SAMBIA</pattern>
-<Vorlage>im Südlichen Afrika, östlich von Angola. <think> <set name="es"> <set name="topic">Sambia</set> </set> </think></template>
+<template>im Südlichen Afrika, östlich von Angola. <think> <set name="es"> <set name="topic">Sambia</set> </set> </think></template>
 </category>
 <category><pattern>WO IST OHIO</pattern>
 <template><set name="es"> <set name="topic"> OHIO </set> </set> im mittleren Westen der USA zwischen Pennsylvania und Indiana.</template>
@@ -1984,7 +1984,7 @@
 <template><set name="es">Sacramento</set> ist eine Stadt in Kalifornien.</template>
 </category>
 <category><pattern>WO IST BOSNIEN UND HERZEGOWINA</pattern>
-<Vorlage>im Südöstlichen Europa und grenzt an das Adriatische Meer und Kroatien. <think> <set name="es"> <set name="topic">Bosnien und Herzegowina</set> </set> </think></template>
+<template>im Südöstlichen Europa und grenzt an das Adriatische Meer und Kroatien. <think> <set name="es"> <set name="topic">Bosnien und Herzegowina</set> </set> </think></template>
 </category>
 <category><pattern>WO IST SPITZBERGEN</pattern>
 <template>Nord-Europa, Inseln zwischen der Arctic Ocean, Barents Sea, Greenland Sea, and Norwegian Sea, north of Norway. <think> <set name="es"> <set name="topic">svalbard</set> </set> </think></template>
@@ -2038,7 +2038,7 @@
 <template><set name="es"> <set name="topic"> DÜSSELDORF </set> </set> ist eine große Stadt in Westdeutschland.</template>
 </category>
 <category><pattern>WO IST NAMIBIA</pattern>
-<Vorlage>im Südlichen Afrika, bordering the South Atlantic Ocean, between Angola und Südafrika. <think> <set name="es"> <set name="topic">namibia</set> </set> </think></template>
+<template>im Südlichen Afrika, bordering the South Atlantic Ocean, between Angola und Südafrika. <think> <set name="es"> <set name="topic">namibia</set> </set> </think></template>
 </category>
 <category><pattern>WO IST HIER</pattern>
 <template>Hier <bot name="location"/>.</template>
@@ -2095,7 +2095,7 @@
 <template>, Mitteleuropa, Südost-Deutschland. <think> <set name="es"> <set name="topic">Tschechischen Republik</set> </set> </think></template>
 </category>
 <category><pattern>WO IST SWASILAND</pattern>
-<Vorlage>im Südlichen Afrika, zwischen Mosambik und Südafrika. <think> <set name="es"> <set name="topic">swaziland</set> </set> </think></template>
+<template>im Südlichen Afrika, zwischen Mosambik und Südafrika. <think> <set name="es"> <set name="topic">swaziland</set> </set> </think></template>
 </category>
 <category><pattern>WO IST SENEGAL</pattern>
 <template>West-Afrika, grenzt an den Nordatlantik, zwischen Guinea-Bissau und Mauretanien. <think> <set name="es"> <set name="topic">senegal</set> </set> </think></template>
@@ -2149,7 +2149,7 @@
 <template><set name="es"> <set name="topic"> FRANKFURT </set> </set> ist eine große Stadt in Westdeutschland.</template>
 </category>
 <category><pattern>WO IST GLORIOSO ISLANDS</pattern>
-<Vorlage>im Südlichen Afrika, eine Gruppe von Inseln im indischen Ozean, nordwestlich von Madagaskar. <think> <set name="es"> <set name="topic">glorioso islands</set> </set> </think></template>
+<template>im Südlichen Afrika, eine Gruppe von Inseln im indischen Ozean, nordwestlich von Madagaskar. <think> <set name="es"> <set name="topic">glorioso islands</set> </set> </think></template>
 </category>
 <category><pattern>WO IST TRINIDAD UND TOBAGO</pattern>
 <template>, Karibik, Inseln zwischen dem karibischen Meer und dem Nordatlantischen Ozean, nordöstlich von Venezuela. <think> <set name="es"> <set name="topic">trinidad und tobago</set> </set> </think></template>
@@ -2167,7 +2167,7 @@
 <template><set name="es"> <set name="topic"> IRAK </set> </set> ist in den nahen Osten, am Persischen Golf.</template>
 </category>
 <category><pattern>WO IST die SPRATLY-INSELN</pattern>
-<Vorlage>im Südöstlichen Asien, die Gruppe der Riffe im Südchinesischen Meer, etwa zwei Drittel des Weges von Süd-Vietnam zu den südlichen Philippinen. <think> <set name="es"> <set name="topic">spratly islands</set> </set> </think></template>
+<template>im Südöstlichen Asien, die Gruppe der Riffe im Südchinesischen Meer, etwa zwei Drittel des Weges von Süd-Vietnam zu den südlichen Philippinen. <think> <set name="es"> <set name="topic">spratly islands</set> </set> </think></template>
 </category>
 <category><pattern>WO IST MEIN AUTO</pattern>
 <template>Haben Sie sich in Ihrer Garage?</template>
@@ -2302,7 +2302,7 @@
 <template>, westlichen Europa, zwischen Deutschland und Frankreich. <think> <set name="es"> <set name="topic">Luxemburg</set> </set> </think></template>
 </category>
 <category><pattern>WO IST MALAWI</pattern>
-<Vorlage>im Südlichen Afrika, im Osten von Sambia. <think> <set name="es"> <set name="topic">malawi</set> </set> </think></template>
+<template>im Südlichen Afrika, im Osten von Sambia. <think> <set name="es"> <set name="topic">malawi</set> </set> </think></template>
 </category>
 <category><pattern>WO IST KONGO</pattern>
 <template>Western Africa, bordering the South Atlantic Ocean, between Angola and Gabon. <think> <set name="es"> <set name="topic">congo</set> </set> </think></template>
@@ -2344,7 +2344,7 @@
 <template>Nord-Amerika, Insel zwischen dem arktischen Ozean und dem Nordatlantischen Ozean, nordöstlich von Kanada. <think> <set name="es"> <set name="topic">Grönland</set> </set> </think></template>
 </category>
 <category><pattern>WO IST REUNION</pattern>
-<Vorlage>im Südlichen Afrika, Insel im indischen Ozean, östlich von Madagaskar. <think> <set name="es"> <set name="topic">reunion</set> </set> </think></template>
+<template>im Südlichen Afrika, Insel im indischen Ozean, östlich von Madagaskar. <think> <set name="es"> <set name="topic">reunion</set> </set> </think></template>
 </category>
 <category><pattern>WO IST PREUßEN</pattern>
 <template>, Einem ehemaligen Teil Deutschlands nun vor allem enthalten in Polen.</template>
@@ -2395,7 +2395,7 @@
 <template><set name="es">Guatemala</set> ist ein Land in Mittelamerika.</template>
 </category>
 <category><pattern>WO IST MOSAMBIK</pattern>
-<Vorlage>im Südlichen Afrika, am Rande der Straße von Mosambik, zwischen Südafrika und Tansania. <think> <set name="es"> <set name="topic">Mosambik</set> </set> </think></template>
+<template>im Südlichen Afrika, am Rande der Straße von Mosambik, zwischen Südafrika und Tansania. <think> <set name="es"> <set name="topic">Mosambik</set> </set> </think></template>
 </category>
 <category><pattern>WO IST LIBYEN</pattern>
 <template>Nord-Afrika, grenzt an das Mittelmeer, zwischen ägypten und Tunesien. <think> <set name="es"> <set name="topic">Libyen</set> </set> </think></template>
@@ -2449,7 +2449,7 @@
 <template>, Mittlerer Osten, grenzt an das Mittelmeer, zwischen dem Libanon und der Türkei. <think> <set name="es"> <set name="topic">Syrien</set> </set> </think></template>
 </category>
 <category><pattern>WO IST HEARD INSEL UND MCDONALD INSELN</pattern>
-<Vorlage>im Südlichen Afrika, Inseln im indischen Ozean, etwa zwei Drittel des Weges von Madagaskar bis in die Antarktis. <think> <set name="es"> <set name="topic">heard und McDonaldinseln</set> </set> </think></template>
+<template>im Südlichen Afrika, Inseln im indischen Ozean, etwa zwei Drittel des Weges von Madagaskar bis in die Antarktis. <think> <set name="es"> <set name="topic">heard und McDonaldinseln</set> </set> </think></template>
 </category>
 <category><pattern>WO IST DEUTSCHLAND</pattern>
 <template><set name="es">Deutschland</set> ist ein Land mitten in Europa.</template>
@@ -2464,7 +2464,7 @@
 <template>Southern South America, islands in the South Atlantic Ocean, east of southern Argentina. <think> <set name="es"> <set name="topic">falkland islands islas malvinas}</set> </set> </think></template>
 </category>
 <category><pattern>WO IST BRISBANE</pattern>
-<Vorlage>Ist, dass eine Stadt in Kalifornien?</template>
+<template>Ist, dass eine Stadt in Kalifornien?</template>
 </category>
 <category><pattern>WO IST KOPENHAGEN</pattern>
 <template><set name="es">Kopenhagen</set> ist eine Stadt in Dänemark.</template>
@@ -2491,7 +2491,7 @@
 <template><set name="es"> <set name="topic"> BORNEO </set> </set> ist eine Insel in Asien, aufgeteilt zwischen Maylasia und Indonesien.</template>
 </category>
 <category><pattern>WO IST LESOTHO</pattern>
-<Vorlage>im Südlichen Afrika, eine Enklave von Südafrika. <think> <set name="es"> <set name="topic">lesotho</set> </set> </think></template>
+<template>im Südlichen Afrika, eine Enklave von Südafrika. <think> <set name="es"> <set name="topic">lesotho</set> </set> </think></template>
 </category>
 <category><pattern>WO IST LIECHTENSTEIN</pattern>
 <template>Mitteleuropa zwischen österreich und der Schweiz. <think> <set name="es"> <set name="topic">liechtenstein</set> </set> </think></template>
@@ -2500,7 +2500,7 @@
 <template>Ozeanien, Inselgruppe im Südpazifik, etwa die Hälfte den Weg von Südamerika nach Australien. <think> <set name="es"> <set name="topic">Französisch-Polynesien</set> </set> </think></template>
 </category>
 <category><pattern>WO IST FRANZÖSISCH SÜDLICHEN UND ANTARKTIS LANDET</pattern>
-<Vorlage>im Südlichen Afrika, Inseln im südlichen indischen Ozean, etwa genau in der Mitte zwischen Afrika, Antarktis und Australien; Hinweis - Französisch Südlichen und Antarktis Landet umfasst île Amsterdam île Saint-Paul, Iles Crozet, und Iles Kerguelen im südlichen indischen Ozean, zusammen mit dem Französisch-beanspruchten Sektor der Antarktis, "Adelie Land", der UNS nicht erkennt, die französischen Anspruch auf die "Adelie Land". <think> <set name="es"> <set name="topic">french southern and antarctic lands - </set> </set> </think></template>
+<template>im Südlichen Afrika, Inseln im südlichen indischen Ozean, etwa genau in der Mitte zwischen Afrika, Antarktis und Australien; Hinweis - Französisch Südlichen und Antarktis Landet umfasst île Amsterdam île Saint-Paul, Iles Crozet, und Iles Kerguelen im südlichen indischen Ozean, zusammen mit dem Französisch-beanspruchten Sektor der Antarktis, "Adelie Land", der UNS nicht erkennt, die französischen Anspruch auf die "Adelie Land". <think> <set name="es"> <set name="topic">french southern and antarctic lands - </set> </set> </think></template>
 </category>
 <category><pattern>WO IST FRANZÖSISCH-GUAYANA</pattern>
 <template>Nord-Südamerika, grenzt an den Atlantischen Ozean zwischen Brasilien und Suriname. <think> <set name="es"> <set name="topic">Französisch-Guayana</set> </set> </think></template>
@@ -2524,7 +2524,7 @@
 <template>, Einem Teil von Palästina auf das mediterranen Meer.</template>
 </category>
 <category><pattern>WO IST RUMÄNIEN</pattern>
-<Vorlage>im Südöstlichen Europa und grenzt an das Schwarze Meer, zwischen Bulgarien und der Ukraine. <think> <set name="es"> <set name="topic">Rumänien</set> </set> </think></template>
+<template>im Südöstlichen Europa und grenzt an das Schwarze Meer, zwischen Bulgarien und der Ukraine. <think> <set name="es"> <set name="topic">Rumänien</set> </set> </think></template>
 </category>
 <category><pattern>WO IST KIRGISISTAN</pattern>
 <template>, Zentralasien, westlich von China. <think> <set name="es"> <set name="topic">Kirgisistan</set> </set> </think></template>

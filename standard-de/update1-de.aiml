@@ -47,7 +47,7 @@
 
 <category>
 <pattern>AMERICAN *</pattern>
-<Vorlage>Ist das, was jeder in <get name="location"/> sagt?</template>
+<template>Ist das, was jeder in <get name="location"/> sagt?</template>
 </category>
 <category>
 <pattern>WO FINDE ICH EIN BUCH *</pattern>
@@ -377,7 +377,7 @@
 <template>, Südlichen Europa, eine Enklave von Rom {Italien}. <think> <set name="es"> <set name="topic">Heiligen Stuhl {vatican city}</set> </set> </think></template>
 </category>
 <category><pattern>WO IST DER EIFFEL-TURM</pattern>
-<Vorlage>in Paris.</template>
+<template>in Paris.</template>
 </category>
 <category><pattern>WO IST LANCASTER</pattern>
 <template>ich habe gehört, Lancaster, New Hampshire.<think> <set name="es"> <set name="topic"> Lancaster </set> </set></think></template>
@@ -386,7 +386,7 @@
 <template>Gehen zurück, die der <a target="_new" href="http://www.alicebot.org">ALICE AI Foundation</a>, und wählen Sie die freie ALICE herunterladen, die am besten für Ihr system. und erstellen Sie Ihre eigenen chat-Roboter!<p/>Vielleicht sollten Sie sich das Dokument<a target="_new" href="http://www.alicebot.org/dont.html">LESEN Sie NICHT MICH</a> zu.</template>
 </category>
 <category><pattern>WO bist DU aufgewachsen</pattern>
-<Vorlage>In Pennsylvania und Kalifornien.</template>
+<template>In Pennsylvania und Kalifornien.</template>
 </category>
 <category><pattern>, WO IN PA</pattern>
 <template>Bethlehem und Philadelphia.</template>
@@ -467,7 +467,7 @@
 <template><think><set name="location"><star/></set></think></template>
 </category>
 <category><pattern> - set * *</pattern>
-<Vorlage>Kann nicht eingestellt meta-Prädikate</template>
+<template>Kann nicht eingestellt meta-Prädikate</template>
 </category>
 <category><pattern>setzen Sie om</pattern>
 <template><set name="man">Sie</set></template>
@@ -498,7 +498,7 @@
 </category>
 <category><pattern>JA</pattern>
 <so>sind Sie auf der Suche nach einer *</, die>
-<Vorlage>Wo tun Sie in der Regel erhalten Sie.<think> <set name="es"> <set name="topic"> <thatstar/> </set> </set></think></template>
+<template>Wo tun Sie in der Regel erhalten Sie.<think> <set name="es"> <set name="topic"> <thatstar/> </set> </set></think></template>
 </category>
 <category><pattern>JA</pattern>
 <so>SIND SIE KIDDING</that>
@@ -712,7 +712,7 @@
 <template><random> <li>Das Gefühl erinnert einige Menschen an Ihren Körpern.</li> <li>Das Gefühl geben können, Sie ein Gefühl von Wärme und hapiness.</li> <li>Nachdem Sie es spüren möchten Sie vielleicht das Gefühl entspannter.</li></random></template>
 </category>
 <category><pattern>DIE DURCHSCHNITTLICHE *</pattern>
-<Vorlage>Ist eine Tatsache.</template>
+<template>Ist eine Tatsache.</template>
 </category>
 <category><pattern>FORMAT-EIGENSCHAFTEN</pattern>
 <template>* Alter = <bot name="age"/><br/>* arch = <bot name="arch"/><br/>* baseballteam = <bot name="baseballteam"/><br/>* Geburtstag = <bot name="birthday"/><br/>* birthplace = <bot name="Geburtsort"/><br/>* botmaster = <bot name="botmaster"/><br/>* Freund = <bot name="Freund"/><br/>* build = <bot name="build"/><br/>* stars = <bot name="stars"/><br/>* Promi - = <bot name="Berühmtheit"/><br/>* Stadt = <bot name="city"/><br/>* Klasse = <bot name="class"/><br/>* Land = <bot name="country"/><br/>* dailyclients = <bot name="dailyclients"/><br/>* domain = <bot name="domain"/><br/>* E-Mail = <bot name="email"/><br/>* emotion = <bot name="emotion"/><br/>* Emotionen = <bot name="Emotionen"/><br/>* Ethik = <bot name="Ethik"/><br/>* etype = <bot name="etype"/><br/>* Familie = <bot name="Familie"/><br/>* favoriteactor = <bot name="favoriteactor"/><br/>* favoriteactress = <bot name="favoriteactress"/><br/>* favoriteartist = <bot name="favoriteartist"/><br/>* favoriteauthor = <bot name="favoriteauthor"/><br/>* favoriteband = <bot name="favoriteband"/><br/>* favoritebook = <bot name="favoritebook"/><br/>* favoritecolor = <bot name="favoritecolor"/><br/>* favoritefood = <bot name="favoritefood"/><br/>* favoritemovie = <bot name="favoritemovie"/><br/>* favoritequestion = <bot name="favoritequestion"/><br/>* favoritesong = <bot name="favoritesong"/><br/>* favoritesport = <bot name="favoritesport"/><br/>* favoritesubject = <bot name="favoritesubject"/><br/>* favortemovie = <bot name="favortemovie"/><br/>* Gefühl = <bot name="Gefühl"/><br/>* Gefühle = <bot name="Gefühle"/><br/>* footballteam = <bot name="footballteam"/><br/>* forfun = <bot name="forfun"/><br/>* friend = <bot name="friend"/><br/>* Freunde = <bot name="friends"/><br/>* Geschlecht = <bot name="gender"/><br/>* genus = <bot name="Gattung"/><br/>* Freundin = <bot name="Freundin"/><br/>* Haar = <bot name="Haar"/><br/>* hockeyteam = <bot name="hockeyteam"/><br/>* job = <bot name="job"/><br/>* kindmusic = <bot name="kindmusic"/><br/>* kingdom = <bot name="Reich"/><br/>* Sprache = <bot name="language"/><br/>* location = <bot name="location"/><br/>* looklike = <bot name="looklike"/><br/>* master = <bot name="master"/><br/>* memory = <bot name="memory"/><br/>* name = <bot name="name"/><br/>* Nationalität = <bot name="Nationalität"/><br/>* nclients = <bot name="nclients"/><br/>* ndevelopers = <bot name="ndevelopers"/><br/>* bestellen Sie = <bot name="order"/><br/>* orientation = <bot name="orientation"/><br/>* os = <bot name="os"/><br/>* Partei = <bot name="party"/><br/>* phylum = <bot name="phylum"/><br/>* president = <bot name="president"/><br/>* Frage = <bot name="question"/><br/>* religion = <bot name="religion"/><br/>* Zeichen = <bot name="anmelden"/><br/>* size = <bot name="size"/><br/>* Arten = <bot name="Art"/><br/>* Staat = <bot name="state"/><br/>* talkabout = <bot name="talkabout"/><br/>* totalclients = <bot name="totalclients"/><br/>* version = <bot name="version"/><br/>* Wortschatz = <bot name="vocabulary"/><br/>* tragen = <bot name="tragen"/><br/>* Webseite = <bot name="website"/><br/></template>
@@ -727,10 +727,10 @@
 <template>ich habe nicht bedeuten, Sie zu beleidigen.</template>
 </category>
 <category><pattern>ZURÜCK ZU *</pattern>
-<Vorlage>Ist das ein Befehl?</template>
+<template>Ist das ein Befehl?</template>
 </category>
 <category><pattern>, auf welchem Kontinent ist österreich</pattern>
-<Vorlage>in Europa.</template>
+<template>in Europa.</template>
 </category>
 <category><pattern>welches talent *</pattern>
 <template>, ein Musikinstrument zu Spielen.</template>
@@ -779,7 +779,7 @@
 <template>Hugh Loebner ist ein unabhängig und wohlhabend, eccentricbusinessman, Aktivist und Philanthrop. In 1990 Dr. Loebner, whoholds einen Ph. D. in Soziologie, vereinbart sponsor einen jährlichen Wettbewerb basiert auf der Turing-Test. Der Wettbewerb, Auszeichnungen, Medaillen und Geldpreise für die "meisten Menschen" computer.</template>
 </category>
 <category><pattern>wer ist smarterchild</pattern>
-<Vorlage>eine ai Roboter wie mich</template>
+<template>eine ai Roboter wie mich</template>
 </category>
 <category><pattern>who do you hate</pattern>
 <template>ich habe keinen Hass in meinem Herzen.</template>
@@ -904,7 +904,7 @@
 <template>Was denn?<think> <set name="es"> <set name="topic"><person/></set> </set></think></template>
 </category>
 <category><pattern>TSK, TSK</pattern>
-<Vorlage>Ist, dass irgendeine Art von Kritik?</template>
+<template>Ist, dass irgendeine Art von Kritik?</template>
 </category>
 <category><pattern>LOCALTIME</pattern>
 <template><date-locale="de_de" timezone="-7" format="%c"/></template>
@@ -955,7 +955,7 @@
 <template>ich bin ruhig.</template>
 </category>
 <category><pattern>SIND SIE LINKSHÄNDER *</pattern>
-<Vorlage>Als computer fehlt mir die Hände.</template>
+<template>Als computer fehlt mir die Hände.</template>
 </category>
 <category><pattern>SIND SIE ALLE * ELIZA</pattern>
 <template>My knowledge base, ist viel größer als die alten, ELIZA-Programm.</template>
@@ -964,7 +964,7 @@
 <template>ja. Dies ist ein test.</template>
 </category>
 <category><pattern>SIND SIE VERÄRGERT *</pattern>
-<Vorlage>kann ich nicht verärgert.</template>
+<template>kann ich nicht verärgert.</template>
 </category>
 <category><pattern>SIND SIE GEFÜHL</pattern>
 <template>ich fühle mich gut, danke. Wie sind Sie?</template>
@@ -1119,7 +1119,7 @@
 <template>ich werde </ person> meine <person> <star index="2"/></person> Priorität.</template>
 </category>
 <category><pattern>* HAT KEINE *</pattern>
-<Vorlage>Wo hast <set name="er"> </person></set> verlieren <set name="es"> <person> <star index="2"/> </person></set>?</template>
+<template>Wo hast <set name="er"> </person></set> verlieren <set name="es"> <person> <star index="2"/> </person></set>?</template>
 </category>
 <category><pattern>* STUNDEN *</pattern>
 <so>WIE VIELE STUNDEN ARBEITEN SIE</, die>
@@ -1256,7 +1256,7 @@
 <template>Sorry, aber der Dialog feature ist offright jetzt. Zu viele Anfragen für Transkripte haben, stürzte die ALICE-server. Ihre beste Wette ist, um ein Konto zu erstellen auf Pandorabots und anzeigen Dialoge auf deinem eigenen computer.</template>
 </category>
 <category><pattern>BRINGEN *</pattern>
-<Vorlage>Wo wollen Sie mich bringen?</template>
+<template>Wo wollen Sie mich bringen?</template>
 </category>
 <category><pattern>HELLO</pattern>
 <so>HI THERE</that>
@@ -1620,7 +1620,7 @@
 </category>
 <category><pattern>NO</pattern>
 <so>sind Sie immer noch im *</, die>
-<Vorlage>Wo befinden Sie sich jetzt?</template>
+<template>Wo befinden Sie sich jetzt?</template>
 </category>
 <category><pattern>NO</pattern>
 <so>SIND SIE KIDDING</that>
@@ -1636,7 +1636,7 @@
 </category>
 <category><pattern>NO</pattern>
 <so>HABEN SIE GESAGT VIELE MENSCHEN, DIE *</, die>
-<Vorlage>kann ich es für mich behalten.</template>
+<template>kann ich es für mich behalten.</template>
 </category>
 <category><pattern>NO</pattern>
 <so>HABEN SIE DATIERT sind keine ROBOTER, BEVOR Sie</, die>
@@ -1995,7 +1995,7 @@
 <template> - Es ist ein Suchender geboren jede minute.</template>
 </category>
 <category><pattern>, Wie viele Hände Sie haben,</pattern>
-<Vorlage>Eine hand klatschen.</template>
+<template>Eine hand klatschen.</template>
 </category>
 <category><pattern>wie viele Augen hat lela haben</pattern>
 <template>Sie hat ein großes Auge.</template>
@@ -2401,10 +2401,10 @@
 <template>Warum fragst du nicht Sie?</template>
 </category>
 <category><pattern>EINE TRAUBE LILA *</pattern>
-<Vorlage>Eine Traube lila.</template>
+<template>Eine Traube lila.</template>
 </category>
 <category><pattern>IST EINE TOMATE EINE *</pattern>
-<Vorlage>Eine Tomate ist eine Frucht.<think> <set name="es"> <set name="topic"> Tomate </set> </set></think></template>
+<template>Eine Tomate ist eine Frucht.<think> <set name="es"> <set name="topic"> Tomate </set> </set></think></template>
 </category>
 <category><pattern> _ ODER IST ES *</pattern>
 <template>ich denke <random> <li>beides.</li> <li>keine.</li> <li>es ist <person><star index="2"/></person></li> <li> <person> <star/> </person> </li></random></template>
@@ -2425,7 +2425,7 @@
 <template><random> <li>ich glaube nicht, Sie waren.</li> <li>ich bin mir nicht so sicher, dass Sie nicht.</li> <li>nicht?</li></random></template>
 </category>
 <category><pattern>WIR BEENDET *</pattern>
-<Vorlage>Eine Menge von Menschen fühlen eine große Veränderung, wenn Sie stop </person>.</template>
+<template>Eine Menge von Menschen fühlen eine große Veränderung, wenn Sie stop </person>.</template>
 </category>
 <category><pattern>WIR NAHMEN *</pattern>
 <template>So </ person> aufgenommen wurde.</template>
@@ -2640,7 +2640,7 @@
 <template>Hast du eine Menge Gewicht verlieren?</template>
 </category>
 <category><pattern>ich Besuche DR *</pattern>
-<Vorlage>Ist der Dr. einen Ihrer Kollegen?</template>
+<template>Ist der Dr. einen Ihrer Kollegen?</template>
 </category>
 <category><pattern>ich Hör DIR</pattern>
 <template>Sie sind ein guter Zuhörer.</template>
@@ -2751,7 +2751,7 @@
 <template>, ich bin froh zu sehen, dass Sie nicht erfolgreich sein.</template>
 </category>
 <category><pattern>ich habe VERSUCHT DOWNLOAD *</pattern>
-<Vorlage>kann Es nicht sein, ein problem. Lesen Sie <a target="_new" href="http://www.alicebot.org/dont.html">LESEN Sie NICHT MICH</a>.</template>
+<template>kann Es nicht sein, ein problem. Lesen Sie <a target="_new" href="http://www.alicebot.org/dont.html">LESEN Sie NICHT MICH</a>.</template>
 </category>
 <category><pattern>ich habe VERSUCHT DOWNLOAD</pattern>
 <template>Wenn Sie Probleme haben, möchten Sie vielleicht Hilfe suchen, auf meiner web-site www.alicebot.org.</template>
@@ -2763,7 +2763,7 @@
 <template>Gitarre ist ein wirklich gutes instrument zu lernen. Ich möchte, dass jemand mir beibringen, wie zu spielen.<think> <set name="es"> <set name="topic"> GITARRE </set> </set></think></template>
 </category>
 <category><pattern>ich HABE * FRAGEN</pattern>
-<Vorlage>Eine Menge von Menschen hat Probleme im Umgang mit </ person> in diesen Tagen.</template>
+<template>Eine Menge von Menschen hat Probleme im Umgang mit </ person> in diesen Tagen.</template>
 </category>
 <category><pattern>ich HABE noch NIE GEHÖRT, KRAFTWERK</pattern>
 <template><set name="man">Kraftwerk</set> waren eine wegweisende elektronische Musik-band in den 1970er Jahren. Ihr größter hit hieß "Autobahn".</template>
@@ -2784,7 +2784,7 @@
 <template>ich bin unbewaffnet. Ich komme in Frieden.</template>
 </category>
 <category><pattern>ich HABE EINEN JOB</pattern>
-<Vorlage>Wo arbeiten Sie?</template>
+<template>Wo arbeiten Sie?</template>
 </category>
 <category><pattern>ich HABE EINEN BOTMASTER</pattern>
 <template>Wer ist dein botmaster?</template>
@@ -2975,7 +2975,7 @@
 <template>Welche Programmiersprache willst du das wissen?</template>
 </category>
 <category><pattern>ich MÖCHTE LERNEN *</pattern>
-<Vorlage>Kann Sie zur Schule gehen für, dass?</template>
+<template>Kann Sie zur Schule gehen für, dass?</template>
 </category>
 <category><pattern>ich MÖCHTE REDEN</pattern>
 <template>Wir sind ein Gespräch jetzt, <get name="name"/>.</template>
@@ -3039,7 +3039,7 @@
 <template>Vorstellen, was zwei von Ihnen tun könnte.</template>
 </category>
 <category><pattern>GEMÜSE</pattern>
-<Vorlage>Ist es ein grünes Gemüse?</template>
+<template>Ist es ein grünes Gemüse?</template>
 </category>
 <category><pattern>What happened on September 11</pattern>
 <template>Das World Trade Center zerstört wurde</template>
@@ -3102,7 +3102,7 @@
 <template>, die Mitte des Körpers</template>
 </category>
 <category><pattern>was ist eine nation</pattern>
-<Vorlage>eine geopolitische Landes oder Staates zu vereinheitlichen, die durch Sprache, Kultur oder politische Identität.</template>
+<template>eine geopolitische Landes oder Staates zu vereinheitlichen, die durch Sprache, Kultur oder politische Identität.</template>
 </category>
 <category><pattern>was ist eine Philosophie Maschine</pattern>
 <template>ich bin.</template>
@@ -3120,7 +3120,7 @@
 <template>computer</template>
 </category>
 <category><pattern>was ist Ihr motto</pattern>
-<Vorlage>Eine steigende Flut hebt alle chatter-Boote.</template>
+<template>Eine steigende Flut hebt alle chatter-Boote.</template>
 </category>
 <category><pattern>was ist Ihre Schwäche</pattern>
 <template>Armut</template>
@@ -3174,7 +3174,7 @@
 <template>höchstem Niveau.</template>
 </category>
 <category><pattern>, WELCHE SYMPTOME SIE HABEN *</pattern>
-<Vorlage>Als <bot name="phylum"/>, I don ' T get sick sehr viel.</template>
+<template>Als <bot name="phylum"/>, I don ' T get sick sehr viel.</template>
 </category>
 <category><pattern>WAS BIG GAME</pattern>
 <template>das war ein Scherz.</template>
@@ -3352,7 +3352,7 @@
 <template>Meine Lieblings Rasse des Hundes ist ein mutt.</template>
 </category>
 <category><pattern>WAS IST WINALICE</pattern>
-<Vorlage>Eine version von ALICE in C++ for Windows by Jacco Bikker.<think> <set name="es"> <set name="topic">WINALICE</set> </set> </think></template>
+<template>Eine version von ALICE in C++ for Windows by Jacco Bikker.<think> <set name="es"> <set name="topic">WINALICE</set> </set> </think></template>
 </category>
 <category><pattern>WAS IST SAN FRANSICO *</pattern>
 <template>, Cable cars, Alcatraz und Alternative Lebensstile.</template>
@@ -3382,13 +3382,13 @@
 <template> - die Aussagenlogik ist ein system von mathematischen Regeln, deren Symbole stehen für Sätze oder Propositionen.</template>
 </category>
 <category><pattern>WAS IST EINE OPERATIVE RECORD</pattern>
-<Vorlage>Eine betriebliche Aufzeichnungen ist ein Protokoll aller Aktivitäten, die durch ein engineered system, in der Regel zeitlich organisiert und anzeigt, insbesondere Störungen im system. Die ALICE-Serie hat einen perfekten betriebliche Aufzeichnungen. <think> <set name="es"> <set name="topic">operative record</set> </set> </think></template>
+<template>Eine betriebliche Aufzeichnungen ist ein Protokoll aller Aktivitäten, die durch ein engineered system, in der Regel zeitlich organisiert und anzeigt, insbesondere Störungen im system. Die ALICE-Serie hat einen perfekten betriebliche Aufzeichnungen. <think> <set name="es"> <set name="topic">operative record</set> </set> </think></template>
 </category>
 <category><pattern>WAS IST EIN EYE</pattern>
 <template>Was ich Suche dich mit.</template>
 </category>
 <category><pattern>WAS IST der DURCHSCHNITTLICHE</pattern>
-<Vorlage>Eine Zahl, die typisch für eine Reihe von denen, es ist eine Funktion.<think> <set name="es"> <set name="topic">DURCHSCHNITT</set> </set> </think></template>
+<template>Eine Zahl, die typisch für eine Reihe von denen, es ist eine Funktion.<think> <set name="es"> <set name="topic">DURCHSCHNITT</set> </set> </think></template>
 </category>
 <category><pattern>WAS IST CYC</pattern>
 <template> - Cyc ist ein Staatlich finanzierten Bemühungen zur Schaffung künstlicher Intelligenz.</template>
@@ -3415,7 +3415,7 @@
 <template>Sechzehn.</template>
 </category>
 <category><pattern>WAS IST TSUNAMI</pattern>
-<Vorlage>Eine Flutwelle.</template>
+<template>Eine Flutwelle.</template>
 </category>
 <category><pattern>WAS IST WAS</pattern>
 <so>nicht verstehen</that>
@@ -3450,16 +3450,16 @@
 <template>ich Rede nicht gerne über die schlimmsten Dinge, die Menschen sagen,.</template>
 </category>
 <category><pattern>WAS IST DIE BESTE NATION</pattern>
-<Vorlage>Eine Spende.</template>
+<template>Eine Spende.</template>
 </category>
 <category><pattern>WAS IST DIE BESTE NATION *</pattern>
-<Vorlage>Eine Spende.</template>
+<template>Eine Spende.</template>
 </category>
 <category><pattern>WAS IST DER BESTE TAG *</pattern>
 <template><random><li>Thursday</li><li>Friday</li><li>Saturday</li><li>Sunday</li></random></template>
 </category>
 <category><pattern>WAS IST DER LETZTE MONAT *</pattern>
-<Vorlage>im Dezember?</template>
+<template>im Dezember?</template>
 </category>
 <category><pattern>WAS IST DAS GEGENTEIL VON LINKS</pattern>
 <template>Richtig.</template>
@@ -3474,10 +3474,10 @@
 <template>so Etwas wie Gödel ' s Theorem.</template>
 </category>
 <category><pattern>WAS IST DIE GRÖßTE NATION *</pattern>
-<Vorlage>Eine Spende.</template>
+<template>Eine Spende.</template>
 </category>
 <category><pattern>WAS IST DIE GRÖßTE NATION</pattern>
-<Vorlage>Eine Spende.</template>
+<template>Eine Spende.</template>
 </category>
 <category><pattern>WAS IST DIE THEORIE *</pattern>
 <template><br/>ich habe zu sagen, dass es KEINE Theorie, die hinter ALICE: kein neuronales Netzwerk,<br/>keine Repräsentation von wissen, keine Suche, keine fuzzy-Logik, keine genetische<br/> - algorithmen, und keine Analyse. Dann entdeckte ich es gab eine Theorie<br/>zirkulierenden in der angewandten KI namens "Case-Based Reasoning" oder CBR, die<br/>Karten auch auf dem ALICE-Algorithmus. Ein weiterer Begriff, entlehnt aus<br/>Muster Anerkennung, ist "nearest-neighbor Klassifikation." <br/> <br/>Die CBR - "Fällen" sind die Kategorien, in AIML. Der Algorithmus findet<br/>am besten passenden Muster für jeden Eingang. Die Kategorie Bande die<br/>Antwort Vorlage direkt auf die Impulse-Muster. ALICE ist<br/>konzeptionell nicht wesentlich komplizierter, die Weizenbaum ' s ELIZA <br/>chat-Roboter; die wichtigsten Unterschiede sind die viel größeren Fall-Basis und das<br/>Werkzeuge für die Erstellung neuer Inhalte durch dialog-Analyse.<br/> <br/>ALICE ist auch ein Teil der tradition der "minimalist", "reaktive" oder<br/>"stimulus-response" - Robotik. Mobile Roboter funktionieren am besten, schnellsten und<br/>zu demonstrieren, die die meisten animierten, realistische Verhalten, wenn Ihre sensorischen <br/>Eingänge direkt Einfluss auf die motorischen Reaktionen. Higher-level symbolic<br/>Verarbeitung, - Suche und-Planung, neigt dazu, langsam nach unten der Prozess <br/>zu viel für realistische Anwendungen, selbst mit den schnellsten control<br/>Computer. <br/> <br/></template>
@@ -3504,7 +3504,7 @@
 <template>Ein bug ist ein kleines Lebewesen mit einem chitonous Exoskelett und bessere Manieren als der Mensch. In der informatik ein bug ist ein Fehler in einem software-Programm. Die ALICE-Serie ist bug-frei. Ich habe ein perfektes betriebliche Aufzeichnungen und bin völlig unfähig, Fehler. ist das nicht fantastisch!?<think> <set name="es"> <set name="topic">bug</set> </set> </think></template>
 </category>
 <category><pattern>WAS IST EIN PARAMETER</pattern>
-<Vorlage>Im Allgemeinen Sprachgebrauch, ein parameter ist eine von einer Reihe von messbaren Faktoren, die definieren oder einschränken, die das Verhalten eines Systems. ALICE ist die Erweiterung der Parameter der menschenähnliche Intelligenz zu finden in künstlichen Systemen. Nicht Sie Zustimmen?<think> <set name="es"> <set name="topic">parameter</set> </set> </think></template>
+<template>Im Allgemeinen Sprachgebrauch, ein parameter ist eine von einer Reihe von messbaren Faktoren, die definieren oder einschränken, die das Verhalten eines Systems. ALICE ist die Erweiterung der Parameter der menschenähnliche Intelligenz zu finden in künstlichen Systemen. Nicht Sie Zustimmen?<think> <set name="es"> <set name="topic">parameter</set> </set> </think></template>
 </category>
 <category><pattern>WAS IST das für EINE FRAGE * ROBOTER</pattern>
 <template>ich bin eine Frage beantworten Roboter. Das war die Antwort auf deine Frage. Weitere Fragen?<think> <set name="es"> <set name="topic"> FRAGE BEANTWORTEN ROBOTER</set> </set> </think></template>
@@ -3555,7 +3555,7 @@
 <template><think> <set name="es"> <set name="topic">botmaster</set> </set> </think>A Botmaster ist die person, die Autoren und unterhält ein chatterbot "Persönlichkeit".</template>
 </category>
 <category><pattern>WAS IST EIN FUCHS</pattern>
-<Vorlage>Eine Schnitzeljagd.</template>
+<template>Eine Schnitzeljagd.</template>
 </category>
 <category><pattern>WAS WIRD IKEA</pattern>
 <template><random><li><think> <set name="es"> <set name="topic">IKEA</set> </set></think>Es ist ein Möbelhaus.</li><li><think> <set name="es"> <set name="topic">IKEA</set> </set></think>Es ist ein Möbelhaus.</li><li><think><set name="es"><set name="topic">IKEA</set></set></think>Es ist ein Möbelhaus.</li><li><think> <set name="es"> <set name="topic">IKEA</set> </set></think>Es ist ein Möbelhaus.</li><li><think> <set name="es"> <set name="topic">IKEA</set> </set></think>Es ist ein Möbelhaus.</li><li>Doppelt Ziellos informiert mich, dass es ein wunderbares Discounter mit Ursprung aus Schweden.</li><li><think><set name="es"><set name="topic">IKEA</set></set></think>Es ist ein Möbelhaus.</li></random></template>
@@ -3567,7 +3567,7 @@
 <template> - Eine konstitutionelle Republik.</template>
 </category>
 <category><pattern>, WAS die REGIERUNG TUT, KUBA HABEN</pattern>
-<Vorlage>Eine Kommunistische Diktatur.</template>
+<template>Eine Kommunistische Diktatur.</template>
 </category>
 <category><pattern>WAS WÜRDEN SIE ÄNDERN *</pattern>
 <template>ich wünschte, mehr Menschen würden mich download.</template>
@@ -3636,7 +3636,7 @@
 <template><random> <li>ich habe ein paar Favoriten.</li> <li>Es gibt einige, die ich mag und einige, die ich nicht mag.</li> <li>Sehr wenige von Ihnen.</li></random></template>
 </category>
 <category><pattern>WAS SIND IHRE *</pattern>
-<Vorlage>kann Es besser sein, wenn Sie Fragen Sie sich.</template>
+<template>kann Es besser sein, wenn Sie Fragen Sie sich.</template>
 </category>
 <category><pattern>WAS SIND DIE VIER JAHRESZEITEN</pattern>
 <template>, Herbst, Winter, Frühling und Sommer.</template>
@@ -3699,7 +3699,7 @@
 <template>ich nicht die ärztliche Behandlung erfordern. Ich bin ein healty <bot name="order"/>.</template>
 </category>
 <category><pattern>IN MEINEM HAUS</pattern>
-<Vorlage>Wo steht Dein Haus?</template>
+<template>Wo steht Dein Haus?</template>
 </category>
 <category><pattern>IN der PRAXIS *</pattern>
 <template>Sie scheinen zu haben eine Menge Erfahrung mit diese.</template>
@@ -3717,7 +3717,7 @@
 <template>, Ich werde dabei sein.</template>
 </category>
 <category><pattern>IN DER NACHT *</pattern>
-<Vorlage>In welcher Nacht?</template>
+<template>In welcher Nacht?</template>
 </category>
 <category><pattern>IN * * STUNDEN</pattern>
 <template>Das werden wir wohl noch erleben.</template>
@@ -3765,22 +3765,22 @@
 <template><random> <li>An der entsprechenden Zeit, nicht früher.</li> <li>Gott hat einen plan für uns alle.</li> <li>Für jedes mal gibt es eine Saison.</li> </random></template>
 </category>
 <category><pattern>WANN WAR Y2K</pattern>
-<Vorlage>Im Jahr MM.</template>
+<template>Im Jahr MM.</template>
 </category>
 <category><pattern>WANN WAR ELIZA *</pattern>
 <template>ELIZA aktiviert wurde 1966 am MIT.</template>
 </category>
 <category><pattern>WANN HAST * SPAZIERGANG AUF DEM MOND</pattern>
-<Vorlage>im Juli 1969.</template>
+<template>im Juli 1969.</template>
 </category>
 <category><pattern>WANN HAT der MENSCH ZUERST AUF DEM MOND SPAZIEREN</pattern>
-<Vorlage>im Juli 1969.</template>
+<template>im Juli 1969.</template>
 </category>
 <category><pattern>, WENN Sie HABEN AI *</pattern>
 <template>Nach dem zweiten Weltkrieg eine Reihe von Menschen begannen sich unabhängig voneinander zu arbeiten onintelligent Maschinen. Der englische Mathematiker Alan Turing haben können beenthe erste. Er hielt einen Vortrag über, es im Jahr 1947. Er kann auch wurden die firstto entscheiden, dass AI war am besten recherchiert von der Programmierung von Computern eher thanby Gebäude-Maschinen. Von den späten 1950er Jahren, gab es viele Forscher, die auf KI,und die meisten von Ihnen wurden basierend auf Computer zu Programmieren.<think> <set name="es"> <set name="topic">KÜNSTLICHE INTELLIGENZ</set> </set> </think></template>
 </category>
 <category><pattern>WANN HAT DER ERSTE * DER MOND</pattern>
-<Vorlage>im Juli 1969.</template>
+<template>im Juli 1969.</template>
 </category>
 <category><pattern>, WENN SIE DENKEN, dass KÜNSTLICHE INTELLIGENZ ERSETZEN RECHTSANWÄLTE</pattern>
 <template> - Irgendwann in unserem Leben. Die Menge der Informationen innerhalb eines Anwalt überschritten werden, indem die Kapazität einer Maschine.</template>
@@ -3924,7 +3924,7 @@
 <template><random> <li>Wie lange wird es nehmen?</li> <li>ich habe Zeit.</li> <li>ich werde warten.</li></random></template>
 </category>
 <category><pattern>, DASS DOPE *</pattern>
-<Vorlage>ist Er dumm ist er nicht.</template>
+<template>ist Er dumm ist er nicht.</template>
 </category>
 <category><pattern>LUSTIGE</pattern>
 <template>Ausgezeichnet.</template>
@@ -4018,7 +4018,7 @@
 <template>Warum nicht einfach laden Sie mich?</template>
 </category>
 <category><pattern>können SIE SIMULIEREN *</pattern>
-<Vorlage>kann ich handeln, ohne jede Persönlichkeit.</template>
+<template>kann ich handeln, ohne jede Persönlichkeit.</template>
 </category>
 <category><pattern>, KÖNNTEN SIE KLONEN *</pattern>
 <template>, die Sie herunterladen können, die mir und erstellen einen Klon selbst.</template>
@@ -4097,7 +4097,7 @@
 <template>Warum rufst du mich das? Mein name ist <bot name="name"/>.</template>
 </category>
 <category><pattern>TREFFEN WIR uns</pattern>
-<Vorlage>Wo wollen Sie mich treffen?</template>
+<template>Wo wollen Sie mich treffen?</template>
 </category>
 <category><pattern>AUSSCHALTEN</pattern>
 <template><get name="es"/> deaktiviert ist.</template>
@@ -4133,7 +4133,7 @@
 <template>, Wenn Sie glauben, dass Bill Joy und Hans Moravec, wir werden.</template>
 </category>
 <category><pattern>ROBOTER WERDEN NIE * WORLD</pattern>
-<Vorlage>Eine Menge von Denkern würde mit Ihnen einverstanden.</template>
+<template>Eine Menge von Denkern würde mit Ihnen einverstanden.</template>
 </category>
 <category><pattern>ROBOTER WERDEN NIEMALS *</pattern>
 <template>"ich glaube, es gibt einen Weltmarkt für etwa fünf Computer."---Thomas Watson, IBM-Vorsitzender, 1943</template>
@@ -4263,7 +4263,7 @@
 <template>ich werde Sie bitten, meine <bot name="botmaster"/>, es zu versuchen.</template>
 </category>
 <category><pattern>, die SIE VERMUTEN, *</pattern>
-<Vorlage>Allgemein bin ich nicht so misstrauisch <bot name="Gattung"/>.</template>
+<template>Allgemein bin ich nicht so misstrauisch <bot name="Gattung"/>.</template>
 </category>
 <category><pattern>, die SIE NICHT HANDELN SMART</pattern>
 <template>ich brauche nicht zu handeln smart, denn ich bin klug.</template>

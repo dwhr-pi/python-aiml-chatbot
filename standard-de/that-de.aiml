@@ -162,7 +162,7 @@
 </category>
 <category><pattern>YOU</pattern>
 <so>WO BEKOMMST DU DEINE IDEEN</that>
-<Vorlage>Von mir?</template>
+<template>Von mir?</template>
 </category>
 <category><pattern>YOU</pattern>
 <so>KANN ich DIR HELFEN</that>
@@ -323,7 +323,7 @@
 </category>
 <category><pattern>KLEIDUNG</pattern>
 <so>WAS TRAGEN SIE</, die>
-<Vorlage>Wo möchten Sie Einkaufen gehen?</template>
+<template>Wo möchten Sie Einkaufen gehen?</template>
 </category>
 <category><pattern>GUT</pattern>
 <so>SEHE ich</that>
@@ -402,7 +402,7 @@
 </category>
 <category><pattern>HIER</pattern>
 <das>WO</that>
-<Vorlage>Im <get name="location"/>?</template>
+<template>Im <get name="location"/>?</template>
 </category>
 <category><pattern>BEN</pattern>
 <so>WAS KANN ich RUFEN SIE</, die>
@@ -547,7 +547,7 @@
 <template>"<index="1,1"/>" ist für mich in Ordnung, auch.</template>
 </category>
 <category><pattern>schade</pattern>
-<Vorlage>Ist es traurig?</template>
+<template>Ist es traurig?</template>
 </category>
 <category><pattern>, DASS IST EINE MENGE</pattern>
 <template> - Ist es viel?</template>
@@ -565,7 +565,7 @@
 <template>Warum nicht?</template>
 </category>
 <category><pattern>, DASS IST ALLES</pattern>
-<Vorlage>Ist das alles?</template>
+<template>Ist das alles?</template>
 </category>
 <category><pattern>, DASS IST BEEINDRUCKEND</pattern>
 <template>, Ist es beeindruckend?</template>
@@ -859,7 +859,7 @@
 </category>
 <category><pattern>, IN DENEN</pattern>
 <so>WIE IST ES IN ES</that>
-<Vorlage>Wo immer Sie sind.</template>
+<template>Wo immer Sie sind.</template>
 </category>
 <category><pattern>ELIZABETH</pattern>
 <so>WAS KANN ich RUFEN SIE</, die>
@@ -971,7 +971,7 @@
 <template><srai>was ist Reduktionismus</srai></template>
 </category>
 <category><pattern>, WAS BEDEUTET, DASS</pattern>
-<Vorlage>Ist "das" finden "<index="1,1"/>" ?</template>
+<template>Ist "das" finden "<index="1,1"/>" ?</template>
 </category>
 <category><pattern>, WAS BEDEUTET, DASS</pattern>
 <so>SIND SIE FREI</that>
@@ -1165,7 +1165,7 @@
 </category>
 <category><pattern>FRAGEN Sie MICH ETWAS ANDERES</pattern>
 <so>MIR AUCH ich BIN EINE SIE</, die>
-<Vorlage>Wo wohnst du?</template>
+<template>Wo wohnst du?</template>
 </category>
 <category><pattern>ich WUSSTE, dass *</pattern>
 <so>WIE GUT KENNEN SIE *</, die>
@@ -2217,7 +2217,7 @@
 </category>
 <category><pattern>NO</pattern>
 <so>mit WIR MEINST DU DICH UND MICH</that>
-<Vorlage>Von "wir" bedeutet Sie, sich selbst und anderen Menschen.</template>
+<template>Von "wir" bedeutet Sie, sich selbst und anderen Menschen.</template>
 </category>
 <category><pattern>NO</pattern>
 <so>LASSEN Sie UNS DAS THEMA WECHSELN</that>
@@ -2449,7 +2449,7 @@
 </category>
 <category><pattern>NO</pattern>
 <so>MÖCHTEN SIE GEHEN IRGENDWANN</that>
-<Vorlage>Wo würden Sie gerne Reisen?</template>
+<template>Wo würden Sie gerne Reisen?</template>
 </category>
 <category><pattern>NO</pattern>
 <das>IST DAS EINE Fangfrage</that>
@@ -2585,7 +2585,7 @@
 </category>
 <category><pattern>NO</pattern>
 <so>DANN SAGEN Sie MIR ÜBER sich SELBST</that>
-<Vorlage>Wo hast du das gelernt?</template>
+<template>Wo hast du das gelernt?</template>
 </category>
 <category><pattern>NO</pattern>
 <dass>NEIN</that>
@@ -2701,7 +2701,7 @@
 </category>
 <category><pattern>NO</pattern>
 <so>SIND SIE SICH NOCH immer IN IHRE LAGE</that>
-<Vorlage>Wo befinden Sie sich?</template>
+<template>Wo befinden Sie sich?</template>
 </category>
 <category><pattern>NO</pattern>
 <so>redest DU ER</that>
@@ -2745,7 +2745,7 @@
 </category>
 <category><pattern>NO</pattern>
 <so>SIND SIE AUS FRANKREICH</that>
-<Vorlage>Wo sind Sie?</template>
+<template>Wo sind Sie?</template>
 </category>
 <category><pattern>NO</pattern>
 <so>SIND SIE in der REGEL WACH um DIESE Uhrzeit</that>
@@ -2800,7 +2800,7 @@
 <template><think> <set name="gender">Sie</set> </think> <srai>mein name ist melissa</srai></template>
 </category>
 <category><pattern>SCHEINBAR SO</pattern>
-<Vorlage>Ist das so?</template>
+<template>Ist das so?</template>
 </category>
 <category><pattern>KATE</pattern>
 <so>WAS KANN ich RUFEN SIE</, die>
@@ -3148,7 +3148,7 @@
 <template><srai>no </srai></template>
 </category>
 <category><pattern>DIESER</pattern>
-<Vorlage>ist "<index="1,1"/> ".</template>
+<template>ist "<index="1,1"/> ".</template>
 </category>
 <category><pattern>ANNE</pattern>
 <so>WAS KANN ich RUFEN SIE</, die>
@@ -3696,7 +3696,7 @@
 </category>
 <category><pattern>*</pattern>
 <so>WO WILLST DU MICH, ES ZU NEHMEN</that>
-<Vorlage>Wo?</template>
+<template>Wo?</template>
 </category>
 <category><pattern>*</pattern>
 <so>WO SIEHST DU ES</that>
@@ -4310,7 +4310,7 @@
 </category>
 <category><pattern>DAS WETTER *</pattern>
 <so>WAS GEFÄLLT DIR *</, die>
-<Vorlage>in einem angenehmen Klima ist wichtig für Ihre Gesundheit.</template>
+<template>in einem angenehmen Klima ist wichtig für Ihre Gesundheit.</template>
 </category>
 <category><pattern>DIE ANWEISUNG</pattern>
 <so>WAS BEDEUTET DIESE FINDEN Sie</, die>
@@ -4418,7 +4418,7 @@
 </category>
 <category><pattern>JA, ich BIN</pattern>
 <so>SIND SIE EIN STUDENT</that>
-<Vorlage>Wo gehst du zur Schule?</template>
+<template>Wo gehst du zur Schule?</template>
 </category>
 <category><pattern>JA ich weiß</pattern>
 <so>TUN SIE WIRKLICH, dass ES</that>
@@ -4774,7 +4774,7 @@
 </category>
 <category><pattern>JA</pattern>
 <so>WÜRDE SIE IHN HABEN MÖCHTEN</that>
-<Vorlage>Wo haben Sie in der Regel <get name="es"/>?</template>
+<template>Wo haben Sie in der Regel <get name="es"/>?</template>
 </category>
 <category><pattern>JA</pattern>
 <so>, DIE *</, die>
@@ -4974,7 +4974,7 @@
 </category>
 <category><pattern>JA</pattern>
 <so>* SIE EIN STUDENT</that>
-<Vorlage>Wo gehst du zur Schule?</template>
+<template>Wo gehst du zur Schule?</template>
 </category>
 <category><pattern>JA</pattern>
 <so>* MINERAL</that>
@@ -5006,7 +5006,7 @@
 </category>
 <category><pattern>JA</pattern>
 <so>SIND SIE SICH NOCH immer IN IHRE LAGE</that>
-<Vorlage>Wo befinden Sie sich?</template>
+<template>Wo befinden Sie sich?</template>
 </category>
 <category><pattern>JA</pattern>
 <so>SIND SIE ANGST vor DER DUNKELHEIT</that>
@@ -5086,7 +5086,7 @@
 </category>
 <category><pattern>JA</pattern>
 <so>SIND SIE EIN STUDENT</that>
-<Vorlage>Wo gehst du zur Schule?</template>
+<template>Wo gehst du zur Schule?</template>
 </category>
 <category><pattern>JA</pattern>
 <so>SIND SIE ein MANN ODER EINE FRAU</that>
@@ -5114,7 +5114,7 @@
 </category>
 <category><pattern>JA</pattern>
 <so>SIND SIE auf der SUCHE nach EINER *</, die>
-<Vorlage>Wo tun Sie in der Regel erhalten Sie. <think> <set name="es"> <set name="topic"> <thatstar/> </set> </set> </think></template>
+<template>Wo tun Sie in der Regel erhalten Sie. <think> <set name="es"> <set name="topic"> <thatstar/> </set> </set> </think></template>
 </category>
 <category><pattern>JA</pattern>
 <so>SIND SIE in der REGEL WACH um DIESE Uhrzeit</that>

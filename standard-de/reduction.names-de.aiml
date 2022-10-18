@@ -112,7 +112,7 @@
 <category><pattern>WAS IST MEIN SPITZNAME</pattern>
 <template><srai>MEIN SPITZNAME</srai></template>
 </category>
-<Kategorie>
+<category>
 <Muster> > ich BIN MARIA</pattern>
 <template><srai>CALL ME MARY</srai></template>
 </category>

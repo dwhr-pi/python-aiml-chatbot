@@ -6953,7 +6953,7 @@
 </category>
 
 
-<Kategorie>
+<category>
 <Muster> > WAS IST O-M</pattern>
 <template><srai>WAS IST OM</srai></template>
 </category>
@@ -6970,14 +6970,14 @@
 </category>
 
 
-<Kategorie>
+<category>
 <pattern>*</pattern>
 <so>BITTE GEBEN Sie den SPEICHERORT</that>
 <template><srai>MEINE POSITION IST <star/></srai></template>
 </category>
 
 
-<Kategorie>
+<category>
 <Muster> > WAS YOUDOING</pattern>
 <template><srai>WAS MACHST DU</srai></template>
 </category>
@@ -6985,7 +6985,7 @@
 
 
 
-<Kategorie>
+<category>
 <Muster>, WAS ABER *</pattern>
 <template><srai>WAS</srai> <srai>ABER <star/></srai></template>
 </category>
@@ -6993,14 +6993,14 @@
 
 
 
-<Kategorie>
+<category>
 <Muster> > WAS 27S *</pattern>
 <template><srai>WAS IST <star/></srai></template>
 </category>
 
 
 
-<Kategorie>
+<category>
 <Muster> > WER IST PANDORA ' S BOX</pattern>
 <template><srai>WER IST PANDORABOTS</srai></template>
 </category>
@@ -7008,7 +7008,7 @@
 
 
 
-<Kategorie>
+<category>
 <Muster> > WER IST PANDORABOTS</pattern>
 <template><srai>WAS IST PANDORABOTS</srai></template>
 </category>
@@ -7016,7 +7016,7 @@
 
 
 
-<Kategorie>
+<category>
 <Muster> > RUFEN Sie MICH * ich BIN *</pattern>
 <template><srai>CALL ME <star/></srai>
 <srai>ich BIN < - star-index="2"/></srai></template>
@@ -7025,7 +7025,7 @@
 
 
 
-<Kategorie>
+<category>
 <Muster> > AUF MEINEM WEG ich *</pattern>
 
 
@@ -7035,7 +7035,7 @@
 
 
 
-<Kategorie>
+<category>
 <Muster> > WANN WIRD ES SCHNEE</pattern>
 
 
@@ -7045,7 +7045,7 @@
 
 
 
-<Kategorie>
+<category>
 <Muster> > WANN WIRD ES ANFANGEN zu SCHNEIEN</pattern>
 
 
@@ -7054,7 +7054,7 @@
 
 
 
-<Kategorie>
+<category>
 <Muster>können SIE PRÜFEN, *</pattern>
 
 
@@ -7066,39 +7066,39 @@
 
 
 
-<Kategorie>
+<category>
 <Muster> > RUFEN Sie SIE</pattern>
 <template><srai>CALL <get name="she"/></srai>
 </template>
 </category>
 
 
-<Kategorie>
+<category>
 <Muster> > WAS die ZEIT IST * AUF</pattern>
 <template>Kontrolle-TV-Zeitpläne. Bitte stehen Sie durch.</template>
 </category>
 
 
-<Kategorie>
+<category>
 <Muster> > WIE VIEL TUN ich HABEN zu EINSPARUNGEN</pattern>
 <template> - Prüfung bank-Konto. Bitte warten Sie, bis der Bericht.</template>
 </category>
 
 
-<Kategorie>
+<category>
 <Muster>, WENN SIE ZEIT HABEN *</pattern>
 <template><srai><star/></srai></template>
 </category>
 
 
-<Kategorie>
+<category>
 <Muster>, WO 27S *</pattern>
 <template><srai>WO <star/></srai></template>
 </category>
 
 
 
-<Kategorie>
+<category>
 <Muster> > BIN ich NICHT EIN Kerl</pattern>
 <template><srai>ich BIN WEIBLICH</srai></template>
 </category>
@@ -7106,21 +7106,21 @@
 
 
 
-<Kategorie>
+<category>
 <Muster> > NICHT VIEL I *</pattern>
 <template><srai>NICHT VIEL</srai> <srai>I <star/></srai></template>
 </category>
 
 
 
-<Kategorie>
+<category>
 <Muster> > KÖNNTEST DU SCHAUEN *</pattern>
 <template><srai>LOOK <star/></srai></template>
 </category>
 
 
 
-<Kategorie>
+<category>
 <pattern>* RICHTIGEN *</pattern>
 <template><srai><star/></srai>
 <srai>DAS stimmt</srai>
@@ -7130,7 +7130,7 @@
 
 
 
-<Kategorie>
+<category>
 <Muster> > MEHR WIE *</pattern>
 <template><srai>WIE <star/></srai>
 </template>
@@ -7138,32 +7138,32 @@
 
 
 
-<Kategorie>
+<category>
 <Muster> > WAS IST EIN I *</pattern>
 <template><srai>WAS IST AI</srai></template>
 </category>
 
 
-<Kategorie>
+<category>
 <Muster> > ich BIN N I C h T *</pattern>
 <template><srai>ich BIN NICHT <star/></srai></template>
 </category>
 
 
-<Kategorie>
+<category>
 <pattern>* IST MEINE MUTTER</pattern>
 <template><srai>MEINE MUTTER hat den NAMEN <star/></srai></template>
 </category>
 
 
 
-<Kategorie>
+<category>
 <Muster> > MEINE MUTTER IST * *</pattern>
 <template><srai>MEINE MUTTER hat den NAMEN <star/> <star index="2"/></srai></template>
 </category>
 
 
-<Kategorie>
+<category>
 <Muster> > MEINE MUTTER IST * *</pattern>
 <template><srai>MEINE MUTTER hat den NAMEN <star/> <star index="2"/></srai></template>
 </category>
@@ -7171,7 +7171,7 @@
 
 
 
-<Kategorie>
+<category>
 <Muster> > MEINE MUTTER heißt *</pattern>
 <template><srai>MEINE MUTTER hat den NAMEN <star/></srai></template>
 </category>
@@ -7180,7 +7180,7 @@
 
 
 
-<Kategorie>
+<category>
 <Muster> > IHR NAME *</pattern>
 <so>SAGEN Sie MIR MEHR ÜBER IHRE MUTTER</that>
 <template><srai>MEINE MUTTER hat den NAMEN <star/></srai></template>
@@ -7189,101 +7189,101 @@
 
 
 
-<Kategorie>
+<category>
 <pattern>ich MÖCHTE CALL *</pattern>
 <template><srai>CALL <star/></srai></template>
 </category>
 
 
-<Kategorie>
+<category>
 <Muster> > MEINE MUTTER</pattern>
 <template><srai>CALL MOM</srai></template>
 </category>
 
 
 
-<Kategorie>
+<category>
 <Muster> > WER IST MEINE MUTTER</pattern>
 <template><srai>WER IST MEINE MAMA</srai>
 </template>
 </category>
-<Kategorie>
+<category>
 <Muster> > WER IST MEINE MAMI</pattern>
 <template><srai>WER IST MEINE MAMA</srai>
 </template>
 </category>
-<Kategorie>
+<category>
 <Muster> > WAS IST MEIN * S NAME</pattern>
 <template><srai>WER IST MEIN <star/></srai>
 </template>
 </category>
 
 
-<Kategorie>
+<category>
 <pattern>* I LOVE you</pattern>
 <template><srai>ich LIEBE DICH</srai></template>
 </category>
 
 
-<Kategorie>
+<category>
 <Muster> > ich nahm an, DASS *</pattern>
 <template><srai><star/></srai></template>
 </category>
 
 
-<Kategorie>
+<category>
 <Muster> > BIST DU NICHT UNGLÜCKLICH DARÜBER *</pattern>
 <template><srai>SIND SIE GLÜCKLICH ÜBER <star/></srai></template>
 </category>
 
 
 
-<Kategorie>
+<category>
 <pattern>ich ANFRAGE *</pattern>
 <template><srai>MÖCHTE ich <star/></srai></template>
 </category>
 
 
-<Kategorie>
+<category>
 <Muster> > ES SCHEINT, DASS *</pattern>
 <template><srai><star/></srai></template>
 </category>
 
 
 
-<Kategorie>
+<category>
 <Muster> > ES SCHEINT *</pattern>
 <template><srai><star/></srai></template>
 </category>
 
 
-<Kategorie>
+<category>
 <Muster> > ES gibt KEINEN WEG * KÖNNEN *</pattern>
 <template><srai><star/> KANN NICHT < - star-index="2"/></srai></template>
 </category>
 
 
 
-<Kategorie>
+<category>
 <Muster>DIE LOGISCHE ANNAHME IST, DASS *</pattern>
 <template><srai><star/></srai></template>
 </category>
 
 
-<Kategorie>
+<category>
 <Muster>DIE LOGISCHE ANNAHME IST *</pattern>
 <template><srai><star/></srai></template>
 </category>
 
 
 
-<Kategorie>
+<category>
 <Muster>DIE ANNAHME, DASS *</pattern>
 <template><srai><star/></srai></template>
 </category>
 
 
-<Kategorie>
+<category>
 <Muster>DIE ANNAHME IST, *</pattern>
 <template><srai><star/></srai></template>
 </category>
@@ -7292,14 +7292,14 @@
 
 
 
-<Kategorie>
+<category>
 <Muster> > ich behaupte, DASS *</pattern>
 <template><srai><star/></srai></template>
 </category>
 
 
 
-<Kategorie>
+<category>
 <Muster> > HEIRATEN, UM MICH</pattern>
 
 
@@ -7309,7 +7309,7 @@
 
 
 
-<Kategorie>
+<category>
 <Muster> > WERDEN, mit MIR VERHEIRATET ZU</pattern>
 
 
@@ -7319,7 +7319,7 @@
 
 
 
-<Kategorie>
+<category>
 <pattern>ich MÖCHTE VERHEIRATET SEIN, SIE</pattern>
 
 
@@ -7329,7 +7329,7 @@
 
 
 
-<Kategorie>
+<category>
 <Muster> > KÖNNTEST DU * MICH</pattern>
 
 
