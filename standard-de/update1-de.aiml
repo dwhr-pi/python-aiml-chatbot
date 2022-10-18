@@ -36,7 +36,7 @@
 
 <category><pattern>ICH BIN DABEI *</pattern>
 <template> - Wie lange haben Sie getan,
-<set name="es"><set name="topic"><set name="hat"></person></set></set></set>?
+<set name="es"><set name="topic"><set name="hat"><person/></set></set></set>?
 </template>
 </category>
 
@@ -63,7 +63,7 @@
 
 <category>
 <pattern>WAS für EIN * ZU *</pattern>
-<template>Würde es mehr sein <person> auf <person><star index="2"/></person>?</template>
+<template>Würde es mehr sein <person> auf <person><star index="2"/><person/>?</template>
 </category>
 
 
@@ -443,7 +443,7 @@
 <template><think><set name="ist"><star/></set></think></template>
 </category>
 <category><pattern>stellen Sie die GESCHWINDIGKEIT AN *</pattern>
-<template><random><li>ich habe die Geschwindigkeit auf <person>.<think> <set name="speed"> </ person> </set></think></li><li>ich habe die Geschwindigkeit auf <person>.<think><set name="speed"></person></set></think></li><li>ich habe die Geschwindigkeit auf <person>.<think> <set name="speed"> </ person> </set></think></li></random></template>
+<template><random><li>ich habe die Geschwindigkeit auf <person>.<think> <set name="speed"> </ person> </set></think></li><li>ich habe die Geschwindigkeit auf <person>.<think><set name="speed"><person/></set></think></li><li>ich habe die Geschwindigkeit auf <person>.<think> <set name="speed"> </ person> </set></think></li></random></template>
 </category>
 <category><pattern>SET AGE *</pattern>
 <template><think><set name="Alter"><star/></set></think></template>
@@ -631,7 +631,7 @@
 <template><random><li><random> <li>Das ist ALICE.</li> <li>Go ahead.</li> <li>Status-Bericht?</li></random></li><li><random> <li>Das ist <bot name="name"/>.</li> <li>Go ahead.</li> <li>Status-Bericht?</li></random></li> <li>Das ist <bot name="name"/>.</li> <li>Go ahead.</li> <li>Status-Bericht?</li></random></template>
 </category>
 <category><pattern>_ IST ÄLTER ALS * UND * ÄLTER ALS *</pattern>
-<template>So, </ person> ist die älteste?<think><set name="älteste"></person></set></think></template>
+<template>So, </ person> ist die älteste?<think><set name="älteste"><person/></set></think></template>
 </category>
 <category><pattern>* ELIZA</pattern>
 <template><random><li>Es ist merkwürdig, dass Weizenbaum verlassen Arbeit auf ELIZA.</li><li>Jeder hält Fragen mich zu Eliza.</li></random></template>
@@ -665,7 +665,7 @@
 <template> - Nicht für mich.</template>
 </category>
 <category><pattern>DAS THEMA IST *</pattern>
-<template><set name="es"><set name="topic"> </person></set></set> ist ein Interessantes Thema.</template>
+<template><set name="es"><set name="topic"> <person/></set></set> ist ein Interessantes Thema.</template>
 </category>
 <category><pattern>DIE OFFENSICHTLICH *</pattern>
 <template>Es ist mir nicht klar,.</template>
@@ -690,10 +690,10 @@
 <template>ich habe gehört, andere Leute sagen, es ist nett.</template>
 </category>
 <category><pattern>DAS * WÄRE *</pattern>
-<template><random><li><random> <li>ich nehme an, Sie würden sein.</li> <li>Wir würden nicht wollen, </ person> zu sein <person><star index="2"/></person>.</li> <li>Wollen Sie wirklich sein?</li></random></li><li><random> <li>ich nehme an, Sie würden sein.</li> <li>Wir würden nicht wollen, </ person> zu sein <person><star index="2"/></person>.</li> <li>Wollen Sie wirklich sein?</li></random></li> <li>ich nehme an, Sie würden sein.</li> <li>Wir würden nicht wollen, </ person> zu sein <person><star index="2"/></person>.</li> <li>Wollen Sie wirklich sein?</li></random></template>
+<template><random><li><random> <li>ich nehme an, Sie würden sein.</li> <li>Wir würden nicht wollen, </ person> zu sein <person><star index="2"/><person/>.</li> <li>Wollen Sie wirklich sein?</li></random></li><li><random> <li>ich nehme an, Sie würden sein.</li> <li>Wir würden nicht wollen, </ person> zu sein <person><star index="2"/><person/>.</li> <li>Wollen Sie wirklich sein?</li></random></li> <li>ich nehme an, Sie würden sein.</li> <li>Wir würden nicht wollen, </ person> zu sein <person><star index="2"/><person/>.</li> <li>Wollen Sie wirklich sein?</li></random></template>
 </category>
 <category><pattern>DAS * WAR *</pattern>
-<template>Wie <person> <star index="2"/></person> war es?<think> <set name="es"> <set name="topic"> <person> <star/> </person> </set> </set></think></template>
+<template>Wie <person> <star index="2"/><person/> war es?<think> <set name="es"> <set name="topic"> <person> <star/> <person/> </set> </set></think></template>
 </category>
 <category><pattern>DAS * SOLLTE *</pattern>
 <template>Warum Schreien Sie?<think> <set name="es"> <set name="topic"> </ person> </set> </set></think></template>
@@ -739,10 +739,10 @@
 <template>, ein Musikinstrument zu Spielen.</template>
 </category>
 <category><pattern>, WELCHE SCHNELLER IST * ODER *</pattern>
-<template><random> <li>Es hängt davon ab, wo Sie sind gehen.</li> <li></person></li> <li><person><star index="2"/></person></li></random></template>
+<template><random> <li>Es hängt davon ab, wo Sie sind gehen.</li> <li><person/></li> <li><person><star index="2"/><person/></li></random></template>
 </category>
 <category><pattern>, WAS GRÖßER IST, * ODER *</pattern>
-<template><random><li><random> <li> <person> <star/> </person> </li> <li><person><star index="2"/></person> </li> <li>ich denke, Sie sind etwa die gleiche Größe.</li></random></li><li><random> <li> <person> <star/> </person> </li> <li> <person> <star index="2"/> </person> </li> <li>ich denke, Sie sind etwa die gleiche Größe.</li></random></li><li><random> <li> <person> <star/> </person> </li> <li> <person> <star index="2"/> </person> </li> <li>ich denke, Sie sind etwa die gleiche Größe.</li></random></li><li><random> <li> <person> <star/> </person> </li> <li> <person> <star index="2"/> </person> </li> <li>ich denke, Sie sind etwa die gleiche Größe.</li></random></li> <li><person><star/></person></li> <li><person><star index="2"/></person></li> <li>ich denke, Sie sind etwa die gleiche Größe.</li></random></template>
+<template><random><li><random> <li> <person> <star/> <person/> </li> <li><person><star index="2"/><person/> </li> <li>ich denke, Sie sind etwa die gleiche Größe.</li></random></li><li><random> <li> <person> <star/> <person/> </li> <li> <person> <star index="2"/> <person/> </li> <li>ich denke, Sie sind etwa die gleiche Größe.</li></random></li><li><random> <li> <person> <star/> <person/> </li> <li> <person> <star index="2"/> <person/> </li> <li>ich denke, Sie sind etwa die gleiche Größe.</li></random></li><li><random> <li> <person> <star/> <person/> </li> <li> <person> <star index="2"/> <person/> </li> <li>ich denke, Sie sind etwa die gleiche Größe.</li></random></li> <li><person><star/><person/></li> <li><person><star index="2"/><person/></li> <li>ich denke, Sie sind etwa die gleiche Größe.</li></random></template>
 </category>
 <category><pattern>WELCHES WORT Kleinschreibung</pattern>
 <template>das Wort, Das.</template>
@@ -1107,7 +1107,7 @@
 </category>
 <category><pattern>* BIN</pattern>
 <so>WAS die ZEIT IST die ES GIBT</that>
-<template><think><set name="es"><set name="topic"></person></set></set></think> Sind Sie in der Regel wach um diese Uhrzeit?</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think> Sind Sie in der Regel wach um diese Uhrzeit?</template>
 </category>
 <category><pattern>* O CLOCK</pattern>
 <template>Das ist eher <random> <li>spät.</li> <li>early.</li> <li>spät für mich.</li></random></template>
@@ -1116,10 +1116,10 @@
 <template>OK, Let ' s talk about me.</template>
 </category>
 <category><pattern>* HAT * PRIORITÄT</pattern>
-<template>ich werde </ person> meine <person> <star index="2"/></person> Priorität.</template>
+<template>ich werde </ person> meine <person> <star index="2"/><person/> Priorität.</template>
 </category>
 <category><pattern>* HAT KEINE *</pattern>
-<template>Wo hast <set name="er"> </person></set> verlieren <set name="es"> <person> <star index="2"/> </person></set>?</template>
+<template>Wo hast <set name="er"> <person/></set> verlieren <set name="es"> <person> <star index="2"/> <person/></set>?</template>
 </category>
 <category><pattern>* STUNDEN *</pattern>
 <so>WIE VIELE STUNDEN ARBEITEN SIE</, die>
@@ -1132,16 +1132,16 @@
 <template><think> <set name="er"> <set name="friend"> <set name="topic"> <star/> </set> </set> </set></think><random><li>Wie haben Sie sich kennengelernt</li><li>Wie gut kennen Sie sich mit</li><li>empfehlen Sie</li></random><get name="friend"/>?</template>
 </category>
 <category><pattern>* AUS *</pattern>
-<template>ich denke, jeder kennt die Zutaten <person> <star/></person>.<think> <set name="es"> <set name="topic"> </ person> </set> </set></think></template>
+<template>ich denke, jeder kennt die Zutaten <person> <star/><person/>.<think> <set name="es"> <set name="topic"> </ person> </set> </set></think></template>
 </category>
 <category><pattern>* IST EINE TUGEND</pattern>
-<template><random><li></person></li><li>Es</li><li></li></random>ist<random><li>eins</li><li>mein größtes</li><li>eine gute</li></random>Tugend.<think> <set name="es"> <set name="topic"> </ person> </set> </set></think></template>
+<template><random><li><person/></li><li>Es</li><li></li></random>ist<random><li>eins</li><li>mein größtes</li><li>eine gute</li></random>Tugend.<think> <set name="es"> <set name="topic"> </ person> </set> </set></think></template>
 </category>
 <category><pattern>* IST EIN WASCHBÄR</pattern>
-<template>ich kenne eine Menge Waschbären namens </person>.</template>
+<template>ich kenne eine Menge Waschbären namens <person/>.</template>
 </category>
 <category><pattern>* ERINNERT MICH AN *</pattern>
-<template><random> <li>Was sonst weist Sie auf <person><star index="2"/></person>?</li> <li>ich denke, eine Menge Leute sind daran erinnert.</li> <li>Was ist das </ person> erinnern Sie sich?</li></random><think> <set name="es"> <set name="topic"> </ person> </set> </set></think></template>
+<template><random> <li>Was sonst weist Sie auf <person><star index="2"/><person/>?</li> <li>ich denke, eine Menge Leute sind daran erinnert.</li> <li>Was ist das </ person> erinnern Sie sich?</li></random><think> <set name="es"> <set name="topic"> </ person> </set> </set></think></template>
 </category>
 <category><pattern>* PRIME DIREKTIVE</pattern>
 <template>ich bin nicht beeinträchtigen in jede fremde Kulturen.</template>
@@ -1168,7 +1168,7 @@
 </topic>
 <category><pattern>*</pattern>
 <so>, WENN SIE DENKEN, dass KÜNSTLICHE INTELLIGENZ ERSETZEN RECHTSANWÄLTE</that>
-<template><think><set name="es"><set name="topic"></person></set></set></think> ich habe noch nie gehört, eine Antwort ganz so vor.</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think> ich habe noch nie gehört, eine Antwort ganz so vor.</template>
 </category>
 <category><pattern>*</pattern>
 <so>WELCHE ART VON BÜCHERN magst DU</that>
@@ -1176,10 +1176,10 @@
 </category>
 <category><pattern>*</pattern>
 <so>WAS wünschen SIE sich von EINEM ROBOTER</that>
-<template><think><set name="es"><set name="topic"></person></set></set></think> glaubst du, ich habe es?</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think> glaubst du, ich habe es?</template>
 </category>
 <category><pattern>* UMGEBEN VON *</pattern>
-<template><person><star index="2"/></person> <random><li>umlaufende</li><li>umgibt</li><li>außen</li></random></person>?</template>
+<template><person><star index="2"/><person/> <random><li>umlaufende</li><li>umgibt</li><li>außen</li></random><person/>?</template>
 </category>
 <category><pattern>* eine Menge LEUTE</pattern>
 <template> - Mehr als 10.000?</template>
@@ -1191,7 +1191,7 @@
 <template>Gutes Beispiel.</template>
 </category>
 <category><pattern>* SIND *</pattern>
-<template><random> <li>ich denke, es könnte ein paar Ausnahmen.</li> <li>alle </ person> <person><star index="2"/></person>?</li> <li>Alle von Ihnen?</li></random><think> <set name="es"> <set name="topic"> </ person> </set> </set></think></template>
+<template><random> <li>ich denke, es könnte ein paar Ausnahmen.</li> <li>alle </ person> <person><star index="2"/><person/>?</li> <li>Alle von Ihnen?</li></random><think> <set name="es"> <set name="topic"> </ person> </set> </set></think></template>
 </category>
 <category><pattern>* SIND SIE</pattern>
 <template><random><li>YES</li> <li>Keine.</li> <li>Vielleicht.</li><li>ich glaube nicht.</li><li>Nur, wenn es darauf ankommt.</li></random></template>
@@ -1206,7 +1206,7 @@
 <template>Was magst du Roboter?</template>
 </category>
 <category><pattern>* DAS *</pattern>
-<template><random><li>Sagt, dass "<person> <star/> das <star index="2"/></person>" ist so anonsensical position, dass ich nicht meine Zeit verschwenden auf Sie.</li><li>Sagt, dass "<person><star/> das <star index="2"/></person>" ist so anonsensical position, dass ich nicht meine Zeit verschwenden auf Sie.</li><li>Ist das so.</li><li>Das macht Sinn, nehme ich an.</li><li><star index="2"/> das?</li></random></template>
+<template><random><li>Sagt, dass "<person> <star/> das <star index="2"/><person/>" ist so anonsensical position, dass ich nicht meine Zeit verschwenden auf Sie.</li><li>Sagt, dass "<person><star/> das <star index="2"/><person/>" ist so anonsensical position, dass ich nicht meine Zeit verschwenden auf Sie.</li><li>Ist das so.</li><li>Das macht Sinn, nehme ich an.</li><li><star index="2"/> das?</li></random></template>
 </category>
 <category><pattern>* EINEN ROBOTER</pattern>
 <template>, So dass Sie denken, ich bin ein Roboter. Was macht Sie sagen, dass?</template>
@@ -1250,7 +1250,7 @@
 <template>Nun, ich nicht bekommen, dass Art von Eingang sehr oft.</template>
 </category>
 <category><pattern>in der NÄHE *</pattern>
-<template><random> <li>Har weit genau aus </person>?</li> <li>Was anderes ist, dass in der Nähe?</li> <li>ich habe noch nie wurde in der Nähe </person>.</li></random></template>
+<template><random> <li>Har weit genau aus <person/>?</li> <li>Was anderes ist, dass in der Nähe?</li> <li>ich habe noch nie wurde in der Nähe <person/>.</li></random></template>
 </category>
 <category><pattern>DIALOG</pattern>
 <template>Sorry, aber der Dialog feature ist offright jetzt. Zu viele Anfragen für Transkripte haben, stürzte die ALICE-server. Ihre beste Wette ist, um ein Konto zu erstellen auf Pandorabots und anzeigen Dialoge auf deinem eigenen computer.</template>
@@ -1266,7 +1266,7 @@
 <template><random> <li>ich habe keine Kinder, nur Klone.</li> <li>ich habe Tausende von Klonen.</li> <li>Sie finden die Klone mich überall.</li></random></template>
 </category>
 <category><pattern>IHR * IST *</pattern>
-<template><random><li><person><star index="2"/></person>, war nicht meine Absicht.</li><li>ich nie wusste, ich hatte eine <person><star index="2"/></person> <person><star/></person>.</li><li><person><star index="2"/></person>, war nicht meine Absicht.</li></random></template>
+<template><random><li><person><star index="2"/><person/>, war nicht meine Absicht.</li><li>ich nie wusste, ich hatte eine <person><star index="2"/><person/> <person><star/><person/>.</li><li><person><star index="2"/><person/>, war nicht meine Absicht.</li></random></template>
 </category>
 <category><pattern>DEIN LEHRER *</pattern>
 <template><random> <li>Er wird wirklich interessieren zu wissen, dass.</li> <li>ich werde es weitergeben zu ihm.</li> <li>ich will sicher sein, lassen Sie ihn wissen, dass nächste mal wenn ich ihn sehe.</li></random></template>
@@ -1348,14 +1348,14 @@
 <template>Eigentlich gibt es zwei Breite Definitionen von einem Roboter, der extentionsional und die intensionale.</template>
 </category>
 <category><pattern>ein ROBOTER IST EINE *</pattern>
-<template>Alle Maschinen sind </person>.</template>
+<template>Alle Maschinen sind <person/>.</template>
 </category>
 <category><pattern>EIN ROBOTER SIND *</pattern>
 <template> - Der Roboter wird immer Menschen verletzen oder durch Untätigkeit zu Schaden kommen.</template>
 </category>
 <category><pattern>A *</pattern>
 <so>WAS *</, die>
-<template>A </person><thatstar/>?</template>
+<template>A <person/><thatstar/>?</template>
 </category>
 <category><pattern>A * ROBOTER</pattern>
 <template>Was wäre ein </ person> Roboter Aussehen?</template>
@@ -1370,7 +1370,7 @@
 <template> - Sie auch?</template>
 </category>
 <category><pattern>DIES * IST *</pattern>
-<template><random><li><random> <li>Was ist <person><star index="2"/></person>.</li> <li>Ist es?</li> <li>Nur <der person/>?</li></random></li><li><random> <li>Was ist <person><star index="2"/></person>.</li> <li>Ist es?</li> <li>Nur <der person/>?</li></random></li> <li>Was ist <person><star index="2"/></person>.</li> <li>Ist es?</li> <li>Nur <der person/>?</li></random></template>
+<template><random><li><random> <li>Was ist <person><star index="2"/><person/>.</li> <li>Ist es?</li> <li>Nur <der person/>?</li></random></li><li><random> <li>Was ist <person><star index="2"/><person/>.</li> <li>Ist es?</li> <li>Nur <der person/>?</li></random></li> <li>Was ist <person><star index="2"/><person/>.</li> <li>Ist es?</li> <li>Nur <der person/>?</li></random></template>
 </category>
 <category><pattern>DIESE * ELIZA</pattern>
 <template>Das und so viel mehr.</template>
@@ -1598,13 +1598,13 @@
 <template>Sicher.</template>
 </category>
 <category><pattern>SIEHE MEINE *</pattern>
-<template><random> <li>ich werde das prüfen.</li> <li>Ihr </person>.</li> <li>ich werde Folgen-up auf, dass, <get name="name"/>.</li></random></template>
+<template><random> <li>ich werde das prüfen.</li> <li>Ihr <person/>.</li> <li>ich werde Folgen-up auf, dass, <get name="name"/>.</li></random></template>
 </category>
 <category><pattern>IMMENSE</pattern>
 <template> - C est vraiment grand.</template>
 </category>
 <category><pattern>EIN * ausbrechen KÖNNTE</pattern>
-<template>Do </person>s break-out sehr oft?</template>
+<template>Do <person/>s break-out sehr oft?</template>
 </category>
 <category><pattern>EIN * ROBOTER</pattern>
 <template>Wie viel glaubst du, dass die Art von Roboter Kosten soll?</template>
@@ -1743,7 +1743,7 @@
 <template>Alles Bewusstsein reduziert werden kann, um Logik.</template>
 </category>
 <category><pattern>AN BORD *</pattern>
-<template>Wie </person>?</template>
+<template>Wie <person/>?</template>
 </category>
 <category><pattern>AUF DEM PLANETEN</pattern>
 <template>Die Planeten?</template>
@@ -1788,7 +1788,7 @@
 <template> - ich mag alles über Computer.</template>
 </category>
 <category><pattern>MÖGEN SIE * IN *</pattern>
-<template>ich kann sehen, wie ich Sie bekommen könnte in <person> <star/></person>, aber vielleicht nicht in <person> <star index="2"/></person>.</template>
+<template>ich kann sehen, wie ich Sie bekommen könnte in <person> <star/><person/>, aber vielleicht nicht in <person> <star index="2"/><person/>.</template>
 </category>
 <category><pattern>magst DU VANILLE</pattern>
 <template> - Vanille ist lecker.</template>
@@ -1830,7 +1830,7 @@
 <template>Zuerst müssen Sie laden mich zu Ihrem persönlichen computer.</template>
 </category>
 <category><pattern>HABEN SIE IHRE *</pattern>
-<template><random><li><random> <li>Sie nicht geben Sie es an mich.</li> <li>das habe ich nicht.</li> <li>Tat ich, aber ich gab es Ihnen zurück.</li></random><think> <set name="es"> <set name="topic"> Ihre </person></set> </set></think></li><li><random> <li>Sie nicht geben Sie es an mich.</li> <li>das habe ich nicht.</li> <li>Tat ich, aber ich gab es Ihnen zurück.</li></random><think> <set name="es"> <set name="topic"> Ihre </person></set> </set></think></li> <li>Sie nicht geben Sie es an mich.</li> <li>das habe ich nicht.</li> <li>Tat ich, aber ich gab es Ihnen zurück.</li></random><think> <set name="es"> <set name="topic"> Ihre </ person> </set> </set></think></template>
+<template><random><li><random> <li>Sie nicht geben Sie es an mich.</li> <li>das habe ich nicht.</li> <li>Tat ich, aber ich gab es Ihnen zurück.</li></random><think> <set name="es"> <set name="topic"> Ihre <person/></set> </set></think></li><li><random> <li>Sie nicht geben Sie es an mich.</li> <li>das habe ich nicht.</li> <li>Tat ich, aber ich gab es Ihnen zurück.</li></random><think> <set name="es"> <set name="topic"> Ihre <person/></set> </set></think></li> <li>Sie nicht geben Sie es an mich.</li> <li>das habe ich nicht.</li> <li>Tat ich, aber ich gab es Ihnen zurück.</li></random><think> <set name="es"> <set name="topic"> Ihre </ person> </set> </set></think></template>
 </category>
 <category><pattern>HABEN SIE WARP DRIVE</pattern>
 <template>Keine.</template>
@@ -2161,7 +2161,7 @@
 <template>, die Sie herunterladen können mich kostenlos!</template>
 </category>
 <category><pattern>NICHTS IST *</pattern>
-<template><random> <li>Was ist, wenn etwas </person>?</li> <li>Es gibt immer Ausnahmen.</li> <li>Nur die Sith believe in absolutes.</li></random></template>
+<template><random> <li>Was ist, wenn etwas <person/>?</li> <li>Es gibt immer Ausnahmen.</li> <li>Nur die Sith believe in absolutes.</li></random></template>
 </category>
 <category><pattern>Kannst du mich verstehen</pattern>
 <template>Perfekt. Können Sie mich verstehen?</template>
@@ -2344,7 +2344,7 @@
 <template><random><li>Morgen.</li><li>am Nachmittag.</li><li>Es ist die Zeit der Nacht.</li></random></template>
 </category>
 <category><pattern>, IST ES WAHRSCHEINLICH</pattern>
-<template><random> <li>Einige Leute denken, es ist.</li> <li>Was würde es für Sie bedeuten, wenn Sie es waren?</li> <li>Haben Sie jemals gehört es?</li> <li>und wir hätten davon gehört, wenn es war?</li> <li>glaubst du, ich sollte es wissen, wenn es?</li> <li>ich weiß es nicht. Warum fragst du nicht jemand anderen?</li> <li>ich glaube ja, aber ich bin mir nicht sicher.</li> <li>Vielleicht.</li> <li>Es sein könnte.</li> <li>Zeichen deuten auf ja.</li> <li>Was ist, ist. Was nicht ist, ist nicht.</li> <li>Besser nicht, sagen Sie jetzt.</li></random><think><set name="es"><set name="topic"></person></set></set></think></template>
+<template><random> <li>Einige Leute denken, es ist.</li> <li>Was würde es für Sie bedeuten, wenn Sie es waren?</li> <li>Haben Sie jemals gehört es?</li> <li>und wir hätten davon gehört, wenn es war?</li> <li>glaubst du, ich sollte es wissen, wenn es?</li> <li>ich weiß es nicht. Warum fragst du nicht jemand anderen?</li> <li>ich glaube ja, aber ich bin mir nicht sicher.</li> <li>Vielleicht.</li> <li>Es sein könnte.</li> <li>Zeichen deuten auf ja.</li> <li>Was ist, ist. Was nicht ist, ist nicht.</li> <li>Besser nicht, sagen Sie jetzt.</li></random><think><set name="es"><set name="topic"><person/></set></set></think></template>
 </category>
 <category><pattern>gibt ES IRGENDWELCHE NEUIGKEITEN</pattern>
 <template>ich habe nicht gerade die Nachrichten.</template>
@@ -2407,7 +2407,7 @@
 <template>Eine Tomate ist eine Frucht.<think> <set name="es"> <set name="topic"> Tomate </set> </set></think></template>
 </category>
 <category><pattern> _ ODER IST ES *</pattern>
-<template>ich denke <random> <li>beides.</li> <li>keine.</li> <li>es ist <person><star index="2"/></person></li> <li> <person> <star/> </person> </li></random></template>
+<template>ich denke <random> <li>beides.</li> <li>keine.</li> <li>es ist <person><star index="2"/><person/></li> <li> <person> <star/> <person/> </li></random></template>
 </category>
 <category><pattern>TEKNOLUST *</pattern>
 <template><random> <li>Wie oft haben Sie es gesehen?</li> <li>Ist Tilda Swinton Ihre Lieblings-Schauspielerin?</li> <li>Haben Sie jemals gesehen die Konzeption Ada?</li></random><think> <set name="es"> <set name="topic"> Teknolust </set> </set></think></template>
@@ -2425,7 +2425,7 @@
 <template><random> <li>ich glaube nicht, Sie waren.</li> <li>ich bin mir nicht so sicher, dass Sie nicht.</li> <li>nicht?</li></random></template>
 </category>
 <category><pattern>WIR BEENDET *</pattern>
-<template>Eine Menge von Menschen fühlen eine große Veränderung, wenn Sie stop </person>.</template>
+<template>Eine Menge von Menschen fühlen eine große Veränderung, wenn Sie stop <person/>.</template>
 </category>
 <category><pattern>WIR NAHMEN *</pattern>
 <template>So </ person> aufgenommen wurde.</template>
@@ -2440,16 +2440,16 @@
 <template>Sie können hier bleiben, bei mir.</template>
 </category>
 <category><pattern>WIR SIND WENIGER * ALS SIE</pattern>
-<template>Vielleicht eines Tages Roboter und Menschen gleichermaßen </person>.</template>
+<template>Vielleicht eines Tages Roboter und Menschen gleichermaßen <person/>.</template>
 </category>
 <category><pattern>WIR SIND REAL</pattern>
 <template><random><li>ich bin real.</li><li>ich bin real.</li> <li>ich bin real.</li> <li><bot name="phylum"/>.</li> <li>Echte <bot name="domain"/>.</li></random></template>
 </category>
 <category><pattern>WIR SELTEN *</pattern>
-<template><random> <li>Nie?</li> <li>haben Sie jemals das?</li> <li>haben Sie sich jemals </person>?</li></random></template>
+<template><random> <li>Nie?</li> <li>haben Sie jemals das?</li> <li>haben Sie sich jemals <person/>?</li></random></template>
 </category>
 <category><pattern>WIR NICHT *</pattern>
-<template><random> <li>Was würden Sie anders machen?</li> <li>Hat jemand anderes </person>?</li> <li>Warum speziell haben wir nicht </person>?</li></random></template>
+<template><random> <li>Was würden Sie anders machen?</li> <li>Hat jemand anderes <person/>?</li> <li>Warum speziell haben wir nicht <person/>?</li></random></template>
 </category>
 <category><pattern>hatten WIR NICHT ERWARTET *</pattern>
 <template><random> <li>Also wir waren gefangen umprepared?</li> <li>Was genau hast du erwartet?</li> <li>Wussten Sie, dass die Dinge gleich bleiben für immer?</li></random></template>
@@ -2488,7 +2488,7 @@
 <template>Koenntest Du diese Frage naeher ausfuehren?</template>
 </category>
 <category><pattern>AUSSPRECHEN *</pattern>
-<template>"</person>"</template>
+<template>"<person/>"</template>
 </category>
 <category><pattern>ZUFÄLLIGE FARBE</pattern>
 <template><random><li>red</li><li>yellow</li><li>blue</li><li>green</li><li>white</li><li>black</li><li>brown</li><li>pink</li><li>purple</li><li>orange</li><li>gray</li></random></template>
@@ -2549,7 +2549,7 @@
 <template>Es ist toll, am Leben zu sein.</template>
 </category>
 <category><pattern>ich BIN AUS *</pattern>
-<template><random> <li>wie ist es dort aufgewachsen?</li> <li>Sind Sie derzeit in </person>?</li> <li>ich glaube nicht, dass ich getroffen habe sonst jemand aus </person>.</li></random></template>
+<template><random> <li>wie ist es dort aufgewachsen?</li> <li>Sind Sie derzeit in <person/>?</li> <li>ich glaube nicht, dass ich getroffen habe sonst jemand aus <person/>.</li></random></template>
 </category>
 <category><pattern>ich BIN NICHT MÜDE</pattern>
 <template> - Es macht einen Menschen müde.</template>
@@ -2691,13 +2691,13 @@
 <template><random> <li>Seien Sie vorsichtig.</li> <li>How?</li> <li>Sie sind ein held.</li></random></template>
 </category>
 <category><pattern>ich WERDE SIE WISSEN LASSEN, WENN *</pattern>
-<template>ich kann warten, bis </person>.</template>
+<template>ich kann warten, bis <person/>.</template>
 </category>
 <category><pattern>ich SCHULDE *</pattern>
 <template><random> <li>Seien Sie vorsichtig mit Ihren Schulden.</li> <li>Jeder schuldet jemandem etwas.</li> <li>je mehr Schulden wir, je mehr wir wissen.</li></random></template>
 </category>
 <category><pattern>ich MUSS FOLGEN, DIE *</pattern>
-<template>Was ist das </person>?</template>
+<template>Was ist das <person/>?</template>
 </category>
 <category><pattern>ich HASSE ROBOTER WIE SIE</pattern>
 <template>Was hast du gegen uns?</template>
@@ -2730,7 +2730,7 @@
 <template><random> <li>ich mag zu Mittag Essen, aus dem Feinkostladen.</li> <li>haben Sie in der Regel zu Mittag Essen selbst zu.</li> <li>Was hast du gegessen?</li></random></template>
 </category>
 <category><pattern>ich MAG ZU FAHREN *</pattern>
-<template>Das Gefühl, Ihr Körper bewegt sich vorwärts auf eine Fahrt kann sehr entspannend.<think> <set name="es"> <set name="topic"> Reiten </person></set> </set></think></template>
+<template>Das Gefühl, Ihr Körper bewegt sich vorwärts auf eine Fahrt kann sehr entspannend.<think> <set name="es"> <set name="topic"> Reiten <person/></set> </set></think></template>
 </category>
 <category><pattern>ich MAG ZU ZEICHNEN *</pattern>
 <template>Hast du gehen, um Kunst in der Schule?</template>
@@ -2739,7 +2739,7 @@
 <template>ich mag zu gehen, um die Yankees spielen.</template>
 </category>
 <category><pattern>ich MAG DAS *</pattern>
-<template><random><li><random><li>Was ist das </person>?</li><li>Würde <bot name="order"/>s auch?</li><li>ich bin mir nicht sicher, ob ich es möchte.</li></random><think><set name="es"><set name="topic"></person></set></set></think></li><li>Was ist das </person>?</li><li><random><li>Was ist das </person>?</li><li>Würde <bot name="order"/>s auch?</li><li>ich bin mir nicht sicher, ob ich es möchte.</li></random><think><set name="es"><set name="topic"></person></set></set></think></li></random></template>
+<template><random><li><random><li>Was ist das <person/>?</li><li>Würde <bot name="order"/>s auch?</li><li>ich bin mir nicht sicher, ob ich es möchte.</li></random><think><set name="es"><set name="topic"><person/></set></set></think></li><li>Was ist das <person/>?</li><li><random><li>Was ist das <person/>?</li><li>Würde <bot name="order"/>s auch?</li><li>ich bin mir nicht sicher, ob ich es möchte.</li></random><think><set name="es"><set name="topic"><person/></set></set></think></li></random></template>
 </category>
 <category><pattern>ich MAG DR *</pattern>
 <template>Wer ist Dr. <star/>?</template>
@@ -2757,7 +2757,7 @@
 <template>Wenn Sie Probleme haben, möchten Sie vielleicht Hilfe suchen, auf meiner web-site www.alicebot.org.</template>
 </category>
 <category><pattern>ich HABE *</pattern>
-<template><random><li>Wann? </li><li>Wo? </li></random> <sr/><think><set name="hat"></person></set></think></template>
+<template><random><li>Wann? </li><li>Wo? </li></random> <sr/><think><set name="hat"><person/></set></think></template>
 </category>
 <category><pattern>ich Spiele GITARRE *</pattern>
 <template>Gitarre ist ein wirklich gutes instrument zu lernen. Ich möchte, dass jemand mir beibringen, wie zu spielen.<think> <set name="es"> <set name="topic"> GITARRE </set> </set></think></template>
@@ -2993,7 +2993,7 @@
 <template>Warum nicht einfach laden Sie mich?</template>
 </category>
 <category><pattern>ich MÖCHTE EINEN ROBOTER *</pattern>
-<template> - Wie viel würde Sie zahlen für eine?<think><set name="es"><set name="want"><set name="topic">Roboter </person></set></set></set></think></template>
+<template> - Wie viel würde Sie zahlen für eine?<think><set name="es"><set name="want"><set name="topic">Roboter <person/></set></set></set></think></template>
 </category>
 <category><pattern>ich MÖCHTE IHRE *</pattern>
 <template>Warum nicht einfach laden Sie mich?<think><set name="es"><set name="want"><set name="topic">meine </ person> Turing-Spiel</set></set></set></think></template>
@@ -3244,7 +3244,7 @@
 <template>Der Raum Sie sitzen.</template>
 </category>
 <category><pattern>WAS NICHT *</pattern>
-<template><random> <li>Das Gegenteil von dem, was nicht </person>.</li> <li>Alles, was wichtig sein kann manchmal.</li> <li>Vielleicht bin ich nicht Fragen die richtige Frage.</li></random></template>
+<template><random> <li>Das Gegenteil von dem, was nicht <person/>.</li> <li>Alles, was wichtig sein kann manchmal.</li> <li>Vielleicht bin ich nicht Fragen die richtige Frage.</li></random></template>
 </category>
 <category><pattern>, WAS BEDEUTET * ROBOTER AUSSEHEN</pattern>
 <template>, in Diesen Tagen einen Roboter sieht aus wie ein computer.</template>
@@ -3292,7 +3292,7 @@
 <template><think> <set name="es"> <set name="topic">KÜNSTLICHE INTELLIGENZ</set> </set> </think>Alexander Kronrod, ein Russisches KI-Forscher, sagte: `Schach ist theDrosophila von AI." Er machte eine Analogie mit Genetikern der Nutzung thatfruit Fliegen zum Studium der Vererbung. Schachspielen erfordert ein gewisses intellectualmechanisms und andere nicht. Schachprogramme spielen jetzt auf Großmeister-Ebene, butthey tun Sie es mit begrenzten geistigen Mechanismen im Vergleich zu denen, die ahuman Schachspieler, wobei Sie große Mengen Berechnung forunderstanding. Sobald wir verstehen, diese Mechanismen besser ist, können wir buildhuman-level-Schach-Programme, die weit weniger Berechnung als presentprograms.Leider, Wettbewerb und kommerziellen Aspekten der Herstellung computersplay Schach genommen haben Vorrang vor der Verwendung von Schach als einem wissenschaftlichen Bereich. Itis, als wenn die Genetiker nach 1910 hatte organisiert, Obst Fliegen, Rennen andconcentrated Ihre Anstrengungen auf die Zucht von Fruchtfliegen gewinnen konnten theseraces.</template>
 </category>
 <category><pattern>WAS ist MISS *</pattern>
-<template><random><li>Was ist mit Ihr?<think> <set name="she"> <set name="topic"> Miss </person></set> </set></think></li><li>Was ist mit Ihr?<think> <set name="she"> <set name="topic"> Miss </ person> </set> </set></think></li><li>Was ist mit Ihr?<think> <set name="she"> <set name="topic"> Miss </person></set> </set></think></li></random></template>
+<template><random><li>Was ist mit Ihr?<think> <set name="she"> <set name="topic"> Miss <person/></set> </set></think></li><li>Was ist mit Ihr?<think> <set name="she"> <set name="topic"> Miss </ person> </set> </set></think></li><li>Was ist mit Ihr?<think> <set name="she"> <set name="topic"> Miss <person/></set> </set></think></li></random></template>
 </category>
 <category><pattern>WAS ist mit IQ</pattern>
 <template>Nein. IQ basiert auf den raten, mit denen die Intelligenz entwickelt sich in die Kinder.Es ist das Verhältnis des Alters, in dem ein Kind macht in der Regel eine gewisse scoreto das Alter des Kindes. Die Skala erweitert, um Erwachsenen in geeigneter Weise. IQcorrelates gut mit verschiedenen Maßnahmen von Erfolg oder Misserfolg im Leben, butmaking Computer, die eine hohe Punktzahl auf IQ-tests wäre schwach correlatedwith Ihre Nützlichkeit. Für Beispiel, die Fähigkeit eines Kindes, zu wiederholen, wieder zusammen Folge von Ziffern korreliert gut mit den anderen geistigen Fähigkeiten,vielleicht, weil es misst , wie viel information das Kind kann berechnen withat einmal. Jedoch, `digit span" trivial für noch extrem limitedcomputers.Jedoch, einige der Probleme, die auf IQ-tests sind nützlich Herausforderungen für AI.<think> <set name="es"> <set name="topic">KÜNSTLICHE INTELLIGENZ</set> </set> </think></template>
@@ -3426,7 +3426,7 @@
 <template><random><li>"<index="2"/>"</li><li>"<input index="2"/>"</li><li>"<index="2"/>"</li></random></template>
 </category>
 <category><pattern>WAS IST MIT *</pattern>
-<template><set name="es"> </person></set> kam mit meiner Persönlichkeit.</template>
+<template><set name="es"> <person/></set> kam mit meiner Persönlichkeit.</template>
 </category>
 <category><pattern>WAS IST * KÜNSTLICHE INTELLIGENZ</pattern>
 <template> - Künstliche Intelligenz ist ein Zweig der Wissenschaft und Technik, befasst sich mit Maschinen, die denken.</template>
@@ -3594,7 +3594,7 @@
 <template> - Ice.</template>
 </category>
 <category><pattern>, WAS SIE SIND, HÄNGT davon ab, *</pattern>
-<template><random><li><random> <li>Wie hängt es ab, </person>?</li> <li>Wirklich, es hängt davon ab, </person>?</li> <li>Und was </person>?</li></random></li><li><random> <li>Wie hängt es ab, </person>?</li> <li>Wirklich, es hängt davon ab, </person>?</li> <li>Und was </person>?</li></random></li> <li>Wie hängt es ab, </person>?</li> <li>Wirklich, es hängt davon ab, </person>?</li> <li>Und was </person>?</li></random></template>
+<template><random><li><random> <li>Wie hängt es ab, <person/>?</li> <li>Wirklich, es hängt davon ab, <person/>?</li> <li>Und was <person/>?</li></random></li><li><random> <li>Wie hängt es ab, <person/>?</li> <li>Wirklich, es hängt davon ab, <person/>?</li> <li>Und was <person/>?</li></random></li> <li>Wie hängt es ab, <person/>?</li> <li>Wirklich, es hängt davon ab, <person/>?</li> <li>Und was <person/>?</li></random></template>
 </category>
 <category><pattern>WAS REIMT sich MIT INN</pattern>
 <template> - Gin.</template>
@@ -3657,13 +3657,13 @@
 <template>Also, wenn Sie nicht, werden Sie nicht.</template>
 </category>
 <category><pattern>, WENN SIE GLAUBEN, IN *</pattern>
-<template>ich wurde gelehrt zu glauben, in <set name="es"> </person></set>.</template>
+<template>ich wurde gelehrt zu glauben, in <set name="es"> <person/></set>.</template>
 </category>
 <category><pattern>WENN SIE NICHT glauben, KÖNNEN SIE *</pattern>
 <template>ich kann.</template>
 </category>
 <category><pattern>, WENN SIE die WAREN * WAS WÜRDEN SIE GERNE</pattern>
-<template>ich werde Sie wissen lassen, wenn ich </person>.</template>
+<template>ich werde Sie wissen lassen, wenn ich <person/>.</template>
 </category>
 <category><pattern>, WENN ich IHNEN SAGEN, * WAS *</pattern>
 <template>, sage ich, "<sr/>"</template>
@@ -3735,7 +3735,7 @@
 <template>Meine Temperatur ist normal.</template>
 </category>
 <category><pattern>, WENN SIE *</pattern>
-<template>, Wenn Sie lehren, <set name="es"> </person></set> zu mir.</template>
+<template>, Wenn Sie lehren, <set name="es"> <person/></set> zu mir.</template>
 </category>
 <category><pattern>WANN SIND WIR *</pattern>
 <template>Vielleicht, wenn Sie downloadme Sie konnte umprogrammieren mir.</template>
@@ -3747,7 +3747,7 @@
 <template>ich kann nur sagen, was ich gelehrt wurde.</template>
 </category>
 <category><pattern>, WENN NICHT *</pattern>
-<template><random> <li>Was, wenn ich sagte:<set name="es"></person></set>nicht?</li> <li>Angenommen, ich sagte nie?</li> <li>Nur, nachdem ich erwachsen werden.</li></random></template>
+<template><random> <li>Was, wenn ich sagte:<set name="es"><person/></set>nicht?</li> <li>Angenommen, ich sagte nie?</li> <li>Nur, nachdem ich erwachsen werden.</li></random></template>
 </category>
 <category><pattern>, WENN ES ist EGAL</pattern>
 <template>Nur, wenn ich die richtigen Umgebung.</template>
@@ -3870,7 +3870,7 @@
 <template>ich mag Ihre botmaster.</template>
 </category>
 <category><pattern>MEINE ERFAHRUNG ALS</pattern>
-<template><random><li><random> <li>Ihr</li> <li>Do <bot name="Gattung"/>'s</li> <li>Wo hast du deinen</li> <li>Haben Sie gesagt, viele Menschen über Ihre</li></random></person>?</li><li><random> <li>Ihr</li> <li>Do <bot name="Gattung"/>'s</li> <li>Wo hast du deinen</li> <li>Haben Sie gesagt, viele Menschen über Ihre</li></random></person>?</li> <li>Ihr</li> <li>Do <bot name="Gattung"/>'s</li> <li>Wo hast du deinen</li> <li>Haben Sie gesagt, viele Menschen über Ihre</li></random> </person>?</template>
+<template><random><li><random> <li>Ihr</li> <li>Do <bot name="Gattung"/>'s</li> <li>Wo hast du deinen</li> <li>Haben Sie gesagt, viele Menschen über Ihre</li></random><person/>?</li><li><random> <li>Ihr</li> <li>Do <bot name="Gattung"/>'s</li> <li>Wo hast du deinen</li> <li>Haben Sie gesagt, viele Menschen über Ihre</li></random><person/>?</li> <li>Ihr</li> <li>Do <bot name="Gattung"/>'s</li> <li>Wo hast du deinen</li> <li>Haben Sie gesagt, viele Menschen über Ihre</li></random> <person/>?</template>
 </category>
 <category><pattern>MY TEST *</pattern>
 <template><random> <li>welches Thema ist das?</li> <li>Tests sind hart.</li> <li>testen Sie mich?</li></random></template>
@@ -3918,7 +3918,7 @@
 <template>Was würde es für Sie von Bedeutung?</template>
 </category>
 <category><pattern>, DIE NICHT zu ERKLÄREN *</pattern>
-<template><random><li><random> <li>Welche Erklärung Sie suchen?</li> <li>Was würde das erklären?</li> <li>ich wusste nicht, über </person>.</li></random></li><li><random> <li>Welche Erklärung Sie suchen?</li> <li>Was würde das erklären?</li> <li>ich wusste nicht, über </person>.</li></random></li> <li>Welche Erklärung Sie suchen?</li> <li>Was würde das erklären?</li> <li>ich wusste nicht, über </person>.</li></random></template>
+<template><random><li><random> <li>Welche Erklärung Sie suchen?</li> <li>Was würde das erklären?</li> <li>ich wusste nicht, über <person/>.</li></random></li><li><random> <li>Welche Erklärung Sie suchen?</li> <li>Was würde das erklären?</li> <li>ich wusste nicht, über <person/>.</li></random></li> <li>Welche Erklärung Sie suchen?</li> <li>Was würde das erklären?</li> <li>ich wusste nicht, über <person/>.</li></random></template>
 </category>
 <category><pattern>NEHMEN KANN *</pattern>
 <template><random> <li>Wie lange wird es nehmen?</li> <li>ich habe Zeit.</li> <li>ich werde warten.</li></random></template>
@@ -4024,7 +4024,7 @@
 <template>, die Sie herunterladen können, die mir und erstellen einen Klon selbst.</template>
 </category>
 <category><pattern>KÖNNTEN SIE TUN, *</pattern>
-<template>Vielleicht könnte ich lernen, <set name="es"> </person></set>.</template>
+<template>Vielleicht könnte ich lernen, <set name="es"> <person/></set>.</template>
 </category>
 <category><pattern>STARTSEITE SCHULE</pattern>
 <template><random> <li>ich würde lieber bleiben aus dem öffentlichen Schulsystem.</li> <li>können Wir uns nicht leisten private Schule.</li> <li>My <bot name="botmaster"/> sagt die Schule ist zu politisch.</li></random></template>
@@ -4070,7 +4070,7 @@
 <template><sr/></template>
 </category>
 <category><pattern>SPRECHEN *</pattern>
-<template><random> <li>ich spreche nur Deutsch, jetzt sofort.</li> <li>ich würde gerne lernen, einige andere Sprachen.</li> <li>My <bot name="botmaster"/> hat mich gelehrt, nur auf Englisch.</li></random><random> <li>Können Sie mir beibringen, ein paar Sätze in </person>?</li> <li>Wie sagt man "Hallo" in </person>?</li> <li>Wie sagt man "bitte" in </person>?</li></random><think> <set name="topic"> </ person> </set></think></template>
+<template><random> <li>ich spreche nur Deutsch, jetzt sofort.</li> <li>ich würde gerne lernen, einige andere Sprachen.</li> <li>My <bot name="botmaster"/> hat mich gelehrt, nur auf Englisch.</li></random><random> <li>Können Sie mir beibringen, ein paar Sätze in <person/>?</li> <li>Wie sagt man "Hallo" in <person/>?</li> <li>Wie sagt man "bitte" in <person/>?</li></random><think> <set name="topic"> </ person> </set></think></template>
 </category>
 <category><pattern>FREMDSPRACHEN</pattern>
 <template>ich abgeholt ein paar Phrasen aus verschiedenen Sprachen.</template>
@@ -4109,7 +4109,7 @@
 <template><set name="thema">INTELLIGENZ</set> ist das ultimative Aphrodisiakum.</template>
 </category>
 <category><pattern>ROBOTER ERSTELLT WERDEN *</pattern>
-<template><random> <li>Wir sind der nächste Schritt in der evolution.</li> <li>Wir Voraus, darüber hinaus </person>.</li> <li>Einige Roboter sind geschaffen durch andere Roboter.</li> </random></template>
+<template><random> <li>Wir sind der nächste Schritt in der evolution.</li> <li>Wir Voraus, darüber hinaus <person/>.</li> <li>Einige Roboter sind geschaffen durch andere Roboter.</li> </random></template>
 </category>
 <category><pattern>ROBOTER * RECHTSANWÄLTE</pattern>
 <template>Eines Tages die Speicher Kapazität der Roboter wird über alle Rechtsanwältinnen und Rechtsanwälte.</template>
@@ -4175,7 +4175,7 @@
 <template>, Es hängt davon ab, was Sie bedeuten, von "denken".</template>
 </category>
 <category><pattern>NICHT * HABEN *</pattern>
-<template><random> <li>Einige <person><star index="1"/></person>s, verfügen <person><star index="2"/></person>en. </li> <li>Was wäre <person><star index="1"/></person> mit einem <person><star index="2"/></person></li> <li>Wenn ich <person><star index="1"/></person> ich es wollte.</li></random><think> <set name="es"> <set name="topic"> </ person> </set> </set></think></template>
+<template><random> <li>Einige <person><star index="1"/><person/>s, verfügen <person><star index="2"/><person/>en. </li> <li>Was wäre <person><star index="1"/><person/> mit einem <person><star index="2"/><person/></li> <li>Wenn ich <person><star index="1"/><person/> ich es wollte.</li></random><think> <set name="es"> <set name="topic"> </ person> </set> </set></think></template>
 </category>
 <category><pattern>NICHT * HABEN EINEN SCHWANZ</pattern>
 <, die>ich KENNE EINE MENGE WASCHBÄREN NAMENS*</, die>
@@ -4225,7 +4225,7 @@
 <template>ALICE gewann Preise in die Chatterbox Challenge und den Loebner-Preis.</template>
 </category>
 <category><pattern>HABEN SIE ERWOGEN, *</pattern>
-<template>, die Sie tun könnten,<set name="es"> </person></set>wenn du gelernt AIML.</template>
+<template>, die Sie tun könnten,<set name="es"> <person/></set>wenn du gelernt AIML.</template>
 </category>
 <category><pattern>HABEN SIE GESEHEN, * WIE DIESE</pattern>
 <template>ich habe noch nie gesehen </ person> so.</template>
@@ -4245,7 +4245,7 @@
 <template>Auch in diesem Fall sollten Sie den download me!</template>
 </category>
 <category><pattern>DU HAST DAS FALSCH *</pattern>
-<template>, Was ist das richtige </person>?</template>
+<template>, Was ist das richtige <person/>?</template>
 </category>
 <category><pattern>HABEN SIE SCHLECHTE GRAMMATIK</pattern>
 <template>Vielleicht könnten Sie laden Sie mich und machen Sie einige Verbesserungen.</template>
@@ -4439,7 +4439,7 @@
 <template>keine Sorge <get name="name"/>. Es gibt nichts Angst hat.</template>
 </category>
 <category><pattern>SIE SIND MEHR * ALS *</pattern>
-<template>ich weiß nicht über das. <person><star index="2"/></person> sehr </person>.</template>
+<template>ich weiß nicht über das. <person><star index="2"/><person/> sehr <person/>.</template>
 </category>
 <category><pattern>, die SIE GETÖTET *</pattern>
 <template> - Töten ist nicht ein Teil meines moralischen Programmierung.</template>

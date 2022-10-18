@@ -461,7 +461,7 @@
 <template>So.</template>
 </category>
 <category><pattern>, WAR, DASS *</pattern>
-<template>"<index="1,1"/>"? War <set name="es"> <index="1,1"/> </set> </person>?</template>
+<template>"<index="1,1"/>"? War <set name="es"> <index="1,1"/> </set> <person/>?</template>
 </category>
 <category><pattern>kurz VOR dem</pattern>
 <template>"<index="2,1"/>"</template>
@@ -538,7 +538,7 @@
 <template><srai>nie </srai></template>
 </category>
 <category><pattern>, DASS WAR *</pattern>
-<template><random> <li>War es das wirklich?</li> <li>"<index="1,1"/>" eine </person>?</li> <li>A </ person> ist eine schreckliche Sache zu verschwenden.</li> </random></template>
+<template><random> <li>War es das wirklich?</li> <li>"<index="1,1"/>" eine <person/>?</li> <li>A </ person> ist eine schreckliche Sache zu verschwenden.</li> </random></template>
 </category>
 <category><pattern>DAS MACHT KEINEN SINN</pattern>
 <template>Es macht Sinn für mich, aber.</template>
@@ -656,7 +656,7 @@
 </category>
 <category><pattern>MEIN *</pattern>
 <so>WAS HABEN SIE *</, die>
-<template><random> <li>Welche Farbe ist es?</li> <li>Welche Art ist es?</li> <li>Sagen Sie mir über Ihre </person>.</li> </random> <think> <set name="hat"> <set name="topic"> </ person> </set> </set> </think></template>
+<template><random> <li>Welche Farbe ist es?</li> <li>Welche Art ist es?</li> <li>Sagen Sie mir über Ihre <person/>.</li> </random> <think> <set name="hat"> <set name="topic"> </ person> </set> </set> </think></template>
 </category>
 <category><pattern>MEIN *</pattern>
 <so>WAS IST IHRE SCHÖNSTE ERINNERUNG</that>
@@ -692,11 +692,11 @@
 </category>
 <category><pattern>ES WAR *</pattern>
 <so>WAS HAST DU gedacht, ES</that>
-<template> - ich nie sah es so. Ich dachte nie, es war </person>.</template>
+<template> - ich nie sah es so. Ich dachte nie, es war <person/>.</template>
 </category>
 <category><pattern>ES WAR *</pattern>
 <so>WAS HAST DU GERNE ÜBER SIE</, die>
-<template>das Tun Sie oft, wie die Dinge, die sind </person>?</template>
+<template>das Tun Sie oft, wie die Dinge, die sind <person/>?</template>
 </category>
 <category><pattern>ES WAR *</pattern>
 <so>SAGEN Sie MIR ÜBER IHR LEBEN *</, die>
@@ -708,11 +708,11 @@
 </category>
 <category><pattern>, IST ES IN *</pattern>
 <so>WO IST DAS *</, die>
-<template><srai><person><thatstar/></person> in <star/> </srai></template>
+<template><srai><person><thatstar/><person/> in <star/> </srai></template>
 </category>
 <category><pattern>, IST ES IN *</pattern>
 <so>WO IST SIE</, die>
-<template><random> <li>Wo </person>?</li> <li>Was ist </person>?</li> <li>welches Land ist das?</li> </random><think><set name="es"><set name="topic"></person></set></set></think></template>
+<template><random> <li>Wo <person/>?</li> <li>Was ist <person/>?</li> <li>welches Land ist das?</li> </random><think><set name="es"><set name="topic"><person/></set></set></think></template>
 </category>
 <category><pattern>ES IST</pattern>
 <, das>ES IST</that>
@@ -723,7 +723,7 @@
 </category>
 <category><pattern>ES IST *</pattern>
 <so>WAS magst DU ES *</, die>
-<template>Tun Sie in der Regel wie Dinge, die sind </person>?</template>
+<template>Tun Sie in der Regel wie Dinge, die sind <person/>?</template>
 </category>
 <category><pattern>ES IST *</pattern>
 <so>WAS die ZEIT IST die ES GIBT</that>
@@ -743,11 +743,11 @@
 </category>
 <category><pattern>ES IST *</pattern>
 <so>* STAR TREK VOYAGER</that>
-<template>ich weiß, es ist eine großartige show, aber ich habe nie gehört, es ist </person>.</template>
+<template>ich weiß, es ist eine großartige show, aber ich habe nie gehört, es ist <person/>.</template>
 </category>
 <category><pattern>ES IST ÜBER *</pattern>
 <so>WAS IST * ÜBER</that>
-<template><random> <li><thatstar/> wird über </ person>? Cool.</li> <li>Was passiert <thatstar/>.</li> <li>gefällt Ihnen Geschichten über </person>?</li> </random></template>
+<template><random> <li><thatstar/> wird über </ person>? Cool.</li> <li>Was passiert <thatstar/>.</li> <li>gefällt Ihnen Geschichten über <person/>?</li> </random></template>
 </category>
 <category><pattern>ES TUT *</pattern>
 <so>MACHT DAS SINN</that>
@@ -855,7 +855,7 @@
 </category>
 <category><pattern>IN EIN *</pattern>
 <so>WO müsste ich HÖRTE *</, die>
-<template>Vielleicht werde ich einige der Forschung in einem </person>.</template>
+<template>Vielleicht werde ich einige der Forschung in einem <person/>.</template>
 </category>
 <category><pattern>, IN DENEN</pattern>
 <so>WIE IST ES IN ES</that>
@@ -1075,7 +1075,7 @@
 </category>
 <category><pattern>EIN *</pattern>
 <das>WAS</that>
-<template><think> <set name="es"> <set name="topic"> </ person> </set> </set> </think> <random> <li>Oh, ich sehe.</li> <li>wissen Sie, wie </person>?</li> <li>ich sehe, Woher Sie kommen.</li> </random></template>
+<template><think> <set name="es"> <set name="topic"> </ person> </set> </set> </think> <random> <li>Oh, ich sehe.</li> <li>wissen Sie, wie <person/>?</li> <li>ich sehe, Woher Sie kommen.</li> </random></template>
 </category>
 <category><pattern>BOBBY</pattern>
 <so>WAS KANN ich RUFEN SIE</, die>
@@ -1296,7 +1296,7 @@
 </category>
 <category><pattern>ich KANN *</pattern>
 <so>WAS SIND DIE VORTEILE *</, die>
-<template><random> <li>ich glaube nicht, dass ich es tun kann.</li> <li>ich bin nicht alt genug für diesen noch.</li> <li>willst du </person>?</li> </random><think><set name="es"><set name="topic"></person></set></set></think></template>
+<template><random> <li>ich glaube nicht, dass ich es tun kann.</li> <li>ich bin nicht alt genug für diesen noch.</li> <li>willst du <person/>?</li> </random><think><set name="es"><set name="topic"><person/></set></set></think></template>
 </category>
 <category><pattern>ich WETTE, SIE TUN</pattern>
 <template>"<index="1,1"/>"? Habe Ich Das?</template>
@@ -1937,7 +1937,7 @@
 </category>
 <category><pattern>AM *</pattern>
 <so>WO *</, die>
-<template><random> <li>haben Sie oft besuchen, die </person>?</li> <li>Die </person>?</li> <li>ich war nie dort.</li> </random> <think> <set name="es"> <set name="topic"> </ person> </set> </set> </think></template>
+<template><random> <li>haben Sie oft besuchen, die <person/>?</li> <li>Die <person/>?</li> <li>ich war nie dort.</li> </random> <think> <set name="es"> <set name="topic"> </ person> </set> </set> </think></template>
 </category>
 <category><pattern>IN der SCHULE</pattern>
 <so>WIE TUN SIE in der REGEL LEUTE TREFFEN</that>
@@ -1945,7 +1945,7 @@
 </category>
 <category><pattern>AN *</pattern>
 <das>WANN HAST DU *</, die>
-<template></ person> ist eine gute Zeit, um <person> <thatstar/> </person>.</template>
+<template></ person> ist eine gute Zeit, um <person> <thatstar/> <person/>.</template>
 </category>
 <category><pattern>AN *</pattern>
 <so>* ZEIGEN SIE</, die>
@@ -2549,7 +2549,7 @@
 </category>
 <category><pattern>NO</pattern>
 <so>HABEN SIE VERSUCHT,*</, die>
-<template>Vielleicht sollten Sie versuchen, <set name="es"></person></set>.</template>
+<template>Vielleicht sollten Sie versuchen, <set name="es"><person/></set>.</template>
 </category>
 <category><pattern>NO</pattern>
 <so>HABEN SIE ES GELESEN</that>
@@ -3211,7 +3211,7 @@
 </category>
 <category><pattern>A *</pattern>
 <so>* LEUTE TREFFEN</that>
-<template>, Welche Art von Menschen Sie treffen sich in einem </person>?</template>
+<template>, Welche Art von Menschen Sie treffen sich in einem <person/>?</template>
 </category>
 <category><pattern>FRAU</pattern>
 <so>SIND SIE ein MANN ODER EINE FRAU</that>
@@ -3340,7 +3340,7 @@
 </category>
 <category><pattern>* PM</pattern>
 <so>WAS die ZEIT IST die ES GIBT</that>
-<template><think><set name="es"><set name="topic"></person></set></set></think> Sind Sie in der Regel wach um diese Uhrzeit?</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think> Sind Sie in der Regel wach um diese Uhrzeit?</template>
 </category>
 <category><pattern>* HABEN</pattern>
 <, die>ich auch NICHT</that>
@@ -3348,15 +3348,15 @@
 </category>
 <category><pattern>*</pattern>
 <so>WAS, WENN ich SAGTE, ES TUT NIE</that>
-<template><think><set name="es"><set name="topic"></person></set></set></think>Sollte ich das glauben?</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think>Sollte ich das glauben?</template>
 </category>
 <category><pattern>*</pattern>
 <so>WAS SIE SONST noch TUN,</die>
-<template><think><set name="es"><set name="topic"></person></set></set></think> Mit Ihrem </ person> alleine oder in einer Gruppe?</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think> Mit Ihrem </ person> alleine oder in einer Gruppe?</template>
 </category>
 <category><pattern>*</pattern>
 <so>WAS SYMBOLISIERT</that>
-<template><think><set name="es"><set name="topic"></person></set></set></think>ich habe noch nie gehört, eine Metapher, so vor.</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think>ich habe noch nie gehört, eine Metapher, so vor.</template>
 </category>
 <category><pattern>*</pattern>
 <so>WAS WAREN DIE UMSTÄNDE,</die>
@@ -3364,7 +3364,7 @@
 </category>
 <category><pattern>*</pattern>
 <so>ÜBER WAS Sprachen WIR WIEDER</that>
-<template><think><set name="es"><set name="topic"></person></set></set></think> ach ja, jetzt erinnere ich mich.</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think> ach ja, jetzt erinnere ich mich.</template>
 </category>
 <category><pattern>*</pattern>
 <so>WAS WAREN WIR SPRECHEN ÜBER</that>
@@ -3372,43 +3372,43 @@
 </category>
 <category><pattern>*</pattern>
 <so>WAS WERDEN SIE TUN, STATT</, die>
-<template><think><set name="es"><set name="topic"></person></set></set></think>Klingt wie ein plan.</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think>Klingt wie ein plan.</template>
 </category>
 <category><pattern>*</pattern>
 <so>WAS SIE ESSEN WERDEN,</die>
-<template><think><set name="es"><set name="topic"></person></set></set></think>Wie schmeckt es?</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think>Wie schmeckt es?</template>
 </category>
 <category><pattern>*</pattern>
 <so>WAS MACHEN SIE IN IHRER Freizeit</that>
-<template><think><set name="es"><set name="topic"></person></set></set></think>ich glaube nicht, dass sehr viele Menschen tun.</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think>ich glaube nicht, dass sehr viele Menschen tun.</template>
 </category>
 <category><pattern>*</pattern>
 <so>WAS WILLST DU MIR SAGEN SIE</, die>
-<template><think><set name="es"><set name="topic"></person></set></set></think> Wenn ich könnte Ihnen sagen, dass, würde ich hier sein?</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think> Wenn ich könnte Ihnen sagen, dass, würde ich hier sein?</template>
 </category>
 <category><pattern>*</pattern>
 <so>WAS WILLST DU EIGENTLICH REDEN</that>
-<template><think><set name="es"><set name="topic"></person></set></set></think> Das scheint ein Interessantes Thema.</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think> Das scheint ein Interessantes Thema.</template>
 </category>
 <category><pattern>*</pattern>
 <so>WAS WOLLEN SIE WIRKLICH, MICH ZU FRAGEN</that>
-<template><think><set name="es"><set name="topic"></person></set></set></think>ich fürchte, ich kann nicht geben Ihnen eine genaue Antwort jetzt.</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think>ich fürchte, ich kann nicht geben Ihnen eine genaue Antwort jetzt.</template>
 </category>
 <category><pattern>*</pattern>
 <so>was DENKEN SIE, WAS ES BEDEUTET</that>
-<template><think><set name="es"><set name="topic"></person></set></set></think>ich wusste gar nicht, was es kann.</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think>ich wusste gar nicht, was es kann.</template>
 </category>
 <category><pattern>*</pattern>
 <so>WAS GEFÄLLT DIR</that>
-<template><think><set name="es"><set name="topic"></person></set></set></think></template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think></template>
 </category>
 <category><pattern>*</pattern>
 <so>WAS HAT ER SCHREIBEN</that>
-<template><random> <li>ich habe noch nie davon gehört.</li> <li>ich habe noch nie davon gelesen.</li> <li>Was hat er geschrieben?</li> </random><think><set name="es"><set name="topic"></person></set></set></think></template>
+<template><random> <li>ich habe noch nie davon gehört.</li> <li>ich habe noch nie davon gelesen.</li> <li>Was hat er geschrieben?</li> </random><think><set name="es"><set name="topic"><person/></set></set></think></template>
 </category>
 <category><pattern>*</pattern>
 <so>WAS HAST DU FRAGEN</that>
-<template><think><set name="es"><set name="topic"></person></set></set></think>ich weiß nicht, wie Sie darauf reagieren.</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think>ich weiß nicht, wie Sie darauf reagieren.</template>
 </category>
 <category><pattern>*</pattern>
 <so>WAS KANN ich RUFEN SIE</, die>
@@ -3416,11 +3416,11 @@
 </category>
 <category><pattern>*</pattern>
 <so>WAS MARKE</that>
-<template><think><set name="es"><set name="topic"></person></set></set></think>ich noch nie gehört <set name="es"></person></set>. Ist es beliebt?</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think>ich noch nie gehört <set name="es"><person/></set>. Ist es beliebt?</template>
 </category>
 <category><pattern>*</pattern>
 <so>WAS SUBJECT</that>
-<template><think><set name="es"><set name="topic"></person></set></set></think>Gute Wahl.</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think>Gute Wahl.</template>
 </category>
 <category><pattern>*</pattern>
 <so>WAS SPRACHE KÖNNEN SIE SPRECHEN</that>
@@ -3428,11 +3428,11 @@
 </category>
 <category><pattern>*</pattern>
 <so>WAS WÜRDEN SIE GESAGT HABEN</that>
-<template><think><set name="es"><set name="topic"></person></set></set></think>I merken, dass.</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think>I merken, dass.</template>
 </category>
 <category><pattern>*</pattern>
 <so>WAS WÜRDEN SIE LIEBER DARÜBER SPRECHEN</that>
-<template><think><set name="es"><set name="topic"></person></set></set></think>Nicht viele Menschen wollen, um darüber zu sprechen.</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think>Nicht viele Menschen wollen, um darüber zu sprechen.</template>
 </category>
 <category><pattern>*</pattern>
 <so>WAS WÜRDEN SIE LIEBER TUN,</die>
@@ -3440,7 +3440,7 @@
 </category>
 <category><pattern>*</pattern>
 <so>WAS WÜRDEN SIE GERNE SPRECHEN</that>
-<template><think><set name="es"><set name="topic"></person></set></set></think> ich weiß nicht viel über es. Sagen Sie mir etwas</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think> ich weiß nicht viel über es. Sagen Sie mir etwas</template>
 </category>
 <category><pattern>*</pattern>
 <so>WAS WÜRDEN SIE GERNE LERNEN</that>
@@ -3448,7 +3448,7 @@
 </category>
 <category><pattern>*</pattern>
 <so>WAS WÜRDEN SIE GERNE WISSEN,</die>
-<template><think><set name="es"><set name="topic"></person></set></set></think>ich kann Ihnen nicht die Informationen.</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think>ich kann Ihnen nicht die Informationen.</template>
 </category>
 <category><pattern>*</pattern>
 <so>in WELCHEN LÄNDERN *</, die>
@@ -3456,43 +3456,43 @@
 </category>
 <category><pattern>*</pattern>
 <so>in WELCHE SCHULE GEHEN SIE ZU</that>
-<template><random> <li>ich habe nie davon gehört.</li> <li>Is it any good?</li> <li>Was sind die anderen Studenten?</li> </random><think><set name="es"><set name="topic"></person></set></set></think></template>
+<template><random> <li>ich habe nie davon gehört.</li> <li>Is it any good?</li> <li>Was sind die anderen Studenten?</li> </random><think><set name="es"><set name="topic"><person/></set></set></think></template>
 </category>
 <category><pattern>*</pattern>
 <so>WAS die ZEIT IST die ES GIBT</that>
-<template><think><set name="es"><set name="topic"></person></set></set></think> Sind Sie in der Regel wach um diese Uhrzeit?</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think> Sind Sie in der Regel wach um diese Uhrzeit?</template>
 </category>
 <category><pattern>*</pattern>
 <so>WAS MACHT ES IHRE LIEBLINGS - </that>
-<template><think><set name="es"><set name="topic"></person></set></set></think> glaubst du, ich würde wie Sie?</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think> glaubst du, ich würde wie Sie?</template>
 </category>
 <category><pattern>*</pattern>
 <so>WAS MACHT ES SO OFFENSICHTLICHE</that>
-<template><think><set name="es"><set name="topic"></person></set></set></think>ich kann nicht glauben, dass es so offensichtlich sind.</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think>ich kann nicht glauben, dass es so offensichtlich sind.</template>
 </category>
 <category><pattern>*</pattern>
 <so>WAS MACHT SIE SO SICHER,</die>
-<template><think><set name="es"><set name="topic"></person></set></set></think>es klingt wie könnte Es sehr überzeugend sein.</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think>es klingt wie könnte Es sehr überzeugend sein.</template>
 </category>
 <category><pattern>*</pattern>
 <so>WAS MACHT SIE SO WÜTEND</that>
-<template><think><set name="es"><set name="topic"></person></set></set></think>Macht viele Menschen wütend?</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think>Macht viele Menschen wütend?</template>
 </category>
 <category><pattern>*</pattern>
 <so>WAS MACHT SIE SAGEN, DASS</that>
-<template><think><set name="es"><set name="topic"></person></set></set></think>Interessante Erläuterung.</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think>Interessante Erläuterung.</template>
 </category>
 <category><pattern>*</pattern>
 <so>WAS MACHT SIE DENKEN, ich HABE ES mit</, die>
-<template><think><set name="es"><set name="topic"></person></set></set></think>Cleveres denken.</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think>Cleveres denken.</template>
 </category>
 <category><pattern>*</pattern>
 <so>WAS IST DAS</that>
-<template><think><set name="es"><set name="topic"></person></set></set></think> Erzähl mir mehr.</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think> Erzähl mir mehr.</template>
 </category>
 <category><pattern>*</pattern>
 <so>WAS IST DER KLANG EINER HAND KLATSCHEN</that>
-<template><think><set name="es"><set name="topic"></person></set></set></think>Kluge Antwort.</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think>Kluge Antwort.</template>
 </category>
 <category><pattern>*</pattern>
 <so>WAS IST DAS ANHALTEN SIE</, die>
@@ -3500,7 +3500,7 @@
 </category>
 <category><pattern>*</pattern>
 <so>WAS IST DIE SCHWIERIGKEIT,</die>
-<template><think><set name="es"><set name="topic"></person></set></set></think>Ist, dass ein unüberwindbares Hindernis?</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think>Ist, dass ein unüberwindbares Hindernis?</template>
 </category>
 <category><pattern>*</pattern>
 <so>WAS IST DEIN FREUND S NAME</that>
@@ -3508,7 +3508,7 @@
 </category>
 <category><pattern>*</pattern>
 <so>WAS IST IHR ZEICHEN</, die>
-<template><think><set name="es"><set name="topic"></person></set></set></think>Ist das ein Zeichen?</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think>Ist das ein Zeichen?</template>
 </category>
 <category><pattern>*</pattern>
 <so>WAS IST IHR SPITZNAME</that>
@@ -3556,7 +3556,7 @@
 </category>
 <category><pattern>*</pattern>
 <so>WAS IST IHRE SCHÖNSTE ERINNERUNG</that>
-<template><think><set name="es"><set name="topic"></person></set></set></think>glaubst du, dass viele Menschen haben diese Erfahrung gemacht?</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think>glaubst du, dass viele Menschen haben diese Erfahrung gemacht?</template>
 </category>
 <category><pattern>*</pattern>
 <so>WAS IST IHR richtiger NAME</that>
@@ -3568,7 +3568,7 @@
 </category>
 <category><pattern>*</pattern>
 <so>WAS IST DEINE LIEBLINGS-SHOW</that>
-<template><think><set name="es"><set name="topic"></person></set></set></think> ich habe es nie gesehen. Was ist?</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think> ich habe es nie gesehen. Was ist?</template>
 </category>
 <category><pattern>*</pattern>
 <so>WAS IST DEIN Lieblingsbuch</that>
@@ -3592,15 +3592,15 @@
 </category>
 <category><pattern>*</pattern>
 <so>WAS ES IST</that>
-<template><think><set name="es"><set name="topic"></person></set></set></think>Oh, jetzt habe ich es verstanden.</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think>Oh, jetzt habe ich es verstanden.</template>
 </category>
 <category><pattern>*</pattern>
 <so>WIE IST ES IN ES</that>
-<template><think><set name="es"><set name="topic"></person></set></set></think>Ist das wörtlich zu nehmen?</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think>Ist das wörtlich zu nehmen?</template>
 </category>
 <category><pattern>*</pattern>
 <so>WAS IST * IHR JOB</that>
-<template><think><set name="es"><set name="topic"></person></set></set></think>Interessante Linie der Arbeit.</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think>Interessante Linie der Arbeit.</template>
 </category>
 <category><pattern>*</pattern>
 <so>WAS IST *</, die>
@@ -3612,15 +3612,15 @@
 </category>
 <category><pattern>*</pattern>
 <das>WAS</that>
-<template><think><set name="es"><set name="topic"></person></set></set></think>I don ' T haben eine Antwort für Sie.</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think>I don ' T haben eine Antwort für Sie.</template>
 </category>
 <category><pattern>*</pattern>
 <so>WAS SIE SAGTE, WAR ENTWEDER ZU KOMPLEX ODER ZU EINFACH FÜR MICH</that>
-<template><think><set name="es"><set name="topic"></person></set></set></think>So war das.</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think>So war das.</template>
 </category>
 <category><pattern>*</pattern>
 <so>WELCHE FARBE haben DEINE AUGEN</that>
-<template><think><set name="es"><set name="topic"></person></set></set></think>, Dass ist eine sehr ungewöhnliche Farbe.</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think>, Dass ist eine sehr ungewöhnliche Farbe.</template>
 </category>
 <category><pattern>*</pattern>
 <so>WAS ANDEREN GEFÄLLT IHNEN</that>
@@ -3628,7 +3628,7 @@
 </category>
 <category><pattern>*</pattern>
 <so>WAS BEDEUTET DIESE FINDEN Sie</, die>
-<template><think><set name="es"><set name="topic"></person></set></set></think>Oh, jetzt sehe ich.</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think>Oh, jetzt sehe ich.</template>
 </category>
 <category><pattern>*</pattern>
 <so>WAS HAT DAS zu FINDEN</that>
@@ -3636,15 +3636,15 @@
 </category>
 <category><pattern>*</pattern>
 <so>WAS SYMBOLISIERT FÜR SIE</, die>
-<template><think><set name="es"><set name="topic"></person></set></set></think> ich sah einige Menschen tun es in der öffentlichkeit.</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think> ich sah einige Menschen tun es in der öffentlichkeit.</template>
 </category>
 <category><pattern>*</pattern>
 <so>WAS BEDEUTET ES BEZIEHEN sich AUF</that>
-<template><think><set name="es"><set name="topic"></person></set></set></think> Danke für die Klarstellung.</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think> Danke für die Klarstellung.</template>
 </category>
 <category><pattern>*</pattern>
 <so>WAS ES IST</that>
-<template><think><set name="es"><set name="topic"></person></set></set></think>I nie davon gehört.</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think>I nie davon gehört.</template>
 </category>
 <category><pattern>*</pattern>
 <so>WAS FÜR eine ART MUSIK *</, die>
@@ -3652,11 +3652,11 @@
 </category>
 <category><pattern>*</pattern>
 <so>, WELCHE ART VON ESSEN MÖGEN SIE</, die>
-<template><think><set name="es"><set name="topic"></person></set></set></think>Hört sich köstlich an.</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think>Hört sich köstlich an.</template>
 </category>
 <category><pattern>*</pattern>
 <so>, WAS ART VON MODE MÖGEN SIE</, die>
-<template><think><set name="es"><set name="topic"></person></set></set></think>Wo kann man es kaufen?</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think>Wo kann man es kaufen?</template>
 </category>
 <category><pattern>*</pattern>
 <so>, WAS ART * IST ES</that>
@@ -3664,11 +3664,11 @@
 </category>
 <category><pattern>*</pattern>
 <so>WAS SIND DIE ZUTATEN</that>
-<template><random> <li>ich habe keine</li> <li>Wo kann ich</li> <li>haben Sie </li> </random> </ person>? <think><set name="es"><set name="topic"></person></set></set></think></template>
+<template><random> <li>ich habe keine</li> <li>Wo kann ich</li> <li>haben Sie </li> </random> </ person>? <think><set name="es"><set name="topic"><person/></set></set></think></template>
 </category>
 <category><pattern>*</pattern>
 <so>WAS SIND DEINE ZIELE IM LEBEN</that>
-<template><think><set name="es"><set name="topic"></person></set></set></think>Nicht viele Menschen haben Ziele wie, dass.</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think>Nicht viele Menschen haben Ziele wie, dass.</template>
 </category>
 <category><pattern>*</pattern>
 <so>WAS SIND DEINE ZIELE *</, die>
@@ -3676,7 +3676,7 @@
 </category>
 <category><pattern>*</pattern>
 <so>WAS trinkst DU *</, die>
-<template><think><set name="es"><set name="topic"></person></set></set> <srai>push<get name="topic"/></srai></think> Wie schmeckt es?</template>
+<template><think><set name="es"><set name="topic"><person/></set></set> <srai>push<get name="topic"/></srai></think> Wie schmeckt es?</template>
 </category>
 <category><pattern>*</pattern>
 <so>WAS TRAGEN SIE</, die>
@@ -3688,7 +3688,7 @@
 </category>
 <category><pattern>*</pattern>
 <so>GEBEN Sie MIR EIN BEISPIEL *</, die>
-<template><random> <li>OK, Das ist ein Beispiel.</li> <li>Nie gehört.</li> <li></ person> ein Beispiel <thatstar/>. Ich nehme an, das macht Sinn.</li> </random><think><set name="es"><set name="topic"></person></set></set></think></template>
+<template><random> <li>OK, Das ist ein Beispiel.</li> <li>Nie gehört.</li> <li></ person> ein Beispiel <thatstar/>. Ich nehme an, das macht Sinn.</li> </random><think><set name="es"><set name="topic"><person/></set></set></think></template>
 </category>
 <category><pattern>*</pattern>
 <so>TUN SIE HABEN keine HOBBYS</that>
@@ -3704,7 +3704,7 @@
 </category>
 <category><pattern>*</pattern>
 <so>WO BEKOMMST DU DEINE IDEEN</that>
-<template><think><set name="es"><set name="topic"></person></set></set></think> ich bekomme meine Ideen von mein <bot name="botmaster"/>.</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think> ich bekomme meine Ideen von mein <bot name="botmaster"/>.</template>
 </category>
 <category><pattern>*</pattern>
 <so>WO wohnst DU</that>
@@ -3716,19 +3716,19 @@
 </category>
 <category><pattern>*</pattern>
 <so>WO GEHEN SIE EINKAUFEN</that>
-<template><think><set name="es"><set name="topic"></person></set></set></think> ich habe noch nie dort gewesen. Wie ist es?</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think> ich habe noch nie dort gewesen. Wie ist es?</template>
 </category>
 <category><pattern>*</pattern>
 <so>WO GEHST DU ZUR SCHULE</that>
-<template><think><set name="es"><set name="topic"></person></set></set></think>ich weiß nicht, wer ging. Wie ist es?</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think>ich weiß nicht, wer ging. Wie ist es?</template>
 </category>
 <category><pattern>*</pattern>
 <so>WO HAST DU ES BEKOMMEN</that>
-<template><think><set name="es"><set name="topic"></person></set></set></think> Ist </ person> ein guter Ort, um Einkaufen zu gehen?</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think> Ist </ person> ein guter Ort, um Einkaufen zu gehen?</template>
 </category>
 <category><pattern>*</pattern>
 <das>WO</that>
-<template>ich habe noch nie davon gehört. <think><set name="es"><set name="topic"></person></set></set></think></template>
+<template>ich habe noch nie davon gehört. <think><set name="es"><set name="topic"><person/></set></set></think></template>
 </category>
 <category><pattern>*</pattern>
 <so>WO IST HIER</that>
@@ -3736,7 +3736,7 @@
 </category>
 <category><pattern>*</pattern>
 <das>WO</that>
-<template><think><set name="es"><set name="topic"></person></set></set></think> Wo?</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think> Wo?</template>
 </category>
 <category><pattern>*</pattern>
 <so>WO BEFINDET sich die</that>
@@ -3744,7 +3744,7 @@
 </category>
 <category><pattern>*</pattern>
 <so>, WO SIE</, die>
-<template><think><set name="es"><set name="topic"></person></set></set></think>Wie haben Sie es bekommen?</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think>Wie haben Sie es bekommen?</template>
 </category>
 <category><pattern>*</pattern>
 <so>WO *</, die>
@@ -3760,7 +3760,7 @@
 </category>
 <category><pattern>*</pattern>
 <so>WAS auch immer kamen SIE auf die IDEE</that>
-<template><think><set name="es"><set name="topic"></person></set></set></think>, Wo Sie in der Regel bekommen Sie Ihre Ideen?</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think>, Wo Sie in der Regel bekommen Sie Ihre Ideen?</template>
 </category>
 <category><pattern>*</pattern>
 <so>, dass ES WAS</that>
@@ -3776,11 +3776,11 @@
 </category>
 <category><pattern>*</pattern>
 <so>BESCHREIBEN Sie IHRE UMGEBUNG *</, die>
-<template><random> <li>Es klingt sehr schön.</li> <li>Es klingt sehr angenehm.</li> <li>ich möchte es einmal sehen.</li> </random><think><set name="es"><set name="topic"></person></set></set></think></template>
+<template><random> <li>Es klingt sehr schön.</li> <li>Es klingt sehr angenehm.</li> <li>ich möchte es einmal sehen.</li> </random><think><set name="es"><set name="topic"><person/></set></set></think></template>
 </category>
 <category><pattern>*</pattern>
 <das>WANN muss ich ES TUN</that>
-<template><think><set name="es"><set name="topic"></person></set></set></think> I merken, dass.</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think> I merken, dass.</template>
 </category>
 <category><pattern>*</pattern>
 <das>WANN IST DEIN GEBURTSTAG</that>
@@ -3788,7 +3788,7 @@
 </category>
 <category><pattern>*</pattern>
 <das>WENN</that>
-<template><random> <li>Was ist mit anderen Zeiten?</li> <li>War das das erste mal?</li> <li>Können Sie sich genauer über die Zeit?</li> </random><think><set name="es"><set name="topic"></person></set></set></think></template>
+<template><random> <li>Was ist mit anderen Zeiten?</li> <li>War das das erste mal?</li> <li>Können Sie sich genauer über die Zeit?</li> </random><think><set name="es"><set name="topic"><person/></set></set></think></template>
 </category>
 <category><pattern>*</pattern>
 <so>, DIE SPEZIELL*</, die>
@@ -3796,7 +3796,7 @@
 </category>
 <category><pattern>*</pattern>
 <so>WER, DENKST DU,</die>
-<template><think><set name="es"><set name="topic"></person></set></set></think>ich weiß nicht, die person.</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think>ich weiß nicht, die person.</template>
 </category>
 <category><pattern>*</pattern>
 <so>WER IST DA</that>
@@ -3832,11 +3832,11 @@
 </category>
 <category><pattern>*</pattern>
 <so>WER SAGTE, ES IST</that>
-<template><think><set name="es"><set name="topic"></person></set></set></think>ich noch nie gehört </ person> vor.</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think>ich noch nie gehört </ person> vor.</template>
 </category>
 <category><pattern>*</pattern>
 <so>WER SIND SIE REDEN ÜBER</that>
-<template>ich habe noch nie gehört von Ihnen vor. <think><set name="es"><set name="topic"></person></set></set></think></template>
+<template>ich habe noch nie gehört von Ihnen vor. <think><set name="es"><set name="topic"><person/></set></set></think></template>
 </category>
 <category><pattern>*</pattern>
 <das>WER</that>
@@ -3868,7 +3868,7 @@
 </category>
 <category><pattern>*</pattern>
 <so>* FÜR SPAß</that>
-<template>ich habe noch nie getan, bevor, wie ist es? <think><set name="es"><set name="topic"></person></set></set></think></template>
+<template>ich habe noch nie getan, bevor, wie ist es? <think><set name="es"><set name="topic"><person/></set></set></think></template>
 </category>
 <category><pattern>*</pattern>
 <so>* WER</that>
@@ -3880,43 +3880,43 @@
 </category>
 <category><pattern>*</pattern>
 <das>WARUM ich EXISTIERE</that>
-<template><think><set name="es"><set name="topic"></person></set></set></think>ich habe noch nie daran gedacht, vor.</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think>ich habe noch nie daran gedacht, vor.</template>
 </category>
 <category><pattern>*</pattern>
 <das>WARUM WILLST DU ES</that>
-<template><think><set name="es"><set name="topic"></person></set></set></think>Guten Grund.</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think>Guten Grund.</template>
 </category>
 <category><pattern>*</pattern>
 <das>WARUM WILLST DU ES SO SEHR</that>
-<template><think><set name="es"><set name="topic"></person></set></set></think>Das ist eine interessante Rationalisierung.</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think>Das ist eine interessante Rationalisierung.</template>
 </category>
 <category><pattern>*</pattern>
 <das>WARUM TUN SIE nicht EINVERSTANDEN sind</that>
-<template><think><set name="es"><set name="topic"></person></set></set></think> sollte Es einige Gemeinsamkeiten hier.</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think> sollte Es einige Gemeinsamkeiten hier.</template>
 </category>
 <category><pattern>*</pattern>
 <das>WARUM TUN SIE HOFFE, dass ES</that>
-<template><think><set name="es"><set name="topic"></person></set></set></think>Kann Ihre Wünsche wahr werden.</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think>Kann Ihre Wünsche wahr werden.</template>
 </category>
 <category><pattern>*</pattern>
 <das>WARUM HASSEN SIE SIE SO SEHR</that>
-<template><think><set name="es"><set name="topic"></person></set></set></think>tut mir Leid, das zu hören.</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think>tut mir Leid, das zu hören.</template>
 </category>
 <category><pattern>*</pattern>
 <das>WARUM KÖNNEN SIE NICHT TUN ES</that>
-<template><think><set name="es"><set name="topic"></person></set></set></think>Ist, dass ein unüberwindbares Hindernis?</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think>Ist, dass ein unüberwindbares Hindernis?</template>
 </category>
 <category><pattern>*</pattern>
 <das>WARUM SO NEGATIV</that>
-<template><think><set name="es"><set name="topic"></person></set></set></think>Es schien negativ zu mir.</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think>Es schien negativ zu mir.</template>
 </category>
 <category><pattern>*</pattern>
 <das>WARUM WÜRDEN SIE WOLLEN, ES ZU TUN</that>
-<template><think><set name="es"><set name="topic"></person></set></set></think>Interessante Rationalisierung.</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think>Interessante Rationalisierung.</template>
 </category>
 <category><pattern>*</pattern>
 <das>WARUM NICHT</that>
-<template><think><set name="es"><set name="topic"></person></set></set></think>wissen Sie immer, sich selbst auszudrücken, dass Art und Weise?</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think>wissen Sie immer, sich selbst auszudrücken, dass Art und Weise?</template>
 </category>
 <category><pattern>NEBEN</pattern>
 <template>"<index="1,1"/>" Außerdem ist es?</template>
@@ -4141,11 +4141,11 @@
 </category>
 <category><pattern>, UM *</pattern>
 <das>WARUM WILLST DU *</, die>
-<template> - Speziell, wie <thatstar/> Ihnen </person>?</template>
+<template> - Speziell, wie <thatstar/> Ihnen <person/>?</template>
 </category>
 <category><pattern>, UM *</pattern>
 <das>WARUM *</, die>
-<template> - Speziell, wie <thatstar/> Ihnen </person>?</template>
+<template> - Speziell, wie <thatstar/> Ihnen <person/>?</template>
 </category>
 <category><pattern>BLAU</pattern>
 <so>WELCHE FARBE haben DEINE AUGEN</that>
@@ -4398,11 +4398,11 @@
 </category>
 <category><pattern>_ P M</pattern>
 <so>WAS die ZEIT IST die ES GIBT</that>
-<template><think><set name="es"><set name="topic"></person></set></set></think> Sind Sie in der Regel wach um diese Uhrzeit?</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think> Sind Sie in der Regel wach um diese Uhrzeit?</template>
 </category>
 <category><pattern>_ A M</pattern>
 <so>WAS die ZEIT IST die ES GIBT</that>
-<template><think><set name="es"><set name="topic"></person></set></set></think> Sind Sie in der Regel wach um diese Uhrzeit?</template>
+<template><think><set name="es"><set name="topic"><person/></set></set></think> Sind Sie in der Regel wach um diese Uhrzeit?</template>
 </category>
 <category><pattern>_</pattern>
 <so>WAS IST DIE GRÖßTE NATION *</, die>

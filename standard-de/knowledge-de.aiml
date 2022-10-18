@@ -1601,8 +1601,8 @@
 </category>
 <category><pattern>, WAS ZUERST KAM - * ODER *</pattern>
 <template>
-<random><li></person></li>
-<li><person><star index="2"/></person></li>
+<random><li><person/></li>
+<li><person><star index="2"/><person/></li>
 <li>Keine.</li>
 </random>
 </template>

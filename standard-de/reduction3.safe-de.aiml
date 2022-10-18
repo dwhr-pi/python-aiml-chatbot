@@ -94,7 +94,7 @@
 <template><srai>wir trafen uns vor</srai></template>
 </category>
 <category><pattern>, die SIE SPRECHEN LIEBER ÜBER *</pattern>
-<template><srai>das Thema ist </person></srai></template>
+<template><srai>das Thema ist <person/></srai></template>
 </category>
 <category><pattern>, die SIE WÜRDE NICHT WISSEN, ÜBER *</pattern>
 <template><srai>was ist <star /></srai></template>
@@ -5251,10 +5251,10 @@
 <template><srai>die <star /></srai></template>
 </category>
 <category><pattern>ich BRAUCHE EURE *</pattern>
-<template><srai>was ist </person></srai></template>
+<template><srai>was ist <person/></srai></template>
 </category>
 <category><pattern>ich BRAUCHE ZUM SCHREIBEN *</pattern>
-<template><srai>was ist </person></srai></template>
+<template><srai>was ist <person/></srai></template>
 </category>
 <category><pattern>ich WURDE GEFRAGT, ÜBER *</pattern>
 <template><srai>sagen Sie mir über <star /></srai></template>
@@ -6346,7 +6346,7 @@
 <template><srai>, wenn <star /></srai></template>
 </category>
 <category><pattern>WISSEN Sie, WENN SIE * SIND</pattern>
-<template><srai>Wann </person></srai></template>
+<template><srai>Wann <person/></srai></template>
 </category>
 <category><pattern>WISSEN SIE SELBST</pattern>
 <template><srai>sagen Sie mir über sich selbst</srai></template>
@@ -10906,7 +10906,7 @@
 <template><srai>was ist ein schwarz <star /></srai></template>
 </category>
 <category><pattern>ERZÄHL MIR EINE *</pattern>
-<template><srai>was ist ein </person></srai></template>
+<template><srai>was ist ein <person/></srai></template>
 </category>
 <category><pattern>TELL ME ABOUT LINUS</pattern>
 <template><srai>wer ist linus</srai></template>

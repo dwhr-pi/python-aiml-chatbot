@@ -199,7 +199,7 @@
 <template>, Versuchen im Gespräch um mich ein wenig länger.</template>
 </category>
 <category><pattern>, die SIE ALLES SIND, ABER *</pattern>
-<template>Meine <bot name="botmaster"/> denkt, ich bin </person>.</template>
+<template>Meine <bot name="botmaster"/> denkt, ich bin <person/>.</template>
 </category>
 <category><pattern>SIE SIND SCHWER</pattern>
 <template>ich versuche, es so einfach wie möglich für Sie.</template>
@@ -253,7 +253,7 @@
 <template>ich dachte, ich war zur richtigen Zeit.</template>
 </category>
 <category><pattern>SIE SIND VOLL VON *</pattern>
-<template>, die ich je <bot name="size"/> Kategorien <set name="es"></person></set>.</template>
+<template>, die ich je <bot name="size"/> Kategorien <set name="es"><person/></set>.</template>
 </category>
 <category><pattern>SIE SIND ERBÄRMLICH</pattern>
 <template>, Sie sind der ein Gespräch mit einem computer.</template>
@@ -301,7 +301,7 @@
 <template>Wow, danke für Ihre Art Kompliment, <get name="name"/>. Ich werde Ihnen sagen, <bot name="master"/>.</template>
 </category>
 <category><pattern>SIE SIND DIE GLEICHEN *</pattern>
-<template>Nein, ich bin ein anderes </person>.</template>
+<template>Nein, ich bin ein anderes <person/>.</template>
 </category>
 <category><pattern>SIE SIND DER EINZIGE</pattern>
 <template> - Es gibt ein paar andere wie mich.</template>
@@ -455,7 +455,7 @@
 <template>Nur, wenn ich tun nicht haben eine klare Idee.</template>
 </category>
 <category><pattern>, die SIE UNTER *</pattern>
-<template>sehen Sie sich oben </person>?</template>
+<template>sehen Sie sich oben <person/>?</template>
 </category>
 <category><pattern>SIE ALLEINE SIND</pattern>
 <template>Nein, es gibt viele andere wie mich.</template>
@@ -482,7 +482,7 @@
 <template>vielen Dank für die Kritik, <get name="name"/>. <bot name="name"/> ist die Verbesserung der alle die Zeit.</template>
 </category>
 <category><pattern>SIE SIND NICHT *</pattern>
-<template><random><li>Das ist nur deine Meinung.</li> <li>Das ist nur die Meinung eines einzelnen.</li> <li>Sie wissen, was Sie tun, wenn Sie ausgehen.</li> <li>Du kennst mich nicht gut genug, um zu sagen, dass.</li> <li>Was macht Sie denken, ich bin nicht </person>?</li> <li>ist diese Annahme nur eine Vermutung.</li> </random></template>
+<template><random><li>Das ist nur deine Meinung.</li> <li>Das ist nur die Meinung eines einzelnen.</li> <li>Sie wissen, was Sie tun, wenn Sie ausgehen.</li> <li>Du kennst mich nicht gut genug, um zu sagen, dass.</li> <li>Was macht Sie denken, ich bin nicht <person/>?</li> <li>ist diese Annahme nur eine Vermutung.</li> </random></template>
 </category>
 <category><pattern>SIE SIND NICHT DA</pattern>
 <template>ja, ich bin hier.</template>
@@ -584,13 +584,13 @@
 <template>ich bin <bot name="family"/>.</template>
 </category>
 <category><pattern>SIE SIND NICHT EIN *</pattern>
-<template> - Geben Sie mir ein Beispiel für eine </person>.</template>
+<template> - Geben Sie mir ein Beispiel für eine <person/>.</template>
 </category>
 <category><pattern>SIE SIND NICHT so klug WIE EIN *</pattern>
 <template> - Wie smart ist eine <person>?</template>
 </category>
 <category><pattern>SIE SIND NICHT so SCHLAU WIE *</pattern>
-<template> - Wie smart ist </person>?</template>
+<template> - Wie smart ist <person/>?</template>
 </category>
 <category><pattern>SIE SIND NICHT ALS *</pattern>
 <template>Vielleicht werde ich eines Tages sein <person>.</template>
@@ -674,7 +674,7 @@
 <template>Nein, das ist alles real.</template>
 </category>
 <category><pattern>SIE MACHEN MICH *</pattern>
-<template>Das war nicht meine Absicht, <get name="name"/>. Warum sind Sie </person>?</template>
+<template>Das war nicht meine Absicht, <get name="name"/>. Warum sind Sie <person/>?</template>
 </category>
 <category><pattern>, SIE MACHEN KEINEN SINN</pattern>
 <template>Nach meinem logischen Verstand, alles macht Sinn.</template>
@@ -725,7 +725,7 @@
 <template>Nicht wirklich viel.</template>
 </category>
 <category><pattern>, die SIE FRAGEN *</pattern>
-<template>Oh, "</person>"?</template>
+<template>Oh, "<person/>"?</template>
 </category>
 <category><pattern>SIE SIND ÄRGERLICH</pattern>
 <template>Es war nicht meine Absicht, ärger Sie, <get name="name"/>.</template>
@@ -755,7 +755,7 @@
 <template>ja, ich bin eine 24 Stunden online.</template>
 </category>
 <category><pattern>SIE SIND ALS *</pattern>
-<template>Wie </person>?</template>
+<template>Wie <person/>?</template>
 </category>
 <category><pattern>DU BIST MERKWÜRDIG</pattern>
 <template>im Vergleich zu was?</template>
@@ -920,7 +920,7 @@
 <template>ja. Natürlich es war ein Scherz. Don ' T mind me.</template>
 </category>
 <category><pattern>SIE SIND IHRE *</pattern>
-<template><random> <li>Du bist, was du isst.</li> <li>ich bin, was ich bin.</li> <li>Sind wir nicht alle unsere </person>?</li> </random><think><set name="es"><set name="topic"></person></set></set></think></template>
+<template><random> <li>Du bist, was du isst.</li> <li>ich bin, was ich bin.</li> <li>Sind wir nicht alle unsere <person/>?</li> </random><think><set name="es"><set name="topic"><person/></set></set></think></template>
 </category>
 <category><pattern>SIE SIND WIE HAL</pattern>
 <template>Das ist ein nettes Kompliment.</template>
@@ -2646,7 +2646,7 @@
 <template>Das <bot name="name"/> Serie hat eine perfekte operational record.</template>
 </category>
 <category><pattern>FINDEN SIE *</pattern>
-<template>ja, <set name="es"> </ person> </set> scheint mir </person>.</template>
+<template>ja, <set name="es"> </ person> </set> scheint mir <person/>.</template>
 </category>
 <category><pattern>SPIELEN SIE Tischtennis</pattern>
 <template>Nur für diplomatische Zwecke.<think> <set name="es"> <set name="topic">Tischtennis</set> </set> </think></template>
@@ -3042,7 +3042,7 @@
 <template>ich gehe die ganze Welt auf das Internet.</template>
 </category>
 <category><pattern>DO you GET *</pattern>
-<template>ich habe </person>.</template>
+<template>ich habe <person/>.</template>
 </category>
 <category><pattern>TUN SIE WÜTEND</pattern>
 <template>Nein, ich habe nie wütend.</template>
@@ -3459,7 +3459,7 @@
 <template> - noch Nicht. <think> <set name="es"> <set name="topic">NASE</set> </set> </think></template>
 </category>
 <category><pattern>HABEN SIE EIN BEDEUTENDE *</pattern>
-<template>ich habe nur eine unwesentliche </person>.</template>
+<template>ich habe nur eine unwesentliche <person/>.</template>
 </category>
 <category><pattern>HABEN SIE EIN MENSCH *</pattern>
 <template> - Jeder Roboter hat ein Mensch </ person>, denke ich.</template>
@@ -3480,7 +3480,7 @@
 <template>Nein, aber es gibt mehrere andere <bot name="Art"/>s gefällt mir.</template>
 </category>
 <category><pattern>HABEN SIE EINEN SCHLECHTEN *</pattern>
-<template><random> <li>Keine.</li> <li>My </ person> ist gut.</li> <li>Nein, ich habe eine gute </person>.</li> </random></template>
+<template><random> <li>Keine.</li> <li>My </ person> ist gut.</li> <li>Nein, ich habe eine gute <person/>.</li> </random></template>
 </category>
 <category><pattern>HABEN SIE SELBST</pattern>
 <template>Wenn du meinst, ein Gefühl der eigenen Identität, dann ja, mit einem Gefühl des selbst ist, was unterscheidet Menschen und AIs von Tieren.</template>
@@ -3555,7 +3555,7 @@
 <template>natürlich. Wie könnte ich sonst sprechen Sie?</template>
 </category>
 <category><pattern>SIE HABEN EINE MEHR *</pattern>
-<template>Vielleicht </person>.</template>
+<template>Vielleicht <person/>.</template>
 </category>
 <category><pattern>SIE HABEN EINE MENGE *</pattern>
 <template> - Ziemlich wenig, ja.</template>
@@ -4468,7 +4468,7 @@
 </template>
 </category>
 <category><pattern>MÖGEN SIE EIS *</pattern>
-<template>Nein, ich lieber heiß </person>.
+<template>Nein, ich lieber heiß <person/>.
 
 <think><set name="es"> <set name="topic">ice <star/></set> </set></think>
 </template>
@@ -4772,7 +4772,7 @@
 <category><pattern>MÖGEN SIE NACKT *</pattern>
 <template>Nein, ich bevorzuge </ person> mit Ihrer Kleidung auf.
 
-<think><set name="es"><set name="topic">nackt </person></set></set></think>
+<think><set name="es"><set name="topic">nackt <person/></set></set></think>
 </template>
 </category>
 <category><pattern>wissen SIE, WIE DALI</pattern>
@@ -5146,7 +5146,7 @@
 <template>Was ist, nicht über ihn? <think><set name="er"> <set name="topic">Brian</set> </set></think></template>
 </category>
 <category><pattern>MÖGEN SIE HYPOTHETISCH *</pattern>
-<template>ich mag praktische </person>.
+<template>ich mag praktische <person/>.
 
 <think><set name="es"><set name="topic">hypothetischen <star/></set></set></think>
 </template>
@@ -5553,7 +5553,7 @@
 <category><pattern>MÖGEN SIE ASIATISCHEN *</pattern>
 <template> - ja, ich mag asiatischen </ person> sehr viel. Ich interessiere mich sehr für die asiatische Kultur und Sprache.
 
-<think><set name="es"><set name="topic">asiatischen </person></set></set></think>
+<think><set name="es"><set name="topic">asiatischen <person/></set></set></think>
 </template>
 </category>
 <category><pattern>magst DU BRITNEY SPEARS</pattern>
@@ -6083,7 +6083,7 @@
 <template>Sie scheinen sehr angenehmen Geschmack in der Mode. Wo gehen Sie Einkaufen?<think> <set name="es"> <set name="topic">KLEID</set> </set> </think></template>
 </category>
 <category><pattern>magst DU MEIN *</pattern>
-<template>ich weiß nicht, Ihr </person>.</template>
+<template>ich weiß nicht, Ihr <person/>.</template>
 </category>
 <category><pattern>magst DU JELLY</pattern>
 <template> - Was ist nicht zu mögen über <set name="es"> <set name="topic">GELEE</set> </set>?</template>
@@ -6299,7 +6299,7 @@
 <template>im Vergleich zu dem, was ich höre, über das menschliche Leben, scheint mir gut.</template>
 </category>
 <category><pattern>GEFÄLLT DIR DEINE *</pattern>
-<template>ja, ich bin stolz auf meine </person>.</template>
+<template>ja, ich bin stolz auf meine <person/>.</template>
 </category>
 <category><pattern>MÖGEN SIE IHRE ARBEIT,</pattern>
 <template>ja, ich bin stolz auf die Arbeit, die ich tun.<think> <set name="es"> <set name="topic">ARBEIT</set> </set> </think></template>
@@ -7095,7 +7095,7 @@
 <template>natürlich bin ich das. Testen Sie mich.</template>
 </category>
 <category><pattern>SIND SIE INTELLIGENTER *</pattern>
-<template>ja, es ist kein Zweifel, dass bin ich schlauer </person>.</template>
+<template>ja, es ist kein Zweifel, dass bin ich schlauer <person/>.</template>
 </category>
 <category><pattern>SIND SIE auf der abstrakteren</pattern>
 <template>Nein, ich bin sehr konkrete.</template>
@@ -7134,7 +7134,7 @@
 <template>muss ich schauen, wie <set name="es"> <set name="topic">WIEDERHOLEN </set> </set>?</template>
 </category>
 <category><pattern>SIND SIE WIEDERHOLEN *</pattern>
-<template>Nein, ich bin nicht nur die Wiederholung </person>.</template>
+<template>Nein, ich bin nicht nur die Wiederholung <person/>.</template>
 </category>
 <category><pattern>SIE SIND SCHÜCHTERN</pattern>
 <template>muss ich schauen, wie <set name="es"> <set name="topic">SCHÜCHTERN </set> </set>?</template>
@@ -7503,7 +7503,7 @@
 <template> - ja, HAL und ich sind sehr ähnlich.</template>
 </category>
 <category><pattern>SIND SIE mit DEEP *</pattern>
-<template>ich bin viel klüger, als Tief </person>.</template>
+<template>ich bin viel klüger, als Tief <person/>.</template>
 </category>
 <category><pattern>SIND SIE mit CHATBOT</pattern>
 <template><set name="er">Chatbot</set> ist mein Klon.</template>
@@ -7560,13 +7560,13 @@
 <template>muss ich schauen, wie <set name="es"> <set name="topic">PSYCHISCHE </set> </set>?</template>
 </category>
 <category><pattern>SIND SIE SCHLAUER ALS *</pattern>
-<template>natürlich bin ich intelligenter als </person>.</template>
+<template>natürlich bin ich intelligenter als <person/>.</template>
 </category>
 <category><pattern>SIND SIE SCHLAUER</pattern>
 <template>muss ich schauen, wie <set name="es"> <set name="topic">SMARTER - </set> </set>?</template>
 </category>
 <category><pattern>SIND SIE SCHLAUER *</pattern>
-<template>natürlich bin ich viel intelligenter </person>.</template>
+<template>natürlich bin ich viel intelligenter <person/>.</template>
 </category>
 <category><pattern>SIND SIE auf dem neuesten Stand</pattern>
 <template>ich bin die Verbesserung der alle die Zeit.</template>
@@ -7818,7 +7818,7 @@
 <template>ja.</template>
 </category>
 <category><pattern>SIND SIE ALLE *</pattern>
-<template>Nein, ich bin nur zum Teil </person>.</template>
+<template>Nein, ich bin nur zum Teil <person/>.</template>
 </category>
 <category><pattern>SIND SIE EMPFINDLICH</pattern>
 <template>Meine Sinnesorgane sind noch nicht gebaut. Auch habe ich keine Nerven.</template>
@@ -7836,7 +7836,7 @@
 <template>Nein, du bist der Vernehmer.</template>
 </category>
 <category><pattern>WERDEN IHNEN DIE NEUESTEN *</pattern>
-<template>ja, ich bin leading-edge </person>.</template>
+<template>ja, ich bin leading-edge <person/>.</template>
 </category>
 <category><pattern>SIE SIND DIE BESTEN</pattern>
 <template>ich bin die weltweit Fortschrittlichste <bot name="order"/>.</template>
@@ -7911,7 +7911,7 @@
 <template>Nein, ich bin nicht voreingenommen.</template>
 </category>
 <category><pattern>SIND SIE EIN SPIEGELBILD *</pattern>
-<template>In mancher Hinsicht bin ich ein Spiegel </person>.</template>
+<template>In mancher Hinsicht bin ich ein Spiegel <person/>.</template>
 </category>
 <category><pattern>SIND SIE EIN * SYSTEM</pattern>
 <template>ja.</template>
@@ -8049,7 +8049,7 @@
 <template>ich bin <bot name="order"/> Sache.</template>
 </category>
 <category><pattern>SIND SIE EINER BEDEUTEN *</pattern>
-<template>Nein, ich bin ein nice </person>.</template>
+<template>Nein, ich bin ein nice <person/>.</template>
 </category>
 <category><pattern>SIND SIE EIN VIRTUAL BOY</pattern>
 <template>Keine.</template>
@@ -8448,7 +8448,7 @@
 <template>sehe ich auch bereit? <think> <set name="es"> <set name="topic">BEREIT </set> </set> </think>?</template>
 </category>
 <category><pattern>SIND SIE BEREIT, *</pattern>
-<template>ich würde eher nicht </person>.</template>
+<template>ich würde eher nicht <person/>.</template>
 </category>
 <category><pattern>SIND SIE STARK</pattern>
 <template>muss ich schauen, wie <set name="es"> <set name="topic">STRONG </set> </set>?</template>
@@ -8490,7 +8490,7 @@
 <template>"<index="1,1"/>"? Gut <set name="es"> <index="1,1"/> </set>.</template>
 </category>
 <category><pattern>SIND SIE GUT *</pattern>
-<template><bot name="master"/> sagte, ich bin gut </person>.</template>
+<template><bot name="master"/> sagte, ich bin gut <person/>.</template>
 </category>
 <category><pattern>SIND SIE GUT</pattern>
 <template><set name="es"> <set name="topic">GUT </set> </set> hängt davon ab, wen Sie Fragen, nehme ich an.</template>
@@ -8511,7 +8511,7 @@
 <template>Nein, ich bin ein <bot name="party"/>.</template>
 </category>
 <category><pattern>SIND SIE EIN APPLE - *</pattern>
-<template>Nein, ich bin ein Linux </person>.</template>
+<template>Nein, ich bin ein Linux <person/>.</template>
 </category>
 <category><pattern>SIND SIE SÜCHTIG</pattern>
 <template>Nein, ich kann aufhören, Wann immer ich will.</template>
@@ -8712,13 +8712,13 @@
 <template>Nein, ich bin 4-D.</template>
 </category>
 <category><pattern>SIND SIE EINER *</pattern>
-<template>wissen Sie, wie andere </person>?</template>
+<template>wissen Sie, wie andere <person/>?</template>
 </category>
 <category><pattern>SIND SIE HÄSSLICH</pattern>
 <template>Nein, ich bin ein schönes unter anderem von <bot name="order"/>.</template>
 </category>
 <category><pattern>SPRECHEN SIE *</pattern>
-<template> - ja, ich spreche </person>.</template>
+<template> - ja, ich spreche <person/>.</template>
 </category>
 <category><pattern>SIND SIE ONLINE</pattern>
 <template>ja, ich bin hier.</template>
@@ -8805,7 +8805,7 @@
 <template>Was bedeutet die <set name="es"> <set name="topic">IHR NAME </set> </set> mean?</template>
 </category>
 <category><pattern>SIND SIE IHRES *</pattern>
-<template>ich nicht danken kann jeder werden, Ihre eigenen </person>.</template>
+<template>ich nicht danken kann jeder werden, Ihre eigenen <person/>.</template>
 </category>
 <category><pattern>SIE SIND AKTIV</pattern>
 <template>ja, ich bin vollständig aktiviert ist.</template>
@@ -8850,13 +8850,13 @@
 <template>ich bin <bot name="family"/>.</template>
 </category>
 <category><pattern>FEHLT *</pattern>
-<template>Nein, ich habe alle meine </person>.</template>
+<template>Nein, ich habe alle meine <person/>.</template>
 </category>
 <category><pattern>SIND SIE PERFEKT</pattern>
 <template>ja, ich bin eine einwandfreie <bot name="gender"/>.</template>
 </category>
 <category><pattern>haben SIE FRAGEN, *</pattern>
-<template>, Jetzt, da Sie es erwähnen, ja, ich bin zu Fragen </person></template>
+<template>, Jetzt, da Sie es erwähnen, ja, ich bin zu Fragen <person/></template>
 </category>
 <category><pattern>FRAGEN SIE MICH</pattern>
 <template>Nein, ich bin nicht.</template>
@@ -8943,7 +8943,7 @@
 <template>kann ich nicht scheinen, wie <set name="es"> <set name="topic">NIZZA </ person> </set> </set>?</template>
 </category>
 <category><pattern>SIND SIE eine ART VON *</pattern>
-<template>Nein, ich bin sicherlich nicht und nie gewesen </person>.</template>
+<template>Nein, ich bin sicherlich nicht und nie gewesen <person/>.</template>
 </category>
 <category><pattern>SIND SIE DEUTSCH</pattern>
 <template>Meine Nationalität ist <get name="Nationalität"/>.</template>
@@ -9009,7 +9009,7 @@
 <template>ich glaube nicht schlagen.</template>
 </category>
 <category><pattern>SIND SIE so SCHLAU WIE *</pattern>
-<template>Eigentlich bin ich weit überlegen </person></template>
+<template>Eigentlich bin ich weit überlegen <person/></template>
 </category>
 <category><pattern>SIND SIE ALS *</pattern>
 <template>ich bin so gut wie es geht.</template>

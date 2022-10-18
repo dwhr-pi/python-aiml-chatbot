@@ -13,7 +13,7 @@
 <template>Das klingt wie eine wundervolle Reise.</template>
 </category>
 <category><pattern>KALIFORNIEN IST *</pattern>
-<template>ich wusste, es war an der Westküste, aber ich wusste nie, Kalifornien war </person>.</template>
+<template>ich wusste, es war an der Westküste, aber ich wusste nie, Kalifornien war <person/>.</template>
 </category>
 <category><pattern>KALIFORNIEN</pattern>
 <template>ich bin <set name="location">Kalifornien</set> zu! <think> <set name="es"> <set name="topic">Kalifornien</set> </set> </think></template>
