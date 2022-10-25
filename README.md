@@ -1,7 +1,7 @@
 ## Python AIML-Chatbot
 
 Neu ist die Übersetzung der im Text als "aiml-en-us-foundation-alice" beschrieben Dateinen zu sozusagen "aiml-de-de-foundation-alice", sich daraus die Deutschesprache als fertig gestellte Übersetzung ergibt. 
-Übersetzungsfehler bzw. Grammatikfehler sind möglich, wodurch es etwas missverständlich wirkt dessen Antwort. 
+Übersetzungsfehler bzw. Grammatikfehler sind möglich, wodurch es etwas missverständlich dessen Antwort wirken k&oumlnnte. 
 
 Vor einer Weile schrieb ich ein kurzes Tutorial über das Erstellen eines AIML Chatbot und seine text-Ausgabe
 
