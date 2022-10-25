@@ -3,7 +3,7 @@
 Neu ist die Übersetzung der im Text als "aiml-en-us-foundation-alice" beschrieben Dateinen zu sozusagen "aiml-de-de-foundation-alice", sich daraus die Deutschesprache als fertig gestellte Übersetzung ergibt. 
 Übersetzungsfehler bzw. Grammatikfehler sind möglich, wodurch es etwas missverständlich dessen Antwort wirken k&ouml;nnte. 
 
-Darüber hinaus habe ich ein _Video im Verzeichnis Video angefertigt, das den Chatbot im Betrieb etwas zeigen soll. 
+Darüber hinaus habe ich ein Video im Verzeichnis _Video angefertigt, das den Chatbot im Betrieb etwas zeigen soll. 
 [Video(_Video\chatbot~1.mp4) "Das kurze Video"]
 [Video-Snapshot(_Video\snapshot.png) "Das kurze Video"]
 
