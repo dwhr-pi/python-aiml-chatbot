@@ -1,5 +1,7 @@
 ## Python AIML-Chatbot
 
+Neu ist die Übersetzung der im Text als "aiml-en-us-foundation-alice" beschrieben Dateinen zu sozusagen "aiml-de-de-foundation-alice", sich daraus die Deutschesprache als fertig gestellte Übersetzung ergibt. 
+Übersetzungsfehler bzw. Grammatikfehler sind möglich, wodurch es etwas missverständlich wirkt dessen Antwort. 
 
 Vor einer Weile schrieb ich ein kurzes Tutorial über das Erstellen eines AIML Chatbot und seine text-Ausgabe
 
@@ -101,24 +103,24 @@ Da hatte ich eine harte Zeit auf der Suche und nach dem laden, um die Informatio
 ### Über die A. L. I. C. E. AIML-Dateien
 
 
-Die aaiml-en-us-foundation-alice enthalten eine Reihe von Kategorien mit doppelten Muster. Je nach AIML-interpreter verwendet, die Duplikate sind unterschiedlich gehand habt. 
+Die aiml-en-us-foundation-alice enthalten eine Reihe von Kategorien mit doppelten Muster. Je nach AIML-interpreter verwendet, die Duplikate sind unterschiedlich gehand habt. 
 
 
-Auf Pandorabots ist die Regel: Die Dateien sind geladen, um von der Spitze der Liste (unter dem "AIML-Dateien" Abschnitt) auf der Unterseite. Wenn eine Kategorie ist geladen, die das gleiche Muster Pfad (d.h. gleicher input Muster, Muster und Thema-Muster-Sie erinnern sich, dass <that> und <topic> eingestellt sind implizit), dann Pandorabots verwirft die frühere Kategorie und wählt die Antwort Vorlage aus dem zuletzt geladenen Kategorie.
+Auf Pandorabots ist die Regel: Die Dateien werden in alphabetischer Reihenfolge der Dateien geladen, von Oben aus der Liste (unter dem "AIML-Dateien" Abschnitt) bis zu der Unterseite. Wenn eine Kategorie geladen wurde, die das gleiche Muster Pfad (d.h. gleicher input Muster, Muster und Thema-Muster- hat, erinnern Sie sich, dass <that> und <topic> eingestellt sind implizit), dann Pandorabots die frühere Kategorie verwirft und wählt die Antwort Vorlage aus dem zuletzt geladenen Kategorie aus.
 
 
-Um ein Beispiel zu geben: Angenommen, eine Datei A. aiml hat eine category <category> <pattern>TEST</pattern> <template>Das ist die Antwort von Datei-A.</template> </category> und eine Datei B. aiml hat eine category <category> <pattern>TEST</pattern> <template>Das ist die Antwort von Datei B.</template> </category>
+Um ein Beispiel zu geben: Angenommen, eine Datei A.aiml hat eine category <category> <pattern>TEST</pattern> <template>Das ist die Antwort von Datei-A.</template> </category> und eine Datei B.aiml hat eine category <category> <pattern>TEST</pattern> <template>Das ist die Antwort von Datei B.</template> </category>
 
 
-Vorausgesetzt, die Dateien sind geladen in alphabetischer Reihenfolge, die A.aiml geladen, bevor die B.aiml, dann ist die Antwort an den Eingang "Test" sollte "Dies ist die Antwort von Datei B."
+Vorausgesetzt, die Dateien wurden in alphabetischer Reihenfolge geladen, erst die A.aiml, bevor die B.aiml geladen wird. Dann ist die Antwort an des Eingang "Test" sollte dann "Dies ist die Antwort von Datei B." sein. 
 
 A. L. I. C. E. AIML Datei-Bestellung
 
 
-Die A. L. I. C. E. AIML-Dateien in aiml-de-de-foundation-alice geladen werden soll, in der folgenden Reihenfolge:
+Die A. L. I. C. E. AIML-Dateien in aiml-en-us-foundation-alice geladen werden soll, in der folgenden Reihenfolge:
 
 
-- Laden Sie zunächst die Sichere Reduktion Dateien reducation0.sicher.aiml,...,reduction4.sicher.aiml und Ermäßigungen.update.aiml.
+- Laden Sie zunächst die Sichere Reduktion Dateien reducation0.safe.aiml,...,reduction4.safe.aiml und reductuions.update.aiml.
 
 - Zweitens, laden Sie die Mindpixel mp0-Dateien.aiml,...,mp6.aiml.
 
