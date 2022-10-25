@@ -1,7 +1,7 @@
 ## Python AIML-Chatbot
 
 
-Vor einer Weile schrieb ich ein kurzes tutorial über das erstellen eines AIML chatbot und seine text-Ausgabe
+Vor einer Weile schrieb ich ein kurzes Tutorial über das Erstellen eines AIML Chatbot und seine text-Ausgabe
 
 via espeak (https://iniy.org/?p=68).
 
@@ -11,34 +11,34 @@ Nach Jahren stolperte ich über diesen Beitrag wieder und jetzt ist hier der zwe
 AIML aus http://www.alicebot.org/aiml.html .
 
 
-Um ehrlich zu sein war ich ein wenig überrascht darüber, wie wenig schwierig zu finden und Dokumentation gibt es auf der
+Um ehrlich zu sein, war ich ein wenig darüber überrascht, wie leicht diese zu finden sind und Dokumentation gibt es auf der
 
-net man diese einfache aiml-Dateien ausführen. Es ist ein bisschen schwer zu finden, google code Seite:
+net, man diese einfachen aiml-Dateien ausführen. Es ist ein bisschen schwer zu finden, auf der Google Code-Seite:
 
 https://code.google.com/archive/p/aiml-en-us-foundation-alice/
 
 
-Aber die AIML ist optimiert für die Pandorabots online-plattform, und ich wollte nur zu spielen, um
+Aber diese AIMLs sind für die Pandorabots online-plattform optimiert, und ich wollte nur etwas spielen, um 
 
-ein wenig mit diesem Zeug lokal.
+ein wenig mit diesem Zeug lokal vertraut zu sein.
 
 
-Also hier ist ein repository mit Batterien im Lieferumfang enthalten:
+Also hier ist ein Repository mit aiiml-Dateien im Lieferumfang mit enthalten:
 
 
 - Basiert auf aiml-de-de-foundation-alice-1.9 zip-Datei von der AI Foundation-google code
 
-- entfernt Pandorabots bestimmte syntax
+- entfernte Pandorabots bestimmte Syntax
 
-- Hinzugefügt std-startup.aiml mit den (meiner Meinung) richtig laden -, um die aiml-Dateien
+- Hinzugefügt std-startup.aiml mit den (meiner Meinung) richtigen laden der aiml-Dateien. 
 
-- minimale version einer python chatbot
+- minimale Version eines Python Chatbot's. 
 
 
 ## Setup
 
 
-Clone git
+Klonenen des git 
 
 
 ```
@@ -48,7 +48,7 @@ git clone https://github.com/dwhr-pi/python-aiml-chatbot.git
 ```
 
 
-Erfordert Python ist3 (aber die Portierung dieser minimal-Skript zu python 2 ist sehr einfach)
+Erfordert Python3 ist (aber die Portierung des minimal-Skript zu python2 ist sehr einfach)
 
 
 ```
@@ -57,7 +57,7 @@ pip3 install python-aiml
 
 ```
 
-Dann einfach im terminal ausführen, um zu ändern Sie für den Ordner der python-aiml-chatbot:
+Dann einfach im Terminal nachfolgend ausführen, um den Pfad zu dem Ordner der python-aiml-chatbot zu ändern:
 
 
 ```
@@ -67,7 +67,7 @@ cd python-aiml-chatbot
 ```
 
 
-Und chatbot mit start im Terminal:
+Und den Chatbot im Terminal starten mit:
 
 ```
 
@@ -75,42 +75,42 @@ Und chatbot mit start im Terminal:
 
 ```
 
-# # , Wohin Sie gehen von hier aus
+## Wohin Sie von hier aus gehen.
 
 
-Dieser minimal-Skript nicht implementieren einen Präprozessor und aufgrund der Entfernung von einigen pandorabots
+Dieses minimal-Skript, nicht implementiert ist ein Präprozessor und aufgrund der Entfernung des Codes von einigen Pandorabots. 
 
-Besondere syntax, die es geben könnte einige merkwürdige Antworten, aber es ist ein Ausgangspunkt.
-
-
-Fügen Sie Ihre eigenen AIML-Dateien auf der Unterseite des std-startup.aiml (so haben Sie höchste Priorität)
-
-und spielen, um die Herstellung der bot schlauer.
+Besondere Syntax, die es geben könnte einige merkwürdige Antworten, aber es ist ein Ausgangspunkt.
 
 
-Einschließlich der espeak-Ausgabe von meinem anderen blog-post auch Spaß machen könnte, (https://iniy.org/?p=68).
+Fügen Sie Ihre eigenen AIML-Dateien auf der Unterseite der std-startup.aiml-Datei (so haben Sie höchste Priorität) mit ein. 
+
+Und experimentieren damit, um die Herstellung des Bots etwas schlauer zu gestalten. 
+
+
+Einschließlich der espeak-Ausgabe von meinem anderen blog-post, der auch Spaß machen könnte, (https://iniy.org/?p=68).
 
 
 ## Allgemeine Dokumentation (von der AI Foundation, google code)
 
 
-Da hatte ich eine harte Zeit der Suche nach dem laden, um die Informationen, die ich auch diese hier im repo.
+Da hatte ich eine harte Zeit auf der Suche und nach dem laden, um die Informationen, die ich auch diese hier im repo veröffendliche. 
 
 
 
 ### Über die A. L. I. C. E. AIML-Dateien
 
 
-Die aiml-de-de-foundation-alice-Dateien enthalten eine Reihe von Kategorien mit doppelten Muster. Je nach AIML-interpreter verwendet, die Duplikate sind unterschiedlich gehandhabt.
+Die aaiml-en-us-foundation-alice enthalten eine Reihe von Kategorien mit doppelten Muster. Je nach AIML-interpreter verwendet, die Duplikate sind unterschiedlich gehand habt. 
 
 
-Auf Pandorabots die Regel ist: Die Dateien sind geladen, um von der Spitze der Liste (unter dem "AIML-Dateien" Abschnitt) auf der Unterseite. Wenn eine Kategorie ist geladen, die das gleiche Muster Pfad (d.h. gleicher input Muster, Muster und Thema-Muster-Sie erinnern sich, dass <das> und <Thema> eingestellt sind implizit), dann Pandorabots verwirft die frühere Kategorie und wählt die Antwort Vorlage aus dem zuletzt geladenen Kategorie.
+Auf Pandorabots ist die Regel: Die Dateien sind geladen, um von der Spitze der Liste (unter dem "AIML-Dateien" Abschnitt) auf der Unterseite. Wenn eine Kategorie ist geladen, die das gleiche Muster Pfad (d.h. gleicher input Muster, Muster und Thema-Muster-Sie erinnern sich, dass <that> und <topic> eingestellt sind implizit), dann Pandorabots verwirft die frühere Kategorie und wählt die Antwort Vorlage aus dem zuletzt geladenen Kategorie.
 
 
-Um ein Beispiel zu geben: Angenommen, eine Datei A. aiml hat eine category <category> <pattern>TEST</pattern> <template>Das ist die Reaktion von Datei-A.</template> </category> und eine Datei B. aiml hat eine category <category> <pattern>TEST</pattern> <template>Das ist die Antwort von Datei B.</template> </category>
+Um ein Beispiel zu geben: Angenommen, eine Datei A. aiml hat eine category <category> <pattern>TEST</pattern> <template>Das ist die Antwort von Datei-A.</template> </category> und eine Datei B. aiml hat eine category <category> <pattern>TEST</pattern> <template>Das ist die Antwort von Datei B.</template> </category>
 
 
-Vorausgesetzt, die Dateien sind geladen in alphabetischer Reihenfolge, die A. aiml geladen, bevor der B. aiml, dann ist die Antwort an den Eingang "Test" sollte "Dies ist die Antwort von Datei B."
+Vorausgesetzt, die Dateien sind geladen in alphabetischer Reihenfolge, die A.aiml geladen, bevor die B.aiml, dann ist die Antwort an den Eingang "Test" sollte "Dies ist die Antwort von Datei B."
 
 A. L. I. C. E. AIML Datei-Bestellung
 
@@ -120,17 +120,17 @@ Die A. L. I. C. E. AIML-Dateien in aiml-de-de-foundation-alice geladen werden so
 
 - Laden Sie zunächst die Sichere Reduktion Dateien reducation0.sicher.aiml,...,reduction4.sicher.aiml und Ermäßigungen.update.aiml.
 
-- Zweite, laden Sie die Mindpixel mp0-Dateien.aiml,...,mp6.aiml.
+- Zweitens, laden Sie die Mindpixel mp0-Dateien.aiml,...,mp6.aiml.
 
 - Laden Sie dann alle verbleibenden AIML-Dateien.
 
-- Pandorabots wird immer laden Sie die Datei update.aiml als die Letzte Datei.
+- Pandorabots wird immer die Datei update.aiml als die Letzte Datei laden.
 
 
 ### AIML nutzt einem preprocessing-Schritt Normalisierung genannt.
 
 
-Diese AIML set ist entwickelt, um mit dem Standard-AIML Präprozessor-geliefert mit Pandorabots.com.
+Dieses AIML-Set ist entwickelt, um mit dem Standard-AIML Präprozessor-geliefert mit Pandorabots.com.
 
 
 Der Präprozessor
@@ -145,7 +145,7 @@ Erweitert Kontraktionen (z.B. "nicht" --> "nicht")
 Entfernt intra-Satz Satzzeichen (z.B. "Dr. Wallace lebt auf St. John St. --> "Dr Wallace lebt in der St. John St.")
 
 
-Wir verweisen auf die obige substitution Schritte als Normalisierung.
+Wir verweisen auf die obige substitutions Schritte als Normalisierung.
 
 
 Der Letzte Schritt der Vorverarbeitung
@@ -157,7 +157,7 @@ Teilt Sätze basierend auf vordefinierten Zeichen ".", "!", ";" und "?"
 Alle diese preprocessing-Schritte werden in der Konfigurationsdatei definiert. Neben der Konfigurationsdatei
 
 
-Definiert Substitutionen für <gender>, <person> und <person2 ->
+Definiert Substitutionen für <gender>, <person> und <person2->
 
 
-Der Präprozessor normalisiert die Eingänge der bot durch das laufen durch eine Reihe von Substitutionen, dann teilt sich den Eingang in Sätzen und speist diese in den bot.
+Der Präprozessor normalisiert die Eingänge des Bots durch das laufen und durch eine Reihe von Substitutionen, dann teilt er sich den Eingang in den Sätzen und speist diese in den Bot.
