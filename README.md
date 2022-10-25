@@ -106,10 +106,10 @@ Da hatte ich eine harte Zeit auf der Suche und nach dem laden, um die Informatio
 Die aiml-en-us-foundation-alice enthalten eine Reihe von Kategorien mit doppelten Muster. Je nach AIML-interpreter verwendet, die Duplikate sind unterschiedlich gehand habt. 
 
 
-Auf Pandorabots ist die Regel: Die Dateien werden in alphabetischer Reihenfolge der Dateien geladen, von Oben aus der Liste (unter dem "AIML-Dateien" Abschnitt) bis zu der Unterseite. Wenn eine Kategorie geladen wurde, die das gleiche Muster Pfad (d.h. gleicher input Muster, Muster und Thema-Muster- hat, erinnern Sie sich, dass <that&gt; und <topic&gt; eingestellt sind implizit), dann Pandorabots die frühere Kategorie verwirft und wählt die Antwort Vorlage aus dem zuletzt geladenen Kategorie aus.
+Auf Pandorabots ist die Regel: Die Dateien werden in alphabetischer Reihenfolge der Dateien geladen, von Oben aus der Liste (unter dem "AIML-Dateien" Abschnitt) bis zu der Unterseite. Wenn eine Kategorie geladen wurde, die das gleiche Muster Pfad (d.h. gleicher input Muster, Muster und Thema-Muster- hat, erinnern Sie sich, dass &lt;that&gt; und &lt;topic&gt; eingestellt sind implizit), dann Pandorabots die frühere Kategorie verwirft und wählt die Antwort Vorlage aus dem zuletzt geladenen Kategorie aus.
 
 
-Um ein Beispiel zu geben: Angenommen, eine Datei A.aiml hat eine category <category&gt; <pattern&gt;TEST</pattern&gt; <template&gt;Das ist die Antwort von Datei-A.</template&gt; </category&gt; und eine Datei B.aiml hat eine category <category&gt; <pattern&gt;TEST</pattern&gt; <template&gt;Das ist die Antwort von Datei B.</template&gt; </category&gt;
+Um ein Beispiel zu geben: Angenommen, eine Datei A.aiml hat eine category &lt;category&gt; &lt;pattern&gt;TEST&lt;/pattern&gt; &lt;template&gt;Das ist die Antwort von Datei-A.&lt;/template&gt; &lt;/category&gt; und eine Datei B.aiml hat eine category &lt;category&gt; &lt;pattern&gt;TEST&lt;/pattern&gt; &lt;template&gt;Das ist die Antwort von Datei B.&lt;/template&gt; &lt;/category&gt;
 
 
 Vorausgesetzt, die Dateien wurden in alphabetischer Reihenfolge geladen, erst die A.aiml, bevor die B.aiml geladen wird. Dann ist die Antwort an des Eingang "Test" sollte dann "Dies ist die Antwort von Datei B." sein. 
@@ -159,7 +159,7 @@ Teilt Sätze basierend auf vordefinierten Zeichen ".", "!", ";" und "?"
 Alle diese preprocessing-Schritte werden in der Konfigurationsdatei definiert. Neben der Konfigurationsdatei
 
 
-Definiert Substitutionen für <gender&gt;, <person&gt; und <person2-&gt;
+Definiert Substitutionen für &lt;gender&gt;, &lt;person&gt; und &lt;person2-&gt;
 
 
 Der Präprozessor normalisiert die Eingänge des Bots durch das laufen und durch eine Reihe von Substitutionen, dann teilt er sich den Eingang in den Sätzen und speist diese in den Bot.
