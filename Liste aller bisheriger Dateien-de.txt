@@ -1,3 +1,18 @@
+            <learn>standard-de/reduction0.safe-de.aiml</learn>
+            <learn>standard-de/reduction1.safe-de.aiml</learn>
+            <learn>standard-de/reduction2.safe-de.aiml</learn>
+            <learn>standard-de/reduction3.safe-de.aiml</learn>
+            <learn>standard-de/reduction0.safe-de.aiml</learn>
+            <learn>standard-de/reduction.names-de.aiml</learn>
+            <learn>standard-de/reductions-update-de.aiml</learn>
+            <learn>standard-de/mp0-de.aiml</learn>
+            <learn>standard-de/mp1-de.aiml</learn>
+            <learn>standard-de/mp2-de.aiml</learn>
+            <learn>standard-de/mp3-de.aiml</learn>
+            <learn>standard-de/mp4-de.aiml</learn>
+            <learn>standard-de/mp5-de.aiml</learn>
+            <learn>standard-de/mp6-de.aiml</learn>
+
             <learn>standard-de/ai-de.aiml</learn>
             <learn>standard-de/alice-de.aiml</learn>
             <learn>standard-de/astrology-de.aiml</learn>
@@ -27,13 +42,6 @@
             <learn>standard-de/loebner10-de.aiml</learn>
             <learn>standard-de/money-de.aiml</learn>
             <learn>standard-de/movies-de.aiml</learn>
-            <learn>standard-de/mp0-de.aiml</learn>
-            <learn>standard-de/mp1-de.aiml</learn>
-            <learn>standard-de/mp2-de.aiml</learn>
-            <learn>standard-de/mp3-de.aiml</learn>
-            <learn>standard-de/mp4-de.aiml</learn>
-            <learn>standard-de/mp5-de.aiml</learn>
-            <learn>standard-de/mp6-de.aiml</learn>
             <learn>standard-de/music-de.aiml</learn>
             <learn>standard-de/numbers-de.aiml</learn>
             <learn>standard-de/personality-de.aiml</learn>
@@ -44,13 +52,6 @@
             <learn>standard-de/primitive-math-de.aiml</learn>
             <learn>standard-de/psychology-de.aiml</learn>
             <learn>standard-de/pyschology-de.aiml</learn>
-            <learn>standard-de/reduction0.safe-de.aiml</learn>
-            <learn>standard-de/reduction1.safe-de.aiml</learn>
-            <learn>standard-de/reduction2.safe-de.aiml</learn>
-            <learn>standard-de/reduction3.safe-de.aiml</learn>
-            <learn>standard-de/reduction0.safe-de.aiml</learn>
-            <learn>standard-de/reduction.names-de.aiml</learn>
-            <learn>standard-de/reductions-update-de.aiml</learn>
             <learn>standard-de/religion-de.aiml</learn>
             <learn>standard-de/salutations-de.aiml</learn>
             <learn>standard-de/science-de.aiml</learn>
@@ -61,5 +62,6 @@
             <learn>standard-de/that-de.aiml</learn>
             <learn>standard-de/wallace-de.aiml</learn>
             <learn>standard-de/xfind-de.aiml</learn>
-            <learn>standard-de/update1-de.aiml</learn>
+
             <learn>standard-de/update_mccormick-de.aiml</learn>
+            <learn>standard-de/update1-de.aiml</learn>

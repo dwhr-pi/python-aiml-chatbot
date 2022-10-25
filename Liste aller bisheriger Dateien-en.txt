@@ -12,6 +12,7 @@
             <learn>standard-en/mp4.aiml</learn>
             <learn>standard-en/mp5.aiml</learn>
             <learn>standard-en/mp6.aiml</learn>
+
             <learn>standard-en/ai.aiml</learn>
             <learn>standard-en/alice.aiml</learn>
             <learn>standard-en/astrology.aiml</learn>
@@ -61,5 +62,6 @@
             <learn>standard-en/that.aiml</learn>
             <learn>standard-en/wallace.aiml</learn>
             <learn>standard-en/xfind.aiml</learn>
-            <learn>standard-en/update1.aiml</learn>
+
             <learn>standard-en/update_mccormick.aiml</learn>
+            <learn>standard-en/update1.aiml</learn>
