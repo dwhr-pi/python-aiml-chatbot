@@ -4,9 +4,9 @@ Neu ist die Übersetzung der im Text als "aiml-en-us-foundation-alice" beschrieb
 Übersetzungsfehler bzw. Grammatikfehler sind möglich, wodurch es etwas missverständlich dessen Antwort wirken k&ouml;nnte. 
 
 Darüber hinaus habe ich ein Video im Verzeichnis _Video angefertigt, das den Chatbot im Betrieb etwas zeigen soll. 
-![Video](_Video\chatbot~1.mp4)
+![Video](_Video/chatbot~1.mp4)
  "Das kurze Video"
-![Video-Snapshot](_Video\snapshot.png)
+![Video-Snapshot](_Video/snapshot.png)
  "Das kurze Video"
 
 Vor einer Weile schrieb ich ein kurzes Tutorial über das Erstellen eines AIML Chatbot und seine text-Ausgabe
