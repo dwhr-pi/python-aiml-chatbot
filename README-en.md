@@ -4,8 +4,10 @@ What is new is the translation of the files described in the text as "aiml-en-us
 Translation errors or grammatical errors are possible, which could make the answer somewhat misleading.
 
 In addition, I made a video in the _Video directory that should show the chatbot in operation.
-[Video(_Video\chatbot~1.mp4) "The short video"]
-[Video-Snapshot(_Video\snapshot.png) "The short video"]
+![Video](Video\chatbot~1.mp4)
+ "The short video"
+![Video-Snapshot](_Video\snapshot.png)
+ "The short video"
 
 Some while ago I wrote a short tutorial about how to create an AIML chatbot and output its text
 via espeak (https://iniy.org/?p=68).
