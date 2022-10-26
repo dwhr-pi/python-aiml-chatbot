@@ -33,14 +33,14 @@ Aber diese AIMLs sind für die Pandorabots online-plattform optimiert, und ich w
 ein wenig mit diesem Zeug lokal vertraut zu sein.
 
 
-Also hier ist ein Repository mit aiiml-Dateien im Lieferumfang mit enthalten:
+Also hier ist ein Repository mit aiml-Dateien im Lieferumfang mit enthalten:
 
 
-- Basiert auf aiml-de-de-foundation-alice-1.9 zip-Datei von der AI Foundation-google code
+- Basiert auf aiml-en-us-foundation-alice-1.9 zip-Datei von der AI Foundation-google code
 
 - entfernte Pandorabots bestimmte Syntax
 
-- Hinzugefügt std-startup.aiml mit den (meiner Meinung) richtigen laden der aiml-Dateien. 
+- Hinzugefügt std-startup.aiml mit den (meiner Meinung) richtigen laden der aiml-Dateien ermöglicht. 
 
 - minimale Version eines Python Chatbot's. 
 
