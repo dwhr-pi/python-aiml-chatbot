@@ -1,9 +1,9 @@
 ## Python AIML-Chatbot
 
 Neu ist die Übersetzung der im Text als "aiml-en-us-foundation-alice" beschrieben Dateinen zu sozusagen "aiml-de-de-foundation-alice", sich daraus die Deutschesprache als fertig gestellte Übersetzung ergibt. 
-Übersetzungsfehler bzw. Grammatikfehler sind möglich, wodurch es etwas missverständlich dessen Antwort wirken k&ouml;nnte. 
+Übersetzungsfehler bzw. Grammatikfehler sind möglich, wodurch es etwas missverständlich in dessen Antwort wirken k&ouml;nnte. 
 
-Darüber hinaus habe ich ein Video im Verzeichnis _Video angefertigt, das den Chatbot im Betrieb etwas zeigen soll. 
+Darüber hinaus habe ich ein Video im Verzeichnis _Video angefertigt, das den Chatbot etwas im Betrieb zeigen soll. 
 ![Video-Snapshot](_Video/snapshot.png)
  "Video-Snapshot des kurzen Videos." 
 [Sehen Sie sich das kurze Video auf Youtube an](https://youtu.be/wrttUVYlzLw "Sehen Sie sich das kurze Video auf Youtube an").
@@ -33,14 +33,14 @@ Aber diese AIMLs sind für die Pandorabots online-plattform optimiert, und ich w
 ein wenig mit diesem Zeug lokal vertraut zu sein.
 
 
-Also hier ist ein Repository mit aiiml-Dateien im Lieferumfang mit enthalten:
+Also hier ist ein Repository mit den aiml-Dateien im Lieferumfang enthalten:
 
 
-- Basiert auf aiml-de-de-foundation-alice-1.9 zip-Datei von der AI Foundation-google code
+- Basiert auf aiml-en-us-foundation-alice-1.9 zip-Datei von der AI Foundation-google code
 
 - entfernte Pandorabots bestimmte Syntax
 
-- Hinzugefügt std-startup.aiml mit den (meiner Meinung) richtigen laden der aiml-Dateien. 
+- Hinzugefügt std-startup.aiml mit den (meiner Meinung) richtigen laden der aiml-Dateien ermöglicht. 
 
 - minimale Version eines Python Chatbot's. 
 
